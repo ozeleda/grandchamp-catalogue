@@ -716,7 +716,7 @@
 2-III-0394,400.0,écu,,400 écus
 2-III-0395,100.0,écu,,100 écus
 2-III-0396,50.0,écu,,50 écus
-2-III-0396,900.0,écu,,900 écus
+2-III-0396b,900.0,écu,,900 écus
 1-II-0398,33.0,écu,d'or,33 écus d'or
 1-II-0400,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
 1-II-0401,825.0,écu,d'or,825 écus d'or
@@ -730,11 +730,11 @@
 2-III-0404,550.0,écu,,550 écus
 1-II-0405,55.0,once,de Sicile,55 onces de Sicile
 1-II-0405,30.0,tari,,30 taris
-2-III-0405,187.0,écu,,187 écus
-2-III-0405,930.0,écu,,930 écus
-2-III-0405,1209.0,écu,,1209 écus
+2-III-0405b,187.0,écu,,187 écus
+2-III-0405b,930.0,écu,,930 écus
+2-III-0405b,1209.0,écu,,1209 écus
 1-II-0406,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
-2-III-0406,31.0,écu,,31 écus
+2-III-0406b,31.0,écu,,31 écus
 2-III-0407,70.0,écu,,70 écus
 2-III-0408,400.0,écu,,400 écus
 1-II-0412,280.0,écu,d'or d'Espagne,280 écus d'or d'Espagne

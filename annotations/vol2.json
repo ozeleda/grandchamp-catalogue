@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 395,
+ "reviewed_through_seq": 435,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -3491,6 +3491,390 @@
    "matter": "Two shares in the felucca « L'Annunziata bona ventura »",
    "keywords": "ship shares (quirats)",
    "notes": "Receipt of 15 March 1607 in the margin."
+  },
+  "2-III-0396": {
+   "split_at": [
+    "Ossain Rais, turc de Tunis, vend"
+   ],
+   "transaction_type": "Sale / transfer",
+   "party1_name": "Salvatore Icio",
+   "party1_origins": "napolitain",
+   "party1_role": "seller, ship master (patron)",
+   "party2_name": "Nardo Composto",
+   "party2_origins": "de Pessoulo (Naples)",
+   "party2_role": "buyer",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": null,
+   "matter": "A share in his felucca",
+   "keywords": "ship shares (quirats)"
+  },
+  "2-III-0396b": {
+   "transaction_type": "Sale / transfer",
+   "party1_name": "Ossain Rais",
+   "party1_origins": "turc de Tunis",
+   "party1_role": "seller",
+   "party2_name": "Loys Lombard",
+   "party2_origins": "de Six-Fours",
+   "party2_role": "buyer, ship master (patron)",
+   "price": 900,
+   "currency": "écus d'or",
+   "matter": "Sale of the ship « La sainte trinité bonne venture » with boat, sails and rigging, paid in cash",
+   "keywords": "ship"
+  },
+  "2-III-0397": {
+   "party2_name": "Rafael Francisco",
+   "party2_role": "payer",
+   "price": 100,
+   "currency": "écus",
+   "matter": "Proceeds of 100 écus invested in hides",
+   "keywords": "hides"
+  },
+  "2-III-0398": {
+   "party1_name": "Guilhelme Tyssoire",
+   "party1_origins": "hollandais",
+   "party2_name": "Piebry [...]",
+   "party2_origins": "hollandais",
+   "party2_role": "creditor, compatriot",
+   "other_parties_names": "Assan Bally",
+   "other_parties_role": "recipient of ransom payment",
+   "price": 480,
+   "currency": "pièces de 8 réaux",
+   "matter": "Debt for his ransom, repayable on arrival at Amsterdam",
+   "notes": "Partly effaced."
+  },
+  "2-III-0399": {
+   "other_parties_names": "Anthoine Martineng; Loys Gautier; Jehan Curet; Pierre Christian; Jehan Christian; Barthelemy Daniel; Honoré Daniel; Laurens Audibert; Barrilhard; Marthe Fornier",
+   "other_parties_origins": "de Six-Fours",
+   "other_parties_role": "true owners of the ship (Barthelemy: ship master; Marthe Fornier: wife of Honoré Christian)",
+   "matter": "The ship « La sainte Trinité bonne venture » bought on 19 April 1606 belongs to a group of Six-Fours people, not to him",
+   "keywords": "ship; company"
+  },
+  "2-III-0400": {
+   "party2_name": "Pierre Girard (?)",
+   "party2_origins": "hollandais",
+   "party2_role": "creditor",
+   "price": 155.5,
+   "currency": "pièces de 8 réaux",
+   "matter": "Debt repayable four days after arrival at Marseille",
+   "notes": "Receipt at the foot of the act. Partly effaced."
+  },
+  "2-III-0401": {
+   "party1_name": "Guilhaume Vigue; Simon Brunet; Jehan Fabre; Sauveur Angelot; Claude Breguier; Jehan Berret",
+   "party1_origins": "de Marseille",
+   "party1_role": "declarants (Vigue: ship master; Brunet: Carmelite friar, of Pertuis)",
+   "other_parties_names": "Thomas de Lenche; Anthoine Napolon; Lazarin Ca[...]",
+   "other_parties_role": "seigneur de Moissac (ordered the voyage); ship master; ship master",
+   "matter": "Declaration: sent from Bône on Thomas de Lenche's orders to fetch biscuit, grain and oil for Bône (account of their voyage)",
+   "keywords": "grain; oil; Bastion de France; ship"
+  },
+  "2-III-0402": {
+   "party2_name": "Jaques Lombard",
+   "party2_origins": "de Six-Fours",
+   "party2_role": "creditor, brother-in-law",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for his ransom, repayable a month after arrival at Six-Fours"
+  },
+  "2-III-0403": {
+   "party1_role": "debtor, master of « St Honoré bonne venture »",
+   "party2_origins": "de Six-Fours; de Six-Fours",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt payable on arrival at Six-Fours"
+  },
+  "2-III-0404": {
+   "transaction_type": "Redemption",
+   "party1_name": "Archangelo",
+   "party1_role": "ransomed captive (friar); promisor",
+   "party2_name": "Mahamet Arzalla; Sezzi Latiby; Ali Boufetil",
+   "party2_role": "redeemers",
+   "other_parties_names": "Othman Dey; three relatives of the redeemers; Hugues Changet",
+   "other_parties_role": "former master (recipient of ransom); slaves in Cagliari, to be freed (one held by the viceroy); consul (signs)",
+   "price": 550,
+   "currency": "écus",
+   "other_equivalent": "release of three Muslim slaves at Cagliari; 550 écus if they are dead",
+   "matter": "Father Archangelo ransomed by three Moors; he undertakes to have their three relatives freed at Cagliari",
+   "notes": "Act written in italien. End effaced."
+  },
+  "2-III-0405": {
+   "split_at": [
+    "Anthoine Martinenq, dit Jaumar"
+   ],
+   "party1_role": "principal",
+   "other_parties_names": "Giacometto",
+   "other_parties_role": "clerk of the capitana of the Order of Malta (debtor of wages)",
+   "price": null,
+   "currency": null,
+   "other_equivalent": null,
+   "matter": "Power of attorney to recover wages owed for service on the capitana of the Order of Malta",
+   "keywords": "wages; galleys",
+   "notes": "Act written in italien. Very effaced."
+  },
+  "2-III-0405b": {
+   "transaction_type": "Redemption",
+   "party1_name": "Anthoine Martinenq (dit Jaumar)",
+   "party1_origins": "de Six-Fours",
+   "party1_role": "debtor; ransomed captive",
+   "party2_name": "Joseph Gelet",
+   "party2_origins": "de Six-Fours",
+   "party2_role": "creditor",
+   "price": 187,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for his ransom to Cara Othman"
+  },
+  "2-III-0406": {
+   "split_at": [
+    "Cosma Marsselle"
+   ],
+   "party1_role": "debtor; ransomed captive",
+   "party2_name": "Anthoine Galvano; Loys Lombard",
+   "party2_origins": "de Six-Fours; de Six-Fours",
+   "party2_role": "creditor; creditor",
+   "other_parties_names": "Mahamet bey",
+   "other_parties_origins": "turc de Tunis",
+   "other_parties_role": "recipient of ransom payment",
+   "price": null,
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": null,
+   "matter": "Debt for his ransom, repayable a month after arrival at Marseille",
+   "notes": "Amount garbled in the scan."
+  },
+  "2-III-0406b": {
+   "transaction_type": "Debt",
+   "party1_name": "Cosma Marsselle",
+   "party1_origins": "de Malte",
+   "party1_role": "debtor",
+   "party2_name": "Josepo del Mellasse",
+   "party2_origins": "de Messine",
+   "party2_role": "creditor",
+   "price": 31.5,
+   "currency": "écus",
+   "matter": "Debt payable within two months"
+  },
+  "2-III-0407": {
+   "party1_role": "debtor; ransomed captive",
+   "other_parties_names": "Cayt Aly",
+   "other_parties_origins": "de Tripoli, renégat génois",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for his ransom, repayable 15 days after arrival at Genoa"
+  },
+  "2-III-0408": {
+   "party2_name": "Mathou Mayoco",
+   "party2_role": "ship master (stayed alone aboard)",
+   "other_parties_names": "Bonaventure; Gabriel",
+   "other_parties_role": "Capuchin friars, slaves on the galliot, witnesses",
+   "currency": "écus",
+   "matter": "Statement: chased by a Turkish galliot (5 Oct. 1605), the master sent his sailors off in the boat with 400 écus; the barque escaped to Corsica but the boat and money were taken",
+   "keywords": "ship; slavery",
+   "notes": "Act written in italien (very poor Italian mixed with other languages). Continued in the next record (0409)."
+  },
+  "2-III-0409": {
+   "drop": true
+  },
+  "2-III-0410": {
+   "party1_role": "declarant (before the vice-consul's tribunal)",
+   "party2_name": "Ollivier Chauré",
+   "party2_origins": "de Marseille",
+   "party2_role": "ship master accused",
+   "other_parties_names": "Bernardin Coulles",
+   "other_parties_role": "co-owner of the goods",
+   "matter": "Complaint: the master loaded goods at Venice in 1604 for Tripoli and Djerba but disobeyed instructions and sold them without guarantee",
+   "keywords": "goods; dispute; freight / shipping"
+  },
+  "2-III-0411": {
+   "transaction_type": "Consular decision",
+   "party1_name": "Hugues Changet",
+   "party1_role": "vice-consul (judges with a « rode »)",
+   "party2_name": "Jaques Blacard; Jehan Tassy",
+   "party2_role": "complainant, sailor (for the crew of « Ste Claire »); ship master",
+   "matter": "The sailors bought wine in Sicily to carry to Tunis; the master wants freight as for ordinary goods",
+   "decision": "Decided by a « rode » (content not summarised)",
+   "keywords": "wine; freight / shipping; wages; dispute"
+  },
+  "2-III-0412": {
+   "party1_name": "Andrea Fiorini",
+   "party1_role": "accuser",
+   "party2_name": "Ollivier Chauré",
+   "party2_role": "accused, ship master",
+   "other_parties_names": "Ossein Abdi Ogli; Josepe Degivarra; Antonio Chauré",
+   "other_parties_role": "renegade bought at Malta then denounced to the Holy Office; his owner; brother of Ollivier (stood surety of 600 écus)",
+   "other_equivalent": "surety of 600 écus; other sums mentioned",
+   "matter": "Accusations against Ollivier Chauré (renegade denounced to the Inquisition, surety, etc.)",
+   "keywords": "renegade; dispute; guarantee"
+  },
+  "2-III-0413": {
+   "party1_name": "Ottavio Gadabanti (?)",
+   "party1_role": "principal; slave of Cara Osman Dey",
+   "party2_origins": "de Bergame, habitant à Naples; de Bergame, habitant à Naples",
+   "currency": "écus d'or",
+   "matter": "Power of attorney to raise 400 écus for his ransom",
+   "keywords": "ransom"
+  },
+  "2-III-0414": {
+   "transaction_type": "Redemption",
+   "party1_role": "debtor; ransomed captive",
+   "party2_name": "Joseppe Melasso",
+   "party2_origins": "de Messine",
+   "party2_role": "creditor",
+   "currency": "écus d'or"
+  },
+  "2-III-0415": {
+   "party2_name": "Hugues Changet",
+   "party2_role": "vice-consul (accused)",
+   "other_parties_names": "caïds of the customs of Tunis",
+   "other_parties_role": "sellers of the hides",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Protest: the vice-consul took for himself the hides allocation (« journée ») the customs officers meant for him",
+   "keywords": "hides; customs; dispute"
+  },
+  "2-III-0416": {
+   "transaction_type": "Consular decision",
+   "party1_role": "claimant, ship master",
+   "party2_name": "Ollivier Chavary",
+   "party2_role": "ship master (defendant)",
+   "other_parties_names": "Hugues Changet; Jean Martin",
+   "other_parties_role": "vice-consul (decides); squire, consulted",
+   "matter": "Claim for wages and board: Chavary's voyage from Venice to Tripoli stopped 13 months at Malta and 4 months at Tunis",
+   "decision": "Decision by the vice-consul after consulting Jean Martin (content not summarised)",
+   "keywords": "wages; dispute"
+  },
+  "2-III-0417": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Joane Jonnat; Ambrozio Hortollano; Honnorato Berardo; Vincentio Germondo",
+   "party1_origins": "de St Tropez",
+   "party1_role": "declarants (Jonnat: ship master)",
+   "other_parties_names": "Mametto Rais",
+   "other_parties_role": "captain of the corsair brigantine",
+   "matter": "Sea protest: the barque « Sta Maria de la concordia » (Cagliari to Livorno) taken by a corsair brigantine near Civitavecchia",
+   "keywords": "ship"
+  },
+  "2-III-0418": {
+   "transaction_type": "Protest / summons",
+   "party1_role": "respondent, ship master",
+   "party2_name": "Jean Inguiourran",
+   "party2_role": "protesting party",
+   "matter": "Reply to a protest of 26 June about Tassy's son leaving « Ste Claire » for « St Roch »",
+   "decision": "Inguiourran will refer the case to the Company at Marseille",
+   "keywords": "ship; wages; dispute"
+  },
+  "2-III-0419": {
+   "party2_origins": "corse, habitant à Livourne",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0420": {
+   "other_parties_origins": "turc",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0421": {
+   "date": "1606-07-20",
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Stephano Bernardo; Jacomo Marino; Josepho Marino",
+   "party1_origins": "d'Ollioules en Provence",
+   "party1_role": "declarants (Bernardo: ship master; others: sailors)",
+   "other_parties_names": "Soliman Rais",
+   "other_parties_origins": "de Tunis",
+   "other_parties_role": "commanded the two brigantines",
+   "matter": "Sea protest: barque « Sancta Maria bona ventura » taken near Monte Cristo; men enslaved and goods sold at Tunis",
+   "keywords": "ship; slavery"
+  },
+  "2-III-0422": {
+   "party1_name": "Marco Antonio Dantognorso",
+   "currency": "écus d'or"
+  },
+  "2-III-0423": {
+   "party2_name": "Jean Versset",
+   "matter": "Money to buy goods along the coast",
+   "keywords": "goods"
+  },
+  "2-III-0424": {
+   "notes": "Struck out."
+  },
+  "2-III-0425": {
+   "price": 47.5,
+   "currency": "écus d'or",
+   "other_equivalent": "freight 10 écus per hundred hides",
+   "matter": "Money to buy 50 bull and cow hides to ship to Marseille on « Ste Marie Bonaventure »",
+   "keywords": "hides; freight / shipping"
+  },
+  "2-III-0426": {
+   "party2_name": "Nicollo Barbier",
+   "other_parties_names": "Andraman Balouchachi; Marie de Courfoul",
+   "other_parties_role": "recipient of ransom payment; payee at Venice, wife of Barbier",
+   "matter": "Money for his ransom, repayable at Venice to Barbier's wife"
+  },
+  "2-III-0427": {
+   "transaction_type": "Consular decision",
+   "party1_name": "Jean Sabin (?)",
+   "party1_role": "claimant, boatswain (« nauchier ») of « St Antonin Bonnaventure »",
+   "party2_name": "Ollivier Chavary",
+   "party2_role": "ship master (defendant)",
+   "other_parties_names": "Hugues Changet",
+   "other_parties_role": "vice-consul (decides)",
+   "matter": "Wages owed to the boatswain",
+   "decision": "Sentence by the vice-consul (content not summarised)",
+   "keywords": "wages; dispute"
+  },
+  "2-III-0428": {
+   "matter": "Money to buy hides",
+   "keywords": "hides"
+  },
+  "2-III-0429": {
+   "party1_origins": "de Marseille",
+   "party1_role": "witness questioned",
+   "other_parties_names": "Andrea Fiorini; Ollivier Chavary",
+   "other_parties_origins": "de Venise;",
+   "other_parties_role": "accuser; accused (refused to hand over the teskera)",
+   "matter": "Testimony in the Fiorini–Chavary affair",
+   "keywords": "dispute"
+  },
+  "2-III-0430": {
+   "currency": "écus monnaie de France"
+  },
+  "2-III-0431": {
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "at 3 livres 4 sols each",
+   "matter": "Money to buy goods for Venice or Marseille"
+  },
+  "2-III-0432": {
+   "party1_name": "Joan Antonio (son of Joan Baptista)",
+   "party1_origins": "de Calvi",
+   "party2_origins": "corse, habitant à Livourne; corse, habitant à Livourne",
+   "other_parties_names": "Osta Morat",
+   "other_parties_origins": "renégat génois",
+   "other_parties_role": "janissary, recipient of ransom payment",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0433": {
+   "split_at": [
+    "Laurens Bourgougne"
+   ],
+   "party1_origins": "de Pesi (?), Rivière de Gênes",
+   "party1_role": "recipient; ransomed captive",
+   "other_parties_names": "the Divan",
+   "other_parties_role": "recipient of ransom payment",
+   "other_equivalent": "total ransom 425 écus d'or",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money paid to the Divan for the balance of his ransom, repayable a month after arrival at Genoa"
+  },
+  "2-III-0433b": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Laurens Bourgougne",
+   "party1_origins": "de Villefranche de Nice",
+   "party1_role": "principal",
+   "party2_name": "Baptista [...]",
+   "party2_origins": "de Villefranche de Nice",
+   "party2_role": "attorney, ship master (patron)",
+   "matter": "Power of attorney (summary cut off)"
+  },
+  "2-III-0434": {
+   "date": "1606-08-08",
+   "keywords": "loan"
+  },
+  "2-III-0435": {
+   "date": "1606-08-08",
+   "other_parties_names": "Valerio Lovico",
+   "other_parties_role": "deceased (estate)",
+   "matter": "Power of attorney to collect Valerio Lovico's estate",
+   "keywords": "inheritance"
   }
  }
 }
