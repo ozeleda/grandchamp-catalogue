@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 1225,
+ "reviewed_through_seq": 1255,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -11346,6 +11346,305 @@
    "currency": "écus d'or d'Espagne",
    "matter": "Ransom loan repayable 15 days after arrival at Genoa",
    "keywords": "ransom; loan"
+  },
+  "2-IV-1226": {
+   "transaction_type": "Redemption",
+   "party1_origins": "de Moneglia (Rivière de Gênes)",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Benedetto Vignola",
+   "party2_role": "creditor, ship master (patron)",
+   "other_parties_names": "Ysoub Geleby",
+   "other_parties_origins": "turc de Tunis",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable 15 days after arrival at Genoa",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1227": {
+   "party1_name": "the knights of St John of Jerusalem (acts of 26–27 July 1610)",
+   "party1_role": "principals, captives",
+   "party2_origins": "écuyer de la ville de Blois, habitant à Marseille",
+   "other_parties_names": "Vespaxiano Balbiano; Honnorat Du Poux",
+   "other_parties_origins": "piémontais; ",
+   "other_parties_role": "creditor (knight); creditor (knight)",
+   "matter": "To collect sums owed to the brothers Balbiano and Du Poux",
+   "notes": "Act in French.",
+   "keywords": "knights of Malta; debt collection"
+  },
+  "2-IV-1228": {
+   "party1_name": "Jehan Toureau; Thomasi Caulet; Jehan Tenque; Charles de Rybe; Meiximyn Gallegne; Louys Deymier; Jacques Tourtel; Jacques Augerot; Jacques Sengla; Pierre Vidal; Guillen Bernart; Luco Martin; Bertrand Pistoye; Honorat Perisol; Vittor Masson; Benet Jourdan",
+   "party1_origins": "de Toulon; de Marseille; de Martigues; de Toulon; de Marseille; de Marseille; de Sixfours; d'Ollioules; de Bormes; de Sixfours; de Sixfours; de St-Tropez; de Martigues; de St-Tropez; de la Ciotat; de la Ciotat",
+   "party1_role": "counter-guarantor, ship master (patron) (and the others: patrons and ship's clerks)",
+   "party2_name": "Hugues Changet",
+   "party2_role": "guarantor to the dey, consul",
+   "other_parties_names": "Ossoman Dey",
+   "other_parties_role": "requires the bond before licensing ships",
+   "price": 3000,
+   "currency": "écus d'or",
+   "other_equivalent": "3,000 écus each",
+   "matter": "The dey licenses no ship to leave La Goulette for Christendom unless each gives a 3,000-écu bond not to touch Sicily or Malta; the consul stands surety to the dey and the patrons bind themselves, their persons and ships, to indemnify him",
+   "notes": "Act in French.",
+   "keywords": "surety; embargo; Sicily; Malta; dey"
+  },
+  "2-IV-1229": {
+   "transaction_type": "Sale / transfer",
+   "party1_origins": "turc de Tunis (renegade from Sisteron)",
+   "party1_role": "donor, renegade (named Ysoub)",
+   "party2_name": "Catherine Meyrane",
+   "party2_role": "usufructuary, mother of party 1",
+   "other_parties_names": "Jehan Garsin",
+   "other_parties_origins": "habitant à Sisteron",
+   "other_parties_role": "remainderman, brother of party 1",
+   "matter": "Gives the usufruct of his property at Sisteron to his mother; on her death it passes to his brother",
+   "notes": "Act in French.",
+   "keywords": "renegade; inheritance; property"
+  },
+  "2-IV-1230": {
+   "transaction_type": "Company / partnership",
+   "matter": "Declaration about his share in the ship « Nonciade »",
+   "keywords": "ship share"
+  },
+  "2-IV-1231": {
+   "transaction_type": "Charter (freight)",
+   "party1_role": "shipowner / master, ship master (patron)",
+   "other_parties_names": "Horatio Erbuccy; Gioan Gioia",
+   "other_parties_role": "charterer; supercargo (undertakes to recharter if needed)",
+   "matter": "Chartered his barque « Sto Antonyo et San Benedetto » at Livorno the previous month to Erbuccy; the supercargo undertakes to charter it again if needed",
+   "keywords": "charter"
+  },
+  "2-IV-1232": {
+   "transaction_type": "Redemption",
+   "party1_role": "ransomed captive, slave of Romadan Bey",
+   "party2_name": "Mourato Bey (Francesco de Gilierno?)",
+   "party2_origins": "corse de Bastia",
+   "party2_role": "redeemer, renegade",
+   "other_parties_names": "Romadan Bey; Louxitta",
+   "other_parties_role": "master (ransom recipient); sister of the captive (requested the ransom)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransomed at his sister's request",
+   "notes": "The act is very confused; Mourato Bey seems to be a Corsican renegade named Francesco de Gilierno.",
+   "keywords": "ransom; renegade; family"
+  },
+  "2-IV-1233": {
+   "party1_origins": "de Toulon; de Toulon",
+   "party1_role": "declarant, ship master (patron); declarant, ship master (patron)",
+   "other_parties_names": "a tartane under the flag of Savoy; Marxeilhon; Tripeday",
+   "other_parties_origins": "; de Marseille; de Martigues",
+   "other_parties_role": "captor; captain recognised aboard; recognised aboard",
+   "matter": "Coming from Toulon with their barques loaded with Moriscos, they were taken off Sardinia by a tartane armed for war under the Savoy flag, which plundered them",
+   "notes": "Act in French.",
+   "keywords": "sea protest; Moriscos; Savoy; corsairs"
+  },
+  "2-IV-1234": {
+   "matter": "Recovery of a 28-écu debt",
+   "notes": "Act in French.",
+   "keywords": "debt collection; slavery"
+  },
+  "2-IV-1235": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor; debtor, wife of Honorat",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable within eight months",
+   "decision": "Repaid 7 February 1611",
+   "notes": "Act in French.",
+   "keywords": "loan"
+  },
+  "2-IV-1236": {
+   "other_parties_names": "Joan Cattaro",
+   "other_parties_role": "ship master (patron) of the frigate « Sta Anna »",
+   "matter": "Power to clear and send the frigate « Sta Anna », at La Goulette, to Trapani",
+   "keywords": "ship; clearance"
+  },
+  "2-IV-1237": {
+   "party2_name": "Anthoine Lovico",
+   "other_parties_names": "Anthoine Berengier",
+   "other_parties_role": "payee at Marseille",
+   "currency": "écus d'or",
+   "other_equivalent": "32 aspres",
+   "matter": "Loan for the last fitting-out of the « Ste-Catherine », payable at Marseille 15 days after arrival",
+   "notes": "Act in French.",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1238": {
+   "transaction_type": "Debt",
+   "party1_name": "Honorat Yhouard; Margueritte Seguier",
+   "party1_origins": null,
+   "party1_role": "debtor; debtor, wife of Honorat",
+   "party2_name": "Mamet Franses",
+   "party2_origins": "janissaire de Tunis",
+   "party2_role": "creditor, janissary",
+   "currency": "écus d'or de 64 aspres",
+   "other_equivalent": null,
+   "matter": "Loan repayable within six months",
+   "decision": "Repaid 6 April 1611",
+   "notes": "Day read as 45; 15. Act in French.",
+   "keywords": "loan"
+  },
+  "2-IV-1239": {
+   "party1_origins": "juif de Venise",
+   "party1_role": "recipient, agent for his mother and brothers, son of Cham Sarocho",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Settlement of an account",
+   "keywords": "account; Jews"
+  },
+  "2-IV-1240": {
+   "transaction_type": "Charter (freight)",
+   "party1_role": "shipowner / master (receives freight), ship master (patron)",
+   "party2_role": "charterer",
+   "other_equivalent": "20 taris; plus 20 aspres a day of detention",
+   "matter": "Freight of the frigate « Sta Maria de Positano »; since Ossoman Dey will not license ships for Christendom, Coral will pay 20 aspres per day of detention",
+   "keywords": "freight; demurrage; embargo"
+  },
+  "2-IV-1241": {
+   "currency": "écus d'or de 64 aspres",
+   "other_equivalent": null,
+   "matter": "Loan repayable within four months",
+   "keywords": "loan"
+  },
+  "2-IV-1242": {
+   "transaction_type": "Consular decision",
+   "party1_name": "Laure",
+   "party1_origins": "de Palerme",
+   "party1_role": "claimant, wife of Latansio Franse",
+   "party2_name": "Pedro Toumaxello",
+   "party2_origins": "de la Torre del Greco",
+   "party2_role": "defendant, ship master (patron)",
+   "other_parties_names": "Hugues Changet",
+   "other_parties_role": "vice-consul (judge)",
+   "matter": "Claim for 40 onces of Sicily",
+   "decision": "Toumaxello condemned to pay",
+   "keywords": "debt; judgement"
+  },
+  "2-IV-1243": {
+   "matter": "Recovery of sums",
+   "keywords": "debt collection; slavery"
+  },
+  "2-IV-1244": {
+   "party1_role": "summoning party, friar, slave of Sidi Hamida",
+   "party2_origins": "de Naples",
+   "party2_role": "party summoned (redemption agent)",
+   "other_parties_names": "Sidi Hamida; Ossoman Dey",
+   "other_parties_role": "master; took the money for two women's ransom",
+   "currency": "écus d'or",
+   "other_equivalent": null,
+   "matter": "Summons to pay Sidi Hamida the 300 écus of his ransom",
+   "decision": "Inperato replies Ossoman Dey took those 300 écus to pay the ransom of two women",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-IV-1245": {
+   "date": "1610-10",
+   "transaction_type": "Redemption",
+   "party1_role": "declarant, ransomed captive",
+   "party2_name": "Mamet Corat",
+   "party2_origins": "maure de Tunis, habitant à Palerme",
+   "party2_role": "redeemer",
+   "other_parties_names": "the mother of Mahamet bey; Fernando de Methianse",
+   "other_parties_role": "recipient of ransom payment; principal (Inquisitor of Sicily, ordered 300 écus)",
+   "currency": "écus d'or",
+   "other_equivalent": "300 écus on the order of the Inquisitor of Sicily; 100 belonging to Corat, repayable 15 days after arrival at Palermo",
+   "matter": "Ransomed for 400 écus",
+   "notes": "Day read as 90.",
+   "keywords": "ransom; Inquisition"
+  },
+  "2-IV-1246": {
+   "transaction_type": "Redemption",
+   "party1_role": "declarant, ransomed captive, friar of the Order of St Francis of Paola",
+   "party2_name": "Mamet Corat",
+   "party2_role": "redeemer",
+   "other_parties_names": "Ossoman Dey; Fra Joan",
+   "other_parties_origins": "; de Girgenti",
+   "other_parties_role": "recipient of ransom payment; provided 100 écus",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "100 écus from Fra Joan; 200 repayable to Corat with 33% interest",
+   "matter": "Ransom; 200 écus repayable 15 days after arrival in Sicily with interest at 33%",
+   "decision": "Repaid 6 April 1611 (printed 1641)",
+   "keywords": "ransom; interest; clergy"
+  },
+  "2-IV-1247": {
+   "other_parties_names": "Leonardo Carenso",
+   "other_parties_role": "slave, business partner",
+   "matter": "Did business around 1608 with a slave, Leonardo Carenso; his share was never paid",
+   "notes": "Three witness statements follow.",
+   "keywords": "partnership; slavery; debt"
+  },
+  "2-IV-1248": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_origins": "de Palerme, esclave de Mamet bey",
+   "party2_role": "lender, slave of Mamet bey",
+   "other_parties_names": "the brothers of Mamet bey",
+   "other_parties_role": "recipients of ransom payment",
+   "price": 58.25,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Balance of his ransom; repayable 15 days after arrival at Palermo",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1249": {
+   "party2_name": "Salem ben Sale",
+   "party2_origins": "de Zouara, Royaume de Tripoli de Barbarie",
+   "party2_role": "attorney, raïs",
+   "other_parties_names": "Vinsenso Rispollo",
+   "other_parties_origins": "de Malte",
+   "other_parties_role": "debtor, ship master (patron)",
+   "currency": "écus d'or",
+   "matter": "To manage his affairs and recover 2,000 écus from Rispollo (see act of 29 July 1610)",
+   "keywords": "debt collection; captive exchange"
+  },
+  "2-IV-1250": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt payable on 11 January 1611",
+   "keywords": "debt"
+  },
+  "2-IV-1251": {
+   "party1_role": "declarant",
+   "other_parties_names": "Spinetto di Spinetto; Pieron Gazano; Osman Dey; the knights of St John",
+   "other_parties_origins": "; de Marseille; ; ",
+   "other_parties_role": "his nephew (imprisoned at Malta); patron accused of fraud; alleged owner; witnesses",
+   "matter": "Sent oil to Malta to sell to the Order, in two ships he chartered under Pieron Gazano, with his nephew; the patron replaced oil with water; to save himself the nephew claimed the oil was Osman Dey's, so it was seized as infidel property; Lovico says Gazano's statements are false and asks for an inquiry. He explains he made possible the exchange of the knights against 14 Turks taken with Soliman Rais and sent the oil at their request",
+   "notes": "Witnesses include Boisgirault, Jaime Peres, Antoine de Ribaude, Henri Miron, De la Palu, Gio de Silva Ribera, Gaspar Aldretta, Gio de Castellane Claret, Marco Francesco (36), Giorgio Vega Penta, Manfredino Manfredini, Antonio Francesco Santoro (50), Pasquale Inperato, Gio Gioia (27).",
+   "keywords": "oil; fraud; Malta; captive exchange; knights of Malta"
+  },
+  "2-IV-1252": {
+   "transaction_type": "Redemption",
+   "party1_name": "Gioan de Valegio",
+   "party1_role": "declarant, ransomed captive, Benedictine of Montserrat",
+   "party2_name": "Mamet Corat",
+   "party2_origins": "maure de Tunis",
+   "party2_role": "redeemer",
+   "other_parties_names": "Sidi Hamida; the Inquisitor of Palermo",
+   "other_parties_role": "recipient of ransom payment; provided 300 écus",
+   "price": 650,
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "300 écus from the Inquisitor of Palermo, 350 from Corat",
+   "matter": "Ransom; Valegio will repay Corat's 350 écus within a month with 33% interest",
+   "decision": "Repaid 12 February 1611",
+   "notes": "Day read as 45; 15.",
+   "keywords": "ransom; interest; Inquisition; clergy"
+  },
+  "2-IV-1253": {
+   "transaction_type": "Surety",
+   "party1_name": "Gioan de Valegio",
+   "party1_role": "guarantor, friar",
+   "party2_name": "Pedro de St-Estevan",
+   "party2_origins": "de Biscaye",
+   "party2_role": "principal debtor, ransomed captive",
+   "other_parties_names": "Mamet Corat",
+   "other_parties_role": "creditor",
+   "currency": "écus",
+   "matter": "Surety for the 170 écus Corat supplied to Pedro de St-Estevan",
+   "keywords": "surety; ransom"
+  },
+  "2-IV-1254": {
+   "party1_role": "debtor, ransomed captive, ship master (patron)",
+   "party2_origins": "de Trapani",
+   "currency": "écus d'or",
+   "matter": "Fees of his ransom, repayable within two months",
+   "keywords": "ransom; fees; loan"
+  },
+  "2-IV-1255": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable at Cagliari",
+   "keywords": "ransom; loan; clergy"
   }
  }
 }
