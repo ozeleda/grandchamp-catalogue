@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 836,
+ "reviewed_through_seq": 876,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -7504,6 +7504,387 @@
    "currency": "pièces de 12 réaux castillans",
    "matter": "Loan",
    "notes": "Receipt dated 31 July 1608, registered at the foot of the act on 13 September.",
+   "keywords": "loan"
+  },
+  "2-IV-0837": {
+   "transaction_type": "Redemption",
+   "party1_name": "Cosimo de Vaibelle (Valbelle); Raffael Franco",
+   "party1_origins": "de Marseille; de Marseille",
+   "party1_role": "witness, captain; witness, ship master (patron)",
+   "party2_name": "Piero La Grangia",
+   "party2_role": "payer",
+   "other_parties_names": "Ali Arnauto; Gio Bata Longi",
+   "other_parties_origins": "turc janissaire de Tunis; fils de Bartolo Longi, de Marseille",
+   "other_parties_role": "recipient of ransom payment, janissary; ransomed captive",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Certify they saw La Grangia pay the balance of the ransom of Gio Bata Longi",
+   "keywords": "ransom; witnesses"
+  },
+  "2-IV-0838": {
+   "transaction_type": "Debt",
+   "party1_role": "recipient (to pay at Cagliari); recipient; recipient",
+   "party2_role": "payer",
+   "other_parties_names": "Mamet ben Silima",
+   "other_parties_role": "Muslim slave at Cagliari (payee)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money to be paid at Cagliari to Mamet ben Silima, a slave",
+   "keywords": "remittance; Muslim captive"
+  },
+  "2-IV-0839": {
+   "price": 153.5,
+   "other_parties_origins": "renégat florentin",
+   "currency": "écus",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan; renegade"
+  },
+  "2-IV-0840": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron)",
+   "party2_role": "creditor",
+   "price": 62.5,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable at Livorno",
+   "keywords": "loan"
+  },
+  "2-IV-0841": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant, ship master (patron)",
+   "other_parties_names": "his sailors; galleys of Bizerte",
+   "other_parties_role": "co-declarants; plunderers",
+   "matter": "Since their ship « Santa Maria bona ventura » was partly plundered by the Bizerte galleys, the patron and crew ask to abandon the voyage and return to Marseille",
+   "keywords": "corsairs; voyage abandoned"
+  },
+  "2-IV-0842": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), squire of Marseille",
+   "party2_name": "Piere Aycard; Lazzarin Martineng; [...]",
+   "party2_role": "creditor; creditor; creditor",
+   "other_parties_names": "Bartolomeo de Valbelle",
+   "other_parties_role": "guarantor, lieutenant of the Admiralty",
+   "currency": "écus de 12 réaux castillans",
+   "matter": "Loan guaranteed by Bartolomeo de Valbelle, repayable two days after arrival at Marseille",
+   "keywords": "loan; surety"
+  },
+  "2-IV-0843": {
+   "other_parties_names": "Jusant Meyfren",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "debtor",
+   "price": 10.67,
+   "currency": "écus",
+   "matter": "Recovery of a debt of 10⅔ écus",
+   "keywords": "debt collection"
+  },
+  "2-IV-0844": {
+   "currency": "écus (monnaie de Sicile)",
+   "keywords": "payment"
+  },
+  "2-IV-0845": {
+   "date": "1608-06-13",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable six days after arrival at Venice",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0846": {
+   "transaction_type": "Redemption",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Paulo di Cosimo Erminio",
+   "party2_role": "creditor",
+   "other_parties_names": "Arapago",
+   "other_parties_origins": "de Bizerte",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable six days after arrival at Venice",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0847": {
+   "transaction_type": "Redemption",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Paulo di Cosimo Erminio",
+   "party2_role": "creditor",
+   "other_parties_names": "Ossoman Day",
+   "other_parties_role": "recipient of ransom payment (dey)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable six days after arrival at Venice",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0848": {
+   "party1_origins": "douanier de Tunis",
+   "party2_name": "Batista Mornillo",
+   "party2_role": "promisee",
+   "other_parties_names": "Ossaino de Mami Durghut",
+   "other_parties_origins": "esclave à Cagliari",
+   "other_parties_role": "Muslim slave at Cagliari (to be brought to Tunis)",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "64 aspres",
+   "matter": "Promises to pay when Mornillo brings Ossaino from Cagliari to Tunis",
+   "keywords": "captive exchange; Muslim captive"
+  },
+  "2-IV-0849": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Antonio Selvaggio alias Spanicula; Antonino Misiti; Vinco Quartararo; Marcho di Alessandro",
+   "party1_origins": "de Palerme; de Palerme; ; ",
+   "party1_role": "witness; witness; witness; witness",
+   "other_parties_names": "Marcantonio Topper",
+   "other_parties_origins": "génois",
+   "other_parties_role": "carrier who diverted to Tunis",
+   "currency": "écus",
+   "matter": "Saw Topper leave Palermo for Trapani; in sight of Trapani he refused to land and came to Tunis carrying 400 écus",
+   "keywords": "witnesses; breach of trust"
+  },
+  "2-IV-0850": {
+   "party1_origins": "d'Antibes",
+   "party2_name": "Anto Beringieri; Raffael Franco",
+   "party2_role": "creditor (for himself and the Redemption of the Holy Trinity of Marseille); creditor, ship master (patron)",
+   "other_parties_names": "Soliman; Redemption of the Holy Trinity, Marseille",
+   "other_parties_role": "recipient of ransom payment, raïs of the dey's « petachio »; redemption order",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom paid on behalf of the Trinitarian Redemption; if he makes the customary profession of those redeemed by the Redemption the debt (120 lire) is forgiven as alms, otherwise he must repay with maritime exchange",
+   "keywords": "ransom; Trinitarians; redemption mission"
+  },
+  "2-IV-0851": {
+   "matter": "Summons to his sailor and partner to honour their agreement for the voyage to Tunis",
+   "keywords": "crew; partnership"
+  },
+  "2-IV-0852": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "debtor (borrower)",
+   "other_parties_names": "Mamett Chora; don Diego Ossorio",
+   "other_parties_origins": "maure de Tunis; ",
+   "other_parties_role": "lender; ransomed captive",
+   "other_equivalent": "With interest the sum reached 411 écus",
+   "matter": "Borrowed 300 écus from Mamett Chora at the end of 1607 for the ransom of don Diego Ossorio",
+   "notes": "Continues on p. 125. Two witness statements follow.",
+   "keywords": "ransom; loan; interest"
+  },
+  "2-IV-0853": {
+   "drop": true
+  },
+  "2-IV-0854": {
+   "date": "1608-06-19",
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron)",
+   "party2_role": "creditor",
+   "other_equivalent": "17 taris",
+   "matter": "Loan repayable at Palermo",
+   "keywords": "loan"
+  },
+  "2-IV-0855": {
+   "date": "1608-06-19",
+   "transaction_type": "Consular decision",
+   "party1_name": "Franco Tomasino; Domenico Simonpiero",
+   "party1_origins": "corse, habitant à Marseille; corse, habitant à Marseille",
+   "party1_role": "party, ship master (patron); party",
+   "party2_name": "Hugues Changet",
+   "party2_role": "consul",
+   "other_parties_names": "Bata Tanburino",
+   "other_parties_role": "absent consignee",
+   "matter": "What to do with two pieces of cloth brought from Marseille for Tanburino, who is not at Tunis",
+   "decision": "They must follow the record made on the matter",
+   "keywords": "cloth; consignment"
+  },
+  "2-IV-0856": {
+   "matter": "Debt repayable six days after arrival at Venice",
+   "keywords": "debt"
+  },
+  "2-IV-0857": {
+   "party1_name": "Fra Bernardino Ubaldini",
+   "party1_origins": "de l'Etat d'Urbino",
+   "party1_role": "recipient, ransomed captive, friar of the Minori Osservanti",
+   "party2_role": "lender",
+   "other_parties_role": "recipient of ransom payment, « proietre di questa Militia » (dey)",
+   "matter": "Ransom loan repayable at Livorno or Florence within two months",
+   "keywords": "ransom; loan; clergy"
+  },
+  "2-IV-0858": {
+   "matter": "Loan",
+   "keywords": "loan"
+  },
+  "2-IV-0859": {
+   "transaction_type": "Protest / summons",
+   "party1_role": "complainant",
+   "party2_name": "Franco Tomasino",
+   "party2_role": "accused, ship master (patron)",
+   "other_parties_names": "Moratto",
+   "other_parties_origins": "douanier du royaume de Tunis",
+   "other_parties_role": "caïd who promised the hides",
+   "matter": "Complains Tomasino took the hides promised to him by the caïd Moratto",
+   "decision": "Act annulled",
+   "keywords": "hides; customs"
+  },
+  "2-IV-0860": {
+   "other_parties_names": "Mamet Benabedalfer Heli",
+   "other_parties_origins": "de Djerba",
+   "other_parties_role": "other party",
+   "matter": "Declares he has no business pending with Mamet Benabedalfer Heli",
+   "keywords": "discharge"
+  },
+  "2-IV-0861": {
+   "party1_role": "debtor, ransomed captive",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable two days after arrival at Livorno or Venice",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0862": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor",
+   "party2_name": "Honorato Pasqual",
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor",
+   "currency": "écus de 60 sols",
+   "other_equivalent": null,
+   "matter": "Loan",
+   "keywords": "loan"
+  },
+  "2-IV-0863": {
+   "party1_name": "Charlo Eime di Midrid (de Myredry)",
+   "party1_origins": "de l'Etat de Savoie",
+   "party1_role": "debtor, ransomed captive, knight of St John of Jerusalem (Malta)",
+   "other_parties_names": "Mamet Bey",
+   "other_parties_role": "recipient of ransom payment, captain of Bizerte",
+   "price": 1040,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable at Malta",
+   "keywords": "ransom; loan; knight of Malta"
+  },
+  "2-IV-0864": {
+   "party1_origins": "de Marseille",
+   "party2_name": "his crew",
+   "party2_role": "party summoned",
+   "other_parties_names": "Ossoman Day",
+   "other_parties_role": "dey, « persona che governa il Regno » (ordered the voyage)",
+   "matter": "Asks his crew whether they will make the voyage to Constantinople ordered by Ossoman Day to carry cadis and Turks; he thinks the dey cannot be refused",
+   "notes": "The ship is « Le grand Henrich ».",
+   "keywords": "crew; requisition; dey"
+  },
+  "2-IV-0865": {
+   "transaction_type": "Marriage contract",
+   "party1_name": "Stamati di Niccolo (?)",
+   "party1_origins": "de Talanti",
+   "party1_role": "groom",
+   "party2_name": "Maria",
+   "party2_origins": "fille de Andreio, grecque",
+   "party2_role": "bride, former slave",
+   "other_parties_names": "Franco Tomasino",
+   "other_parties_origins": "corse",
+   "other_parties_role": "former master who freed her",
+   "matter": "Declares he takes as wife Maria, a Greek slave freed by Tomasino; their priest was called (summary cut off)",
+   "keywords": "marriage; manumission; Greeks"
+  },
+  "2-IV-0866": {
+   "party1_origins": "juif, de Fez (?), habitant à Livourne",
+   "party1_role": "debtor",
+   "other_parties_role": "recipient of the payment, renegade",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money paid to Asta Assan, repayable at Livorno within two months",
+   "notes": "Receipt dated 24 April 1609 at the foot of the act.",
+   "keywords": "debt; Jews"
+  },
+  "2-IV-0867": {
+   "transaction_type": "Redemption",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Franco Tomasino",
+   "party2_origins": "corse",
+   "party2_role": "creditor",
+   "other_parties_names": "Asta Morato Genovese",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable one month after arrival at Marseille",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0868": {
+   "date": "1608-07-07",
+   "party1_name": "Giovanni Adanno de Vinco",
+   "party1_origins": "de Sestri di Levante",
+   "party1_role": "debtor, ransomed captive",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable 15 days after arrival at Livorno",
+   "decision": "Act annulled on 2 August 1608",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0869": {
+   "party1_name": "Simone Adanno",
+   "party1_origins": "de Sestri di Levante",
+   "party1_role": "principal, captive",
+   "party2_name": "Giovanni Adanno",
+   "party2_role": "attorney, brother of party 1",
+   "matter": "To raise funds, probably for his ransom",
+   "keywords": "ransom; family"
+  },
+  "2-IV-0870": {
+   "date": "1608-07-16",
+   "transaction_type": "Agreement",
+   "party1_name": "Fra don Melchiore de Lissarassu (de Lizarazu)",
+   "party1_origins": "de Pampelune en Navarre",
+   "party1_role": "party, captive",
+   "party2_name": "Mamet bey",
+   "party2_origins": "capitaine de Bizerte",
+   "party2_role": "party, master",
+   "other_parties_names": "Romadano Rais",
+   "other_parties_role": "Muslim slave on the galleys of Sicily (to be exchanged)",
+   "matter": "Once Romadano Rais is freed, don Melchiore will be free",
+   "notes": "Printed « juin » but the page follows acts of July; month corrected to July. An illegible Arabic seal at the foot.",
+   "keywords": "captive exchange; galleys"
+  },
+  "2-IV-0871": {
+   "date": "1608-07-19",
+   "transaction_type": "Sale / transfer",
+   "party1_name": "Beirano Agha (Caitto Bairama)",
+   "party1_origins": null,
+   "party1_role": "assignor, renegade of the former king Soliman Pacha",
+   "party2_name": "Franco Tomasino",
+   "party2_role": "assignee",
+   "other_parties_names": "Tomaso de Lenci (Thomas de Lenche, seigneur de Moissac)",
+   "other_parties_role": "debtor",
+   "matter": "Assigns to Tomasino all credits and money owed to him by Thomas de Lenche",
+   "notes": "Month corrected to July (see 16 July act).",
+   "keywords": "assignment of debt"
+  },
+  "2-IV-0872": {
+   "date": "1608-07-19",
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Fra Antonio Cazzolino",
+   "party1_role": "witness, friar",
+   "other_parties_names": "Franco Scotto; Gio Bata Danna; Niccola Dorestagno; Vincenzo Valeggio",
+   "other_parties_origins": "; ; de Palerme; ",
+   "other_parties_role": "party; party; witness; witness",
+   "currency": "écus",
+   "matter": "Testimony on a dispute between Scotto and Danna over 4,000 écus",
+   "notes": "Month corrected to July.",
+   "keywords": "dispute; witnesses"
+  },
+  "2-IV-0873": {
+   "date": "1608-07-23",
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant (elected judge)",
+   "matter": "Elected judge in the Scotto–Danna dispute, declines",
+   "notes": "Month corrected to July.",
+   "keywords": "arbitration"
+  },
+  "2-IV-0874": {
+   "date": "1608-07-24",
+   "party1_origins": "de l'Île d'Arvert à la Tremblade",
+   "party1_role": "principal, captive",
+   "matter": "To raise funds, probably for his ransom",
+   "notes": "Month corrected to July.",
+   "keywords": "ransom; family"
+  },
+  "2-IV-0875": {
+   "date": "1608-07-25",
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant, ship master (patron)",
+   "other_parties_names": "three galleys of Bizerte",
+   "other_parties_role": "plunderers",
+   "matter": "Sea protest: chartered at Cagliari for Malta; left Barri on 7 July, plundered two days later 20 miles out and taken to La Goulette, unloaded and returned; cargo was timber « for artillery »",
+   "notes": "Month corrected to July (act cites 7 July). Three witness statements follow.",
+   "keywords": "sea protest; corsairs; timber"
+  },
+  "2-IV-0876": {
+   "date": "1608-07-26",
+   "party1_origins": "de Naples, habitant à Malte",
+   "party1_role": "debtor, ship master (patron)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan",
+   "notes": "Month corrected to July.",
    "keywords": "loan"
   }
  }
