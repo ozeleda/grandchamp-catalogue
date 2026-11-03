@@ -1,0 +1,72 @@
+﻿volume_id,part,roman,title,date_iso,page_start,page_end,pdf_page
+1,II,I,Protestation de Serubi contre Perdigon et Voyon au sujet du commerce des laines (26 avril 1583),1583-04-26,107,108,135
+1,II,II,Réponse à la protestation de Sérubi (27 avril 1583),1583-04-27,108,110,136
+1,II,III,"Accord intervenu entre Vignon, Voyon, Ollivier, etc., au sujet du commerce des cuirs et laines (23 septembre 1583)",1583-09-23,110,112,138
+1,II,IV,"Nicolas Borrilly, consul à Tunis, cède sa charge à Nicolas Amielh de Ihérosme (4 janvier 1.591)",,112,113,140
+1,II,V,"Liquidation des dettes de Nicolas Borrilly (30 mars 1591""»",1591-03-30,113,115,141
+1,II,VI,Réunion des Français au sujet de l'enlèvement par certains de leurs compatriotes d'une barque tunisienne (8 avril 1592),1592-04-08,115,117,143
+1,II,VII,"Déclaration des marins et marchands français à Tunis au sujet d'une avanie (^même objet que l'acte précédent), (1« mai 1592)",1592-05-01,117,119,145
+1,II,VIII,Perte subie par Jehan Françoys du fait de l'enlèvement d'une barque tunisienne par des Français (17 juillet 1592),1592-07-17,119,120,147
+1,II,IX,Délibération au sujet du droit de 3 % établi pour racheter des Maures emmenés en Sardaigne (8 octobre 1592),1592-10-08,120,122,148
+1,II,X,Rachat du père Sebastien Villaret (26 octobre 1592),1592-10-26,122,125,150
+1,II,XI,Rachat de Julien Prunas (26 octobre 1592),1592-10-26,125,126,153
+1,II,XII,Internement à Tabarca du P. Villaret et de J. Prunas (19 novembre 1592),1592-11-19,127,127,155
+1,II,XIII,Rachat du Sarde Mateo Palmas (29 janvier 1593),1593-01-29,127,128,155
+1,II,XIV,"Rachat de Turcs pris en mer par les galères du duc de Savoie (traduction d'un commandement du Grand Seigneur, s. d.)",,128,129,156
+1,II,XV,Sommation à la Nation française faite par Jacques Rallue au sujet de l'esclave génois J. R. Allègre (26 février 1593),1593-02-26,129,133,157
+1,II,XVI,Rachat du Sarde Palmas (3 mars 1593) ',1593-03-03,133,134,161
+1,II,XVII,Rachat des Maures emmenés en Sardaigne (3 mars 1593),1593-03-03,134,135,162
+1,II,XVIII,Le droit temporaire de 3 % créé le 8 octobre 1592 pour racheter des Maures emmenés en Sardaigne est réduit à2 % (s. d.),1592-10-08,135,136,163
+1,II,XIX,"Rachat par Philippe Pena, consul de France à Tunis, de trente Français esclaves (l*»"" août 1593)",1593-08-01,136,138,164
+1,II,XX,Dépenses engagées au sujet des Maures emmenés en Sardaigne (3août 1593),1593-08-03,138,139,166
+1,II,XXI,Des esclaves français envoient trois d'entre eux à Frontignan pour s'occuper de leur rachat (3 août 1593),1593-08-03,139,140,167
+1,II,XXII,"Anthoine Rérangier somme Jean de Coquerel, secrétaire de Savary de Drèves, ambassadeur à Constantinople, de laisser partir le navire de Domergue Serret. — Réponse de De Coquerel {22 août 1593)",1593-08-22,140,141,168
+1,II,XXIII,"Nouvelle sommation adressée à Jean de Coquerel. — Réponse de celui-ci au protest du 22 août 1593 (22 août et l"" septembre 1593)",1593-08-22,142,143,170
+1,II,XXIV,Lettre 'de Henri IV accordant aux ambassadeurs de France à Constantinople un droit de 2 % sur les marchandises naviguant sous pavillon français (30 septembre 1592),1592-09-30,143,146,171
+1,II,XXV,Lettre de Savary de Rrèves au sujet du droit de 2 % prévu dans la lettre précédente (15 juin 1593),1593-06-15,146,147,174
+1,II,XXVI,Lettre de Henri IV chargeant Savary de Rrèves de faire 'une enquôte sur les consuls placés sous son autorité (30 septembre 1592),1592-09-30,147,149,175
+1,II,XXVII,Lettre de Savary de Rrèves chargeant De Coquerel de faire une enquête sur les malversations commises par les consuls de France en Rarbarie (15 juin 1593),1593-06-15,149,151,177
+1,II,XXVIII,Jean De Coquerel désigne l'agent chargé de lever les 2 % à Tunis et d'enquêter sur Philippe Pena (18 octobre 1593),1593-10-18,151,152,179
+1,II,XXIX,Le consul Pena et les marchands français de Tunis signalent àSavary de Brèves la possibilité de délivrer des Français esclaves sur les galères de Tunis et d'Alger (s. d.),,152,154,180
+1,II,XXX,Assemblée de la Nation pour la délivrance des Français esclaves en Tunisie (12 août 1595),1595-08-12,154,155,182
+1,II,XXXI,Assemblée de la Nation pour faire relâcher un navire français (13 août 1595),1595-08-13,155,157,183
+1,II,XXXII,Délibération de la Nation concernant un droit de 1 % sur les marchandises exportées (12 octobre 1598),1598-10-12,157,158,185
+1,II,XXXIII,Thomas Martin loue à César Florentin l'office du consulat de France à Tunis (19 octobre 1599),1599-10-19,158,160,186
+1,III,I,Au sujet d'un commandement du Grand Seigneur octroyé à J. B. de Nicollo concernant la pêche du corail en Tunisie (9 décembre 1588),1588-12-09,163,164,191
+1,III,II,"Procuration donnée à Nicolas Borrilly, consul de France à Tunis, par J. B. de Nicollo pour qu'il s'occupe des affaires du corail (24 décembre 1588)",1588-12-24,164,165,192
+1,III,III,Enregistrement d'une promesse datée du 22 décembre 1588 faite par J. B. de Nicollo à Mamet Pacha pour la pêche du corail (4 août 1590),1590-08-04,165,166,193
+1,III,IV,"Testament de Nicolas Bonilly, consul de France à Tunis (16 février 1591)",1591-02-16,166,170,194
+1,III,V,Jacques Ballue paie aux janissaires les dettes de J. B. de Nicollo (16 février 1592),1592-02-16,170,172,198
+1,III,VI,Jean Claude Amielli et Jacques Ballue reconnaissent une dette de la Compagnie du Corail (20 juin 1592),1592-06-20,172,174,200
+1,III,VII,Jean Claude Amielh donne une procuration à P. Girard pour obtenir des commandements du Grand Seigneur (25 juin 1592),1592-06-25,174,175,202
+1,III,VIII,Paiement par Jean Claude Amielh des dettes de Nicolas Bonilly et de Jean Baptiste de Nicollo (17 février 1593),1593-02-17,175,176,203
+1,III,IX,"Rachat du chevalier Pesciolini, de l'ordre de S^-Elienne, capturé en mer alors qu'il allait à Livourne pour les affaires de la ville de Marseille (]«'' septembre 1593)",1593-09-01,176,177,204
+1,III,X,"Lettre des consuls de la ville de Marseille à Philippe Pena, consul de France à Tunis, au sujet du rachat du chevalier Pesciolmi (3 juillet 1593)",1593-07-03,178,179,206
+1,III,XI,Lettre du consul Cliarles de Cazaulx à Antoine Vernet au sujet de la même affaire (3 juillet 1593),1593-07-03,179,180,207
+1,III,XII,Le chevalier Pesciolini reconnaît une dette contractée pour son rachat (l*' septembre 1593),1593-09-01,180,181,208
+1,III,XIII,"Promesse de Jean Claude Amielh et Vernet à un esolav.e génois au sujet de la pêche du corail vers la Fumayre Sallatte (Oued Melah), (10 mai 1594)",1594-05-10,181,182,209
+1,III,XIV,"Dissolution de la compagnie du corail constituée le 23 juillet 1591 (10 mai 1594) .""",1594-05-10,182,184,210
+1,III,XV,Les sociétaires de la Compagnie du corail envoient Pierre Barbier en mission à Tunis (9 juillet 1594),1594-07-09,184,188,212
+1,III,XVI,Vernet répond au sujet de la dissolution de la Compagnie du corail (27 juillet 1594),1594-07-27,188,190,216
+1,III,XVII,Réponse de Barbier à Vernet (s. d.),,190,191,218
+1,III,XVIII,Vernet demande à retirer son livre de comptes déposé en chancellerie. — Suite de demandes et réponses relatives à la mission de Barbier (3 août 1594),1594-08-03,191,196,219
+1,III,XIX,Promesse faite le 31 octobre 1593 par Jean Claude Amielh aux patrons corailleurs,1593-10-31,196,197,224
+1,III,XX,"Honoré Garnier, capturé en mer par les galères de Assan balli et Caradalli raïs, délivré ensuite par l'entremise de Pena, consul de France, somme Antoine Vernet et Jean Qaude Amielh de le laisser partir (24 février 1595)",1595-02-24,197,198,225
+1,III,XXI,"Promesse faite le 1"" novembre 1593 à Jehan de la Roze, écrivain de la Compagnie du corail, par Jean Claude Amielh et Antoine Vernet (7 mai 1596)",1596-05-07,198,200,226
+1,III,XXII,Autre promesse faite par les mêmes au même le 4 novembre 1593 (7 mai 1596),1596-05-07,200,200,228
+1,III,XXIII,Au sujet du décès et de la succession du marin corailleur Peirîn Morgues (17 mai 1596),1596-05-17,201,202,229
+1,III,XXIV,Des patrons corailleurs protestent contre le règlement de comptes que veulent leur imposer Jean Claude Amielh et Antoine Veraet (10 mai 1596),1596-05-10,202,202,230
+1,III,XXV,Réponse de Amielh et Vernet à la protestation précédente (10 mai 1596),1596-05-10,203,204,231
+1,III,XXVI,Réplique des patrons corailleurs (17 mai 1596),1596-05-17,204,204,232
+1,III,XXVII,Snuf-conduit donné le 2 mars 1596 h des agents de la Compagnie du corail par le Pacha de Tunis (7 septembre 1596),1596-09-07,204,205,232
+1,III,XXVIII,Sauf-conduit donné le 2 mars 1596 à'des agents de la Compagnie du corail par.l'Aga des janissaires (7 septembre 1 596),1596-09-07,205,206,233
+1,III,XXIX,"Copie d une cédule datée du 9 septembre 1595, faite par A. Vernet, de la somme de 330 écus à Baba Valli et Amet Somer",1595-09-09,206,206,234
+1,III,XXX,Déclaration en date du 22 janvier 1596 d'Antoine Vernet au sujet de la dette précédente,1596-01-22,206,207,234
+1,III,XXXI,"Pierre Vieu, Pierre Signoret, Honoré Venture, Victor Delestrade, Pierre Rambaud écrivent le 13 novembre 1597 à Antoine Lovico, consul de France à Tunis, au sujet de la pêche du corail",1597-11-13,207,209,235
+1,III,XXXII,Mémoires envoyés par les mêmes le 13 novembre 1597 à Lovico et à Honoré Garnier,1597-11-13,209,215,237
+1,III,XXXIII,Lettre écrite par les mêmes à Honoré Garnier le 13 novembre 1597,1597-11-13,215,216,243
+1,III,XXXIV,Billet écrit par les mêmes à Lovico et Garnier le 15 novembre 1597,1597-11-15,216,217,244
+1,III,XXXV,Inventaire fait le 2 juillet 1598 des « robes » appartenant à la Compagnie du corail,1598-07-02,217,218,245
+1,III,XXXVI,"Pierre Vieu, Pierre Signoret, etc., envoient à Antoine Lovico et Honoré Garnier les mémoires relatifs à la pêche du corail (s. d.) <",,218,219,246
+1,III,XXXVII,Honoré Garnier reçoit de Antoine Bérengier 3899 écus et 8 aspres (24 septembre 1598),1598-09-24,219,220,247
+1,III,XXXVIII,Les papiers de la Compagnie du corail sont consignés à Vernet après la mort de J. C. Amielh (5 mars 1599),1599-03-05,220,221,248

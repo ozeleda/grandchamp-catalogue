@@ -1,0 +1,702 @@
+﻿ref,amount,currency,qualifier,raw
+1-I-0002,25.0,écu,d'or,25 écus d'or
+1-I-0006,33.0,écu,,33 écus
+1-I-0006,9.0,aspre,,9 aspres
+1-I-0015,480.0,écu,,480 écus
+1-I-0016,50.0,écu,d'or,50 écus d'or
+1-I-0018,25.0,once,de Sicile,25 onces de Sicile
+1-I-0019,110.0,écu,d'or,110 écus d'or
+1-I-0020,26.0,once,,26 onces
+1-I-0020,15.0,tari,,15 taris
+1-I-0021,140.0,écu,d'or d'Espagne,140 écus d'or d'Espagne
+1-I-0022,12.0,écu,d'or,12 écus d'or
+1-I-0027,27.0,écu,d'or,27 écus d'or
+1-I-0033,120.0,écu,d'or d'Espagne,120 écus d'or d'Espagne
+1-I-0034,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-I-0036,300.0,écu,d'or,300 écus d'or
+1-I-0037,202.0,écu,d'or,202 écus d'or
+1-I-0038,56.0,once,,56 onces
+1-I-0038,7.0,tari,,7 taris
+1-I-0039,140.0,écu,d'or d'Espagne,140 écus d'or d'Espagne
+1-I-0041,16.0,écu,d'or,16 écus d'or
+1-I-0044,135.0,écu,,135 écus
+1-I-0047,130.0,écu,d'or d'Espagne,130 écus d'or d'Espagne
+1-I-0049,183.0,écu,,183 écus
+1-I-0052,98.0,écu,d'or,98 écus d'or
+1-I-0054,32.0,écu,d'or,32 écus d'or
+1-I-0056,71.0,ducat,,71 ducats
+1-I-0060,25.0,écu,d'or sol,25 écus d'or sol
+1-I-0060,42.0,aspre,,42 aspres
+1-I-0061,43.0,écu,d'or,43 écus d'or
+1-I-0062,45.0,écu,d'or,45 écus d'or
+1-I-0063,100.0,écu,,100 écus
+1-I-0066,21.0,écu,d'or,21 écus d'or
+1-I-0069,243.0,écu,d'or,243 écus d'or
+1-I-0072,204.0,écu,d'or,204 écus d'or
+1-I-0074,230.0,écu,d'or,230 écus d'or
+1-I-0076,127.0,écu,d'or,127 écus d'or
+1-I-0077,91.0,écu,d'or,91 écus d'or
+1-I-0079,33.0,écu,d'or,33 écus d'or
+1-I-0080,20.0,écu,d'or,20 écus d'or
+1-I-0081,14.0,écu,d'or,14 écus d'or
+1-I-0083,11.0,écu,,11 écus
+1-I-0085,600.0,écu,d'or,600 écus d'or
+1-I-0086,18.0,écu,d'or,18 écus d'or
+1-I-0087,580.0,écu,d'or pistolet,580 écus d'or pistolet
+1-I-0088,105.0,écu,d'or,105 écus d'or
+1-I-0090,85.0,écu,d'or,85 écus d'or
+1-I-0093,400.0,écu,d'or,400 écus d'or
+1-I-0094,50.0,écu,d'or,50 écus d'or
+1-I-0096,125.0,écu,d'or,125 écus d'or
+1-I-0101,375.0,écu,d'or sol,375 écus d'or sol
+1-I-0102,375.0,écu,,375 écus
+1-I-0103,21.0,écu,d'or,21 écus d'or
+1-I-0104,55.0,écu,d'or,55 écus d'or
+1-I-0105,115.0,écu,d'or sol,115 écus d'or sol
+1-I-0106,150.0,écu,,150 écus
+1-I-0107,40.0,écu,d'or,40 écus d'or
+1-I-0109,204.0,écu,,204 écus
+1-I-0113,60.0,écu,,60 écus
+1-I-0114,10.0,écu,,10 écus
+1-I-0115,30.0,écu,,30 écus
+1-I-0116,16.0,écu,d'or,16 écus d'or
+1-I-0118,20.0,écu,d'or,20 écus d'or
+1-I-0119,40.0,écu,d'or,40 écus d'or
+1-I-0120,30.0,écu,,30 écus
+1-I-0121,150.0,écu,d'or,150 écus d'or
+1-I-0122,210.0,écu,,210 écus
+1-I-0123,30.0,écu,,30 écus
+1-I-0125,20.0,écu,d'or,20 écus d'or
+1-I-0126,40.0,écu,d'or d'Espagne,40 écus d'or d'Espagne
+1-I-0127,130.0,écu,,130 écus
+1-I-0127,69.0,aspre,,69 aspres
+1-I-0129,25.0,écu,d'or d'Espagne,25 écus d'or d'Espagne
+1-I-0130,20.0,écu,sol,20 écus sol
+1-I-0131,46.0,écu,sol,46 écus sol
+1-I-0135,58.0,écu,sol,58 écus sol
+1-I-0136,174.0,écu,d'or,174 écus d'or
+1-I-0136,87.0,once,de Sicile,87 onces de Sicile
+1-I-0137,117.0,once,,117 onces
+1-I-0137,24.0,tari,de Sicile,24 taris de Sicile
+1-I-0138,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-I-0138,15.0,tari,,15 taris
+1-I-0139,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-I-0140,200.0,écu,d'or,200 écus d'or
+1-I-0140,64.0,aspre,,64 aspres
+1-I-0141,200.0,écu,d'or,200 écus d'or
+1-I-0145,70.0,écu,d'or d'Espagne,70 écus d'or d'Espagne
+1-I-0148,93.0,écu,d'or d'Espagne,93 écus d'or d'Espagne
+1-I-0150,70.0,écu,d'or d'Espagne,70 écus d'or d'Espagne
+1-I-0151,120.0,écu,d'or d'Espagne,120 écus d'or d'Espagne
+1-I-0153,75.0,écu,d'or d'Espagne,75 écus d'or d'Espagne
+1-I-0154,33.0,écu,d'or d'Espagne,33 écus d'or d'Espagne
+1-I-0155,50.0,écu,d'or d'Espagne,50 écus d'or d'Espagne
+1-I-0157,328.0,écu,d'or d'Espagne,328 écus d'or d'Espagne
+1-I-0157,13.0,carlin,,13 carlins
+1-I-0157,65.0,écu,,65 écus
+1-I-0157,328.0,écu,,328 écus
+1-I-0163,40.0,écu,d'or d'Espagne,40 écus d'or d'Espagne
+1-I-0165,50.0,écu,d'or d'Espagne,50 écus d'or d'Espagne
+1-I-0166,160.0,ducat,,160 ducats
+1-I-0166,3.0,carlin,de Naples,3 carlins de Naples
+1-I-0166,10.0,carlin,,10 carlins
+1-I-0167,33.0,écu,d'or d'Espagne,33 écus d'or d'Espagne
+1-I-0169,50.0,aspre,,50 aspres
+1-I-0169,200.0,écu,d'or d'Espagne,200 écus d'or d'Espagne
+1-I-0169,15.0,tari,,15 taris
+1-I-0170,200.0,écu,d'or de France,200 écus d'or de France
+1-I-0173,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-I-0175,83.0,écu,d'or d'Espagne,83 écus d'or d'Espagne
+1-I-0176,50.0,once,de Sicile,50 onces de Sicile
+1-I-0176,30.0,tari,,30 taris
+1-I-0177,12.0,écu,d'or d'Espagne,12 écus d'or d'Espagne
+1-I-0178,236.0,écu,d'or d'Espagne,236 écus d'or d'Espagne
+1-I-0179,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-I-0180,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-I-0181,96.0,écu,d'or d'Espagne,96 écus d'or d'Espagne
+1-I-0182,140.0,écu,d'or d'Espagne,140 écus d'or d'Espagne
+1-I-0183,300.0,écu,,300 écus
+1-I-0184,585.0,écu,d'or d'Espagne,585 écus d'or d'Espagne
+1-I-0186,826.0,écu,d'or d'Espagne,826 écus d'or d'Espagne
+1-I-0187,23.0,écu,d'or d'Espagne,23 écus d'or d'Espagne
+1-I-0188,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-I-0189,42.0,écu,,42 écus
+1-I-0190,436.0,écu,d'or d'Espagne,436 écus d'or d'Espagne
+1-I-0191,5.0,écu,,5 écus
+1-I-0191,30.0,sol,,30 sols
+1-I-0192,18.0,once,,18 onces
+1-I-0194,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-I-0195,12.0,écu,d'or d'Espagne,12 écus d'or d'Espagne
+1-I-0198,605.0,écu,d'or d'Espagne,605 écus d'or d'Espagne
+1-I-0198,16.0,tari,,16 taris
+1-I-0199,244.0,écu,d'or d'Espagne,244 écus d'or d'Espagne
+1-I-0200,80.0,écu,d'or d'Espagne,80 écus d'or d'Espagne
+1-I-0201,39.0,écu,d'or d'Espagne,39 écus d'or d'Espagne
+1-I-0202,52.0,écu,,52 écus
+1-I-0203,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
+1-I-0205,325.0,écu,d'or d'Espagne,325 écus d'or d'Espagne
+1-I-0206,325.0,écu,d'or d'Espagne,325 écus d'or d'Espagne
+1-I-0208,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
+1-I-0208,600.0,écu,d'or,600 écus d'or
+1-I-0209,26.0,écu,d'or d'Espagne,26 écus d'or d'Espagne
+1-I-0211,38.0,écu,d'or d'Espagne,38 écus d'or d'Espagne
+1-I-0213,50.0,écu,d'or d'Espagne,50 écus d'or d'Espagne
+1-I-0215,167.0,écu,d'or d'Espagne,167 écus d'or d'Espagne
+1-I-0216,1000.0,écu,d'or d'Espagne,1.000 écus d'or d'Espagne
+1-I-0217,375.0,écu,,375 écus
+1-I-0217,34.0,aspre,,34 aspres
+1-I-0219,7.0,écu,d'or d'Espagne,7 écus d'or d'Espagne
+1-I-0220,200.0,écu,d'or d'Espagne,200 écus d'or d'Espagne
+1-I-0221,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
+1-I-0223,300.0,écu,,300 écus
+1-I-0224,51.0,écu,,51 écus
+1-I-0226,120.0,écu,,120 écus
+1-I-0227,17.0,écu,d'or,17 écus d'or
+1-I-0228,73.0,once,,73 onces
+1-I-0228,7.0,tari,,7 taris
+1-I-0229,56.0,once,,56 onces
+1-I-0232,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-I-0236,78.0,écu,d'or d'Espagne,78 écus d'or d'Espagne
+1-I-0237,12.0,écu,d'or d'Espagne,12 écus d'or d'Espagne
+1-I-0238,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
+1-I-0240,105.0,écu,d'or d'Espagne,105 écus d'or d'Espagne
+1-I-0243,339.0,écu,d'or d'Espagne,339 écus d'or d'Espagne
+1-I-0244,23.0,écu,,23 écus
+1-I-0245,520.0,écu,d'or d'Espagne,520 écus d'or d'Espagne
+1-I-0245,60.0,écu,,60 écus
+1-II-0248,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
+1-II-0249,13.0,once,,13 onces
+1-II-0249,25.0,tari,,25 taris
+1-II-0250,22.0,once,,22 onces
+1-II-0253,50.0,once,,50 onces
+1-II-0255,220.0,ducat,,220 ducats
+1-II-0256,16.0,tari,,16 taris
+1-II-0260,66.0,once,,66 onces
+1-II-0263,1454.0,écu,,1454 écus
+1-II-0265,130.0,écu,,130 écus
+1-II-0266,87.0,écu,d'or d'Espagne,87 écus d'or d'Espagne
+1-II-0266,55.0,aspre,,55 aspres
+1-II-0267,30.0,écu,,30 écus
+1-II-0267,60.0,sol,,60 soubz
+1-II-0268,36.0,écu,d'or d'Espagne,36 écus d'or d'Espagne
+1-II-0269,63.0,écu,d'or sol,63 écus d'or sol
+1-II-0270,110.0,écu,d'or d'Espagne,110 écus d'or d'Espagne
+1-II-0271,130.0,écu,d'or d'Espagne,130 écus d'or d'Espagne
+1-II-0272,38.0,écu,,38 écus
+1-II-0273,205.0,écu,d'or d'Espagne,205 écus d'or d'Espagne
+1-II-0274,32.0,écu,d'or sol,32 écus d'or sol
+1-II-0275,10.0,écu,d'or d'Espagne,10 écus d'or d'Espagne
+1-II-0276,86.0,écu,d'or d'Espagne,86 écus d'or d'Espagne
+1-II-0276,40.0,aspre,,40 aspres
+1-II-0279,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0280,33.0,écu,d'or d'Espagne,33 écus d'or d'Espagne
+1-II-0282,120.0,écu,d'or,120 écus d'or
+1-II-0283,184.0,écu,d'or,184 écus d'or
+1-II-0285,205.0,écu,d'or d'Espagne,205 écus d'or d'Espagne
+1-II-0286,85.0,écu,d'or d'Espagne,85 écus d'or d'Espagne
+1-II-0287,75.0,écu,d'or d'Espagne,75 écus d'or d'Espagne
+1-II-0288,113.0,écu,d'or d'Espagne,113 écus d'or d'Espagne
+1-II-0289,56.0,écu,,56 écus
+1-II-0292,164.0,écu,d'or d'Espagne,164 écus d'or d'Espagne
+1-II-0293,7.0,écu,,7 écus
+1-II-0293,8.0,écu,,8 écus
+1-II-0294,36.0,écu,d'or d'Espagne,36 écus d'or d'Espagne
+1-II-0295,200.0,écu,d'or d'Espagne,200 écus d'or d'Espagne
+1-II-0296,2000.0,écu,d'or d'Espagne,2.000 écus d'or d'Espagne
+1-II-0297,77.0,écu,d'or d'Espagne,77 écus d'or d'Espagne
+1-II-0298,28.0,écu,d'or d'Espagne,28 écus d'or d'Espagne
+1-II-0299,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
+1-II-0302,25.0,écu,d'or d'Espagne,25 écus d'or d'Espagne
+1-II-0304,98.0,écu,d'or d'Espagne,98 écus d'or d'Espagne
+1-II-0305,161.0,écu,d'or d'Espagne,161 écus d'or d'Espagne
+1-II-0307,650.0,écu,d'or d'Espagne,650 écus d'or d'Espagne
+1-II-0307,65.0,écu,,65 écus
+1-II-0307,585.0,écu,,585 écus
+1-II-0308,106.0,écu,,106 écus
+1-II-0310,100.0,écu,,100 écus
+1-II-0310,12.0,réal,,12 réaux
+1-II-0311,140.0,écu,d'or d'Espagne,140 écus d'or d'Espagne
+1-II-0312,119.0,écu,d'or d'Espagne,119 écus d'or d'Espagne
+1-II-0313,262.0,écu,d'or d'Espagne,262 écus d'or d'Espagne
+1-II-0314,240.0,écu,d'or d'Espagne,240 écus d'or d'Espagne
+1-II-0315,9.0,écu,d'or d'Espagne,9 écus d'or d'Espagne
+1-II-0316,31.0,écu,,31 écus
+1-II-0318,25.0,écu,d'or d'Espagne,25 écus d'or d'Espagne
+1-II-0319,229.0,écu,,229 écus
+1-II-0320,450.0,écu,d'or d'Espagne,450 écus d'or d'Espagne
+1-II-0323,18.0,écu,,18 écus
+1-II-0324,1000.0,écu,d'or d'Espagne,1.000 écus d'or d'Espagne
+1-II-0328,37.0,écu,,37 écus
+1-II-0329,50.0,écu,d'or,50 écus d'or
+1-II-0330,108.0,écu,d'or d'Espagne,108 écus d'or d'Espagne
+1-II-0332,126.0,écu,d'or d'Espagne,126 écus d'or d'Espagne
+1-II-0337,131.0,écu,d'or,131 écus d'or
+1-II-0338,204.0,écu,d'or d'Espagne,204 écus d'or d'Espagne
+1-II-0339,117.0,écu,d'or d'Espagne,117 écus d'or d'Espagne
+1-II-0339,39.0,aspre,,39 aspres
+1-II-0340,407.0,écu,d'or d'Espagne,407 écus d'or d'Espagne
+1-II-0340,7.0,aspre,,7 aspres
+1-II-0343,57.0,écu,d'or d'Espagne,57 écus d'or d'Espagne
+1-II-0343,38.0,aspre,,38 aspres
+1-II-0344,26.0,écu,d'or d'Espagne,26 écus d'or d'Espagne
+1-II-0345,23.0,écu,,23 écus
+1-II-0347,50.0,écu,d'or,50 écus d'or
+1-II-0348,360.0,écu,d'or d'Espagne,360 écus d'or d'Espagne
+1-II-0348,25.0,écu,,25 écus
+1-II-0348,316.0,écu,d'or d'Espagne,316 écus d'or d'Espagne
+1-II-0349,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0350,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0351,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0352,140.0,écu,d'or d'Espagne,140 écus d'or d'Espagne
+1-II-0353,284.0,écu,,284 écus
+1-II-0354,39.0,écu,d'or d'Espagne,39 écus d'or d'Espagne
+1-II-0355,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-II-0356,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-II-0358,284.0,écu,,284 écus
+1-II-0359,260.0,écu,d'or,260 écus d'or
+1-II-0360,22.0,écu,,22 écus
+1-II-0362,107.0,écu,d'or,107 écus d'or
+1-II-0365,9.0,écu,d'or,9 écus d'or
+1-II-0365,12.0,réal,,12 réaux
+1-II-0366,56.0,écu,,56 écus
+1-II-0366,12.0,réal,,12 réaux
+1-II-0367,607.0,écu,d'or,607 écus d'or
+1-II-0367,12.0,réal,,12 réaux
+1-II-0368,40.0,écu,d'or d'Espagne,40 écus d'or d'Espagne
+1-II-0369,105.0,écu,d'or d'Espagne,105 écus d'or d'Espagne
+1-II-0370,120.0,écu,d'or d'Espagne,120 écus d'or d'Espagne
+1-II-0372,44.0,écu,d'or de France,44 écus d'or de France
+1-II-0373,422.0,écu,d'or d'Espagne,422 écus d'or d'Espagne
+1-II-0373,14.0,tari,,14 taris
+1-II-0374,20.0,écu,d'or d'Espagne,20 écus d'or d'Espagne
+1-II-0375,88.0,écu,,88 écus
+1-II-0375,12.0,réal,,12 réaux
+1-II-0377,8.0,réal,,8 réaux
+1-II-0379,1454.0,écu,d'or,1.454 écus d'or
+1-II-0384,195.0,écu,,195 écus
+1-II-0386,15.0,écu,d'or d'Espagne,15 écus d'or d'Espagne
+1-II-0386,15.0,écu,,15 écus
+1-II-0388,92.0,écu,d'or d'Espagne,92 écus d'or d'Espagne
+1-II-0388,70.0,écu,,70 écus
+1-II-0388,22.0,écu,,22 écus
+1-II-0389,490.0,écu,d'or d'Espagne,490 écus d'or d'Espagne
+1-II-0391,200.0,écu,d'or d'Espagne,200 écus d'or d'Espagne
+1-II-0392,1000.0,écu,d'or d'Espagne,1.000 écus d'or d'Espagne
+1-II-0398,33.0,écu,d'or,33 écus d'or
+1-II-0400,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-II-0401,825.0,écu,d'or,825 écus d'or
+1-II-0402,150.0,once,,150 onces
+1-II-0402,30.0,tari,,30 taris
+1-II-0403,105.0,écu,d'or d'Espagne,105 écus d'or d'Espagne
+1-II-0404,825.0,écu,d'or d'Espagne,825 écus d'or d'Espagne
+1-II-0405,55.0,once,de Sicile,55 onces de Sicile
+1-II-0405,30.0,tari,,30 taris
+1-II-0406,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0414,280.0,écu,d'or d'Espagne,280 écus d'or d'Espagne
+1-II-0415,3106.0,écu,d'or d'Espagne,3106 écus d'or d'Espagne
+1-II-0415,16.0,aspre,,16 aspres
+1-II-0416,215.0,écu,d'or d'Espagne,215 écus d'or d'Espagne
+1-II-0416,51.0,aspre,,51 aspres
+1-II-0419,933.0,écu,,933 écus
+1-II-0420,84.0,écu,d'or d'Espagne,84 écus d'or d'Espagne
+1-II-0425,70.0,écu,d'or d'Espagne,70 écus d'or d'Espagne
+1-II-0425,218.0,écu,,218 écus
+1-II-0426,105.0,écu,d'or d'Espagne,105 écus d'or d'Espagne
+1-II-0428,148.0,écu,d'or d'Espagne,148 écus d'or d'Espagne
+1-II-0430,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0433,149.0,écu,,149 écus
+1-II-0433,38.0,aspre,,38 aspres
+1-II-0434,98.0,écu,d'or d'Espagne,98 écus d'or d'Espagne
+1-II-0435,70.0,écu,d'or d'Espagne,70 écus d'or d'Espagne
+1-II-0436,140.0,écu,d'or d'Espagne,140 écus d'or d'Espagne
+1-II-0437,400.0,écu,d'or d'Espagne,400 écus d'or d'Espagne
+1-II-0438,25.0,écu,d'or d'Espagne,25 écus d'or d'Espagne
+1-II-0439,30.0,écu,,30 écus
+1-II-0440,9.0,écu,d'or d'Espagne,9 écus d'or d'Espagne
+1-II-0440,41.0,aspre,,41 aspres
+1-II-0441,42.0,écu,d'or d'Espagne,42 écus d'or d'Espagne
+1-II-0442,84.0,écu,d'or,84 écus d'or
+1-II-0443,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0444,15.0,écu,d'or d'Espagne,15 écus d'or d'Espagne
+1-II-0445,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0446,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0447,878.0,écu,d'or,878 écus d'or
+1-II-0448,102.0,écu,d'or,102 écus d'or
+1-II-0448,15.0,tari,,15 taris
+1-II-0449,194.0,écu,d'or,194 écus d'or
+1-II-0449,15.0,tari,,15 taris
+1-II-0450,56.0,écu,d'or d'Espagne,56 écus d'or d'Espagne
+1-II-0457,110.0,écu,d'or d'Espagne,110 écus d'or d'Espagne
+1-II-0458,250.0,écu,d'or d'Espagne,250 écus d'or d'Espagne
+1-II-0459,33.0,écu,d'or d'Espagne,33 écus d'or d'Espagne
+1-II-0460,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-II-0462,70.0,once,,70 onces
+1-II-0462,15.0,tari,,15 taris
+1-II-0463,170.0,écu,d'or d'Espagne,170 écus d'or d'Espagne
+1-II-0464,70.0,once,,70 onces
+1-II-0464,6.0,tari,,6 taris
+1-II-0465,50.0,écu,d'or d'Espagne,50 écus d'or d'Espagne
+1-II-0467,20.0,écu,d'or d'Espagne,20 écus d'or d'Espagne
+1-II-0468,80.0,écu,d'or d'Espagne,80 écus d'or d'Espagne
+1-II-0470,160.0,écu,d'or d'Espagne,160 écus d'or d'Espagne
+1-II-0471,135.0,écu,d'or,135 écus d'or
+1-II-0472,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
+1-II-0473,300.0,sequin,d'or,300 sequins d'or
+1-II-0476,1500.0,écu,d'or d'Espagne,1.500 écus d'or d'Espagne
+1-II-0479,200.0,écu,d'or d'Espagne,200 écus d'or d'Espagne
+1-II-0480,66.0,écu,d'or d'Espagne,66 écus d'or d'Espagne
+1-II-0483,28.0,écu,d'or d'Espagne,28 écus d'or d'Espagne
+1-II-0484,14.0,écu,d'or d'Espagne,14 écus d'or d'Espagne
+1-II-0485,5.0,livre,,5 livres
+1-II-0487,106.0,écu,d'or d'Espagne,106 écus d'or d'Espagne
+1-II-0489,80.0,écu,d'or d'Espagne,80 écus d'or d'Espagne
+1-II-0490,140.0,écu,d'or d'Espagne,140 écus d'or d'Espagne
+1-II-0492,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-II-0493,140.0,écu,d'or d'Espagne,140 écus d'or d'Espagne
+1-II-0494,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0496,62.0,écu,d'or d'Espagne,62 écus d'or d'Espagne
+1-II-0496,18.0,écu,,18 écus
+1-II-0500,9.0,écu,d'or d'Espagne,9 écus d'or d'Espagne
+1-II-0504,2649.0,écu,,2.649 écus
+1-II-0508,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-II-0511,80.0,écu,d'or,80 écus d'or
+1-II-0512,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
+1-II-0513,28.0,écu,d'or d'Espagne,28 écus d'or d'Espagne
+1-II-0514,150.0,écu,,150 écus
+1-II-0514,230.0,écu,,230 écus
+1-II-0515,56.0,écu,d'or d'Espagne,56 écus d'or d'Espagne
+1-II-0517,50.0,écu,d'or d'Espagne,50 écus d'or d'Espagne
+1-II-0518,144.0,once,de Sicile,144 onces de Sicile
+1-II-0518,30.0,tari,,30 taris
+1-II-0518,200.0,écu,d'or d'Espagne,200 écus d'or d'Espagne
+1-II-0518,23.0,écu,,23 écus
+1-II-0518,66.0,écu,,66 écus
+1-II-0519,70.0,once,de Sicile,70 onces de Sicile
+1-II-0520,176.0,once,de Sicile,176 onces de Sicile
+1-II-0520,30.0,tari,,30 taris
+1-II-0521,50.0,écu,d'or d'Espagne,50 écus d'or d'Espagne
+1-II-0522,40.0,once,de Sicile,40 onces de Sicile
+1-II-0523,291.0,once,de Sicile,291 onces de Sicile
+1-II-0526,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
+1-II-0527,45.0,once,de Sicile,45 onces de Sicile
+1-II-0528,80.0,once,de Sicile,80 onces de Sicile
+1-II-0529,66.0,once,de Sicile,66 onces de Sicile
+1-II-0530,80.0,once,de Sicile,80 onces de Sicile
+1-II-0531,232.0,once,de Sicile,232 onces de Sicile
+1-II-0532,14.0,ducat,de Naples,14 ducats de Naples
+1-II-0532,10.0,carlin,,10 carlins
+1-II-0533,64.0,écu,d'or d'Espagne,64 écus d'or d'Espagne
+1-II-0534,90.0,écu,d'or,90 écus d'or
+1-II-0537,230.0,ducat,de Naples,230 ducats de Naples
+1-II-0537,10.0,carlin,,10 carlins
+1-II-0538,134.0,once,,134 onces
+1-II-0538,30.0,tari,,30 taris
+1-II-0540,6.0,once,,6 onces
+1-II-0541,330.0,ducat,,330 ducats
+1-II-0541,10.0,carlin,,10 carlins
+1-II-0542,137.0,écu,d'or d'Espagne,137 écus d'or d'Espagne
+1-II-0543,40.0,écu,d'or d'Espagne,40 écus d'or d'Espagne
+1-II-0544,120.0,écu,d'or,120 écus d'or
+1-II-0544,13.0,carlin,,13 carlins
+1-II-0545,150.0,écu,d'or,150 écus d'or
+1-II-0546,80.0,écu,d'or d'Espagne,80 écus d'or d'Espagne
+1-II-0547,23.0,écu,d'or d'Espagne,23 écus d'or d'Espagne
+1-II-0551,202.0,écu,,202 écus
+1-II-0554,6.0,écu,,6 écus
+1-II-0554,10.0,aspre,,10 aspres
+1-II-0554,1515.0,écu,,1515 écus
+1-II-0554,2123.0,écu,,2.123 écus
+1-II-0558,160.0,écu,d'or d'Espagne,160 écus d'or d'Espagne
+1-II-0559,6000.0,écu,d'or d'Espagne,6.000 écus d'or d'Espagne
+1-II-0559,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
+1-II-0560,135.0,écu,d'or d'Espagne,135 écus d'or d'Espagne
+1-II-0561,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0562,68.0,écu,,68 écus
+1-II-0565,63.0,écu,d'or d'Espagne,63 écus d'or d'Espagne
+1-II-0566,198.0,écu,d'or d'Espagne,198 écus d'or d'Espagne
+1-II-0567,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
+1-II-0568,50.0,écu,d'or d'Espagne,50 écus d'or d'Espagne
+1-II-0571,200.0,écu,,200 écus
+1-II-0572,500.0,écu,d'or d'Espagne,500 écus d'or d'Espagne
+1-II-0573,63.0,écu,d'or d'Espagne,63 écus d'or d'Espagne
+1-II-0575,90.0,écu,,90 écus
+1-II-0575,3.0,écu,,3 écus
+1-II-0575,6000.0,écu,d'or d'Espagne,6.000 écus d'or d'Espagne
+1-II-0575,100.0,écu,,100 écus
+1-II-0575,1000.0,écu,,1.000 écus
+1-II-0575,750.0,écu,,750 écus
+1-II-0575,1000.0,écu,,1.000 écus
+1-II-0575,750.0,écu,,750 écus
+1-II-0575,500.0,écu,,500 écus
+1-II-0575,1250.0,écu,,1.250 écus
+1-II-0575,500.0,écu,,500 écus
+1-II-0575,250.0,écu,,250 écus
+1-II-0578,1150.0,écu,d'or d'Espagne,1.150 écus d'or d'Espagne
+1-II-0578,1150.0,écu,,1.150 écus
+1-II-0579,12.0,écu,d'or d'Espagne,12 écus d'or d'Espagne
+1-II-0580,130.0,écu,d'or d'Espagne,130 écus d'or d'Espagne
+1-II-0580,130.0,écu,,130 écus
+1-II-0580,20.0,écu,,20 écus
+1-II-0581,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-II-0583,117.0,écu,d'or d'Espagne,117 écus d'or d'Espagne
+1-II-0585,117.0,écu,d'or d'Espagne,117 écus d'or d'Espagne
+1-II-0586,162.0,écu,d'or d'Espagne,162 écus d'or d'Espagne
+1-II-0587,132.0,écu,d'or d'Espagne,132 écus d'or d'Espagne
+1-II-0588,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-II-0589,142.0,écu,,142 écus
+1-II-0592,252.0,écu,d'or sol,252 écus d'or sol
+1-II-0593,34.0,écu,,34 écus
+1-II-0595,68.0,écu,d'or d'Espagne,68 écus d'or d'Espagne
+1-II-0596,180.0,écu,d'or d'Espagne,180 écus d'or d'Espagne
+1-II-0597,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
+1-II-0598,310.0,écu,d'or d'Espagne,310 écus d'or d'Espagne
+1-II-0601,445.0,écu,,445 écus
+1-II-0603,42.0,écu,d'or d'Espagne,42 écus d'or d'Espagne
+1-II-0604,4500.0,écu,d'or d'Espagne,4.500 écus d'or d'Espagne
+1-II-0605,462.0,écu,d'or d'Espagne,462 écus d'or d'Espagne
+1-II-0605,318.0,écu,,318 écus
+1-II-0606,55.0,écu,d'or d'Espagne,55 écus d'or d'Espagne
+1-II-0608,10.0,écu,d'or,10 écus d'or
+1-II-0608,3.0,écu,d'or,3 écus d'or
+1-II-0609,107.0,écu,d'or d'Espagne,107 écus d'or d'Espagne
+1-II-0610,239.0,écu,,239 écus
+1-II-0611,142.0,écu,,142 écus
+1-II-0612,210.0,écu,d'or d'Espagne,210 écus d'or d'Espagne
+1-II-0613,325.0,once,de Sicile,325 onces de Sicile
+1-II-0614,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
+1-II-0615,925.0,écu,d'or d'Espagne,925 écus d'or d'Espagne
+1-II-0615,800.0,écu,,800 écus
+1-II-0615,800.0,écu,,800 écus
+1-II-0615,925.0,écu,,925 écus
+1-II-0615,125.0,écu,,125 écus
+1-II-0616,100.0,once,de Sicile,100 onces de Sicile
+1-II-0618,170.0,écu,d'or d'Espagne,170 écus d'or d'Espagne
+1-II-0619,110.0,écu,d'or d'Espagne,110 écus d'or d'Espagne
+1-II-0620,120.0,écu,d'or d'Espagne,120 écus d'or d'Espagne
+1-II-0621,174.0,écu,,174 écus
+1-II-0622,187.0,écu,,187 écus
+1-II-0623,83.0,once,,83 onces
+1-II-0623,8.0,tari,de Sicile,8 taris de Sicile
+1-II-0623,30.0,tari,,30 taris
+1-II-0624,167.0,once,,167 onces
+1-II-0625,103.0,once,,103 onces
+1-II-0625,8.0,tari,,8 taris
+1-II-0626,210.0,écu,d'or,210 écus d'or
+1-II-0627,200.0,écu,d'or,200 écus d'or
+1-II-0628,70.0,écu,d'or d'Espagne,70 écus d'or d'Espagne
+1-II-0629,25.0,écu,d'or d'Espagne,25 écus d'or d'Espagne
+1-II-0630,120.0,écu,d'or,120 écus d'or
+1-II-0631,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
+1-II-0632,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0633,70.0,écu,d'or,70 écus d'or
+1-II-0634,40.0,écu,d'or d'Espagne,40 écus d'or d'Espagne
+1-II-0634,140.0,écu,,140 écus
+1-II-0635,780.0,écu,d'or d'Espagne,780 écus d'or d'Espagne
+1-II-0635,3.0,écu,d'or,3 écus d'or
+1-II-0636,130.0,écu,,130 écus
+1-II-0637,318.0,écu,d'or d'Espagne,318 écus d'or d'Espagne
+1-II-0637,28.0,écu,,28 écus
+1-II-0638,341.0,écu,,341 écus
+1-II-0638,291.0,écu,,291 écus
+1-II-0638,50.0,écu,,50 écus
+1-II-0642,40.0,écu,d'or d'Espagne,40 écus d'or d'Espagne
+1-II-0649,20.0,écu,d'or,20 écus d'or
+1-II-0650,226.0,écu,d'or d'Espagne,226 écus d'or d'Espagne
+1-II-0651,67.0,écu,,67 écus
+1-II-0652,94.0,écu,,94 écus
+1-II-0656,90.0,écu,,90 écus
+1-II-0656,56.0,aspre,,56 aspres
+1-II-0657,74.0,écu,,74 écus
+1-II-0660,300.0,écu,,300 écus
+1-II-0660,730.0,écu,,730 écus
+1-II-0660,250.0,écu,,250 écus
+1-II-0660,1270.0,écu,d'or d'Espagne,1.270 écus d'or d'Espagne
+1-II-0661,3700.0,écu,d'or,3.700 écus d'or
+1-II-0662,50.0,écu,d'or d'Espagne,50 écus d'or d'Espagne
+1-II-0663,40.0,écu,d'or d'Espagne,40 écus d'or d'Espagne
+1-II-0664,400.0,écu,d'or,400 écus d'or
+1-II-0666,150.0,ducat,,150 ducats
+1-II-0667,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0668,185.0,écu,d'or d'Espagne,185 écus d'or d'Espagne
+1-II-0669,185.0,écu,d'or d'Espagne,185 écus d'or d'Espagne
+1-II-0670,252.0,once,,252 onces
+1-II-0670,7.0,tari,,7 taris
+1-II-0670,30.0,tari,,30 taris
+1-II-0673,315.0,écu,d'or d'Espagne,315 écus d'or d'Espagne
+1-II-0675,205.0,écu,d'or d'Espagne,205 écus d'or d'Espagne
+1-II-0677,32.0,écu,,32 écus
+1-II-0678,34.0,écu,,34 écus
+1-II-0680,116.0,écu,d'or d'Espagne,116 écus d'or d'Espagne
+1-II-0681,32.0,écu,d'or d'Espagne,32 écus d'or d'Espagne
+1-II-0682,330.0,écu,d'or d'Espagne,330 écus d'or d'Espagne
+1-II-0683,152.0,écu,d'or d'Espagne,152 écus d'or d'Espagne
+1-II-0686,71.0,écu,,71 écus
+1-II-0688,82.0,écu,d'or d'Espagne,82 écus d'or d'Espagne
+1-II-0689,75.0,écu,d'or,75 écus d'or
+1-II-0690,15.0,écu,d'or d'Espagne,15 écus d'or d'Espagne
+1-II-0691,200.0,écu,d'or d'Espagne,200 écus d'or d'Espagne
+1-II-0692,115.0,écu,d'or d'Espagne,115 écus d'or d'Espagne
+1-II-0693,312.0,écu,,312 écus
+1-II-0693,12.0,réal,,12 réaux
+1-II-0695,160.0,écu,d'or,160 écus d'or
+1-II-0697,45.0,écu,d'or d'Espagne,45 écus d'or d'Espagne
+1-II-0698,133.0,écu,d'or d'Espagne,133 écus d'or d'Espagne
+1-II-0700,180.0,écu,d'or d'Espagne,180 écus d'or d'Espagne
+1-II-0701,154.0,écu,d'or d'Espagne,154 écus d'or d'Espagne
+1-II-0702,40.0,écu,,40 écus
+1-II-0702,12.0,tari,,12 taris
+1-II-0703,250.0,écu,d'or d'Espagne,250 écus d'or d'Espagne
+1-II-0704,112.0,ducat,,112 ducats
+1-II-0704,10.0,carlin,,10 carlins
+1-II-0705,120.0,écu,d'or d'Espagne,120 écus d'or d'Espagne
+1-II-0706,14.0,once,,14 onces
+1-II-0706,30.0,tari,,30 taris
+1-II-0707,44.0,écu,d'or d'Espagne,44 écus d'or d'Espagne
+1-II-0708,35.0,écu,d'or d'Espagne,35 écus d'or d'Espagne
+1-II-0709,116.0,écu,d'or d'Espagne,116 écus d'or d'Espagne
+1-II-0710,550.0,écu,,550 écus
+1-II-0711,148.0,écu,d'or d'Espagne,148 écus d'or d'Espagne
+1-II-0712,200.0,écu,d'or d'Espagne,200 écus d'or d'Espagne
+1-II-0713,160.0,écu,d'or d'Espagne,160 écus d'or d'Espagne
+1-II-0716,410.0,réal,,410 réaux
+1-II-0716,250.0,écu,,250 écus
+1-II-0717,679.0,écu,d'or d'Espagne,679 écus d'or d'Espagne
+1-II-0718,215.0,écu,d'or d'Espagne,215 écus d'or d'Espagne
+1-II-0719,173.0,écu,d'or d'Espagne,173 écus d'or d'Espagne
+1-II-0720,311.0,écu,d'or d'Espagne,311 écus d'or d'Espagne
+1-II-0721,146.0,écu,d'or d'Espagne,146 écus d'or d'Espagne
+1-II-0722,25.0,écu,d'or d'Espagne,25 écus d'or d'Espagne
+1-II-0723,35.0,écu,d'or d'Espagne,35 écus d'or d'Espagne
+1-II-0724,10.0,écu,,10 écus
+1-II-0725,330.0,écu,d'or d'Espagne,330 écus d'or d'Espagne
+1-II-0726,330.0,écu,,330 écus
+1-II-0727,105.0,écu,d'or d'Espagne,105 écus d'or d'Espagne
+1-II-0728,387.0,écu,,387 écus
+1-II-0729,235.0,écu,d'or d'Espagne,235 écus d'or d'Espagne
+1-II-0730,37.0,écu,d'or d'Espagne,37 écus d'or d'Espagne
+1-II-0731,300.0,écu,,300 écus
+1-II-0731,200.0,écu,,200 écus
+1-II-0732,136.0,livre,,136 livres
+1-II-0732,4.0,réal,,4 réaux
+1-II-0733,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-II-0733,50.0,écu,,50 écus
+1-II-0734,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-II-0736,93.0,écu,d'or d'Espagne,93 écus d'or d'Espagne
+1-II-0737,24.0,écu,d'or d'Espagne,24 écus d'or d'Espagne
+1-II-0738,135.0,écu,d'or d'Espagne,135 écus d'or d'Espagne
+1-II-0739,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
+1-II-0740,600.0,écu,,600 écus
+1-II-0741,72.0,écu,d'or d'Espagne,72 écus d'or d'Espagne
+1-II-0742,800.0,écu,d'or,800 écus d'or
+1-II-0743,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0744,220.0,écu,d'or,220 écus d'or
+1-II-0746,10.0,écu,d'or d'Espagne,10 écus d'or d'Espagne
+1-II-0747,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
+1-II-0747,400.0,écu,,400 écus
+1-II-0748,400.0,écu,d'or d'Espagne,400 écus d'or d'Espagne
+1-II-0748,200.0,écu,,200 écus
+1-II-0749,213.0,écu,d'or d'Espagne,213 écus d'or d'Espagne
+1-II-0756,135.0,écu,d'or d'Espagne,135 écus d'or d'Espagne
+1-II-0757,10.0,écu,d'or,10 écus d'or
+1-II-0759,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-II-0760,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
+1-II-0761,330.0,écu,d'or d'Espagne,330 écus d'or d'Espagne
+1-II-0762,130.0,écu,d'or d'Espagne,130 écus d'or d'Espagne
+1-II-0763,53.0,écu,d'or d'Espagne,53 écus d'or d'Espagne
+1-II-0764,79.0,écu,d'or d'Espagne,79 écus d'or d'Espagne
+1-II-0765,55.0,écu,d'or d'Espagne,55 écus d'or d'Espagne
+1-II-0766,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-II-0767,86.0,écu,d'or d'Espagne,86 écus d'or d'Espagne
+1-II-0768,133.0,écu,d'or d'Espagne,133 écus d'or d'Espagne
+1-II-0769,133.0,écu,d'or d'Espagne,133 écus d'or d'Espagne
+1-II-0770,92.0,écu,d'or d'Espagne,92 écus d'or d'Espagne
+1-II-0772,400.0,écu,d'or d'Espagne,400 écus d'or d'Espagne
+1-II-0772,300.0,écu,,300 écus
+1-II-0775,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-II-0776,110.0,écu,d'or d'Espagne,110 écus d'or d'Espagne
+1-II-0777,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-II-0779,260.0,écu,d'or d'Espagne,260 écus d'or d'Espagne
+1-II-0780,330.0,écu,d'or d'Espagne,330 écus d'or d'Espagne
+1-II-0781,45.0,écu,d'or d'Espagne,45 écus d'or d'Espagne
+1-II-0782,500.0,écu,d'or d'Espagne,500 écus d'or d'Espagne
+1-II-0783,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
+1-II-0784,85.0,écu,d'or,85 écus d'or
+1-II-0785,3899.0,écu,d'or d'Espagne,3899 écus d'or d'Espagne
+1-II-0785,8.0,aspre,,8 aspres
+1-II-0789,50.0,écu,d'or,50 écus d'or
+1-II-0790,20.0,écu,d'or d'Espagne,20 écus d'or d'Espagne
+1-II-0791,20.0,écu,d'or d'Espagne,20 écus d'or d'Espagne
+1-II-0792,26.0,écu,d'or d'Espagne,26 écus d'or d'Espagne
+1-II-0793,200.0,écu,d'or d'Espagne,200 écus d'or d'Espagne
+1-II-0794,100.0,écu,d'or,100 écus d'or
+1-II-0795,100.0,écu,d'or,100 écus d'or
+1-II-0797,160.0,écu,d'or d'Espagne,160 écus d'or d'Espagne
+1-II-0799,40.0,écu,d'or d'Espagne,40 écus d'or d'Espagne
+1-II-0800,25.0,écu,d'or d'Espagne,25 écus d'or d'Espagne
+1-II-0801,256.0,écu,,256 écus
+1-II-0802,50.0,écu,,50 écus
+1-II-0803,110.0,écu,d'or d'Espagne,110 écus d'or d'Espagne
+1-II-0804,20.0,écu,d'or,20 écus d'or
+1-II-0805,110.0,écu,d'or d'Espagne,110 écus d'or d'Espagne
+1-II-0806,51.0,écu,d'or,51 écus d'or
+1-II-0808,51.0,écu,,51 écus
+1-II-0810,38.0,écu,d'or d'Espagne,38 écus d'or d'Espagne
+1-II-0811,245.0,ducat,de Naples,245 ducats de Naples
+1-II-0812,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0812,60.0,écu,,60 écus
+1-II-0813,132.0,écu,d'or d'Espagne,132 écus d'or d'Espagne
+1-II-0814,133.0,écu,d'or d'Espagne,133 écus d'or d'Espagne
+1-II-0815,58.0,once,de Sicile,58 onces de Sicile
+1-II-0815,30.0,tari,,30 taris
+1-II-0816,133.0,écu,d'or d'Espagne,133 écus d'or d'Espagne
+1-II-0817,845.0,écu,d'or d'Espagne,845 écus d'or d'Espagne
+1-II-0819,152.0,sequin,,152 sequins
+1-II-0819,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
+1-II-0821,135.0,écu,d'or d'Espagne,135 écus d'or d'Espagne
+1-II-0822,135.0,écu,d'or d'Espagne,135 écus d'or d'Espagne
+1-II-0823,4.0,aspre,,4 aspres
+1-II-0824,160.0,écu,,160 écus
+1-II-0825,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+1-II-0826,60.0,écu,d'or d'Espagne,60 écus d'or d'Espagne
+1-II-0827,653.0,écu,,653 écus
+1-II-0828,78.0,écu,,78 écus
+1-II-0828,20.0,aspre,,20 aspres
+1-II-0829,113.0,écu,,113 écus
+1-II-0830,72.0,écu,d'or d'Espagne,72 écus d'or d'Espagne
+1-II-0831,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
+1-II-0832,110.0,écu,,110 écus
+1-II-0834,12.0,écu,d'or d'Espagne,12 écus d'or d'Espagne
+1-II-0834,162.0,écu,,162 écus
+1-II-0835,4.0,écu,d'or d'Espagne,4 écus d'or d'Espagne
+1-II-0835,154.0,écu,,154 écus
+1-II-0836,4.0,écu,d'or d'Espagne,4 écus d'or d'Espagne
+1-II-0836,164.0,écu,,164 écus
+1-II-0837,3.0,écu,d'or d'Espagne,3 écus d'or d'Espagne
+1-II-0837,128.0,écu,,128 écus
+1-II-0838,23.0,écu,d'or d'Espagne,23 écus d'or d'Espagne
+1-II-0838,198.0,écu,,198 écus
+1-II-0839,277.0,écu,d'or d'Espagne,277 écus d'or d'Espagne
+1-II-0840,107.0,écu,d'or d'Espagne,107 écus d'or d'Espagne
+1-II-0841,39.0,écu,d'or d'Espagne,39 écus d'or d'Espagne
+1-II-0842,133.0,écu,d'or d'Espagne,133 écus d'or d'Espagne
+1-II-0843,120.0,écu,d'or d'Espagne,120 écus d'or d'Espagne
+1-II-0845,50.0,écu,d'or d'Espagne,50 écus d'or d'Espagne
+1-II-0846,26.0,écu,d'or d'Espagne,26 écus d'or d'Espagne
+1-II-0847,22.0,écu,d'or,22 écus d'or
+1-II-0848,140.0,écu,,140 écus
+1-II-0849,135.0,écu,d'or,135 écus d'or
+1-II-0849,135.0,écu,,135 écus
+1-II-0849,175.0,écu,,175 écus
+1-II-0850,70.0,once,,70 onces
+1-II-0851,172.0,écu,,172 écus
+1-II-0852,25.0,écu,,25 écus
+1-II-0853,190.0,écu,d'or d'Espagne,190 écus d'or d'Espagne
+1-II-0853,74.0,once,de Sicile,74 onc-es de Sicile
+1-II-0853,140.0,écu,,140 écus
+1-II-0853,60.0,écu,,60 écus
+1-II-0853,400.0,écu,,400 écus
+1-II-0853,93.0,écu,,93 écus
+1-II-0854,125.0,écu,d'or d'Espagne,125 écus d'or d'Espagne
+1-II-0855,322.0,écu,d'or d'Espagne,322 écus d'or d'Espagne
+1-II-0856,16.0,écu,d'or d'Espagne,16 écus d'or d'Espagne
+1-II-0857,125.0,écu,d'or d'Espagne,125 écus d'or d'Espagne

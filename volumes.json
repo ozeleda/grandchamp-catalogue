@@ -1,0 +1,77 @@
+{
+  "_comment": "One entry per volume. page_offset = PDF page number minus printed (arabic) page number. Page ranges are printed page numbers, inclusive. year_fixes maps 'printed_page:OCR token' to the correct year, checked against the page image. day_fixes maps 'printed_page:OCR day token' to the day; toc_page_fixes maps 'part:document number' to the printed start page.",
+  "volumes": [
+    {
+      "id": 1,
+      "file": "pdfs/La France en Tunisie v.1.pdf",
+      "title": "La France en Tunisie à la fin du XVIe siècle (1582-1600)",
+      "author": "Pierre Grandchamp",
+      "published": "Tunis, Société anonyme de l'Imprimerie rapide, 1920",
+      "period_start": "1582-07-12",
+      "period_end": "1600-03-03",
+      "source_url": "https://archive.org/details/lafranceentunisi01gran",
+      "page_offset": 28,
+      "analysis_pages": [
+        3,
+        104
+      ],
+      "registers": [
+        {
+          "number": "I",
+          "label": "Premier registre",
+          "start_page": 3,
+          "date_start": "1582-07-12",
+          "date_end": "1590-12-29"
+        },
+        {
+          "number": "II",
+          "label": "Second registre",
+          "start_page": 29,
+          "date_start": "1591-01-04",
+          "date_end": "1600-03-03"
+        }
+      ],
+      "parts": [
+        {
+          "number": "II",
+          "label": "Actes concernant la Nation française",
+          "toc_pages": [
+            223,
+            225
+          ],
+          "text_pages": [
+            105,
+            160
+          ]
+        },
+        {
+          "number": "III",
+          "label": "Actes concernant les Compagnies du Corail",
+          "toc_pages": [
+            225,
+            227
+          ],
+          "text_pages": [
+            161,
+            221
+          ]
+        }
+      ],
+      "year_fixes": {
+        "10:i58fl": 1586,
+        "18:1580": 1589,
+        "72:159Ô": 1595,
+        "76:159Ô": 1595
+      },
+      "day_fixes": {
+        "53:0": 9,
+        "67:2\\": 24,
+        "100:l'i": 14,
+        "101:2-i": 20
+      },
+      "toc_page_fixes": {
+        "II:22": 140
+      }
+    }
+  ]
+}
