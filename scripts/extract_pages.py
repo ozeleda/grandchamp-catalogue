@@ -20,6 +20,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
 
 NUM_LINE = re.compile(r"^[\s\-–—~.:|_]*(\d{1,3})[\s\-–—~.:|_]*$")
 YEAR_LINE = re.compile(r"^\s*1[56]\d\d\s*$")
@@ -74,6 +75,69 @@ def clean_second(text):
     return "\n".join(l[cut:] if len(l) - len(l.lstrip()) >= cut else l.lstrip() for l in out)
 
 
+def tesseract_page(pdf, page):
+    """OCR one page image with Tesseract, keeping the layout (scripts/ocr_volume.py)."""
+    import tempfile
+    import ocr_volume as V
+    with tempfile.TemporaryDirectory() as tmp:
+        img = V.render(pdf, page, tmp)
+        img, _ = V.deskew(img)
+        text = V.layout_text(V.ocr_words(img, tmp), img.width)
+    return "\n".join(l for l in text.split("\n") if not re.fullmatch(r"\s*(?:Google|Digitized by.*|Original from.*)\s*", l))
+
+
+MARGIN = re.compile(r"^(\s{0,4})((?:1er|\d{1,2}|s\. d\.|\?|\.{2,})(?:\s+[a-zéû]{3,9}\.?)?(?:\s+[—–-]{1,3})?|[—–-]{1,3}|\S{1,3}\s+[—–-])"
+                    r"(?=\s{2,}(?:En \w+\. —|\(|[A-ZÉ«]))")
+
+
+def transplant_dates(tess, google, lab):
+    """Tesseract reads the text of a curved page well but misses some margin days (it
+    renders them as « — »); the Google OCR of the same page has the dates right. Act starts
+    are matched by their first words (in order) and take the Google margin date."""
+    import difflib
+    def key(rest):
+        return re.sub(r"[^a-z0-9]", "", rest.lower().replace("en italien", ""))[:30]
+    gl = [(m.group(2), key(l[m.end():])) for l in google.split("\n") for m in [MARGIN.match(l)] if m]
+    tl = tess.split("\n")
+    j, moved, missed = 0, 0, 0
+    for i, l in enumerate(tl):
+        m = MARGIN.match(l)
+        if not m:
+            continue
+        k = key(l[m.end():])
+        hit = None
+        for jj in range(j, min(j + 4, len(gl))):
+            if difflib.SequenceMatcher(None, k, gl[jj][1]).ratio() >= 0.6:
+                hit = jj
+                break
+        if hit is None:
+            missed += 1
+            continue
+        d = gl[hit][0]
+        j = hit + 1
+        if d != m.group(2).strip():
+            tl[i] = m.group(1) + d + " " * max(4, 12 - len(m.group(1) + d)) + l[m.end():].lstrip()
+            moved += 1
+    if missed:
+        print(f"  ? {lab}: {missed} act start(s) without a matching Google margin date", file=sys.stderr)
+    return "\n".join(tl)
+
+
+def reindent(text):
+    """Tesseract layout of a page without margin dates starts its text at column 0, where
+    the parser expects dates: move such pages' text to the usual indent."""
+    date = re.compile(r"^\s{0,3}(?:\d{1,2}(?:er)?|1er|s\.\s?d\.|[—–-])\s*(?:[a-zéû]{2,6}\.?|[—–-]{1,3})?\s{2,}\S")
+    lines = text.split("\n")
+    body = [l for l in lines if len(l.strip()) > 20]
+    if any(date.match(l) for l in lines) or not body:
+        return text
+    lead = min(len(l) - len(l.lstrip()) for l in body)
+    if lead >= 8:
+        return text
+    return "\n".join(l if re.fullmatch(r"\s*[—–-]?\s*\d{1,4}\s*[—–|-]*\s*", l) or not l.strip()
+                     else " " * (12 - lead) + l for l in lines)
+
+
 def normalise(text):
     out = []
     for l in text.split("\n"):
@@ -81,7 +145,13 @@ def normalise(text):
         l = re.sub(r"^(\s{0,6}(?:\S{1,3}\s+)?[a-zéû]{2,6}) \.(?=\s)", r"\1.", l)               # margin "oct ." -> "oct."
         l = re.sub(r"[\u0590-\u08ff\u200e\u200f\u202a-\u202e]+", "", l)   # stray Arabic/bidi glyphs
         l = re.sub(r"^(\s*1[56]\d\d)\s?\.\s*$", r"\1", l)              # year heading "1606 ."
-        l = re.sub(r"^(\s{0,3})s\. d \.", r"\1s. d.", l)
+        l = re.sub(r"^(\s{0,3})s\s?\.\s?d\s?\.", r"\1s. d.", l)
+        l = re.sub(r"^(\s{0,3})1\s?or\b", r"\g<1>1er", l)                  # OCR "1or" / "1 or"
+        l = re.sub(r"^(\s{0,3}\d{1,2})\s?\(\s?\?\)", r"\1", l)              # "9( ?)" -> "9"
+        l = re.sub(r"^(\s{0,3}\d{1,2}) \(\s?\?\) ([a-zéû]{3,9})\s?\.?", r"\1 \2.", l)  # "2 ( ?) mars ."
+        l = re.sub(r"^(\s{0,3})\.\.\s([a-zéû]{3,9}\.)", r"\1\2", l)             # ".. fév." (day lost)
+        l = re.sub(r"^(\s{0,3})(?:\d(?=\d\d\s+[—–-]))", r"\1", l)                # "926 —" -> "26 —"
+        l = re.sub(r"^(\s{0,3})\(\s?(\d{1,2}\s+[—–-])", r"\1\2", l)            # "(4  —" -> "4  —"
         l = re.sub(r"^[-.]?(\d{1,2})[.]?(?=\s{3,}\S)", r"\1", l)           # margin "26." / "-16" / ".27"
         l = re.sub(r"^(\S.{0,14}?\s{2,})\. (?=En )", r"\1", l)            # "15     . En italien"
         l = re.sub(r"^(\d{1,2}(?:er)?(?:\s+[a-zéû]{2,6}\.?)?\s{3,})(\d{3,4})(\s+[A-Z])", r"\1(\2)\3", l)
@@ -252,6 +322,27 @@ def main():
             fm += 1
             labels[i] = f"fm{fm:02d}"
 
+    # Pages whose Google OCR layout is scrambled (curved pages): OCR the page image with
+    # Tesseract instead (cached in text/vol<N>/tesseract/, so it runs once).
+    thr = vol.get("tesseract_threshold")
+    if thr:
+        from concurrent.futures import ThreadPoolExecutor
+        import page_quality
+        cache_dir = ROOT / "text" / f"vol{vid}" / "tesseract"
+        cache_dir.mkdir(exist_ok=True)
+        todo = []
+        for (name, p, t, n), lab in zip(seq, labels):
+            if lab and re.fullmatch(r"p\d+", lab) and vol["analysis_pages"][0] <= int(lab[1:]) <= vol["analysis_pages"][1] \
+                    and page_quality.score(normalise(t))[0] >= thr \
+                    and not (cache_dir / f"{lab}.txt").exists():
+                todo.append((lab, name, p))
+        def run(job):
+            lab, name, p = job
+            (cache_dir / f"{lab}.txt").write_text(tesseract_page(ROOT / name, p), encoding="utf-8")
+        with ThreadPoolExecutor(4) as ex:
+            list(ex.map(run, todo))
+        if todo:
+            print(f"  tesseract: {len(todo)} pages OCR'd", file=sys.stderr)
     fixes_path = ROOT / "text" / f"vol{vid}" / "fixes.json"
     page_fixes = json.loads(fixes_path.read_text(encoding="utf-8")).get("pages", []) if fixes_path.exists() else []
     index = {}
@@ -261,11 +352,14 @@ def main():
         if lab in vol.get("second_ocr_pages", []):
             # scrambled in this scan (curved page): use the other copy's OCR instead
             t = clean_second((ROOT / vol["text_source"] / f"{lab}.txt").read_text(encoding="utf-8"))
+        tess = ROOT / "text" / f"vol{vid}" / "tesseract" / f"{lab}.txt"
+        if tess.exists():
+            t = transplant_dates(reindent(tess.read_text(encoding="utf-8")), normalise(t), lab)
         hand = ROOT / "text" / f"vol{vid}" / "transcribed" / f"{lab}.txt"
         if hand.exists():
             # pages the OCR scrambled, transcribed by hand from the page image
             t = hand.read_text(encoding="utf-8")
-        t = normalise(t)
+        t = normalise(normalise(t))        # a second pass settles lines the first one moved
         for f in page_fixes:          # hand corrections of the page text, checked against the scan
             if f["page"] == lab:
                 if f["old"] not in t:

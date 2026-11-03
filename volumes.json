@@ -284,6 +284,11 @@
           ],
           "title": "table des matières, table des signatures et corrections"
         }
+      },
+      "tesseract_threshold": 20,
+      "year_fixes": {
+        "130:1613": 1615,
+        "141:1613": 1615
       }
     }
   ]

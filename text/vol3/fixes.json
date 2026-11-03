@@ -1,0 +1,30 @@
+{
+ "_comment": "Hand corrections, checked against the page images of the HathiTrust scan. 'pages' edits the page text before parsing (scripts/extract_pages.py); 'acts' edits parsed acts, found by a snippet of their text (scripts/organize_text.py).",
+ "pages": [
+  {
+   "page": "p040",
+   "old": "20 Xbre 1611. —   Copie",
+   "new": "20 déc.          Copie",
+   "note": "the margin gives the date of the letter copied (20 décembre 1611)"
+  },
+  {
+   "page": "p120",
+   "old": "26 ---        Pierre Poisse",
+   "new": "26  —         Pierre Poisse"
+  },
+  {
+   "page": "p255",
+   "old": "1647 |",
+   "new": "1617"
+  }
+ ],
+ "acts": {
+  "date": [
+   {
+    "find": "Copie de la lettre de la Roine régente",
+    "date": "1611-12-20",
+    "note": "Copy of a letter dated 20 December 1611 (the margin gives the letter's date), registered among the acts of 1612."
+   }
+  ]
+ }
+}

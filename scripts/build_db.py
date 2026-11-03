@@ -58,7 +58,7 @@ ENTRY_RE = re.compile(
     r"^(?P<indent> {0,6})(?P<br>\[)?"
     r"(?:(?P<sd>[s3]\.\s?d\.)[-.]?"
     r"|(?P<day>1er|[0-9iIlOBGSU?'\\)*\"«°”’\-]{1,4}?)\s*"
-    r"(?P<month>\.?[a-zéû]{2,5}(?: [a-z])?[.;,\"’]*|[—–\-~=_]{1,2})\]?"
+    r"(?P<month>\.?[a-zéû]{2,5}(?: [a-z])?[.;,\"’]*|juillet|janvier|février|avril|septembre|octobre|novembre|décembre|[—–\-~=_]{1,2})\]?"
     r"|(?P<dayonly>[0-9]{1,2}(?:er)?)(?=\s{4,}[A-ZÉ«(]))"
     r"(?=\s|$)\s*(?P<rest>.*)$"
 )
@@ -213,6 +213,9 @@ def match_entry(line, day_fixes, page, strict=False):
         return {"undated": False, "day_tok": m.group("dayonly"), "month": None, "ditto": True,
                 "bracket": False, "m": m}
     day_tok, mtok = m.group("day"), m.group("month")
+    if mtok == "er" and day_tok == "1":          # "1er" alone: the 1st, same month as above
+        return {"undated": False, "day_tok": "1er", "month": None, "ditto": True,
+                "bracket": bool(m.group("br")), "m": m}
     # Accept the day if it parses, has a manual fix, or is a short damaged token
     # (kept with day = NULL); reject longer tokens such as "240 écus" or "1593 roi".
     if (norm_day(day_tok) is None and f"{page}:{day_tok}" not in day_fixes
@@ -413,6 +416,23 @@ def parse_analysis(pdf, vol):
             in_office[role] = name
             if role == "consul":
                 in_office["vice_consul"] = None if in_office["vice_consul"] == name else in_office["vice_consul"]
+            continue
+        lone = re.match(r"^\s{0,3}(?P<tok>[—–-]{1,3}|\?(?:\s+(?P<m>[a-zéû]{3,9})\.?)?(?:\s+[—–-])?)\s{3,}(?P<rest>(?:En \w+\. — |\(|[A-ZÉ«]).*)$", line)
+        if started and noisy(vol) and vol.get("pages_dir") and lone:
+            # "—" alone: same date as the act above; "?" : the day is not known
+            flush()
+            unknown = lone.group("tok").startswith("?")
+            if lone.group("m") and norm_month(lone.group("m") + ".", True):
+                month = norm_month(lone.group("m") + ".", True)
+            current = {
+                "register": reg["number"], "year": year, "month": month,
+                "day": None if unknown else (last_day or None), "undated": False, "date_supplied": False,
+                "date_raw": lone.group("tok"), "page": printed, "pdf_page": pdf_page,
+                "lines": [lone.group("rest")], "day_guess": False,
+                "consul": in_office["consul"], "vice_consul": in_office["vice_consul"],
+                "chancelier": in_office["chancelier"],
+            }
+            year_seen = False
             continue
         em = (match_entry(line, vol.get("day_fixes", {}), printed,
                           "hathi" if vol.get("pages_dir") and noisy(vol) else bool(noisy(vol)))
