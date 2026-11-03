@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 716,
+ "reviewed_through_seq": 756,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -6401,6 +6401,364 @@
   },
   "2-IV-0716": {
    "drop": true
+  },
+  "2-IV-0717": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "lender",
+   "other_parties_names": "D. Vito Zorba",
+   "other_parties_role": "principal (brother of party 1, on whose account paid)",
+   "price": 27.25,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for the balance of his ransom",
+   "keywords": "ransom; loan; family"
+  },
+  "2-IV-0718": {
+   "matter": "Recovery of debts",
+   "keywords": "debt collection"
+  },
+  "2-IV-0719": {
+   "transaction_type": "Surety",
+   "party1_role": "guarantor",
+   "party2_name": "Gio Silvestra Rubiano",
+   "party2_role": "principal (sergeant)",
+   "other_parties_names": "Cassem Ali; Don Diego Ossorio",
+   "other_parties_origins": "maure de Bizerte; ",
+   "other_parties_role": "Muslim slave to be freed; witness",
+   "matter": "Surety for Rubiano's undertaking concerning the release of Cassem Ali",
+   "keywords": "surety; captive exchange"
+  },
+  "2-IV-0720": {
+   "price": 32.5,
+   "currency": "écus d'or d'Espagne",
+   "keywords": "payment"
+  },
+  "2-IV-0721": {
+   "transaction_type": "Redemption",
+   "party1_role": "declarant",
+   "other_parties_names": "Gio Maria Collo",
+   "other_parties_origins": "vénitien",
+   "other_parties_role": "ransomed captive",
+   "matter": "Certifies that Collo paid his ransom and the related fees",
+   "keywords": "ransom; certification"
+  },
+  "2-IV-0722": {
+   "transaction_type": "Declaration / attestation",
+   "party1_origins": "corse; corse; corse",
+   "party1_role": "expert; expert; expert",
+   "other_parties_names": "Agniole Santo Mirandola",
+   "other_parties_role": "owner of the cloth",
+   "matter": "Found two pieces of damask belonging to Mirandola stained",
+   "keywords": "damask; damaged goods; survey"
+  },
+  "2-IV-0723": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Antonio Durano",
+   "party1_origins": "de Marseille",
+   "party1_role": "declarant, ship's captain",
+   "other_parties_names": "5 galleys (of Bizerte)",
+   "other_parties_role": "captors",
+   "matter": "Sea protest: the « Madalena », from Alexandretta (21 Sept.) to Marseille with silk, cotton and copper, was taken on 18 October 25 miles beyond Pantelleria, towed to Porto Farina and La Goulette, unloaded, and the crew chained despite the consul's efforts",
+   "notes": "Folio 34 of the register (OCR 84). An illegible note at the foot; seven crew depositions follow.",
+   "keywords": "sea protest; corsairs; galleys; silk; cotton"
+  },
+  "2-IV-0724": {
+   "party1_role": "recipient (captain, officers and crew of the « Madalena »)",
+   "party2_name": "Streni Morellett",
+   "party2_role": "payer",
+   "other_parties_names": "Ossoman Dey",
+   "other_parties_role": "gave them goods for food and passage",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "62 aspres",
+   "matter": "Payment for goods given to them by Ossoman Dey for food and passage",
+   "notes": "Three witness statements follow. Concerns the « Madalena ».",
+   "keywords": "crew; ship; Madalena"
+  },
+  "2-IV-0725": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Amangaccio",
+   "party1_role": "declarant, ship master (patron) of the barque « San Lazaro buona ventura »",
+   "other_parties_names": "5 galleys of Bizerte",
+   "other_parties_role": "captors",
+   "matter": "Sea protest: left Marseille for Venice on 17 August; taken and plundered on the 27th 4 miles off Lipari; crew chained, brought to Tunis and finally freed; one man killed in a fight with a Slavonian (?) ship",
+   "notes": "Three witness statements follow.",
+   "keywords": "sea protest; corsairs; galleys"
+  },
+  "2-IV-0726": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Anto Durand; Lucha Bastide dit Martin; Vittor Frontier",
+   "party1_role": "declarant, captain; declarant; declarant",
+   "other_parties_names": "Ossoman Dey",
+   "other_parties_role": "dey, « who commands this kingdom »",
+   "matter": "The captured crew of the « Madalena » asked Ossoman Dey, present at the unloading, for something to avoid starving; moved, he gave them some goods « to eat »",
+   "notes": "Three witness statements follow.",
+   "keywords": "crew; Madalena; dey"
+  },
+  "2-IV-0727": {
+   "transaction_type": "Declaration / attestation",
+   "party1_origins": "de Marseille; de Marseille",
+   "party1_role": "declarant; declarant",
+   "other_parties_names": "Pierre Cattaccioli; Mustafa",
+   "other_parties_origins": "; renégat anglais",
+   "other_parties_role": "ship master (patron) of « Le grand Henrich »; corsair who took the goods",
+   "matter": "English corsairs led by Mustafa took brandy and tobacco they had brought from Marseille, in the roads of La Goulette",
+   "notes": "Two witness statements follow.",
+   "keywords": "brandy; tobacco; corsairs; English"
+  },
+  "2-IV-0728": {
+   "transaction_type": "Surety",
+   "party1_origins": "juif",
+   "party1_role": "guarantor",
+   "party2_name": "Giacobo Salvagho",
+   "party2_origins": "gouverneur de Tabarca",
+   "party2_role": "principal debtor, governor of Tabarca",
+   "other_parties_names": "Domenico Martalotto; Hisuffo Chiausso",
+   "other_parties_role": "captive (ransomed); slave-owner",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Surety for a 112-écu debt for the ransom of Domenico Martalotto",
+   "keywords": "surety; ransom; Jews; Tabarca"
+  },
+  "2-IV-0729": {
+   "transaction_type": "Payment / receipt",
+   "party1_origins": "de Naples",
+   "party1_role": "recipient, ship master (patron)",
+   "party2_name": "Gio Angelo Paulillo",
+   "party2_origins": "de Naples",
+   "party2_role": "payer",
+   "currency": "écus",
+   "matter": "Payment of 50 écus owed to him",
+   "keywords": "payment; debt"
+  },
+  "2-IV-0730": {
+   "party1_origins": "de Naples",
+   "party1_role": "summoning party, ship master (patron)",
+   "party2_name": "Gio Angelo Paulillo",
+   "currency": "écus",
+   "matter": "Summons to pay 85 écus",
+   "decision": "Paulillo replies he will pay at Naples",
+   "keywords": "debt; summons"
+  },
+  "2-IV-0731": {
+   "party1_origins": "de Marseille; de Marseille; de Marseille",
+   "party2_origins": "de la Ciotat",
+   "price": 47.5,
+   "currency": "écus",
+   "matter": "Ransom loan, repayable forty days after arrival at Marseille",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0732": {
+   "party1_role": "declarant, ship master (patron)",
+   "other_parties_names": "Andrea",
+   "other_parties_origins": "vénitien",
+   "other_parties_role": "sailor who deserted",
+   "matter": "Declares one of his sailors left without reason for another ship",
+   "notes": "Two witness statements follow.",
+   "keywords": "crew; desertion"
+  },
+  "2-IV-0733": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "requesting party, lender",
+   "other_parties_names": "Pietro Castagna; Mamet bey",
+   "other_parties_origins": "catalan; ",
+   "other_parties_role": "borrower, slave; slave-owner",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Lent 100 écus eight months ago to Castagna to ransom himself, without a written act; asks for witnesses",
+   "notes": "Three witness statements follow.",
+   "keywords": "ransom; loan; witnesses"
+  },
+  "2-IV-0734": {
+   "transaction_type": "Protest / summons",
+   "party1_role": "claimant (sailor); claimant; claimant; claimant; claimant",
+   "party2_name": "Pierre Cattaccioli",
+   "party2_role": "captain, ship master (patron) of the « Grand Henrich »",
+   "other_parties_names": "the Divan and the Pacha",
+   "other_parties_role": "prevented the ship from sailing",
+   "matter": "Crew of the « Grand Henrich » dispute their unpaid wages with their captain",
+   "decision": "The patron replies the delay is not his fault but that of the Divan and Pacha, who would not let him sail before the corsairs left",
+   "keywords": "wages; crew; embargo"
+  },
+  "2-IV-0735": {
+   "party2_name": "Gio Bata Pin; Antonio Arnaudi",
+   "party2_origins": "de San Felice; de San Felice",
+   "party2_role": "payer; payer",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom",
+   "keywords": "ransom"
+  },
+  "2-IV-0736": {
+   "party1_name": "Moratto",
+   "party1_origins": "douanier de Tunis",
+   "party1_role": "declarant, caïd, customs officer",
+   "other_parties_names": "Piero Cattaccioli",
+   "other_parties_role": "ship master (patron)",
+   "matter": "Declares he has not yet settled accounts with Cattaccioli",
+   "keywords": "customs; account"
+  },
+  "2-IV-0737": {
+   "date": "1607-12-10",
+   "transaction_type": "Debt",
+   "party1_origins": "d'Aix; d'Aix",
+   "party1_role": "debtor; debtor",
+   "party2_role": "creditor, vice-consul",
+   "other_parties_names": "Françoyse Ricirande (?)",
+   "other_parties_role": "payee at Marseille",
+   "currency": "écus",
+   "matter": "Loan repayable at Marseille to Françoyse Ricirande",
+   "notes": "Day read as 140 by OCR; probably 10.",
+   "keywords": "loan"
+  },
+  "2-IV-0738": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant",
+   "other_parties_names": "5 galleys of Bizerte; Gio Pepe",
+   "other_parties_origins": "; de Messine",
+   "other_parties_role": "captors; witness (speaks of diamonds)",
+   "matter": "Taken by 5 Bizerte galleys while sailing from Alexandretta to Marseille on a French « saetia »; gave precious stones from India to ransom himself and his papers",
+   "keywords": "sea protest; ransom; precious stones; corsairs"
+  },
+  "2-IV-0739": {
+   "currency": "écus (monnaie de France)",
+   "matter": "Debt repayable at Marseille one month after the arrival of the « Grand Henrich »",
+   "keywords": "debt"
+  },
+  "2-IV-0740": {
+   "party2_name": "Gabriello Sanna; Alfonso Ragonesi; Niccolai di Puig[...]",
+   "party2_origins": "de Cagliari; de Cagliari; d'Alicante",
+   "party2_role": "attorney, doctor; attorney; attorney",
+   "keywords": "power of attorney"
+  },
+  "2-IV-0741": {
+   "transaction_type": "Undertaking / promise",
+   "party1_role": "promisor, captive",
+   "party2_name": "Antonio Santoro",
+   "party2_origins": "de Valence",
+   "party2_role": "promisee, captive",
+   "other_parties_names": "Chaito Assano",
+   "other_parties_origins": "renégat corse",
+   "other_parties_role": "slave-owner (ransom of 900 écus for Santoro), caïd",
+   "currency": "écus",
+   "matter": "Going to Sardinia to « bring his ransom and Santoro's », promises an indemnity if not back in Tunis by the set date; Santoro promised 900 écus for his own ransom",
+   "notes": "A note dated 2 June 1608 at the foot of the act.",
+   "keywords": "ransom; surety"
+  },
+  "2-IV-0742": {
+   "transaction_type": "Surety",
+   "party1_role": "guarantor",
+   "party2_name": "Antonio Bartoletto",
+   "party2_role": "captive (principal)",
+   "other_parties_names": "Chaito Assano",
+   "other_parties_role": "slave-owner (creditor)",
+   "matter": "Surety for the ransom of Bartoletto",
+   "decision": "Annulled 9 June 1608",
+   "keywords": "surety; ransom"
+  },
+  "2-IV-0743": {
+   "transaction_type": "Declaration / attestation",
+   "party1_origins": "de Bretagne",
+   "party1_role": "declarant",
+   "other_parties_names": "Nicolao Mettelin; Ossoman dey Pacha; Antoyne Durand",
+   "other_parties_origins": "d'Arles; ; ",
+   "other_parties_role": "fugitive accused of killing Moors and selling goods at Malta; received payment for his release; witness",
+   "currency": "écus",
+   "matter": "Accused at Tunis of complicity with Mettelin, who fled from Alexandria with Moors and goods; imprisoned in the Château and released only on paying 1,000 écus to the dey, the agha of the janissaries, muftis and others",
+   "notes": "Three depositions follow.",
+   "keywords": "imprisonment; fugitive; extortion"
+  },
+  "2-IV-0744": {
+   "party1_role": "recipient, ransomed captive, son of the late Gasparo",
+   "party2_role": "lender",
+   "other_parties_names": "Baba Assano",
+   "other_parties_origins": "turc janissaire de Tunis",
+   "other_parties_role": "recipient of ransom payment, janissary",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0745": {
+   "party2_name": "Chaterina Dorestagno",
+   "party2_role": "attorney, wife of party 1",
+   "keywords": "power of attorney; family"
+  },
+  "2-IV-0746": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "creditor (requests witnesses)",
+   "party2_name": "Gio Bata Danna",
+   "party2_role": "debtor",
+   "matter": "Witnesses that Danna owes him 48 onces",
+   "notes": "Two witness statements follow.",
+   "keywords": "debt; witnesses"
+  },
+  "2-IV-0747": {
+   "party2_name": "Guglielmo Audeley",
+   "party2_origins": "négociant anglais",
+   "party2_role": "charterer, merchant",
+   "matter": "Charter of the « Sant Roccho bona ventura » to carry 6,000 hides to Livorno",
+   "decision": "Annulled by a note dated 24 December",
+   "keywords": "charter; hides; English"
+  },
+  "2-IV-0748": {
+   "party1_origins": "de la Ciotat",
+   "matter": "Undertakes to load wine in Sardinia or Sicily and bring it to Tunis as soon as possible",
+   "keywords": "wine; freight"
+  },
+  "2-IV-0749": {
+   "matter": "Power to make a sale",
+   "keywords": "sale"
+  },
+  "2-IV-0750": {
+   "transaction_type": "Protest / summons",
+   "party1_name": "Loys Rougier",
+   "party1_origins": "de Marseille",
+   "party1_role": "party, ship master (patron)",
+   "party2_name": "his sailors",
+   "party2_role": "party",
+   "matter": "Dispute between the patron and his sailors",
+   "keywords": "crew; dispute"
+  },
+  "2-IV-0751": {
+   "party1_name": "Urbano Benedittoni; Angel",
+   "party1_origins": "; milanais",
+   "party1_role": "recipient, slave; recipient, slave",
+   "other_parties_names": "Giacobo Salvagho",
+   "other_parties_origins": "gouverneur de Tabarca",
+   "other_parties_role": "principal (on whose order paid)",
+   "currency": "écus",
+   "other_equivalent": "58 aspres",
+   "keywords": "payment; Tabarca; slavery"
+  },
+  "2-IV-0752": {
+   "currency": "sequins turcs",
+   "keywords": "payment"
+  },
+  "2-IV-0753": {
+   "party2_name": "Stefano Sicard",
+   "party2_origins": "de la Ciotat",
+   "party2_role": "other party",
+   "matter": "Dispute about a purchase of wine in Sardinia or Sicily",
+   "notes": "Unfinished act.",
+   "keywords": "wine; dispute"
+  },
+  "2-IV-0754": {
+   "date": "1608-02",
+   "party1_name": "Fernandes de Leon",
+   "party1_origins": "« Granatin »",
+   "party1_role": "declarant, Morisco from Granada",
+   "other_parties_names": "Gregorio Matteo; Gio Bruchi",
+   "other_parties_origins": "anglais; anglais",
+   "other_parties_role": "ship's captain; ship's captain",
+   "matter": "Brought to Tunis with 109 other Granadans (men, women and children); they declare themselves satisfied with those who carried them",
+   "keywords": "Moriscos; passengers; English"
+  },
+  "2-IV-0755": {
+   "date": "1608-02",
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "requesting party",
+   "matter": "Witnesses certify that goods at Tunis, including those brought by corsairs, are always sold freely without constraint on buyers",
+   "notes": "Two witness statements follow.",
+   "keywords": "trade; corsairs; prize goods"
+  },
+  "2-IV-0756": {
+   "date": "1608-02",
+   "keywords": "power of attorney"
   }
  }
 }

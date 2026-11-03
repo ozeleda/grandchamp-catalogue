@@ -1118,6 +1118,10 @@ def build(config_path, out_path):
                 if k not in tx:
                     raise SystemExit(f"annotations/vol{vid}.json: unknown field {k!r} for {ref}")
                 tx[k] = v
+            # A hand-written note replaces the generated one; keep the register folio.
+            fm = re.match(r"^\W*(?:E[nt]i?\s*italien\W*)?\(\s*(\d+)\s*\)", a["summary"].strip())
+            if fm and "Folio" not in (tx["notes"] or ""):
+                tx["notes"] = (f"Folio {fm.group(1)} of the register. " + (tx["notes"] or "")).strip()
             # ";" separates people; when a role/origin list does not line up one-to-one
             # with the names, its ";" were separating facets of one description.
             for nm, fields in (("party1_name", ("party1_origins", "party1_role")),
