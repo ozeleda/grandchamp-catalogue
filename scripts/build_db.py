@@ -1156,7 +1156,7 @@ def build(config_path, out_path):
                 db.execute("INSERT INTO act_amounts (act_id, amount, currency, qualifier, raw) "
                            "VALUES (?,?,?,?,?)", (act_id, m["amount"], m["currency"],
                                                   m["qualifier"], m["raw"]))
-        unknown = set(overrides) - {f"{vid}-{a['register']}-{j:04d}" for j, a in enumerate(acts, 1)}
+        unknown = set(overrides) - {a["ref"] for a in expanded}
         if unknown:
             print(f"  ! annotations refer to unknown acts: {sorted(unknown)[:5]}", file=sys.stderr)
         for o in officials:
