@@ -8,7 +8,7 @@ charters, protests…), together with the documents he published in full.
 | Volume | Period | Acts (Part I) | Full-text documents (Parts II–III) |
 |---|---|---|---|
 | 1 — *La France en Tunisie à la fin du XVIe siècle* (Tunis, 1920) | 1582–1600 | 855 | 33 + 38 |
-| 2 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1921) | 1601–1610 | 1144 | — |
+| 2 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1921) | 1601–1610 | 1291 | — |
 
 Volumes 2–10 can be added the same way: see [Adding a volume](#adding-a-volume).
 
@@ -138,7 +138,7 @@ embedded OCR is too poor to parse. `scripts/ocr_volume.py` therefore:
 Known limitations of volume 2:
 
 * **Book pages 8–9 are missing from the scan.** Their acts are not in the database.
-* **Illegible dates:** some 150 acts have a date that neither OCR could read. They take the
+* **Illegible dates:** some 240 acts have a date that neither OCR could read cleanly. They take the
   previous act's date and say so in `notes`. A few day numbers were rebuilt from a misread
   digit, and `notes` says that too.
 * **Folio numbers:** register IV gives folio numbers, e.g. « (269) ». They are kept in the summary and in `notes`.

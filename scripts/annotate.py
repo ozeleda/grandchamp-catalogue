@@ -6,6 +6,7 @@ plus an optional "_reviewed_through_seq": N. Short codes:
   t=transaction_type  p1/p1o/p1r = party1 name/origins/role  p2/p2o/p2r = party2 ...
   o/oo/or = other parties names/origins/role  m=matter  pr=price  c=currency
   eq=other_equivalent  k=keywords  d=decision  n=notes
+  dt=date (YYYY-MM-DD, YYYY-MM, or null for undated; fixes OCR misreadings)
 A value of null clears the field.
 Usage: python3 scripts/annotate.py 1 < corrections.json
 """
@@ -17,7 +18,7 @@ SHORT = {"t": "transaction_type", "p1": "party1_name", "p1o": "party1_origins", 
          "p2": "party2_name", "p2o": "party2_origins", "p2r": "party2_role",
          "o": "other_parties_names", "oo": "other_parties_origins", "or": "other_parties_role",
          "m": "matter", "pr": "price", "c": "currency", "eq": "other_equivalent",
-         "k": "keywords", "d": "decision", "n": "notes"}
+         "k": "keywords", "d": "decision", "n": "notes", "dt": "date"}
 
 vol = sys.argv[1]
 path = Path(__file__).resolve().parent.parent / "annotations" / f"vol{vol}.json"

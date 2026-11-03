@@ -105,8 +105,16 @@ def clean_ocr(text):
         elif re.fullmatch(r"\s*[|\\/.:;,'‘’`~_^°»«{}A-Za-zÈÉÌÎÏÀÂÄ\d]{1,3}\s*", l):
             l = ""                      # isolated speck
         out.append(l.rstrip())
-    indents = sorted(len(l) - len(l.lstrip()) for l in out if len(l.strip()) >= 3)
-    cut = indents[min(2, len(indents) - 1)] if indents else 0
+    # the margin is where dated entries and year headings start; junk at the edge is ignored
+    dated = sorted(len(l) - len(l.lstrip()) for l in out
+                   if l.strip() and (match_entry(l.lstrip(), {}, 0, True) or YEAR_RE.match(l.strip())))
+    if dated:
+        cut = dated[0] if len(dated) < 3 else dated[1]
+    else:
+        long_ = sorted(len(l) - len(l.lstrip()) for l in out if len(l.strip()) >= 25)
+        cut = max(0, long_[len(long_) // 10] - 9) if long_ else 0
+    # short junk lines left of the margin
+    out = ["" if (len(l) - len(l.lstrip()) < cut - 2 and len(l.strip()) <= 8) else l for l in out]
     return "\n".join(l[cut:] if len(l) - len(l.lstrip()) >= cut else l.lstrip() for l in out)
 
 
@@ -286,10 +294,57 @@ def parse_analysis(pdf, vol):
                 reg = r
         return reg
 
+    def split_embedded(act):
+        """OCR volumes: an act start ("En italien. —") inside a summary means the date of
+        the following act was garbled; split it off and salvage the date if possible."""
+        s = act["summary"]
+        cuts = [m for m in re.finditer(r"(?P<pre>(?:\S{1,6}\s+){0,2})E[nt]i?\s+it\S*\s*[.,:]?\s*[—–-]", s)
+                if m.start() > 15]
+        if not cuts:
+            return [act]
+        out, start = [], 0
+        for m in cuts:
+            pre = m.group("pre")
+            # keep a real last word of the sentence before (e.g. "Même", "clause.") in the previous act
+            if pre and not re.search(r"\d|[—–-]|janv|f[ée]v|mars|avril|mai|juin|juil|ao[uû]t|sept|oct|nov|d[ée]c", pre):
+                pre_start = m.start("pre") + len(pre)
+            else:
+                pre_start = m.start("pre")
+            out.append(s[start:pre_start].strip())
+            start = pre_start
+        out.append(s[start:].strip())
+        acts_out = [dict(act, summary=out[0])]
+        prev = acts_out[0]
+        for piece in out[1:]:
+            mm = re.match(r"^(?P<pre>.*?)(?=E[nt]i?\s+it)", piece)
+            pre = mm.group("pre") if mm else ""
+            new = dict(act, summary=piece[len(pre):].strip(), date_supplied=False, undated=False)
+            dm = re.search(r"(\d{1,2})", pre)
+            mon = next((norm_month(t, True) for t in pre.split() if norm_month(t, True)), None)
+            new["month"] = mon or prev["month"]
+            if mon and prev["month"] and prev["month"] >= 11 and mon <= 2:
+                new["year"] = prev["year"] + 1
+            day = int(dm.group(1)) if dm and 1 <= int(dm.group(1)) <= 31 else None
+            new["day"] = day if day else prev["day"]
+            new["day_guess"] = not (day and (mon or "—" in pre or "-" in pre))
+            new["date_raw"] = pre.strip() or "(date illegible in scan)"
+            if not new["date_raw"].strip("( )"):
+                new["date_raw"] = "(date illegible in scan)"
+            if new["day_guess"] and not pre.strip():
+                new["date_raw"] = "(date illegible in scan)"
+            acts_out.append(new)
+            prev = new
+        return acts_out
+
     def flush():
         nonlocal current
         if current:
             current["summary"] = join_text(current.pop("lines"))
+            if vol.get("text_source") and current["summary"]:
+                pieces = split_embedded(current)
+                for piece in pieces[:-1]:
+                    acts.append(piece)
+                current = pieces[-1]
             # A bare "s. d." line followed by an editor-supplied "[date]" entry is one act;
             # a scrap of a few characters is OCR debris split off the previous act.
             if len(current["summary"]) < 20 and acts and vol.get("text_source"):
@@ -989,9 +1044,19 @@ def build(config_path, out_path):
             # "Même acte..." / "Acte semblable...": same kind of act as the previous one
             if i > 1 and re.match(r"(?:En \w+\. — )?(?:M[êe]me acte|Acte sem\w*blable)", a["summary"]):
                 a["act_type"] = acts[i - 2]["act_type"]
-            links = link_documents(a, doc_by_page)
             ref = f"{vid}-{a['register']}-{i:04d}"
             a["ref"] = ref
+            # hand-corrected date (OCR misreadings): "date" = YYYY-MM-DD / YYYY-MM / null (undated)
+            if "date" in overrides.get(ref, {}):
+                d = overrides[ref]["date"]
+                parts = [int(x) for x in d.split("-")] if d else []
+                a["undated"] = not parts
+                a["year"] = parts[0] if parts else a["year"]
+                a["month"] = parts[1] if len(parts) > 1 else None
+                a["day"] = parts[2] if len(parts) > 2 else None
+                a["day_guess"] = False
+                a["date_iso"] = d
+            links = link_documents(a, doc_by_page)
             tx = extract_parties.to_columns(a, extract_parties.extract(a))
             # "Le même" / "au même": the party of the previous act
             if prev_tx:
@@ -1016,6 +1081,8 @@ def build(config_path, out_path):
             if a.get("date_supplied"):
                 tx["notes"] = ("Undated in the register (s. d.); date supplied by the editor. " + (tx["notes"] or "")).strip()
             for k, v in overrides.get(ref, {}).items():
+                if k == "date":
+                    continue
                 if k not in tx:
                     raise SystemExit(f"annotations/vol{vid}.json: unknown field {k!r} for {ref}")
                 tx[k] = v
