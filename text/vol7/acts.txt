@@ -6259,9 +6259,10 @@ chancelier: Boisson
 text: En italien. — (1402) Anthonio Anton Marco, de Baretoly en Corse, esclave à Tunis, donne une procuration à Angelo Fran°° Dangelo Santo, corse, pour vendre une pièce de vigne, etc., et le racheler. 3
 
 [act 7-XVII-0562]
-date: 1665-06-18
+date: 1665-06
 date printed: (sic) —
-date status: not printed or not legible; taken from the previous act
+date status: corrected by hand
+date note: The book prints « 31 (sic) » under the heading « Juin »; the date is kept to the month.
 register: XVII
 page: 105 (scan: La France en Tunisie v.7_Part1.pdf p. 158)
 folio: 1403
@@ -9503,9 +9504,10 @@ amounts: 8 réaux; 11 aspres
 text: En italien. — Andrea Beltramo, de Naples, a reçu de Daniel Lumbroso 548 pièces de 8 réaux et 11 aspres (change 20 % , provision 3 % ), prêtés pour payer son rachat à Agi Morat, sur l'orre de Juda Crespino, et remboursables 15 jours après l'arrivée à Livourne. 10-
 
 [act 7-XVIII-0829]
-date: 1669-10-09
+date: 1669-10-10
 date printed: (date illegible in scan)
-date status: not printed or not legible; taken from the previous act
+date status: corrected by hand
+date note: Margin « 10 — »; lost in the OCR.
 register: XVIII
 page: 154 (scan: La France en Tunisie v.7_Part1.pdf p. 207)
 language: italien

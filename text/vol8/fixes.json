@@ -16,6 +16,22 @@
    "page": "p139",
    "old": "42 —  En italien. — (19 v°) Bortholomeo",
    "new": "12 —  En italien. — (19 v°) Bortholomeo"
+  },
+  {
+   "page": "p237",
+   "old": "          2 —   En  italien. — (219 v°) Joanne",
+   "new": "2 mars      En  italien. — (219 v°) Joanne",
+   "note": "heading « Mars » above this act"
+  },
+  {
+   "page": "p237",
+   "old": "          2 —  En  italien. — (219 v°) Agostino",
+   "new": "2 —         En  italien. — (219 v°) Agostino"
+  },
+  {
+   "page": "p237",
+   "old": "2 mars      En italien. — (220) Joanne",
+   "new": "2 —         En italien. — (220) Joanne"
   }
  ],
  "acts": {
@@ -59,6 +75,16 @@
     "find": "(99 v ° ) Ambrogio Pella",
     "date": "1694-12-04",
     "note": "Margin « 4 — » under the heading « Décembre »."
+   },
+   {
+    "find": "(332) Enregistrement d'un reçu fait par Louis",
+    "date": "1697-02-05",
+    "note": "Margin « 5 — » under the heading « Février »."
+   },
+   {
+    "find": "(320) Antonio Pisarella",
+    "date": "1696-11-26",
+    "note": "Margin « 26 — »; lost in the OCR."
    }
   ],
   "merge_with_previous": [

@@ -51,42 +51,42 @@
 5,Lange  de Martin,consul,XI,5-XI-0001,1631-03-13,1
 5,Dulard,chancelier,XII,5-XII-0316,1633-06-10,42
 5,Vincenso Tassone,chancelier,XII,5-XII-0417,1634-03-13,54
-5,Joachim Bonvin,chancelier,XII,5-XII-0607,1635-04-01,75
+5,Joachim Bonvin,chancelier,XII,5-XII-0607,1635-03-31,75
 5,Vincenzo Tassone,chancelier,XII,5-XII-0692,1635-09-03,86
 5,Jacques Rimbaud,chancelier,XII,5-XII-0696,1635-09-29,86
 5,Francois Laure,chancelier,XII,5-XII-0893,1637-03-24,109
-5,Baptiste Gazille,chancelier,XII,5-XII-1018,1638-02-13,125
-5,Jean Blancon,chancelier,XII,5-XII-1092,1638-07-10,134
-5,F. Terminat,chancelier,XIII,5-XIII-1310,1640-07-23,164
-5,André Gebellin,chancelier,XIV,5-XIV-1508,1643-01-15,196
-5,Lange de Martin,consul,XIV,5-XIV-1551,1643-05-21,202
-5,Jean Ambrozin,chancelier,XIV,5-XIV-1592,1643-12-14,206
-5,Guillermy,chancelier,XIV,5-XIV-1999,1649-01-21,264
-5,Denjemin Joseph Muguier,chancelier,XIV,5-XIV-2011,1649-03-10,267
+5,Baptiste Gazille,chancelier,XII,5-XII-1019,1638-02-13,125
+5,Jean Blancon,chancelier,XII,5-XII-1093,1638-07-10,134
+5,F. Terminat,chancelier,XIII,5-XIII-1311,1640-07-23,164
+5,André Gebellin,chancelier,XIV,5-XIV-1509,1643-01-15,196
+5,Lange de Martin,consul,XIV,5-XIV-1555,1643-05-21,202
+5,Jean Ambrozin,chancelier,XIV,5-XIV-1596,1643-12-14,206
+5,Guillermy,chancelier,XIV,5-XIV-2004,1649-01-21,264
+5,Denjemin Joseph Muguier,chancelier,XIV,5-XIV-2016,1649-04-10,267
 6,J. Boisson,chancelier,XV,6-XV-0212,1652-06-01,31
 6,Gazille,chancelier,XV,6-XV-0229,1652-08-29,37
 6,I. Boisson,chancelier,XV,6-XV-0421,1653-09-13,64
 6,François Francillon,chancelier,XV,6-XV-0445,1653-10-24,68
 6,J. Boisson,chancelier,XV,6-XV-0446,1653-10-28,68
 6,Marc  Bouisson,chancelier,XV,6-XV-0824,1655-11-09,122
-6,Jean le Vacher,consul,XVI,6-XVI-1116,1657-04-25,170
-6,Saboulin,chancelier,XVI,6-XVI-1152,1657-06-18,175
-6,Ranquier,chancelier,XVI,6-XVI-1581,1660-01-26,245
+6,Jean le Vacher,consul,XVI,6-XVI-1120,1657-04-25,170
+6,Saboulin,chancelier,XVI,6-XVI-1156,1657-06-18,175
+6,Ranquier,chancelier,XVI,6-XVI-1585,1660-01-26,245
 7,Pezron,chancelier,XVII,7-XVII-0302,1662-11,52
 7,Raspaud,chancelier,XVII,7-XVII-0389,1663-11-21,74
-7,Boisson,chancelier,XVII,7-XVII-0499,1664-11-12,95
-7,Jean Ambrozin,consul,XVIII,7-XVIII-0633,1667-05-20,119
+7,Boisson,chancelier,XVII,7-XVII-0500,1664-11-12,95
+7,Jean Ambrozin,consul,XVIII,7-XVIII-0634,1666-05-20,119
 7,André Maurin,chancelier,XVIII,7-XVIII-0814,1669-08-23,151
 7,Jean Varage,chancelier,XVIII,7-XVIII-0964,1671-12-16,178
-7,Guilbert,chancelier,XVIII,7-XVIII-1135,1673-06-12,207
-7,Hierosme Laurens,chancelier,XIX,7-XIX-1303,1675-01-15,244
-7,Charles de Gratian,consul,XIX,7-XIX-1310,1675-01-24,245
-7,Anthoine Corrat,chancelier,XIX,7-XIX-1347,1675-08-04,252
-7,Allies,chancelier,XIX,7-XIX-1423,1676-03-04,265
-7,Antoine Caullet,chancelier,XIX,7-XIX-1449,1676-06-14,269
-7,Nicollon,chancelier,XIX,7-XIX-1695,1679-10-28,313
-7,Guilhaumie,chancelier,XIX,7-XIX-1732,1680-07-22,319
-7,Louis Sabain,chancelier,XIX,7-XIX-1767,1680-11-11,323
+7,Guilbert,chancelier,XVIII,7-XVIII-1119,1673-06-12,207
+7,Hierosme Laurens,chancelier,XIX,7-XIX-1290,1675-01-15,244
+7,Charles de Gratian,consul,XIX,7-XIX-1297,1675-01-24,245
+7,Anthoine Corrat,chancelier,XIX,7-XIX-1335,1675-08-04,252
+7,Allies,chancelier,XIX,7-XIX-1411,1676-03-04,265
+7,Antoine Caullet,chancelier,XIX,7-XIX-1437,1676-07-14,269
+7,Nicollon,chancelier,XIX,7-XIX-1684,1679-10-28,313
+7,Guilhaumie,chancelier,XIX,7-XIX-1721,1680-07-22,319
+7,Louis Sabain,chancelier,XIX,7-XIX-1756,1680-11-11,323
 8,Etienne Plastrier    Sr Ducoudray,consul,XIX,8-XIX-0019,1681-04-28,3
 8,François Deserre,chancelier,XIX,8-XIX-0019,1681-04-28,3
 8,Michel Rouilly,chancelier,XX,8-XX-0097,1682-06-06,16
@@ -94,13 +94,13 @@
 8,Ducoudray Plastrier,consul,XX,8-XX-0173,1683-06-16,29
 8,Nicolas Pommoret,chancelier,XXI,8-XXI-0226,1684-05-29,41
 8,Claude Lemaire,consul,XXI,8-XXI-0230,1684-06-22,41
-8,Nicollon,chancelier,XXI,8-XXI-0235,1684-07-22,42
-8,Antoine Michel,consul,XXI,8-XXI-0259,1685-01-15,46
-8,Nicollon,chancelier,XXI,8-XXI-0262,1685-04-08,46
-8,Pourtally,chancelier,XXI,8-XXI-0322,1686-05-22,60
-8,Jean Bayard,chancelier,XXI,8-XXI-0347,1686-08-31,65
-8,Jérôme Foucard,chancelier,XXII,8-XXII-0677,1689-12-08,143
-8,Auger Sorhainde,consul,XXII,8-XXII-0695,1690-05-09,146
-8,Claude Balp,chancelier,XXII,8-XXII-0700,1690-05-24,149
-8,Augustin Chaulan,chancelier,XXII,8-XXII-0792,1692-01-23,172
-8,Chaulan,chancelier,XXIII,8-XXIII-1354,1697-12-31,281
+8,Nicollon,chancelier,XXI,8-XXI-0235,1684-08-22,42
+8,Antoine Michel,consul,XXI,8-XXI-0261,1685-03-09,46
+8,Nicollon,chancelier,XXI,8-XXI-0263,1685-04-08,46
+8,Pourtally,chancelier,XXI,8-XXI-0323,1686-05-22,60
+8,Jean Bayard,chancelier,XXI,8-XXI-0348,1686-08-31,65
+8,Jérôme Foucard,chancelier,XXII,8-XXII-0676,1689-12-08,143
+8,Auger Sorhainde,consul,XXII,8-XXII-0694,1690-05-09,146
+8,Claude Balp,chancelier,XXII,8-XXII-0699,1690-05-24,149
+8,Augustin Chaulan,chancelier,XXII,8-XXII-0791,1692-01-23,172
+8,Chaulan,chancelier,XXIII,8-XXIII-1352,1697-12-31,281

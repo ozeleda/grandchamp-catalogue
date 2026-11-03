@@ -10,10 +10,10 @@ charters, protests…), together with the documents he published in full.
 | 1 — *La France en Tunisie à la fin du XVIe siècle* (Tunis, 1920) | 1582–1600 | 855 | 33 + 38 |
 | 2 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1921) | 1601–1610 | 1326 | annexes: text files only |
 | 3 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1925) | 1611–1620 | 2452 | annexes: text files only |
-| 5 — *La France en Tunisie au XVIIe siècle* (Tunis, 1927) | 1631–1650 | 2187 | annexes: text files only |
-| 6 — *id.* (Tunis, 1928) | 1651–1660 | 1710 | — |
-| 7 — *id.* (Tunis, 1929) | 1661–1680 | 1771 | correspondence: text files only |
-| 8 — *id.* (Tunis, 1930) | 1681–1700 | 1658 | correspondence, sea reports, documents (pp. 337–614): text files only |
+| 5 — *La France en Tunisie au XVIIe siècle* (Tunis, 1927) | 1631–1650 | 2192 | annexes: text files only |
+| 6 — *id.* (Tunis, 1928) | 1651–1660 | 1714 | — |
+| 7 — *id.* (Tunis, 1929) | 1661–1680 | 1760 | correspondence: text files only |
+| 8 — *id.* (Tunis, 1930) | 1681–1700 | 1655 | correspondence, sea reports, documents (pp. 337–614): text files only |
 
 Volume 4 (1621–1630) and volume 10 will be added from their scans later; volume 9 (the letters
 of Nicolas Béranger) is not part of this catalogue.
@@ -39,6 +39,7 @@ database is built from them. See [`text/README.md`](text/README.md).
 | `ocr/vol2/` | Tesseract OCR of the older volume 2 photocopy, used as a second reading (see below) |
 | `scripts/extract_pages.py` | Writes the page text files of a volume from its scans |
 | `scripts/organize_text.py` | Writes `acts.txt` and the other organised text files |
+| `scripts/margin_ocr.py` | Re-reads the margin (month headings, days) of volumes 5–8 from the page images |
 | `scripts/remap_refs.py` | Keeps the hand annotations on the right acts when a fix splits or merges acts |
 | `scripts/build_db.py` | Rebuilds the database and CSVs from the text files (volume 1 documents from the PDF) |
 | `scripts/extract_parties.py` | Rule-based first draft of the transaction columns from each summary |
@@ -181,9 +182,19 @@ Volumes 5–8 notes:
   page) and only the day in the margin; the year is at the right edge of the page. The page step
   (`month_headings` in `volumes.json`) rewrites this into the volume 2–3 form (« 3 juil. »,
   year line at the left) before the acts are parsed.
-* Where the OCR lost a month heading, the month is taken as the one after the previous act's when
-  the day falls back (30 → 2); `date status` says so. Years misread at the page edge are checked
-  against the following pages.
+* The Google OCR often drops the month headings, so `scripts/margin_ocr.py` reads the margin and
+  the running head of every page image again with Tesseract (`text/volN/margin_ocr.json`). The two
+  readings of the margin days are aligned, and each heading is put back before the act it heads.
+  Where the two OCRs read a day differently, the one that fits the order of the days is kept.
+* Where no heading could be read, the month is taken as the one after the previous act's when the
+  day falls back (30 → 2); `date status` says so (8–17 acts per volume). Years misread at the page
+  edge are checked against the following pages.
+* Every flagged date (out of order, unreadable, month in doubt, or disagreeing with the image) was
+  checked against the page image: about 110 acts were corrected by hand (`date status: corrected by
+  hand`, with a `date note`), and the rest were found correct. The out-of-order dates that remain
+  are the register's own order (copies and late entries).
+* Volume 7: the register dates the acts from 27 January to 3 August « 1669 », which the editor
+  thinks is a mistake for 1670 (note on p. 158). The dates are given as printed, with a `date note`.
 * A few days printed in the book do not exist (« 31 juin (sic) »); these acts are dated to the month,
   with a `date note`.
 * Amounts in « pièces de 8 réaux » (pieces of eight), the usual currency of these volumes, are read

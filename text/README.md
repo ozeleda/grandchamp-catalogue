@@ -18,8 +18,9 @@ database and the CSVs on the next build. All files are UTF-8.
 | `corrections.txt` | The book's errata. Volume 2's was transcribed by hand (the OCR garbled the table); `[applied]` marks the corrections made in the act texts. |
 | `front_matter.txt` | Title pages, foreword, bibliography. |
 | `plates.txt` | OCR of the captions of the signature plates. |
-| `fixes.json` | Hand corrections, checked against the page images: `pages` replaces text on a page before parsing, `acts` edits parsed acts (found by a snippet of their text): `replace`, `split`, `merge_with_previous`, `drop`, `date`. |
+| `fixes.json` | Hand corrections, checked against the page images: `pages` replaces text on a page before parsing, `acts` edits parsed acts (found by a snippet of their text): `replace`, `split`, `merge_with_previous`, `drop`, `date`, `note_range` (an editor's remark that applies to a run of acts). |
 | `transcribed/p<NNN>.txt` | Pages transcribed by hand from the page image because both OCRs scrambled them. They replace the OCR of that page. |
+| `margin_ocr.json` | Volumes 5–8: month headings and margin days read again from each page image, with their position on the page. |
 | `tesseract/p<NNN>.txt` | Pages whose Google OCR layout was scrambled (curved pages), re-OCR'd with Tesseract from the page image (`tesseract_threshold` in `volumes.json`). |
 
 Each `[page …]` heading in the section files gives the printed page and the scan file and
@@ -82,7 +83,8 @@ text: (381) Lanterme Vincentou, corse habitant à Marseille, a reçu d'Antoine C
 * **Volumes 5–8** print the month as a heading and the year at the right edge of the page. In the
   page files these are rewritten as in volumes 2–3: the year on a line of its own at the left and
   the month after the day of the first act under each heading (« 3 juil. »). The month headings
-  themselves are therefore not in the page files; the page images show them.
+  themselves are therefore not in the page files; the page images show them. Headings the Google
+  OCR lost are restored from `margin_ocr.json` (Tesseract on the margin of each page image).
 
 Regenerate with:
 
