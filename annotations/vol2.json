@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 1206,
+ "reviewed_through_seq": 1225,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -11126,7 +11126,9 @@
    "currency": "écus d'or",
    "other_equivalent": "54 aspres",
    "matter": "Money to be paid at Malta to a Muslim slave of the Order",
-   "keywords": "remittance; Muslim captive; Malta"
+   "keywords": "remittance; Muslim captive; Malta",
+   "date": "1610-07-24",
+   "notes": "Day 24 from the PDF text layer."
   },
   "2-IV-1203": {
    "transaction_type": "Agreement",
@@ -11160,6 +11162,190 @@
    "other_parties_role": "other party; ship master (patron) of the polacre",
    "matter": "Registration of a record of 23 April 1609 about goods on the polacre « Ste-Marie bonne venture », and of another paper of Pagniale about 250 écus",
    "keywords": "registration; trade"
+  },
+  "2-IV-1207": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "currency": "écus de 12 réaux castillans",
+   "matter": "Loan for his last fitting-out; repayable 15 days after arrival at Marseille",
+   "notes": "Folio 1012, the last numbered folio (the register's numbering stops at 1013). Act in French.",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1208": {
+   "date": "1610-07-26",
+   "party1_name": "De Terues Boisgirault; Vespasiano Balbiano; Antoine de Ribaute; Henri Myron; Honorat Dupons; De la Palu; Jehan de Castellane Claret; Claude de Villeneuve Torrette; Louys de Perussis; Ju° de Silva y Ribera; Jayme Peres de Nueros; Gaspar Aldret; Jehan de Montaurons",
+   "party1_origins": null,
+   "party1_role": "principal, knight of St John of Jerusalem, captive",
+   "party2_name": "Charlo Cienutt Basplessis",
+   "party2_role": "attorney, fellow knight",
+   "matter": "Power to go to Malta and arrange their ransom, if need be by having Turkish and Moorish slaves released",
+   "notes": "Names as signed. Dated 26 July (see the next act and the act of 29 July).",
+   "keywords": "knights of Malta; ransom; captive exchange"
+  },
+  "2-IV-1209": {
+   "party1_name": "De Terues Boisgirault; Vespasiano Balbiano; Antoine de Ribaute; Henri Myron; Honorat Dupons; De la Palu; Jehan de Castellane Claret; Claude de Villeneuve Torrette; Louys de Perussis; Ju° de Silva y Ribera; Jayme Peres de Nueros; Gaspar Aldret; Jehan de Montaurons",
+   "party1_role": "declarant, knight of St John of Jerusalem, captive",
+   "other_parties_names": "Ossoman Dey; Soliman Rais",
+   "other_parties_role": "master; Muslim captive at Malta (to be exchanged, with other Turks)",
+   "matter": "Agreed with Ossoman Dey to bring Soliman Rais and the Turks taken with him from Malta in exchange for themselves",
+   "keywords": "knights of Malta; captive exchange"
+  },
+  "2-IV-1210": {
+   "party1_role": "principal, knight of St John, captive",
+   "party2_role": "attorney, knight of St John",
+   "matter": "To raise funds for his ransom",
+   "keywords": "ransom; knights of Malta"
+  },
+  "2-IV-1211": {
+   "date": "1610-07-27",
+   "other_parties_names": "Ha Issa; Fabio Orlandino et Cie; Jacomo Loena; Roberto Estrosy",
+   "other_parties_origins": "mère de Mamet bey; de Livourne; de Venise; de Venise",
+   "other_parties_role": "recipient of ransom payment; ordered the payment; principal; principal",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom paid on the order of Orlandino & Co. for Loena and Strozzi of Venice",
+   "notes": "Day read as 21, between acts of 27 July; probably 27.",
+   "keywords": "ransom; loan; Venice"
+  },
+  "2-IV-1212": {
+   "date": "1610-07-27",
+   "transaction_type": "Company / partnership",
+   "party1_name": "Antonio Lovico; Marco Francesco; Gio Gioia Manfredino Manfredini; Giorgio de Vega Pinto; Stefano Simodey; Ercole Tamagni; Loigi Changet",
+   "party1_role": "party (Christian merchants, and others)",
+   "party2_name": "David Cardoso; Moise Baruch; Daniel Boghatt; Jacobo Montesion",
+   "party2_role": "party (Jewish merchants, and others)",
+   "other_parties_names": "Mamet Somer",
+   "other_parties_role": "caïd, customs officer of Tunis",
+   "matter": "Cartel: none may take any goods (hides, wax, wool…) from the customs officer except through one of them elected by the others, on pain of penalty; also fixes each party's « journées » and stock in store",
+   "notes": "Continues on p. 172. Day read as 21; probably 27.",
+   "keywords": "cartel; customs; hides; wax; wool; Jews"
+  },
+  "2-IV-1213": {
+   "party1_name": "Francisco de Paulo",
+   "party1_origins": "du Cap Corse",
+   "party1_role": "debtor, ransomed captive",
+   "other_equivalent": "37 aspres",
+   "matter": "Balance of his ransom",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1214": {
+   "party1_name": "Anthoine Lovico",
+   "party1_role": "promisor",
+   "party2_name": "De Terues Boisgirault; Vespasiano Balbiano; Antoine de Ribaute; Henri Myron; Honorat Dupons; De la Palu; Jehan de Castellane Claret; Claude de Villeneuve Torrette; Louys de Perussis; Ju° de Silva y Ribera; Jayme Peres de Nueros; Gaspar Aldret; Jehan de Montaurons",
+   "party2_role": "promisee, knight of St John, captive",
+   "other_parties_names": "Ossoman Dey; Raïs Soliman",
+   "other_parties_role": "master; Muslim captive at Malta",
+   "matter": "Undertakes to have the knights freed by Ossoman Dey as soon as Raïs Soliman and the other janissaries return from Malta, where they are slaves of the Order",
+   "notes": "Act in French.",
+   "keywords": "captive exchange; knights of Malta"
+  },
+  "2-IV-1215": {
+   "party1_role": "promisor, ship master (patron), freed captive",
+   "other_parties_names": "Abran Lasfori; Piero Gasan; Amet Aman",
+   "other_parties_origins": "; ; ",
+   "other_parties_role": "redeemer who freed him; patron to whom he was handed; Muslim slave of the Order (to be freed)",
+   "party2_role": "promisee (to receive Amet Aman), ship master (patron)",
+   "matter": "Undertakes to have raïs Amet Aman, slave of the Order of Malta, freed and handed to Peiron Franco",
+   "keywords": "captive exchange; Malta"
+  },
+  "2-IV-1216": {
+   "other_equivalent": "36 aspres",
+   "matter": "Loan for the last fitting-out of the « St-Pierre », repayable eight days after arrival at Malta",
+   "notes": "Act in French.",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1217": {
+   "transaction_type": "Debt",
+   "party1_name": "Peyron Gassan",
+   "party1_role": "debtor, ship master (patron)",
+   "party2_name": "Monfradinno Monfradinno",
+   "party2_role": "creditor",
+   "currency": "écus de 12 réaux",
+   "matter": "Same as the previous act (last fitting-out of the « St-Pierre »)",
+   "notes": "Act in French.",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1218": {
+   "matter": "Price of sailcloth",
+   "notes": "Act in French.",
+   "keywords": "sailcloth; sale"
+  },
+  "2-IV-1219": {
+   "other_equivalent": "60 aspres",
+   "other_parties_role": "recipient of ransom payment; principal (ordered the ransom, with Marcantonyo)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom on the order of Marcantonyo and Clemente Carantotto of Pise",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1220": {
+   "date": "1610-07-31",
+   "other_parties_names": "Francisco Estelle; Malem Ha Yssa",
+   "other_parties_origins": "; maure de Bône",
+   "other_parties_role": "ship master (patron) of the « Ste-Anne »; shipper",
+   "matter": "Declares that hides loaded on the « Ste-Anne » by Malem Ha Yssa are shipped in his name for Livorno",
+   "keywords": "hides; shipping"
+  },
+  "2-IV-1221": {
+   "transaction_type": "Company / partnership",
+   "party1_origins": "de Marseille; corse",
+   "other_parties_names": "Ossoman Dey",
+   "other_parties_role": "seller",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Bought from Ossoman Dey in July 1609 a ship of 2,000 quintals; state each partner's share",
+   "keywords": "ship share; partnership"
+  },
+  "2-IV-1222": {
+   "split_at": [
+    "Les maures de Grenade visés"
+   ],
+   "transaction_type": "Power of attorney",
+   "party1_origins": "de la Torre del Greco",
+   "party1_role": "principal, slave of the heirs of Mamet Bey",
+   "party2_name": "Vincenzo Garofoly",
+   "party2_role": "attorney, brother of party 1",
+   "price": null,
+   "currency": null,
+   "other_equivalent": null,
+   "matter": "To raise funds, probably to ransom him",
+   "keywords": "ransom; family"
+  },
+  "2-IV-1222b": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "the Granadan Moors (see act of 26 February 1610)",
+   "party1_role": "principals",
+   "party2_name": "their attorneys",
+   "party2_role": "attorneys",
+   "other_parties_names": "Anthouron Estienne; Pierre Estienne",
+   "other_parties_role": "convicted thieves",
+   "price": 23265,
+   "currency": "écus",
+   "matter": "The Court of Montpellier condemned the Estiennes to death or the galleys with confiscation and restitution; they charge their attorneys to pursue restitution and list what is owed",
+   "notes": "The total is very large: one party alone claims 23,265 écus stolen. Signatures give only the Arabic names. See the annexed documents.",
+   "keywords": "Moriscos; theft; restitution; court of Montpellier"
+  },
+  "2-IV-1223": {
+   "party1_name": "Aly benfracie (Ali ben Fredj)",
+   "party1_role": "principal, raïs",
+   "other_parties_names": "Andria",
+   "other_parties_origins": "fondeur de l'artillerie de la Religion à Malte",
+   "other_parties_role": "debtor, gun-founder of the Order",
+   "matter": "Recovery of all that is owed by master Andria",
+   "keywords": "debt collection; Malta"
+  },
+  "2-IV-1224": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron)",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for the last fitting-out of the « St-Anthonio » sailing from La Goulette to Livorno",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1225": {
+   "other_parties_role": "recipient of ransom payment",
+   "other_parties_origins": "turc de Tunis",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable 15 days after arrival at Genoa",
+   "keywords": "ransom; loan"
   }
  }
 }

@@ -1793,59 +1793,63 @@
 2-IV-1206,250.0,écu,,250 écus
 2-IV-1207,65.0,écu,,65 écus
 2-IV-1211,267.0,écu,,267 écus
-2-IV-1214,28.0,écu,,28 écus
-2-IV-1216,69.0,écu,,69 écus
-2-IV-1220,25.0,écu,,25 écus
-2-IV-1222,60.0,aspre,,60 aspres
-2-IV-1225,800.0,écu,d'or,800 écus d'or
-2-IV-1226,23265.0,écu,,23.265 écus
-2-IV-1228,52.0,écu,,52 écus
-2-IV-1229,100.0,écu,,100 écus
-2-IV-1230,100.0,écu,,100 écus
-2-IV-1232,3000.0,écu,d'or,3000 écus d'or
-2-IV-1232,3000.0,écu,,3000 écus
-2-IV-1236,250.0,écu,d'or,250 écus d'or
-2-IV-1238,28.0,écu,,28 écus
-2-IV-1239,65.0,écu,,65 écus
-2-IV-1241,67.0,écu,,67 écus
-2-IV-1241,32.0,aspre,,32 aspres
-2-IV-1242,50.0,écu,d'or de 64 aspres,50 écus d'or de 64 aspres
-2-IV-1243,264.0,écu,,264 écus
-2-IV-1244,90.0,once,,90 onces
-2-IV-1244,20.0,tari,de Sicile,20 taris de Sicile
-2-IV-1244,20.0,aspre,,20 aspres
-2-IV-1245,100.0,écu,,100 écus
-2-IV-1245,64.0,aspre,,64 aspres
-2-IV-1246,40.0,once,de Sicile,40 onces de Sicile
-2-IV-1248,300.0,écu,,300 écus
-2-IV-1248,300.0,écu,,300 écus
-2-IV-1249,400.0,écu,,400 écus
-2-IV-1249,300.0,écu,,300 écus
-2-IV-1250,300.0,écu,,300 écus
-2-IV-1252,58.0,écu,,58 écus
-2-IV-1253,2000.0,écu,,2.000 écus
-2-IV-1254,65.0,écu,,65 écus
-2-IV-1256,300.0,écu,,300 écus
-2-IV-1256,350.0,écu,,350 écus
-2-IV-1257,170.0,écu,,170 écus
-2-IV-1258,20.0,écu,,20 écus
-2-IV-1259,500.0,écu,,500 écus
-2-IV-1260,250.0,écu,d'or d'Espagne,250 écus d'or d'Espagne
-2-IV-1262,200.0,écu,,200 écus
-2-IV-1264,45.0,écu,,45 écus
-2-IV-1265,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
-2-IV-1266,270.0,écu,,270 écus
-2-IV-1267,67.0,écu,,67 écus
-2-IV-1268,627.0,écu,,627 écus
-2-IV-1269,2500.0,écu,,2.500 écus
-2-IV-1270,355.0,écu,,355 écus
-2-IV-1272,465.0,écu,,465 écus
-2-IV-1273,27.0,once,de Sicile,27 onces de Sicile
-2-IV-1274,25.0,once,de Sicile,25 onces de Sicile
-2-IV-1276,200.0,écu,,200 écus
-2-IV-1276,57.0,aspre,,57 aspres
-2-IV-1278,200.0,écu,,200 écus
-2-IV-1279,16.0,once,,16 onces
-2-IV-1279,20.0,tari,,20 taris
-2-IV-1280,10.0,écu,,10 écus
-2-IV-1281,150.0,écu,,150 écus
+2-IV-1213,28.0,écu,d'or,28 écus d'or
+2-IV-1213,37.0,aspre,,37 aspres
+2-IV-1216,69.0,écu,d'or,69 écus d'or
+2-IV-1216,36.0,aspre,,36 aspres
+2-IV-1217,115.0,écu,,115 écus
+2-IV-1218,25.0,écu,d'or d'Espagne,25 écus d'or d'Espagne
+2-IV-1219,562.0,écu,,562 écus
+2-IV-1219,60.0,aspre,d'or d'Espagne,60 aspres d'or d'Espagne
+2-IV-1221,800.0,écu,d'or,800 écus d'or
+2-IV-1222b,23265.0,écu,,23.265 écus
+2-IV-1224,52.0,écu,,52 écus
+2-IV-1225,100.0,écu,,100 écus
+2-IV-1226,100.0,écu,,100 écus
+2-IV-1228,3000.0,écu,d'or,3000 écus d'or
+2-IV-1228,3000.0,écu,,3000 écus
+2-IV-1232,250.0,écu,d'or,250 écus d'or
+2-IV-1234,28.0,écu,,28 écus
+2-IV-1235,65.0,écu,,65 écus
+2-IV-1237,67.0,écu,,67 écus
+2-IV-1237,32.0,aspre,,32 aspres
+2-IV-1238,50.0,écu,d'or de 64 aspres,50 écus d'or de 64 aspres
+2-IV-1239,264.0,écu,,264 écus
+2-IV-1240,90.0,once,,90 onces
+2-IV-1240,20.0,tari,de Sicile,20 taris de Sicile
+2-IV-1240,20.0,aspre,,20 aspres
+2-IV-1241,100.0,écu,,100 écus
+2-IV-1241,64.0,aspre,,64 aspres
+2-IV-1242,40.0,once,de Sicile,40 onces de Sicile
+2-IV-1244,300.0,écu,,300 écus
+2-IV-1244,300.0,écu,,300 écus
+2-IV-1245,400.0,écu,,400 écus
+2-IV-1245,300.0,écu,,300 écus
+2-IV-1246,300.0,écu,,300 écus
+2-IV-1248,58.0,écu,,58 écus
+2-IV-1249,2000.0,écu,,2.000 écus
+2-IV-1250,65.0,écu,,65 écus
+2-IV-1252,300.0,écu,,300 écus
+2-IV-1252,350.0,écu,,350 écus
+2-IV-1253,170.0,écu,,170 écus
+2-IV-1254,20.0,écu,,20 écus
+2-IV-1255,500.0,écu,,500 écus
+2-IV-1256,250.0,écu,d'or d'Espagne,250 écus d'or d'Espagne
+2-IV-1258,200.0,écu,,200 écus
+2-IV-1260,45.0,écu,,45 écus
+2-IV-1261,100.0,écu,d'or d'Espagne,100 écus d'or d'Espagne
+2-IV-1262,270.0,écu,,270 écus
+2-IV-1263,67.0,écu,,67 écus
+2-IV-1264,627.0,écu,,627 écus
+2-IV-1265,2500.0,écu,,2.500 écus
+2-IV-1266,355.0,écu,,355 écus
+2-IV-1268,465.0,écu,,465 écus
+2-IV-1269,27.0,once,de Sicile,27 onces de Sicile
+2-IV-1270,25.0,once,de Sicile,25 onces de Sicile
+2-IV-1272,200.0,écu,,200 écus
+2-IV-1272,57.0,aspre,,57 aspres
+2-IV-1274,200.0,écu,,200 écus
+2-IV-1275,16.0,once,,16 onces
+2-IV-1275,20.0,tari,,20 taris
+2-IV-1276,10.0,écu,,10 écus
+2-IV-1277,150.0,écu,,150 écus
