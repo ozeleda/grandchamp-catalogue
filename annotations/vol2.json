@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 876,
+ "reviewed_through_seq": 916,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -7886,6 +7886,355 @@
    "matter": "Loan",
    "notes": "Month corrected to July.",
    "keywords": "loan"
+  },
+  "2-IV-0877": {
+   "date": "1608-07-31",
+   "party1_name": "Agostino Baressi",
+   "party1_role": "debtor, don",
+   "currency": "écus d'or d'Espagne",
+   "matter": "A cask and a half of Sicilian wine",
+   "notes": "Month/day misread by OCR; corrected from the run of acts (31 July).",
+   "keywords": "wine; debt"
+  },
+  "2-IV-0878": {
+   "date": "1608-07-31",
+   "party1_role": "debtor, ransomed captive",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable one month after arrival at Marseille",
+   "notes": "Month/day misread by OCR; corrected from the run of acts (31 July).",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0879": {
+   "date": "1608-07-31",
+   "transaction_type": "Protest / summons",
+   "party1_role": "claimant",
+   "party2_name": "Pietro Paulo Ambrogino",
+   "party2_role": "debtor",
+   "currency": "écus",
+   "matter": "Claims 40 écus owed for four years",
+   "decision": "Ambrogino's reply follows",
+   "notes": "OCR reads « 34 juin »; corrected to 31 July from the run of acts.",
+   "keywords": "debt"
+  },
+  "2-IV-0880": {
+   "date": "1608-07-31",
+   "transaction_type": "Protest / summons",
+   "party1_name": "Marcho Franco",
+   "party2_name": "Pietro Paulo Ambrogino",
+   "matter": "Same matter (debt claim)",
+   "notes": "Month/day misread by OCR; corrected from the run of acts (31 July).",
+   "keywords": "debt"
+  },
+  "2-IV-0881": {
+   "date": "1608-07-31",
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "requesting party",
+   "other_parties_names": "Asta Mami",
+   "other_parties_role": "author of the memorandum",
+   "matter": "Verification of a memorandum (record) by Asta Mami about a sale of goods to be made in Christendom",
+   "keywords": "verification; trade"
+  },
+  "2-IV-0882": {
+   "transaction_type": "Redemption",
+   "party1_origins": "napolitain habitant à Malte",
+   "party1_role": "agent (receives goods and money), ship master (patron)",
+   "party2_origins": "turc, janissaire de Tunis",
+   "other_parties_names": "Fra Lorenzo; Chamar; Aiscia; Asisa",
+   "other_parties_origins": "capitaine de la « Carciere »; ; ; ",
+   "other_parties_role": "slave-owner (Knight of Malta); captive, wife of Agi Ali; captive, child of Agi Ali; captive, child of Agi Ali",
+   "price": 700,
+   "currency": "écus",
+   "other_equivalent": "Goods (hides, wool…) worth 472 écus plus 228 écus in cash; 70 écus d'or d'Espagne fee to Gauderis",
+   "matter": "To ransom Agi Ali's wife and children, slaves of Fra Lorenzo at Malta, and bring them back to Tunis",
+   "notes": "The knight Charlo Ayme di Medrid signs as witness.",
+   "keywords": "ransom; Muslim captives; Malta; family"
+  },
+  "2-IV-0883": {
+   "party1_name": "Simone Adanno",
+   "party1_origins": "de Sestri de Levante",
+   "party1_role": "debtor, ransomed captive",
+   "other_parties_role": "recipient of ransom payment, protector of the Militia of Tunis; recipient of ransom payment, captain of Bizerte",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable one month after arrival at Livorno",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0884": {
+   "party1_role": "declarant, ship master (patron) of the « San Gio Bata »",
+   "other_parties_names": "owner of the escaped slaves",
+   "other_parties_role": "compensated",
+   "currency": "écus",
+   "matter": "His ship's boat was stolen by one of his men to help two slaves escape; though long ill, he was held responsible and paid 200 écus to the slaves' owner",
+   "notes": "Four witness statements follow.",
+   "keywords": "escaped slaves; liability"
+  },
+  "2-IV-0885": {
+   "party1_origins": "de la Sonza (Corse)",
+   "party2_origins": "corse habitant à Livourne",
+   "other_parties_names": "Mami Corso",
+   "other_parties_origins": "de Bizerte",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable at Bastia",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0886": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor, ship master (patron)",
+   "party2_role": "creditor (dey)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "For the ransom of a Christian; to be sent by the first ship leaving Marseille or Livorno after his arrival",
+   "decision": "Osta Morat Genovese, janissary, gives receipt on 14 June 1609",
+   "keywords": "ransom; debt"
+  },
+  "2-IV-0887": {
+   "transaction_type": "Debt",
+   "party1_name": "Franco Tomasino",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "For the ransom of a Christian; same undertaking as the previous act",
+   "decision": "Receipt dated 11 June 1609",
+   "keywords": "ransom; debt"
+  },
+  "2-IV-0888": {
+   "party1_name": "Gio Adanno; Maria Adanno",
+   "party1_role": "debtor, ransomed captive; debtor, ransomed captive, wife of Gio",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable one month after arrival at Livorno",
+   "keywords": "ransom; loan; family"
+  },
+  "2-IV-0889": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor",
+   "party2_name": "Antonio Calvano",
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan",
+   "keywords": "loan"
+  },
+  "2-IV-0890": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable at Livorno",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0891": {
+   "transaction_type": "Redemption",
+   "matter": "Same matter as the previous act",
+   "keywords": "ransom"
+  },
+  "2-IV-0892": {
+   "party1_role": "principal",
+   "party2_name": "Gio Franco Grima",
+   "party2_role": "attorney, father of party 1",
+   "other_parties_names": "Vincz Zerri",
+   "other_parties_role": "debtor",
+   "matter": "Recovery of a debt",
+   "keywords": "debt collection; family"
+  },
+  "2-IV-0893": {
+   "matter": "Loan",
+   "keywords": "loan; Jews"
+  },
+  "2-IV-0894": {
+   "party1_origins": "marchand anglais",
+   "party2_name": "Gio Bata Pin",
+   "party2_origins": "catalan",
+   "party2_role": "buyer (to resell)",
+   "price": 198,
+   "currency": "écus",
+   "other_equivalent": "11 casks at 18 écus each",
+   "matter": "11 casks of Spanish wine, stored in the French consul's warehouse",
+   "keywords": "wine; English"
+  },
+  "2-IV-0895": {
+   "other_parties_names": "Andria",
+   "other_parties_origins": "fondeur de l'artillerie de la Religion de Malte",
+   "other_parties_role": "debtor (gun-founder of the Order of Malta)",
+   "matter": "Recovery of a debt",
+   "keywords": "debt collection; Malta"
+  },
+  "2-IV-0896": {
+   "transaction_type": "Redemption",
+   "party1_name": "Fra Glaudo de Crotta (Claude de Ciotes)",
+   "party1_origins": "français",
+   "party1_role": "debtor, ransomed captive, knight of Malta",
+   "party2_name": "Murcant Lazzaro; Casson Alcaid",
+   "party2_origins": "de Marseille; maure de Djerba",
+   "party2_role": "creditor; creditor, raïs",
+   "other_parties_names": "Ossoman Day",
+   "other_parties_role": "recipient of ransom payment, protector and governor of the Militia of Tunis",
+   "matter": "Ransom loan repayable one month after arrival at Malta",
+   "keywords": "ransom; loan; knight of Malta"
+  },
+  "2-IV-0897": {
+   "party2_name": "Muccian Lazzaro; Claudo de Grottes",
+   "other_parties_names": "Gregorio Mazzone",
+   "other_parties_role": "debtor",
+   "currency": "écus",
+   "matter": "Recovery of a 100-écu debt",
+   "keywords": "debt collection"
+  },
+  "2-IV-0898": {
+   "party2_name": "Amor ben Salemen",
+   "party2_origins": "maure de Rossetto",
+   "party2_role": "creditor, raïs",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0899": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "requesting party",
+   "other_parties_names": "Asta Mami; Ossoman Day",
+   "other_parties_origins": "renégat corse; ",
+   "other_parties_role": "deceased, renegade; dey (allegedly ignored the will)",
+   "matter": "Inquiry into the circumstances of Asta Mami's death; Ossoman Day allegedly did not respect his will",
+   "notes": "Two witness statements follow; acts 275 and 276 concern the same matter.",
+   "keywords": "death; will; renegade; inquiry"
+  },
+  "2-IV-0900": {
+   "other_parties_names": "Mamet Bey",
+   "matter": "Ransom loan repayable one month after arrival at Livorno",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0901": {
+   "party1_origins": "turc, janissaire",
+   "party2_name": "Niccolo d'Orestagno",
+   "party2_origins": "de Palerme",
+   "party2_role": "payer",
+   "price": 52,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Payment relating to the act of 17 (actually 18) October 1606",
+   "keywords": "payment; wine"
+  },
+  "2-IV-0902": {
+   "date": "1608-09-01",
+   "party1_role": "recipient, ransomed captive",
+   "party2_name": "Gio di Rio",
+   "party2_role": "payer, ship master (patron)",
+   "other_parties_names": "the Redemption [...]",
+   "other_parties_role": "principal (ordered the payment)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Balance of his ransom, paid on the order of the Redemption",
+   "notes": "OCR reads « 41° sept. »; 1 September.",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-IV-0903": {
+   "date": "1608-09-03",
+   "party1_name": "Hossoman Day",
+   "party1_role": "seller, governor and protector of the Militia of the Kingdom of Tunis",
+   "party2_name": "Giovanni Rio",
+   "party2_role": "buyer, ship master (patron)",
+   "price": 150,
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "64 aspres",
+   "matter": "Polacre of 1,200 cantars with no sails, anchors or rigging, taken by corsairs and lying at La Goulette for many months",
+   "notes": "Continues on p. 131.",
+   "keywords": "ship sale; prize; dey"
+  },
+  "2-IV-0904": {
+   "drop": true
+  },
+  "2-IV-0905": {
+   "party1_name": "Niccola Dorestagno; Niccolo Scotto",
+   "party1_origins": "de Palerme; de Palerme",
+   "party1_role": "declarant; declarant",
+   "other_parties_names": "Giorgio di Franco; captain Vuardi (Ward)",
+   "other_parties_origins": "grec; anglais",
+   "other_parties_role": "deceased (drowned); captain of the English corsair",
+   "matter": "Declare that Giorgio di Franco, aboard the English corsair of captain Ward, drowned when the ship was lost",
+   "keywords": "death; English corsairs; shipwreck"
+  },
+  "2-IV-0906": {
+   "date": "1608-09",
+   "transaction_type": "Debt",
+   "party1_name": "Antonio Salada",
+   "party1_origins": "de Sestri di Ponente",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Bata Rosso",
+   "party2_role": "creditor, ship master (patron)",
+   "other_parties_names": "Asta Moratto",
+   "other_parties_origins": "renégat génois",
+   "other_parties_role": "recipient of ransom payment",
+   "price": 125,
+   "currency": "pièces de 8 réaux",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0907": {
+   "party1_name": "Giovanni Temies",
+   "party1_origins": "de La Rochelle",
+   "party1_role": "debtor, ransomed captive",
+   "price": 128.5,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable one month after arrival at Marseille",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0908": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable 15 days after arrival at Palermo",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0909": {
+   "currency": "écus",
+   "matter": "Loan repayable at Malta",
+   "keywords": "loan"
+  },
+  "2-IV-0910": {
+   "party1_name": "Pantalino Tomasino; Gio Morellett (Jehan Maurellet)",
+   "party1_origins": "de Marseille; de Marseille",
+   "party1_role": "witness, ship master (patron); witness",
+   "other_parties_names": "the French consul; Antonio Fonter",
+   "other_parties_role": "consul; ship master (patron) carrying the letters",
+   "matter": "Certify the consul handed Fonter letters and papers for the Consuls and Governor of Marseille; Fonter declared he was ready to sail",
+   "keywords": "consular correspondence; ship"
+  },
+  "2-IV-0911": {
+   "party2_role": "payer (debtor)",
+   "currency": "écus de 12 réaux castillans",
+   "matter": "Repayment of a debt",
+   "keywords": "debt; payment"
+  },
+  "2-IV-0912": {
+   "matter": "Recovery of debts",
+   "keywords": "debt collection"
+  },
+  "2-IV-0913": {
+   "transaction_type": "Company / partnership",
+   "party1_role": "agent (receives capital)",
+   "party2_role": "investor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Capital to invest in goods in the interior of Tunisia; half the profit to Stella",
+   "keywords": "commenda; trade; interior"
+  },
+  "2-IV-0914": {
+   "party1_name": "Gio Martino",
+   "party1_role": "declarant, squire of Marseille",
+   "other_parties_names": "Onorato Marin; two corsairs",
+   "other_parties_role": "ship master (patron) of the barque « Santa Maria bona ventura »; captors",
+   "matter": "Sea protest: left La Goulette on 17 August with 30 horses and hides for Marseille; a leak forced a stop at Tabarca; taken on 7 September by two corsairs to Bizerte; several horses died",
+   "notes": "Two witness statements follow.",
+   "keywords": "sea protest; horses; corsairs; shipwreck risk"
+  },
+  "2-IV-0915": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor",
+   "party2_name": "Antonio Calvano",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable one month after arrival at Marseille",
+   "keywords": "loan"
+  },
+  "2-IV-0916": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "witness",
+   "other_parties_names": "Anton Manfredini; Santo di Marco; Stefano Simodey; Stefano Sicard",
+   "other_parties_role": "consignee (to sell the wine); consignor; consignor; consignor, ship master (patron)",
+   "price": 11.5,
+   "currency": "écus per cask",
+   "matter": "Saw 19½ casks of Sardinian wine consigned to Manfredini; unsold for months, the wine spoiled and sold for only 11½ écus a cask",
+   "keywords": "wine; consignment; damaged goods"
   }
  }
 }
