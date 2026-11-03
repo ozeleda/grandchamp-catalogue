@@ -8,9 +8,15 @@ charters, protests…), together with the documents he published in full.
 | Volume | Period | Acts (Part I) | Full-text documents (Parts II–III) |
 |---|---|---|---|
 | 1 — *La France en Tunisie à la fin du XVIe siècle* (Tunis, 1920) | 1582–1600 | 855 | 33 + 38 |
-| 2 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1921) | 1601–1610 | 1299 | — |
+| 2 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1921) | 1601–1610 | 1326 | annexes: text files only |
+| 3 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1925) | 1611–1620 | 2452 | annexes: text files only |
 
-Volumes 2–10 can be added the same way: see [Adding a volume](#adding-a-volume).
+The transaction columns of volumes 1 and 2 were reviewed by hand, act by act. Those of volume 3
+are the automatic draft (`extraction = 'auto'`) and still need the same review.
+
+Every volume also has **plain-text files** in `text/vol<N>/`, one per printed page plus organised
+files (acts with date and other markers, annexed documents, indexes, table of contents). The
+database is built from them. See [`text/README.md`](text/README.md).
 
 ## Files
 
@@ -19,11 +25,15 @@ Volumes 2–10 can be added the same way: see [Adding a volume](#adding-a-volume
 | `catalogue.sqlite` | The database (SQLite 3; open with [DB Browser for SQLite](https://sqlitebrowser.org/), Datasette, Python, R…) |
 | `csv/transactions.csv` | **One row per act with the transaction columns** (see below); opens directly in Excel |
 | `csv/` | Other CSVs (UTF-8 with BOM): `acts`, `act_amounts`, `documents`, `officials` |
+| `text/vol<N>/` | Plain-text edition of each volume: page files, `acts.txt` with markers, documents, indexes… ([details](text/README.md)) |
 | `annotations/vol1.json`, `annotations/vol2.json` | Hand corrections to the extracted transaction columns (all acts of both volumes reviewed) |
-| `pdfs/` | Source scans (Internet Archive, with an OCR text layer) |
+| `pdfs/` | Source scans: volume 1 from the Internet Archive; volumes 2, 3, 5–8, 10 from HathiTrust (Google OCR), split into parts under 25 MB; `v.2.pdf` is the older photocopy of volume 2 |
 | `volumes.json` | Per-volume settings: page layout plus the manual OCR corrections |
-| `ocr/vol2/` | Fresh OCR of volume 2, one text file per printed page (see below) |
-| `scripts/build_db.py` | Rebuilds the database and CSVs from the PDFs |
+| `ocr/vol2/` | Tesseract OCR of the older volume 2 photocopy, used as a second reading (see below) |
+| `scripts/extract_pages.py` | Writes the page text files of a volume from its scans |
+| `scripts/organize_text.py` | Writes `acts.txt` and the other organised text files |
+| `scripts/remap_refs.py` | Keeps the hand annotations on the right acts when a fix splits or merges acts |
+| `scripts/build_db.py` | Rebuilds the database and CSVs from the text files (volume 1 documents from the PDF) |
 | `scripts/extract_parties.py` | Rule-based first draft of the transaction columns from each summary |
 | `scripts/annotate.py` | Merges corrections into `annotations/vol<N>.json` |
 | `scripts/ocr_volume.py` | Re-OCRs a two-up photocopy scan with Tesseract into `ocr/vol<N>/` |
@@ -119,41 +129,44 @@ but are not authoritative:
 * The register is not strictly chronological (follow-up acts were written next
   to the original), so `seq` keeps the printed order and `date_iso` the act's own date.
 
-## Volume 2: a photocopy scan, re-OCR'd
+## Volumes 2 and 3: HathiTrust scans
 
-Volume 2 (`pdfs/La France en Tunisie v.2.pdf`) is a photocopier scan, not an Internet Archive
-scan. It has two book pages on each PDF page, the pages are slightly skewed, and the
-embedded OCR is too poor to parse. `scripts/ocr_volume.py` therefore:
+Volumes 2 and 3 are read from the HathiTrust scans (`pdfs/La France en Tunisie v.N_PartK.pdf`), whose
+Google OCR is much better than the earlier photocopy of volume 2. The pipeline is:
 
-1. finds the gutter of each spread (from the embedded text layer) and splits it into two pages;
-2. drops duplicate shots. Pages carrying a facsimile signature were photographed twice; these are
-   listed in `volumes.json` → `two_up.skip_halves`;
-3. deskews each page and OCRs it with Tesseract (French + Italian);
-4. restores dates in the margin from the embedded text layer when Tesseract misses them;
-5. writes the layout text to `ocr/vol2/p<page>.txt`, with `index.json` mapping pages to PDF pages.
+1. `scripts/extract_pages.py N` numbers the pages from the running headers, drops library pages,
+   normalises the OCR (spacing, margin dates the OCR put on their own line or on the wrong line),
+   and writes `text/volN/pages/`. Pages whose Google OCR is scrambled (curved pages) are re-OCR'd
+   with Tesseract (`text/volN/tesseract/`), keeping Google's margin dates. A few pages scrambled in
+   both were transcribed by hand from the page image (`text/volN/transcribed/`).
+2. Remaining errors were checked against the page images and fixed in `text/volN/fixes.json`
+   (page text replacements, splits and merges of acts, dates).
+3. `scripts/organize_text.py N` parses the acts and writes `acts.txt` (one block per act, with
+   date, register, page, folio, language, officials, amounts, dates mentioned, flags) and the
+   section files.
+4. `scripts/build_db.py` reads `acts.txt` and applies the hand annotations.
 
-`build_db.py` reads that cache, so Tesseract is only needed to regenerate it
-(`python3 scripts/ocr_volume.py 2`).
+Volume 2 notes:
 
-Known limitations of volume 2:
+* The new scan was checked against what had been parsed from the photocopy. The act texts now
+  come from the new scan. Words were compared with the photocopy's Tesseract OCR (`ocr/vol2/`),
+  and the page images were checked wherever they disagreed. The book's errata are applied
+  (`text/vol2/corrections.txt`). Pages 8–9, missing from the photocopy, are now included.
+  Volume 2 has 1,326 acts, against 1,299 before: missing pages, and acts the OCR had run together.
+* All annotations were carried over to the new act refs (`annotations/vol2_ref_map.json` maps old
+  refs to new ones) and re-checked against the new text. Prices and numbers were corrected
+  where the photocopy's OCR had misread them.
+* Where the margin date is not legible, the act takes the previous act's date, and `date status` in
+  `acts.txt` (and `notes`) says so.
 
-* **Book pages 8–9 are missing from the scan.** Their acts are not in the database.
-* **Illegible dates:** where the margin date could not be read, the act takes the previous act's
-  date and `notes` says so. During review, misread days and months were corrected from the run
-  of surrounding acts or the PDF text layer (a `date` entry in `annotations/vol2.json`), and
-  `notes` explains each correction. Doubtful cases are kept to the month (e.g. `1608-10`).
-* **Merged and split acts:** where the OCR ran two acts together, the review splits them
-  (`split_at`); the extra pieces get suffixed refs such as `2-IV-1025b`. Lines carried over a page
-  break, which the parser took for new acts, were folded back into their act (`drop`).
-* **Pages 142, 172 and 182** OCR'd as noise (skewed scans); their text in `ocr/vol2/` was rebuilt
-  by hand from the PDF's embedded text layer.
-* **Language:** most acts are in Italian; acts with no « En italien » prefix are in French, and the
-  hand notes say « Act in French ».
-* **Folio numbers:** register IV gives folio numbers, e.g. « (269) ». They are kept in the summary and in `notes`.
-* **Not yet processed:** the annexed documents (pp. 183–191) and the name index of
-  volumes I–II (pp. 192–252) are not parsed yet.
-* **Reviewed:** all 1,299 acts of volume 2 were checked by hand against their summaries, as for
-  volume 1 (`extraction = 'reviewed'`).
+Volume 3 notes:
+
+* 2,452 acts in four registers (IV–VII, 1611–1620, a few acts dated 1621), with the annexed
+  documents, the indexes of names, of slaves and of ships, and the glossary as text files.
+* The transaction columns are the automatic draft and have not been reviewed by hand yet.
+* From p. 168 to 22 September 1617, Grandchamp's own manuscript was destroyed in the 1923 fire
+  at the Imprimerie Rapide, and he redid that part from the register. Some leaves were too damaged
+  for a second reading. His note is kept in the text.
 
 ## Schema (main tables)
 
@@ -218,10 +231,13 @@ SELECT ref, date_iso, summary FROM acts WHERE chancelier LIKE '%Roze%';
 ## Rebuilding
 
 Requires Python 3.9+ and `pdftotext` (poppler-utils: `apt install poppler-utils`
-or `brew install poppler`). No Python packages are needed.
+or `brew install poppler`). Re-OCRing pages also needs Tesseract (`fra`, `ita`) and Pillow; the
+Tesseract output is cached in the repository, so it is only needed for new pages.
 
 ```bash
-python3 scripts/build_db.py
+python3 scripts/extract_pages.py 3      # page text files (per volume)
+python3 scripts/organize_text.py 3      # acts.txt and the other text files
+python3 scripts/build_db.py             # database and CSVs
 ```
 
 The script prints warnings for anything it could not parse confidently (lines

@@ -278,7 +278,7 @@ def write_acts(vol, acts, officials, footnotes, index, out):
         s = a["summary"]
         lines.append(f"[act {a['ref']}]")
         lines.append(f"date: {act_date(a)}")
-        lines.append(f"date printed: {a['date_raw'] or '—'}")
+        lines.append(f"date printed: {re.sub(r'\s+', ' ', a['date_raw'] or '—').strip()}")
         lines.append(f"date status: {date_status(a)}")
         if a.get("date_note"):
             lines.append(f"date note: {a['date_note']}")
@@ -374,7 +374,8 @@ def build_acts(vol):
         o["after_act_seq"] = next((i for i, a in enumerate(acts) if a["summary"] == o["_before"]), len(acts))
     for a in acts:
         a["summary"] = re.sub(r"\s{2,}", " ", a["summary"]).strip()
-        a["summary"] = re.sub(r"^[-–.]\s*(?=En \w+\. —)", "", a["summary"])     # "- En italien. —"
+        a["summary"] = re.sub(r"^[-–—_.]\s*(?=En \w+\. —|[A-ZÉ«(])", "", a["summary"])   # "- En italien. —"
+        a["summary"] = re.sub(r"\s*>>\s*", " » ", re.sub(r"\s*<<\s*", " « ", a["summary"])).strip().replace(" » .", " ».").replace(" » ,", " »,")
         # the book prints ½ as a stacked fraction, which the Google OCR drops: "53 écus et d'or"
         fixed = re.sub(r"(\d+ (?:écus|pièces|onces|taris|réaulx|sequins|ducats|livres|cantars)(?: d'or)? et)"
                        r"(?=\s*(?:[,.;)]|d'or|payé|pour|de Sicile|de 8))", r"\1 ½", a["summary"])

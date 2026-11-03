@@ -14,8 +14,114 @@
   },
   {
    "page": "p255",
-   "old": "1647 |",
+   "old": "1647",
    "new": "1617"
+  },
+  {
+   "page": "p378",
+   "old": "24 juillet 1621.   -   En italien.",
+   "new": "24 juil.          En italien."
+  },
+  {
+   "page": "p378",
+   "old": "11 novembre     1620.          En italien.",
+   "new": "11 nov.          En italien."
+  },
+  {
+   "page": "p370",
+   "old": "   juin     En  italien. — Mahomet",
+   "new": " ? juin     En  italien. — Mahomet"
+  },
+  {
+   "page": "p370",
+   "old": "    —       En italien. — Usta",
+   "new": " ?  —       En italien. — Osta"
+  },
+  {
+   "page": "p370",
+   "old": "    —      En  italien. — Enregistrement de 3",
+   "new": " ?  —      En  italien. — Enregistrement de 3"
+  },
+  {
+   "page": "p016",
+   "old": "  s. d.\n            d'un compte.\n\n              En italien. — Gio Martin",
+   "new": "            d'un compte.\n\ns. d.         En italien. — Gio Martin"
+  },
+  {
+   "page": "p067",
+   "old": "\n               En italien. — Vincenzio Vignola",
+   "new": "\n5  —          En italien. — Vincenzio Vignola"
+  },
+  {
+   "page": "p077",
+   "old": "\n            En italien. — Marizza di Niccola",
+   "new": "\n2  —        En italien. — Marizza di Niccola"
+  },
+  {
+   "page": "p094",
+   "old": "\n            En italien. — Antone Pagnale «Paignally)",
+   "new": "\n16  —       En italien. — Antone Pagnale (Paignally)"
+  },
+  {
+   "page": "p123",
+   "old": "11          (L'acte porte sans doute par erreur 11 janvier). En ita-\n            lien .                                                    -\n                      Batta Bonavia",
+   "new": "11  —       En italien. — (L'acte porte sans doute par erreur 11 janvier.) Batta Bonavia",
+   "note": "the editor's note precedes « En italien. — » in the book; moved after it so that the act is not split"
+  },
+  {
+   "page": "p163",
+   "old": "er\n                 En italien. — Santo Simodei a reçu de Spinosa",
+   "new": "\n1er —        En italien. — Santo Simodei a reçu de Spinosa"
+  },
+  {
+   "page": "p229",
+   "old": "\n        En  italien. —  Antonio Burachini",
+   "new": "\n9  —    En  italien. —  Antonio Burachini"
+  },
+  {
+   "page": "p317",
+   "old": "\n            En italien. — Carlo de Meaulx",
+   "new": "\n18  —       En italien. — Carlo de Meaulx"
+  },
+  {
+   "page": "p321",
+   "old": "1er            En italien. — (641)   Minico Cartaro, de Trapani, donne\n             une procuration\n               En italien. — à Petro di Miquelle pour le même objet.\n                               Claude Severt, vice-consul, demande l'en-",
+   "new": "1er —          En italien. — (641) Minico Cartaro, de Trapani, donne\n             une procuration à Petro di Miquelle pour le même objet.\n1er —          En italien. — Claude Severt, vice-consul, demande l'en-"
+  },
+  {
+   "page": "p323",
+   "old": "\n            En italien. — (2) Geronimo Borassio",
+   "new": "\n.. —        En italien. — (2) Geronimo Borassio"
+  },
+  {
+   "page": "p281",
+   "old": "45   —      En italien. — (403)",
+   "new": "15   —      En italien. — (403)"
+  },
+  {
+   "page": "p285",
+   "old": "    s. d.                    Déposition de Paolo Antonio Rogliani, cor-\n                   En italien. —\n",
+   "new": "s. d.       En italien. — Déposition de Paolo Antonio Rogliani, cor-\n"
+  },
+  {
+   "page": "p307",
+   "old": " er\n               En italien. —\n             Remo,\n                              -\n             marin; Matheo Porquier, de Six Fours, 24 ans. marin.\n\n                               (548) Stefano Pera de Stefano, de San-\n                    riv. de Gênes",
+   "new": "             marin; Matheo Porquier, de Six Fours, 24 ans. marin.\n\n1er —        En italien. — (548) Stefano Pera de Stefano, de San\n             Remo, riv. de Gênes"
+  },
+  {
+   "page": "p205",
+   "old": "44  —       En italien. — (144)",
+   "new": "14  —       En italien. — (144)"
+  },
+  {
+   "page": "p205",
+   "old": "4  —       En italien. — (145)",
+   "new": "14  —       En italien. — (145)"
+  },
+  {
+   "page": "p281",
+   "old": "45   —      En italien. — Giuliano Pin",
+   "new": "15   —      En italien. — Giuliano Pin"
   }
  ],
  "acts": {
@@ -24,6 +130,21 @@
     "find": "Copie de la lettre de la Roine régente",
     "date": "1611-12-20",
     "note": "Copy of a letter dated 20 December 1611 (the margin gives the letter's date), registered among the acts of 1612."
+   },
+   {
+    "find": "Giosef Seralvo déclare à Moise Israel",
+    "date": "1621-07-24",
+    "note": "Act of 24 July 1621, entered among the acts of 1620 (margin « 24 juillet 1621 »)."
+   },
+   {
+    "find": "Le rais Salema el Fesegoul",
+    "date": "1620-11-11",
+    "note": "Margin « 11 novembre 1620 »."
+   },
+   {
+    "find": "Sans doute juillet. (260)",
+    "date": "1617-07-03",
+    "note": "The margin prints « 3 — » under June; the editor notes « Sans doute juillet »."
    }
   ]
  }

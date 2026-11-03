@@ -302,7 +302,7 @@ page: 5 (scan: La France en Tunisie v.2_Part1.pdf p. 22)
 language: français
 chancelier: Jean-Louis Beau
 amounts: 110 écus
-text: Antoine Lovico, « V. C. , (vice-consul ?) en ce royaume de Tunis », vend à Honoré Garnier quatre quirats du <<Notre Dame de Loreto bonne Venture » pour le prix de 110 écus conformément à l'ordonnance royale. L'acte énumère certaines conditions concernant le chargement au cas où le navire ferait un autre voyage.
+text: Antoine Lovico, « V. C. , (vice-consul ?) en ce royaume de Tunis », vend à Honoré Garnier quatre quirats du « Notre Dame de Loreto bonne Venture » pour le prix de 110 écus conformément à l'ordonnance royale. L'acte énumère certaines conditions concernant le chargement au cas où le navire ferait un autre voyage.
 
 [act 2-III-0028]
 date: 1602-03-12
@@ -419,7 +419,7 @@ text: En italien. — Georgio Rovetto, de Sixfours, reconnaît avoir reçu du pa
 
 [act 2-III-0038]
 date: 1602-05-30
-date printed: 30  —
+date printed: 30 —
 date status: printed in the margin
 register: III
 page: 7 (scan: La France en Tunisie v.2_Part1.pdf p. 24)
@@ -462,7 +462,7 @@ text: En italien. — Joanne Campaut, de Sandripe (?) (Provence), reconnaît dev
 
 [act 2-III-0042]
 date: 1602-07-02
-date printed: 2   —
+date printed: 2 —
 date status: printed in the margin
 register: III
 page: 8 (scan: La France en Tunisie v.2_Part1.pdf p. 25)
@@ -472,7 +472,7 @@ text: En italien. — Le caïd Ricep, renégat français, fils de Donna Selice, 
 
 [act 2-III-0043]
 date: 1602-07-19
-date printed: 19  —
+date printed: 19 —
 date status: printed in the margin
 register: III
 page: 8 (scan: La France en Tunisie v.2_Part1.pdf p. 25)
@@ -483,7 +483,7 @@ text: En italien. — Siumbruno Mansono, corse, reconnaît avoir reçu de Valeri
 
 [act 2-III-0044]
 date: 1602-07-27
-date printed: 27  —
+date printed: 27 —
 date status: printed in the margin
 register: III
 page: 8 (scan: La France en Tunisie v.2_Part1.pdf p. 25)
@@ -495,7 +495,7 @@ text: En italien. — Pietro Gallego, espagnol, reconnaît avoir reçu du P. Jea
 
 [act 2-III-0045]
 date: 1602-07-27
-date printed: 27  —
+date printed: 27 —
 date status: printed in the margin
 register: III
 page: 8 (scan: La France en Tunisie v.2_Part1.pdf p. 25)
@@ -506,7 +506,7 @@ text: En italien. — Mario Mallapica reconnaît avoir reçu du P. Jean Baptiste
 
 [act 2-III-0046]
 date: 1602-07-27
-date printed: 27  —
+date printed: 27 —
 date status: printed in the margin
 register: III
 page: 8 (scan: La France en Tunisie v.2_Part1.pdf p. 25)
@@ -528,7 +528,7 @@ text: En italien. — Scipione Scarlata, de Tarsia (Calabre), reconnaît avoir r
 
 [act 2-III-0048]
 date: 1602-07-29
-date printed: 29  —
+date printed: 29 —
 date status: printed in the margin
 register: III
 page: 9 (scan: La France en Tunisie v.2_Part1.pdf p. 26)
@@ -549,7 +549,7 @@ text: En italien. — Nicolo Cariale, de Vérone, reconnaît avoir reçu du patr
 
 [act 2-III-0050]
 date: 1602-08-14
-date printed: 14  —
+date printed: 14 —
 date status: printed in the margin
 register: III
 page: 9 (scan: La France en Tunisie v.2_Part1.pdf p. 26)
@@ -581,7 +581,7 @@ text: En italien. — Piero Buyer, d'Agde en Languedoc, subrécargue du bateau M
 
 [act 2-III-0053]
 date: 1602-09-09
-date printed: 9   —
+date printed: 9 —
 date status: printed in the margin
 register: III
 page: 9 (scan: La France en Tunisie v.2_Part1.pdf p. 26)
@@ -843,7 +843,7 @@ text: En italien. — Pietro Madaresi, de .... ... dans l'île d'Ischia, donne u
 
 [act 2-III-0077]
 date: 1603-04-14
-date printed: 14    avril
+date printed: 14 avril
 date status: printed in the margin
 register: III
 page: 14 (scan: La France en Tunisie v.2_Part1.pdf p. 31)
@@ -1188,7 +1188,7 @@ text: En italien. — Rocco de Lipari, fils de Blasi de Lipari, de Trapani, reco
 
 [act 2-III-0108]
 date: 1603-04-24
-date printed: 24   -
+date printed: 24 -
 date status: printed in the margin
 register: III
 page: 19 (scan: La France en Tunisie v.2_Part1.pdf p. 36)
@@ -1359,7 +1359,7 @@ page: 22 (scan: La France en Tunisie v.2_Part1.pdf p. 39)
 language: italien
 chancelier: Beneditto Saytta
 amounts: 1890 écus d'or d'Espagne
-text: En italien. — Le capne Paulo Lessio, génois, capitaine d'un navire nommé « La Santa Trinita et Sancta Barbara », reconnaît devoir à Francisco Tiran, Melchior Lazara, Andrea Meinardo, Pietropaulo Ambrosino et Stephano Semideo, français et corses habitant à Marseille, 1890 écus d'or d'Espagne , laquelle somme Paulo Lassio .......... a « reçue d'eux pour compléter le rachat, la libération et « l'expédition des marchandises qui se trouvent sur son << navire, pris et conduit dans le port de La Goulette par « un vaisseau anglais ». La somme est remboursable quinze jours après l'arrivée à Livourne. Pour plus de sécurité, une partie des marchandises sera confiée à Francisco Tiran qui commande le « San Francisco » et transportée aux frais de Lassio. L'acte énumère un certain nombre de mesures prises par les prèteurs pour garantir leur créance.
+text: En italien. — Le capne Paulo Lessio, génois, capitaine d'un navire nommé « La Santa Trinita et Sancta Barbara », reconnaît devoir à Francisco Tiran, Melchior Lazara, Andrea Meinardo, Pietropaulo Ambrosino et Stephano Semideo, français et corses habitant à Marseille, 1890 écus d'or d'Espagne , laquelle somme Paulo Lassio .......... a « reçue d'eux pour compléter le rachat, la libération et « l'expédition des marchandises qui se trouvent sur son « navire, pris et conduit dans le port de La Goulette par « un vaisseau anglais ». La somme est remboursable quinze jours après l'arrivée à Livourne. Pour plus de sécurité, une partie des marchandises sera confiée à Francisco Tiran qui commande le « San Francisco » et transportée aux frais de Lassio. L'acte énumère un certain nombre de mesures prises par les prèteurs pour garantir leur créance.
 
 [act 2-III-0124]
 date: 1603-06-10
@@ -1518,7 +1518,7 @@ text: En italien. — Cristoffano Suarona (?), de Céphalonie, reconnaît avoir 
 
 [act 2-III-0137]
 date: 1603-08-01
-date printed: 1er   août
+date printed: 1er août
 date status: printed in the margin
 register: III
 page: 24 (scan: La France en Tunisie v.2_Part1.pdf p. 41)
@@ -1746,7 +1746,7 @@ page: 27 (scan: La France en Tunisie v.2_Part1.pdf p. 44)
 language: français
 vice-consul: Anthoine Bérenger
 chancelier: Anthoine Vassallou
-text: « Rode » tenue à la réquisition du patron Laurens Vignons et Honnorat Garnier contre patron Antº Orsso Francº, corse. Anthoine Lovico, « vice-consul pour la nation française en ce royaume de Thunes assisté de merchans & patrons de vesseaux >> [anglais et français] règle une contestation survenue entre Vignons et Garnier, d'une part, et Anto Orsso Francesco, d'autre part, au sujet d'une avarie causée au navire de Vignon par celui d'Antº qui l'avait abordé à la suite de la rupture de son câble.
+text: « Rode » tenue à la réquisition du patron Laurens Vignons et Honnorat Garnier contre patron Antº Orsso Francº, corse. Anthoine Lovico, « vice-consul pour la nation française en ce royaume de Thunes assisté de merchans & patrons de vesseaux » [anglais et français] règle une contestation survenue entre Vignons et Garnier, d'une part, et Anto Orsso Francesco, d'autre part, au sujet d'une avarie causée au navire de Vignon par celui d'Antº qui l'avait abordé à la suite de la rupture de son câble.
 
 [act 2-III-0156]
 date: 1603-08-30
@@ -2251,7 +2251,7 @@ text: En italien. — Le patron Anthonio Orsso Francesco, de Pietro Corbaya , du
 
 [act 2-III-0198]
 date: 1604-01-25
-date printed: 25   -
+date printed: 25 -
 date status: printed in the margin
 register: III
 page: 33 (scan: La France en Tunisie v.2_Part1.pdf p. 50)
@@ -2359,7 +2359,7 @@ text: En italien. — Lodovico Ferrello, de Palerme, reconnaît devoir à Vincen
 
 [act 2-III-0207]
 date: 1604-04-23
-date printed: 23   -
+date printed: 23 -
 date status: printed in the margin
 register: III
 page: 35 (scan: La France en Tunisie v.2_Part1.pdf p. 52)
@@ -2737,7 +2737,7 @@ text: En italien. — Caytto Moratto et Caytto Ally, douaniers de Tunis, reconna
 
 [act 2-III-0238]
 date: 1604-06-21
-date printed: 21  —
+date printed: 21 —
 date status: printed in the margin
 register: III
 page: 40 (scan: La France en Tunisie v.2_Part1.pdf p. 57)
@@ -2749,7 +2749,7 @@ text: En italien. — Melchior Rabataud, de Marseille, donne une procuration à 
 
 [act 2-III-0239]
 date: 1604-06-29
-date printed: 29  —
+date printed: 29 —
 date status: printed in the margin
 register: III
 page: 40 (scan: La France en Tunisie v.2_Part1.pdf p. 57)
@@ -2771,7 +2771,7 @@ text: Jehan Gaspard Pebre, de Toulon, patron du vaisseau St Pierre bonne venture
 
 [act 2-III-0241]
 date: 1604-07-21
-date printed: 21  —
+date printed: 21 —
 date status: printed in the margin
 register: III
 page: 40 (scan: La France en Tunisie v.2_Part1.pdf p. 57)
@@ -2867,7 +2867,7 @@ text: Requête de Mathieu Dodon, de Marseille: ayant une contestation d'argent a
 
 [act 2-III-0249]
 date: 1604-08-09
-date printed: 9   —
+date printed: 9 —
 date status: printed in the margin
 register: III
 page: 42 (scan: La France en Tunisie v.2_Part1.pdf p. 59)
@@ -2879,7 +2879,7 @@ text: Les marchands et patrons français rassemblés pour l'affaire de Mathieu d
 
 [act 2-III-0250]
 date: 1604-08-10
-date printed: 10  —
+date printed: 10 —
 date status: printed in the margin
 register: III
 page: 42 (scan: La France en Tunisie v.2_Part1.pdf p. 59)
@@ -2890,7 +2890,7 @@ text: Réponse de Fabron. Réplique de Dodon. L'affaire dure jusqu'au 12 août.
 
 [act 2-III-0251]
 date: 1604-08-12
-date printed: 12  —
+date printed: 12 —
 date status: printed in the margin
 register: III
 page: 42 (scan: La France en Tunisie v.2_Part1.pdf p. 59)
@@ -2902,7 +2902,7 @@ text: En italien. — Le patron Pietro Maglanno (Maillano), de Marseille, habita
 
 [act 2-III-0252]
 date: 1604-08-12
-date printed: 12  —
+date printed: 12 —
 date status: printed in the margin
 register: III
 page: 42 (scan: La France en Tunisie v.2_Part1.pdf p. 59)
@@ -2913,7 +2913,7 @@ text: En italien. — Acte relatif à la même affaire et au même prêt.
 
 [act 2-III-0253]
 date: 1604-08-16
-date printed: 16  —
+date printed: 16 —
 date status: printed in the margin
 register: III
 page: 42 (scan: La France en Tunisie v.2_Part1.pdf p. 59)
@@ -2925,7 +2925,7 @@ text: Consulat du vaisseau St-Jehan Baptiste du St-Crucifix. (L'acte est très e
 
 [act 2-III-0254]
 date: 1604-08-16
-date printed: 16  —
+date printed: 16 —
 date status: printed in the margin
 register: III
 page: 42 (scan: La France en Tunisie v.2_Part1.pdf p. 59)
@@ -2938,7 +2938,7 @@ text: Le patron Pierre Maillan reconnaît devoir à Honorat Camins (?), de St Tr
 
 [act 2-III-0255]
 date: 1604-08-16
-date printed: 16  —
+date printed: 16 —
 date status: printed in the margin
 register: III
 page: 42 (scan: La France en Tunisie v.2_Part1.pdf p. 59)
@@ -3033,7 +3033,7 @@ text: En italien. — Un acte commencé et biffé.
 
 [act 2-III-0263]
 date: 1604-08-24
-date printed: 24    -
+date printed: 24 -
 date status: printed in the margin
 register: III
 page: 44 (scan: La France en Tunisie v.2_Part1.pdf p. 61)
@@ -3141,7 +3141,7 @@ text: Jehan Gaspard Pebre, de Toulon, reconnaît devoir à Anthoine Lovico 31 é
 
 [act 2-III-0272]
 date: 1604-08-28
-date printed: 28  —
+date printed: 28 —
 date status: printed in the margin
 register: III
 page: 45 (scan: La France en Tunisie v.2_Part1.pdf p. 62)
@@ -3153,7 +3153,7 @@ text: Jehan Imbert, du lieu du Bausset, en Provence, reconnaît devoir à Anthoi
 
 [act 2-III-0273]
 date: 1604-08-28
-date printed: 28  —
+date printed: 28 —
 date status: printed in the margin
 register: III
 page: 45 (scan: La France en Tunisie v.2_Part1.pdf p. 62)
@@ -3165,7 +3165,7 @@ text: En italien. — Jacomo Santo Dangeli, corse, reconnaît devoir à Pasquale
 
 [act 2-III-0274]
 date: 1604-08-28
-date printed: 28  —
+date printed: 28 —
 date status: printed in the margin
 register: III
 page: 45 (scan: La France en Tunisie v.2_Part1.pdf p. 62)
@@ -3177,7 +3177,7 @@ text: En italien. — Le patron Santo Langot, reconnaît devoir au rais Amour be
 
 [act 2-III-0275]
 date: 1604-08-28
-date printed: 28  —
+date printed: 28 —
 date status: printed in the margin
 register: III
 page: 45 (scan: La France en Tunisie v.2_Part1.pdf p. 62)
@@ -3189,7 +3189,7 @@ text: En italien. — Le patron Santo Langot reconnaît devoir à Francisco Thom
 
 [act 2-III-0276]
 date: 1604-08-29
-date printed: 29  —
+date printed: 29 —
 date status: printed in the margin
 register: III
 page: 45 (scan: La France en Tunisie v.2_Part1.pdf p. 62)
@@ -3200,7 +3200,7 @@ text: Constantino de Thomasso, corse, donne une procuration à son frère pour r
 
 [act 2-III-0277]
 date: 1604-08-30
-date printed: 30  —
+date printed: 30 —
 date status: printed in the margin
 register: III
 page: 45 (scan: La France en Tunisie v.2_Part1.pdf p. 62)
@@ -3211,7 +3211,7 @@ text: (Voir l'acte du 1er août ci-dessus). Contestation entre Jehan Gaspard Peb
 
 [act 2-III-0278]
 date: 1604-08-30
-date printed: 30  —
+date printed: 30 —
 date status: printed in the margin
 register: III
 page: 45 (scan: La France en Tunisie v.2_Part1.pdf p. 62)
@@ -3381,7 +3381,7 @@ text: Mamy Montese, janissaire de Tunis, a avancé 125 écus pour le rachat de R
 
 [act 2-III-0292]
 date: 1604-09-29
-date printed: 29  —
+date printed: 29 —
 date status: printed in the margin
 register: III
 page: 47 (scan: La France en Tunisie v.2_Part1.pdf p. 64)
@@ -3451,7 +3451,7 @@ text: Jehan Martin, écuyer de Marseille, mandataire de Anthoine Morarde (?), re
 
 [act 2-III-0298]
 date: 1604-11-20
-date printed: 20    -
+date printed: 20 -
 date status: printed in the margin
 register: III
 page: 48 (scan: La France en Tunisie v.2_Part1.pdf p. 65)
@@ -4193,7 +4193,7 @@ text: Anthoni Merlet, de la Ciotat, et Claudou Martin reconnaissent devoir à Fr
 
 [act 2-III-0360]
 date: 1605-06-20
-date printed: 20  —
+date printed: 20 —
 date status: printed in the margin
 register: III
 page: 57 (scan: La France en Tunisie v.2_Part1.pdf p. 76)
@@ -4205,7 +4205,7 @@ text: Anthoine Delord, de Bordeaux, cède au patron Jehan Pia, de Grasse, une cr
 
 [act 2-III-0361]
 date: 1605-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 57 (scan: La France en Tunisie v.2_Part1.pdf p. 76)
@@ -4217,7 +4217,7 @@ text: En italien. — Gregorio Bonsignore et Joanni Chiotta, de Trapani, reconna
 
 [act 2-III-0362]
 date: 1605-06-28
-date printed: 28  —
+date printed: 28 —
 date status: printed in the margin
 register: III
 page: 57 (scan: La France en Tunisie v.2_Part1.pdf p. 76)
@@ -4229,7 +4229,7 @@ text: En italien. — Mamy Rais, « beytemology », de Tunis, vend à Gregorio B
 
 [act 2-III-0363]
 date: 1605-06-28
-date printed: 28  —
+date printed: 28 —
 date status: printed in the margin
 register: III
 page: 57 (scan: La France en Tunisie v.2_Part1.pdf p. 76)
@@ -4241,7 +4241,7 @@ text: En italien. — Josepe Panfelonno, de Trapani, reconnaît devoir à Gregor
 
 [act 2-III-0364]
 date: 1605-06-28
-date printed: 28  —
+date printed: 28 —
 date status: printed in the margin
 register: III
 page: 57 (scan: La France en Tunisie v.2_Part1.pdf p. 76)
@@ -4510,7 +4510,7 @@ text: En italien. — Franco Dangello reconnaît devoir à Osta Mami , janissair
 
 [act 2-III-0386]
 date: 1605-08-26
-date printed: 26   -
+date printed: 26 -
 date status: printed in the margin
 register: III
 page: 60 (scan: La France en Tunisie v.2_Part1.pdf p. 79)
@@ -4522,7 +4522,7 @@ text: En italien. — Josepho Incardone, de Licata, reconnaît devoir à Jo Bati
 
 [act 2-III-0387]
 date: 1605-08-27
-date printed: 27   -
+date printed: 27 -
 date status: printed in the margin
 register: III
 page: 60 (scan: La France en Tunisie v.2_Part1.pdf p. 79)
@@ -4693,7 +4693,7 @@ text: En italien. — Gio Domenico Falacino, calabrais, habitant à Malte, recon
 
 [act 2-III-0401]
 date: 1605-12-22
-date printed: 22  —
+date printed: 22 —
 date status: printed in the margin
 register: III
 page: 63 (scan: La France en Tunisie v.2_Part1.pdf p. 82)
@@ -4705,7 +4705,7 @@ text: En italien. — Gio Domenigo Falacino reconnaît devoir au rais Sala bel M
 
 [act 2-III-0402]
 date: 1605-12-29
-date printed: 29  —
+date printed: 29 —
 date status: printed in the margin
 register: III
 page: 63 (scan: La France en Tunisie v.2_Part1.pdf p. 82)
@@ -4717,7 +4717,7 @@ text: Le patron Berenguis Gardane reconnaît devoir à François Estelle 32 écu
 
 [act 2-III-0403]
 date: 1605-12-29
-date printed: 29  —
+date printed: 29 —
 date status: printed in the margin
 register: III
 page: 63 (scan: La France en Tunisie v.2_Part1.pdf p. 82)
@@ -4740,7 +4740,7 @@ text: En italien. — Mahamet de Cabes, Belfadel bin Brahim, maures, déclarent 
 
 [act 2-III-0405]
 date: 1606-01-04
-date printed: 4   —
+date printed: 4 —
 date status: printed in the margin
 register: III
 page: 63 (scan: La France en Tunisie v.2_Part1.pdf p. 82)
@@ -4766,7 +4766,7 @@ text: François Chacornai (il signe dans cet acte « Chalcornac »), de Montpell
 
 [act 2-III-0407]
 date: 1606-01-09
-date printed: 9   —
+date printed: 9 —
 date status: printed in the margin
 register: III
 page: 64 (scan: La France en Tunisie v.2_Part1.pdf p. 83)
@@ -4778,7 +4778,7 @@ text: Baltazard Imbert, de Marseille, reconnaît devoir à Françoys Alègre, de
 
 [act 2-III-0408]
 date: 1606-01-10
-date printed: 10  —
+date printed: 10 —
 date status: printed in the margin
 register: III
 page: 64 (scan: La France en Tunisie v.2_Part1.pdf p. 83)
@@ -4791,7 +4791,7 @@ text: Manel Moret, patron de Marseille, expose qu'il a racheté un jeune homme n
 
 [act 2-III-0409]
 date: 1606-01-13
-date printed: 13  —
+date printed: 13 —
 date status: printed in the margin
 register: III
 page: 64 (scan: La France en Tunisie v.2_Part1.pdf p. 83)
@@ -4802,7 +4802,7 @@ text: En italien. — Joane Malocha, de la Rivière de Gênes, donne une procura
 
 [act 2-III-0410]
 date: 1606-01-14
-date printed: 14  —
+date printed: 14 —
 date status: printed in the margin
 register: III
 page: 64 (scan: La France en Tunisie v.2_Part1.pdf p. 83)
@@ -4897,7 +4897,7 @@ text: Jacomo Paldes (il signe: Jacoby Baltus), Alaman, et Ulca Seneinse (? ), du
 
 [act 2-III-0418]
 date: 1606-03-01
-date printed: 1er   mars
+date printed: 1er mars
 date status: printed in the margin
 register: III
 page: 66 (scan: La France en Tunisie v.2_Part1.pdf p. 85)
@@ -4921,7 +4921,7 @@ text: En italien. — Voeta Cameliere Agozitana, femme de Pasquale Moschat, malt
 
 [act 2-III-0420]
 date: 1606-03-02
-date printed: 2     -
+date printed: 2 -
 date status: printed in the margin
 register: III
 page: 66 (scan: La France en Tunisie v.2_Part1.pdf p. 85)
@@ -4981,7 +4981,7 @@ text: En italien. — Le patron Salvatore Icio, napolitain, reconnaît avoir re�
 
 [act 2-III-0425]
 date: 1606-03-31
-date printed: 31    -
+date printed: 31 -
 date status: printed in the margin
 register: III
 page: 67 (scan: La France en Tunisie v.2_Part1.pdf p. 86)
@@ -5028,7 +5028,7 @@ text: Gulihelme Tyssoire, hollandais, reconnaît devoir à Piebre .........., so
 
 [act 2-III-0429]
 date: 1606-05-08
-date printed: 8   —
+date printed: 8 —
 date status: printed in the margin
 register: III
 page: 68 (scan: La France en Tunisie v.2_Part1.pdf p. 87)
@@ -5040,7 +5040,7 @@ text: Le patron Loys Lombard, de Sixfours, déclare que le vaisseau nommé « La
 
 [act 2-III-0430]
 date: 1606-05-10
-date printed: 10  —
+date printed: 10 —
 date status: printed in the margin
 register: III
 page: 68 (scan: La France en Tunisie v.2_Part1.pdf p. 87)
@@ -5052,7 +5052,7 @@ text: Melchior Lazare, de Marseille, reconnaît devoir à Pierre Girard (?), hol
 
 [act 2-III-0431]
 date: 1606-05-10
-date printed: 10  —
+date printed: 10 —
 date status: printed in the margin
 register: III
 page: 68 (scan: La France en Tunisie v.2_Part1.pdf p. 87)
@@ -5064,7 +5064,7 @@ text: Le patron Guillaume Vigue, de Marseille, fr. Simon Brunel de Pertuis, reli
 
 [act 2-III-0432]
 date: 1606-05-10
-date printed: 10  —
+date printed: 10 —
 date status: printed in the margin
 register: III
 page: 68 (scan: La France en Tunisie v.2_Part1.pdf p. 87)
@@ -5217,7 +5217,7 @@ page: 71 (scan: La France en Tunisie v.2_Part1.pdf p. 90)
 language: français
 vice-consul: Anthoine Bérenger
 chancelier: Simon Brunet
-text: Jaques Blacard, marinier, de Marseille, tant en son nom qu'au nom des autres mariniers du vaisseau ((Ste-Claire bonne venture » , patron Jehan Tassy, de Marseille, déclare qu'ils ont acheté du vin en Sicile pour le porter à Tunis.. Arrivé là, le patron Tassy veut leur faire payer le fret comme s'il s'agissait de marchandises ordinaires. Les mariniers demandent que la question soit tranchée par une « rode ». Hugues Changet, vice-consul, après avoir pris l'avis des patrons présents à Tunis, rend une sentence à ce sujet.
+text: Jaques Blacard, marinier, de Marseille, tant en son nom qu'au nom des autres mariniers du vaisseau ((Ste-Claire bonne venture », patron Jehan Tassy, de Marseille, déclare qu'ils ont acheté du vin en Sicile pour le porter à Tunis.. Arrivé là, le patron Tassy veut leur faire payer le fret comme s'il s'agissait de marchandises ordinaires. Les mariniers demandent que la question soit tranchée par une « rode ». Hugues Changet, vice-consul, après avoir pris l'avis des patrons présents à Tunis, rend une sentence à ce sujet.
 
 [act 2-III-0445]
 date: 1606-06-16
@@ -5256,7 +5256,7 @@ text: Jean Inguiourran, écrivain et « commandataire » du « Ste- Claire bonne
 
 [act 2-III-0448]
 date: 1606-07-01
-date printed: 1er   juil.
+date printed: 1er juil.
 date status: printed in the margin
 register: III
 page: 72 (scan: La France en Tunisie v.2_Part1.pdf p. 91)
@@ -5422,7 +5422,7 @@ text: Manoli Darssaci, de Candie, reconnaît avoir reçu de Nicollo Barbier 50 �
 
 [act 2-III-0462]
 date: 1606-07-26
-date printed: 26    -
+date printed: 26 -
 date status: printed in the margin
 register: III
 page: 74 (scan: La France en Tunisie v.2_Part1.pdf p. 93)
@@ -5445,7 +5445,7 @@ text: Honnorat Courtade a reçu de Jean Versset 16 écus d'or pour acheter des c
 
 [act 2-III-0464]
 date: 1606-08-01
-date printed: 1er   août
+date printed: 1er août
 date status: printed in the margin
 register: III
 page: 74 (scan: La France en Tunisie v.2_Part1.pdf p. 93)
@@ -5685,7 +5685,7 @@ text: En italien. — Mamet bey, « procuratore testamentare » du feu Assan Pac
 
 [act 2-III-0484]
 date: 1606-09-16
-date printed: 16  —
+date printed: 16 —
 date status: printed in the margin
 register: III
 page: 77 (scan: La France en Tunisie v.2_Part1.pdf p. 96)
@@ -5697,7 +5697,7 @@ text: En italien. — Paulo Puccio, de Palerme, mandataire de Altifa, femme du r
 
 [act 2-III-0485]
 date: 1606-09-16
-date printed: 16  —
+date printed: 16 —
 date status: printed in the margin
 register: III
 page: 77 (scan: La France en Tunisie v.2_Part1.pdf p. 96)
@@ -5709,7 +5709,7 @@ text: En italien. — Olivier Chiavary reconnaît avoir acheté le navire mentio
 
 [act 2-III-0486]
 date: 1606-09-24
-date printed: 24  —
+date printed: 24 —
 date status: printed in the margin
 register: III
 page: 77 (scan: La France en Tunisie v.2_Part1.pdf p. 96)
@@ -5720,7 +5720,7 @@ text: En italien. — Horatio di Jacomo Mainardi, parti de Livourne avec la barq
 
 [act 2-III-0487]
 date: 1606-09-25
-date printed: 25  —
+date printed: 25 —
 date status: printed in the margin
 register: III
 page: 77 (scan: La France en Tunisie v.2_Part1.pdf p. 96)
@@ -5732,7 +5732,7 @@ text: En italien. — Maria Fiorentino reconnaît avoir reçu de Niccolo Doresta
 
 [act 2-III-0488]
 date: 1606-09-25
-date printed: 25  —
+date printed: 25 —
 date status: printed in the margin
 register: III
 page: 77 (scan: La France en Tunisie v.2_Part1.pdf p. 96)
@@ -6014,7 +6014,7 @@ text: En italien. — Ettor Cuigliandro, Filippo Cuigliandro, Paulo Puccio, le p
 
 [act 2-III-0512]
 date: 1606-10-20
-date printed: 20    -
+date printed: 20 -
 date status: printed in the margin
 register: III
 page: 80 (scan: La France en Tunisie v.2_Part1.pdf p. 99)
@@ -6142,7 +6142,7 @@ text: En italien. — Marcho di Cattania, de Girgenti, a acheté pour 20 écus d
 
 [act 2-III-0523]
 date: 1606-11-11
-date printed: 11    nov.
+date printed: 11 nov.
 date status: printed in the margin
 register: III
 page: 82 (scan: La France en Tunisie v.2_Part1.pdf p. 101)
@@ -6188,7 +6188,7 @@ text: En italien. — Niccolo Dorestagnio promet à Mario di Leopardo Quarantott
 
 [act 2-III-0527]
 date: 1606-12-01
-date printed: 1er   déc.
+date printed: 1er déc.
 date status: printed in the margin
 register: III
 page: 82 (scan: La France en Tunisie v.2_Part1.pdf p. 101)
@@ -6223,7 +6223,7 @@ text: En italien. — Gioacchino Sandi, fils de Giorgi, vénitien, certifie avoi
 
 [act 2-III-0530]
 date: 1607-01-16
-date printed: 16      -
+date printed: 16 -
 date status: printed in the margin
 register: III
 page: 83 (scan: La France en Tunisie v.2_Part1.pdf p. 102)
@@ -6234,7 +6234,7 @@ text: En italien. — Longue déposition du capitaine anglais John Keye qui a s�
 
 [act 2-III-0531]
 date: 1607-02-01
-date printed: 1       fév.
+date printed: 1 fév.
 date status: printed in the margin
 register: III
 page: 83 (scan: La France en Tunisie v.2_Part1.pdf p. 102)
@@ -6293,7 +6293,7 @@ text: En italien. — Stefano Simodei a reçu de Asta Moratto Corso 120 écus d'
 
 [act 2-III-0536]
 date: 1607-02-24
-date printed: 24        -
+date printed: 24 -
 date status: printed in the margin
 register: III
 page: 83 (scan: La France en Tunisie v.2_Part1.pdf p. 102)
@@ -6372,7 +6372,7 @@ text: En italien. — Vérification du compte de Claude Chabert visé dans l'act
 
 [act 2-III-0543]
 date: 1607-03-06
-date printed: 6     -
+date printed: 6 -
 date status: printed in the margin
 register: III
 page: 84 (scan: La France en Tunisie v.2_Part1.pdf p. 103)
@@ -6417,7 +6417,7 @@ text: En italien. — Anto Maria Franco fait entendre le caït Moratto au sujet 
 
 [act 2-III-0547]
 date: 1607-03-06
-date printed: 6   —
+date printed: 6 —
 date status: printed in the margin
 register: III
 page: 85 (scan: La France en Tunisie v.2_Part1.pdf p. 104)
@@ -6429,7 +6429,7 @@ text: En italien. — Franco Tomasini, corse habitant à Marseille, fait une dé
 
 [act 2-III-0548]
 date: 1607-03-07
-date printed: 7   —
+date printed: 7 —
 date status: printed in the margin
 register: III
 page: 85 (scan: La France en Tunisie v.2_Part1.pdf p. 104)
@@ -6441,7 +6441,7 @@ text: En italien. — Peiron Martin, de la Cadiera, a reçu de Tomasini 53 écus
 
 [act 2-III-0549]
 date: 1607-03-15
-date printed: 15  —
+date printed: 15 —
 date status: printed in the margin
 register: III
 page: 85 (scan: La France en Tunisie v.2_Part1.pdf p. 104)
@@ -6453,7 +6453,7 @@ text: En italien. — Pietro Casagnia, catalan, a reçu de Cola Antonio Pagani, 
 
 [act 2-III-0550]
 date: 1607-03-15
-date printed: 15  —
+date printed: 15 —
 date status: printed in the margin
 register: III
 page: 85 (scan: La France en Tunisie v.2_Part1.pdf p. 104)
@@ -6466,7 +6466,7 @@ text: En italien. — Pietro Casagna, catalan, a reçu de Cola Antonio Pagan, de
 
 [act 2-III-0551]
 date: 1607-03-16
-date printed: 16  —
+date printed: 16 —
 date status: printed in the margin
 register: III
 page: 85 (scan: La France en Tunisie v.2_Part1.pdf p. 104)
@@ -6477,7 +6477,7 @@ text: En italien. — Le patron Bernabre Denans, de Sixfours, somme le patron Fr
 
 [act 2-III-0552]
 date: 1607-03-20
-date printed: 20  —
+date printed: 20 —
 date status: printed in the margin
 register: III
 page: 85 (scan: La France en Tunisie v.2_Part1.pdf p. 104)
@@ -6489,7 +6489,7 @@ text: En italien. — Lazzarin Campi, de Marseille, déclare avoir reçu pour le
 
 [act 2-III-0553]
 date: 1607-03-29
-date printed: 29  —
+date printed: 29 —
 date status: printed in the margin
 register: III
 page: 85 (scan: La France en Tunisie v.2_Part1.pdf p. 104)
@@ -6501,7 +6501,7 @@ text: En italien. — Batista Mornillo, de Naples, reconnaît devoir à Salvador
 
 [act 2-III-0554]
 date: 1607-03-29
-date printed: 29  —
+date printed: 29 —
 date status: printed in the margin
 register: III
 page: 85 (scan: La France en Tunisie v.2_Part1.pdf p. 104)
@@ -6525,7 +6525,7 @@ text: En italien. — Fra Franco Francavalli, sicilien, de l'Ordre des Capucins,
 
 [act 2-III-0556]
 date: 1607-03-29
-date printed: 29  —
+date printed: 29 —
 date status: printed in the margin
 register: III
 page: 86 (scan: La France en Tunisie v.2_Part1.pdf p. 105)
@@ -6537,7 +6537,7 @@ text: En italien. — Salvadore Nizzo reconnaît devoir 30 écus à Raffo Frano,
 
 [act 2-III-0557]
 date: 1607-03-29
-date printed: 29  —
+date printed: 29 —
 date status: printed in the margin
 register: III
 page: 86 (scan: La France en Tunisie v.2_Part1.pdf p. 105)
@@ -6640,7 +6640,7 @@ language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 ocr corrections: saeltia -> saettia
-text: En italien. — entre le patron Bartolo Hicde la saettia « Sta Maria de portosalvo », conduite à Tunis pour la « Casa santa > > de Naples (Elemosina) et l'abbé Ascanio di Massa el Pasquarello Imperato. Le patron Bartolo a été détenu un certain temps par le Pacha et le Divan de Tunis.
+text: En italien. — entre le patron Bartolo Hicde la saettia « Sta Maria de portosalvo », conduite à Tunis pour la « Casa santa » de Naples (Elemosina) et l'abbé Ascanio di Massa el Pasquarello Imperato. Le patron Bartolo a été détenu un certain temps par le Pacha et le Divan de Tunis.
 
 [act 2-III-0566]
 date: 1607-05-01
@@ -6927,7 +6927,7 @@ text: En italien. — Le caïd Beirano, renégat vénitien, demande à faire vé
 
 [act 2-III-0590]
 date: 1607-06-01
-date printed: 1er   juin
+date printed: 1er juin
 date status: printed in the margin
 register: III
 page: 91 (scan: La France en Tunisie v.2_Part1.pdf p. 110)
@@ -7250,7 +7250,7 @@ language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 amounts: 112 écus; 56 aspres; 18 carlins; 90 écus; 11 aspres
-text: En italien. — Diegho Aghilai, espagnol, déclare avoir reçu de l'abbé Ascanio de Massa et de Pasquale Inperato 112 écus et 56 aspres payés pour son rachat à Mamett Levantescho. La somme est remboursable à Naples aux Gouverneurs de ' la Rédemption à raison de 18 carlins et 1/2 par écu. Ascanio. et Inperato ont payé à Mamett 90 écus; 11 au Divan des Janissaires; 10 au Pacha; 1/2 à la Goulette; 11 aspres pour la<< carta di franchezza ».
+text: En italien. — Diegho Aghilai, espagnol, déclare avoir reçu de l'abbé Ascanio de Massa et de Pasquale Inperato 112 écus et 56 aspres payés pour son rachat à Mamett Levantescho. La somme est remboursable à Naples aux Gouverneurs de ' la Rédemption à raison de 18 carlins et 1/2 par écu. Ascanio. et Inperato ont payé à Mamett 90 écus; 11 au Divan des Janissaires; 10 au Pacha; 1/2 à la Goulette; 11 aspres pour la « carta di franchezza ».
 
 [act 2-III-0618]
 date: 1607-06-20
@@ -7302,7 +7302,7 @@ text: En italien. — Franco Peris, de Cadix, a reçu des mêmes 187 écus et 30
 
 [act 2-III-0622]
 date: 1607-06-20
-date printed: 20   -
+date printed: 20 -
 date status: printed in the margin
 register: III
 page: 95 (scan: La France en Tunisie v.2_Part1.pdf p. 114)
@@ -7362,7 +7362,7 @@ text: En italien. — Gio Domco Pecorella (?) a reçu des mêmes 271 écus et 43
 
 [act 2-III-0627]
 date: 1607-06-20
-date printed: 20    -
+date printed: 20 -
 date status: printed in the margin
 register: III
 page: 96 (scan: La France en Tunisie v.2_Part1.pdf p. 115)
@@ -7879,7 +7879,7 @@ text: En italien. — Jacomo de Leva a reçu des mêmes 111 écus et 1/2 payés 
 
 [act 2-III-0670]
 date: 1607-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -7891,7 +7891,7 @@ text: En italien. — Nardo Sanpaga (?) a reçu des mêmes 121 écus et 43 aspre
 
 [act 2-III-0671]
 date: 1607-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -7903,7 +7903,7 @@ text: En italien. — Natale de Caio a reçu des mêmes 221 écus et 43 aspres p
 
 [act 2-III-0672]
 date: 1607-06-20
-date printed: 20  —
+date printed: 20 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -7915,7 +7915,7 @@ text: En italien. — Pietro Gallo di Priano a reçu des mêmes 221 écus et 44 
 
 [act 2-III-0673]
 date: 1607-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -7927,7 +7927,7 @@ text: En italien. — Pietro di Roccho di Priano a reçu des mêmes 131 écus et
 
 [act 2-III-0674]
 date: 1607-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -7939,7 +7939,7 @@ text: En italien. — Pietro Himerano, catalan, a reçu des mêmes 71 écus et 1
 
 [act 2-III-0675]
 date: 1607-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -7951,7 +7951,7 @@ text: En italien. — Franco Verzelona a reçu des mêmes 21 écus et 1/2 payés
 
 [act 2-III-0676]
 date: 1607-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -7963,7 +7963,7 @@ text: En italien. — Gio Bata di Canale a reçu des mêmes 131 écus et 23 aspr
 
 [act 2-III-0677]
 date: 1607-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -7975,7 +7975,7 @@ text: En italien. — Giovanni Labriola a reçu des mêmes 421 écus et 43 aspre
 
 [act 2-III-0678]
 date: 1607-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -7987,7 +7987,7 @@ text: En italien. — Matteo Chide a reçu des mêmes 246 écus et 32 aspres pay
 
 [act 2-III-0679]
 date: 1607-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -7999,7 +7999,7 @@ text: En italien. — Andrea Morena a reçu des mêmes 91 écus et 43 aspres pay
 
 [act 2-III-0680]
 date: 1607-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -8011,7 +8011,7 @@ text: En italien. — Maria Artana, de Palerme, a reçu des mêmes 112 écus et 
 
 [act 2-III-0681]
 date: 1607-06-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: III
 page: 100 (scan: La France en Tunisie v.2_Part1.pdf p. 119)
@@ -8369,7 +8369,7 @@ text: En italien. — Peretto di Gio. , corse, a reçu des mêmes 250 écus pay�
 
 [act 2-III-0711]
 date: 1607-06-28
-date printed: 28    -
+date printed: 28 -
 date status: printed in the margin
 register: III
 page: 103 (scan: La France en Tunisie v.2_Part1.pdf p. 122)
@@ -8404,7 +8404,7 @@ text: En italien. — Andrea di Gennaro a reçu des mêmes 15 ducats de Naples p
 
 [act 2-III-0714]
 date: 1607-06-30
-date printed: 30    -
+date printed: 30 -
 date status: printed in the margin
 register: III
 page: 103 (scan: La France en Tunisie v.2_Part1.pdf p. 122)
@@ -8895,7 +8895,7 @@ text: En italien. — (27) Gio Bata Danna se porte caution pour le sergent Gio S
 
 [act 2-IV-0754]
 date: 1607-10-08
-date printed: 8   -
+date printed: 8 -
 date status: printed in the margin
 register: IV
 page: 109 (scan: La France en Tunisie v.2_Part1.pdf p. 128)
@@ -8989,7 +8989,7 @@ folio: 48
 language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
-text: En italien. — (48) Franco Lanfret et Rollett Allemari, de Marseille , étant à La Goulette avec le vaisseau « Le grand Henrich » , patron Pierre Cattaccioli, ont porté de Marseille de l'eau-de-vie et du tabac que Mustafa, renégat anglais, et d'autres corsaires anglais sont venus leur enlever sur rade de La Goulette alors qu'ils partaient en course. Suivent deux témoignages .
+text: En italien. — (48) Franco Lanfret et Rollett Allemari, de Marseille , étant à La Goulette avec le vaisseau « Le grand Henrich », patron Pierre Cattaccioli, ont porté de Marseille de l'eau-de-vie et du tabac que Mustafa, renégat anglais, et d'autres corsaires anglais sont venus leur enlever sur rade de La Goulette alors qu'ils partaient en course. Suivent deux témoignages .
 
 [act 2-IV-0762]
 date: 1607-11-20
@@ -9128,7 +9128,7 @@ folio: 61
 language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
-text: En italien. — (61) Alonzo Forte, sicilien, parti d'Alexandrette avec une « saetia >>française pour aller à Marseille, a été pris en cours de route par 5 galères de Bizerte et conduit à Tunis. Pour se racheter et racheter des papiers dont il avait besoin et qui lui avaient été enlevés, Forte a dû donner une certaine quantité de pierres précieuses qu'il rapportait de l'Inde. Suit un témoignage de Gio Pepe, de Messine, qui parle de diamants.
+text: En italien. — (61) Alonzo Forte, sicilien, parti d'Alexandrette avec une « saetia » française pour aller à Marseille, a été pris en cours de route par 5 galères de Bizerte et conduit à Tunis. Pour se racheter et racheter des papiers dont il avait besoin et qui lui avaient été enlevés, Forte a dû donner une certaine quantité de pierres précieuses qu'il rapportait de l'Inde. Suit un témoignage de Gio Pepe, de Messine, qui parle de diamants.
 
 [act 2-IV-0773]
 date: 1607-12-13
@@ -9335,7 +9335,7 @@ text: En italien. — (82) Fernandes de Leon, « Granatin », a été conduit à
 
 [act 2-IV-0789]
 date: 1608-02-07
-date printed: 7   -
+date printed: 7 -
 date status: printed in the margin
 register: IV
 page: 113 (scan: La France en Tunisie v.2_Part1.pdf p. 134)
@@ -9347,7 +9347,7 @@ text: En italien. — (83) Gio Angelo Bissutti fait certifier par témoins que l
 
 [act 2-IV-0790]
 date: 1608-02-07
-date printed: 7   -
+date printed: 7 -
 date status: printed in the margin
 register: IV
 page: 113 (scan: La France en Tunisie v.2_Part1.pdf p. 134)
@@ -9385,7 +9385,7 @@ text: En italien. — (87) Luigi Ruggieri n'ayant pu se faire payer par Agi Mame
 
 [act 2-IV-0793]
 date: 1608-02-21
-date printed: 21  —
+date printed: 21 —
 date status: printed in the margin
 register: IV
 page: 114 (scan: La France en Tunisie v.2_Part1.pdf p. 135)
@@ -9397,7 +9397,7 @@ text: En italien. — (89) Guaspar Marin, de la Ciotat, se trouvant à Naples, s
 
 [act 2-IV-0794]
 date: 1608-02-27
-date printed: 27  —
+date printed: 27 —
 date status: printed in the margin
 register: IV
 page: 114 (scan: La France en Tunisie v.2_Part1.pdf p. 135)
@@ -9421,7 +9421,7 @@ text: En italien. — (94) Antonino di Antonce, de Naples, s'engage à porter de
 
 [act 2-IV-0796]
 date: 1608-03-12
-date printed: 12  —
+date printed: 12 —
 date status: printed in the margin
 register: IV
 page: 114 (scan: La France en Tunisie v.2_Part1.pdf p. 135)
@@ -9433,7 +9433,7 @@ text: En italien. — (95) Le patron Giovan Tassi, de Marseille, parti de ce der
 
 [act 2-IV-0797]
 date: 1608-03-19
-date printed: 19  —
+date printed: 19 —
 date status: printed in the margin
 register: IV
 page: 114 (scan: La France en Tunisie v.2_Part1.pdf p. 135)
@@ -9445,7 +9445,7 @@ text: En italien. — (98) Luzio Matteo, corse, expose un différend qu'il a au 
 
 [act 2-IV-0798]
 date: 1608-03-20
-date printed: 20  —
+date printed: 20 —
 date status: printed in the margin
 register: IV
 page: 114 (scan: La France en Tunisie v.2_Part1.pdf p. 135)
@@ -9679,7 +9679,7 @@ text: En italien. — (125) Gio Lunardo Quarenzo, génois, a reçu de Nicola Fen
 
 [act 2-IV-0817]
 date: 1608-04-29
-date printed: 29   -
+date printed: 29 -
 date status: printed in the margin
 register: IV
 page: 116 (scan: La France en Tunisie v.2_Part1.pdf p. 137)
@@ -10091,7 +10091,7 @@ text: En italien. — (161) Matteo di Piero, de Sartène, a reçu de Gio Antonio
 
 [act 2-IV-0850]
 date: 1608-05-27
-date printed: 27    -
+date printed: 27 -
 date status: printed in the margin
 register: IV
 page: 120 (scan: La France en Tunisie v.2_Part1.pdf p. 141)
@@ -10128,7 +10128,7 @@ text: En italien. — (164) Serafino Boero, de Gênes, doit à Asta Assano Genov
 
 [act 2-IV-0853]
 date: 1608-05-28
-date printed: 28    -
+date printed: 28 -
 date status: printed in the margin
 register: IV
 page: 120 (scan: La France en Tunisie v.2_Part1.pdf p. 141)
@@ -10205,7 +10205,7 @@ text: En italien. — (173) Selmé Ali, maure de Bizerte, a reçu de Gio Bata Da
 
 [act 2-IV-0859]
 date: 1608-06-04
-date printed: 4   -
+date printed: 4 -
 date status: printed in the margin
 register: IV
 page: 121 (scan: La France en Tunisie v.2_Part1.pdf p. 142)
@@ -10584,7 +10584,7 @@ text: En italien. — Giorgio (218) Paulo di Giorgio Ermeno doit à Miesser Erme
 
 [act 2-IV-0889]
 date: 1608-06-28
-date printed: 28   -
+date printed: 28 -
 date status: printed in the margin
 register: IV
 page: 125 (scan: La France en Tunisie v.2_Part1.pdf p. 146)
@@ -10593,7 +10593,7 @@ language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 amounts: 532 écus d'or d'Espagne
-text: En italien. — (219) Le P. Fra Bernardino Ubaldini, de l'Etat d'Urbino et de l'ordre <<Minor osservanti di San Franco », a reçu de Domco di Lazzaro Ermenio 532 écus d'or d'Espagne payés pour son rachat à Ossoman Dai, « protetre di questa Militia » de Tunis. Somme remboursable à Livourne ou Florence dans un délai de deux mois.
+text: En italien. — (219) Le P. Fra Bernardino Ubaldini, de l'Etat d'Urbino et de l'ordre « Minor osservanti di San Franco », a reçu de Domco di Lazzaro Ermenio 532 écus d'or d'Espagne payés pour son rachat à Ossoman Dai, « protetre di questa Militia » de Tunis. Somme remboursable à Livourne ou Florence dans un délai de deux mois.
 
 [act 2-IV-0890]
 date: 1608-06-28
@@ -10610,7 +10610,7 @@ text: En italien. — (220) Domenicho di Lazzaro Ermenio doit aux patrons Franco
 
 [act 2-IV-0891]
 date: 1608-06-28
-date printed: 28   -
+date printed: 28 -
 date status: printed in the margin
 register: IV
 page: 125 (scan: La France en Tunisie v.2_Part1.pdf p. 146)
@@ -10622,7 +10622,7 @@ text: En italien. — (221) Anto Calvano, de Marseille, se plaint que le patron 
 
 [act 2-IV-0892]
 date: 1608-06-28
-date printed: 28   -
+date printed: 28 -
 date status: printed in the margin
 register: IV
 page: 125 (scan: La France en Tunisie v.2_Part1.pdf p. 146)
@@ -10647,7 +10647,7 @@ text: En italien. — (223) Giorgio di Bata Cipriotto doit à Paulo di Giorgio E
 
 [act 2-IV-0894]
 date: 1608-07-01
-date printed: 1er   juil.
+date printed: 1er juil.
 date status: printed in the margin
 register: IV
 page: 126 (scan: La France en Tunisie v.2_Part2.pdf p. 1)
@@ -10804,7 +10804,7 @@ text: En italien. — (238) Girolamo Bianco, élu juge pour l'affaire visée dan
 
 [act 2-IV-0906]
 date: 1608-07-24
-date printed: 24   -
+date printed: 24 -
 date status: corrected by hand
 date note: Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July.
 register: IV
@@ -10817,7 +10817,7 @@ text: En italien. — (239) Gio Boneaud (Jehan Bounaud), de l'Ile d'Arvert à la
 
 [act 2-IV-0907]
 date: 1608-07-25
-date printed: 25   -
+date printed: 25 -
 date status: corrected by hand
 date note: Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July.
 register: IV
@@ -10858,7 +10858,7 @@ text: En italien. — (244) Don Agostino Baressi, de Madrid, doit à Mamet Chora
 
 [act 2-IV-0910]
 date: 1608-07-31
-date printed: 31   -
+date printed: 31 -
 date status: corrected by hand
 date note: Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July.
 register: IV
@@ -10912,7 +10912,7 @@ text: En italien. — (248) Marcho Francesco demande à faire vérifier un mémo
 
 [act 2-IV-0914]
 date: 1608-08-01
-date printed: 1er   août
+date printed: 1er août
 date status: printed in the margin
 register: IV
 page: 128 (scan: La France en Tunisie v.2_Part2.pdf p. 3)
@@ -10978,7 +10978,7 @@ text: En italien. — (257) Le patron Franco Tomasino doit à Ossoman Day 400 é
 
 [act 2-IV-0919]
 date: 1608-08-02
-date printed: 2   —
+date printed: 2 —
 date status: printed in the margin
 register: IV
 page: 129 (scan: La France en Tunisie v.2_Part2.pdf p. 4)
@@ -10992,7 +10992,7 @@ text: En italien. — (258) Franco Tomasino doit à Asta Moratto Genovese 200 é
 
 [act 2-IV-0920]
 date: 1608-08-02
-date printed: 2   —
+date printed: 2 —
 date status: printed in the margin
 register: IV
 page: 129 (scan: La France en Tunisie v.2_Part2.pdf p. 4)
@@ -11005,7 +11005,7 @@ text: En italien. — (259) Gio Adanno et Maria Adanno, sa femme, doivent à Fra
 
 [act 2-IV-0921]
 date: 1608-08-02
-date printed: 2   —
+date printed: 2 —
 date status: printed in the margin
 register: IV
 page: 129 (scan: La France en Tunisie v.2_Part2.pdf p. 4)
@@ -11018,7 +11018,7 @@ text: En italien. — (260) Pierro della Grangia (Pierre Lagrange) doit à Anton
 
 [act 2-IV-0922]
 date: 1608-08-03
-date printed: 3   —
+date printed: 3 —
 date status: printed in the margin
 register: IV
 page: 129 (scan: La France en Tunisie v.2_Part2.pdf p. 4)
@@ -11031,7 +11031,7 @@ text: En italien. — (261) Franciesco di Bastiano Murly (Mursi), de Marciana (I
 
 [act 2-IV-0923]
 date: 1608-08-03
-date printed: 3   —
+date printed: 3 —
 date status: printed in the margin
 register: IV
 page: 129 (scan: La France en Tunisie v.2_Part2.pdf p. 4)
@@ -11043,7 +11043,7 @@ text: En italien. — (263) Même sujet.
 
 [act 2-IV-0924]
 date: 1608-08-03
-date printed: 3   —
+date printed: 3 —
 date status: printed in the margin
 register: IV
 page: 129 (scan: La France en Tunisie v.2_Part2.pdf p. 4)
@@ -11055,7 +11055,7 @@ text: En italien. — (265) Leonardo Grima, de Malte, donne une procuration à G
 
 [act 2-IV-0925]
 date: 1608-08-04
-date printed: 4   —
+date printed: 4 —
 date status: printed in the margin
 register: IV
 page: 129 (scan: La France en Tunisie v.2_Part2.pdf p. 4)
@@ -11068,7 +11068,7 @@ text: En italien. — (266) Giuda Parente, juif, de Fez, doit à Gio Vinciguerra
 
 [act 2-IV-0926]
 date: 1608-08-04
-date printed: 4   —
+date printed: 4 —
 date status: printed in the margin
 register: IV
 page: 129 (scan: La France en Tunisie v.2_Part2.pdf p. 4)
@@ -11081,7 +11081,7 @@ text: En italien. — (267) Franco Charlo (Francisco Carlos), marchand anglais, 
 
 [act 2-IV-0927]
 date: 1608-08-11
-date printed: 11  —
+date printed: 11 —
 date status: printed in the margin
 register: IV
 page: 129 (scan: La France en Tunisie v.2_Part2.pdf p. 4)
@@ -11183,7 +11183,7 @@ text: En italien. — (279) Mamet de Mussa, ture, janissaire de Tunis , a reçu 
 
 [act 2-IV-0935]
 date: 1608-09-01
-date printed: 1er   sept.
+date printed: 1er sept.
 date status: printed in the margin
 register: IV
 page: 130 (scan: La France en Tunisie v.2_Part2.pdf p. 5)
@@ -11360,7 +11360,7 @@ text: En italien. — (296) Antonio Calvano, de Marseille, a vu consigner à Ant
 
 [act 2-IV-0949]
 date: 1608-09-28
-date printed: 28                           -
+date printed: 28 -
 date status: printed in the margin
 register: IV
 page: 132 (scan: La France en Tunisie v.2_Part2.pdf p. 7)
@@ -11386,7 +11386,7 @@ text: En italien. — (299) La dame Dienora di Stefano Bonsignore, de Reggio (Na
 
 [act 2-IV-0951]
 date: 1608-10-11
-date printed: 11  —
+date printed: 11 —
 date status: printed in the margin
 register: IV
 page: 133 (scan: La France en Tunisie v.2_Part2.pdf p. 8)
@@ -11399,7 +11399,7 @@ text: En italien. — (300) Hercole Bonsignore, de Reggio, doit à Mario Quarant
 
 [act 2-IV-0952]
 date: 1608-10-14
-date printed: 14  —
+date printed: 14 —
 date status: printed in the margin
 register: IV
 page: 133 (scan: La France en Tunisie v.2_Part2.pdf p. 8)
@@ -11411,7 +11411,7 @@ text: En italien. — (301) Hercules Trullet, de Toulon, patron de la barque « 
 
 [act 2-IV-0953]
 date: 1608-10-20
-date printed: 20  —
+date printed: 20 —
 date status: printed in the margin
 register: IV
 page: 133 (scan: La France en Tunisie v.2_Part2.pdf p. 8)
@@ -11423,7 +11423,7 @@ text: En italien. — (305) Gio Felippo Bandenches (Badencas), de Gliesan (Catal
 
 [act 2-IV-0954]
 date: 1608-10-20
-date printed: 20  —
+date printed: 20 —
 date status: printed in the margin
 register: IV
 page: 133 (scan: La France en Tunisie v.2_Part2.pdf p. 8)
@@ -11447,7 +11447,7 @@ text: En italien. — (308) Le patron Gio Udibert (Audibert), de Sixfours, se tr
 
 [act 2-IV-0956]
 date: 1608-11-07
-date printed: 7   —
+date printed: 7 —
 date status: printed in the margin
 register: IV
 page: 133 (scan: La France en Tunisie v.2_Part2.pdf p. 8)
@@ -11985,7 +11985,7 @@ text: En italien. — (377) Mamet, odabassi de Tunis, a reçu de Rubino di Muse 
 
 [act 2-IV-0999]
 date: 1609-01-20
-date printed: 20  —
+date printed: 20 —
 date status: printed in the margin
 register: IV
 page: 139 (scan: La France en Tunisie v.2_Part2.pdf p. 14)
@@ -11997,7 +11997,7 @@ text: En italien. — (378) Domenico Mazzaro, de Naples, donne une procuration �
 
 [act 2-IV-1000]
 date: 1609-01-20
-date printed: 20  —
+date printed: 20 —
 date status: printed in the margin
 register: IV
 page: 139 (scan: La France en Tunisie v.2_Part2.pdf p. 14)
@@ -12009,7 +12009,7 @@ text: En italien. — (379) Domenico Mazzaro donne une procuration à Gio Tomaso
 
 [act 2-IV-1001]
 date: 1609-01-25
-date printed: 25  —
+date printed: 25 —
 date status: printed in the margin
 register: IV
 page: 139 (scan: La France en Tunisie v.2_Part2.pdf p. 14)
@@ -12038,7 +12038,7 @@ text: (381) Lanterme Vincentou, corse habitant à Marseille, a reçu d'Antoine C
 
 [act 2-IV-1003]
 date: 1609-02-10
-date printed: 10  —
+date printed: 10 —
 date status: printed in the margin
 register: IV
 page: 139 (scan: La France en Tunisie v.2_Part2.pdf p. 14)
@@ -12445,7 +12445,7 @@ text: (422) Pierre Estienne doit à Pierre Lagrange, de Bordeaux, 650 écus d'or
 
 [act 2-IV-1035]
 date: 1609-04-15
-date printed: 15    -
+date printed: 15 -
 date status: printed in the margin
 register: IV
 page: 143 (scan: La France en Tunisie v.2_Part2.pdf p. 18)
@@ -12499,7 +12499,7 @@ text: En italien. — (427) Franco Scotto, de Palerme, s'engage à payer à Ali 
 
 [act 2-IV-1039]
 date: 1609-04-17
-date printed: 17                          -
+date printed: 17 -
 date status: printed in the margin
 register: IV
 page: 143 (scan: La France en Tunisie v.2_Part2.pdf p. 18)
@@ -12537,7 +12537,7 @@ text: En italien. — (430) Don Agostino Barressi (Barres), espagnol de Madrid, 
 
 [act 2-IV-1042]
 date: 1609-04-18
-date printed: 18  —
+date printed: 18 —
 date status: printed in the margin
 register: IV
 page: 144 (scan: La France en Tunisie v.2_Part2.pdf p. 19)
@@ -12549,7 +12549,7 @@ text: En italien. — (431) Le P. Antonino Laciolina, carmélite, donne une proc
 
 [act 2-IV-1043]
 date: 1609-04-18
-date printed: 18  —
+date printed: 18 —
 date status: printed in the margin
 register: IV
 page: 144 (scan: La France en Tunisie v.2_Part2.pdf p. 19)
@@ -12562,7 +12562,7 @@ text: En italien. — (432) Gian Battista Buttaro, napolitain, a reçu de Servia
 
 [act 2-IV-1044]
 date: 1609-04-21
-date printed: 21  —
+date printed: 21 —
 date status: printed in the margin
 register: IV
 page: 144 (scan: La France en Tunisie v.2_Part2.pdf p. 19)
@@ -12575,7 +12575,7 @@ text: En italien. — (433) Gian Batista Dianna (?) doit à Franco Scotto 70 éc
 
 [act 2-IV-1045]
 date: 1609-04-21
-date printed: 21  —
+date printed: 21 —
 date status: printed in the margin
 register: IV
 page: 144 (scan: La France en Tunisie v.2_Part2.pdf p. 19)
@@ -12588,7 +12588,7 @@ text: En italien. — (434) Gian Batista Dianno, sicilien, doit à Osta Morato G
 
 [act 2-IV-1046]
 date: 1609-04-21
-date printed: 21  —
+date printed: 21 —
 date status: printed in the margin
 register: IV
 page: 144 (scan: La France en Tunisie v.2_Part2.pdf p. 19)
@@ -12601,7 +12601,7 @@ text: En italien. — (435) Gian Batista Dianna a reçu de Gian Lionardo Guarens
 
 [act 2-IV-1047]
 date: 1609-04-21
-date printed: 21  —
+date printed: 21 —
 date status: printed in the margin
 register: IV
 page: 144 (scan: La France en Tunisie v.2_Part2.pdf p. 19)
@@ -12614,7 +12614,7 @@ text: (436) Batista delle Torre, homme de Phelippo Nomellino, a reçu de Assan, 
 
 [act 2-IV-1048]
 date: 1609-04-21
-date printed: 21  —
+date printed: 21 —
 date status: printed in the margin
 register: IV
 page: 144 (scan: La France en Tunisie v.2_Part2.pdf p. 19)
@@ -12627,7 +12627,7 @@ text: En italien. — (437) Le patron Petro Guassan, de Marseille, doit à Hercu
 
 [act 2-IV-1049]
 date: 1609-04-22
-date printed: 22  —
+date printed: 22 —
 date status: printed in the margin
 register: IV
 page: 144 (scan: La France en Tunisie v.2_Part2.pdf p. 19)
@@ -12641,7 +12641,7 @@ text: (438) Les patrons Pierre Guasan et Pierre Blache ont reçu de Pierre La Gr
 
 [act 2-IV-1050]
 date: 1609-04-23
-date printed: 23  —
+date printed: 23 —
 date status: printed in the margin
 register: IV
 page: 144 (scan: La France en Tunisie v.2_Part2.pdf p. 19)
@@ -12653,7 +12653,7 @@ text: (439) Jehan de Martin, de Marseille, et Pierre Soubeiran somment le patron
 
 [act 2-IV-1051]
 date: 1609-04-24
-date printed: 24  —
+date printed: 24 —
 date status: printed in the margin
 register: IV
 page: 144 (scan: La France en Tunisie v.2_Part2.pdf p. 19)
@@ -12666,7 +12666,7 @@ text: En italien. — (441) Giuda Parente, hébreu de Fez, habitant à Livourne,
 
 [act 2-IV-1052]
 date: 1609-04-24
-date printed: 24   avril
+date printed: 24 avril
 date status: printed in the margin
 register: IV
 page: 145 (scan: La France en Tunisie v.2_Part2.pdf p. 20)
@@ -12703,7 +12703,7 @@ text: En italien. — (446) Antonyno Esguerdo, de Messine, doit à Angelo Ajoux,
 
 [act 2-IV-1055]
 date: 1609-04-28
-date printed: 28   -
+date printed: 28 -
 date status: printed in the margin
 register: IV
 page: 145 (scan: La France en Tunisie v.2_Part2.pdf p. 20)
@@ -12794,7 +12794,7 @@ text: En italien. — (456) Le patron Pedro Casollo, de Pinède en Catalogne, Ja
 
 [act 2-IV-1062]
 date: 1609-05-13
-date printed: 13  —
+date printed: 13 —
 date status: printed in the margin
 register: IV
 page: 146 (scan: La France en Tunisie v.2_Part2.pdf p. 21)
@@ -12807,7 +12807,7 @@ text: (457) Le patron Pantelin Toumazin, pour lui et au nom des « partisips » 
 
 [act 2-IV-1063]
 date: 1609-05-13
-date printed: 13  —
+date printed: 13 —
 date status: printed in the margin
 register: IV
 page: 146 (scan: La France en Tunisie v.2_Part2.pdf p. 21)
@@ -12820,7 +12820,7 @@ text: (459) Antony Lovico, de Marseille, a reçu du patron Guilleaume Vine 44 é
 
 [act 2-IV-1064]
 date: 1609-05-18
-date printed: 18  —
+date printed: 18 —
 date status: printed in the margin
 register: IV
 page: 146 (scan: La France en Tunisie v.2_Part2.pdf p. 21)
@@ -12833,7 +12833,7 @@ text: (460) Pierre de Sobeyran, écuyer de la ville de Nismes en Languedoc, a re
 
 [act 2-IV-1065]
 date: 1609-05-18
-date printed: 18  —
+date printed: 18 —
 date status: printed in the margin
 register: IV
 page: 146 (scan: La France en Tunisie v.2_Part2.pdf p. 21)
@@ -12846,7 +12846,7 @@ text: (462) Honnorat Anfous, de Marseille, a reçu de Jehan Gilles Boyer 32 écu
 
 [act 2-IV-1066]
 date: 1609-05-18
-date printed: 18  —
+date printed: 18 —
 date status: printed in the margin
 register: IV
 page: 146 (scan: La France en Tunisie v.2_Part2.pdf p. 21)
@@ -12859,7 +12859,7 @@ text: (463) Honorat Anfous, boulanger, habitant de Marseille, a reçu du patron 
 
 [act 2-IV-1067]
 date: 1609-05-20
-date printed: 20  —
+date printed: 20 —
 date status: printed in the margin
 register: IV
 page: 146 (scan: La France en Tunisie v.2_Part2.pdf p. 21)
@@ -12885,7 +12885,7 @@ text: (480) Reynaud Fabre, marchand de Marseille, doit à Jaumé Danain (Dagnan)
 
 [act 2-IV-1069]
 date: 1609-06-01
-date printed: 1   —
+date printed: 1 —
 date status: printed in the margin
 register: IV
 page: 147 (scan: La France en Tunisie v.2_Part2.pdf p. 22)
@@ -12899,7 +12899,7 @@ text: (481) Reynaud Fabre doit à Pierre Gastaut, marchand de Marseille, 66 écu
 
 [act 2-IV-1070]
 date: 1609-06-02
-date printed: 2   —
+date printed: 2 —
 date status: printed in the margin
 register: IV
 page: 147 (scan: La France en Tunisie v.2_Part2.pdf p. 22)
@@ -12912,7 +12912,7 @@ text: (482) Le patron Pantelin Toumaxin a reçu de Antony Calvano 130 écus d'or
 
 [act 2-IV-1071]
 date: 1609-06-02
-date printed: 2   —
+date printed: 2 —
 date status: printed in the margin
 register: IV
 page: 147 (scan: La France en Tunisie v.2_Part2.pdf p. 22)
@@ -12924,7 +12924,7 @@ text: En italien. — (484) Antony Esmiol, de Doise (?) en Provence, donne une p
 
 [act 2-IV-1072]
 date: 1609-06-05
-date printed: 5   —
+date printed: 5 —
 date status: printed in the margin
 register: IV
 page: 147 (scan: La France en Tunisie v.2_Part2.pdf p. 22)
@@ -12937,7 +12937,7 @@ text: En italien. — (486) Salviano Gaudereso a reçu du caïd Alli, turc de Tu
 
 [act 2-IV-1073]
 date: 1609-06-05
-date printed: 5   —
+date printed: 5 —
 date status: printed in the margin
 register: IV
 page: 147 (scan: La France en Tunisie v.2_Part2.pdf p. 22)
@@ -12950,7 +12950,7 @@ text: En italien. — (489) Osta Assan Genovese, turc de Tunis, a vendu au capit
 
 [act 2-IV-1074]
 date: 1609-06-06
-date printed: 6   —
+date printed: 6 —
 date status: printed in the margin
 register: IV
 page: 147 (scan: La France en Tunisie v.2_Part2.pdf p. 22)
@@ -12963,7 +12963,7 @@ text: En italien. — (491) Mamet, fils de Ysouf Coulouli, turc de Tunis, donne 
 
 [act 2-IV-1075]
 date: 1609-06-09
-date printed: 9   —
+date printed: 9 —
 date status: printed in the margin
 register: IV
 page: 147 (scan: La France en Tunisie v.2_Part2.pdf p. 22)
@@ -12976,7 +12976,7 @@ text: En italien. — (493) Ossoman Day, gouverneur et protecteur de la Milice d
 
 [act 2-IV-1076]
 date: 1609-06-09
-date printed: 9   —
+date printed: 9 —
 date status: printed in the margin
 register: IV
 page: 147 (scan: La France en Tunisie v.2_Part2.pdf p. 22)
@@ -13054,7 +13054,7 @@ text: (502) Le patron Pierre Servan, de Marseille, doit au patron Mathiou Doudon
 
 [act 2-IV-1082]
 date: 1609-06-10
-date printed: 10    -
+date printed: 10 -
 date status: printed in the margin
 register: IV
 page: 148 (scan: La France en Tunisie v.2_Part2.pdf p. 23)
@@ -13067,7 +13067,7 @@ text: (504) Le patron Guillon Melle, de Cannes, habitant à Marseille, et le pat
 
 [act 2-IV-1083]
 date: 1609-06-10
-date printed: 10  —
+date printed: 10 —
 date status: printed in the margin
 register: IV
 page: 148 (scan: La France en Tunisie v.2_Part2.pdf p. 23)
@@ -13223,7 +13223,7 @@ text: (526) Pierre de Soubeyran, écuyer de la ville de Nîmes, vend à Thomas G
 
 [act 2-IV-1095]
 date: 1609-06-13
-date printed: 13    -
+date printed: 13 -
 date status: printed in the margin
 register: IV
 page: 149 (scan: La France en Tunisie v.2_Part2.pdf p. 24)
@@ -13250,7 +13250,7 @@ text: (530) Le patron Esperit Ville Cros et Pierre Chapelle, de Toulon, doivent 
 
 [act 2-IV-1097]
 date: 1609-06-15
-date printed: 15  —
+date printed: 15 —
 date status: printed in the margin
 register: IV
 page: 150 (scan: La France en Tunisie v.2_Part2.pdf p. 25)
@@ -13262,7 +13262,7 @@ text: (531) Même acte.
 
 [act 2-IV-1098]
 date: 1609-06-15
-date printed: 15  —
+date printed: 15 —
 date status: printed in the margin
 register: IV
 page: 150 (scan: La France en Tunisie v.2_Part2.pdf p. 25)
@@ -13274,7 +13274,7 @@ text: (534) Le patron Francesco Estelle, Estienne Symodiou et autres exposent au
 
 [act 2-IV-1099]
 date: 1609-06-16
-date printed: 16  —
+date printed: 16 —
 date status: printed in the margin
 register: IV
 page: 150 (scan: La France en Tunisie v.2_Part2.pdf p. 25)
@@ -13287,7 +13287,7 @@ text: (537) Le patron Louys Isnard, de St-Tropez, étant « tombé en disgrâce 
 
 [act 2-IV-1100]
 date: 1609-06-17
-date printed: 17  —
+date printed: 17 —
 date status: printed in the margin
 register: IV
 page: 150 (scan: La France en Tunisie v.2_Part2.pdf p. 25)
@@ -13300,7 +13300,7 @@ text: En italien. — (539) Ally Aga, janissaire turc de Tunis, a reçu de Paulo
 
 [act 2-IV-1101]
 date: 1609-06-20
-date printed: 20  —
+date printed: 20 —
 date status: printed in the margin
 register: IV
 page: 150 (scan: La France en Tunisie v.2_Part2.pdf p. 25)
@@ -13313,7 +13313,7 @@ text: En italien. — (541) Caytto Ally, turc de Tunis, vend à Mametto Coral, m
 
 [act 2-IV-1102]
 date: 1609-06-22
-date printed: 22  —
+date printed: 22 —
 date status: printed in the margin
 register: IV
 page: 150 (scan: La France en Tunisie v.2_Part2.pdf p. 25)
@@ -13326,7 +13326,7 @@ text: (542) Guillaume Fougues, capitaine entretenu pour le Roi aux mers de Ponan
 
 [act 2-IV-1103]
 date: 1609-06-22
-date printed: 22  —
+date printed: 22 —
 date status: printed in the margin
 register: IV
 page: 150 (scan: La France en Tunisie v.2_Part2.pdf p. 25)
@@ -13569,7 +13569,7 @@ text: En italien. — Louyse de Antony de Juliane, de Venise, déclare que Batti
 
 [act 2-IV-1122]
 date: 1609-08-29
-date printed: 29    -
+date printed: 29 -
 date status: printed in the margin
 register: IV
 page: 153 (scan: La France en Tunisie v.2_Part2.pdf p. 28)
@@ -13806,7 +13806,7 @@ language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 amounts: 128 écus; 16 aspres
-text: En italien. — (656) Anastasia de Nicolo, de Zanthe, a reçu des mêmes 128 écus et 16 aspres payés pour son rachat à Ossoman Dey. Dans les trois actes précédents, Joan de Luca et Joan de Biaxo agissent comme « hepitropy >>(1) du testament de Miquely Praxatty, de Raguse.
+text: En italien. — (656) Anastasia de Nicolo, de Zanthe, a reçu des mêmes 128 écus et 16 aspres payés pour son rachat à Ossoman Dey. Dans les trois actes précédents, Joan de Luca et Joan de Biaxo agissent comme « hepitropy » (1) du testament de Miquely Praxatty, de Raguse.
 
 [act 2-IV-1141]
 date: 1609-11-09
@@ -13860,7 +13860,7 @@ text: En italien. — (663) Jan Hiacopas Brum (Jan Jacobus Bruyn), flamand, d'Am
 
 [act 2-IV-1145]
 date: 1609-11-12
-date printed: 12    -
+date printed: 12 -
 date status: printed in the margin
 register: IV
 page: 155 (scan: La France en Tunisie v.2_Part2.pdf p. 30)
@@ -13933,7 +13933,7 @@ language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 amounts: 400 écus d'or; 500 écus d'or
-text: En italien. — (679) Le patron Arnaud Moureu, de la Ciotat, vend à Ally Pacha une « saettia » de 1.000 cantars avec ses voiles et agrès pour 400 écus d'or. Ally Pacha vend à Arnaud Moureu une « saettia >> napolitaine de 1.400 cantars pour 500 écus d'or. Cette « saettia » a été prise et conduite à La Goulette par les galères de Bizerte.
+text: En italien. — (679) Le patron Arnaud Moureu, de la Ciotat, vend à Ally Pacha une « saettia » de 1.000 cantars avec ses voiles et agrès pour 400 écus d'or. Ally Pacha vend à Arnaud Moureu une « saettia » napolitaine de 1.400 cantars pour 500 écus d'or. Cette « saettia » a été prise et conduite à La Goulette par les galères de Bizerte.
 
 [act 2-IV-1151]
 date: 1609-11-28
@@ -14167,7 +14167,7 @@ text: En italien. — (724) Antonio Marco, arménien, habitant Constantinople, e
 
 [act 2-IV-1169]
 date: 1610-02-26
-date printed: 26  —
+date printed: 26 —
 date status: printed in the margin
 register: IV
 page: 159 (scan: La France en Tunisie v.2_Part2.pdf p. 34)
@@ -14181,7 +14181,7 @@ text: En italien. — (728) Doumenyco de Laxaro, arménien, expose que se trouva
 
 [act 2-IV-1170]
 date: 1610-02-26
-date printed: 26  —
+date printed: 26 —
 date status: printed in the margin
 register: IV
 page: 159 (scan: La France en Tunisie v.2_Part2.pdf p. 34)
@@ -14194,7 +14194,7 @@ text: En italien. — (733) Antonio de Marco, arménien, de Constantinople, donn
 
 [act 2-IV-1171]
 date: 1610-02-26
-date printed: 26  —
+date printed: 26 —
 date status: printed in the margin
 register: IV
 page: 159 (scan: La France en Tunisie v.2_Part2.pdf p. 34)
@@ -14233,7 +14233,7 @@ text: En italien. — (748) Laurenso Pira, de Sassari, esclave de Sidi Hamida, t
 
 [act 2-IV-1174]
 date: 1610-03-10
-date printed: 10  —
+date printed: 10 —
 date status: printed in the margin
 register: IV
 page: 160 (scan: La France en Tunisie v.2_Part2.pdf p. 35)
@@ -14246,7 +14246,7 @@ text: En italien. — (751) Le patron Giorge Mychida, de Messine, doit au patron
 
 [act 2-IV-1175]
 date: 1610-03-11
-date printed: 11  —
+date printed: 11 —
 date status: printed in the margin
 register: IV
 page: 160 (scan: La France en Tunisie v.2_Part2.pdf p. 35)
@@ -14259,7 +14259,7 @@ text: En italien. — (753) Gregorio de Trifonne Collenda, de Raguse, doit à Jo
 
 [act 2-IV-1176]
 date: 1610-03-11
-date printed: 11  —
+date printed: 11 —
 date status: printed in the margin
 register: IV
 page: 160 (scan: La France en Tunisie v.2_Part2.pdf p. 35)
@@ -14272,7 +14272,7 @@ text: En italien. — (755) Le même doit à Dominiqo de Laxaro, arménien, 141 
 
 [act 2-IV-1177]
 date: 1610-03-11
-date printed: 11  —
+date printed: 11 —
 date status: printed in the margin
 register: IV
 page: 160 (scan: La France en Tunisie v.2_Part2.pdf p. 35)
@@ -14286,7 +14286,7 @@ text: En italien. — (757) Le patron Silvestro Chiafouto a reçu du rais Salem 
 
 [act 2-IV-1178]
 date: 1610-03-12
-date printed: 12  —
+date printed: 12 —
 date status: printed in the margin
 register: IV
 page: 160 (scan: La France en Tunisie v.2_Part2.pdf p. 35)
@@ -14298,7 +14298,7 @@ text: En italien. — (758) Gregorio de Trifonne Collenda proteste contre les fa
 
 [act 2-IV-1179]
 date: 1610-03-12
-date printed: 12  —
+date printed: 12 —
 date status: printed in the margin
 register: IV
 page: 160 (scan: La France en Tunisie v.2_Part2.pdf p. 35)
@@ -14323,7 +14323,7 @@ text: (766) Reynaud Fabre, marchand de Marseille, et Mathurin Bonastier, de la C
 
 [act 2-IV-1181]
 date: 1610-03-13
-date printed: 13  —
+date printed: 13 —
 date status: printed in the margin
 register: IV
 page: 161 (scan: La France en Tunisie v.2_Part2.pdf p. 36)
@@ -14336,7 +14336,7 @@ text: (769) Les mêmes doivent à Anthoyne Lovyco et à Anthoine Berengier 531 �
 
 [act 2-IV-1182]
 date: 1610-03-13
-date printed: 13  —
+date printed: 13 —
 date status: printed in the margin
 register: IV
 page: 161 (scan: La France en Tunisie v.2_Part2.pdf p. 36)
@@ -14349,7 +14349,7 @@ text: (771) Anne Daugerolle chevalier de Comyeres, de la paroisse de Mably, prè
 
 [act 2-IV-1183]
 date: 1610-03-13
-date printed: 13  —
+date printed: 13 —
 date status: printed in the margin
 register: IV
 page: 161 (scan: La France en Tunisie v.2_Part2.pdf p. 36)
@@ -14362,7 +14362,7 @@ text: (773) Gilles le Maire dit Parsifontaine, doit aux mêmes 386 écus de 12 r
 
 [act 2-IV-1184]
 date: 1610-03-13
-date printed: 13  —
+date printed: 13 —
 date status: printed in the margin
 register: IV
 page: 161 (scan: La France en Tunisie v.2_Part2.pdf p. 36)
@@ -14375,7 +14375,7 @@ text: (775) Reynaud Fabre doit à Hurban de Nans, de Sixfours, 53 écus et 1/3.
 
 [act 2-IV-1185]
 date: 1610-03-13
-date printed: 13  —
+date printed: 13 —
 date status: printed in the margin
 register: IV
 page: 161 (scan: La France en Tunisie v.2_Part2.pdf p. 36)
@@ -14388,7 +14388,7 @@ text: (777) Henri Penard, des Sables d'Olonne, Andre Peyraud, René Brochet, Lou
 
 [act 2-IV-1186]
 date: 1610-03-15
-date printed: 15  —
+date printed: 15 —
 date status: printed in the margin
 register: IV
 page: 161 (scan: La France en Tunisie v.2_Part2.pdf p. 36)
@@ -14400,7 +14400,7 @@ text: (780) Jehan Anthoyne Myfret, du Puget Denier en Provence, esclave des hér
 
 [act 2-IV-1187]
 date: 1610-03-17
-date printed: 17  —
+date printed: 17 —
 date status: printed in the margin
 register: IV
 page: 161 (scan: La France en Tunisie v.2_Part2.pdf p. 36)
@@ -14413,7 +14413,7 @@ text: En italien. — (783) Jousepo Dalexio, de Messine, doit à Pasgalle Inpera
 
 [act 2-IV-1188]
 date: 1610-03-17
-date printed: 17  —
+date printed: 17 —
 date status: printed in the margin
 register: IV
 page: 161 (scan: La France en Tunisie v.2_Part2.pdf p. 36)
@@ -14682,7 +14682,7 @@ text: (872) Le patron Luzio Matheo, corse, a reçu de Hugues Changet, vice-consu
 
 [act 2-IV-1209]
 date: 1610-05-01
-date printed: 1er   mai
+date printed: 1er mai
 date status: printed in the margin
 register: IV
 page: 165 (scan: La France en Tunisie v.2_Part2.pdf p. 40)
@@ -14733,7 +14733,7 @@ text: En italien. — (889) Muratto bey, renégat, fils d'Alfonso, corse de Bast
 
 [act 2-IV-1213]
 date: 1610-05-24
-date printed: 24    -
+date printed: 24 -
 date status: printed in the margin
 register: IV
 page: 165 (scan: La France en Tunisie v.2_Part2.pdf p. 40)
@@ -14759,7 +14759,7 @@ text: En italien. — (896) Mourat bey, turc, renégat corse, demande l'enregist
 
 [act 2-IV-1215]
 date: 1610-05-25
-date printed: 25    -
+date printed: 25 -
 date status: printed in the margin
 register: IV
 page: 165 (scan: La France en Tunisie v.2_Part2.pdf p. 40)
@@ -14821,7 +14821,7 @@ text: (917) Frère Jehan de Casthelane Claret (Jehan de Castellane Claret), de C
 
 [act 2-IV-1220]
 date: 1610-06-11
-date printed: 11   -
+date printed: 11 -
 date status: printed in the margin
 register: IV
 page: 166 (scan: La France en Tunisie v.2_Part2.pdf p. 41)
@@ -14859,7 +14859,7 @@ text: En italien. — (928) Joan Canavalo de Pero, de Ranpalo (Rivière de Gêne
 
 [act 2-IV-1223]
 date: 1610-06-11
-date printed: 11  —
+date printed: 11 —
 date status: printed in the margin
 register: IV
 page: 167 (scan: La France en Tunisie v.2_Part2.pdf p. 42)
@@ -14897,7 +14897,7 @@ text: (935) Les mêmes ont reçu en la même qualité de Gabriou Leonide et de F
 
 [act 2-IV-1226]
 date: 1610-07-02
-date printed: 2   —
+date printed: 2 —
 date status: printed in the margin
 register: IV
 page: 167 (scan: La France en Tunisie v.2_Part2.pdf p. 42)
@@ -14910,7 +14910,7 @@ text: (937) Même acte pour 2.839 écus reçus de Jehan Berenguier.
 
 [act 2-IV-1227]
 date: 1610-07-02
-date printed: 2   —
+date printed: 2 —
 date status: printed in the margin
 register: IV
 page: 167 (scan: La France en Tunisie v.2_Part2.pdf p. 42)
@@ -14923,7 +14923,7 @@ text: (940) Même acte pour 1.248 écus reçus de Henric Leys, marchand anglais.
 
 [act 2-IV-1228]
 date: 1610-07-02
-date printed: 2   —
+date printed: 2 —
 date status: printed in the margin
 register: IV
 page: 167 (scan: La France en Tunisie v.2_Part2.pdf p. 42)
@@ -14935,7 +14935,7 @@ text: (942) Même acte pour 1.000 pièces de 8 réaulx castillans reçues de All
 
 [act 2-IV-1229]
 date: 1610-07-02
-date printed: 2   —
+date printed: 2 —
 date status: printed in the margin
 register: IV
 page: 167 (scan: La France en Tunisie v.2_Part2.pdf p. 42)
@@ -15052,7 +15052,7 @@ text: En italien. — (969) Le patron Gio Anto Serié, de St-Tropez, expose qu'a
 
 [act 2-IV-1238]
 date: 1610-07-05
-date printed: 5   -
+date printed: 5 -
 date status: printed in the margin
 register: IV
 page: 168 (scan: La France en Tunisie v.2_Part2.pdf p. 43)
@@ -15075,7 +15075,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 amounts: 100 ducats
 dates mentioned: 1608-06-30
-text: En italien. — (976) Marcantonio Paulillo, de Naples, demande l'enregistrement d'un « écrit >>de la Rédemption de Naples. Il s'agit d'une promesse de 100 ducats à qui rachètera Jousepe Coulouna Disca, esclave des turcs. Cette promesse est datée du 30 juin 1608.
+text: En italien. — (976) Marcantonio Paulillo, de Naples, demande l'enregistrement d'un « écrit » de la Rédemption de Naples. Il s'agit d'une promesse de 100 ducats à qui rachètera Jousepe Coulouna Disca, esclave des turcs. Cette promesse est datée du 30 juin 1608.
 
 [act 2-IV-1240]
 date: 1610-07-14
@@ -15088,7 +15088,7 @@ language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 amounts: 100 écus d'or d'Espagne
-text: En italien. — (978) Antonio Esmiol donne une procuration à Marco Bernal, espagnol, « granbisconte >>de la ville de Malte, pour faire rembourser 100 écus d'or d'Espagne que lui doit Gregorio Mazzone, napolitain.
+text: En italien. — (978) Antonio Esmiol donne une procuration à Marco Bernal, espagnol, « granbisconte » de la ville de Malte, pour faire rembourser 100 écus d'or d'Espagne que lui doit Gregorio Mazzone, napolitain.
 
 [act 2-IV-1241]
 date: undated (1610)
@@ -15294,7 +15294,7 @@ text: En italien. — Tusanti de Terues Boysgirault, du Poitou, donne une procur
 
 [act 2-IV-1257]
 date: 1610-07-27
-date printed: 27                           -
+date printed: 27 -
 date status: printed in the margin
 register: IV
 page: 171 (scan: La France en Tunisie v.2_Part2.pdf p. 46)
@@ -15460,7 +15460,7 @@ text: En italien. — Le raïs Aly benfracie (Ali ben Fredj) donne une procurati
 
 [act 2-IV-1271]
 date: 1610-08-28
-date printed: 28                            -
+date printed: 28 -
 date status: printed in the margin
 register: IV
 page: 173 (scan: La France en Tunisie v.2_Part2.pdf p. 48)
@@ -15516,7 +15516,7 @@ language: français
 vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 amounts: 3000 écus d'or; 3000 écus
-text: Le patron Jehan Toureau, de Toulon, le patron Thomas Caulet, de Marseille, Jehan Tenque, de Martigues, Charles de Rybe, de Toulon, Meiximyn Gallegne, de Marseille, Louys Deymier, de Marseille, Jacques Tourtel, de Sixfours, Jacques Augerot, d'Ollioulles, écrivain de Tourtel, le patron Jacques Sengla, de Bourmes, Pierre Vidal, de Sixfours, Guillen Bernart, de Sixfours, Luco Martin, de St- Tropez, Bertrand Pistoye, de Martigues, Honorat Perisol, de St-Tropez, Vittor Masson, de la Ciotat, Benet Jourdan, de la Ciotat, déclarent à Hugues Changet, consul, que << attendu que Ossoman Dey ........ ne veut donner licence « à aucun vaisseau ni barque pour partir du port de la Goulette de Tunis pour aller en chrétienté si ne donnent « caution les ci-devant nommés de 3000 écus d'or pour cha- « cun deux qu'ils n'iront point en Sicile en quelque port de << la dite île ni Malte au partir qu'ils feront du port de la <<Goulette, lesquels patrons ci devant nommés ont prié le « dit Consul de leur être caution envers le dit Ossoman « Dey, de quoi le dit Sr Consul s'oblige au dit Ossoman Dey « que en cas qu'il y eut quelqu'un des dits patrons qui tou- << chassent en Sicile ou Malte de payer 3000 écus envers le << dit Ossoman Dey. Lesquels ci-dessus nommés déclarent « en vertu de la présente au dit Sr Consul de le relever de << la dite caution envers le dit Ossoman Dey & tous d'une << voix commune & de leurs bons gré & pure & franche vo- << lonté s'obligent audit Sr Consul que en cas que celui qui << touchera en Sicile ou Malte de payer trois mille écus d'or « chacun de celui qui se trouvera avoir touché audit Malte « ou Sicile & pour ce ont obligé leurs propres personnes « & leurs vaisseaux & barques ......
+text: Le patron Jehan Toureau, de Toulon, le patron Thomas Caulet, de Marseille, Jehan Tenque, de Martigues, Charles de Rybe, de Toulon, Meiximyn Gallegne, de Marseille, Louys Deymier, de Marseille, Jacques Tourtel, de Sixfours, Jacques Augerot, d'Ollioulles, écrivain de Tourtel, le patron Jacques Sengla, de Bourmes, Pierre Vidal, de Sixfours, Guillen Bernart, de Sixfours, Luco Martin, de St- Tropez, Bertrand Pistoye, de Martigues, Honorat Perisol, de St-Tropez, Vittor Masson, de la Ciotat, Benet Jourdan, de la Ciotat, déclarent à Hugues Changet, consul, que « attendu que Ossoman Dey ........ ne veut donner licence « à aucun vaisseau ni barque pour partir du port de la Goulette de Tunis pour aller en chrétienté si ne donnent « caution les ci-devant nommés de 3000 écus d'or pour cha- « cun deux qu'ils n'iront point en Sicile en quelque port de « la dite île ni Malte au partir qu'ils feront du port de la « Goulette, lesquels patrons ci devant nommés ont prié le « dit Consul de leur être caution envers le dit Ossoman « Dey, de quoi le dit Sr Consul s'oblige au dit Ossoman Dey « que en cas qu'il y eut quelqu'un des dits patrons qui tou- « chassent en Sicile ou Malte de payer 3000 écus envers le « dit Ossoman Dey. Lesquels ci-dessus nommés déclarent « en vertu de la présente au dit Sr Consul de le relever de « la dite caution envers le dit Ossoman Dey & tous d'une « voix commune & de leurs bons gré & pure & franche vo- « lonté s'obligent audit Sr Consul que en cas que celui qui « touchera en Sicile ou Malte de payer trois mille écus d'or « chacun de celui qui se trouvera avoir touché audit Malte « ou Sicile & pour ce ont obligé leurs propres personnes « & leurs vaisseaux & barques ......
 
 [act 2-IV-1276]
 date: 1610-09-06
@@ -15842,7 +15842,7 @@ text: En italien. — Fra Ceroubino, de Naples, capucin, doit au patron Salvador
 
 [act 2-IV-1303]
 date: 1610-11-17
-date printed: 17                           -
+date printed: 17 -
 date status: printed in the margin
 register: IV
 page: 179 (scan: La France en Tunisie v.2_Part2.pdf p. 56)
@@ -15915,7 +15915,7 @@ text: En italien. — Le patron Orlando Porxio, de Pasitano, a reçu de Battista
 
 [act 2-IV-1309]
 date: 1610-11-22
-date printed: 22    -
+date printed: 22 -
 date status: printed in the margin
 register: IV
 page: 179 (scan: La France en Tunisie v.2_Part2.pdf p. 56)

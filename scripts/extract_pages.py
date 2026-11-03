@@ -144,6 +144,7 @@ def normalise(text):
         l = l.rstrip()
         l = re.sub(r"^(\s{0,6}(?:\S{1,3}\s+)?[a-zéû]{2,6}) \.(?=\s)", r"\1.", l)               # margin "oct ." -> "oct."
         l = re.sub(r"[\u0590-\u08ff\u200e\u200f\u202a-\u202e]+", "", l)   # stray Arabic/bidi glyphs
+        l = re.sub(r"^(\s{0,8})s\s?\.\s?d\s?\.(?=\s)", r"\1s. d.", l)              # margin "s. d ." -> "s. d."
         l = re.sub(r"^(\s*1[56]\d\d)\s?\.\s*$", r"\1", l)              # year heading "1606 ."
         l = re.sub(r"^(\s{0,3})s\s?\.\s?d\s?\.", r"\1s. d.", l)
         l = re.sub(r"^(\s{0,3})1\s?or\b", r"\g<1>1er", l)                  # OCR "1or" / "1 or"
@@ -155,6 +156,7 @@ def normalise(text):
         l = re.sub(r"^[-.]?(\d{1,2})[.]?(?=\s{3,}\S)", r"\1", l)           # margin "26." / "-16" / ".27"
         l = re.sub(r"^(\S.{0,14}?\s{2,})\. (?=En )", r"\1", l)            # "15     . En italien"
         l = re.sub(r"^(\d{1,2}(?:er)?(?:\s+[a-zéû]{2,6}\.?)?\s{3,})(\d{3,4})(\s+[A-Z])", r"\1(\2)\3", l)
+        l = re.sub(r"\bEn(italien|latin|espagnol)\b", r"En \1", l)
         l = re.sub(r"\bEn (italien|latin|espagnol|provençal)\b\s*[.,]?\s*(?:[-—–~]+\s*)*", r"En \1. — ", l)
         m = re.match(r"^(\s*\S.{0,14}?\s{2,}|\s*)(.*)$", l)
         lead, body = m.group(1), m.group(2)
@@ -204,6 +206,8 @@ def normalise(text):
         if not m:
             continue
         rest = l[m.end():]
+        if not rest.strip(" -—–"):
+            rest = "x"                     # a dash alone after the date: treat like a continuation
         nxt_i = next((k for k in range(i + 1, min(i + 4, len(merged))) if merged[k].strip()), None)
         # "27 sept.   Stefano di Burgio..." / "   En italien. —" : the language note was split off
         if nxt_i is not None and lang_only.match(merged[nxt_i]) and not rest.startswith("En "):
@@ -221,13 +225,17 @@ def normalise(text):
                 merged[i] = cont
                 merged[k2] = ""
                 continue
-        if not re.match(r"[a-zà-ÿ,;\d]", rest) and (rest.startswith("En ") or not nxt_i
+        if not re.match(r"[a-zà-ÿ,;\d]", rest) and (re.match(r"E[nt]\s*\w+\s*\.\s*[—–-]", rest) or not nxt_i
                                                     or not re.match(r"^\s{6,}En \w+\. — ", merged[nxt_i])):
             continue
         for j in range(i + 1, min(i + 6, len(merged))):
             nxt = merged[j]
-            if re.match(r"^\s{6,}En \w+\. — ", nxt):
-                tok = m.group(1).strip()
+            prev_text = next((merged[k] for k in range(j - 1, i, -1) if merged[k].strip()), rest).rstrip()
+            starts_act = (re.match(r"^\s{6,}En \w+\. — ", nxt)
+                          or (re.match(r"[a-zà-ÿ,;\d]", rest) and prev_text.endswith((".", ")", "»"))
+                              and re.match(r"^\s{6,}(?:\(\s?\d+\s?\)|\([A-Z]|[A-ZÉ][a-zéè]*\.? [A-ZÉ]|[A-ZÉ][a-zéè]+[ ,])", nxt)))
+            if starts_act:
+                tok = re.sub(r"\s+", " ", m.group(1).strip())
                 merged[j] = tok + " " * max(4, 12 - len(tok)) + nxt.strip()
                 merged[i] = " " * len(m.group(0)) + l[m.end():]
                 break
@@ -333,7 +341,7 @@ def main():
         todo = []
         for (name, p, t, n), lab in zip(seq, labels):
             if lab and re.fullmatch(r"p\d+", lab) and vol["analysis_pages"][0] <= int(lab[1:]) <= vol["analysis_pages"][1] \
-                    and page_quality.score(normalise(t))[0] >= thr \
+                    and (page_quality.score(normalise(t))[0] >= thr or int(lab[1:]) in vol.get("tesseract_pages", [])) \
                     and not (cache_dir / f"{lab}.txt").exists():
                 todo.append((lab, name, p))
         def run(job):
@@ -360,6 +368,10 @@ def main():
             # pages the OCR scrambled, transcribed by hand from the page image
             t = hand.read_text(encoding="utf-8")
         t = normalise(normalise(t))        # a second pass settles lines the first one moved
+        if re.fullmatch(r"p\d+", lab) and vol["analysis_pages"][0] <= int(lab[1:]) <= vol["analysis_pages"][1]:
+            # act pages: a "|" is the page gutter or a column rule read by the OCR (in the
+            # two-column indexes it separates the columns and is kept)
+            t = "\n".join(re.sub(r"(?:(?<=\s)|^)\|(?=\s|$)", " ", l).rstrip() for l in t.split("\n"))
         for f in page_fixes:          # hand corrections of the page text, checked against the scan
             if f["page"] == lab:
                 if f["old"] not in t:

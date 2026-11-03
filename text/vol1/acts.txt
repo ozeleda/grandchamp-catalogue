@@ -46,7 +46,7 @@ text: Procuration donnée par Ghaffer, turc renié de Gogi , corse, de SoubbouUa
 
 [act 1-I-0004]
 date: 1583-04-21
-date printed: 21    —
+date printed: 21 —
 date status: printed in the margin
 register: I
 page: 5 (scan: La France en Tunisie v.1.pdf p. 33)
@@ -57,7 +57,7 @@ text: Solvestre Sebastiano et , napolitains, reconnaissent devoir à Santo Pasqu
 
 [act 1-I-0005]
 date: 1583-04-23
-date printed: 23   —
+date printed: 23 —
 date status: printed in the margin
 register: I
 page: 5 (scan: La France en Tunisie v.1.pdf p. 33)
@@ -142,7 +142,7 @@ text: Domergue Saruby déclare qu'un des chargeurs de son navire a dépassé le 
 
 [act 1-I-0012]
 date: 1583-04-30
-date printed: 30     —
+date printed: 30 —
 date status: printed in the margin
 register: I
 page: 6 (scan: La France en Tunisie v.1.pdf p. 34)
@@ -154,7 +154,7 @@ text: Domergue Saruby répond au protest de Benoit Vignon. Il ne peut partir, so
 
 [act 1-I-0013]
 date: 1583-04-30
-date printed: 30     —
+date printed: 30 —
 date status: printed in the margin
 register: I
 page: 6 (scan: La France en Tunisie v.1.pdf p. 34)
@@ -178,7 +178,7 @@ text: Benoit Vignon et Ollivier contestent les explications données par Saruby 
 
 [act 1-I-0015]
 date: 1583-05-10
-date printed: 10     —
+date printed: 10 —
 date status: printed in the margin
 register: I
 page: 6 (scan: La France en Tunisie v.1.pdf p. 34)
@@ -243,7 +243,7 @@ text: Jehan Gafier, de Toulon, reconnaît devoir pour son rachat 110 écus d'or 
 
 [act 1-I-0020]
 date: 1583-05-16
-date printed: 16     —
+date printed: 16 —
 date status: printed in the margin
 register: I
 page: 7 (scan: La France en Tunisie v.1.pdf p. 35)
@@ -320,7 +320,7 @@ text: Lazarin Bargier, de Marseille, proteste au sujet du char-
 
 [act 1-I-0026]
 date: 1583-05-23
-date printed: 23     —
+date printed: 23 —
 date status: printed in the margin
 register: I
 page: 7 (scan: La France en Tunisie v.1.pdf p. 35)
@@ -584,7 +584,7 @@ text: Quara Amat, renégat, donne procuration à Donnatto de Guilhome, romain.
 
 [act 1-I-0047]
 date: 1583-06-18
-date printed: 18     —
+date printed: 18 —
 date status: printed in the margin
 register: I
 page: 9 (scan: La France en Tunisie v.1.pdf p. 37)
@@ -597,7 +597,7 @@ text: Mazi Escatorettica (?), sicilien, reconnaît devoir à Nicollo de Gondary 
 
 [act 1-I-0048]
 date: 1583-06-18
-date printed: 18     —
+date printed: 18 —
 date status: printed in the margin
 register: I
 page: 9 (scan: La France en Tunisie v.1.pdf p. 37)
@@ -609,7 +609,7 @@ text: Marcau Granier donne procuration à Francisco Vyon, de Marseille.
 
 [act 1-I-0049]
 date: 1583-06-18
-date printed: 18     —
+date printed: 18 —
 date status: printed in the margin
 register: I
 page: 9 (scan: La France en Tunisie v.1.pdf p. 37)
@@ -622,7 +622,7 @@ text: Marcau Granier expose qu'il lui est dû 183 écus, payés pour le rachat d
 
 [act 1-I-0050]
 date: 1583-06-25
-date printed: 25     —
+date printed: 25 —
 date status: printed in the margin
 register: I
 page: 9 (scan: La France en Tunisie v.1.pdf p. 37)
@@ -686,7 +686,7 @@ text: Le patron Guilhon Roustan, de Cannes, reconnaît devoir au patron Jehan de
 
 [act 1-I-0055]
 date: 1585-10-25
-date printed: 25     —
+date printed: 25 —
 date status: printed in the margin
 register: I
 page: 9 (scan: La France en Tunisie v.1.pdf p. 37)
@@ -711,7 +711,7 @@ text: Sidi Amet Taat et Manssour ben Amet Safar, de Tunis, reconnaissent devoir 
 
 [act 1-I-0057]
 date: 1585-11-10
-date printed: 10     —
+date printed: 10 —
 date status: printed in the margin
 register: I
 page: 9 (scan: La France en Tunisie v.1.pdf p. 37)
@@ -795,7 +795,7 @@ text: Ferrante Saroguosa, de Trapani, reconnaît devoir à Pedro Anthonio Gastel
 
 [act 1-I-0063]
 date: 1588-04-12
-date printed: 12     —
+date printed: 12 —
 date status: printed in the margin
 register: I
 page: 11 (scan: La France en Tunisie v.1.pdf p. 39)
@@ -961,7 +961,7 @@ text: Anthoine Ripert, marinier de Marseille, donne une procuration àson frère
 
 [act 1-I-0076]
 date: 1588-05-17
-date printed: 17     —
+date printed: 17 —
 date status: printed in the margin
 register: I
 page: 12 (scan: La France en Tunisie v.1.pdf p. 40)
@@ -974,7 +974,7 @@ text: Jehan Parenton, de Lelbo, reconnaît devoir à Jehan de Greguoires 127 éc
 
 [act 1-I-0077]
 date: 1588-05-17
-date printed: 17     —
+date printed: 17 —
 date status: printed in the margin
 register: I
 page: 12 (scan: La France en Tunisie v.1.pdf p. 40)
@@ -987,7 +987,7 @@ text: Bernardo Bertolhi, de Trapani, a vendu 35 quintaux de laines de Tunis pour
 
 [act 1-I-0078]
 date: 1588-05-20
-date printed: 20     —
+date printed: 20 —
 date status: printed in the margin
 register: I
 page: 12 (scan: La France en Tunisie v.1.pdf p. 40)
@@ -999,7 +999,7 @@ text: Au sujet bonne d'un chargement Vonture ». de laine sur le bateau « Ste M
 
 [act 1-I-0079]
 date: 1588-05-29
-date printed: 29     —
+date printed: 29 —
 date status: printed in the margin
 register: I
 page: 12 (scan: La France en Tunisie v.1.pdf p. 40)
@@ -1025,7 +1025,7 @@ text: Le patron Antlionio Xasco, sicilien, reconnaît devoir à Jehan Antlioine 
 
 [act 1-I-0081]
 date: 1588-05-29
-date printed: 29     —
+date printed: 29 —
 date status: printed in the margin
 register: I
 page: 13 (scan: La France en Tunisie v.1.pdf p. 41)
@@ -1395,7 +1395,7 @@ text: Anthonino de Tissa fait une déclaration au sujet de la somme portée à l
 
 [act 1-I-0109]
 date: 1589-04-15
-date printed: 15    —
+date printed: 15 —
 date status: printed in the margin
 register: I
 page: 15 (scan: La France en Tunisie v.1.pdf p. 43)
@@ -1444,7 +1444,7 @@ text: Santo Pascallo, corse, reconnaît avoir reçu de Joanne de Jacobo trente �
 
 [act 1-I-0113]
 date: 1589-04-27
-date printed: 27     —
+date printed: 27 —
 date status: printed in the margin
 register: I
 page: 16 (scan: La France en Tunisie v.1.pdf p. 44)
@@ -1534,7 +1534,7 @@ text: Jehan Lupes, portugais, reconnaît devoir à Jacomo di Orlando 40 écus d'
 
 [act 1-I-0120]
 date: 1589-05-10
-date printed: 10     —
+date printed: 10 —
 date status: printed in the margin
 register: I
 page: 16 (scan: La France en Tunisie v.1.pdf p. 44)
@@ -1547,7 +1547,7 @@ text: Rozoan Aga, turc renié, reconnaît avoir reçu de Polo Dalcuia, corse, 30
 
 [act 1-I-0121]
 date: 1589-05-10
-date printed: 10     —
+date printed: 10 —
 date status: printed in the margin
 register: I
 page: 16 (scan: La France en Tunisie v.1.pdf p. 44)
@@ -1560,7 +1560,7 @@ text: Gezaro Risso, génois, reconnaît devoir à Francesco Pellegrino, de Lipar
 
 [act 1-I-0122]
 date: 1589-05-10
-date printed: 10     —
+date printed: 10 —
 date status: printed in the margin
 register: I
 page: 16 (scan: La France en Tunisie v.1.pdf p. 44)
@@ -1817,7 +1817,7 @@ vice-consul: Nicolas Borrilly
 chancelier: De Iherosme
 amounts: 200 écus d'or
 flags: struck out
-text: -Le capn« Jehan Claude Amielh, dit Bolhon, et Anthoine Delascours, dit Tibaud, reconnaissent devoir à Nicollas de Ville 200 écus d'or pistollet. (Cet acte est biffé. Il semble identique au précédent).
+text: Le capn« Jehan Claude Amielh, dit Bolhon, et Anthoine Delascours, dit Tibaud, reconnaissent devoir à Nicollas de Ville 200 écus d'or pistollet. (Cet acte est biffé. Il semble identique au précédent).
 
 [act 1-I-0142]
 date: 1589-08-23
@@ -1907,7 +1907,7 @@ text: Finarino Richier, reconnaît devoir à Jehan Magione, de La Lengaria, 93 �
 
 [act 1-I-0149]
 date: 1589-10-17
-date printed: 17    —
+date printed: 17 —
 date status: printed in the margin
 register: I
 page: 19 (scan: La France en Tunisie v.1.pdf p. 47)
@@ -2063,7 +2063,7 @@ text: Testament et ordonnance de dernière volonté faite par ms Jacomo di Orlan
 
 [act 1-I-0161]
 date: 1590-03-12
-date printed: 12     —
+date printed: 12 —
 date status: printed in the margin
 register: I
 page: 20 (scan: La France en Tunisie v.1.pdf p. 48)
@@ -2446,7 +2446,7 @@ vice-consul: Nicolas Borrilly
 chancelier: De Iherosme
 amounts: 436 écus d'or d'Espagne
 dates mentioned: 1590-08-30
-text: .Anthoine Berengier, de Marseille, reconnaît devoir à Arnurj- ;.?; Moslapha, ballocobaissi, 436 écus d'or d'Espagne. (Somme remboursée le 30 août 1590).
+text: Anthoine Berengier, de Marseille, reconnaît devoir à Arnurj- ;.?; Moslapha, ballocobaissi, 436 écus d'or d'Espagne. (Somme remboursée le 30 août 1590).
 
 [act 1-I-0191]
 date: 1590-08-03
@@ -3751,7 +3751,7 @@ text: Fouquet Clerc, de Marseille, esclave à Tunis, donne une procuration au pa
 
 [act 1-II-0292]
 date: 1591-08-19
-date printed: 19     —
+date printed: 19 —
 date status: printed in the margin
 register: II
 page: 35 (scan: La France en Tunisie v.1.pdf p. 63)
@@ -3764,7 +3764,7 @@ text: Constantin Castilhon, marinier de Marseille, reconnaît devoir à Jehan Ro
 
 [act 1-II-0293]
 date: 1591-08-21
-date printed: 21     —
+date printed: 21 —
 date status: printed in the margin
 register: II
 page: 35 (scan: La France en Tunisie v.1.pdf p. 63)
@@ -4104,7 +4104,7 @@ text: Le patron Raymond Dorin, irlandais, reconnajt devoir à Troffis Savornin, 
 
 [act 1-II-0319]
 date: 1592-05-25
-date printed: 25    —
+date printed: 25 —
 date status: printed in the margin
 register: II
 page: 38 (scan: La France en Tunisie v.1.pdf p. 66)
@@ -4465,7 +4465,7 @@ text: Anthoine Berengier se porte caution pour François Gardin à l'occasion d'
 
 [act 1-II-0347]
 date: 1592-07-20
-date printed: 20     —
+date printed: 20 —
 date status: printed in the margin
 register: II
 page: 41 (scan: La France en Tunisie v.1.pdf p. 69)
@@ -5506,7 +5506,7 @@ text: Barthélémy Estève, Lois Crespin et autres reconnaissent devoir 148 écu
 
 [act 1-II-0427]
 date: 1593-10-04
-date printed: 4     —
+date printed: 4 —
 date status: printed in the margin
 register: II
 page: 53 (scan: La France en Tunisie v.1.pdf p. 81)
@@ -5621,7 +5621,7 @@ text: Jean Girard, de Melun (?), reconnaît devoir à Jean Long et autres le sep
 
 [act 1-II-0436]
 date: 1593-10-11
-date printed: 11     —
+date printed: 11 —
 date status: printed in the margin
 register: II
 page: 54 (scan: La France en Tunisie v.1.pdf p. 82)
@@ -5634,7 +5634,7 @@ text: Le patron Anthoine Dainy, de Marseille, reconnaît devoir àrachat. Lauren
 
 [act 1-II-0437]
 date: 1593-10-11
-date printed: 11     —
+date printed: 11 —
 date status: printed in the margin
 register: II
 page: 54 (scan: La France en Tunisie v.1.pdf p. 82)
@@ -6376,7 +6376,7 @@ text: Gopie d'une lettre adressée par Philippe Pena, consul, et par les marchan
 
 [act 1-II-0494]
 date: 1594-06-13
-date printed: 13    —
+date printed: 13 —
 date status: printed in the margin
 register: II
 page: 60 (scan: La France en Tunisie v.1.pdf p. 88)
@@ -7175,7 +7175,7 @@ text: Honnoré Garnier, de Marseille, pris sur le vaisseau u S^ Lois » par deux
 
 [act 1-II-0556]
 date: 1595-02-27
-date printed: 27     —
+date printed: 27 —
 date status: printed in the margin
 register: II
 page: 68 (scan: La France en Tunisie v.1.pdf p. 96)
@@ -8167,7 +8167,7 @@ consul: Philippe Pena
 vice-consul: Nicolas Amielh de Iherosme
 chancelier: César Florentin
 amounts: 40 écus d'or d'Espagne; 140 écus
-text: -Ambrozi Patton, milanais, reconnaît devoir à Anthonj Berengier 40 écus d'or d'Espagne payés pour le complément de son rachat au fils d'Allezi Raïs, de Bizerte. (Ce rachat a coûté 140 écus'. Le prêt est consenti pour un mois.
+text: Ambrozi Patton, milanais, reconnaît devoir à Anthonj Berengier 40 écus d'or d'Espagne payés pour le complément de son rachat au fils d'Allezi Raïs, de Bizerte. (Ce rachat a coûté 140 écus'. Le prêt est consenti pour un mois.
 
 [act 1-II-0633]
 date: 1595-12-28
@@ -8477,7 +8477,7 @@ text: Honoré Garnier réclame à Lazarin Bergier, présent, et à George Vernet
 
 [act 1-II-0657]
 date: 1596-07-10
-date printed: 10   —
+date printed: 10 —
 date status: printed in the margin
 register: II
 page: 80 (scan: La France en Tunisie v.1.pdf p. 108)
@@ -8606,7 +8606,7 @@ text: Honoré Estiene de Lange donne quittance à Anthoine Berengier d'une somme
 
 [act 1-II-0667]
 date: 1596-08-31
-date printed: 31     —
+date printed: 31 —
 date status: printed in the margin
 register: II
 page: 82 (scan: La France en Tunisie v.1.pdf p. 110)
@@ -10368,7 +10368,7 @@ text: En italien. — Francesco Aliberto, d'Erbisora (Gènes), reconnaît devoir
 
 [act 1-II-0801]
 date: 1599-05-21
-date printed: 21     —
+date printed: 21 —
 date status: printed in the margin
 register: II
 page: 98 (scan: La France en Tunisie v.1.pdf p. 126)
@@ -10500,7 +10500,7 @@ text: En italien. — Salvo Antonio di Joan Brazi, de Tropea, reconnaît devoir 
 
 [act 1-II-0811]
 date: 1599-06-11
-date printed: U     —
+date printed: U —
 date status: printed in the margin
 register: II
 page: 99 (scan: La France en Tunisie v.1.pdf p. 127)
@@ -10901,7 +10901,7 @@ text: En italien. — Nardo Penega, de Palerme, reconnaît devoir à Tomazi de C
 
 [act 1-II-0842]
 date: 1599-10-10
-date printed: 10     —
+date printed: 10 —
 date status: printed in the margin
 register: II
 page: 103 (scan: La France en Tunisie v.1.pdf p. 131)
@@ -11062,7 +11062,7 @@ text: En italien. — Vinensio Riolo, de Siculiana, reconnaît devoir àVinensio
 
 [act 1-II-0854]
 date: 1600-01-18
-date printed: 18     —
+date printed: 18 —
 date status: printed in the margin
 register: II
 page: 104 (scan: La France en Tunisie v.1.pdf p. 132)
