@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 916,
+ "reviewed_through_seq": 956,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -8235,6 +8235,358 @@
    "currency": "écus per cask",
    "matter": "Saw 19½ casks of Sardinian wine consigned to Manfredini; unsold for months, the wine spoiled and sold for only 11½ écus a cask",
    "keywords": "wine; consignment; damaged goods"
+  },
+  "2-IV-0917": {
+   "matter": "Recovery of debts at Tunis and in Barbary",
+   "keywords": "debt collection"
+  },
+  "2-IV-0918": {
+   "party1_name": "Dienora di Stefano Bonsignore",
+   "party1_role": "debtor, ransomed captive (lady)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable at Naples",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0919": {
+   "party2_name": "Marco Quarantotti",
+   "other_parties_names": "Mamet Cielebi",
+   "other_parties_origins": "turc de Tunis",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable at Naples",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0920": {
+   "date": "1608-10",
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant, ship master (patron) of the barque « Santa Anna bona ventura »",
+   "other_parties_names": "Turkish and English corsairs; the French consul",
+   "other_parties_role": "captors (a « petachio »); obtained the crew's release",
+   "matter": "Sea protest: loaded with cheese at Cagliari for Livorno, left on 3 October and was taken the same day by a « petachio » of Turkish and English corsairs; unloaded at La Goulette, arms, munitions and crew's effects plundered; the French were released through the consul",
+   "notes": "Continues on the next lines of p. 133. Three witness statements follow. Margin date unreadable in the scan; placed in October 1608 from the act's content and the run of acts.",
+   "keywords": "sea protest; corsairs; English; cheese"
+  },
+  "2-IV-0921": {
+   "drop": true
+  },
+  "2-IV-0922": {
+   "date": "1608-10",
+   "party1_role": "principal, captive",
+   "party2_role": "attorney, rector and parish priest of Villa Givica de Crespian",
+   "matter": "To raise funds, evidently for his ransom",
+   "notes": "Margin date unreadable in the scan; placed in October 1608 from the act's content and the run of acts.",
+   "keywords": "ransom; clergy"
+  },
+  "2-IV-0923": {
+   "date": "1608-10",
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant, ship master (patron) of the tartane « Gio Bona Ventura »",
+   "other_parties_names": "five galleys of Bizerte; the French consul",
+   "other_parties_role": "captors; obtained the crew's release",
+   "matter": "Sea protest: left Malta on 10 October for Syracuse to load wine; taken on the 11th; crew put on the galleys, tartane plundered and abandoned at sea; crew freed through the consul",
+   "notes": "Folio 306 (OCR 806). Two witness statements follow. Margin date unreadable in the scan; placed in October 1608 from the act's content and the run of acts.",
+   "keywords": "sea protest; corsairs; galleys"
+  },
+  "2-IV-0924": {
+   "date": "1608-10",
+   "party1_role": "shipowner / master (lets the ship), ship master (patron)",
+   "party2_name": "Marco Frane",
+   "party2_origins": "corse",
+   "party2_role": "charterer",
+   "matter": "Polacre « San Diego » chartered at Tarragona for Tunis and Marseille; by mutual agreement the ship will go to Nice instead",
+   "notes": "Margin date unreadable in the scan; placed in October 1608 from the act's content and the run of acts.",
+   "keywords": "charter; ship"
+  },
+  "2-IV-0925": {
+   "date": "1608-10",
+   "party1_name": "Gabriello Pentinato",
+   "party1_origins": "du Cap de Taragone",
+   "party1_role": "principal, captive",
+   "party2_name": "Chaterina Pentinato",
+   "party2_role": "attorney, daughter of party 1",
+   "matter": "To raise funds (probably for his ransom)",
+   "notes": "Margin date unreadable in the scan; placed in October 1608 from the act's content and the run of acts.",
+   "keywords": "ransom; family"
+  },
+  "2-IV-0926": {
+   "party1_name": "Raffaello Villabeglia (Villabella)",
+   "party1_origins": "d'Ogd Telrich (?) en Catalogne",
+   "party2_name": "Fran Cipriotto",
+   "party2_origins": "grec habitant à Malte",
+   "matter": "Loan repayable 15 days after arrival at Cagliari",
+   "keywords": "loan"
+  },
+  "2-IV-0927": {
+   "party2_origins": "catalan; catalan",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable at San Feliu",
+   "keywords": "loan"
+  },
+  "2-IV-0928": {
+   "party1_name": "Gio Mottet (J. de Motet)",
+   "party2_name": "Antonio Calvano",
+   "price": 424.5,
+   "currency": "pièces de 8 réaux castillans",
+   "matter": "Loan",
+   "keywords": "loan"
+  },
+  "2-IV-0929": {
+   "party1_name": "Raffael Villabeglia",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable at Barcelona",
+   "keywords": "loan"
+  },
+  "2-IV-0930": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor; debtor (held as security)",
+   "party2_name": "Mustafa Cartagi",
+   "party2_origins": "turc et janissaire de Tunis",
+   "party2_role": "creditor, janissary",
+   "other_parties_names": "Luca Romano",
+   "other_parties_role": "goes to Naples with Muzio to raise funds",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable within four months; Nunziante stays with Mustafa as security while Muzio and Luca Romano go to Naples for funds",
+   "keywords": "loan; hostage; ransom"
+  },
+  "2-IV-0931": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "requesting party, redeemer",
+   "party2_name": null,
+   "party2_role": null,
+   "other_parties_names": "Hercole Bonsignore; Assan",
+   "other_parties_origins": "de Reggio; renégat corse",
+   "other_parties_role": "ransomed captive (died 10 November); seller (ransom recipient), renegade",
+   "matter": "Ransomed Hercole Bonsignore, who died on 10 November and was buried « at the usual place of the bastion »; asks the consul for witnesses",
+   "notes": "Two witness statements follow.",
+   "keywords": "ransom; death; burial"
+  },
+  "2-IV-0932": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Antonio Santoro",
+   "party2_origins": "de Valence",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable on arrival at Valencia",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0933": {
+   "transaction_type": "Payment / receipt",
+   "party1_role": "creditor (acknowledges repayment)",
+   "party2_role": "debtor (repays)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Repayment of the ransom loan",
+   "keywords": "ransom; repayment"
+  },
+  "2-IV-0934": {
+   "price": 300,
+   "currency": "pièces de 8 réaux castillans",
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "matter": "Loan made at Trapani",
+   "keywords": "loan"
+  },
+  "2-IV-0935": {
+   "party2_role": "attorney, wife of party 1, daughter of Mamet Bettingieri (?), then at Palermo",
+   "other_parties_names": "Melchion de Vegha",
+   "other_parties_role": "debtor",
+   "currency": "écus",
+   "matter": "Recovery of a 120-écu debt",
+   "keywords": "debt collection; family"
+  },
+  "2-IV-0936": {
+   "party1_name": "Antonello Colonna; Giuseppe Colonna",
+   "party1_role": "debtor; debtor, ransomed captive, son of Antonello",
+   "party2_origins": "de la Torre del Greco",
+   "other_parties_names": "Mustafa",
+   "other_parties_origins": "fils de Assan Bali, turc de Tunis",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan for Giuseppe, repayable 15 days after arrival at Naples",
+   "keywords": "ransom; loan; family"
+  },
+  "2-IV-0937": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Nuntiante di Cesaro; Muzio Bolzano; Gio Bata Lispagnuolo",
+   "party1_origins": "de Vetri; ; ",
+   "party1_role": "witness; witness; witness",
+   "party2_name": "Luca Romano",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Giuseppe Colonna; Mustafa",
+   "other_parties_origins": "; fils d'Assan Bali",
+   "other_parties_role": "ransomed captive; recipient of ransom payment",
+   "currency": "écus",
+   "matter": "Were present when Luca Romano ransomed Giuseppe Colonna for 214 écus",
+   "keywords": "ransom; witnesses"
+  },
+  "2-IV-0938": {
+   "party1_name": "Marco Quarantotti",
+   "party1_origins": "de Pise",
+   "party1_role": "declarant, arbitrator",
+   "other_parties_names": "Gio Bata Danna; Niccolo Scotto; Francesco Scotto; Girolamo Bianco",
+   "other_parties_role": "party (prisoner in the janissaries' bagno); party; party; second arbitrator (refused to give a sentence)",
+   "matter": "Report on the arbitration between Danna and the Scottos; the second arbitrator refused to draft a sentence; Danna remains a prisoner in the janissaries' bagno",
+   "keywords": "arbitration; imprisonment"
+  },
+  "2-IV-0939": {
+   "transaction_type": "Redemption",
+   "other_parties_names": "Giuseppe Colonna",
+   "other_parties_role": "ransomed captive",
+   "matter": "About the ransom of Giuseppe Colonna",
+   "notes": "Folio 333: through an error the register's numbering jumps from 322 to 333.",
+   "keywords": "ransom"
+  },
+  "2-IV-0940": {
+   "party1_origins": "de Palerme; ",
+   "party1_role": "declarant, slave of Ali Pacha; declarant, slave of Ali Pacha",
+   "other_parties_names": "Paulo Manchuzo; Bairam Chaia",
+   "other_parties_origins": "; de Stamboul",
+   "other_parties_role": "slave at Constantinople; master, kâhya of the Arsenal",
+   "matter": "Certify that about seven months ago Paulo Manchuzo was a slave at Constantinople",
+   "keywords": "slavery; certification; Constantinople"
+  },
+  "2-IV-0941": {
+   "party1_role": "debtor, ransomed captive",
+   "party2_origins": "; de la Torre del Greco",
+   "party2_role": "creditor; creditor",
+   "other_parties_names": "Ossoman Day",
+   "other_parties_role": "recipient of ransom payment (dey)",
+   "matter": "Ransom loan repayable on arrival at Naples",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0942": {
+   "transaction_type": "Company / partnership",
+   "party1_role": "recipient, ship master (patron)",
+   "party2_role": "investor; investor; investor",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "Tomasello paid 1,300 écus for the ship",
+   "matter": "Payment for a quarter share in the ship « Nunziata » and its cargo of fish",
+   "keywords": "ship share; fish; partnership"
+  },
+  "2-IV-0943": {
+   "transaction_type": "Consular decision",
+   "party1_name": "Lattanza Fronzo; Domenico Calabro",
+   "party1_role": "party; party, ship master (patron)",
+   "party2_name": "Hugues Changet",
+   "party2_role": "vice-consul (arbitrator)",
+   "matter": "Dispute over the instrument used to measure certain goods",
+   "decision": "The instrument is to be sealed and checked by the French consul at Palermo",
+   "keywords": "measures; dispute"
+  },
+  "2-IV-0944": {
+   "party1_role": "declarant, former pasha of the Kingdom of Tunis",
+   "other_parties_names": "Ulivier Chiavary; Andrea Fiorini; Bernardino Culles",
+   "other_parties_role": "buyer; buyer; principal (on whose account bought)",
+   "matter": "Sold them on the last day of February a ship of 1,500 salmes; the buyers asked for a reduction of the agreed price",
+   "keywords": "ship sale; price dispute; pasha"
+  },
+  "2-IV-0945": {
+   "transaction_type": "Sale / transfer",
+   "party1_role": "buyer",
+   "party2_name": "Ossoman Day",
+   "party2_role": "seller (dey)",
+   "other_parties_names": "Pietro Tomasello",
+   "other_parties_origins": "de la Torre del Greco",
+   "other_parties_role": "ship master (patron) to take the ship to Naples",
+   "currency": "écus d'or",
+   "other_equivalent": "50 aspres",
+   "matter": "A ship laden with fish and other goods, to go to Naples",
+   "notes": "Folio 340 (OCR 310).",
+   "keywords": "ship sale; fish; prize"
+  },
+  "2-IV-0946": {
+   "transaction_type": "Payment / receipt",
+   "party2_name": "Giovan Angelo Paulello",
+   "party2_origins": "napolitain",
+   "party2_role": "payer",
+   "other_parties_names": "Baita Charollo",
+   "other_parties_role": "sender of the money",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money given by Baita Charollo to ransom a slave or, failing that, to pay Battaglia",
+   "keywords": "ransom; remittance"
+  },
+  "2-IV-0947": {
+   "transaction_type": "Company / partnership",
+   "party1_role": "declarant (buyer)",
+   "other_parties_names": "Ottavio Battaglia",
+   "other_parties_role": "partner (220 écus)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Battaglia has a 220-écu share in the purchase of the fish ship",
+   "keywords": "ship share; partnership"
+  },
+  "2-IV-0948": {
+   "transaction_type": "Company / partnership",
+   "party1_name": "Pietro Hendrich",
+   "party1_origins": "flamand",
+   "party1_role": "partner",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Holds a 250-écu share in the same purchase",
+   "keywords": "ship share; partnership"
+  },
+  "2-IV-0949": {
+   "other_parties_role": "ransomed captive, friar",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "On account of the 200-écu ransom",
+   "matter": "Payment on account for the ransom of Fra Antonino Lazzolena",
+   "keywords": "ransom"
+  },
+  "2-IV-0950": {
+   "party1_name": "Giovan Angielo Paulello",
+   "party1_origins": "de Naples",
+   "party1_role": "testator",
+   "matter": "Will",
+   "keywords": "will"
+  },
+  "2-IV-0951": {
+   "transaction_type": "Consular decision",
+   "party1_role": "arbitrator, ship master (patron); arbitrator",
+   "party2_name": "Gregorio Bonsignore; Hulivier Chiavary",
+   "party2_role": "party; party",
+   "matter": "Arbitrators' opinion on a dispute",
+   "keywords": "arbitration"
+  },
+  "2-IV-0952": {
+   "transaction_type": "Payment / receipt",
+   "party1_name": "Antonello Colonna; Giuseppe Colonna",
+   "party1_role": "payer; payer, son of Antonello",
+   "party2_name": "Marcantonio Paulello",
+   "party2_role": "recipient",
+   "other_parties_names": "Luca Romano",
+   "other_parties_role": "creditor",
+   "price": 120,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Payment of 120 écus on account of the 214 owed to Luca Romano (see act of 19/20 November 1608)",
+   "notes": "Continues on p. 137.",
+   "keywords": "ransom; repayment"
+  },
+  "2-IV-0953": {
+   "drop": true
+  },
+  "2-IV-0954": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Pierre Coraud",
+   "party1_origins": "de Marseille",
+   "party1_role": "declarant, ship master (patron)",
+   "other_parties_names": "Turkish and English corsairs; the French consul",
+   "other_parties_role": "captors (one ship named « Maddalena »); obtained the crew's release",
+   "matter": "Sea protest: the « Sta Maria et Sta Anna », Cyprus to Venice, taken by corsairs; crew brought to Tunis on 22 November and released, cargo plundered",
+   "notes": "Four witness statements follow.",
+   "keywords": "sea protest; corsairs; English"
+  },
+  "2-IV-0955": {
+   "party1_role": "principal",
+   "party2_name": "Gio di Trifine Raugio; Jacomo Berty",
+   "party2_origins": "; de Croccibianca",
+   "party2_role": "attorney; attorney",
+   "matter": "To raise funds",
+   "keywords": "ransom"
+  },
+  "2-IV-0956": {
+   "other_parties_names": "Gio Gramignano",
+   "other_parties_role": "principal (on whose account)",
+   "matter": "Payment on account of Gio Gramignano",
+   "keywords": "payment"
   }
  }
 }
