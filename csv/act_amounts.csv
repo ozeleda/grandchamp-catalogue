@@ -585,8 +585,8 @@
 2-III-0332,250.0,écu,,250 écus
 2-III-0333,250.0,écu,,250 écus
 2-III-0334,150.0,écu,d'Espagne,150 écus d'Espagne
-2-III-0334,20.0,écu,,20 écus
-2-III-0334,57.0,aspre,,57 aspres
+2-III-0334b,20.0,écu,,20 écus
+2-III-0334b,57.0,aspre,,57 aspres
 2-III-0335,120.0,once,de Sicile,120 onces de Sicile
 2-III-0336,130.0,écu,,130 écus
 1-II-0337,131.0,écu,d'or,131 écus d'or
@@ -672,7 +672,7 @@
 1-II-0375,12.0,réal,,12 réaux
 2-III-0375,184.0,écu,,184 écus
 2-III-0376,184.0,écu,,184 écus
-2-III-0376,32.0,écu,,32 écus
+2-III-0376b,32.0,écu,,32 écus
 1-II-0377,8.0,réal,,8 réaux
 2-III-0377,276.0,écu,,276 écus
 2-III-0377,57.0,aspre,,57 aspres

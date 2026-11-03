@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 315,
+ "reviewed_through_seq": 395,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -2795,6 +2795,702 @@
   "2-III-0315": {
    "matter": "Loan to buy a boat (frigate)",
    "keywords": "loan; ship"
+  },
+  "2-III-0316": {
+   "transaction_type": "Redemption",
+   "party1_name": "Mostaffa balouchachi",
+   "party1_origins": "de Tunis",
+   "party1_role": "principal (commissions the ransom)",
+   "party2_name": "Bastiano Sossino",
+   "party2_role": "agent, ship master (patron)",
+   "other_parties_names": "Belcasin Benbaram Susi; Maxhamet (son of Amet Xallella)",
+   "other_parties_origins": "maure; maure",
+   "other_parties_role": "young Moorish slave in Livorno (22), to be ransomed; young Moorish slave in Livorno (20), to be ransomed",
+   "currency": "écus d'or",
+   "matter": "Commission to ransom two young Moors enslaved at Livorno, up to 450 écus",
+   "keywords": "ransom; slavery; Moors"
+  },
+  "2-III-0317": {
+   "date": "1605-02-24",
+   "party1_name": "Morat; Ali; Redjeb",
+   "party1_origins": ";;",
+   "party1_role": "debtors, caïds, customs officers of Tunis",
+   "party2_name": "Marco Francesco; Carlo di Lorenzo; Piero Batista Cipriano",
+   "party2_role": "creditor (390½ écus); creditor (153 écus 54 aspres); creditor (35 écus 42 aspres)",
+   "price": 580,
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "at 12½ giuli per écu; 4,900 hides loaded on the « St Victor », master Joan Tassi",
+   "matter": "Debt of the customs officers, secured by 4,900 hides loaded on the « St Victor »",
+   "keywords": "debt; hides; customs; ship"
+  },
+  "2-III-0318": {
+   "date": "1605-02-25",
+   "party2_name": "Morat; Ali",
+   "party2_role": "charterers, caïds, customs officers for hides",
+   "other_parties_names": "Antonio Lovico",
+   "other_parties_role": "payee of 500 écus at Livorno if the ship does not return",
+   "price": null,
+   "currency": null,
+   "other_equivalent": "500 écus d'or penalty if he does not return; 60 days to load 5,000 hides, then demurrage",
+   "matter": "Charter of the « St Victor » (about 3,000 cantars) to load hides on return from Livorno",
+   "keywords": "hides; ship; freight / shipping; customs"
+  },
+  "2-III-0319": {
+   "date": "1605-03",
+   "transaction_type": "Debt",
+   "party1_name": "Morat; Ali",
+   "party1_role": "borrowers, caïds, customs officers",
+   "party2_name": "Antonio Maria di Francesco",
+   "party2_role": "lender, ship master (patron)",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "28 aspres; 1,240 hides and 74 cases of sugar loaded on « Sancta Barbara bona ventura »",
+   "matter": "Money received; hides and sugar loaded; payable 40 days after arrival at Livorno",
+   "keywords": "debt; hides; goods; customs"
+  },
+  "2-III-0320": {
+   "date": "1605-04",
+   "other_parties_names": "Hieronimo Donato",
+   "other_parties_role": "late uncle (estate)",
+   "matter": "Power of attorney to collect his share of his uncle's estate",
+   "keywords": "inheritance"
+  },
+  "2-III-0321": {
+   "date": "1605-04",
+   "party1_name": "Francesco Ernandes Valejo (Vallef)",
+   "party1_role": "recipient, doctor",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0322": {
+   "date": "1605-04-15",
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Honnorat Garnier",
+   "party1_role": "vice-consul (holds the inquiry)",
+   "party2_name": "Jacques Caulets",
+   "party2_origins": "de Six-Fours",
+   "party2_role": "ship master of « Ste Marie Bonne venture », aged 23",
+   "matter": "Inquiry into the plundering of the ship by Turks in the Malta channel (Licata to Malta)",
+   "keywords": "ship"
+  },
+  "2-III-0323": {
+   "date": "1605-05-03",
+   "party1_origins": "de la Ciotat",
+   "matter": "Declaration about the previous affair and the capture of his own ship by the English",
+   "keywords": "ship"
+  },
+  "2-III-0324": {
+   "date": "1605-05-03",
+   "transaction_type": "Debt",
+   "party1_role": "debtor, vice-consul",
+   "party2_name": "Jehan Vidous",
+   "party2_origins": "de Cassis",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Goods bought and shipped to Marseille",
+   "keywords": "debt; goods"
+  },
+  "2-III-0325": {
+   "date": "1605-05-05",
+   "transaction_type": "Debt",
+   "party1_name": "Morat; Ali",
+   "party1_role": "borrowers, caïds, customs officers",
+   "party2_role": "lender",
+   "other_parties_names": "Marcantonio Quarantotti; Antonio Lovico; Berengier; Joane Rosta",
+   "other_parties_role": "to arrange repayment at Livorno; same; same; ship master of « Ste Marie Bonne venture »",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "secured on hides loaded on « Ste Marie Bonne venture »",
+   "matter": "Loan repayable 40 days after arrival at Livorno, secured on hides",
+   "keywords": "loan; hides; customs; guarantee"
+  },
+  "2-III-0326": {
+   "date": "1605-05-12",
+   "party1_name": "Cara Osman Dey",
+   "party1_origins": "turc de Tunis",
+   "party1_role": "transferor",
+   "party2_name": "François Dorat",
+   "party2_role": "transferee (« in these parts for the King's service »)",
+   "other_parties_names": "Anthoine Merlet (dit Grison)",
+   "other_parties_role": "former master of the polacre (taken by the English)",
+   "currency": "écus",
+   "matter": "Cession of the polacre « St Léonard bonne venture » (1,500 cantars), taken by the English with wine and given to Osman Dey",
+   "keywords": "ship; wine"
+  },
+  "2-III-0327": {
+   "other_parties_names": "Baltazard Imbert",
+   "other_parties_role": "chancellor (signs)"
+  },
+  "2-III-0328": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Honnorat Garnier",
+   "party1_role": "vice-consul (holds the inquiry)",
+   "party2_name": "Jehan Pia",
+   "party2_role": "ship master of « Ste Marie Bonne venture »",
+   "other_parties_names": "Caules",
+   "other_parties_role": "captor",
+   "matter": "Inquiry into the sacking and capture of the ship off Cape Passaro (Licata to Syracuse)",
+   "keywords": "ship"
+  },
+  "2-III-0329": {
+   "matter": "His share of the barque « St Esprit Bonne venture »",
+   "other_equivalent": "4 sols",
+   "currency": "livres",
+   "keywords": "debt; ship; ship shares (quirats)"
+  },
+  "2-III-0330": {
+   "party1_name": "Francesco Hernandez Valleijo",
+   "party1_role": "testator, doctor (deceased)",
+   "party2_name": "Vincent Valeyo",
+   "party2_role": "brother, requests registration",
+   "other_parties_names": "Honnorat Garnier",
+   "other_parties_role": "vice-consul",
+   "matter": "Registration of the doctor's will, not made in the usual form because of the epidemic in Tunis",
+   "keywords": "inheritance; family"
+  },
+  "2-III-0331": {
+   "party1_name": "Bernard Lodon (Laudou)",
+   "party1_origins": "de Marseille",
+   "other_parties_names": "Louys Boyer",
+   "other_parties_role": "chancellor (signs)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt repayable ten days after arrival at Livorno"
+  },
+  "2-III-0332": {
+   "other_parties_names": "Anth. Vassalou",
+   "other_parties_role": "chancellor (signs)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt repayable on arrival at Livorno"
+  },
+  "2-III-0333": {
+   "party1_origins": "renégat, de Tunis",
+   "party1_role": "seller, janissary, renegade",
+   "party2_name": "Bernard Lodon",
+   "party2_origins": "de Marseille",
+   "party2_role": "buyer, ship master (patron)",
+   "other_parties_names": "Jehan Pia",
+   "other_parties_role": "former master (ship taken by the English)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Sale of the polacre « Ste Marie bonne venture » (1,200 quintals), as left by the English",
+   "keywords": "ship"
+  },
+  "2-III-0334": {
+   "split_at": [
+    "Anthoine Delord, de Bordeaux"
+   ],
+   "party1_name": "Anthoine Merlet; Claudou Martin",
+   "party1_origins": "de la Ciotat;",
+   "party1_role": "debtors",
+   "other_parties_names": null,
+   "other_equivalent": null,
+   "matter": "Balance of the ransom of the polacre « St Léonard Bonne venture »",
+   "keywords": "ransom; ship"
+  },
+  "2-III-0334b": {
+   "transaction_type": "Sale / transfer",
+   "party1_name": "Anthoine Delord",
+   "party1_origins": "de Bordeaux",
+   "party1_role": "transferor",
+   "party2_name": "Jehan Pia",
+   "party2_origins": "de Grasse",
+   "party2_role": "transferee, ship master (patron)",
+   "other_parties_names": "Laurens Gilles",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "debtor, merchant",
+   "price": 20,
+   "currency": "écus d'or",
+   "other_equivalent": "57 aspres",
+   "matter": "Assignment of a claim on Laurens Gilles"
+  },
+  "2-III-0335": {
+   "party2_name": "Salvatore Dilentini",
+   "party2_origins": "de Sanfradello",
+   "party2_role": "creditor, « maijori »",
+   "currency": "onces de Sicile",
+   "matter": "Debt payable eight days after arrival at Palermo; they will also carry Salvatore, two other Christians and goods on their ship",
+   "keywords": "debt; ship"
+  },
+  "2-III-0336": {
+   "date": "1605-06-23",
+   "party1_origins": "de Tunis",
+   "party1_role": "seller, « beytemology »",
+   "party2_name": "Gregorio Bonsignore",
+   "party2_origins": "de Trapani",
+   "party2_role": "buyer",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Sale of a « londro » (boat) of 140 salmes",
+   "keywords": "ship"
+  },
+  "2-III-0337": {
+   "party1_role": "debtor; ransomed captive",
+   "other_parties_names": "Baba Alessy Horbou",
+   "other_parties_origins": "turc, de Bizerte",
+   "other_parties_role": "recipient of ransom payment",
+   "price": 38.5,
+   "currency": "onces de Sicile"
+  },
+  "2-III-0338": {
+   "party2_name": "Jehan Pia",
+   "party2_role": "transferee (new master)",
+   "matter": "Cession of his post as master of the « St Leonard Bonne venture » for a voyage from Tunis to Marseille",
+   "keywords": "ship"
+  },
+  "2-III-0339": {
+   "party1_name": "Honnorat Garnier",
+   "party1_role": "vice-consul (decides, with sailors and merchants)",
+   "party2_name": "Jehan Angelo Paulillo; Jozeppo; Julio Eseguizano",
+   "party2_origins": "; de Messine;",
+   "party2_role": "ship masters who helped the escape",
+   "other_parties_names": "Osta Morat; Osta Assan; Cara Osman Dey",
+   "other_parties_origins": "renégat génois; renégat génois;",
+   "other_parties_role": "owner of an escaped slave; owner of an escaped slave; appealed to by the complainants",
+   "matter": "Escape of two slaves (a Venetian and a Frenchman) helped by three ship masters",
+   "decision": "Decision by the vice-consul (partly illegible)",
+   "keywords": "slavery; renegade; dispute; French Nation"
+  },
+  "2-III-0340": {
+   "party1_name": "Salvator Lentini",
+   "party1_origins": "de San Fradello",
+   "party1_role": "recipient",
+   "currency": "onces",
+   "other_equivalent": "of 30 taris",
+   "matter": "Money Dianne received at Palermo to hand to Lentini"
+  },
+  "2-III-0341": {
+   "party2_name": "Jehan Sansson",
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor (represented by Pierre Isnard and Louys Rougier)",
+   "other_equivalent": "49 aspres",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money for fitting out the polacre; payable two months after arrival at Marseille",
+   "keywords": "debt; ship"
+  },
+  "2-III-0342": {
+   "party1_origins": "de la Ciotat; de Montpellier",
+   "party1_role": "debtor, ship master (patron); debtor",
+   "party2_role": "creditor (represented)",
+   "price": 62.5,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money for fitting out the polacre « Ste Magdallene bonne venture »",
+   "keywords": "debt; ship"
+  },
+  "2-III-0343": {
+   "date": "1605-07-10",
+   "party1_name": "Julio Esguizano",
+   "party1_role": "debtor, ship master of « Sta Margarita Bona ventura »",
+   "party2_name": "Jehan Batista Danna",
+   "party2_origins": "génois, habitant à Palerme",
+   "matter": "Money for the final dispatch of his ship (linked to the escape affair)",
+   "keywords": "debt; ship"
+  },
+  "2-III-0344": {
+   "matter": "Loan to pay his share of the indemnity to the owners of the escaped slaves; he was detained in Tunis since the escape",
+   "keywords": "debt; slavery; dispute"
+  },
+  "2-III-0345": {
+   "party2_name": "Salvator Lentini",
+   "party2_role": "creditor, « majeur » of San Fradello",
+   "other_parties_names": "Mami Devitre",
+   "other_parties_role": "janissary, recipient of ransom payment",
+   "currency": "onces de Sicile",
+   "other_equivalent": "of 30 taris",
+   "notes": "Act written in italien. Partly effaced; very poor Italian."
+  },
+  "2-III-0346": {
+   "party1_name": "Assan Baissa; Mametto",
+   "party1_origins": "; de Bizerte",
+   "party1_role": "sellers; seller, caïd",
+   "party2_name": "Jehan di La Tourre; Jehan Batista Danna",
+   "party2_origins": "génois;",
+   "party2_role": "buyers",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Sale of the polacre « Nostra Donna del Carmo » (400 salmes)",
+   "keywords": "ship"
+  },
+  "2-III-0347": {
+   "transaction_type": "Redemption",
+   "party1_role": "ransomed captive",
+   "party2_name": "Gregorio Bonsignore",
+   "party2_role": "redeemer (by mandate)",
+   "other_parties_names": "Mustafa Rais; Ali Elbeili; Mohammed Sennen",
+   "other_parties_origins": "; ; ",
+   "other_parties_role": "owners of Curatolo; owner; slave in Palermo whom Bonsignore must ransom and bring to Tunis",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "plus the return of the slave Mohammed Sennen from Palermo",
+   "matter": "Ransom at Bizerte; Bonsignore undertakes to bring back a Muslim slave from Palermo"
+  },
+  "2-III-0349": {
+   "transaction_type": "Redemption",
+   "party1_role": "ransomed captive (slave in Tunis); debtor",
+   "party2_name": "Joan Batista di Anna",
+   "party2_role": "redeemer (by mandate), lent the balance",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "40 onces 15 taris advanced by Di Anna",
+   "matter": "Ransom for 160 écus; Di Anna advanced 40 onces 15 taris, repayable on arrival in Christendom"
+  },
+  "2-III-0350": {
+   "date": "1605-08-06",
+   "transaction_type": "Redemption",
+   "party1_role": "debtor; ransomed captive",
+   "currency": "onces",
+   "other_equivalent": "20 taris",
+   "matter": "Loan to pay the gate duty, repayable at Trapani",
+   "keywords": "ransom; customs"
+  },
+  "2-III-0351": {
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0352": {
+   "other_parties_origins": "renégat calabrais, turc de Tunis",
+   "other_parties_role": "recipient of ransom payment"
+  },
+  "2-III-0353": {
+   "party1_role": "debtor; ransomed captive",
+   "other_parties_names": "Ossouma",
+   "other_parties_origins": "turc",
+   "other_parties_role": "janissary, recipient of ransom payment",
+   "other_equivalent": "in addition to 80 écus Danna already held for the ransom",
+   "matter": "Debt for the balance of his ransom"
+  },
+  "2-III-0354": {
+   "transaction_type": "Other",
+   "party1_role": "recipient (carrier)",
+   "matter": "Money to bring a barrel of wine to Tunis",
+   "keywords": "wine",
+   "notes": "Act written in italien. Marked « copia »; very confused."
+  },
+  "2-III-0355": {
+   "other_parties_names": "Ossoman Day",
+   "other_parties_role": "recipient of ransom payment",
+   "other_equivalent": "in addition to 80 écus already received",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0356": {
+   "party1_origins": "de Palerme",
+   "party2_name": "Menico Rosso",
+   "party2_origins": "de San Fradello",
+   "party2_role": "creditor",
+   "transaction_type": "Redemption",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money paid for the gate duty",
+   "keywords": "ransom; customs"
+  },
+  "2-III-0357": {
+   "party1_name": "Gregorio Bonsignore; Jo Chotto",
+   "party1_origins": "trapanais; trapanais",
+   "party1_role": "debtors",
+   "matter": "Debt repayable on arrival at Palermo or Trapani"
+  },
+  "2-III-0358": {
+   "party2_role": "payers",
+   "price": 250,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money to buy wine and bring it to Tunis",
+   "keywords": "wine; goods"
+  },
+  "2-III-0359": {
+   "party1_name": "Francesco Dangello",
+   "party2_origins": "renégat de Palerme; de Palerme",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0360": {
+   "party1_role": "debtor; ransomed captive",
+   "other_parties_names": "Osta Mami",
+   "other_parties_origins": "turc",
+   "other_parties_role": "janissary, recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for the balance of his ransom, repayable at Palermo"
+  },
+  "2-III-0361": {
+   "other_parties_names": "Redemption of Palermo",
+   "other_parties_role": "had remitted 90 onces",
+   "other_equivalent": "Macaroux acknowledges receiving 90 onces remitted by the Redemption at Palermo",
+   "matter": "Loan to ransom slaves",
+   "keywords": "ransom; loan; Redemption (charitable order)"
+  },
+  "2-III-0362": {
+   "date": "1605-08-27",
+   "price": 236.5,
+   "currency": "onces de Sicile",
+   "other_parties_names": "Oussoman Day",
+   "other_parties_role": "janissary, recipient of ransom payment",
+   "matter": "Debt for his ransom, repayable on arrival at Palermo",
+   "notes": "Act written in italien. The end of the summary is in the next record (0363)."
+  },
+  "2-III-0363": {
+   "drop": true
+  },
+  "2-III-0364": {
+   "date": "1605-08",
+   "matter": "Money to buy wine to bring to Tunis",
+   "keywords": "debt; wine"
+  },
+  "2-III-0365": {
+   "date": "1605-08-27",
+   "party1_name": "Benedittino de Sipione; Gramassio de Nicollo; Hottavio di Nicollari",
+   "party1_origins": "de Lo Mollo",
+   "party1_role": "debtor, ransomed captive, father; debtor, ransomed captive, son; debtor, ransomed captive, son",
+   "other_parties_origins": "turc",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0366": {
+   "other_parties_names": "Mostafa Rais",
+   "other_parties_origins": "de Bizerte",
+   "other_parties_role": "recipient of ransom payment"
+  },
+  "2-III-0367": {
+   "date": "1605-08-30",
+   "party1_role": "borrowers",
+   "party2_role": "lender, janissary",
+   "other_parties_names": "Benedittino de Sipione and his two sons",
+   "other_parties_origins": "",
+   "other_parties_role": "captives ransomed",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan to ransom Benedittino and his two sons, repayable within six months"
+  },
+  "2-III-0368": {
+   "party1_role": "registering party, ship master",
+   "other_parties_names": "Baldassar Imbert",
+   "other_parties_role": "vice-consul (attests)",
+   "matter": "Registration of a certificate that Bonsignore arrived at Tunis with his ship « S. Francesco di Paola bona ventura » on 7 October 1605",
+   "keywords": "ship"
+  },
+  "2-III-0369": {
+   "party1_role": "declarant, vice-consul",
+   "other_parties_names": "Galleiguo; Cara Osman Dey",
+   "other_parties_origins": "de Marseille;",
+   "other_parties_role": "ship master taken, found chained with his crew; owner of the galley",
+   "price": 6675,
+   "currency": "écus",
+   "matter": "Report: two French ships brought to Bizerte by galleys; the vice-consul rode to Bizerte and found the crew chained and beaten; the corsairs took 6,675 écus",
+   "keywords": "ship; galleys; slavery; avania (extortion)"
+  },
+  "2-III-0370": {
+   "matter": "Power of attorney to recover goods from Gregorio Bonsignore (with the bill of lading)",
+   "keywords": "goods; freight / shipping"
+  },
+  "2-III-0371": {
+   "party1_role": "recipient, captain, citizen of Marseille, attorney of Salamon Barbaroux",
+   "other_parties_names": "Salamon Barbaroux",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "principal",
+   "price": null,
+   "currency": null,
+   "other_equivalent": "135 livres (weight) of black cloth and silk stockings",
+   "matter": "Receipt of black cloth and silk stockings",
+   "keywords": "textiles; goods"
+  },
+  "2-III-0372": {
+   "party2_role": "creditor, ship master (patron)",
+   "other_parties_names": "Assan Balli",
+   "other_parties_origins": "turc",
+   "other_parties_role": "recipient of ransom payment",
+   "price": 387,
+   "currency": "pièces de 8 réaux d'Espagne",
+   "matter": "Debt for his ransom, repayable a month after arrival at Alexandria"
+  },
+  "2-III-0373": {
+   "matter": "Power of attorney to recover 513 écus from Di Anna and Oristagno (see 30 August 1605)"
+  },
+  "2-III-0374": {
+   "party1_origins": "de Marseille",
+   "party2_origins": "corse, de Marseille",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "11 aspres"
+  },
+  "2-III-0375": {
+   "price": 184.5,
+   "currency": "écus d'or d'Espagne",
+   "notes": "Act written in italien. Unfinished and struck out."
+  },
+  "2-III-0376": {
+   "date": "1605-12-09",
+   "split_at": [
+    "Le patron Berenguis Gardane"
+   ],
+   "party2_name": "Sala bel Magalouf",
+   "party2_origins": "djerbien",
+   "party2_role": "creditor, raïs",
+   "other_parties_names": "Mamet bei; Mamet de Cabes Belfadel",
+   "other_parties_origins": "turc de Tunis;",
+   "other_parties_role": "recipient of ransom payment; intermediary",
+   "other_equivalent": null,
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0376b": {
+   "transaction_type": "Debt",
+   "party1_name": "Berenguis Gardane",
+   "party1_role": "debtor, ship master (patron)",
+   "party2_name": "François Estelle",
+   "party2_role": "creditor",
+   "price": 32.5,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt repayable a month after arrival at Marseille"
+  },
+  "2-III-0377": {
+   "other_parties_names": "Cara Mahamet",
+   "other_parties_origins": "turc de Tunis",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "57 aspres",
+   "matter": "Debt for his ransom, repayable 40 days after arrival at Marseille"
+  },
+  "2-III-0378": {
+   "transaction_type": "Redemption",
+   "party1_role": "declarants (Moorish agents)",
+   "party2_name": "Fra Pio Lavoratta",
+   "party2_origins": "de Messine",
+   "party2_role": "captive released on condition; slave of Tersi Mahamet",
+   "other_parties_names": "Tersi Mahamet; Ramadan; [...] (son of Mahamet Gomys); François [...]",
+   "other_parties_origins": "turc; ; ; de Montpellier",
+   "other_parties_role": "janissary, master of the friar; Tunisian boy (14) to be freed in exchange; Tunisian boy (8) to be freed in exchange; Frenchman (mentioned)",
+   "matter": "The friar may sail for Sicily or Malta, but must have two young Tunisian brothers freed and sent back",
+   "other_equivalent": "exchange of captives",
+   "keywords": "ransom; slavery; Moors"
+  },
+  "2-III-0379": {
+   "party1_role": "recipient, ship master (patron); ransomed captive (slave of Mahmet Bey)",
+   "party2_role": "payer, ship master (patron), for Salomon Barbaroux",
+   "other_parties_names": "Salomon Barbaroux; Mahmet bey",
+   "other_parties_origins": "de Marseille; turc de Tunis",
+   "other_parties_role": "principal; master of Borrely",
+   "other_equivalent": "62 aspres; Berlan advanced the surplus of 116 écus 2 aspres",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money for his ransom; Berlan advanced the balance"
+  },
+  "2-III-0380": {
+   "party1_name": "François Chacornai (signs « Chalcornac »)",
+   "party1_role": "recipient; ransomed captive",
+   "party2_name": "George Berlan",
+   "party2_role": "payer (redeemer)",
+   "other_parties_names": "Mahmet bey",
+   "other_parties_role": "recipient of ransom payment",
+   "matter": "Money for his ransom; with the registration of the Marseille act of 10 November 1605 charging Berlan with the ransom",
+   "keywords": "ransom"
+  },
+  "2-III-0381": {
+   "other_equivalent": "52 aspres",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0382": {
+   "party1_role": "redeemer (paid the ransom), ship master (patron)",
+   "other_parties_names": "Jehan Estelle; Philippe Estelle",
+   "other_parties_origins": "; de Marseille",
+   "other_parties_role": "captive ransomed (his master was about to make him renegade); uncle",
+   "other_equivalent": "Moret paid 85 écus 38 aspres himself; others made up the rest",
+   "matter": "Account of the ransom of the young Jehan Estelle (213 écus)"
+  },
+  "2-III-0383": {
+   "party1_origins": "de la Rivière de Gênes",
+   "party2_name": "three relatives",
+   "party2_role": "attorneys",
+   "matter": "Power of attorney to sell his property (probably for his ransom)",
+   "keywords": "ransom; property"
+  },
+  "2-III-0384": {
+   "party2_role": "creditor, janissary",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for his ransom, repayable on his return to Tunis"
+  },
+  "2-III-0385": {
+   "transaction_type": "Redemption",
+   "party1_role": "agents (receive the captive to take to Malta)",
+   "party2_role": "master of Paulina (hands her over)",
+   "other_parties_names": "Paulina; Fatima; Imperia",
+   "other_parties_origins": "de Malte; tunisienne;",
+   "other_parties_role": "Maltese captive, daughter of Simone Moscha; Tunisian girl held in Malta for ten years, to be brought back in exchange; lady holding Fatima (mother of Paulina)",
+   "price": 230,
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "exchange of captives; 230 écus if Fatima is dead",
+   "matter": "Paulina taken to Malta to be exchanged for the Tunisian girl Fatima"
+  },
+  "2-III-0386": {
+   "party1_name": "Paulina Moscha",
+   "party1_origins": "de Malte",
+   "party1_role": "debtor; ransomed captive; daughter of Simone Moscha",
+   "other_parties_names": "Fatima; Imperia",
+   "other_parties_role": "slave to be handed over instead of payment; mother of Paulina",
+   "other_equivalent": "debt cancelled if Fatima is handed over",
+   "matter": "Debt for her ransom, repayable at Malta, unless Fatima is handed over"
+  },
+  "2-III-0387": {
+   "date": "1606-01-06",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "24 aspres",
+   "matter": "Price of a cable and four small ropes",
+   "keywords": "debt; ship; goods",
+   "notes": "Receipt of 18 May 1606 at the foot of the act."
+  },
+  "2-III-0388": {
+   "party1_name": "Jacomo Paldes (Jacoby Baltus); Ulc Seneinse (?)",
+   "party1_origins": "allemand; de Frise",
+   "party1_role": "declarants",
+   "party2_name": "Brun Yelled",
+   "party2_role": "ransomed captive (a year earlier)",
+   "matter": "Attestation that Brun Yelled was ransomed, and that a number of Flemish slaves died on the Bizerte galleys of plague or other disease",
+   "keywords": "ransom; slavery; galleys"
+  },
+  "2-III-0389": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Fra Pio Lavorata; Pietro Moroni; Joa Batista Parma",
+   "party1_origins": "de Messine; lucquois; napolitain",
+   "party1_role": "declarants (Dominican friar, 27; aged 47; aged 40)",
+   "other_parties_names": "Agostino Batagly",
+   "other_parties_origins": "maltais",
+   "other_parties_role": "came from Malta with a frigate to free Christians (escape)",
+   "matter": "Account of Batagly's attempt to free Christians secretly",
+   "keywords": "slavery; ship"
+  },
+  "2-III-0390": {
+   "transaction_type": "Redemption",
+   "party1_name": "Voeta Cameliere Agozitana",
+   "party1_role": "debtor; ransomed captive; wife of Pasquale Moschat (maltais)",
+   "other_parties_names": "Mahamet Dagar",
+   "other_parties_origins": "maure",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for her ransom, repayable a month after arrival at Malta"
+  },
+  "2-III-0391": {
+   "party1_role": "declarant; slave of Mostafa",
+   "other_parties_names": "Agostino Batagly; Mostafa",
+   "other_parties_origins": "; turc de Tunis",
+   "other_parties_role": "captured and chained while freeing Christians; master of the declarant (took 10 Neapolitan patacas and a 4-réaux piece)",
+   "matter": "Batagly, come from Malta to free Christians, was taken by Mostafa",
+   "keywords": "slavery"
+  },
+  "2-III-0392": {
+   "party1_name": "Rafaelo (son of Joa Antonio); Joa Salvatore",
+   "party1_origins": "corse; corse",
+   "party1_role": "witnesses (certify)",
+   "party2_name": "Constantino de Thomasso; Ossain",
+   "party2_origins": "corse; turc",
+   "party2_role": "parties to the dispute",
+   "matter": "Testimony about a discussion heard after mass in the consul's house over a sum of 20 écus",
+   "keywords": "dispute"
+  },
+  "2-III-0393": {
+   "other_parties_names": "Salvo Camelery",
+   "other_parties_role": "lender at Malta of 200 écus",
+   "other_equivalent": "= 100 écus of Malta of 12 taris each",
+   "currency": "écus d'or d'Espagne",
+   "matter": "His share of a loan of 200 écus made at Malta"
+  },
+  "2-III-0394": {
+   "party1_name": "Osta Assan Genovese",
+   "party1_origins": "turc",
+   "party1_role": "seller (also for Osta Morat Genovese)",
+   "party2_name": "George Apostoly",
+   "party2_origins": "grec",
+   "party2_role": "buyer",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Sale of the polacre « Bona ventura » (1,500 cantars) with boat, sails and rigging, paid in cash",
+   "keywords": "ship"
+  },
+  "2-III-0395": {
+   "transaction_type": "Sale / transfer",
+   "party1_role": "seller, ship master (patron)",
+   "party2_role": "buyer",
+   "matter": "Two shares in the felucca « L'Annunziata bona ventura »",
+   "keywords": "ship shares (quirats)",
+   "notes": "Receipt of 15 March 1607 in the margin."
   }
  }
 }
