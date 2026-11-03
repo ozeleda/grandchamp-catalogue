@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 475,
+ "reviewed_through_seq": 515,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -4252,6 +4252,363 @@
    "party2_role": "lender",
    "currency": "écus d'or d'Espagne",
    "matter": "Loan for the balance of his ransom",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0476": {
+   "party1_origins": "corse, d'Ajaccio",
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "lender",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan, repayable on arrival at Ajaccio",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0477": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "lender; lender",
+   "currency": "écus (monnaie de France)",
+   "matter": "Loan for the balance of his ransom, repayable on arrival at Marseille",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0478": {
+   "party1_role": "principal",
+   "party2_name": "Franco Scotto",
+   "party2_origins": "de Palerme",
+   "party2_role": "attorney",
+   "other_parties_names": "Gio Bata Danna; Venturino Moscha",
+   "other_parties_role": "debtor; debtor",
+   "matter": "Recovery of a debt",
+   "keywords": "debt collection"
+  },
+  "2-III-0479": {
+   "party1_role": "declarant, friar of the Minori Osservanti",
+   "other_parties_names": "two Capuchins",
+   "other_parties_role": "witnesses",
+   "matter": "Certifies the debt in the previous act",
+   "keywords": "debt; certification"
+  },
+  "2-III-0480": {
+   "matter": "Certifies the debt in the two previous acts and undertakes to have it paid",
+   "keywords": "debt; certification"
+  },
+  "2-III-0481": {
+   "date": "1606-10-27",
+   "party1_origins": "de [...]",
+   "party1_role": "principal",
+   "other_parties_names": "six Turks",
+   "other_parties_role": "debtors",
+   "matter": "Recovery of a 36-écu debt",
+   "notes": "Day read as …7 by OCR; probably 27.",
+   "keywords": "debt collection"
+  },
+  "2-III-0482": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "lender",
+   "other_parties_names": "Mustafa Pacha",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan, repayable ten days after arrival at Salonica",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0483": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "other_parties_names": "Oratio Mainardi",
+   "other_parties_role": "ship master (patron) of the barque « Sta Chaterina Sta Cicilia »",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable at Livorno one month after the barque's arrival",
+   "notes": "Day 4 is out of sequence (between 30 Oct. and 6 Nov.).",
+   "keywords": "loan"
+  },
+  "2-III-0484": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor, ship master (patron)",
+   "party2_origins": "de Pise",
+   "price": 123,
+   "currency": "pièces de 8 réaux castillans",
+   "matter": "Loan repayable as in the previous act",
+   "keywords": "loan"
+  },
+  "2-III-0485": {
+   "transaction_type": "Other",
+   "party1_role": "buyer, consignor",
+   "party2_name": "Niccolo Dorestagno",
+   "party2_role": "consignee (to carry and sell in Sicily)",
+   "currency": "écus",
+   "matter": "Bought white English kid-skins (« capretti bianchi ») and consigned them to Dorestagno for sale in Sicily",
+   "keywords": "consignment; skins; trade"
+  },
+  "2-III-0486": {
+   "party1_name": "Ciaume Barbier (Jaumet Barbier)",
+   "party1_origins": "de St-Tropez",
+   "party1_role": "declarant, ship master (patron) of the polacre « Sant. Giuseppe bona ventura »",
+   "other_parties_names": "Hugues Changet",
+   "other_parties_role": "vice-consul",
+   "matter": "Sea protest: carrying tuna from Sardinia to Livorno, taken by two brigantines and brought to Tabarca, Bizerte and La Goulette, where the ship was plundered",
+   "notes": "Three crew members confirm his statement.",
+   "keywords": "sea protest; corsairs; ship"
+  },
+  "2-III-0487": {
+   "transaction_type": "Undertaking / promise",
+   "party1_role": "promisor",
+   "party2_name": "Niccolo Dorestagno",
+   "party2_role": "promisee",
+   "matter": "Undertakes to deliver wine to Dorestagno (summary cut off)",
+   "keywords": "wine"
+  },
+  "2-III-0488": {
+   "transaction_type": "Charter (freight)",
+   "party2_origins": "hébreu de Tunis",
+   "party2_role": "party protested against (charterer)",
+   "matter": "Protest against delay in loading his ship; claims the agreed demurrage of 5 écus a day",
+   "decision": "Parente replies he is ready to pay the demurrage",
+   "notes": "One witness signs « Vallemont, chirurgien ».",
+   "keywords": "demurrage; protest; ship"
+  },
+  "2-III-0489": {
+   "party2_origins": "de Pise",
+   "other_parties_names": "Matio Passalacqua; Assan Corso",
+   "other_parties_origins": "de Palerme; ",
+   "other_parties_role": "slave; slave-owner",
+   "matter": "Promises to find the slave Matio Passalacqua if he flees Tunis, failing which he will pay 250 écus",
+   "keywords": "slavery; surety"
+  },
+  "2-III-0490": {
+   "party1_origins": "corse habitant à Marseille",
+   "party2_origins": "corse habitant à Marseille",
+   "party1_role": "protesting party",
+   "party2_role": "party protested against",
+   "matter": "Protest: Franco took his « journée » (day's allocation) of hides, contrary to Tunis rules and customs",
+   "keywords": "hides; trade; protest"
+  },
+  "2-III-0491": {
+   "split_at": [
+    "En italien. _ Gioacchino"
+   ],
+   "transaction_type": "Undertaking / promise",
+   "other_parties_names": "Tarsia di Fartiglione; Agi Mami",
+   "other_parties_origins": "de Vignianello; renégat corse",
+   "other_parties_role": "slave (to be freed); slave-owner, renegade",
+   "price": 50,
+   "currency": "écus",
+   "other_equivalent": null,
+   "matter": "Promises to pay 50 écus when Tarsia di Fartiglione arrives in Christendom",
+   "keywords": "ransom; slavery"
+  },
+  "2-III-0491b": {
+   "date": "1607",
+   "transaction_type": "Redemption",
+   "party1_name": "Gioacchino Sandi",
+   "party1_origins": "vénitien",
+   "party1_role": "declarant, ransomed captive, son of Giorgi",
+   "party2_name": "Batta dalla Torre",
+   "party2_origins": "de Gènes",
+   "party2_role": "payer of the ransom",
+   "other_parties_names": "Mametto Bey; Giacobo Salvagho; Filippo Lomellino",
+   "other_parties_origins": "; gouverneur de Tabarca; de Gènes",
+   "other_parties_role": "recipient of ransom payment; governor of Tabarca who ordered the ransom; principal who gave the orders",
+   "price": 362,
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "320 écus for the ransom + 23 écus Porte fee + 19 écus paid to Sandi",
+   "matter": "Certifies he was ransomed",
+   "notes": "Day and month not legible in the scan (top of p. 83).",
+   "keywords": "ransom; Tabarca"
+  },
+  "2-III-0492": {
+   "date": "1607",
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "John Keye",
+   "party1_origins": "anglais",
+   "party1_role": "declarant, ship's captain",
+   "matter": "Long deposition: went aboard a corsair to parley; his own ship fled; witnessed a boarding and refused his share of the prize",
+   "notes": "Five crew members also give depositions. Date not legible in the scan.",
+   "keywords": "corsairs; deposition; English"
+  },
+  "2-III-0493": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_name": "Anton Franco de Polo",
+   "party2_role": "lender",
+   "matter": "Loan for the balance of his ransom; repayable on arrival in Christendom",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0494": {
+   "date": "1607-02-02",
+   "transaction_type": "Other",
+   "other_parties_names": "Guglielmo Daghitt (?); Franco Tomasino",
+   "other_parties_origins": "; corse",
+   "other_parties_role": "deceased, ship's pilot; ship master",
+   "matter": "Inventory of the effects of the late Guglielmo Daghitt, pilot of Franco Tomasino's ship",
+   "notes": "Date from the reference in the act of 6 March 1607.",
+   "keywords": "inventory; estate"
+  },
+  "2-III-0495": {
+   "transaction_type": "Company / partnership",
+   "party2_role": "investor",
+   "matter": "Money received to buy hides",
+   "keywords": "hides; trade"
+  },
+  "2-III-0496": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable at Palermo",
+   "keywords": "loan"
+  },
+  "2-III-0497": {
+   "transaction_type": "Company / partnership",
+   "party1_role": "agent (receives the capital)",
+   "party2_role": "investor",
+   "other_parties_names": "Giovanni Barbier; Antonio Lovico",
+   "other_parties_origins": "de St-Tropez; ",
+   "other_parties_role": "ship master (patron) of the polacre; witness",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": null,
+   "matter": "Capital to buy goods at Tunis for Marseille; proceeds to buy damask and silk cloth for Asta Moratto",
+   "decision": "Receipt for the 120 écus given by Asta Moratto on 4 March",
+   "keywords": "commenda; silk; trade"
+  },
+  "2-III-0498": {
+   "other_parties_names": "Ossuman Day; the French consul",
+   "other_parties_role": "dey; consul",
+   "matter": "Certifies that the dey ordered the consul to take charge of a French ship at La Goulette; the consul went and inventoried its contents",
+   "keywords": "ship; inventory"
+  },
+  "2-III-0499": {
+   "party1_name": "Claudo Ciabert (Claude Chabert)",
+   "party1_role": "requesting party",
+   "party2_name": "Loys Boyer",
+   "party2_role": "other party to the account",
+   "matter": "Requests registration of an account between them",
+   "keywords": "account; registration"
+  },
+  "2-III-0500": {
+   "party1_role": "principal",
+   "party2_role": "attorney, brother of party 1",
+   "matter": "General power of attorney",
+   "keywords": "family"
+  },
+  "2-III-0501": {
+   "transaction_type": "Charter (freight)",
+   "party2_name": "Gio Barbier",
+   "party2_role": "ship master (patron)",
+   "matter": "Protest that Barbier broke his promise to load Manfredini's hides and goods on his polacre",
+   "decision": "Barbier replies on 3 March that Manfredini protested only once the polacre was fully loaded",
+   "keywords": "hides; protest; ship"
+  },
+  "2-III-0502": {
+   "party2_name": "Ant° Maria Franco",
+   "party2_origins": "corse, habitant à Marseille",
+   "other_parties_names": "Morato",
+   "other_parties_origins": "douanier de Tunis",
+   "other_parties_role": "caïd, customs officer",
+   "matter": "Protest: Franco took the « journée » of hides due to Stella, which he had paid for to the caïd Morato",
+   "keywords": "hides; trade; protest; customs"
+  },
+  "2-III-0503": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable on arrival at Livorno",
+   "keywords": "loan"
+  },
+  "2-III-0504": {
+   "party1_name": "Claude Chabert",
+   "party1_role": "party (account holder)",
+   "matter": "Verification and registration of Chabert's account (dated 2 August 1606), see act of 27 February",
+   "keywords": "account; registration"
+  },
+  "2-III-0505": {
+   "party1_name": "Franco Stella",
+   "party1_role": "protesting party",
+   "party2_name": "Ant° Maria Franco",
+   "party2_role": "party protested against",
+   "matter": "Examination of Stella's protest of 3 March",
+   "keywords": "hides; protest"
+  },
+  "2-III-0506": {
+   "party1_role": "principal, slave at Tunis",
+   "party2_role": "attorney",
+   "other_parties_names": "Arsattone di Giovannone",
+   "other_parties_origins": "de Cagniano (Cap Corse)",
+   "other_parties_role": "debtor",
+   "matter": "Recovery of a 67-écu debt",
+   "keywords": "debt collection; slavery"
+  },
+  "2-III-0507": {
+   "transaction_type": "Payment / receipt",
+   "party1_name": "Giovanni Mourelletti (Jean Maurellet)",
+   "party1_role": "party, former chancellor",
+   "party2_name": "Hugues Changet",
+   "party2_role": "party, vice-consul",
+   "matter": "Mutual discharge: each declares himself quits with the other",
+   "notes": "The act is unclear; it seems to be Maurellet who makes the declaration.",
+   "keywords": "discharge; consulate"
+  },
+  "2-III-0508": {
+   "party1_role": "party (respondent to the protest)",
+   "other_parties_names": "Moratto",
+   "other_parties_origins": "douanier de Tunis",
+   "other_parties_role": "witness, caïd, customs officer",
+   "matter": "Hearing of the caïd Moratto on the protest of 3 March",
+   "decision": "Moratto declares the « journée » did not belong to Stella",
+   "keywords": "hides; protest; customs"
+  },
+  "2-III-0509": {
+   "party1_name": "Franco Tomasini",
+   "party1_origins": "corse habitant à Marseille",
+   "other_parties_names": "Gugl° Daghitt",
+   "other_parties_role": "deceased",
+   "matter": "Declaration on the estate of Daghitt (see 2 February 1607)",
+   "keywords": "estate"
+  },
+  "2-III-0510": {
+   "party1_origins": "de la Cadiera",
+   "party2_name": "Franco Tomasini",
+   "other_parties_names": "Lazzarin Campi; Daghitt",
+   "other_parties_role": "recipient (19 écus); deceased",
+   "other_equivalent": "19 écus also paid to Lazzarin Campi",
+   "matter": "Payments from the estate of Daghitt",
+   "keywords": "estate; payment"
+  },
+  "2-III-0511": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for six months",
+   "notes": "Struck out (see next act).",
+   "keywords": "loan"
+  },
+  "2-III-0512": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_origins": "de la Torre della Nunziata, de Naples",
+   "party2_role": "lender",
+   "currency": "écus d'or",
+   "matter": "Ransom loan repayable within six months",
+   "notes": "This act and the previous one are identical and both struck out.",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0513": {
+   "matter": "Summons to swear he did not steal items (topsail, studding sail, iron-shod poles, etc.) from the declarant's ship brought in by corsairs",
+   "decision": "Tomasini replies he is ready to return the studding sail",
+   "keywords": "theft; ship; corsairs"
+  },
+  "2-III-0514": {
+   "other_parties_names": "Franco Tomasini; Antonio Beringier; Raff° Franco",
+   "other_parties_role": "principal; partner; partner",
+   "currency": "écus",
+   "matter": "Received on Tomasini's behalf 2,000 écus belonging to the company of Beringier and Franco",
+   "keywords": "company; payment"
+  },
+  "2-III-0515": {
+   "transaction_type": "Redemption",
+   "other_parties_names": "Mustafa Cartagi; Agostina di Perzio",
+   "other_parties_origins": "turc janissaire de Tunis; ",
+   "other_parties_role": "recipient of ransom payment, janissary; wife of party 1 (to be asked for payment)",
+   "matter": "Ransom loan; Nizzo to be paid by Mornillo's wife",
    "keywords": "ransom; loan"
   }
  }
