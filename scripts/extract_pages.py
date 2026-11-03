@@ -229,7 +229,8 @@ def normalise(text):
                 merged[nxt_i] = ""
                 continue
         # "18   En italien. —" / "   faire venir..." (end of the previous act) / "      Ettor Cuigliandro...":
-        if lang_only.match(rest) and nxt_i is not None and re.match(r"^\s+[a-zà-ÿ]", merged[nxt_i]):
+        if lang_only.match(rest) and nxt_i is not None and (re.match(r"^\s+[a-zà-ÿ]", merged[nxt_i])
+                                                         or (LATE_LAYOUT and re.match(r"^\s{3,8}\S", merged[nxt_i]))):
             k2 = next((k for k in range(nxt_i + 1, min(nxt_i + 3, len(merged))) if merged[k].strip()), None)
             if k2 is not None and re.match(r"^\s{14,}[A-ZÉ(]", merged[k2]):
                 cont = merged[nxt_i]
@@ -278,7 +279,8 @@ def fix_first_of_month(text):
     """The superscript of « 1er » makes the OCR read « 47 » or « 17 ». 47 is never a day; 17 is
     taken for 1er only between two acts of the 1st."""
     lines = text.split("\n")
-    pat = re.compile(r"^(\s{0,3})(1er|\d{1,2})(?=(?:\s+[a-zéû]{3,5}\.?)?(?:\s*[—–-]+)?\s{2,}\S)")
+    pat = re.compile(r"^(\s{0,3})(1er|\d{1,2})(?=(?:\s+(?:janv|f[ée]v|mars|avril|mai|juin|juil|ao[uû]t|sept|oct|nov|d[ée]c)"
+                     r"[a-zéû]*\.?)?(?:\s*[—–-]+)?\s{2,}[^a-zà-ÿ\s])")     # not « 47 aspres » (an amount)
     marks = [(i, m) for i, l in enumerate(lines) for m in [pat.match(l)] if m]
     for k, (i, m) in enumerate(marks):
         tok = m.group(2)
@@ -320,6 +322,8 @@ def margin_entries(page_ocr):
         m = re.match(r"(1er|1°|\d{1,2})\b", t)
         if m:
             d = 1 if not m.group(1).isdigit() else int(m.group(1))
+            if 40 <= d <= 49:
+                d -= 30                       # a « 1 » read as « 4 » (« 43 » for 13)
             if d <= 31:
                 seq.append(("D", d))
         elif y >= 0.09 and len(t.split()) == 1 and t[:1].isupper() and fuzzy_month(t):
@@ -367,6 +371,19 @@ def image_months(text, page_ocr):
             i += 1
         else:
             j += 1
+    # a day the two OCRs read differently, between two days they agree on: take the image's
+    # reading when it fits the order of the days (Google « 27 » between 11 and 13, image « 12 »)
+    fixed_days = {}
+    anchors = sorted(pair.items())                       # (seq index, act index)
+    bounds = [(-1, -1)] + anchors + [(len(seq), len(acts))]
+    for (s0, a0), (s1, a1) in zip(bounds, bounds[1:]):
+        img = [seq[q][1] for q in range(s0 + 1, s1) if seq[q][0] == "D"]
+        txt = list(range(a0 + 1, a1))
+        if len(img) == 1 and len(txt) == 1:
+            lo = acts[a0][1] if a0 >= 0 else 1
+            hi = acts[a1][1] if a1 < len(acts) else 31
+            if lo <= img[0] <= hi and not lo <= acts[txt[0]][1] <= hi:
+                fixed_days[acts[txt[0]][0]] = img[0]
     for k, e in enumerate(seq):
         if e[0] != "H":
             continue
@@ -379,6 +396,9 @@ def image_months(text, page_ocr):
             targets[acts[prv + 1][0]] = e[1]          # the day under the heading was misread
     out = []
     for i, l in enumerate(lines):
+        if i in fixed_days:
+            l = re.sub(r"^(\s{0,3})(?:1er|1°|\d{1,2})", lambda m: m.group(1) + ("1er" if fixed_days[i] == 1
+                       else str(fixed_days[i])), l, count=1)
         if i in targets and not re.match(r"^\s{0,3}(?:1er|1°|\d{1,2})\s+[a-zéû]{3,9}\.?(?:\s|$)", l):
             out.append(targets[i].capitalize())
         out.append(l)
@@ -390,14 +410,25 @@ def month_headings(text, years=None):
     with only the day in the margin. Rewrite them as in volumes 2-3: the year on its own line
     at the left, and the month after the day of the first act under the heading."""
     out, pending = [], None
-    for l in text.split("\n"):
+    src = text.split("\n")
+    leader = re.compile(r"\.{3,}\s*(?:p\.\s*)?[\d.,]+\s*$")
+    list_items = set()
+    for k, l in enumerate(src):
+        if re.match(r"^\s{0,8}\d{1,2}\s*[—–-]", l):
+            nxt = next((x for x in src[k + 1:k + 3] if x.strip()), "")
+            if leader.search(l) or (leader.search(nxt) and not re.match(r"^\s{0,8}\d{1,2}\s*[—–-]", nxt)):
+                list_items.add(k)
+    for k_line, l in enumerate(src):
         y = re.fullmatch(r"\s*(1[5-7]\d\d)(?:\s*[-–]\s*\d{1,4})?\s*", l)
         if y and len(l) - len(l.lstrip()) > 12:
             out.append("  " + y.group(1))
             continue
+        if k_line in list_items:
+            out.append("         " + l)        # an item of a numbered list (« 12 — Fran°° Sannuto .... 300 »)
+            continue
         if re.match(r"^\s{0,6}(?:1er|\d{1,2})\s+(?:janv|f[ée]v|mars|avril|mai|juin|juil|ao[uû]t|sept|oct|nov|d[ée]c)"
-                    r"[a-zéû]*\.?,?\s+1[5-7]\d\d\b", l):
-            out.append("         " + l)        # "30 juin 1633. Signé..." : a date inside the text
+                    r"[a-zéû]*\.?,?\s+(?:1[5-7]\d\d\b|(?!En\s)[a-zà-ÿ'’]{2,})", l):
+            out.append("         " + l)        # "30 juin 1633. Signé", "27 mai jusqu'au": a date inside the text
             continue
         m = MONTH_HEAD.match(l)
         fz = None if m else re.match(r"^\s{0,4}(?P<w>[A-ZÉ][a-zéèûô]{2,9})\.?(?:\s{3,}\S{0,4}\s*(?P<y>1[5-7]\d\d)"
@@ -572,7 +603,8 @@ def main():
             # two-column indexes it separates the columns and is kept)
             t = "\n".join(re.sub(r"(?:(?<=\s)|^)\|(?=\s|$)", " ", l).rstrip() for l in t.split("\n"))
             # margin '1"', '1**', '1°' (in the documents, "1º" numbers the first document)
-            t = re.sub(r"(?m)^(\s{0,3})(?:[14][19]?(?:\"|\*\*?|°|º)|[Ll]er|1 er|1r|er)(?=\s)", r"\g<1>1er", t)
+            t = re.sub(r"(?m)^(\s{0,3})(?:[14][19]?(?:\"|\*\*?|°|º)|[Ll]er|1 er|1r|er)(?=\s+(?:[—–-]|[A-ZÉ(«]|En\s|janv|f[ée]v|mars|avril|mai|juin|juil|ao[uû]t|sept|oct|nov|d[ée]c|$))",
+                       r"\g<1>1er", t)
             if vol.get("month_headings"):
                 t = fix_first_of_month(t)
                 t = image_months(t, margin_ocr.get(lab))

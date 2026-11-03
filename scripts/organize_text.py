@@ -192,6 +192,12 @@ def apply_fixes(acts, fixes):
         del acts[i]
     for f in fixes.get("drop", []):
         del acts[find(f["find"], f.get("page"))]
+    for f in fixes.get("note_range", []):
+        # a remark of the editor that applies to a run of acts (« jusqu'au 3 août, les actes
+        # portent la date de 1669, sans doute pour 1670 »)
+        i, j = find(f["first"], f.get("page")), find(f["last"], f.get("last_page"))
+        for a in acts[i:j + 1]:
+            a["date_note"] = f"{a['date_note']}; {f['note']}" if a.get("date_note") else f["note"]
     for f in fixes.get("date", []):
         set_date(acts[find(f["find"], f.get("page"))], f["date"], f.get("note"))
     return acts

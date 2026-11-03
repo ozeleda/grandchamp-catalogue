@@ -417,7 +417,8 @@ def parse_analysis(pdf, vol):
         ym = YEAR_RE.match(line)
         if ym:
             new_year = norm_year(ym.group("y"), year, vol, printed, reg)
-            confirmed = sum(page_years.get(printed + k) == new_year for k in (1, 2, 3)) >= 2
+            confirmed = any(page_years.get(printed + k) == new_year for k in (1, 2)) or \
+                page_years.get(printed - 1) == new_year
             if (vol.get("month_headings") and year and started and new_year != year and not confirmed
                     and not (new_year == year + 1 and (month is None or month >= 11 or month <= 1))):
                 # volumes 5-8: the year at the page edge is often misread; the register runs
@@ -533,9 +534,12 @@ def parse_analysis(pdf, vol):
             }
             year_seen = False
             continue
-        lost = re.match(r"^\s{0,3}\.{4,}\s{2,}(?P<rest>\S.*)$", line)
+        lost = re.match(r"^\s{0,3}\.{3,}\s{2,}(?P<rest>\S.*)$", line)
         if started and noisy(vol) and lost:
             # the book prints dots where the register's date is torn or effaced
+            above = current or (acts[-1] if acts else None)
+            if above and above.get("year") and above.get("month"):
+                year, month = above["year"], above["month"]   # not a year line read in between
             flush()
             current = {
                 "register": reg["number"], "year": year, "month": month,

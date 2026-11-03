@@ -5,6 +5,18 @@
    "old": "17  —   En italien. — Guglielmo",
    "new": "1er  —   En italien. — Guglielmo",
    "note": "« 1er » read as 17 by the OCR"
+  },
+  {
+   "page": "p281",
+   "old": "4 mai       (317) Honore Guilhach",
+   "new": "4 juin      (317) Honore Guilhach",
+   "note": "heading « Juin » above this act; the OCR placed « Mai » (running head)"
+  },
+  {
+   "page": "p274",
+   "old": "Raphaele Terrers Seri-\n\n23   En italien. — ,\n\n\n     ba de la même île, pour vendre des biens, etc. , et le racheter.\n\n                         Francisco Vidame",
+   "new": "Raphaele Terrers Seri-\n     ba, de la même île, pour vendre des biens, etc. , et le racheter.\n\n23  —      En italien. — Francisco Vidame",
+   "note": "OCR moved the date and language note of the next act into this one"
   }
  ],
  "acts": {
@@ -28,6 +40,256 @@
     "find": "Francois Carnot, fils d’Aleim",
     "date": "1635-03-31",
     "note": "31 March (running head « Mars » on p. 75)."
+   },
+   {
+    "find": "Angelo de Martino, consul, certifie que Michel",
+    "date": "1631-04-09",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(752 v°) Giulian Pino",
+    "date": "1631-04-09",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(753) Le Fr. Gio de Colomb",
+    "date": "1631-04-12",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(753 v°) Angelo de Martino",
+    "date": "1631-04-23",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(767) Dominico Masso",
+    "date": "1631-06-02",
+    "note": "Margin « 2 — » under the heading « Juin »; lost in the OCR."
+   },
+   {
+    "find": "Anthiogo Tolo",
+    "date": "1631-08-18",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(34) Déclaration en faveur de Moise Signor",
+    "date": "1632-01-15",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Déclaration faite par Caraldi di Messina",
+    "date": "1632-02-04",
+    "note": "Margin « 4 — » under the heading « Février »; lost in the OCR."
+   },
+   {
+    "find": "Gioseppe Carella, de Venise",
+    "date": "1632-11-20",
+    "note": "Margin « 20 — »; lost in the OCR."
+   },
+   {
+    "find": "Pietro Samut, de Malte",
+    "date": "1633-02-28",
+    "note": "28 February: the heading « Mars » follows this act."
+   },
+   {
+    "find": "Gioane Girardi Denis",
+    "date": "1634-03-24",
+    "note": "Margin « 24 — » (read « 2 » by the OCR), month « Mars »."
+   },
+   {
+    "find": "(289) Duca di Domenico",
+    "date": "1634-08-04",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Giulia Palmesi",
+    "date": "1634-08-04",
+    "note": "Margin « 4 — »; lost in the OCR."
+   },
+   {
+    "find": "Le même doit à Morat Spagiollo",
+    "date": "1635-06-15",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(387) Amato Napolitano, turc",
+    "date": "1635-07-21",
+    "note": "Margin « 21 — »; lost in the OCR."
+   },
+   {
+    "find": "(436) Gio Domenico Adornetto",
+    "date": "1636-01-24",
+    "note": "Margin « 24 — »; lost in the OCR."
+   },
+   {
+    "find": "Bernardino Danbosy",
+    "date": "1636-02",
+    "note": "The book prints « ? » for the day."
+   },
+   {
+    "find": "Les mêmes doivent à Jacob Valensino",
+    "date": "1638-08-13",
+    "note": "Margin « 13 — »; lost in the OCR."
+   },
+   {
+    "find": "(73 v°) Anton Simone",
+    "date": "1639-09-01",
+    "note": "Margin « 1er — » under the heading « Septembre »."
+   },
+   {
+    "find": "Daniel Barrocos fait enregistrer",
+    "date": "1643-02-07",
+    "note": "Margin « 7 — »; lost in the OCR."
+   },
+   {
+    "find": "Beneto Cappelo",
+    "date": "1643-04",
+    "note": "The book prints « ...?... » for the day."
+   },
+   {
+    "find": "Joseph Grien",
+    "date": "1643-05-02",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Fra Arcange Cacalebre",
+    "date": "1643-05-30",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "François Gontier, de Grimaud",
+    "date": "1643-12-04",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(156) Joa de Falco",
+    "date": "1644-12-19",
+    "note": "Margin « 19 — »; lost in the OCR."
+   },
+   {
+    "find": "Paulo Peti et Joa Peti",
+    "date": "1645-03-16",
+    "note": "Margin « 16 — »; lost in the OCR."
+   },
+   {
+    "find": "Maubradi",
+    "date": "1645-09-26",
+    "note": "Margin « 26 — »; lost in the OCR."
+   },
+   {
+    "find": "Jean Foufneri",
+    "date": "1646-02-03",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(363) Marcanthoine Aydous",
+    "date": "1648-01-18",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(382) Le même, napolitain",
+    "date": "1648-05-19",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(425 Abeldouart",
+    "date": "1649-01-19",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(436) Pierre Marteau",
+    "date": "1649-04-10",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Giovanni Capitan",
+    "date": "1650-09-27",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Mathieu Ollive, de Marseille, a reçu de François Laure",
+    "date": "1647-01-30",
+    "note": "Margin « 30 — » in January; the heading « Février » comes after this act."
+   },
+   {
+    "find": "Jean Baptiste Renauit",
+    "date": "1649-04-10",
+    "note": "Under the heading « Avril » (p. 267), lost in the OCR."
+   },
+   {
+    "find": "(437 v°) Pierre Ecar",
+    "date": "1649-04-19",
+    "note": "Under the heading « Avril » (p. 267), lost in the OCR."
+   },
+   {
+    "find": "(438) Anthoine Ferrat",
+    "date": "1649-04-20",
+    "note": "Under the heading « Avril » (p. 267), lost in the OCR."
+   },
+   {
+    "find": "(439) Jean Louca Boisson",
+    "date": "1649-04-21",
+    "note": "Under the heading « Avril » (p. 267), lost in the OCR."
+   },
+   {
+    "find": "Jean Louis Boisson, marchand de Marseille, «",
+    "date": "1649-04-26",
+    "note": "Under the heading « Avril » (p. 267), lost in the OCR."
+   },
+   {
+    "find": "(430) Le patron Fran",
+    "date": "1636-01-05",
+    "note": "Margin « 5 — » under the heading « Janvier »."
+   },
+   {
+    "find": "(227 v*) Marco di Martino",
+    "date": "1645-12-07",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Sidy Sain, renégat napolitain, déclare que sur les 885",
+    "date": "1648-05-19",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(250 v”) Noffriv Vbllo",
+    "date": "1646-04-04",
+    "note": "Margin « 4 — » (read « è — » by the OCR)."
+   },
+   {
+    "find": "(309) Gio Gaimar",
+    "date": "1647-01-10",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Baba Mamout",
+    "date": "1647-03-20",
+    "note": "Under the heading « Mars » (p. 245)."
+   },
+   {
+    "find": "(322) A la demande de Jean Ambrozin",
+    "date": "1647-03-20",
+    "note": "Under the heading « Mars » (p. 245)."
+   },
+   {
+    "find": "(324) Gio Batt",
+    "date": "1647-03-20",
+    "note": "Under the heading « Mars » (p. 245)."
+   },
+   {
+    "find": "Marco Esperlongano, de Gaète",
+    "date": "1647-03-30",
+    "note": "Under the heading « Mars » (p. 245)."
+   },
+   {
+    "find": "Jean Siccar, de la Seiotta",
+    "date": "1649-07-31",
+    "note": "Under the heading « Juillet » (p. 270)."
+   },
+   {
+    "find": "Rierosme Racou",
+    "date": "1649-04-21",
+    "note": "Under the heading « Avril » (p. 267), lost in the OCR."
    }
   ]
  }
