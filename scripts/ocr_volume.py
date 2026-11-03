@@ -21,6 +21,7 @@ Requires: pdftoppm (poppler), tesseract with fra and ita data, Pillow.
 """
 import argparse
 import json
+import os
 import re
 import statistics
 import subprocess
@@ -52,14 +53,47 @@ def ink_profile(img, axis):
     return [sum(1 for x in range(w) if px[x, y] < 110) / w for y in range(h)], 4
 
 
-def find_gutter(img):
-    """x of the gutter: the lowest-ink column band in the middle third of the spread."""
-    prof, k = ink_profile(img, 0)
-    n = len(prof)
-    lo, hi = int(n * 0.38), int(n * 0.62)
-    win = 6
-    best = min(range(lo, hi - win), key=lambda x: sum(prof[x:x + win]))
-    return (best + win // 2) * k
+def find_gutter(pdf, page, img_width):
+    """x (pixels) of the gutter: the widest column free of words in the embedded text
+    layer, searched in the middle of the spread."""
+    html = subprocess.run(["pdftotext", "-bbox", "-f", str(page), "-l", str(page), str(pdf), "-"],
+                          capture_output=True, text=True).stdout
+    pw = float(re.search(r'<page width="([\d.]+)"', html).group(1))
+    occ = [0] * (int(pw) + 1)
+    for m in re.finditer(r'xMin="([\d.]+)" yMin="[\d.]+" xMax="([\d.]+)"', html):
+        for x in range(int(float(m.group(1))), min(int(float(m.group(2))) + 1, len(occ))):
+            occ[x] += 1
+    best, run, start = (0, pw / 2), 0, 0
+    for x in range(int(pw * 0.38), int(pw * 0.62)):
+        if occ[x] == 0:
+            run += 1
+            if run > best[0]:
+                best = (run, x - run / 2)
+        else:
+            run = 0
+    return int(best[1] * img_width / pw)
+
+
+def text_layer_words(pdf, page, img_width):
+    """Words of the PDF's embedded OCR layer, in pixel coordinates (centre x, centre y)."""
+    html = subprocess.run(["pdftotext", "-bbox", "-f", str(page), "-l", str(page), str(pdf), "-"],
+                          capture_output=True, text=True).stdout
+    pw = float(re.search(r'<page width="([\d.]+)"', html).group(1))
+    k = img_width / pw
+    out = []
+    for m in re.finditer(r'xMin="([\d.]+)" yMin="([\d.]+)" xMax="([\d.]+)" yMax="([\d.]+)">([^<]*)<', html):
+        x0, y0, x1, y1 = (float(m.group(i)) * k for i in range(1, 5))
+        t = m.group(5).replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"').replace("&#39;", "'")
+        out.append({"x": x0, "xe": x1, "y": (y0 + y1) / 2, "text": t})
+    return out
+
+
+def rotate_point(x, y, angle, cx, cy):
+    """Where PIL's Image.rotate(angle) (counter-clockwise, about the centre) sends (x, y)."""
+    import math
+    a = math.radians(angle)
+    dx, dy = x - cx, y - cy
+    return cx + dx * math.cos(a) + dy * math.sin(a), cy - dx * math.sin(a) + dy * math.cos(a)
 
 
 def deskew(img):
@@ -81,8 +115,10 @@ def deskew(img):
 def ocr_words(img, tmp):
     path = Path(tmp) / f"h{id(img)}.png"
     img.save(path)
+    # One thread per Tesseract: several multi-threaded instances in parallel stall badly.
+    env = {**os.environ, "OMP_THREAD_LIMIT": "1"}
     tsv = subprocess.run(["tesseract", str(path), "-", "-l", "fra+ita", "--psm", "6", "tsv"],
-                         capture_output=True, text=True).stdout
+                         capture_output=True, text=True, env=env, timeout=300).stdout
     words = []
     for line in tsv.splitlines()[1:]:
         f = line.split("\t")
@@ -94,8 +130,14 @@ def ocr_words(img, tmp):
     return words
 
 
-def layout_text(words, page_w):
-    """Rebuild text lines with indentation (in characters) relative to the text block."""
+DATE_TOKEN = re.compile(r"^(?:[0-9iIl]{1,2}(?:er|°|\")?|[—–~-]{1,2}|[sS3]\.|d\.|[a-zéû]{3,5}\.?|1[56][0-9OoiIl]{2})$")
+DATE_TEXT = re.compile(r"^(?:[0-9iIl]{1,2}(?:er|°|\")?\s+(?:[—–~-]{1,2}|[a-zéû]{3,5}\.?)|[sS3]\.\s?d\.|[1i][56][0-9OoiIl]{2})$")
+
+
+def layout_text(words, page_w, layer_words=()):
+    """Rebuild text lines with indentation (in characters) relative to the text block.
+    layer_words: words of the PDF's own text layer (same coordinates), used to
+    restore dates in the margin that Tesseract missed."""
     if not words:
         return ""
     good = [w for w in words if w["conf"] > 50 and len(w["text"]) > 2 and re.search(r"[A-Za-zÀ-ÿ]", w["text"])]
@@ -104,14 +146,33 @@ def layout_text(words, page_w):
     heights = sorted(w["h"] for w in good)
     hmed = heights[len(heights) // 2]
     char_w = statistics.median(w["w"] / len(w["text"]) for w in good)
-    xs = sorted(w["x"] for w in good)
-    xe = sorted(w["x"] + w["w"] for w in good)
-    left, right = xs[int(len(xs) * 0.02)] - 3 * char_w, xe[int(len(xe) * 0.98)] + 3 * char_w
+    # Text block edges from lines that are clearly text (5+ confident words);
+    # anything outside is gutter or page-edge shadow.
+    by_line = {}
+    for w in words:
+        by_line.setdefault((w["block"], w["par"], w["line"]), []).append(w)
+    firsts, ends = [], []
+    for ws in by_line.values():
+        conf = sorted((w for w in ws if w["conf"] > 60 and re.search(r"[a-zà-ÿ]{2}", w["text"])),
+                      key=lambda w: w["x"])
+        if len(conf) >= 5:
+            firsts.append(conf[0]["x"])
+            ends.append(conf[-1]["x"] + conf[-1]["w"])
+    if not firsts:
+        return ""
+    firsts.sort(); ends.sort()
+    text_left = firsts[int(len(firsts) * 0.1)]
+    left = text_left - 16 * char_w            # the date column sits up to ~12 chars left of the text
+    right = ends[int(len(ends) * 0.9)] + 4 * char_w
+    datey = re.compile(r"^(?:[\[(]?\d{1,4}(?:er|°)?[\])]?|[—–-]+|[sS]\.|d\.|janv\.?|f[ée]vr?\.?|mars|avril|mai|juin|juil\.?|"
+                       r"ao[uû]t|sept\.?|oct\.?|nov\.?|d[ée]c\.?|[A-Z][a-z]+|[a-zé]+\.)$")
     # group into lines by Tesseract's line ids, then order by y
     lines = {}
     for w in words:
-        if w["x"] + w["w"] < left or w["x"] > right:      # gutter / edge shadow
+        if w["x"] < left or w["x"] + w["w"] > right:      # gutter / edge shadow
             continue
+        if w["x"] < text_left - 2 * char_w and not (w["conf"] > 40 and datey.match(w["text"])):
+            continue                                       # margin zone: dates only
         if w["h"] > 3 * hmed:                              # tall specks
             continue
         lines.setdefault((w["block"], w["par"], w["line"]), []).append(w)
@@ -119,13 +180,28 @@ def layout_text(words, page_w):
     for ws in lines.values():
         ws.sort(key=lambda w: w["x"])
         # drop isolated low-confidence junk at either end
-        while ws and ws[0]["conf"] < 30 and not re.search(r"\w{2}", ws[0]["text"]):
+        junk = lambda w: w["conf"] < 30 and not re.search(r"\w{2}|\d", w["text"])
+        while ws and junk(ws[0]):
             ws.pop(0)
-        while ws and ws[-1]["conf"] < 30 and not re.search(r"\w{2}", ws[-1]["text"]):
+        while ws and junk(ws[-1]):
             ws.pop()
         if ws:
             rows.append(ws)
     rows.sort(key=lambda ws: statistics.median(w["y"] for w in ws))
+    # restore dates in the margin from the text layer when Tesseract has none
+    margin_words = [w for w in layer_words if left <= w["x"] < text_left - 1.5 * char_w
+                    and DATE_TOKEN.match(w["text"])]
+    for ws in rows:
+        own = " ".join(w["text"] for w in ws if w["x"] < text_left - 2 * char_w)
+        if DATE_TEXT.match(own):
+            continue
+        yc = statistics.median(w["y"] + w["h"] / 2 for w in ws)
+        cand = sorted((w for w in margin_words if abs(w["y"] - yc) < 0.6 * hmed), key=lambda w: w["x"])
+        txt = " ".join(w["text"] for w in cand)
+        if cand and DATE_TEXT.match(txt):
+            ws[:] = [w for w in ws if w["x"] >= text_left - 2 * char_w]
+            ws[:0] = [{"x": int(w["x"]), "y": int(yc), "w": int(w["xe"] - w["x"]), "h": hmed,
+                       "conf": 90, "text": w["text"]} for w in cand]
     # the left margin is the date column: smallest typical line start
     starts = sorted(ws[0]["x"] for ws in rows)
     margin = starts[int(len(starts) * 0.05)] if starts else left
@@ -161,19 +237,28 @@ def main():
     two = cfg["two_up"]
     first, last = (map(int, args.pages.split("-")) if args.pages else two["pdf_pages"])
     pdf = ROOT / cfg["file"]
-    out_dir = ROOT / cfg["text_source"]
+    out_dir = ROOT / cfg["text_source"] / ("test" if args.pages else "")
     out_dir.mkdir(parents=True, exist_ok=True)
     missing = set(cfg.get("missing_pages", []))
 
     def process(page):
         with tempfile.TemporaryDirectory() as tmp:
             img = render(pdf, page, tmp)
-            g = find_gutter(img)
+            g = find_gutter(pdf, page, img.width)
             res = []
+            layer = text_layer_words(pdf, page, img.width)
             for side, box in enumerate(((0, 0, g, img.height), (g, 0, img.width, img.height))):
                 half = img.crop(box)
                 half, angle = deskew(half)
-                text = layout_text(ocr_words(half, tmp), half.width)
+                cx, cy = half.width / 2, half.height / 2
+                lw = []
+                for w in layer:
+                    if not box[0] <= w["x"] < box[2]:
+                        continue
+                    x, y = rotate_point(w["x"] - box[0], w["y"], angle, cx, cy)
+                    xe, _ = rotate_point(w["xe"] - box[0], w["y"], angle, cx, cy)
+                    lw.append({"x": x, "xe": xe, "y": y, "text": w["text"]})
+                text = layout_text(ocr_words(half, tmp), half.width, lw)
                 res.append({"pdf_page": page, "side": side, "chars": len(text.strip()),
                             "angle": angle, "header": page_number(text), "text": text})
             print(f"  pdf {page}: gutter {g}, {[r['chars'] for r in res]} chars, headers "
@@ -184,11 +269,11 @@ def main():
         halves = [h for res in ex.map(process, range(first, last + 1)) for h in res]
 
     # drop empty halves and weak duplicates shot again alone on the next PDF page
+    # skip_halves: "30R" = right half of PDF page 30 (weak duplicate of a page shot again alone)
+    skip = set(two.get("skip_halves", []))
     keep = []
-    for i, h in enumerate(halves):
-        if h["chars"] < 60:
-            continue
-        if h["chars"] < 450 and i + 1 < len(halves) and halves[i + 1]["chars"] < 60:
+    for h in halves:
+        if f"{h['pdf_page']}{'LR'[h['side']]}" in skip or h["chars"] < 60:
             continue
         keep.append(h)
     expected = two["first_printed_page"] if not args.pages else None

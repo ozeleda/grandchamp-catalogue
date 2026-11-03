@@ -114,6 +114,7 @@ NAME_START = re.compile(r"^(?:[A-ZÀ-ÝÉ]|d'|de\s+[A-Z]|di\s+[A-Z])")
 def clean_summary(s):
     s = re.sub(r"^[^\wÀ-ÿ«]+", "", s.strip())
     s = re.sub(r"^[\W_]*(?:E[nt]i?)\s+(?:italien|latin|espagnol|provençal|français)\s*[.:,]?\s*[—–-]+\s*", "", s.strip())
+    s = re.sub(r"^\(\s*\d+\s*\)\s*(?:\d+\)\s*|\(\w\)\s*)?", "", s)   # register folio "(269)"
     s = re.sub(r"\bà(?=[A-ZÉ])", "à ", s)            # OCR: "àBastiano"
     s = re.sub(r"\bde'\s", "de ", s)
     s = re.sub(r"\.\s+(?=d[e']\s?[A-Z])", ", ", s)          # OCR: "Rabastan. de Marseille"
@@ -332,8 +333,8 @@ VERB_SPLIT = (r",?\s+(?:reconna\w*|r[ée]conna\w*|a\s|ont\s|fait\b|font\b|est\b|
               r"renonce|d[ée]clare|dit\s+que|refuse|r[ée]clame|assure|re[çc]oit|nolise|loue|accepte|expose|"
               r"r[ée]pond|proteste|requiert|prie|supplie|affirme|atteste|certifie|reste|doit|devra|lui|leur)\b")
 
-V_DEBT = r"(?:reconna[iî]t|r[ée]conna[iî]t|reconnaissent)\s+devoir"
-V_RECV = r"(?:(?:reconna[iî]t|r[ée]conna[iî]t|reconnaissent)\s+avoir|\ba|\bont)\s+re[çc]u"
+V_DEBT = r"(?:(?:reconna\w*|r[ée]conna\w*|reconnaissent)\s+(?:de\s*)?devoir|(?:\w\s+)?doi(?:t|vent)(?=\s+(?:à|au|aux)\s))"
+V_RECV = r"(?:(?:reconna\w*|r[ée]conna\w*|reconnaissent)\s+avoir|\ba|\bont)\s+re[çc]u"
 P2_STOP = r"(?=\s+\d|,\s*\d|\s+(?:pour|la somme|les?\s+\d|une?\s|tout|ce qui|ses|son|sa|leurs?)\b|[.;]|$)"
 
 
@@ -423,6 +424,27 @@ def extract(act):
             res["type"] = "rachat"
             res["p1"], res["p2"] = parse_people(m.group("p1")), parse_people(m.group("p2"))
             p1_role, p2_role = "ransomed captive", "redeemer (paid the ransom)"
+    # ---- "X a racheté (à Y) Z": redemption by purchase
+    if not res["type"]:
+        m = re.match(r"^(?P<p1>.+?)\s+(?:a|ont)\s+rachet[ée]e?s?\s+(?P<rest>.*)$", main)
+        if m and NAME_START.match(m.group("p1")):
+            res["type"] = "rachat"
+            rest = m.group("rest")
+            mm = re.match(r"^(?:à|au|aux)\s+(?P<p2>.+?),\s+(?P<o>.*)$", rest)
+            res["p1"] = parse_people(m.group("p1"))
+            if mm:
+                res["p2"] = parse_people(mm.group("p2"))
+                rest = mm.group("o")
+            om = re.search(r"(?:nommée?|appelée?)\s+(?P<o>[A-ZÀ-Ý][^.;]+?)(?=[.;]|$)", rest) or \
+                 re.match(r"^(?P<o>[A-ZÀ-Ý][^.;]+?)(?=[.;]|$)", rest)
+            if om:
+                res["others"] = parse_people(om.group("o"))
+                for p in res["others"]:
+                    p["roles"] = ["captive (ransomed)"] + p["roles"]
+            p1_role, p2_role = "redeemer (paid the ransom)", "seller of the captive (ransom recipient)"
+            am = AMT_RE.search(rest)
+            if am:
+                res["price"], res["currency"] = amount_value(am), norm_currency(am)
     # ---- quittance / décharge given
     if not res["type"]:
         m = re.match(r"^(?P<p1>.+?)\s+donnen?t?\s+(?:une\s+)?(?:quittance|d[ée]charge)(?:\s+g[ée]n[ée]rale)?\s*(?P<rest>.*)$", main)
@@ -634,7 +656,7 @@ def extract(act):
     matter_bits = []
     base = {
         "reconnaissance_dette": "Acknowledgement of debt", "quittance": "Receipt / discharge",
-        "rachat": "Acknowledgement of redemption", "procuration": "Power of attorney",
+        "rachat": "Redemption of a captive", "procuration": "Power of attorney",
         "affretement": "Charter of a ship", "protestation": "Protest / summons",
         "caution": "Surety", "accord": "Agreement", "mariage": "Promise of marriage",
         "decision": "Consular decision", "vente_cession": "Sale / transfer",
@@ -674,6 +696,9 @@ def extract(act):
 
     # ---- notes: remaining sentences and remarks, condition, language, same-as-previous
     notes = []
+    fm = re.match(r"^\W*(?:E[nt]i?\s*italien\W*)?\(\s*(\d+)\s*\)", act["summary"].strip())
+    if fm:
+        notes.append(f"Folio {fm.group(1)} of the register.")
     if act.get("language"):
         notes.append(f"Act written in {act['language']}.")
     if same_as_prev:

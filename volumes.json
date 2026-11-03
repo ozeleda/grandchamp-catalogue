@@ -85,10 +85,20 @@
       "text_source": "ocr/vol2",
       "two_up": {
         "pdf_pages": [
-          8,
+          7,
           103
         ],
-        "first_printed_page": 2
+        "first_printed_page": 1,
+        "skip_halves": [
+          "7L",
+          "30R",
+          "63R",
+          "96R",
+          "31L",
+          "64L",
+          "97L"
+        ],
+        "_comment": "Two book pages per PDF page. 7L is the end of the foreword. Pages with a facsimile signature were shot twice (in the spread, then alone): skip the weak half of the spread and the empty half of the single shot."
       },
       "missing_pages": [
         8,

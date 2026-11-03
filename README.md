@@ -8,6 +8,7 @@ charters, protests…), together with the documents he published in full.
 | Volume | Period | Acts (Part I) | Full-text documents (Parts II–III) |
 |---|---|---|---|
 | 1 — *La France en Tunisie à la fin du XVIe siècle* (Tunis, 1920) | 1582–1600 | 855 | 33 + 38 |
+| 2 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1921) | 1601–1610 | 1144 | — |
 
 Volumes 2–10 can be added the same way: see [Adding a volume](#adding-a-volume).
 
@@ -21,9 +22,11 @@ Volumes 2–10 can be added the same way: see [Adding a volume](#adding-a-volume
 | `annotations/vol1.json` | Hand corrections to the extracted transaction columns (all 855 acts reviewed) |
 | `pdfs/` | Source scans (Internet Archive, with an OCR text layer) |
 | `volumes.json` | Per-volume settings: page layout plus the manual OCR corrections |
+| `ocr/vol2/` | Fresh OCR of volume 2, one text file per printed page (see below) |
 | `scripts/build_db.py` | Rebuilds the database and CSVs from the PDFs |
 | `scripts/extract_parties.py` | Rule-based first draft of the transaction columns from each summary |
 | `scripts/annotate.py` | Merges corrections into `annotations/vol<N>.json` |
+| `scripts/ocr_volume.py` | Re-OCRs a two-up photocopy scan with Tesseract into `ocr/vol<N>/` |
 
 ## Transaction columns
 
@@ -115,6 +118,34 @@ but are not authoritative:
   be read even in print (pp. 54 and 83) and are stored as NULL.
 * The register is not strictly chronological (follow-up acts were written next
   to the original), so `seq` keeps the printed order and `date_iso` the act's own date.
+
+## Volume 2: a photocopy scan, re-OCR'd
+
+Volume 2 (`pdfs/La France en Tunisie v.2.pdf`) is a photocopier scan, not an Internet Archive
+scan. It has two book pages on each PDF page, the pages are slightly skewed, and the
+embedded OCR is too poor to parse. `scripts/ocr_volume.py` therefore:
+
+1. finds the gutter of each spread (from the embedded text layer) and splits it into two pages;
+2. drops duplicate shots. Pages carrying a facsimile signature were photographed twice; these are
+   listed in `volumes.json` → `two_up.skip_halves`;
+3. deskews each page and OCRs it with Tesseract (French + Italian);
+4. restores dates in the margin from the embedded text layer when Tesseract misses them;
+5. writes the layout text to `ocr/vol2/p<page>.txt`, with `index.json` mapping pages to PDF pages.
+
+`build_db.py` reads that cache, so Tesseract is only needed to regenerate it
+(`python3 scripts/ocr_volume.py 2`).
+
+Known limitations of volume 2:
+
+* **Book pages 8–9 are missing from the scan.** Their acts are not in the database.
+* **Illegible dates:** some 150 acts have a date that neither OCR could read. They take the
+  previous act's date and say so in `notes`. A few day numbers were rebuilt from a misread
+  digit, and `notes` says that too.
+* **Folio numbers:** register IV gives folio numbers, e.g. « (269) ». They are kept in the summary and in `notes`.
+* **Not yet processed:** the annexed documents (pp. 183–191) and the name index of
+  volumes I–II (pp. 192–252) are not parsed yet.
+* **Not yet reviewed:** the transaction columns of volume 2 are still the automatic draft
+  (`extraction = 'auto'`).
 
 ## Schema (main tables)
 
