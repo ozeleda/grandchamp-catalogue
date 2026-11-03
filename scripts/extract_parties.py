@@ -114,7 +114,7 @@ NAME_START = re.compile(r"^(?:[A-ZÀ-ÝÉ]|d'|de\s+[A-Z]|di\s+[A-Z])")
 def clean_summary(s):
     s = re.sub(r"^[^\wÀ-ÿ«]+", "", s.strip())
     s = re.sub(r"^[\W_]*(?:E[nt]i?)\s+(?:italien|latin|espagnol|provençal|français)\s*[.:,]?\s*[—–-]+\s*", "", s.strip())
-    s = re.sub(r"^\(\s*\d+\s*\)\s*(?:\d+\)\s*|\(\w\)\s*)?", "", s)   # register folio "(269)"
+    s = re.sub(r"^[({]?\s*\d+\s*\)\s*(?:\d+\)\s*|\(\w\)\s*)?", "", s)   # register folio "(269)"
     s = re.sub(r"\bà(?=[A-ZÉ])", "à ", s)            # OCR: "àBastiano"
     s = re.sub(r"\bde'\s", "de ", s)
     s = re.sub(r"\.\s+(?=d[e']\s?[A-Z])", ", ", s)          # OCR: "Rabastan. de Marseille"

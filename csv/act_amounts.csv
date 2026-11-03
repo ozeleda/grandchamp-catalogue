@@ -1610,7 +1610,7 @@
 2-IV-0997,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
 2-IV-0998,300.0,écu,,300 écus
 2-IV-1000,500.0,écu,d'or d'Espagne,500 écus d'or d'Espagne
-2-IV-1003,91.0,écu,d'or,91 écus d'or
+2-IV-1003b,91.0,écu,d'or,91 écus d'or
 2-IV-1004,650.0,écu,,650 écus
 2-IV-1005,50.0,écu,,50 écus
 2-IV-1006,17.0,écu,,17 écus
@@ -1634,10 +1634,10 @@
 2-IV-1022,250.0,écu,,250 écus
 2-IV-1023,40.0,écu,,40 écus
 2-IV-1024,180.0,écu,,180 écus
-2-IV-1024,38.0,écu,d'or d'Espagne,38 écus d'or d'Espagne
+2-IV-1024b,38.0,écu,d'or d'Espagne,38 écus d'or d'Espagne
 2-IV-1025,200.0,écu,d'or d'Espagne,200 écus d'or d'Espagne
-2-IV-1025,31.0,écu,,31 écus
-2-IV-1025,34.0,écu,,34 écus
+2-IV-1025b,31.0,écu,,31 écus
+2-IV-1025c,34.0,écu,,34 écus
 2-IV-1026,25.0,écu,d'or,25 écus d'or
 2-IV-1027,1050.0,livre,,1.050 livres
 2-IV-1028,44.0,écu,,44 écus
@@ -1645,7 +1645,7 @@
 2-IV-1030,32.0,écu,,32 écus
 2-IV-1031,32.0,écu,,32 écus
 2-IV-1033,132.0,écu,,132 écus
-2-IV-1033,66.0,écu,,66 écus
+2-IV-1033b,66.0,écu,,66 écus
 2-IV-1034,130.0,écu,,130 écus
 2-IV-1036,1500.0,écu,,1.500 écus
 2-IV-1037,200.0,écu,,200 écus

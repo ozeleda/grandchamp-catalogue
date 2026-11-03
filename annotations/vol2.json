@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 993,
+ "reviewed_through_seq": 1046,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -8921,6 +8921,603 @@
    "matter": "Ransom loan repayable two months after arrival in Catalonia",
    "notes": "« Fia » is probably Jean Baptiste Pin.",
    "keywords": "ransom; loan; galleys"
+  },
+  "2-IV-0994": {
+   "transaction_type": "Declaration / attestation",
+   "party1_origins": "lombard; de la Torre; de Gilpary",
+   "party1_role": "witness, slave of Ossoman Dey; witness, slave of Ossoman Dey; witness, slave of Ossoman Dey",
+   "other_parties_names": "Dominicho Labarbera",
+   "other_parties_origins": "de Syracuse",
+   "other_parties_role": "deceased slave",
+   "matter": "Knew Dominicho Labarbera in Ossoman Dey's bagno; he died on 16 February 1608; Bastiano removed the irons from his feet",
+   "keywords": "death; slavery; bagno"
+  },
+  "2-IV-0995": {
+   "date": "1609-04-06",
+   "party2_origins": "renégat anglais",
+   "matter": "Debt repayable within one year",
+   "notes": "Day read as 16, between acts of 4 April; perhaps 6.",
+   "keywords": "debt; renegade; English"
+  },
+  "2-IV-0996": {
+   "transaction_type": "Debt",
+   "party1_name": "Cristofalo Moreles Romero",
+   "party1_origins": "castillan",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Mamet Chorra",
+   "party2_origins": "maure de Tunis habitant à Palerme",
+   "party2_role": "creditor",
+   "other_parties_names": "Sidi Amida",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom (including all costs and interest), payable on arrival at Palermo",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0997": {
+   "party1_origins": "génois habitant à Palerme",
+   "party1_role": "debtor",
+   "matter": "Debt",
+   "keywords": "debt"
+  },
+  "2-IV-0998": {
+   "other_parties_names": "Sigismond Altano",
+   "other_parties_origins": "vénitien",
+   "other_parties_role": "debtor",
+   "matter": "Recovery of 300 écus from Sigismond Altano",
+   "keywords": "debt collection"
+  },
+  "2-IV-0999": {
+   "party1_name": "Regnaude Povone",
+   "party1_origins": "de Lonchyllo de Calabre",
+   "party1_role": "principal",
+   "matter": "Recovery of a debt",
+   "keywords": "debt collection"
+  },
+  "2-IV-1000": {
+   "transaction_type": "Sale / transfer",
+   "party1_origins": "de Marseille; de Marseille; ",
+   "party1_role": "buyer, ship master (patron); buyer; buyer",
+   "party2_name": "Ossoman Day",
+   "party2_role": "seller (dey)",
+   "matter": "Ship of 600 salmes with sails and rigging (the « St-Pierre »)",
+   "keywords": "ship sale; prize"
+  },
+  "2-IV-1001": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "recipient, vice-consul for the French nation",
+   "party2_role": "predecessor, former vice-consul",
+   "matter": "Received the priest's vestments for saying mass and the chancellery books; will hand them only to whoever comes to hold the office of consul",
+   "notes": "Act in French.",
+   "keywords": "consulate; handover; chancellery; chapel"
+  },
+  "2-IV-1002": {
+   "transaction_type": "Undertaking / promise",
+   "party1_role": "promisor",
+   "party2_role": "promisee",
+   "other_parties_names": "Ossaino",
+   "other_parties_role": "Turkish slave in Sicily (to be ransomed)",
+   "matter": "Owes Scotto whatever is needed to ransom Ossaino; the declarant is also called « Guocia » and « Goicia »",
+   "keywords": "captive exchange; Muslim captive"
+  },
+  "2-IV-1003": {
+   "split_at": [
+    "(421) Pierre Estienne"
+   ],
+   "date": "1609-04",
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Nicolo Dorestagno; Antonio Salvago",
+   "party1_origins": "de Palerme; de Palerme",
+   "party1_role": "witness; witness",
+   "party2_name": null,
+   "party2_origins": null,
+   "party2_role": null,
+   "other_parties_names": "Migniquo Coullotta; Choug Sain",
+   "other_parties_role": "killed slave; his master",
+   "price": null,
+   "currency": null,
+   "matter": "Certify that Migniquo Coullotta was killed on the eve of the Conversion of St Paul in the house of his master Choug Sain",
+   "keywords": "death; slavery; violence"
+  },
+  "2-IV-1003b": {
+   "transaction_type": "Debt",
+   "party1_name": "Pierre Estienne dit Négrin",
+   "party1_origins": "d'Agde (?)",
+   "party1_role": "debtor, ship master (patron) of the « Ste-Madeleine »",
+   "party2_name": "Antoine Calvano",
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor",
+   "price": 91,
+   "currency": "écus d'or",
+   "matter": "Loan repayable at Livorno",
+   "notes": "Folio 421 of the register. Act in French.",
+   "keywords": "loan"
+  },
+  "2-IV-1004": {
+   "price": 650,
+   "currency": "écus d'or de 12 julii ½",
+   "matter": "Loan for the « last fitting-out » of his ship",
+   "notes": "Act in French.",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1005": {
+   "split_at": [
+    "En, italien. — (424)"
+   ],
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for the « last fitting-out » of the polacre « Sta Barbara »",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1005b": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Marcantonio Paulillo",
+   "party1_origins": "de Naples",
+   "party1_role": "principal",
+   "party2_name": "Gian Batista de Hourso; Honoré Daponte",
+   "party2_origins": "de la Congrégation des Jésuites",
+   "party2_role": "attorney, Jesuit father; attorney, Jesuit father",
+   "matter": "To manage his affairs",
+   "notes": "Folio 424 of the register.",
+   "keywords": "Jesuits; power of attorney"
+  },
+  "2-IV-1006": {
+   "matter": "Loan",
+   "keywords": "loan"
+  },
+  "2-IV-1007": {
+   "date": "1609-04-14",
+   "transaction_type": "Undertaking / promise",
+   "party1_name": "Franco Scotto",
+   "party1_origins": "de Palerme",
+   "party1_role": "promisor (debtor)",
+   "party2_name": "Ali Pacha",
+   "party2_role": "creditor, king of Tunis",
+   "other_parties_names": "Nicolo Scotto; Nicolo d'Oristagno; Antonio Salvaggio; Antonino Lazzolina",
+   "other_parties_role": "hostage, father of Scotto; hostage; hostage; hostage, Carmelite father",
+   "price": 1416,
+   "currency": "écus",
+   "other_equivalent": "1,016 écus for 125 quintals of fish and 400 écus for a Flemish patache of 600 salmes",
+   "matter": "Promises to pay by 1 October 1609, or double; leaves four persons at Tunis as security",
+   "notes": "Day read as 4, between acts of 14 and 17 April.",
+   "keywords": "fish; ship purchase; hostages; pasha"
+  },
+  "2-IV-1008": {
+   "party2_name": "Salem [...]",
+   "matter": "To raise funds",
+   "keywords": "power of attorney"
+  },
+  "2-IV-1009": {
+   "other_equivalent": "66 onces 15 taris of Sicily",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan",
+   "keywords": "loan"
+  },
+  "2-IV-1010": {
+   "party1_name": "Agostino Barressi (Barres)",
+   "party1_origins": "espagnol de Madrid, habitant à Palerme",
+   "party1_role": "debtor, ransomed captive, don",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for the balance of his ransom",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1011": {
+   "party1_role": "principal, Carmelite father",
+   "party2_name": "Franco Scotto",
+   "matter": "Recovery of debts",
+   "keywords": "debt collection; clergy"
+  },
+  "2-IV-1012": {
+   "currency": "sequins turcs",
+   "other_equivalent": "Plus 10 écus (monnaie de Malte)",
+   "matter": "Money Gauderissi was charged to deliver",
+   "keywords": "remittance"
+  },
+  "2-IV-1013": {
+   "currency": "écus",
+   "matter": "Ransom loan",
+   "notes": "Perhaps « Batistagna ».",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1014": {
+   "party2_origins": "janissaire de Tunis",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan",
+   "keywords": "loan"
+  },
+  "2-IV-1015": {
+   "party2_name": "Gian Lionardo Guarensia",
+   "notes": "Folio 435 (OCR 485).",
+   "keywords": "payment"
+  },
+  "2-IV-1016": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), agent of Phelippo Lomellino",
+   "party2_origins": "corse, renégat de Cara Djafer",
+   "party2_role": "creditor, renegade",
+   "currency": "écus d'or de 64 aspres",
+   "other_equivalent": null,
+   "matter": "Loan repayable on 15 June",
+   "notes": "Receipt dated 25 August at the foot of the act. Act in French.",
+   "keywords": "loan"
+  },
+  "2-IV-1017": {
+   "date": "1609-04-24",
+   "party1_name": "Pierre Guassan",
+   "currency": "écus d'or de 12 julii ½",
+   "matter": "Loan for the « last fitting-out » of the polacre « Ste-Marie bonne venture »",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1018": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron); debtor, ship master (patron)",
+   "party2_role": "creditor",
+   "currency": "écus d'or",
+   "matter": "Loan to buy the ship « St-Pierre » (see act of 10 April 1609)",
+   "notes": "Act in French.",
+   "keywords": "loan; ship purchase"
+  },
+  "2-IV-1019": {
+   "party2_name": "Pantenlin Toumaxin",
+   "matter": "Summons to load the goods he is to take and sail for Marseille",
+   "decision": "Reply of the patron follows",
+   "notes": "Act in French.",
+   "keywords": "charter; summons"
+  },
+  "2-IV-1020": {
+   "party1_origins": "hébreu de Fez, habitant à Livourne",
+   "party2_origins": "turc renégat génois de Tunis",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable within three months",
+   "keywords": "loan; Jews; renegade"
+  },
+  "2-IV-1021": {
+   "split_at": [
+    "(443) Jehan"
+   ],
+   "transaction_type": "Agreement",
+   "party1_role": "party (captive, to arrange the release); party (master)",
+   "other_parties_names": "Abbedelem",
+   "other_parties_origins": "maure de Tunis",
+   "other_parties_role": "Muslim slave at Malta (to be freed)",
+   "matter": "Gautier will have Abbedelem freed at Malta and brought to Tunis; Agy Aly will then free Gautier",
+   "keywords": "captive exchange; Malta"
+  },
+  "2-IV-1021b": {
+   "transaction_type": "Protest / summons",
+   "party1_name": "Jehan de Martin; Pierre de Soubeyran",
+   "party1_role": "protesting party; protesting party",
+   "party2_name": "Pantelin Toumasin",
+   "party2_role": "party protested against, ship master (patron)",
+   "matter": "The sailors left Toumasin's boat because it was in such bad condition; the patron is held liable for the losses from the delay",
+   "notes": "Folio 443 of the register.",
+   "keywords": "charter; ship condition; protest"
+  },
+  "2-IV-1022": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable on arrival at Malta",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1023": {
+   "date": "1609-04-30",
+   "price": 40.33,
+   "matter": "Loan for the last fitting-out of his ship, the « St-Pierre bonne venture »",
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron)",
+   "party2_role": "creditor, merchant",
+   "notes": "Day read as 3, after acts of 24 April; probably 30. Act in French.",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1024": {
+   "split_at": [
+    "(450) Mouchouan"
+   ],
+   "date": "1609-05-04",
+   "transaction_type": "Sale / transfer",
+   "party1_role": "seller (receives the price)",
+   "party2_role": "buyer",
+   "party2_origins": "djerbien",
+   "price": 180,
+   "currency": "écus d'or",
+   "other_equivalent": null,
+   "matter": "Price of a frigate of 600 quintals sold at Hammamet",
+   "notes": "Month uncertain (day 4, between acts of late April and 5 May).",
+   "keywords": "ship sale"
+  },
+  "2-IV-1024b": {
+   "transaction_type": "Debt",
+   "party1_name": "Mouchouan Tabarin",
+   "party1_origins": "de Marseille",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_name": "Pierre Antibou",
+   "party2_origins": "de St-Tropez",
+   "party2_role": "creditor",
+   "price": 38,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan",
+   "notes": "Folio 450 of the register.",
+   "keywords": "loan"
+  },
+  "2-IV-1025": {
+   "split_at": [
+    "(453) Balthezar",
+    "(454) Pierre Gaillard"
+   ],
+   "party1_name": "Pedro Andres",
+   "party1_origins": "portugais",
+   "party1_role": "debtor, ransomed captive, son of Andres Rodrigos",
+   "other_parties_role": "recipient of ransom payment, mansoul agha",
+   "other_equivalent": null,
+   "matter": "Ransom loan repayable 15 days after arrival at Palermo",
+   "notes": "Folio 451 (OCR 454).",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1025b": {
+   "transaction_type": "Debt",
+   "party1_name": "Balthezar Rodomont",
+   "party1_origins": "de St-Gal, habitant à Marseille",
+   "party1_role": "debtor",
+   "party2_name": "Jehan Pierre",
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor, sailor",
+   "price": 31.25,
+   "currency": "écus de 64 sous",
+   "matter": "Debt repayable six days after arrival at Marseille",
+   "notes": "Folio 453 of the register. Act in French.",
+   "keywords": "debt"
+  },
+  "2-IV-1025c": {
+   "transaction_type": "Debt",
+   "party1_name": "Pierre Gaillard",
+   "party1_origins": "de Marseille",
+   "party1_role": "debtor",
+   "party2_name": "Gilles Bouyer",
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor, merchant",
+   "price": 34.25,
+   "currency": "écus",
+   "matter": "Debt repayable 15 days after arrival at Marseille",
+   "notes": "Folio 454 of the register. Act in French.",
+   "keywords": "debt"
+  },
+  "2-IV-1026": {
+   "party1_origins": "de Pinède (Catalogne); catalan",
+   "party1_role": "debtor, ship master (patron); debtor",
+   "party2_name": "Battista Pin",
+   "party2_origins": "de San Felice",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt (summary cut off)",
+   "keywords": "debt"
+  },
+  "2-IV-1027": {
+   "date": "1609-05-13",
+   "party1_role": "shipowner / master (lets the ship), for himself and the part-owners of his « petache » « St-Domenico bonne venture »",
+   "party2_name": "Pierre de Soubeyran; Jehan Martin",
+   "currency": "livres tournois",
+   "matter": "Charter: ship to be ready to load at La Goulette in two months for Marseille and the coast of Provence; anchorage dues and average at the shippers' expense",
+   "notes": "Act in French.",
+   "keywords": "charter; freight"
+  },
+  "2-IV-1028": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_name": "Guilleaume Vine",
+   "party2_role": "creditor, ship master (patron)",
+   "price": 44.5,
+   "currency": "écus d'or",
+   "matter": "Loan to be repaid when Vine returns from Provence with Toumazin",
+   "decision": "Repaid 1 June",
+   "notes": "Act in French.",
+   "keywords": "loan"
+  },
+  "2-IV-1029": {
+   "party1_name": "Pierre de Soubeyran",
+   "party1_origins": "écuyer de la ville de Nîmes en Languedoc",
+   "party2_origins": "écuyer de la ville de Marseille",
+   "currency": "livres (monnaie de France)",
+   "other_equivalent": "12 sous",
+   "matter": "Repayment of a debt",
+   "notes": "Act in French.",
+   "keywords": "debt; payment"
+  },
+  "2-IV-1030": {
+   "party2_name": "Jehan Gilles Boyer",
+   "other_parties_names": "Ossoman Day",
+   "price": 32.5,
+   "currency": "écus d'or",
+   "matter": "Ransom loan",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1031": {
+   "party1_origins": "habitant de Marseille",
+   "party1_role": "recipient, ransomed captive, baker",
+   "party2_origins": "corse, habitant Marseille",
+   "other_parties_names": "Ossoman Day",
+   "price": 32.5,
+   "currency": "écus de 65 sous",
+   "other_equivalent": null,
+   "matter": "Ransom loan repayable eight days after arrival at Marseille",
+   "notes": "Receipt dated 5 June at the foot (?). Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1032": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Esprit Ville Grose (Villacrossa)",
+   "party1_origins": "de Toulon",
+   "party1_role": "declarant, ship master (patron) of the « St-Joseph »",
+   "other_parties_names": "four warships armed at Tunis with Turks and English; Anthoine Berangier",
+   "other_parties_origins": "; député du commerce de Marseille",
+   "other_parties_role": "captors; obtained the return of some goods",
+   "matter": "Sea protest: loaded at Toulon for Hamburg; chased on 29 April 10 miles off Cape Palos to the Île Plane and forced to surrender; brought to La Goulette in May; goods unloaded, some belonging to the patron and crew returned at Berangier's request",
+   "notes": "Six witness statements follow. Act in French.",
+   "keywords": "sea protest; corsairs; English"
+  },
+  "2-IV-1033": {
+   "split_at": [
+    "(481) Reynaud"
+   ],
+   "party2_name": "Jaumé Danain (Dagnan)",
+   "price": 132,
+   "currency": "écus de 64 sous",
+   "other_equivalent": null,
+   "matter": "Debt repayable 45 days after arrival at Marseille",
+   "decision": "Repaid 9 February 1610",
+   "notes": "Folio 480 of the register. Act in French.",
+   "keywords": "debt"
+  },
+  "2-IV-1033b": {
+   "transaction_type": "Debt",
+   "party1_name": "Reynaud Fabre",
+   "party1_role": "debtor",
+   "party2_name": "Pierre Gastaut",
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor, merchant",
+   "price": 66,
+   "currency": "écus de 65 sous",
+   "decision": "Repaid 9 February 1610",
+   "notes": "Folio 481 of the register. Act in French.",
+   "keywords": "debt"
+  },
+  "2-IV-1034": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron)",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for the last fitting-out of the « St-Dominique », repayable 15 days after arrival at Marseille",
+   "notes": "Act in French.",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1035": {
+   "other_parties_names": "Gregorio Massone",
+   "other_parties_origins": "napolitain",
+   "other_parties_role": "debtor",
+   "matter": "Recovery of a debt",
+   "keywords": "debt collection"
+  },
+  "2-IV-1036": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor, caïd",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for six months",
+   "keywords": "loan"
+  },
+  "2-IV-1037": {
+   "party2_name": "Joane Chime (?); Joane Catalor; Rafal Blacamor",
+   "party2_origins": "anglais",
+   "party2_role": "buyer, captain; buyer; buyer",
+   "currency": "écus d'or d'Espagne",
+   "matter": "« Patache » of 700 cantars taken by Tunisian corsairs and brought to La Goulette",
+   "keywords": "ship sale; prize; English"
+  },
+  "2-IV-1038": {
+   "party1_role": "principal, son of Ysouf Coulouli",
+   "party1_origins": "turc de Tunis",
+   "other_parties_names": "Agy Yssouf",
+   "other_parties_origins": "turc de Bône",
+   "other_parties_role": "debtor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Recovery of a 200-écu debt",
+   "keywords": "debt collection"
+  },
+  "2-IV-1039": {
+   "party1_role": "seller, governor and protector of the Militia of the Kingdom of Tunis",
+   "party2_name": "Marcantony Montoreale",
+   "party2_origins": "napolitain",
+   "party2_role": "buyer",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ship of 4,000 cantars with sails and part of its rigging, taken by Tunisian corsairs and brought to La Goulette",
+   "keywords": "ship sale; prize; dey"
+  },
+  "2-IV-1040": {
+   "currency": "livres tournois (monnaie de France)",
+   "matter": "Debt repayable 45 days after arrival at Marseille",
+   "decision": "Repaid 5 September 1609",
+   "notes": "Act in French.",
+   "keywords": "debt"
+  },
+  "2-IV-1041": {
+   "party1_name": "Jehan Neveu",
+   "party1_origins": "de La Rochelle",
+   "party1_role": "debtor, ransomed captive",
+   "currency": "écus (monnaie de France)",
+   "other_equivalent": "36 sous",
+   "matter": "Ransom loan repayable four days after arrival at La Rochelle",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1042": {
+   "party1_name": "Jehan de la Lagueune (?)",
+   "party1_origins": "de La Rochelle",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Reynaud Fabre",
+   "currency": "écus",
+   "other_equivalent": "42 sous",
+   "other_parties_origins": "turc et janissaire de Tunis",
+   "matter": "Ransom loan repayable four days after arrival at La Rochelle",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1043": {
+   "other_parties_names": "Pierre Gaillard",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "debtor, master farrier",
+   "matter": "Recovery of a debt",
+   "notes": "Act in French.",
+   "keywords": "debt collection"
+  },
+  "2-IV-1044": {
+   "party2_origins": "de Marseille",
+   "currency": "livres tournois",
+   "other_equivalent": "7 sous",
+   "matter": "Debt",
+   "decision": "Repaid 29 August 1609",
+   "notes": "Act in French.",
+   "keywords": "debt"
+  },
+  "2-IV-1045": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor, ransomed captive, ship master (patron)",
+   "party2_role": "creditor, ship master (patron)",
+   "other_parties_names": "Chafer Genovese",
+   "other_parties_role": "recipient of ransom payment, raïs of an Algiers galley",
+   "price": 162.5,
+   "currency": "pièces de réaux",
+   "matter": "Ransom loan repayable 45 days (after arrival)",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan; Algiers"
+  },
+  "2-IV-1046": {
+   "split_at": [
+    "(506) Même affaire"
+   ],
+   "transaction_type": "Debt",
+   "party1_name": "Guillon Melle; Antony Peyre",
+   "party1_origins": "de Cannes, habitant à Marseille; de Marseille",
+   "party1_role": "debtor, ransomed captive, ship master (patron); debtor, ship master (patron)",
+   "party2_origins": "de Marseille",
+   "other_parties_names": "Chafer Genovese",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or de 12 réaux",
+   "matter": "Ransom of Guillon Melle",
+   "notes": "Folio 504 of the register. Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1046b": {
+   "transaction_type": "Redemption",
+   "party1_name": null,
+   "party1_origins": null,
+   "party1_role": null,
+   "party2_name": null,
+   "party2_origins": null,
+   "party2_role": null,
+   "other_parties_names": "Guillon Melle",
+   "other_parties_role": "ransomed captive",
+   "price": null,
+   "currency": null,
+   "matter": "Same matter as the previous act",
+   "notes": "Folio 506 of the register.",
+   "keywords": "ransom"
   }
  }
 }
