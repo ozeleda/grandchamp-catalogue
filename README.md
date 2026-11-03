@@ -8,7 +8,7 @@ charters, protests…), together with the documents he published in full.
 | Volume | Period | Acts (Part I) | Full-text documents (Parts II–III) |
 |---|---|---|---|
 | 1 — *La France en Tunisie à la fin du XVIe siècle* (Tunis, 1920) | 1582–1600 | 855 | 33 + 38 |
-| 2 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1921) | 1601–1610 | 1291 | — |
+| 2 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1921) | 1601–1610 | 1299 | — |
 
 Volumes 2–10 can be added the same way: see [Adding a volume](#adding-a-volume).
 
@@ -19,7 +19,7 @@ Volumes 2–10 can be added the same way: see [Adding a volume](#adding-a-volume
 | `catalogue.sqlite` | The database (SQLite 3; open with [DB Browser for SQLite](https://sqlitebrowser.org/), Datasette, Python, R…) |
 | `csv/transactions.csv` | **One row per act with the transaction columns** (see below); opens directly in Excel |
 | `csv/` | Other CSVs (UTF-8 with BOM): `acts`, `act_amounts`, `documents`, `officials` |
-| `annotations/vol1.json` | Hand corrections to the extracted transaction columns (all 855 acts reviewed) |
+| `annotations/vol1.json`, `annotations/vol2.json` | Hand corrections to the extracted transaction columns (all acts of both volumes reviewed) |
 | `pdfs/` | Source scans (Internet Archive, with an OCR text layer) |
 | `volumes.json` | Per-volume settings: page layout plus the manual OCR corrections |
 | `ocr/vol2/` | Fresh OCR of volume 2, one text file per printed page (see below) |
@@ -138,14 +138,22 @@ embedded OCR is too poor to parse. `scripts/ocr_volume.py` therefore:
 Known limitations of volume 2:
 
 * **Book pages 8–9 are missing from the scan.** Their acts are not in the database.
-* **Illegible dates:** some 240 acts have a date that neither OCR could read cleanly. They take the
-  previous act's date and say so in `notes`. A few day numbers were rebuilt from a misread
-  digit, and `notes` says that too.
+* **Illegible dates:** where the margin date could not be read, the act takes the previous act's
+  date and `notes` says so. During review, misread days and months were corrected from the run
+  of surrounding acts or the PDF text layer (a `date` entry in `annotations/vol2.json`), and
+  `notes` explains each correction. Doubtful cases are kept to the month (e.g. `1608-10`).
+* **Merged and split acts:** where the OCR ran two acts together, the review splits them
+  (`split_at`); the extra pieces get suffixed refs such as `2-IV-1025b`. Lines carried over a page
+  break, which the parser took for new acts, were folded back into their act (`drop`).
+* **Pages 142, 172 and 182** OCR'd as noise (skewed scans); their text in `ocr/vol2/` was rebuilt
+  by hand from the PDF's embedded text layer.
+* **Language:** most acts are in Italian; acts with no « En italien » prefix are in French, and the
+  hand notes say « Act in French ».
 * **Folio numbers:** register IV gives folio numbers, e.g. « (269) ». They are kept in the summary and in `notes`.
 * **Not yet processed:** the annexed documents (pp. 183–191) and the name index of
   volumes I–II (pp. 192–252) are not parsed yet.
-* **Not yet reviewed:** the transaction columns of volume 2 are still the automatic draft
-  (`extraction = 'auto'`).
+* **Reviewed:** all 1,299 acts of volume 2 were checked by hand against their summaries, as for
+  volume 1 (`extraction = 'reviewed'`).
 
 ## Schema (main tables)
 

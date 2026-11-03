@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 1255,
+ "reviewed_through_seq": 1279,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -11645,6 +11645,234 @@
    "currency": "écus d'or d'Espagne",
    "matter": "Ransom loan repayable at Cagliari",
    "keywords": "ransom; loan; clergy"
+  },
+  "2-IV-1256": {
+   "transaction_type": "Sale / transfer",
+   "party1_role": "seller (receives the price)",
+   "party2_role": "buyer, ship master (patron)",
+   "matter": "Sale of a Neapolitan frigate",
+   "keywords": "ship sale"
+  },
+  "2-IV-1257": {
+   "party1_name": "Battista Ugho; Joan Cataron",
+   "party1_origins": "de Palerme; ",
+   "party1_role": "party; party, ship master (patron)",
+   "matter": "Illegible act",
+   "notes": "Ink has eaten the paper.",
+   "keywords": "illegible"
+  },
+  "2-IV-1258": {
+   "party2_name": "Marcantonyo Montrealle",
+   "party2_origins": "de Naples",
+   "party2_role": "lender",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan",
+   "notes": "Partly illegible.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1259": {
+   "matter": "Illegible act",
+   "keywords": "illegible"
+  },
+  "2-IV-1260": {
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor, sailor",
+   "price": 45.5,
+   "currency": "écus de 12 réaux",
+   "matter": "Loan",
+   "notes": "Act in French.",
+   "keywords": "loan"
+  },
+  "2-IV-1261": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron)",
+   "party2_role": "creditor",
+   "matter": "Loan for the last fitting-out of his frigate « Sta Maria de Positano »",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1262": {
+   "date": "1610-11-22",
+   "party1_name": "Louyse Roumane",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Orlando Porxio",
+   "party2_origins": "de Pasitano",
+   "party2_role": "creditor, ship master (patron)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable one month after arrival at Positano",
+   "decision": "Repaid 2 December 1610",
+   "notes": "Day read as 2, between acts of 22 and 24 November.",
+   "keywords": "ransom; loan; women"
+  },
+  "2-IV-1263": {
+   "transaction_type": "Debt",
+   "party1_name": "Battista Crouara",
+   "party1_origins": "de Palerme",
+   "party1_role": "debtor, ship master (patron)",
+   "party2_name": "Antonyno de Junta",
+   "party2_origins": "de Messine",
+   "party2_role": "creditor, slave of Mamet bey",
+   "price": 67.5,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt repayable four days after his return from a voyage to Sicily",
+   "keywords": "debt; slavery"
+  },
+  "2-IV-1264": {
+   "party1_origins": "de N.-D. de Montserrat",
+   "party1_role": "debtor, ransomed captive, Benedictine friar",
+   "other_parties_names": "Hamida; Anthoine Berengier",
+   "other_parties_origins": "turc de Tunis; ",
+   "other_parties_role": "recipient of ransom payment; payee at Marseille",
+   "currency": "écus de 12 réaux",
+   "matter": "Ransom loan repayable to Berengier at Marseille",
+   "notes": "Same person as Gioan de Valegio (act of 15 November). Act in French.",
+   "keywords": "ransom; loan; clergy"
+  },
+  "2-IV-1265": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Lauria",
+   "party1_role": "principal, wife of Latanzio Fronte",
+   "party2_name": "Latanzio Fronte",
+   "party2_origins": "de Palerme",
+   "party2_role": "attorney, husband",
+   "other_parties_names": "their family; their master",
+   "other_parties_role": "captives (mother-in-law and five children); slave-owner",
+   "price": 2500,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Latanzio, his wife, mother-in-law and five children were taken by Barbary corsairs in July 1607 and sold at Tunis; he agreed a ransom of 2,500 écus for the family and was allowed to go to Sicily for the money; his wife says he has not yet found all of it, and he asks her for a power of attorney to sell an annuity",
+   "notes": "The power of attorney follows. Act in French.",
+   "keywords": "ransom; family; parole; annuity"
+  },
+  "2-IV-1266": {
+   "party2_name": "Orlando Porxio",
+   "party2_origins": "de Pasitano",
+   "party2_role": "creditor, ship master (patron)",
+   "other_parties_names": "Osta Morato Genovese",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable one month after arrival at Positano",
+   "keywords": "ransom; loan; women"
+  },
+  "2-IV-1267": {
+   "other_parties_names": "Anthoine Lovico",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "deceased",
+   "matter": "Inventory of the clothes and furniture of the late Anthoine Lovico, made at Tunis on 4 December 1610, followed by the inventory (8 December) of goods left with the consul",
+   "notes": "Act in French.",
+   "keywords": "inventory; estate"
+  },
+  "2-IV-1268": {
+   "party2_name": "Barthelemy Ycard",
+   "currency": "écus (monnaie de France)",
+   "other_equivalent": "42 sous",
+   "notes": "Act in French.",
+   "keywords": "payment"
+  },
+  "2-IV-1269": {
+   "transaction_type": "Redemption",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Nardo Coutrarou",
+   "party2_origins": "de Palerme",
+   "party2_role": "creditor",
+   "other_parties_names": "Ferat Chaya",
+   "other_parties_origins": "turc de Tunis",
+   "other_parties_role": "recipient of ransom payment",
+   "matter": "Ransom loan repayable at Palermo",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1270": {
+   "transaction_type": "Redemption",
+   "party1_name": "Crisosthomo de Lauro",
+   "party1_origins": "de Palerme",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Nardo Coutraro",
+   "party2_role": "creditor",
+   "other_parties_names": "Hasan Jouc",
+   "other_parties_origins": "janissaire de Tunis",
+   "other_parties_role": "recipient of ransom payment, janissary",
+   "matter": "Ransom loan repayable on arrival at Palermo",
+   "notes": "The register wrongly gives the date as 7 November.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1271": {
+   "party1_role": "principal, agent of Mamet Jaraye (Moor of Sfax)",
+   "party2_name": "Battista Bonavya; Toscano de Ferro de Joany",
+   "party2_origins": "génois; de Trapani",
+   "party2_role": "attorney; attorney",
+   "matter": "To collect all freight earned by the frigate « Sta Anna »",
+   "keywords": "freight; power of attorney"
+  },
+  "2-IV-1272": {
+   "date": "1610-12-09",
+   "transaction_type": "Power of attorney",
+   "party1_origins": "turc et janissaire de Tunis",
+   "party1_role": "principal, janissary, raïs (English renegade?)",
+   "party2_name": "Francisco di Vintymiglia (chev. d'Aulioulles dit de Vintimille)",
+   "party2_role": "attorney, knight of St John of Jerusalem",
+   "other_parties_names": "Peiron Gassan",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "debtor, ship master (patron)",
+   "currency": "écus d'or",
+   "other_equivalent": "57 aspres",
+   "matter": "To make Peiron Gassan pay a debt of 200 écus 57 aspres",
+   "notes": "Followed by the promise signed by Pietro Gassan.",
+   "keywords": "debt collection; renegade"
+  },
+  "2-IV-1273": {
+   "party2_origins": null,
+   "other_parties_names": "François Estelle; Anthoine Lovico",
+   "other_parties_role": "ship master (patron); deceased owner of the goods",
+   "matter": "Summons to put into the consul's warehouse all goods that came on Estelle's ship for the late Lovico",
+   "notes": "Act in French.",
+   "keywords": "estate; warehouse"
+  },
+  "2-IV-1274": {
+   "matter": "Loan repayable within three months",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "loan"
+  },
+  "2-IV-1275": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron)",
+   "party2_name": "Battista Ugho",
+   "party2_role": "creditor",
+   "other_equivalent": "20 taris",
+   "matter": "Loan for the last fitting-out of his felucca « La nonziade »",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1276": {
+   "party1_name": "Coustanso Genaroune",
+   "party1_role": "recipient, ransomed captive (lady)",
+   "party2_role": "lender",
+   "currency": "écus d'or",
+   "matter": "Fees of her ransom; repayable at Palermo",
+   "keywords": "ransom; fees; women"
+  },
+  "2-IV-1277": {
+   "party2_origins": "marchand napolitain",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Catalan « loude » of about 500 quintals",
+   "keywords": "ship sale"
+  },
+  "2-IV-1278": {
+   "party1_role": "principal, slave of the heirs of Mamet bey, clerk of their bagno",
+   "other_parties_names": "Peiron Gasan",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "holder of the goods",
+   "matter": "Recovery of goods held by Peiron Gasan",
+   "keywords": "slavery; bagno; goods"
+  },
+  "2-IV-1279": {
+   "transaction_type": "Debt",
+   "party1_origins": "de la Torre del Greco",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron)",
+   "party2_role": "creditor",
+   "other_parties_names": "the wife of Latanxio Frunso",
+   "other_parties_origins": "de Palerme",
+   "other_parties_role": "payee (ransom)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan used to pay « the wife of Latanxio Frunso » (her ransom)",
+   "notes": "Last act of the register (30 December 1610).",
+   "keywords": "loan; ransom; family"
   }
  }
 }
