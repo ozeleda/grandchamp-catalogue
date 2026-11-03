@@ -71,17 +71,42 @@
       },
       "toc_page_fixes": {
         "II:22": 140
+      },
+      "pages_dir": "text/vol1/pages",
+      "clean_scan": true,
+      "sections": {
+        "documents": {
+          "pages": [
+            105,
+            221
+          ],
+          "title": "Parts II and III: acts concerning the French Nation and the Coral Companies, printed in full"
+        },
+        "contents": {
+          "pages": [
+            223,
+            229
+          ],
+          "title": "table des matières et des documents publiés, table des signatures"
+        },
+        "corrections": {
+          "pages": [
+            231,
+            231
+          ],
+          "title": "additions et corrections"
+        }
       }
     },
     {
       "id": 2,
-      "file": "pdfs/La France en Tunisie v.2.pdf",
+      "file": "pdfs/La France en Tunisie v.2_Part1.pdf",
       "title": "La France en Tunisie au début du XVIIe siècle (1601-1610)",
       "author": "Pierre Grandchamp",
       "published": "Tunis, 1921",
       "period_start": "1601-11-23",
       "period_end": "1610-12-30",
-      "source_url": null,
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567227",
       "text_source": "ocr/vol2",
       "two_up": {
         "pdf_pages": [
@@ -100,10 +125,6 @@
         ],
         "_comment": "Two book pages per PDF page. 7L is the end of the foreword. Pages with a facsimile signature were shot twice (in the spread, then alone): skip the weak half of the spread and the empty half of the single shot."
       },
-      "missing_pages": [
-        8,
-        9
-      ],
       "page_offset": null,
       "analysis_pages": [
         1,
@@ -125,7 +146,145 @@
           "date_end": "1610-12-30"
         }
       ],
-      "parts": []
+      "parts": [],
+      "scans": [
+        "pdfs/La France en Tunisie v.2_Part1.pdf",
+        "pdfs/La France en Tunisie v.2_Part2.pdf"
+      ],
+      "first_body_page": [
+        0,
+        18
+      ],
+      "pages_dir": "text/vol2/pages",
+      "second_ocr": true,
+      "sections": {
+        "documents": {
+          "pages": [
+            183,
+            191
+          ],
+          "title": "documents annexes (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            192,
+            254
+          ],
+          "title": "table alphabétique des noms cités de 1582 à 1610",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            255,
+            255
+          ],
+          "title": "table des matières et table des signatures"
+        }
+      },
+      "_comment_scans": "The HathiTrust scan (Google OCR) replaced the photocopy (pdfs/La France en Tunisie v.2.pdf, OCR'd with Tesseract into ocr/vol2/), which is now only a second OCR used to correct slips (second_ocr)."
+    },
+    {
+      "id": 3,
+      "scans": [
+        "pdfs/La France en Tunisie v.3_Part1.pdf",
+        "pdfs/La France en Tunisie v.3_Part2.pdf",
+        "pdfs/La France en Tunisie v.3_Part3.pdf"
+      ],
+      "first_body_page": [
+        0,
+        20
+      ],
+      "title": "La France en Tunisie au début du XVIIe siècle (1611-1620)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/La France en Tunisie v.3_Part1.pdf",
+      "published": "Tunis, J. Aloccio, 1925",
+      "period_start": "1611-01-04",
+      "period_end": "1620-12-31",
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567229",
+      "pages_dir": "text/vol3/pages",
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        382
+      ],
+      "registers": [
+        {
+          "number": "IV",
+          "label": "Quatrième registre (suite et fin)",
+          "start_page": 1,
+          "date_start": "1611-01-04",
+          "date_end": "1612-01-16"
+        },
+        {
+          "number": "V",
+          "label": "Cinquième registre",
+          "start_page": 26,
+          "date_start": "1612-03-27",
+          "date_end": "1615-10-30"
+        },
+        {
+          "number": "VI",
+          "label": "Sixième registre",
+          "start_page": 158,
+          "date_start": "1615-10-30",
+          "date_end": "1619-02-08"
+        },
+        {
+          "number": "VII",
+          "label": "Septième registre",
+          "start_page": 323,
+          "date_start": "1619-02-12",
+          "date_end": "1620-12-31"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "documents": {
+          "pages": [
+            383,
+            404
+          ],
+          "title": "documents annexes (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            405,
+            488
+          ],
+          "title": "table des noms de personnes et de navires",
+          "columns": true
+        },
+        "index_slaves": {
+          "pages": [
+            489,
+            491
+          ],
+          "title": "esclaves rachetés par les diverses Rédemptions",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            492,
+            499
+          ],
+          "title": "noms des navires",
+          "columns": true
+        },
+        "glossary": {
+          "pages": [
+            500,
+            501
+          ],
+          "title": "quelques mots d'usage peu courant; termes de pharmacie et de droguerie"
+        },
+        "contents": {
+          "pages": [
+            502,
+            503
+          ],
+          "title": "table des matières, table des signatures et corrections"
+        }
+      }
     }
   ]
 }

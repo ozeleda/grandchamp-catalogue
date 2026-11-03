@@ -25,7 +25,7 @@ import unicodedata
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import extract_parties  # noqa: E402
+import extract_parties
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -57,9 +57,9 @@ MONTH_NUM = {"janv": 1, "fév": 2, "mars": 3, "avril": 4, "mai": 5, "juin": 6, "
 ENTRY_RE = re.compile(
     r"^(?P<indent> {0,6})(?P<br>\[)?"
     r"(?:(?P<sd>[s3]\.\s?d\.)[-.]?"
-    r"|(?P<day>[0-9iIlOBGSU?'\\)*\"«°”’\-]{1,4}?)\s*"
+    r"|(?P<day>1er|[0-9iIlOBGSU?'\\)*\"«°”’\-]{1,4}?)\s*"
     r"(?P<month>\.?[a-zéû]{2,5}(?: [a-z])?[.;,\"’]*|[—–\-~=_]{1,2})\]?"
-    r"|(?P<dayonly>[0-9]{1,2})(?=\s{4,}[A-Z«(]))"
+    r"|(?P<dayonly>[0-9]{1,2}(?:er)?)(?=\s{4,}[A-ZÉ«(]))"
     r"(?=\s|$)\s*(?P<rest>.*)$"
 )
 YEAR_RE = re.compile(r"^\s{0,12}(?P<y>[1iI][5S6][0-9OÔoiflS]{2,3})(?:\s*$|\s{5,}(?P<rest>\S.*)$)")
@@ -118,8 +118,28 @@ def clean_ocr(text):
     return "\n".join(l[cut:] if len(l) - len(l.lstrip()) >= cut else l.lstrip() for l in out)
 
 
+def noisy(vol):
+    """Volumes read from an OCR'd photocopy or a Google OCR layer, where dates can be lost."""
+    return bool(vol.get("text_source") or (vol.get("pages_dir") and not vol.get("clean_scan")))
+
+
+def printed_text(vol, printed):
+    """Layout text of a printed page (from text/vol<N>/pages when present)."""
+    if vol.get("pages_dir"):
+        return page_text(vol, printed)[1]
+    return pdf_page_text(ROOT / vol["file"], printed + vol["page_offset"])
+
+
 def page_text(vol, printed):
-    """(pdf_page, layout text) of a printed page, from the PDF or from the OCR cache."""
+    """(pdf_page, layout text) of a printed page: from text/vol<N>/pages (written by
+    extract_pages.py from the scan), from the old Tesseract cache, or from the PDF."""
+    if vol.get("pages_dir"):
+        src = ROOT / vol["pages_dir"]
+        f = src / f"p{printed:03d}.txt"
+        if not f.exists():
+            return None, ""
+        idx = json.loads((src / "index.json").read_text())
+        return idx[f.stem]["pdf_page"], f.read_text(encoding="utf-8")
     if vol.get("text_source"):
         src = ROOT / vol["text_source"]
         f = src / f"p{printed:03d}.txt"
@@ -184,7 +204,7 @@ def match_entry(line, day_fixes, page, strict=False):
         return None
     if strict and m.group("day") and not re.fullmatch(r"\d{1,2}(?:er|°)?|1\W{1,2}", m.group("day")):
         return None
-    if strict and m.group("dayonly"):
+    if strict == True and m.group("dayonly"):
         return None
     if m.group("sd"):
         return {"undated": True, "day_tok": None, "month": None, "ditto": False,
@@ -202,6 +222,8 @@ def match_entry(line, day_fixes, page, strict=False):
         return {"undated": False, "day_tok": day_tok, "month": None, "ditto": True,
                 "bracket": bool(m.group("br")), "m": m}
     mon = norm_month(mtok, strict)
+    if mon is None and strict == "hathi" and re.match(r"\s{3,}\S", line[m.end("month"):]):
+        mon = norm_month(mtok + ".", True)      # Google OCR: "20 ma", "14 jun", "1er uil,"
     if mon is None:
         return None
     return {"undated": False, "day_tok": day_tok, "month": mon, "ditto": False,
@@ -225,16 +247,22 @@ def iter_analysis_lines(pdf, vol):
         lines = text.split("\n")
         in_note = False
         note_buf = None
+        prev_line = ""
         for line in lines:
             if not line.strip():
                 continue
             if PAGE_HDR_RE.match(line):
                 m = PAGE_HDR_RE.match(line)
-                if int(m.group(1)) != printed and not vol.get("text_source"):
+                if int(m.group(1)) != printed and not noisy(vol):
                     print(f"  ! page header {m.group(1)} on printed page {printed} (pdf {pdf_page})",
                           file=sys.stderr)
                 continue
             fm = FOOTNOTE_RE.match(line)
+            # register IV prints folio numbers "(19)" where footnotes print "(1)": a folio
+            # follows the act's language note, a footnote is a low number on its own line
+            if fm and (int(fm.group(1)) > 5 or re.search(r"En \w+\.\s*[—–]\s*$", prev_line)):
+                fm = None
+            prev_line = line
             if fm and line.strip().startswith("("):
                 in_note = True
                 note_buf = {"page": printed, "pdf_page": pdf_page,
@@ -340,20 +368,22 @@ def parse_analysis(pdf, vol):
         nonlocal current
         if current:
             current["summary"] = join_text(current.pop("lines"))
-            if vol.get("text_source") and current["summary"]:
+            if noisy(vol) and current["summary"]:
                 pieces = split_embedded(current)
                 for piece in pieces[:-1]:
                     acts.append(piece)
                 current = pieces[-1]
             # A bare "s. d." line followed by an editor-supplied "[date]" entry is one act;
             # a scrap of a few characters is OCR debris split off the previous act.
-            if len(current["summary"]) < 20 and acts and vol.get("text_source"):
+            if (len(current["summary"]) < 20 and acts and noisy(vol)
+                    and not re.match(r"(?:En \w+\. — )?(?:\(\d+\) )?M[êe]me acte", current["summary"])):
                 acts[-1]["summary"] = (acts[-1]["summary"] + " " + current["summary"]).strip()
             elif current["summary"]:
                 acts.append(current)
         current = None
 
     last_register = None
+    month_year = None
     last_day = 0
     day_guess = False
     year_seen = False
@@ -384,7 +414,8 @@ def parse_analysis(pdf, vol):
             if role == "consul":
                 in_office["vice_consul"] = None if in_office["vice_consul"] == name else in_office["vice_consul"]
             continue
-        em = (match_entry(line, vol.get("day_fixes", {}), printed, bool(vol.get("text_source")))
+        em = (match_entry(line, vol.get("day_fixes", {}), printed,
+                          "hathi" if vol.get("pages_dir") and noisy(vol) else bool(noisy(vol)))
               if started else None)
         if em:
             flush()
@@ -394,7 +425,7 @@ def parse_analysis(pdf, vol):
                 tok = em["day_tok"]
                 day = vol.get("day_fixes", {}).get(f"{printed}:{tok}") or norm_day(tok)
                 day_guess = False
-                if day is None and re.fullmatch(r"\d\d", tok) and vol.get("text_source"):
+                if day is None and re.fullmatch(r"\d\d", tok) and noisy(vol):
                     # OCR misread of the first digit ("40" for 10): pick the reading that
                     # follows the previous day in the same month
                     cands = [int(c + tok[1]) for c in "0123" if 1 <= int(c + tok[1]) <= 31]
@@ -406,10 +437,10 @@ def parse_analysis(pdf, vol):
                     print(f"  ? p.{printed}: unreadable day {tok!r}", file=sys.stderr)
                 last_day = day or last_day
                 if not em["ditto"]:
-                    if (vol.get("text_source") and month and month >= 11 and em["month"] <= 2
-                            and not year_seen and year < int(reg["date_end"][:4])):
+                    if (noisy(vol) and month and month >= 11 and em["month"] <= 2
+                            and not year_seen and year == month_year and year < int(reg["date_end"][:4])):
                         year += 1          # the new year's heading was lost in the scan
-                    month = em["month"]
+                    month, month_year = em["month"], year
             m = em["m"]
             current = {
                 "register": reg["number"], "year": year, "month": None if undated else month,
@@ -422,14 +453,15 @@ def parse_analysis(pdf, vol):
             }
             year_seen = False
             continue
-        mo = re.match(rf"^\s{{0,4}}(?P<m>{'|'.join(MONTH_ABBR)})\.?\s{{2,}}(?P<rest>[A-ZÉ«(].*)$", line)
-        if started and vol.get("text_source") and mo and norm_month(mo.group("m"), True):
+        mo = re.match(rf"^\s{{0,6}}(?P<m>{'|'.join(MONTH_ABBR)})\.?\s{{2,}}(?P<rest>[A-ZÉ«(].*)$", line)
+        if started and noisy(vol) and mo and norm_month(mo.group("m"), True):
             # month without its day (the day was lost in the scan)
             flush()
             new_m = norm_month(mo.group("m"), True)
-            if month and month >= 11 and new_m <= 2 and not year_seen and year < int(reg["date_end"][:4]):
+            if (month and month >= 11 and new_m <= 2 and not year_seen and year == month_year
+                    and year < int(reg["date_end"][:4])):
                 year += 1
-            month = new_m
+            month, month_year = new_m, year
             current = {
                 "register": reg["number"], "year": year, "month": month, "day": None,
                 "undated": False, "date_supplied": False, "date_raw": line[:mo.start("rest")].strip(),
@@ -439,7 +471,21 @@ def parse_analysis(pdf, vol):
             }
             year_seen = False
             continue
-        if (started and current and vol.get("text_source")
+        lost = re.match(r"^\s{0,3}\.{4,}\s{2,}(?P<rest>\S.*)$", line)
+        if started and noisy(vol) and lost:
+            # the book prints dots where the register's date is torn or effaced
+            flush()
+            current = {
+                "register": reg["number"], "year": year, "month": month,
+                "day": last_day or None, "undated": False, "date_supplied": False,
+                "date_raw": "........ (date effaced in the register)", "page": printed, "pdf_page": pdf_page,
+                "lines": [lost.group("rest")], "day_guess": True,
+                "consul": in_office["consul"], "vice_consul": in_office["vice_consul"],
+                "chancelier": in_office["chancelier"],
+            }
+            year_seen = False
+            continue
+        if (started and current and noisy(vol)
                 and re.match(r"^\s*E[nt]i?\s+it\S*\s*[.,:]?\s*[—–-]", line)
                 and join_text(current["lines"]).rstrip().endswith((".", ")"))):
             # an act whose date column was lost in the scan: same date as the previous act
@@ -653,7 +699,7 @@ def parse_toc(pdf, vol, part):
     first, last = part["toc_pages"]
     lines = []
     for printed in range(first, last + 1):
-        lines += pdf_page_text(pdf, printed + off).split("\n")
+        lines += printed_text(vol, printed).split("\n")
     # Keep only the slice belonging to this part.
     start_pat = re.compile(rf"^\s*{part['number']}\.\s*[—–-]\s*Actes")
     in_part, entries, cur = False, [], None
@@ -725,7 +771,7 @@ def document_texts(pdf, vol, part, entries):
 
     def page_lines(p):
         if p not in cache:
-            cache[p] = [l for l in pdf_page_text(pdf, p + off).split("\n")
+            cache[p] = [l for l in printed_text(vol, p).split("\n")
                         if not PAGE_HDR_RE.match(l)]
         return cache[p]
 
@@ -1037,7 +1083,20 @@ def build(config_path, out_path):
                                     all_title_dates(e["title"])))
             print(f"  part {part['number']}: {len(entries)} documents", file=sys.stderr)
 
-        acts, officials, footnotes = parse_analysis(pdf, vol)
+        acts_file = ROOT / "text" / f"vol{vid}" / "acts.txt"
+        if vol.get("pages_dir") and acts_file.exists():
+            # the organised text file is the source (scripts/organize_text.py writes it)
+            import organize_text
+            acts, officials, footnotes = organize_text.read_acts(acts_file)
+            idx = json.loads((ROOT / vol["pages_dir"] / "index.json").read_text())
+            for o in officials:
+                nxt = acts[min(o["after_act_seq"], len(acts) - 1)]
+                o["register"] = nxt["register"]
+                o["pdf_page"] = idx.get(f"p{o['page']:03d}", {}).get("pdf_page")
+            for f in footnotes:
+                f["pdf_page"] = idx.get(f"p{f['page']:03d}", {}).get("pdf_page")
+        else:
+            acts, officials, footnotes = parse_analysis(pdf, vol)
         ann_path = ROOT / "annotations" / f"vol{vid}.json"
         ann = json.loads(ann_path.read_text(encoding="utf-8")) if ann_path.exists() else {}
         overrides = ann.get("acts", {})
@@ -1112,6 +1171,8 @@ def build(config_path, out_path):
                 tx["notes"] = (why[0].upper() + why[1:] + ". " + (tx["notes"] or "")).strip()
             if a.get("date_supplied"):
                 tx["notes"] = ("Undated in the register (s. d.); date supplied by the editor. " + (tx["notes"] or "")).strip()
+            if a.get("date_note"):
+                tx["notes"] = (a["date_note"].rstrip(".") + ". " + (tx["notes"] or "")).strip()
             for k, v in overrides.get(ref, {}).items():
                 if k in ("date", "drop", "split_at"):
                     continue
