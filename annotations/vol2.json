@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 1166,
+ "reviewed_through_seq": 1206,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -10737,6 +10737,429 @@
   "2-IV-1166": {
    "matter": "Recovery of debts",
    "keywords": "debt collection"
+  },
+  "2-IV-1167": {
+   "transaction_type": "Declaration / attestation",
+   "party1_origins": "turc renégat corse; turc renégat corse",
+   "party1_role": "declarant, redeemer, renegade; declarant, redeemer, renegade",
+   "party2_name": "Dominico de Pedro",
+   "party2_origins": "de St Piero da Xigoro (Corse)",
+   "party2_role": "ransomed captive (refuses to repay)",
+   "other_parties_names": "Divan of the Janissaries; Xenebra; Antonya",
+   "other_parties_origins": "; femme de Joan Jacomo; ",
+   "other_parties_role": "seller (ransom recipient); payee, mother of the declarants; payee, their sister",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransomed Dominico de Pedro in September 1608 for 273 écus, to be repaid to their mother and sister in Corsica; once there he refused, saying he received nothing at Tunis",
+   "notes": "Five witnesses confirm the ransom.",
+   "keywords": "ransom; renegades; family; default"
+  },
+  "2-IV-1168": {
+   "party1_origins": "fils d'Alfonso, corse de Bastia",
+   "party1_role": "principal, renegade",
+   "party2_origins": "de Bastia; de Bastia",
+   "other_parties_names": "Prospero Pagnale de Piedro",
+   "other_parties_origins": "de Mursiglia (Cap Corse)",
+   "other_parties_role": "debtor",
+   "matter": "To manage his affairs and recover what Pagnale owes him",
+   "keywords": "debt collection; renegade"
+  },
+  "2-IV-1169": {
+   "party1_role": "shipper (author of the bill)",
+   "matter": "Registration of a bill of lading of 7 November 1609",
+   "keywords": "bill of lading; registration"
+  },
+  "2-IV-1170": {
+   "party1_origins": "turc, renégat corse",
+   "party1_role": "requesting party, renegade",
+   "other_parties_names": "Prosporo Pagnaliy",
+   "other_parties_origins": "marchand corse",
+   "other_parties_role": "author of the writing",
+   "matter": "Registration of a writing of 2 August 1608 about goods to be carried to Livorno",
+   "keywords": "registration; trade"
+  },
+  "2-IV-1171": {
+   "other_parties_names": "Salem de Suaxi; Soliman Malta",
+   "other_parties_origins": "maure; ",
+   "other_parties_role": "buyer, raïs; seller, raïs, captain of a « berton » that sails to Corsica",
+   "matter": "Dispute over 60 barrels of sardines bought four months ago at La Goulette",
+   "notes": "Three witness statements follow.",
+   "keywords": "sardines; dispute; witnesses"
+  },
+  "2-IV-1172": {
+   "party1_role": "principal, consul for the French nation",
+   "party2_name": "Rodrigo d'Alfonseca",
+   "party2_role": "attorney, doctor",
+   "other_parties_names": "Joany Rio",
+   "other_parties_origins": "de Levante",
+   "other_parties_role": "debtor, ship master (patron)",
+   "matter": "To manage his affairs and recover a debt from Joany Rio",
+   "keywords": "debt collection; consul"
+  },
+  "2-IV-1173": {
+   "transaction_type": "Registration / copy",
+   "party1_role": "requesting party",
+   "other_parties_names": "Joan Battiste Pyn",
+   "other_parties_role": "shipper",
+   "matter": "Registration of a bill of lading of 5 November 1609 (hides and gum arabic)",
+   "keywords": "bill of lading; hides; gum arabic"
+  },
+  "2-IV-1174": {
+   "party1_name": "[...] Tourtel; Beltrand Leouxier (Bertrand Beussier)",
+   "party1_origins": "de Sixfours; de Sixfours",
+   "party1_role": "debtor, ship master (patron); debtor, ransomed captive",
+   "party2_origins": "de Marseille",
+   "other_parties_names": "Ossoman Dey",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus de 12 réaux castillans",
+   "matter": "Ransom of Beussier; repayable 20 days after the polacre « Ste-Brigitte bonne venture » reaches Marseille",
+   "notes": "Folio 914 (OCR 944). Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1175": {
+   "party1_name": "Jehan de Castellane Claret",
+   "party1_origins": "de Claret en Provence",
+   "party1_role": "principal, knight of St John of Jerusalem",
+   "party2_name": "Jehan de Castellane de Dalouis",
+   "party2_role": "attorney, knight of St John of Jerusalem",
+   "matter": "To sell his part of a house at Malta, at Villeneuve (a room and antechamber)",
+   "notes": "Folio 917 (OCR 947). Act in French.",
+   "keywords": "house sale; Malta; knights of Malta"
+  },
+  "2-IV-1176": {
+   "price": 149.67,
+   "currency": "écus de 12 réaux castillans",
+   "matter": "Ransom loan repayable 15 days after the « St-Victor » arrives at Marseille",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1177": {
+   "party1_name": "Mouratto; Racep Aga",
+   "party1_origins": "turc renégat corse; turc renégat corse",
+   "party1_role": "principal, renegade; principal, renegade",
+   "party2_name": "Louxiano de Monfridonne",
+   "party2_role": "attorney, uncle of the principals",
+   "other_parties_names": "Domenico de Pedro",
+   "other_parties_role": "debtor",
+   "matter": "To manage their affairs, notably recovering what Domenico de Pedro owes",
+   "keywords": "debt collection; renegades; family"
+  },
+  "2-IV-1178": {
+   "date": "1610-06-11",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable on arrival at Livorno",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1179": {
+   "party2_name": "Monfredino",
+   "price": 127,
+   "currency": "pièces de 8 réaux castillans",
+   "other_parties_names": "Battiste Merello et frères",
+   "other_parties_origins": "de Gênes",
+   "other_parties_role": "senders",
+   "matter": "Money sent by Merello brothers of Genoa",
+   "keywords": "remittance"
+  },
+  "2-IV-1180": {
+   "split_at": [
+    "(935) Les mêmes"
+   ],
+   "date": "1610-07-01",
+   "party1_origins": "de Marseille; de Marseille",
+   "party1_role": "recipient, deputy of the parties interested in the « St-Esperit »; recipient, deputy",
+   "party2_origins": "de Marseille; de Marseille",
+   "party2_role": "payer, captain of the galleon « St-Victor »; payer, ship's clerk",
+   "other_parties_names": "Jehan du Ventou; the chevalier de Ribaude",
+   "other_parties_origins": "de Marseille; de St-Jean de Jérusalem",
+   "other_parties_role": "captain of the « St-Esperit »; share-holder (4,170 écus)",
+   "other_equivalent": "Plus 1,186 livres tournois; Ribaude's share 4,170 écus, the rest belonging to the officers and crew of the « St-Victor »",
+   "matter": "Money that freed the « St-Esperit » goods at Tunis; Lovico and Berengier mortgage those goods, loaded on the « St-Victor »",
+   "notes": "Printed « 4° juil. », probably 1er juillet. Act in French.",
+   "keywords": "ransom of goods; mortgage; St-Esperit"
+  },
+  "2-IV-1180b": {
+   "date": "1610-07-01",
+   "party1_name": "Anthoine Lovico; Anthoine Berengier",
+   "party1_role": "recipient, deputy of the parties interested in the « St-Esperit »; recipient, deputy",
+   "party2_name": "Gabriou Leonide; François Siguier",
+   "party2_origins": "de Marseille; de Marseille",
+   "party2_role": "payer, captain of the galleon « St-Mathieu »; payer, ship's clerk",
+   "price": 1315.5,
+   "currency": "écus de 12 réaux castillans",
+   "matter": "Same as the previous act",
+   "notes": "Folio 935 of the register. Act in French.",
+   "keywords": "ransom of goods; St-Esperit"
+  },
+  "2-IV-1181": {
+   "split_at": [
+    "(940) Même acte"
+   ],
+   "transaction_type": "Payment / receipt",
+   "party1_name": "Anthoine Lovico; Anthoine Berengier",
+   "party1_role": "recipient, deputy of the parties interested in the « St-Esperit »; recipient, deputy",
+   "party2_name": "Jehan Berenguier",
+   "party2_role": "payer",
+   "price": 2839,
+   "currency": "écus",
+   "other_equivalent": null,
+   "matter": "Same act as above (St-Esperit goods)",
+   "notes": "Folio 937. Act in French.",
+   "keywords": "ransom of goods; St-Esperit"
+  },
+  "2-IV-1181b": {
+   "transaction_type": "Payment / receipt",
+   "party1_name": "Anthoine Lovico; Anthoine Berengier",
+   "party1_role": "recipient, deputy of the parties interested in the « St-Esperit »; recipient, deputy",
+   "party2_name": "Henric Leys",
+   "party2_origins": "marchand anglais",
+   "party2_role": "payer",
+   "price": 1248,
+   "currency": "écus",
+   "matter": "Same act as above (St-Esperit goods)",
+   "notes": "Folio 940. Act in French.",
+   "keywords": "ransom of goods; St-Esperit; English"
+  },
+  "2-IV-1182": {
+   "transaction_type": "Payment / receipt",
+   "party1_name": "Anthoine Lovico; Anthoine Berengier",
+   "party1_role": "recipient, deputy of the parties interested in the « St-Esperit »; recipient, deputy",
+   "party2_name": "Allessandre de Andrea",
+   "party2_origins": "arménien",
+   "party2_role": "payer",
+   "price": 1000,
+   "currency": "pièces de 8 réaux castillans",
+   "matter": "Same act as above (St-Esperit goods)",
+   "notes": "Act in French.",
+   "keywords": "ransom of goods; St-Esperit; Armenians"
+  },
+  "2-IV-1183": {
+   "transaction_type": "Payment / receipt",
+   "party1_name": "Anthoine Lovico; Anthoine Berengier",
+   "party1_role": "recipient, deputy of the parties interested in the « St-Esperit »; recipient, deputy",
+   "party2_name": "Jaumet Anbroxin; Baltexat Constant",
+   "party2_role": "payer; payer",
+   "currency": "écus de 12 réaux",
+   "matter": "Same act as above (St-Esperit goods)",
+   "notes": "Act in French.",
+   "keywords": "ransom of goods; St-Esperit"
+  },
+  "2-IV-1184": {
+   "party1_role": "recipient, ransomed captive",
+   "other_equivalent": "Plus 105 livres tournois",
+   "currency": "écus de 12 réaux",
+   "matter": "Balance of his ransom",
+   "notes": "Act in French.",
+   "keywords": "ransom; Dutch"
+  },
+  "2-IV-1185": {
+   "matter": "Declaration about a small box of jewels loaded at Tripoli of Syria for Flemish merchants at Marseille",
+   "notes": "Act in French.",
+   "keywords": "jewels; St-Esperit"
+  },
+  "2-IV-1186": {
+   "transaction_type": "Payment / receipt",
+   "party1_name": "Anthoine Lovico; Anthoine Berengier",
+   "party1_origins": null,
+   "party1_role": "recipient, deputy of the parties interested in the « St-Esperit »; recipient, deputy",
+   "party2_name": "Marcou Fransiscou",
+   "party2_origins": "marchand corse",
+   "party2_role": "payer",
+   "currency": "écus de 12 réaux",
+   "matter": "Same act as folio 945 (St-Esperit goods)",
+   "notes": "Folio 955 (OCR 959). Act in French.",
+   "keywords": "ransom of goods; St-Esperit"
+  },
+  "2-IV-1187": {
+   "party2_name": "Giulia Cattonia",
+   "party2_origins": "de Naples",
+   "party2_role": "attorney (lady)",
+   "other_parties_names": "Luca Romano",
+   "other_parties_role": "creditor (to be repaid)",
+   "currency": "écus",
+   "matter": "To repay a 214-écu debt to Luca Romano",
+   "keywords": "debt; power of attorney"
+  },
+  "2-IV-1188": {
+   "transaction_type": "Payment / receipt",
+   "party1_name": "Anthoine Lovico; Anthoine Berengier",
+   "party1_origins": null,
+   "party1_role": "recipient, deputy of the parties interested in the « St-Esperit »; recipient, deputy",
+   "party2_name": "Henry de Myron",
+   "party2_role": "payer, knight of St John of Jerusalem, slave of Ossoman Dey",
+   "currency": "écus de 12 réaux",
+   "matter": "Same act as folio 953 (St-Esperit goods)",
+   "notes": "Act in French.",
+   "keywords": "ransom of goods; St-Esperit; knight of Malta"
+  },
+  "2-IV-1189": {
+   "transaction_type": "Sale / transfer",
+   "party1_role": "assignor",
+   "party2_name": "Anthoine Berengier",
+   "party2_role": "assignee",
+   "other_parties_names": "Anthoine Lovico; Jacques Moustiers",
+   "other_parties_origins": "; écuyer de Marseille",
+   "other_parties_role": "debtor; creditor of Vallentin",
+   "currency": "écus",
+   "other_equivalent": "40 aspres",
+   "matter": "Assigns a 490-écu claim on Lovico; Vallentin himself owes this sum to Jacques Moustiers",
+   "notes": "Act in French.",
+   "keywords": "assignment of debt"
+  },
+  "2-IV-1190": {
+   "transaction_type": "Declaration / attestation",
+   "party1_origins": "de St-Tropez",
+   "party1_role": "declarant, ship master (patron)",
+   "other_parties_names": "five galleys of Bizerte; the French consul",
+   "other_parties_role": "captors (armed with Turks and English); obtained the release",
+   "matter": "Sea protest: loaded 246 casks of wine at Bisceglie for Civitavecchia (left 28 May 1610); taken 10 June near Cape Spartivento and brought to La Goulette on 22 June; unloaded, guns and arms taken; ship returned and crew released; asks to return to Christendom",
+   "notes": "Three witness statements follow.",
+   "keywords": "sea protest; corsairs; English; wine"
+  },
+  "2-IV-1191": {
+   "other_parties_names": "four galleys of Bizerte; the French consul",
+   "other_parties_role": "captors; obtained the crew's release",
+   "matter": "Sea protest: loaded wheat at Taranto for Naples; taken in the gulf of Roccella, brought to Sousse, unloaded and plundered; French crew released",
+   "notes": "Three witness statements follow.",
+   "keywords": "sea protest; corsairs; wheat"
+  },
+  "2-IV-1192": {
+   "transaction_type": "Payment / receipt",
+   "party1_name": "Anthoine Lovico; Anthoine Berengier",
+   "party1_origins": null,
+   "party1_role": "recipient, deputy of the parties interested in the « St-Esperit »; recipient, deputy",
+   "party2_name": "Jacques Vaccon",
+   "party2_origins": "de Marseille",
+   "party2_role": "payer",
+   "currency": "écus de 12 réaux",
+   "matter": "Same act as folio 958 (St-Esperit goods)",
+   "notes": "Act in French.",
+   "keywords": "ransom of goods; St-Esperit"
+  },
+  "2-IV-1193": {
+   "transaction_type": "Registration / copy",
+   "party1_role": "requesting party",
+   "other_parties_names": "Redemption of Naples; Jousepe Coulouna Disca",
+   "other_parties_role": "author of the promise; slave to be ransomed",
+   "currency": "ducats",
+   "matter": "Registration of a writing of the Naples Redemption (30 June 1608) promising 100 ducats to whoever ransoms Jousepe Coulouna Disca",
+   "keywords": "redemption mission; reward; registration"
+  },
+  "2-IV-1194": {
+   "party2_role": "attorney, « gran visconte » of Malta",
+   "other_parties_names": "Gregorio Mazzone",
+   "other_parties_origins": "napolitain",
+   "other_parties_role": "debtor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Recovery of a 100-écu debt",
+   "keywords": "debt collection; Malta"
+  },
+  "2-IV-1195": {
+   "date": "1610-07",
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Stefano Simodio",
+   "party1_role": "requesting party",
+   "other_parties_names": "Pierre Firmyn dit Ponpian",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "business associate",
+   "matter": "Inquiry into the affairs of Simodio and Pierre Firmyn",
+   "notes": "Undated (s. d.). Act in French.",
+   "keywords": "inquiry; business"
+  },
+  "2-IV-1196": {
+   "transaction_type": "Marriage contract",
+   "party1_role": "groom, ransomed captive",
+   "party2_name": "Provinca",
+   "party2_role": "bride, sister of Assano",
+   "other_parties_names": "Assano de Cassano",
+   "other_parties_origins": "renégat corse",
+   "other_parties_role": "brother of the bride, caïd, renegade",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Asks Assano for his sister Provinca as lawful wife; Assano consents and both swear on the Scriptures; the 300-écu dowry paid Francesco's ransom",
+   "notes": "Day read as 45; 15.",
+   "keywords": "marriage; dowry; ransom; renegade"
+  },
+  "2-IV-1197": {
+   "party1_origins": "grenadin de Ville Rollette d'Espagne",
+   "party1_role": "recipient, Morisco",
+   "party2_origins": "marchand de Beaucaire",
+   "currency": "écus de 12 réaux",
+   "matter": "Repayment of a debt",
+   "notes": "Act in French.",
+   "keywords": "debt; Moriscos"
+  },
+  "2-IV-1198": {
+   "currency": "écus de 12 réaux castillans",
+   "matter": "Debt",
+   "notes": "Act in French.",
+   "keywords": "debt"
+  },
+  "2-IV-1199": {
+   "party1_origins": "marchands de Villarrubia de la Manche d'Espagne",
+   "party1_role": "declarant, merchant; declarant, merchant; declarant, merchant",
+   "other_parties_names": "Anthoine Arnaud",
+   "other_parties_origins": "de Beaucaire",
+   "other_parties_role": "captain of the « Ste-Marye Madaleyne »",
+   "matter": "Were carried from Marseille to Tunis with 300 Granadans and their goods; very satisfied with their treatment, they order 2,000 réaux held as security at Marseille to be handed to the captain",
+   "notes": "Act in French.",
+   "keywords": "Moriscos; passengers; expulsion"
+  },
+  "2-IV-1200": {
+   "date": "1610-07-23",
+   "party2_origins": "de Marseille; corse; corse",
+   "party2_role": "creditor, ship master (patron); creditor; creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable on arrival at Livorno",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1201": {
+   "price": 62.5,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable on arrival at Livorno",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1202": {
+   "transaction_type": "Debt",
+   "party1_role": "carrier (to pay at Malta), ship master (patron)",
+   "party2_role": "sender",
+   "other_parties_names": "Mamet Lamamy",
+   "other_parties_origins": "maure de Sousse",
+   "other_parties_role": "payee, raïs, slave of the Order of Malta",
+   "currency": "écus d'or",
+   "other_equivalent": "54 aspres",
+   "matter": "Money to be paid at Malta to a Muslim slave of the Order",
+   "keywords": "remittance; Muslim captive; Malta"
+  },
+  "2-IV-1203": {
+   "transaction_type": "Agreement",
+   "party1_origins": "maure de Tunis",
+   "party2_name": "Vincenso Rispolo",
+   "party2_origins": "de Malte",
+   "party2_role": "ransomed captive, ship master (patron)",
+   "other_parties_names": "Hamet Lemamy",
+   "other_parties_role": "Muslim slave of the Order of St John (to be exchanged)",
+   "currency": "écus d'or",
+   "matter": "Ransomed Rispolo at Tripoli of Barbary for 900 écus; will free him when raïs Hamet Lemamy arrives at Tunis",
+   "keywords": "captive exchange; Malta; Tripoli"
+  },
+  "2-IV-1204": {
+   "party2_name": "Louxiano de Monfridonne; Xennebra",
+   "party2_role": "guarantor (to be released); guarantor (to be released), wife of Joan Jacomo",
+   "other_parties_names": "Dominigo Santouchou",
+   "other_parties_role": "principal debtor (260 écus)",
+   "matter": "Promise to release them from their surety for Santouchou's 260 écus",
+   "keywords": "surety; ransom"
+  },
+  "2-IV-1205": {
+   "other_parties_names": "the mother of Mamet bey",
+   "other_parties_role": "recipient of ransom payment",
+   "matter": "Ransom loan repayable at Venice",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1206": {
+   "party1_role": "requesting party",
+   "other_parties_names": "Prospero Pagniale; Peiron [...]",
+   "other_parties_role": "other party; ship master (patron) of the polacre",
+   "matter": "Registration of a record of 23 April 1609 about goods on the polacre « Ste-Marie bonne venture », and of another paper of Pagniale about 250 écus",
+   "keywords": "registration; trade"
   }
  }
 }
