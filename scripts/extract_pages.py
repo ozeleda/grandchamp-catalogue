@@ -145,7 +145,7 @@ def normalise(text):
         # "18   En italien. —" / "   faire venir..." (end of the previous act) / "      Ettor Cuigliandro...":
         if lang_only.match(rest) and nxt_i is not None and re.match(r"^\s+[a-zà-ÿ]", merged[nxt_i]):
             k2 = next((k for k in range(nxt_i + 1, min(nxt_i + 3, len(merged))) if merged[k].strip()), None)
-            if k2 is not None and re.match(r"^\s{14,}[A-ZÉ]", merged[k2]):
+            if k2 is not None and re.match(r"^\s{14,}[A-ZÉ(]", merged[k2]):
                 cont = merged[nxt_i]
                 merged[nxt_i] = l[:m.end()] + rest.strip() + " " + merged[k2].strip()
                 merged[i] = cont

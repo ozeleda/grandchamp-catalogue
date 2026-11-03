@@ -51,7 +51,114 @@
    "page": "p179",
    "old": "19 -\n22 -        En italien. — (Illisible).\n\n              Le patron Anthouron",
    "new": "19 -          En italien. — (Illisible).\n\n22 -          Le patron Anthouron"
+  },
+  {
+   "page": "p080",
+   "old": "pur Marem Rais",
+   "new": "pour Marem Rais",
+   "note": "erratum of the book (p. 256)"
+  },
+  {
+   "page": "p119",
+   "old": "lui étaient dus.",
+   "new": "lui étaient dues.",
+   "note": "erratum of the book (p. 256)"
+  },
+  {
+   "page": "p125",
+   "old": "lui a pris les cuirs",
+   "new": "lui ait pris les cuirs",
+   "note": "erratum of the book (p. 256)"
+  },
+  {
+   "page": "p128",
+   "old": "Charlo Ayme di Medrid\n",
+   "new": "Charlo Ayme di Medrid (De Myredry)\n",
+   "note": "erratum of the book (p. 256)"
+  },
+  {
+   "page": "p029",
+   "old": "            Silviano Gauderissi         onces de Malte payées pour son\n                                         121\n",
+   "new": "            Silviano Gauderissi 121 onces de Malte payées pour son\n",
+   "note": "number displaced by the OCR"
   }
  ],
- "acts": {}
+ "acts": {
+  "date": [
+   {
+    "find": "(233) Fra don Melchiore",
+    "date": "1608-07-16",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   },
+   {
+    "find": "(234) Beirano Agha",
+    "date": "1608-07-19",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   },
+   {
+    "find": "(236) Le P. Fra Antonio Cazzolino",
+    "date": "1608-07-19",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   },
+   {
+    "find": "(238) Girolamo Bianco",
+    "date": "1608-07-23",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   },
+   {
+    "find": "(239) Gio Boneaud",
+    "date": "1608-07-24",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   },
+   {
+    "find": "(240) Le patron Avangelista Bertolo",
+    "date": "1608-07-25",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   },
+   {
+    "find": "(243) Le patron Salviano Gauderese",
+    "date": "1608-07-26",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   },
+   {
+    "find": "(244) Don Agostino Baressi",
+    "date": "1608-07-31",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   },
+   {
+    "find": "(245) Simon Paulo Parisi",
+    "date": "1608-07-31",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   },
+   {
+    "find": "(246) Marcho Franco",
+    "date": "1608-07-31",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   },
+   {
+    "find": "(247) Même affaire",
+    "date": "1608-07-31",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   },
+   {
+    "find": "(248) Marcho Francesco",
+    "date": "1608-07-31",
+    "note": "Printed « juin » in the book, but these acts follow acts of July 1608 and one of them cites the date of 7 July (and « 31 juin » does not exist): month corrected to July."
+   }
+  ],
+  "replace": [
+   {
+    "find": "(418) Hugues Changet",
+    "old": "la charge de consul.",
+    "new": "la charge de consul. Voir la copie in extenso aux Documents annexes.",
+    "note": "erratum of the book (p. 256)"
+   },
+   {
+    "find": "Giacomo Santo Dangeli corse etc me",
+    "old": "Giacomo Santo Dangeli corse etc me dans",
+    "new": "Giacomo Santo Dangeli, corse, etc... (comme dans",
+    "note": "checked against the page image"
+   }
+  ]
+ }
 }

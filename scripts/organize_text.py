@@ -374,6 +374,12 @@ def build_acts(vol):
         o["after_act_seq"] = next((i for i, a in enumerate(acts) if a["summary"] == o["_before"]), len(acts))
     for a in acts:
         a["summary"] = re.sub(r"\s{2,}", " ", a["summary"]).strip()
+        # the book prints ½ as a stacked fraction, which the Google OCR drops: "53 écus et d'or"
+        fixed = re.sub(r"(\d+ (?:écus|pièces|onces|taris|réaulx|sequins|ducats|livres|cantars)(?: d'or)? et)"
+                       r"(?=\s*(?:[,.;)]|d'or|payé|pour|de Sicile|de 8))", r"\1 ½", a["summary"])
+        if fixed != a["summary"]:
+            a["summary"] = fixed
+            a.setdefault("ocr_changes", []).append("½ restored")
     if vol.get("second_ocr"):
         second = dict(vol)
         second.pop("pages_dir", None)
@@ -383,7 +389,10 @@ def build_acts(vol):
         by_page = {}
         for o in old:
             by_page.setdefault(o["page"], []).append(o)
+        hand = {f.stem for f in (ROOT / "text" / f"vol{vid}" / "transcribed").glob("p*.txt")}
         for a in acts:
+            if page_label(a["page"]) in hand:
+                continue                 # transcribed from the image: nothing to correct
             cands = [o for p in (a["page"] - 1, a["page"], a["page"] + 1) for o in by_page.get(p, [])]
             if not cands:
                 continue
@@ -393,15 +402,18 @@ def build_acts(vol):
                 continue
             # Pages where the Google OCR lost its punctuation and scattered words (curved
             # pages): use the other OCR as the base text and correct it with this one.
-            def density(t):
-                return (t.count(",") + t.count(".")) / max(1, len(t))
-            if (best["summary"].count(",") + best["summary"].count(".") >= 3
+            def density(t):            # punctuation attached to a word (OCR specks do not count)
+                return len(re.findall(r"\w[,.;]", t)) / max(1, len(t))
+            ratio = len(best["summary"]) / max(1, len(a["summary"]))
+            if (len(re.findall(r"\w[,.;]", best["summary"])) >= 3 and 0.75 <= ratio <= 1.3
+                    and difflib.SequenceMatcher(None, norm(a["summary"]), norm(best["summary"])).ratio() >= 0.75
                     and density(a["summary"]) < 0.6 * density(best["summary"])):
                 base = re.sub(r"(?<=\s)[|¦©®ÈÌ](?=\s)|\s+[|¦]\s*$", "", best["summary"])
                 a["summary"], ch = merge_ocr(re.sub(r"\s{2,}", " ", base), a["summary"], freq)
-                a["ocr_changes"] = ["text taken from the second OCR (this page is badly read in the main scan)"] + ch
+                a["ocr_changes"] = a.get("ocr_changes", []) + ["text taken from the second OCR (this page is badly read in the main scan)"] + ch
             else:
-                a["summary"], a["ocr_changes"] = merge_ocr(a["summary"], best["summary"], freq)
+                a["summary"], ch = merge_ocr(a["summary"], best["summary"], freq)
+                a["ocr_changes"] = a.get("ocr_changes", []) + ch
     for i, a in enumerate(acts, 1):
         a["ref"] = f"{vid}-{a['register']}-{i:04d}"
     return acts, officials, footnotes

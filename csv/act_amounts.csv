@@ -425,6 +425,7 @@
 1-I-0166,10.0,carlin,,10 carlins
 2-III-0166,194.0,écu,,194 écus
 1-I-0167,33.0,écu,d'or d'Espagne,33 écus d'or d'Espagne
+2-III-0167,121.0,once,de Malte,121 onces de Malte
 2-III-0168,92.0,once,de Malte,92 onces de Malte
 3-V-0168,30000.0,écu,,30.000 écus
 1-I-0169,50.0,aspre,,50 aspres
@@ -581,9 +582,7 @@
 2-III-0221,326.0,écu,d'or d'Espagne,326 écus d'or d'Espagne
 3-V-0221,8000.0,écu,,8.000 écus
 3-V-0221,8000.0,écu,,8.000 écus
-2-III-0222,327.0,écu,,327 écus
-2-III-0222,30.0,écu,,30 écus
-2-III-0222,10.0,écu,,10 écus
+2-III-0222,327.0,écu,d'or,327 écus d'or
 1-I-0223,300.0,écu,,300 écus
 2-III-0223,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
 2-III-0223,10.0,écu,d'or,10 écus d'or
@@ -1105,8 +1104,7 @@
 2-III-0401,184.0,écu,d'or d'Espagne,184 écus d'or d'Espagne
 1-II-0402,150.0,once,,150 onces
 1-II-0402,30.0,tari,,30 taris
-2-III-0402,22.0,écu,,22 écus
-2-III-0402,52.0,aspre,,52 aspres
+2-III-0402,32.0,écu,,32 écus
 3-V-0402,120.0,écu,d'or d'Espagne,120 écus d'or d'Espagne
 1-II-0403,105.0,écu,d'or d'Espagne,105 écus d'or d'Espagne
 2-III-0403,276.0,écu,d'or d'Espagne,276 écus d'or d'Espagne
@@ -1305,7 +1303,7 @@
 1-II-0482,14.0,écu,d'or d'Espagne,14 écus d'or d'Espagne
 2-III-0482,50.0,écu,,50 écus
 1-II-0483,5.0,livre,,5 livres
-2-III-0483,0.0,écu,d'or d'Espagne,000 écus d'or d'Espagne
+2-III-0483,5000.0,écu,d'or d'Espagne,5.000 écus d'or d'Espagne
 2-III-0484,258.0,écu,,258 écus
 2-III-0484,48.0,aspre,,48 aspres
 3-V-0484,400.0,écu,d'or d'Espagne,400 écus d'or d'Espagne
@@ -1847,8 +1845,8 @@
 2-III-0677,43.0,aspre,,43 aspres
 3-V-0677,174.0,écu,d'or,174 écus d'or
 1-II-0678,116.0,écu,d'or d'Espagne,116 écus d'or d'Espagne
-2-III-0678,32.0,aspre,,32 aspres
 2-III-0678,246.0,écu,,246 écus
+2-III-0678,32.0,aspre,,32 aspres
 3-V-0678,864.0,écu,d'or d'Espagne,864 écus d'or d'Espagne
 1-II-0679,32.0,écu,d'or d'Espagne,32 écus d'or d'Espagne
 2-III-0679,91.0,écu,,91 écus
@@ -2394,7 +2392,7 @@
 2-IV-0908,53.0,écu,d'or d'Espagne,53 écus d'or d'Espagne
 3-V-0908,14.0,écu,d'or,14 écus d'or
 2-IV-0909,67.0,écu,d'or d'Espagne,67 écus d'or d'Espagne
-2-IV-0910,466.0,écu,d'or,466 écus d'or
+2-IV-0910,466.0,écu,d'or d'Espagne,466 écus d'or d'Espagne
 2-IV-0911,40.0,écu,,40 écus
 3-V-0911,8.0,réal,,8 réaux
 3-V-0913,24.0,aspre,,24 aspres
@@ -2885,13 +2883,12 @@
 2-IV-1174,419.0,ducat,,419 ducats
 2-IV-1174,10.0,carlin,,10 carlins
 3-VI-1174,112.0,écu,d'or,112 écus d'or
-2-IV-1175,141.0,écu,,141 écus
+2-IV-1175,141.0,écu,d'or d'Espagne,141 écus d'or d'Espagne
 2-IV-1176,150.0,écu,d'or de 64 aspres,150 écus d'or de 64 aspres
 3-VI-1176,56.0,écu,d'or,56 écus d'or
 3-VI-1178,187.0,écu,,187 écus
-2-IV-1180,581.0,écu,,581 écus
+2-IV-1180,531.0,écu,d'or,531 écus d'or
 2-IV-1180,51.0,aspre,,51 aspres
-2-IV-1180,207.0,écu,,207 écus
 2-IV-1181,207.0,écu,,207 écus
 2-IV-1182,386.0,écu,,386 écus
 2-IV-1183,53.0,écu,,53 écus
