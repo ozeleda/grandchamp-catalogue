@@ -319,6 +319,226 @@
       ]
     },
     {
+      "id": 4,
+      "scans": [
+        "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+        "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part2.pdf",
+        "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part3.pdf",
+        "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part4.pdf"
+      ],
+      "two_up": true,
+      "title": "La France en Tunisie au XVIIe siècle (1621-1630)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+      "published": "Tunis, J. Barlier, 1926",
+      "period_start": "1621-01-01",
+      "period_end": "1630-12-31",
+      "source": "photocopy (two pages per sheet); the HathiTrust photographs (pdfs/La France en Tunisie v.4_PartN.pdf) are less legible",
+      "pages_dir": "text/vol4/pages",
+      "page_offset": null,
+      "registers": [
+        {
+          "number": "VII",
+          "label": "Septième registre (suite et fin)",
+          "start_page": 1,
+          "date_start": "1619-02-12",
+          "date_end": "1623-04-28"
+        },
+        {
+          "number": "VIII",
+          "label": "Huitième registre",
+          "start_page": 57,
+          "date_start": "1623-03-11",
+          "date_end": "1624-11-11"
+        },
+        {
+          "number": "IX",
+          "label": "Neuvième registre",
+          "start_page": 145,
+          "date_start": "1624-11-20",
+          "date_end": "1627-09-14"
+        },
+        {
+          "number": "X",
+          "label": "Dixième registre",
+          "start_page": 251,
+          "date_start": "1628-01-22",
+          "date_end": "1630-01-15"
+        },
+        {
+          "number": "XI",
+          "label": "Onzième registre",
+          "start_page": 327,
+          "date_start": "1630-01-16",
+          "date_end": "1631-08-14"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "documents": {
+          "pages": [
+            353,
+            356
+          ],
+          "title": "documents annexes : documents relatifs à Thomas de Arcos (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            357,
+            431
+          ],
+          "title": "table des noms cités",
+          "columns": true
+        },
+        "index_slaves": {
+          "pages": [
+            432,
+            435
+          ],
+          "title": "esclaves rachetés par les diverses Rédemptions de 1621 à 1630",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            436,
+            443
+          ],
+          "title": "noms des navires cités",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            444,
+            447
+          ],
+          "title": "table des matières, table des signatures, corrections"
+        }
+      },
+      "month_headings": true,
+      "first_body_page": [
+        0,
+        14,
+        "R"
+      ],
+      "analysis_pages": [
+        1,
+        352
+      ],
+      "page_numbers": {
+        "Part4-021L": 344,
+        "Part4-022L": 346,
+        "Part4-022R": 347,
+        "Part4-023L": 348,
+        "Part4-023R": 349,
+        "Part4-024L": 350,
+        "Part4-024R": 351,
+        "Part4-025L": 352,
+        "Part4-025R": 353,
+        "Part4-026L": 354,
+        "Part4-026R": 355,
+        "Part4-027L": 356,
+        "Part4-027R": 357,
+        "Part4-028L": 358,
+        "Part4-028R": 359,
+        "Part4-029L": 360,
+        "Part4-029R": 361,
+        "Part4-030L": 362,
+        "Part4-030R": 363,
+        "Part4-031L": 364,
+        "Part4-031R": 365,
+        "Part4-032L": 366,
+        "Part4-032R": 367,
+        "Part4-033L": 368,
+        "Part4-033R": 369,
+        "Part4-034L": 370,
+        "Part4-034R": 371,
+        "Part4-035L": 372,
+        "Part4-035R": 373,
+        "Part4-036L": 374,
+        "Part4-036R": 375,
+        "Part4-037L": 376,
+        "Part4-037R": 377,
+        "Part4-038L": 378,
+        "Part4-038R": 379,
+        "Part4-039L": 380,
+        "Part4-039R": 381,
+        "Part4-040L": 382,
+        "Part4-040R": 383,
+        "Part4-041L": 384,
+        "Part4-041R": 385,
+        "Part4-042L": 386,
+        "Part4-042R": 387,
+        "Part4-043L": 388,
+        "Part4-043R": 389,
+        "Part4-044L": 390,
+        "Part4-044R": 391,
+        "Part4-045L": 392,
+        "Part4-045R": 393,
+        "Part4-046L": 394,
+        "Part4-046R": 395,
+        "Part4-047L": 396,
+        "Part4-047R": 397,
+        "Part4-048L": 398,
+        "Part4-048R": 399,
+        "Part4-049L": 400,
+        "Part4-049R": 401,
+        "Part4-050L": 402,
+        "Part4-050R": 403,
+        "Part4-051L": 404,
+        "Part4-051R": 405,
+        "Part4-052L": 406,
+        "Part4-052R": 407,
+        "Part4-053L": 408,
+        "Part4-053R": 409,
+        "Part4-054L": 410,
+        "Part4-054R": 411,
+        "Part4-055L": 412,
+        "Part4-055R": 413,
+        "Part4-056L": 414,
+        "Part4-056R": 415,
+        "Part4-057L": 416,
+        "Part4-057R": 417,
+        "Part4-058L": 418,
+        "Part4-058R": 419,
+        "Part4-059L": 420,
+        "Part4-059R": 421,
+        "Part4-060L": 422,
+        "Part4-060R": 423,
+        "Part4-061L": 424,
+        "Part4-061R": 425,
+        "Part4-062L": 426,
+        "Part4-062R": 427,
+        "Part4-063L": 428,
+        "Part4-063R": 429,
+        "Part4-064L": 430,
+        "Part4-064R": 431,
+        "Part4-065L": 432,
+        "Part4-065R": 433,
+        "Part4-066L": 434,
+        "Part4-066R": 435,
+        "Part4-067L": 436,
+        "Part4-067R": 437,
+        "Part4-068L": 438,
+        "Part4-068R": 439,
+        "Part4-069L": 440,
+        "Part4-069R": 441,
+        "Part4-070L": 442,
+        "Part4-070R": 443,
+        "Part4-071L": 444,
+        "Part4-071R": 445,
+        "Part4-072L": 446,
+        "Part4-072R": 447,
+        "Part4-073L": 448,
+        "Part4-073R": 449
+      },
+      "_page_numbers": "printed page of halves whose running header the OCR could not read (checked on the page images)",
+      "ocr_digit_confusions": {
+        "4": "1",
+        "9": "2"
+      },
+      "_ocr_digit_confusions": "Tesseract reads the bold margin 1 as 4 and 2 as 9 in this photocopy; the Acrobat layer's reading is taken where they disagree this way"
+    },
+    {
       "id": 5,
       "scans": [
         "pdfs/La France en Tunisie v.5_Part1.pdf",

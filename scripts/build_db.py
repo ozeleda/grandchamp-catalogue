@@ -485,6 +485,17 @@ def parse_analysis(pdf, vol):
                     later = [c for c in cands if c >= (prev or 0)]
                     day = min(later) if later else max(cands)
                     day_guess = True
+                conf = vol.get("ocr_digit_confusions")
+                if (conf and day and em["ditto"] and last_day and day < last_day
+                        and re.fullmatch(r"\d{1,2}", tok) and any(ch in conf for ch in tok)):
+                    # a day going backwards that a known misreading explains (« 14 » read « 44 »,
+                    # then « 4 » for 1... ): take the closest reading that keeps the order
+                    import itertools
+                    opts = [[ch] + ([conf[ch]] if ch in conf else []) for ch in tok]
+                    later = sorted(v for v in {int("".join(o)) for o in itertools.product(*opts)}
+                                   if last_day <= v <= 31)
+                    if later:
+                        day, day_guess = later[0], True
                 if day is None:
                     print(f"  ? p.{printed}: unreadable day {tok!r}", file=sys.stderr)
                 month_inferred = False

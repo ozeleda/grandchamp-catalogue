@@ -275,6 +275,43 @@ MONTH_ABBR = {"janvier": "janv.", "février": "fév.", "fevrier": "fév.", "mars
               "septembre": "sept.", "octobre": "oct.", "novembre": "nov.", "décembre": "déc.", "decembre": "déc."}
 
 
+def acrobat_margin(pdf, page, side):
+    """Volume 4: the photocopy's own OCR layer (Acrobat) reads the bold margin digits better than
+    Tesseract (which takes 1 for 4 and 2 for 9). Return its margin lines for one half of the
+    PDF page, in the form of margin_ocr.json, so that image_months() can compare the readings."""
+    import ocr_volume as OV
+    info = subprocess.run(["pdfinfo", "-f", str(page), "-l", str(page), str(pdf)], capture_output=True,
+                          text=True).stdout
+    m = re.search(r"Page\s+%d size:\s+([\d.]+) x ([\d.]+)" % page, info)
+    if not m:
+        return None
+    pw, ph = float(m.group(1)), float(m.group(2))
+    try:
+        g = OV.find_gutter(pdf, page, int(pw))
+    except Exception:
+        g = int(pw / 2)
+    x0, w = (0, g) if side == "L" else (g, int(pw) - g)
+    t = subprocess.run(["pdftotext", "-layout", "-f", str(page), "-l", str(page), "-x", str(x0), "-y", "0",
+                        "-W", str(w), "-H", str(int(ph)), str(pdf), "-"], capture_output=True, text=True).stdout
+    rows = [re.sub(r"^(\s*)[iIl](\d)", r"\g<1>1\2", re.sub(r"^(\s*)(\d)[iIl](?=\s)", r"\g<1>\g<2>1", l))
+            for l in t.split("\n") if l.strip()]      # « i7 » for 17, « 2i » for 21
+    head = None
+    for l in rows[:3]:
+        w = l.split()
+        if w and w[0][:1].isupper() and fuzzy_month(w[0]):
+            head = fuzzy_month(w[0])                 # running head « Février ... 1621 »
+            break
+    lines = []
+    for k, l in enumerate(rows):
+        s2 = l.strip()
+        y = (k + 1) / (len(rows) + 1)
+        if re.match(r"^\s{0,8}(?:1er|1°|\d{1,2})\s*[—_-]", l) or re.match(r"^\s{0,8}\d{1,2}\s+[a-zé]{3,5}\.?\s", l):
+            lines.append([max(y, 0.1), s2[:24], 0.0])
+        elif len(s2.split()) == 1 and s2[:1].isupper() and k > 1:
+            lines.append([max(y, 0.1), s2[:24], 0.0])
+    return {"head": head, "lines": lines}
+
+
 def fix_first_of_month(text):
     """The superscript of « 1er » makes the OCR read « 47 » or « 17 ». 47 is never a day; 17 is
     taken for 1er only between two acts of the 1st."""
@@ -331,7 +368,17 @@ def margin_entries(page_ocr):
     return seq
 
 
-def image_months(text, page_ocr):
+def confusable(a, b, conf):
+    """True when the text's day b may be a misreading of the image's day a (« 44 » for 14)."""
+    if a == b:
+        return True
+    if not conf:
+        return False
+    sa, sb = str(a), str(b)
+    return len(sa) == len(sb) and all(x == y or conf.get(y) == x for x, y in zip(sa, sb))
+
+
+def image_months(text, page_ocr, conf=None):
     """Put back the month headings the Google OCR lost, from margin_ocr.json (Tesseract on the
     left part of the page image): the running head names the month of the first act on the
     page, and each heading the month of the act that follows it. A heading line is inserted
@@ -361,10 +408,12 @@ def image_months(text, page_ocr):
     L = [[0] * (len(B) + 1) for _ in range(len(A) + 1)]
     for i in range(len(A) - 1, -1, -1):
         for j in range(len(B) - 1, -1, -1):
-            L[i][j] = L[i + 1][j + 1] + 1 if A[i] == B[j] else max(L[i + 1][j], L[i][j + 1])
-    pair, i, j = {}, 0, 0
+            L[i][j] = L[i + 1][j + 1] + 1 if confusable(A[i], B[j], conf) else max(L[i + 1][j], L[i][j + 1])
+    pair, i, j, fixed_days_pre = {}, 0, 0, {}
     while i < len(A) and j < len(B):
-        if A[i] == B[j]:
+        if confusable(A[i], B[j], conf):
+            if A[i] != B[j]:
+                fixed_days_pre[acts[j][0]] = A[i]      # the other OCR's reading of a confusable day
             pair[ds[i]] = j
             i, j = i + 1, j + 1
         elif L[i + 1][j] >= L[i][j + 1]:
@@ -373,7 +422,7 @@ def image_months(text, page_ocr):
             j += 1
     # a day the two OCRs read differently, between two days they agree on: take the image's
     # reading when it fits the order of the days (Google « 27 » between 11 and 13, image « 12 »)
-    fixed_days = {}
+    fixed_days = dict(fixed_days_pre)
     anchors = sorted(pair.items())                       # (seq index, act index)
     bounds = [(-1, -1)] + anchors + [(len(seq), len(acts))]
     for (s0, a0), (s1, a1) in zip(bounds, bounds[1:]):
@@ -506,9 +555,20 @@ def main():
         f.unlink()
 
     seq = []                               # (file, pdf_page, text, detected number)
+    sides = {}                             # two-page photocopies: (file, pdf_page) of a half -> "L"/"R"
     for name in scans:
         pdf = ROOT / name
         for p in range(1, pdf_pages(pdf) + 1):
+            if vol.get("two_up"):
+                # two book pages per PDF page, OCR'd half by half by ocr_two_up.py
+                part = Path(name).stem.rsplit("_", 1)[-1]
+                for side in "LR":
+                    f = ROOT / "text" / f"vol{vid}" / "halves" / f"{part}-{p:03d}{side}.txt"
+                    t = f.read_text(encoding="utf-8") if f.exists() else ""
+                    sides[len(seq)] = side
+                    pinned = vol.get("page_numbers", {}).get(f"{part}-{p:03d}{side}")
+                    seq.append([name, p, t, pinned or header_number(t)])
+                continue
             t = layout_text(pdf, p)
             seq.append([name, p, t, header_number(t)])
 
@@ -516,7 +576,8 @@ def main():
     # numbers never grow faster than PDF pages). Pages between anchors are numbered in
     # order; surplus pages between two anchors are plates (the ones with least text).
     first_body = vol["first_body_page"]                 # [part index, pdf page] of printed page 1
-    start = next(i for i, s in enumerate(seq) if s[0] == scans[first_body[0]] and s[1] == first_body[1])
+    start = next(i for i, s in enumerate(seq) if s[0] == scans[first_body[0]] and s[1] == first_body[1]
+                 and (len(first_body) < 3 or sides.get(i) == first_body[2]))   # [part, page, "L"/"R"]
     seq[start][3] = 1
     cand = [(i, seq[i][3]) for i in range(start, len(seq)) if seq[i][3]]
     best = [1] * len(cand); prev = [-1] * len(cand)
@@ -542,7 +603,8 @@ def main():
             keep = sorted(sorted(between, key=text_len, reverse=True)[:need])
             for k in between:
                 if k not in keep:
-                    labels[k] = f"plate-{seq[k][1]:03d}" if seq[k][0] == scans[0] else f"plate-{scans.index(seq[k][0]) + 1}-{seq[k][1]:03d}"
+                    labels[k] = (f"plate-{seq[k][1]:03d}" if seq[k][0] == scans[0] else
+                                 f"plate-{scans.index(seq[k][0]) + 1}-{seq[k][1]:03d}") + sides.get(k, "")
                     print(f"  plate: {seq[k][0]} p.{seq[k][1]}", file=sys.stderr)
             between = keep
         elif len(between) < need:
@@ -584,7 +646,7 @@ def main():
     fixes_path = ROOT / "text" / f"vol{vid}" / "fixes.json"
     page_fixes = json.loads(fixes_path.read_text(encoding="utf-8")).get("pages", []) if fixes_path.exists() else []
     index = {}
-    for (name, p, t, n), lab in zip(seq, labels):
+    for k_seq, ((name, p, t, n), lab) in enumerate(zip(seq, labels)):
         if not lab or len(t.strip()) < 40 or re.search(r"CIRCULATION DEPARTMENT|GENERAL LIBRARY - U\.C", t):
             continue
         if lab in vol.get("second_ocr_pages", []):
@@ -606,8 +668,16 @@ def main():
             t = re.sub(r"(?m)^(\s{0,3})(?:[14][19]?(?:\"|\*\*?|°|º)|[Ll]er|1 er|1r|er)(?=\s+(?:[—–-]|[A-ZÉ(«]|En\s|janv|f[ée]v|mars|avril|mai|juin|juil|ao[uû]t|sept|oct|nov|d[ée]c|$))",
                        r"\g<1>1er", t)
             if vol.get("month_headings"):
-                t = fix_first_of_month(t)
-                t = image_months(t, margin_ocr.get(lab))
+                if not vol.get("ocr_digit_confusions"):      # vol. 4: « 47 » is 17 there, not 1er
+                    t = fix_first_of_month(t)
+                po = margin_ocr.get(lab)
+                if vol.get("two_up") and k_seq in sides:
+                    # the photocopy's Acrobat layer for the margin days and headings; the running
+                    # head from it or, failing that, from Tesseract on the top of the half page
+                    acro = acrobat_margin(ROOT / name, p, sides[k_seq]) or {"head": None, "lines": []}
+                    acro["head"] = acro["head"] or (po or {}).get("head")
+                    po = acro
+                t = image_months(t, po, vol.get("ocr_digit_confusions"))
                 t = month_headings(t, (int(vol["period_start"][:4]), int(vol["period_end"][:4]) + 3))
         for f in page_fixes:          # hand corrections of the page text, checked against the scan
             if f["page"] == lab:
@@ -616,6 +686,8 @@ def main():
                 t = t.replace(f["old"], f["new"])
         (out_dir / f"{lab}.txt").write_text(t, encoding="utf-8")
         index[lab] = {"file": name, "pdf_page": p}
+        if k_seq in sides:
+            index[lab]["side"] = sides[k_seq]          # left or right half of the PDF page
     (out_dir / "index.json").write_text(json.dumps(index, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"vol {vid}: {len(index)} pages written to {out_dir.relative_to(ROOT)}")
 

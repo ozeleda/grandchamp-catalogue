@@ -21,7 +21,7 @@ import re
 import subprocess
 import sys
 import tempfile
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 from pathlib import Path
 
 from PIL import Image
@@ -85,6 +85,28 @@ def read_page(pdf, page):
         return res
 
 
+def read_head_two_up(pdf, page, side):
+    """Volume 4 (two pages per sheet): only the running head of one half, for its month."""
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import ocr_volume as OV
+    with tempfile.TemporaryDirectory() as tmp:
+        im = OV.render(pdf, page, tmp)
+        try:
+            g = OV.find_gutter(pdf, page, im.width)
+        except Exception:
+            g = im.width // 2
+        if not 0.4 * im.width < g < 0.6 * im.width:
+            g = im.width // 2
+        half = im.crop((0, 0, g, im.height) if side == "L" else (g, 0, im.width, im.height))
+        head = half.crop((0, 0, half.width, int(half.height * 0.16)))
+        for y, x0, x1, t in tsv_lines(head, "6"):
+            for w in t.split()[:2]:
+                m = month_of(w)
+                if m and w[:1].isupper():
+                    return {"head": m, "lines": []}
+    return {"head": None, "lines": []}
+
+
 def main():
     vid = int(sys.argv[1])
     vol = next(v for v in json.loads((ROOT / "volumes.json").read_text())["volumes"] if v["id"] == vid)
@@ -95,7 +117,10 @@ def main():
     todo = [f"p{p:03d}" for p in range(a, b + 1) if f"p{p:03d}" in index and f"p{p:03d}" not in done]
 
     def run(lab):
-        return lab, read_page(ROOT / index[lab]["file"], index[lab]["pdf_page"])
+        e = index[lab]
+        if e.get("side"):
+            return lab, read_head_two_up(ROOT / e["file"], e["pdf_page"], e["side"])
+        return lab, read_page(ROOT / e["file"], e["pdf_page"])
 
     def save():
         out_path.write_text(json.dumps(dict(sorted(done.items())), ensure_ascii=False, indent=0) + "\n",
