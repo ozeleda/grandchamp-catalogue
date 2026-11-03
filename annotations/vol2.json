@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 1126,
+ "reviewed_through_seq": 1166,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -10295,6 +10295,448 @@
    "matter": "Ransom (amount left blank)",
    "notes": "Unfinished act.",
    "keywords": "ransom; clergy"
+  },
+  "2-IV-1127": {
+   "party1_origins": "arménien, habitant Constantinople",
+   "party1_role": "declarant",
+   "party2_name": null,
+   "party2_origins": null,
+   "party2_role": null,
+   "other_parties_names": "Andrea Caldeo",
+   "other_parties_role": "agent who bought the goods",
+   "matter": "In July 1609 had Caldeo buy silk (?) at Tunis to take to Livorno; never heard of it again",
+   "notes": "Three witness statements follow.",
+   "keywords": "silk; Armenians; lost goods"
+  },
+  "2-IV-1128": {
+   "party1_origins": "arménien",
+   "party1_role": "declarant",
+   "other_parties_names": "Paulo",
+   "other_parties_origins": "arménien",
+   "other_parties_role": "agent entrusted with the money",
+   "currency": "écus d'or d'Espagne",
+   "matter": "At Livorno in April 1609 gave Paulo 260 écus and goods to consign to him at Tunis; never heard of them",
+   "notes": "Two witness statements follow.",
+   "keywords": "Armenians; lost goods; remittance"
+  },
+  "2-IV-1129": {
+   "party1_origins": "arménien, de Constantinople",
+   "party2_origins": "arménien, habitant à Venise",
+   "other_parties_names": "Andrea Caldeo",
+   "other_parties_role": "debtor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Recovery of a 132-écu debt",
+   "keywords": "debt collection; Armenians"
+  },
+  "2-IV-1130": {
+   "party1_origins": "maures de Grenade habitant à Tunis",
+   "party1_role": "principal (and others); principal; principal; principal",
+   "party2_name": "two of their number",
+   "party2_role": "attorneys",
+   "other_parties_names": "Anthouron Estienne dit Megrin; Pierre Estienne",
+   "other_parties_role": "accused, captain; accused, his son",
+   "matter": "Power to sue Captain Estienne and his son for restitution of jewels and goods wickedly stolen at Porto Farina on 8 January 1610, where they left them naked ashore",
+   "notes": "Nearly two pages of names; the principals signed their Spanish names, two in Arabic. Act in French.",
+   "keywords": "Moriscos; theft; lawsuit"
+  },
+  "2-IV-1131": {
+   "transaction_type": "Consular decision",
+   "party1_name": "Jacques Jourdan; Toumas Cestier",
+   "party1_role": "declarant, patron of the « Ste-Anne »; declarant, ship's clerk",
+   "party2_name": "the Consul and the merchants and patrons of the Échelle",
+   "party2_role": "deliberating body",
+   "other_parties_names": "Mamet Pacha; Jehan Bonnet",
+   "other_parties_role": "captor (his polacre took the ship); patron killed in the fight",
+   "price": 6000,
+   "currency": "écus",
+   "matter": "The Pacha wants to seize the cargo and enslave the crew for resisting; they offered 6,000 écus to appease him and ask the consul to have the sum lent until it comes from France",
+   "decision": "Sentence of the consul after an assembly of the merchants and patrons of the Échelle (almost illegible)",
+   "notes": "Ink has eaten the paper. Act in French.",
+   "keywords": "ransom of crew; capture; Nation assembly"
+  },
+  "2-IV-1132": {
+   "party1_role": "principal, slave of Sidi Hamida (Turk of Tunis)",
+   "party2_name": "Gaspart Cougia",
+   "matter": "To raise funds, probably to ransom him",
+   "keywords": "ransom"
+  },
+  "2-IV-1133": {
+   "party1_role": "debtor, ransomed captive, ship master (patron)",
+   "other_parties_names": "Ally Pacha",
+   "other_parties_role": "recipient of ransom payment",
+   "matter": "Ransom loan repayable one month after arrival at Malta",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1134": {
+   "date": "1610-03-10",
+   "currency": "ducats de 10 carlins",
+   "other_equivalent": null,
+   "matter": "Ransom loan",
+   "notes": "Day read as 1, between acts of 10 and 11 March.",
+   "keywords": "ransom; loan; Ragusa"
+  },
+  "2-IV-1135": {
+   "date": "1610-03-10",
+   "transaction_type": "Redemption",
+   "party1_role": "debtor, ransomed captive",
+   "price": 141.75,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for the balance of his ransom",
+   "notes": "Day read as 1, between acts of 10 and 11 March.",
+   "keywords": "ransom; loan; Armenians"
+  },
+  "2-IV-1136": {
+   "party2_role": "payer, raïs",
+   "currency": "écus d'or de 64 aspres",
+   "other_equivalent": null,
+   "matter": "Repayment of a loan made at Malta on 6 October 1609",
+   "keywords": "loan repayment"
+  },
+  "2-IV-1137": {
+   "party2_name": "Pasquale Inperato",
+   "party2_role": "party protested against (redemption agent)",
+   "other_parties_names": "the Redemption",
+   "other_parties_role": "redemption institution",
+   "matter": "Protest that Inperato, at Tunis for three months, has not paid his ransom; he had to borrow at 33% interest",
+   "decision": "Inperato replies the Redemption never charged him with ransoming Gregorio",
+   "keywords": "ransom; redemption mission; interest"
+  },
+  "2-IV-1138": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant, ship master (patron) of the barque « Ste-Marie à Bonne venture »",
+   "other_parties_names": "Sidi Amida",
+   "other_parties_origins": "de Tunis",
+   "other_parties_role": "forced him to carry timber",
+   "matter": "Forced to load timber for galley building at the Fiumara Salata (Oued Melah); returning on 4 March, a gale threw the barque ashore at the mouth of the Bizerte channel and it broke up; saved only masts, some sails, three anchors and a cable",
+   "notes": "Three witness statements follow. Act in French.",
+   "keywords": "shipwreck; requisition; timber; galleys"
+  },
+  "2-IV-1139": {
+   "transaction_type": "Debt",
+   "party1_origins": "de Marseille; de la Chaume d'Olonne en Poitou",
+   "party1_role": "debtor, merchant; debtor",
+   "party2_role": "creditor, burgess of Marseille",
+   "other_parties_names": "Louys Jousemot; Huroux Penard; Mathurin Bonouin; Gilles Saulnier; René Brochop; André Poiraud",
+   "other_parties_role": "ransomed captive; ransomed captive; ransomed captive; ransomed captive; ransomed captive; ransomed captive",
+   "price": 1040,
+   "currency": "pièces de 8 réaux castillans",
+   "matter": "Paid for the ransom of six French slaves at Tunis",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan; Poitevins"
+  },
+  "2-IV-1140": {
+   "split_at": [
+    "(774) Anne"
+   ],
+   "transaction_type": "Debt",
+   "party1_role": "debtor; debtor",
+   "currency": "écus d'or",
+   "other_equivalent": "51 aspres",
+   "matter": "Loan to free the slaves named in the previous act",
+   "notes": "Folio 769 of the register. Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1140b": {
+   "transaction_type": "Redemption",
+   "party1_name": "Anne Daugerolle (« Anné Dogerolles »)",
+   "party1_origins": "chevalier de Comyeres, de la paroisse de Mably, près de Roanne",
+   "party1_role": "debtor, ransomed captive, knight of St John of Jerusalem",
+   "party2_name": "Anthoine Lovico; Anthoine Berengier",
+   "party2_role": "creditor; creditor",
+   "price": 207,
+   "currency": "écus de 12 réaux castillans",
+   "matter": "Ransom loan",
+   "notes": "Folio 771 (OCR 774). Act in French.",
+   "keywords": "ransom; loan; knight of Malta"
+  },
+  "2-IV-1141": {
+   "party2_name": "Anthoine Lovico; Anthoine Berengier",
+   "party2_role": "creditor; creditor",
+   "currency": "écus de 12 réaux castillans",
+   "matter": "Ransom loan",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1142": {
+   "price": 53.33,
+   "currency": "écus",
+   "matter": "Debt",
+   "notes": "Act in French.",
+   "keywords": "debt"
+  },
+  "2-IV-1143": {
+   "split_at": [
+    "(780) Jehan"
+   ],
+   "date": "1610-03-13",
+   "party1_origins": "des Sables d'Olonne",
+   "currency": "écus de 12 réaux castillans",
+   "matter": "Ransom loan",
+   "notes": "Day read as 3, between acts of 13 March. Act in French.",
+   "keywords": "ransom; loan; Poitevins"
+  },
+  "2-IV-1143b": {
+   "date": "1610-03-13",
+   "transaction_type": "Power of attorney",
+   "party1_name": "Jehan Anthoyne Myfret",
+   "party1_origins": "du Puget Denier en Provence",
+   "party1_role": "principal, slave of the heirs of Mamet bey",
+   "party2_name": "the Consuls of Puget-Théniers",
+   "party2_role": "attorneys",
+   "matter": "To sell his property, evidently to pay his ransom",
+   "notes": "Folio 780 of the register. Act in French.",
+   "keywords": "ransom"
+  },
+  "2-IV-1144": {
+   "split_at": [
+    "(786) François"
+   ],
+   "date": "1610-03",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": null,
+   "matter": "Debt",
+   "keywords": "debt"
+  },
+  "2-IV-1144b": {
+   "date": "1610-03",
+   "transaction_type": "Debt",
+   "party1_name": "François Metayer; Jehan Montagne; René Guiet; Jacques Monsiou",
+   "party1_role": "debtor; debtor; debtor; debtor",
+   "party2_name": "Antony Lovico; Antony Berengier",
+   "party2_role": "creditor; creditor",
+   "price": 84,
+   "currency": "écus d'or",
+   "other_equivalent": "46 aspres",
+   "matter": "Loan to pay the fees of their ransom",
+   "notes": "Folio 786 of the register. Act in French.",
+   "keywords": "ransom; fees; loan"
+  },
+  "2-IV-1145": {
+   "date": "1610-04-01",
+   "party1_origins": "de Marseille",
+   "party1_role": "declarant, ship master (patron) of the galleon « St-Vincent »",
+   "party2_name": null,
+   "party2_role": null,
+   "other_parties_names": "Ossoman Dey; Yssoub Chaouch; Osta Morat Genovese; the French consul; Anthoine Lovico",
+   "other_parties_role": "owner of the corsair (settled for 54,000 écus); intermediary paid; intermediary paid; intervened; intervened",
+   "price": 57000,
+   "currency": "écus d'or",
+   "other_equivalent": "54,000 écus to Ossoman Dey plus the artillery, and 3,000 écus to the intermediaries; 100 bales of silk deposited in the consul's warehouse as security",
+   "matter": "Sea protest: loaded at Tripoli of Syria and Alexandretta for Marseille; taken on 19 March off Elba after a hard fight (15 killed, the patron badly wounded); brought to La Goulette on 25 March; settlement with the dey to avoid confiscation",
+   "notes": "Printed « 4° avril », probably 1er avril. Three witness statements follow; on 5 April six more about unloading the silk. Act in French.",
+   "keywords": "sea protest; corsairs; silk; settlement; dey"
+  },
+  "2-IV-1146": {
+   "party1_name": "Ventourin de Antonio Fourtariot",
+   "party1_origins": "de Venise",
+   "party1_role": "declarant, ransomed captive",
+   "party2_name": "Symon Escanasi",
+   "party2_origins": "juif",
+   "party2_role": "payer of the ransom",
+   "other_parties_names": "heirs of Mamet bey; Joan Battiste Justyniano",
+   "other_parties_origins": "; gouverneur de Tabarca",
+   "other_parties_role": "recipients of ransom payment; principal (ordered the ransom)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransomed on the order of the governor of Tabarca",
+   "keywords": "ransom; Tabarca; Jews"
+  },
+  "2-IV-1147": {
+   "party1_name": "Malen Ha Yssa",
+   "party1_origins": "maure de Bône",
+   "party1_role": "principal",
+   "party2_name": "docteur Bernardetto",
+   "party2_origins": "de Livourne",
+   "party2_role": "attorney",
+   "other_parties_names": "Prosporo Pagnaly; Mamet; Bel Assan; Bel Casson; Fatiyma",
+   "other_parties_origins": "corse; ; ; ; ",
+   "other_parties_role": "debtor (took 600 hides in March 1609); Muslim captive; Muslim captive; Muslim captive; Muslim captive",
+   "matter": "Recovery of 600 hides given to Pagnaly to sell at Livorno and ransom four Muslim captives",
+   "keywords": "hides; Muslim captives; debt collection"
+  },
+  "2-IV-1148": {
+   "party1_name": "Charles Rosnel (Charles de Rosmel)",
+   "party1_origins": null,
+   "party1_role": "principal, Augustinian friar, slave of Ossoman Dey",
+   "party2_name": "Felip de Rosnel; Pierre de Rosnel",
+   "party2_role": "attorney, brother of party 1; attorney, brother of party 1",
+   "matter": "To pledge or sell an annuity he holds at Paris, evidently to pay his ransom",
+   "notes": "Act in French.",
+   "keywords": "ransom; annuity; clergy"
+  },
+  "2-IV-1149": {
+   "party1_name": "Franciscou cavaliero dal Bolgiouxo (Franco Cavalero da Bolgioioso)",
+   "party1_role": "debtor, ransomed captive",
+   "price": 307.5,
+   "currency": "écus de 12 réaux castillans",
+   "other_parties_names": "heirs of Assan Bally",
+   "other_parties_origins": "turc de Bizerte",
+   "other_parties_role": "recipients of ransom payment",
+   "matter": "Balance of his ransom; repayable one month after arrival at Marseille",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1150": {
+   "party1_name": "[...] fils de Fraoustina",
+   "party1_role": "principal, slave of Draout Chaous (Turk of Tunis)",
+   "party2_name": "[...]",
+   "party2_role": "attorney",
+   "matter": "To raise the 250 écus of his ransom",
+   "notes": "Very effaced.",
+   "keywords": "ransom"
+  },
+  "2-IV-1151": {
+   "date": "1610-04-12",
+   "currency": "écus",
+   "other_equivalent": "52 aspres",
+   "matter": "Loan for the last fitting-out of the « St-Vincent »",
+   "notes": "Act in French.",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1152": {
+   "party1_origins": "d'Angers",
+   "other_parties_names": "Ally Pacha; Anthoine Lovico",
+   "other_parties_role": "recipient of ransom payment, former pasha of Tunis; paid the sum at Tunis",
+   "currency": "livres tournois",
+   "matter": "Ransom loan",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1153": {
+   "transaction_type": "Declaration / attestation",
+   "party1_origins": "arménien",
+   "party1_role": "recipient",
+   "other_parties_names": "Esteve Symedeo",
+   "other_parties_role": "agent entrusted with the goods at Livorno",
+   "matter": "Received goods he had entrusted to Symedeo at Livorno",
+   "notes": "Unfinished and unsigned.",
+   "keywords": "goods; Armenians"
+  },
+  "2-IV-1154": {
+   "party2_name": "Nove de Moise",
+   "party2_origins": "arménien",
+   "party2_role": "payer (debtor)",
+   "price": 100,
+   "currency": "soltanis d'or",
+   "matter": "Repayment of a debt",
+   "keywords": "debt; payment"
+  },
+  "2-IV-1155": {
+   "party1_origins": "breton; breton",
+   "party1_role": "debtor; debtor",
+   "currency": "écus d'or",
+   "matter": "Loan to pay the fees of their ransom; repayable one month after the arrival of the « St-Vincent »",
+   "notes": "Act in French.",
+   "keywords": "ransom; fees; loan; Bretons"
+  },
+  "2-IV-1156": {
+   "transaction_type": "Payment / receipt",
+   "party1_name": "Estefano de Nicolo Bianquy",
+   "party1_origins": "de Raguse",
+   "party1_role": "recipient",
+   "party2_name": "Joan de Luca Miquelly; Joan de Biaggio",
+   "party2_role": "payer, deputy of the Redemption of Ragusa; payer, deputy of the Redemption of Ragusa",
+   "other_parties_names": "Maryno de Biaggio",
+   "other_parties_role": "ransomed captive",
+   "price": 32.5,
+   "currency": "écus",
+   "matter": "Repayment of money he lent at Tunis to Maryno de Biaggio for the balance of his ransom",
+   "keywords": "ransom; redemption mission; Ragusa"
+  },
+  "2-IV-1157": {
+   "transaction_type": "Debt",
+   "party1_name": "Louca Falconne",
+   "party1_origins": "de Perasto",
+   "party1_role": "debtor (acknowledges receipt of loan), slave of Ossoman Dey, son of Joane Falconne",
+   "party2_name": "Joan de Luca Miquelly; Joan de Biaggio",
+   "party2_role": "creditor (Redemption of Ragusa); creditor",
+   "price": 21,
+   "currency": "pièces de 8 réaux castillans",
+   "matter": "Loan",
+   "keywords": "loan; redemption mission; Ragusa"
+  },
+  "2-IV-1158": {
+   "party1_origins": "de Calamotta",
+   "party2_name": "Joan de Luca Miquelly; Joan de Biaggio",
+   "party2_role": "payer (Redemption of Ragusa); payer",
+   "other_parties_origins": "pacha de Tripoli de Barbarie",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom paid by the Ragusan redemption",
+   "keywords": "ransom; redemption mission; Ragusa; Tripoli"
+  },
+  "2-IV-1159": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Vinsenso (?) (Morat)",
+   "party1_origins": "de l'Île de Messa",
+   "party1_role": "claimant, renegade, slave of the mother of Mameti Bey, son of Andrea Androusco",
+   "matter": "Claims objects he left on the island of Messa where his family lives",
+   "keywords": "renegade; property"
+  },
+  "2-IV-1160": {
+   "party1_origins": "de Raguse",
+   "party1_role": "debtor, slave of Ossoman Dey",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt to the Ragusan redemption deputies",
+   "keywords": "debt; redemption mission; Ragusa"
+  },
+  "2-IV-1161": {
+   "party1_origins": "de Raguse",
+   "party1_role": "declarant",
+   "party2_name": null,
+   "party2_role": null,
+   "other_parties_names": "Vincenzo de Martino; Matheo de Trifonne; Osta Assan Genovese",
+   "other_parties_origins": "de Perasto; ; ",
+   "other_parties_role": "captain (died 1607 at Tunis); his companion; master in whose house he died",
+   "matter": "In August 1606 Vincenzo de Martino and Matheo de Trifonne left Messina to load wheat in Albania; they plundered Venetian boats in the Gulf of Venice and at Cephalonia, then were taken by corsairs to Algiers and Tunis, where Vincenzo died in 1607",
+   "notes": "Two witness statements follow. Very hard to read; ink has eaten the paper.",
+   "keywords": "death; corsairs; piracy; slavery"
+  },
+  "2-IV-1162": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Vinsenso (Mourat)",
+   "party1_origins": "de l'Île de Messa",
+   "party1_role": "declarant, renegade, aged about 28, slave of the mother of Mamet bey, son of Andrea Androusco",
+   "matter": "Declaration about his father's property",
+   "notes": "Folio 857 (OCR 867) (?).",
+   "keywords": "renegade; property"
+  },
+  "2-IV-1163": {
+   "party1_origins": "de Calamotta",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Luca de Miquelly",
+   "price": 111,
+   "currency": "pièces de 8 réaux castillans",
+   "other_parties_names": "Ally",
+   "other_parties_origins": "pacha de Tripoli de Barbarie",
+   "other_parties_role": "recipient of ransom payment",
+   "matter": "Balance of his ransom",
+   "keywords": "ransom; loan; Tripoli"
+  },
+  "2-IV-1164": {
+   "date": "1610-04-20",
+   "transaction_type": "Sale / transfer",
+   "party1_role": "recipient (takes charge of the barque), ship master (patron)",
+   "party2_role": "consignor, vice-consul",
+   "other_parties_names": "Ally Pacha; Moichouan Tourtel (?)",
+   "other_parties_origins": "; de Sixfours",
+   "other_parties_role": "former pasha who returned the barque to the consul; owner, to receive it at Livorno",
+   "matter": "Received the barque « Ste-Marguerite bonne venture » (1,400 quintals, with masts, sails, anchors, rigging, artillery), taken by corsairs and returned to the consul by Ally Pacha, to take to Livorno and hand to its patron",
+   "notes": "Day read as 2, after acts of 20 April. Act in French.",
+   "keywords": "ship restitution; prize"
+  },
+  "2-IV-1165": {
+   "transaction_type": "Sale / transfer",
+   "party1_role": "assignor, ship master (patron)",
+   "party2_name": "Marcantonio Paulillo",
+   "party2_origins": "de Naples",
+   "party2_role": "assignee",
+   "other_parties_names": "the Viceroy of Sicily",
+   "other_parties_role": "detains the ship at Palermo",
+   "matter": "Assigns all his rights in the « Nunziata », laden with fish and other goods, detained at Palermo by the Viceroy of Sicily",
+   "keywords": "ship share; assignment; fish"
+  },
+  "2-IV-1166": {
+   "matter": "Recovery of debts",
+   "keywords": "debt collection"
   }
  }
 }
