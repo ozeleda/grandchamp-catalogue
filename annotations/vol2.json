@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 195,
+ "reviewed_through_seq": 235,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -1710,6 +1710,460 @@
    "other_equivalent": "1,000 hides out of 4,822 loaded on the English ship of Milles and Carter",
    "matter": "Price of 1,000 hides; also a charter of the « N. D. d'Espérance » by its masters",
    "keywords": "debt; hides; ship; freight / shipping"
+  },
+  "2-III-0196": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Marco Semorry",
+   "party1_role": "principal",
+   "party2_name": "Bernardino Palomo",
+   "party2_origins": "de Palerme",
+   "party2_role": "attorney",
+   "matter": "Power of attorney to recover debts"
+  },
+  "2-III-0197": {
+   "party1_name": "J. Batista di Anna; Gregorio Bonsignore",
+   "party1_role": "recipients (agents)",
+   "party2_role": "payer",
+   "other_parties_names": "Vincenso (raïs)",
+   "other_parties_origins": "génois",
+   "other_parties_role": "must consent to the purchase",
+   "currency": "écus d'or",
+   "other_equivalent": "freight 2 écus d'or per barrel from Trapani",
+   "matter": "Money to buy wine at Trapani and bring it back to Tunis",
+   "keywords": "wine; freight / shipping"
+  },
+  "2-III-0198": {
+   "party1_name": "Philippo de Trenta",
+   "party1_origins": "de San Marco (Sicile)",
+   "party1_role": "debtor, father of the captive",
+   "party2_name": "Giosepe Emellasso",
+   "party2_origins": "de Messine",
+   "party2_role": "creditor",
+   "other_parties_names": "Giosepe de Trenta; J. B. di Anna",
+   "other_parties_role": "captive ransomed, son of Philippo; payee at Palermo",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for the balance of his son's ransom"
+  },
+  "2-III-0199": {
+   "other_parties_origins": "renégat calabrais",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "onces",
+   "other_equivalent": "15 taris de Sicile",
+   "matter": "Debt for his ransom, repayable 15 days after arrival at Palermo"
+  },
+  "2-III-0200": {
+   "date": "1604-05-14",
+   "party1_name": "Loys Rogieri; Francisco Rogieri",
+   "other_parties_names": "Ossoman Day; J. B. di Anna",
+   "other_parties_origins": "turc;",
+   "other_parties_role": "recipient of ransom payment; payee at Palermo",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0201": {
+   "other_parties_names": "Janico Fabron; Victor Fabron",
+   "other_parties_origins": "de Marseille;",
+   "other_parties_role": "owner of the money; recipient (son of Janico)",
+   "matter": "Money belonging to Janico Fabron to be handed to his son Victor",
+   "notes": "Handed over on 22 August 1604."
+  },
+  "2-III-0202": {
+   "party1_origins": "génois, habitant à Palerme",
+   "other_parties_names": "Vincenso Delega",
+   "other_parties_origins": "corse",
+   "other_parties_role": "lender of 200 onces 20 taris",
+   "matter": "The 200 onces borrowed from Delega were used to buy hides at Tunis",
+   "keywords": "hides; loan"
+  },
+  "2-III-0203": {
+   "split_at": [
+    "Pierre de Subeiran",
+    "Jehan de Martin, de Marseille, reconnait",
+    "Jehan de Martin, de Marseille, reconnaît"
+   ],
+   "party1_name": "Nicolao Dexcotto",
+   "party1_origins": "génois, habitant à Palerme",
+   "party1_role": "debtor",
+   "party2_origins": "turc",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": null,
+   "notes": "Act written in italien. Repayable within three months."
+  },
+  "2-III-0203b": {
+   "price": 149.333,
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "including exchange at 12%",
+   "matter": "Debt repayable 15 days after arrival at Marseille"
+  },
+  "2-III-0203c": {
+   "price": 74.667,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt repayable 15 days after arrival at Marseille"
+  },
+  "2-III-0203d": {
+   "price": 37.333,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt repayable 15 days after arrival at Marseille"
+  },
+  "2-III-0204": {
+   "party1_name": "Paolo Lomega",
+   "party1_origins": "génois",
+   "party1_role": "debtor, acting on the orders of the governor of Tabarca",
+   "party2_origins": "turc",
+   "party2_role": "creditor, janissary of Tunis",
+   "other_parties_origins": "de Bergame",
+   "other_parties_names": "Pietro Piesenti; Anthoine Lovico",
+   "other_parties_role": "captive ransomed; guarantor",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "ransom; Tabarca; guarantee"
+  },
+  "2-III-0205": {
+   "split_at": [
+    "Honnorat Paresso"
+   ],
+   "transaction_type": "Redemption",
+   "party1_role": "declarant; ransomed captive",
+   "party2_name": "Moratto Maltese",
+   "party2_role": "beneficiary if anything happens on the crossing",
+   "price": 327,
+   "currency": "écus d'or",
+   "other_equivalent": null,
+   "matter": "The 327 écus at Tabarca for his ransom are to go to Moratto Maltese if he has an accident crossing from La Goulette to Tabarca",
+   "keywords": "ransom; Tabarca",
+   "notes": "Act written in italien. Unsigned."
+  },
+  "2-III-0205b": {
+   "party1_name": "Honnorat Paressol",
+   "party1_role": "declarant, ship master of the polacre « St Tropez bonne venture » (about 100 quintals)",
+   "other_parties_names": "Soliman Boraczl; the Pasha; the agha of the janissaries",
+   "other_parties_role": "raïs of the brigantine that took the polacre; took 30 écus; took the rudder",
+   "price": 30,
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "10 écus to the consul for a month's board; sums paid to recover rudder and sails",
+   "matter": "Sea protest: polacre loaded with salt pork taken off Sardinia by a Turkish brigantine and plundered at Bizerte",
+   "keywords": "ship; goods; avania (extortion); Pasha / Bey of Tunis"
+  },
+  "2-III-0206": {
+   "party2_name": "Giosepe Demellasso",
+   "party2_origins": "de Messine",
+   "party2_role": "supplier",
+   "price": 10,
+   "currency": "écus d'or",
+   "other_equivalent": "5 écus 10 taris de Sicile; 86 sheepskins, 42 white Levant calfskins, 1 ox hide, a velvet cloak",
+   "matter": "Goods and money received to sell and buy 4 barrels of wine for Tunis",
+   "keywords": "goods; hides; wine"
+  },
+  "2-III-0207": {
+   "transaction_type": "Redemption",
+   "party1_role": "debtor; ransomed captive",
+   "party2_name": "Vincenso Delega; Joan Baptista di Anna",
+   "party2_role": "creditor, ship master (patron); creditor",
+   "other_parties_names": "Ossain",
+   "other_parties_origins": "turc",
+   "other_parties_role": "janissary of Tunis, recipient of ransom payment",
+   "currency": "onces de Sicile",
+   "other_equivalent": "26 taris",
+   "matter": "Debt for his ransom, repayable on arrival at Palermo"
+  },
+  "2-III-0208": {
+   "matter": "Money for the final dispatch of the ship, repayable 20 days after arrival at Palermo",
+   "keywords": "debt; ship"
+  },
+  "2-III-0209": {
+   "split_at": [
+    "Jaumet Laure"
+   ],
+   "transaction_type": "Redemption",
+   "party1_name": "Joan Giacomo de Benedetto",
+   "party1_origins": "corse",
+   "party1_role": "debtor; ransomed captive",
+   "party2_name": "Bernardino Matheo",
+   "party2_role": "creditor",
+   "other_parties_names": "Mami Spagnol",
+   "other_parties_origins": "turc",
+   "other_parties_role": "janissary, recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for his ransom, repayable three months after arrival in Corsica"
+  },
+  "2-III-0209b": {
+   "date": "1604-06-07",
+   "party1_origins": "de Solliès (?)",
+   "party2_name": "Anthoine Lovico",
+   "party2_role": "creditor (host)",
+   "matter": "Board (« dépenses de bouche ») for ten months in Lovico's house; payable a month after arrival at Marseille"
+  },
+  "2-III-0210": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Sidi Salemo di Coggia",
+   "party1_role": "principal",
+   "party2_name": "Anthoine Lovico",
+   "party2_role": "attorney",
+   "other_parties_names": "Melchior Lazare; André Meynard",
+   "other_parties_origins": "de Marseille; de Marseille",
+   "other_parties_role": "debtors",
+   "price": 20,
+   "currency": "écus d'or",
+   "matter": "Power of attorney to recover 20 écus from Melchior Lazare and André Meynard",
+   "notes": "Act written in italien. Repaid on 19 November 1604."
+  },
+  "2-III-0211": {
+   "drop": true
+  },
+  "2-III-0212": {
+   "party2_origins": "de Levie",
+   "other_parties_origins": "",
+   "other_parties_role": "recipient of ransom payment, executioner of Kader Pacha",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0213": {
+   "party1_name": "Joanne Giazon (Jackson); Giacomo Danies",
+   "party1_origins": "anglais; anglais",
+   "party1_role": "shipowner's agent, clerk and supercargo of « Laizac bonne venture »; ship master (patron)",
+   "matter": "Charter of the English ship to go from Tunis to Venice and back",
+   "keywords": "ship; freight / shipping"
+  },
+  "2-III-0214": {
+   "party1_name": "Fabio Cafiero; Balthezard Cabry",
+   "party1_role": "debtor, ship master (patron); debtor, ransomed captive",
+   "other_parties_names": null,
+   "other_parties_role": null,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for the balance of Cabry's ransom, repayable at Livorno"
+  },
+  "2-III-0216": {
+   "party2_role": "payer, consul",
+   "other_parties_names": "Osoman Sberli",
+   "other_parties_origins": "turc",
+   "other_parties_role": "co-creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Payment of money owed to Cafiero and Osoman Sberli"
+  },
+  "2-III-0217": {
+   "party2_name": "Joane Vincioguerra",
+   "party2_origins": "corse, de la Sousa",
+   "party2_role": "creditor",
+   "other_parties_names": "Mami; Paolo Desanocele",
+   "other_parties_origins": "turc; de Levie",
+   "other_parties_role": "janissary, recipient of ransom payment; guarantor",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "ransom; guarantee"
+  },
+  "2-III-0218": {
+   "date": "1604-06-01",
+   "party1_role": "debtor; ransomed captive",
+   "party2_origins": "corse, habitant à Livourne; de Capraia",
+   "other_parties_names": "Giafer Corso",
+   "other_parties_origins": "turc",
+   "other_parties_role": "janissary, recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "28 aspres"
+  },
+  "2-III-0219": {
+   "party1_name": "Caito Morato; Caito Ally",
+   "party1_origins": ";",
+   "party1_role": "debtors, customs officers of Tunis",
+   "party2_name": "Antonio Orsso Francesco; Valentino d'Alphonso; Michaelle Pierangelo; Angelo Santo Merandola; Nicolao Colombano",
+   "party2_origins": "corse; corse; corse; corse; de Capraia",
+   "party2_role": "creditors",
+   "price": 2075,
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "at 12½ giuli per écu; shares: 790½, 832½, 291 (?), 611, 114 écus",
+   "matter": "Debt of the customs officers to five Corsican merchants",
+   "keywords": "debt; customs"
+  },
+  "2-III-0220": {
+   "party1_role": "principal",
+   "party2_name": "Jehan Bresigalli",
+   "party2_role": "attorney",
+   "matter": "Power of attorney to recover goods (with two documents from Massacarès (La Calle) of 20 and 3 April 1604)",
+   "keywords": "goods"
+  },
+  "2-III-0221": {
+   "party1_name": "Nicolas Gardane",
+   "party1_origins": "de Toulon",
+   "party1_role": "principal; slave in Tunis",
+   "party2_name": "Uguet Gardane",
+   "party2_role": "attorney, cousin",
+   "matter": "Power of attorney to represent him in family partitions",
+   "keywords": "inheritance; family; slavery"
+  },
+  "2-III-0222": {
+   "split_at": [
+    "Consulat de fa barque",
+    "Jehan Boulhon déclare « qu",
+    "Jehan Boulhon déclare qu'en 1600",
+    "Anthoine Lovico, tant en son nom",
+    "Le patron Mathieu Fabre, de la Ciotat, nolise"
+   ],
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant, ship master of « St Pierre bonne venture » (1,600 quintals)",
+   "price": null,
+   "currency": null,
+   "other_equivalent": null,
+   "matter": "Sea protest: taken by a Turkish brigantine; depositions of four crew members",
+   "keywords": "ship"
+  },
+  "2-III-0222b": {
+   "transaction_type": "Redemption",
+   "party1_name": "Mathieu Fabre",
+   "party1_origins": "de la Ciotat",
+   "party1_role": "declarant, ship master of the barque « Ste Marie bonne venture »",
+   "other_parties_names": "Aly Mamy",
+   "other_parties_role": "raïs of the brigantine that took the barque",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Sea protest: barque taken off Cap Lardier; master, crew and passengers paid 100 écus not to be enslaved",
+   "keywords": "ransom; ship"
+  },
+  "2-III-0222c": {
+   "party1_role": "declarant, former clerk of the Bastion de France",
+   "other_parties_names": "Roch Manfredino; Anthoine Lovico",
+   "other_parties_origins": "corse;",
+   "other_parties_role": "lender of 200 pieces of eight at 20%; captain of the Bastion (signed the bill of exchange)",
+   "price": 200,
+   "currency": "pièces de 8 réaux d'Espagne",
+   "other_equivalent": "exchange at 20%",
+   "matter": "In 1600 the Bastion, short of grain and money, borrowed 200 pieces of eight to buy grain",
+   "keywords": "loan; grain; Bastion de France"
+  },
+  "2-III-0222d": {
+   "party1_role": "declarant",
+   "other_parties_names": "Raymond Galveles",
+   "other_parties_role": "clerk at Bône, claimed the sugar as his own",
+   "other_equivalent": "2 cases of sugar, 865 rotolos",
+   "matter": "In April 1600 two cases of sugar were taken and sent to Genoa",
+   "keywords": "goods"
+  },
+  "2-III-0222e": {
+   "party1_role": "debtor (for himself and Anthoine Berengier, absent)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money spent loading goods on Jourdan's ship « Notre Dame de Lorette »",
+   "keywords": "debt; goods; ship"
+  },
+  "2-III-0222f": {
+   "party1_origins": "de la Ciotat",
+   "party1_role": "shipowner / master (lets the ship)",
+   "matter": "Charter of « Ste Marie bonne venture » (1,000 quintals)",
+   "notes": "Part of the act is effaced."
+  },
+  "2-III-0223": {
+   "date": "1604-07-06",
+   "other_equivalent": "freight 7 écus of 14 taris per 100 hides; 500 hides to Malta",
+   "matter": "Charter for 500 hides from La Goulette to Malta",
+   "keywords": "hides; ship; freight / shipping"
+  },
+  "2-III-0224": {
+   "date": "1604-07-06",
+   "party1_name": "Pietro Maglano",
+   "party1_role": "debtor, ship master of « San Giovanni Battista e santissimo crocifisso »",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom of his ship and cargo",
+   "keywords": "ransom; ship",
+   "notes": "Act written in italien. Unfinished."
+  },
+  "2-III-0225": {
+   "transaction_type": "Protest / summons",
+   "party1_origins": "de Marseille",
+   "party1_role": "petitioner",
+   "party2_name": "Victor Fabron",
+   "party2_origins": "de Marseille",
+   "party2_role": "opposing party",
+   "matter": "Petition for a hearing (« rode ») over a money dispute",
+   "keywords": "dispute"
+  },
+  "2-III-0226": {
+   "party1_name": "French merchants and ship masters",
+   "party1_role": "assembly (rode)",
+   "party2_name": "Mathieu Dodon; Victor Fabron",
+   "party2_role": "claimant; defendant",
+   "matter": "Dodon advanced 315 écus to ransom the ship « St Victor »",
+   "decision": "The sum is owed unless Fabron proves otherwise",
+   "keywords": "ransom; ship; dispute; French Nation"
+  },
+  "2-III-0227": {
+   "transaction_type": "Protest / summons",
+   "party1_name": "Victor Fabron; Mathieu Dodon",
+   "party1_role": "respondent; replicant",
+   "matter": "Fabron's reply and Dodon's rejoinder (to 12 August)",
+   "keywords": "dispute"
+  },
+  "2-III-0228": {
+   "party1_name": "Pietro Maglano (Maillano)",
+   "party1_origins": "de Marseille, habitant à Alassio",
+   "party1_role": "debtor, ship master (patron)",
+   "party2_name": "Pasquale Simodeo",
+   "party2_origins": "corse",
+   "party2_role": "creditor",
+   "other_parties_names": "Ramadan Rais",
+   "other_parties_origins": "d'Alger",
+   "other_parties_role": "captain of the galliot that took the ship",
+   "currency": "écus d'or",
+   "matter": "Ransom of his ship « San Giovanni Battista e santissimo crocifisso »; repayable a month after the ship reaches Villefranche",
+   "keywords": "ransom; ship"
+  },
+  "2-III-0229": {
+   "date": "1604-08-12",
+   "transaction_type": "Redemption",
+   "party1_name": "Pietro Maglano",
+   "party1_role": "ship master",
+   "matter": "Act on the same matter (ransom of Maglano's ship)",
+   "notes": "Summary breaks off."
+  },
+  "2-III-0230": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Pietro Maglano",
+   "party1_role": "declarant, ship master",
+   "matter": "Sea protest of the ship « San Giovanni Battista e santissimo crocifisso »",
+   "notes": "Very effaced; nearly illegible."
+  },
+  "2-III-0231": {
+   "party1_name": "Pierre Maillan (Maglano)",
+   "party2_name": "Honorat Camins (?)",
+   "party2_origins": "de St Tropez",
+   "party2_role": "creditor, sailor",
+   "currency": "ducats de Naples",
+   "other_equivalent": "of 10 carlins",
+   "matter": "Loan made at Naples on 15 July 1604",
+   "keywords": "loan"
+  },
+  "2-III-0232": {
+   "transaction_type": "Consular decision",
+   "party1_name": "Pierre Maillan",
+   "party1_role": "petitioner, ship master",
+   "party2_name": "Honorat Garnier",
+   "party2_role": "consul (names two experts)",
+   "matter": "No money or sailors; sailors certify the ship leaks and cannot cross to Provence or Genoa",
+   "decision": "Consul appoints two experts to inspect the ship at La Goulette",
+   "keywords": "ship"
+  },
+  "2-III-0233": {
+   "split_at": [
+    "Pierre Fournier, de Toulon"
+   ],
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "experts appointed by the consul",
+   "party1_role": "declarants",
+   "matter": "The ship is not seaworthy",
+   "price": null,
+   "currency": null,
+   "other_equivalent": null,
+   "keywords": "ship"
+  },
+  "2-III-0233b": {
+   "other_parties_names": "Mami Rais; Anthoine Lovico; Etienne Fournier",
+   "other_parties_role": "recipient of ransom payment; consul (paid it); brother, for whom Pierre was a pledge",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "Pierre had been left as pledge for 2,000 écus when Mami Rais took his brother's grain ship",
+   "matter": "Debt for his ransom, repayable two months after arrival at Toulon"
+  },
+  "2-III-0234": {
+   "date": "1604-08-19",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Probably the balance of Pierre Fournier's ransom",
+   "notes": "Partly effaced and nearly illegible."
+  },
+  "2-III-0235": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for his ransom (taken by two Turkish frigates on the way to Malta), repayable 15 days after arrival at Marseille"
   }
  }
 }

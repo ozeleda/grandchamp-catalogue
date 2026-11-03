@@ -974,7 +974,7 @@ SELECT a.ref, a.year, a.month, a.day, a.month_day, a.transaction_type,
        a.other_parties_names, a.other_parties_origins, a.other_parties_role,
        a.matter, a.price, a.currency, a.other_equivalent, a.keywords, a.decision, a.notes,
        a.summary, a.volume_id AS volume, a.register, a.page, a.pdf_page, a.extraction
-FROM acts a ORDER BY a.volume_id, a.seq;
+FROM acts a ORDER BY a.volume_id, a.seq, a.ref;
 
 CREATE VIEW v_acts AS
 SELECT a.ref, a.date_iso, a.date_raw, t.label AS type, a.language, a.summary,
@@ -987,7 +987,7 @@ SELECT a.ref, a.date_iso, a.date_raw, t.label AS type, a.language, a.summary,
 FROM acts a
 JOIN volumes v ON v.id = a.volume_id
 JOIN act_types t ON t.code = a.act_type
-ORDER BY a.volume_id, a.seq;
+ORDER BY a.volume_id, a.seq, a.ref;
 """
 
 
@@ -1044,13 +1044,35 @@ def build(config_path, out_path):
         reviewed_upto = ann.get("reviewed_through_seq", 0)
         seq_by_index = {}
         prev_tx = None
+        # Refs come from the printed order; a hand "split_at" turns one OCR-merged act into
+        # several, the extra pieces getting suffixed refs (…0203b, …0203c) so others are stable.
+        expanded = []
         for i, a in enumerate(acts, 1):
+            a["ref"] = f"{vid}-{a['register']}-{i:04d}"
+            a["orig_seq"] = i
+            marks = overrides.get(a["ref"], {}).get("split_at")
+            if not marks:
+                expanded.append(a)
+                continue
+            text, pieces = a["summary"], []
+            for mark in marks:
+                k = text.find(mark)
+                if k <= 0:
+                    raise SystemExit(f"annotations/vol{vid}.json: split_at {mark!r} not found in {a['ref']}")
+                pieces.append(text[:k].strip())
+                text = text[k:]
+            pieces.append(text.strip())
+            for n, piece in enumerate(pieces):
+                expanded.append(dict(a, summary=piece, ref=a["ref"] + ("" if n == 0 else "bcdefgh"[n - 1]),
+                                     date_raw=a["date_raw"] if n == 0 else "(date lost in the scan)",
+                                     day_guess=a.get("day_guess") or n > 0, piece=n))
+        for seq, a in enumerate(expanded, 1):
+            i = a["orig_seq"]
             enrich(a)
             # "Même acte..." / "Acte semblable...": same kind of act as the previous one
-            if i > 1 and re.match(r"(?:En \w+\. — )?(?:M[êe]me acte|Acte sem\w*blable)", a["summary"]):
-                a["act_type"] = acts[i - 2]["act_type"]
-            ref = f"{vid}-{a['register']}-{i:04d}"
-            a["ref"] = ref
+            if seq > 1 and re.match(r"(?:En \w+\. — )?(?:M[êe]me acte|Acte sem\w*blable)", a["summary"]):
+                a["act_type"] = expanded[seq - 2]["act_type"]
+            ref = a["ref"]
             if overrides.get(ref, {}).get("drop"):
                 continue             # OCR debris, not an act (the ref is left unused)
             if vol.get("text_source"):
@@ -1091,7 +1113,7 @@ def build(config_path, out_path):
             if a.get("date_supplied"):
                 tx["notes"] = ("Undated in the register (s. d.); date supplied by the editor. " + (tx["notes"] or "")).strip()
             for k, v in overrides.get(ref, {}).items():
-                if k in ("date", "drop"):
+                if k in ("date", "drop", "split_at"):
                     continue
                 if k not in tx:
                     raise SystemExit(f"annotations/vol{vid}.json: unknown field {k!r} for {ref}")
@@ -1128,7 +1150,8 @@ def build(config_path, out_path):
                 db.execute("INSERT OR IGNORE INTO act_documents VALUES (?,?,?)", (act_id, doc_id, method))
             if a["mentions_extenso"] and not links:
                 print(f"  ? {vid}-{a['register']}-{i:04d}: 'in extenso' copy not matched", file=sys.stderr)
-            seq_by_index[i - 1] = act_id
+            if not a.get("piece"):
+                seq_by_index[i - 1] = act_id
             for m in a["amounts"]:
                 db.execute("INSERT INTO act_amounts (act_id, amount, currency, qualifier, raw) "
                            "VALUES (?,?,?,?,?)", (act_id, m["amount"], m["currency"],

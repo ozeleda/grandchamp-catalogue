@@ -31,6 +31,8 @@ for ref, fields in new.items():
         tgt[SHORT.get(k, k)] = v
 if upto:
     data["reviewed_through_seq"] = max(data["reviewed_through_seq"], upto)
-data["acts"] = dict(sorted(data["acts"].items(), key=lambda kv: int(kv[0].rsplit("-", 1)[1])))
+import re
+data["acts"] = dict(sorted(data["acts"].items(),
+                           key=lambda kv: (int(re.match(r"\d+", kv[0].rsplit("-", 1)[1]).group()), kv[0])))
 path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 print(f"{path.name}: {len(data['acts'])} acts corrected, reviewed through seq {data['reviewed_through_seq']}")

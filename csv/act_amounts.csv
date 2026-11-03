@@ -361,14 +361,14 @@
 2-III-0202,20.0,tari,,20 taris
 1-I-0203,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
 2-III-0203,115.0,écu,,115 écus
-2-III-0203,149.0,écu,,149 écus
-2-III-0203,74.0,écu,,74 écus
-2-III-0203,37.0,écu,,37 écus
+2-III-0203b,149.0,écu,,149 écus
+2-III-0203c,74.0,écu,,74 écus
+2-III-0203d,37.0,écu,,37 écus
 2-III-0204,326.0,écu,d'or,326 écus d'or
 1-I-0205,325.0,écu,d'or d'Espagne,325 écus d'or d'Espagne
 2-III-0205,327.0,écu,,327 écus
-2-III-0205,30.0,écu,,30 écus
-2-III-0205,10.0,écu,,10 écus
+2-III-0205b,30.0,écu,,30 écus
+2-III-0205b,10.0,écu,,10 écus
 1-I-0206,325.0,écu,d'or d'Espagne,325 écus d'or d'Espagne
 2-III-0206,5.0,écu,,5 écus
 2-III-0206,10.0,tari,de Sicile,10 taris de Sicile
@@ -380,9 +380,8 @@
 2-III-0208,132.0,once,de Sicile,132 onces de Sicile
 1-I-0209,26.0,écu,d'or d'Espagne,26 écus d'or d'Espagne
 2-III-0209,100.0,écu,,100 écus
-2-III-0209,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
+2-III-0209b,30.0,écu,d'or d'Espagne,30 écus d'or d'Espagne
 1-I-0211,38.0,écu,d'or d'Espagne,38 écus d'or d'Espagne
-2-III-0211,20.0,écu,,20 écus
 2-III-0212,150.0,écu,,150 écus
 1-I-0213,50.0,écu,d'or d'Espagne,50 écus d'or d'Espagne
 2-III-0214,67.0,écu,,67 écus
@@ -402,8 +401,8 @@
 2-III-0219,114.0,écu,,114 écus
 1-I-0220,200.0,écu,d'or d'Espagne,200 écus d'or d'Espagne
 1-I-0221,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
-2-III-0222,100.0,écu,,100 écus
-2-III-0222,111.0,écu,d'or,111 écus d'or
+2-III-0222b,100.0,écu,,100 écus
+2-III-0222e,111.0,écu,d'or,111 écus d'or
 1-I-0223,300.0,écu,,300 écus
 2-III-0223,7.0,écu,,7 écus
 2-III-0223,14.0,tari,,14 taris
@@ -419,9 +418,9 @@
 2-III-0231,30.0,ducat,de Naples,30 ducats de Naples
 2-III-0231,10.0,carlin,,10 carlins
 1-I-0232,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
-2-III-0233,250.0,écu,,250 écus
-2-III-0233,2000.0,écu,,2.000 écus
-2-III-0233,250.0,écu,,250 écus
+2-III-0233b,250.0,écu,,250 écus
+2-III-0233b,2000.0,écu,,2.000 écus
+2-III-0233b,250.0,écu,,250 écus
 2-III-0234,168.0,écu,,168 écus
 2-III-0235,65.0,écu,,65 écus
 1-I-0236,78.0,écu,d'or d'Espagne,78 écus d'or d'Espagne
