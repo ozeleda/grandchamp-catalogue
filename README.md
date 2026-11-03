@@ -7,7 +7,7 @@ charters, protests…), together with the documents he published in full.
 
 | Volume | Period | Acts (Part I) | Full-text documents (Parts II–III) |
 |---|---|---|---|
-| 1 — *La France en Tunisie à la fin du XVIe siècle* (Tunis, 1920) | 1582–1600 | 857 | 33 + 38 |
+| 1 — *La France en Tunisie à la fin du XVIe siècle* (Tunis, 1920) | 1582–1600 | 855 | 33 + 38 |
 
 Volumes 2–10 can be added the same way: see [Adding a volume](#adding-a-volume).
 
@@ -16,10 +16,56 @@ Volumes 2–10 can be added the same way: see [Adding a volume](#adding-a-volume
 | Path | What it is |
 |---|---|
 | `catalogue.sqlite` | The database (SQLite 3; open with [DB Browser for SQLite](https://sqlitebrowser.org/), Datasette, Python, R…) |
-| `csv/` | The same data as CSV (UTF-8 with BOM, opens directly in Excel): `acts`, `act_amounts`, `documents`, `officials` |
+| `csv/transactions.csv` | **One row per act with the transaction columns** (see below); opens directly in Excel |
+| `csv/` | Other CSVs (UTF-8 with BOM): `acts`, `act_amounts`, `documents`, `officials` |
+| `annotations/vol1.json` | Hand corrections to the extracted transaction columns (all 855 acts reviewed) |
 | `pdfs/` | Source scans (Internet Archive, with an OCR text layer) |
 | `volumes.json` | Per-volume settings: page layout plus the manual OCR corrections |
 | `scripts/build_db.py` | Rebuilds the database and CSVs from the PDFs |
+| `scripts/extract_parties.py` | Rule-based first draft of the transaction columns from each summary |
+| `scripts/annotate.py` | Merges corrections into `annotations/vol<N>.json` |
+
+## Transaction columns
+
+Each act (table `acts`, view `v_transactions`, file `csv/transactions.csv`) has:
+
+| Column | Content |
+|---|---|
+| `year`, `month`, `day`, `month_day` | Date of the act (`month_day` as printed, e.g. « 19 mai »; « s. d. » when undated) |
+| `transaction_type` | Redemption, Debt, Payment / receipt, Sale / transfer, Power of attorney, Charter (freight), Protest / summons, Surety, Company / partnership, Agreement, Undertaking / promise, Consular decision, Declaration / attestation, Registration / copy, Deliberation of the Nation, Will, Marriage contract, Other |
+| `party1_name`, `party1_origins`, `party1_role` | The party making the act: debtor, grantor of a power of attorney, recipient of a payment, seller, protester… |
+| `party2_name`, `party2_origins`, `party2_role` | The counterparty: creditor, attorney, payer, buyer, party summoned… |
+| `other_parties_names`, `…_origins`, `…_role` | Others named: the captive ransomed, the captor or slave-owner paid, guarantors, witnesses, principals… |
+| `matter` | What the transaction is about (English) |
+| `price`, `currency` | Principal sum and its currency as qualified in the text (« écus d'or d'Espagne », « onces de Sicile »…) |
+| `other_equivalent` | Further sums, exchange rates (« at 15 taris to the écu »), goods given or owed, instalments |
+| `keywords` | Subject keywords, `;`-separated (ransom, debt, loan, hides, wool, coral, ship, avania, janissaries / divan…) |
+| `decision` | Outcome of consular decisions, deliberations of the Nation and disputes, when the summary gives it |
+| `notes` | Language of the act, condition (struck out, effaced…), repayment terms, later annotations, editorial remarks |
+
+Conventions:
+
+* **Several people in one role** are separated by `;`, and their origins and roles follow in
+  the same order. A single value (e.g. `de Marseille`) applies to all of them.
+* **Origins** are given as printed (« sicilien », « de Trapani », « turc renié »). Some
+  place names are modernised where the OCR garbled them.
+* **Roles** start with the role in the transaction (debtor, creditor, attorney…), followed by
+  status or occupation (ransomed captive, ship master (patron), renegade, janissary, consul…).
+* **Redemption** is used whenever the money or the act serves to ransom a captive: a loan for a
+  ransom, its repayment, a surety, or an undertaking to ransom someone. A power of attorney
+  stays *Power of attorney*, with « ransom » in `keywords`.
+* `price` is the principal sum of the act. Where the summary itemises several sums, the rest
+  are in `other_equivalent`.
+
+How they were produced: `scripts/extract_parties.py` drafts every column from the summary's
+formula (« X, sicilien, reconnaît devoir à Y … N écus payés pour son rachat à Z »). Every one
+of the 855 acts was then reviewed by hand against its summary, and corrections were recorded
+in `annotations/vol1.json` (724 acts needed at least one). The build applies them on top of
+the draft, and the `extraction` column says `reviewed`. Names keep the summary's spellings,
+including period variants and OCR errors, so the same person can appear under several spellings.
+
+To correct a value, add it to `annotations/vol1.json`, either by hand or with
+`python3 scripts/annotate.py 1 < fixes.json`, then rebuild.
 
 ## How it was built
 
@@ -47,7 +93,7 @@ checked against the scan.
 These come from keyword rules on the French summaries. They help with filtering
 but are not authoritative:
 
-* `act_type` — first matching rule: *reconnaissance de dette*, *quittance*,
+* `act_type` — (the original French classification, superseded by `transaction_type`) first matching rule: *reconnaissance de dette*, *quittance*,
   *procuration*, *protestation / sommation*, *affrètement*, *caution*, *testament*…
   (`act_types` lists them; 59 acts remain `autre`).
 * `concerns_ransom` — mentions *rachat / esclave*.
@@ -77,7 +123,11 @@ volumes(id, title, author, published, period_start, period_end, source_url, file
 registers(volume_id, number, label, date_start, date_end)
 acts(id, ref, volume_id, register, seq, date_iso, year, month, day, undated, date_supplied,
      date_raw, summary, language, act_type, concerns_ransom, struck_out, illegible,
-     unfinished, damaged, consul, vice_consul, chancelier, page, pdf_page)
+     unfinished, damaged, consul, vice_consul, chancelier, page, pdf_page,
+     month_day, transaction_type, party1_name, party1_origins, party1_role,
+     party2_name, party2_origins, party2_role, other_parties_names, other_parties_origins,
+     other_parties_role, matter, price, currency, other_equivalent, keywords, decision,
+     notes, extraction)
 act_amounts(act_id, amount, currency, qualifier, raw)
 act_documents(act_id, document_id, method)
 documents(id, volume_id, part, part_label, number, roman, title, date_iso, undated,
@@ -86,6 +136,7 @@ officials(volume_id, name, role, register, first_act_id, page, pdf_page)
 footnotes(volume_id, page, pdf_page, marker, text)
 acts_fts, documents_fts      -- full-text indexes (accent-insensitive)
 v_acts                       -- readable view used for csv/acts.csv
+v_transactions               -- the transaction columns, used for csv/transactions.csv
 ```
 
 `ref` is a stable identifier: `volume-register-sequence`, e.g. `1-II-0415`.
@@ -111,6 +162,15 @@ GROUP BY a.year;
 SELECT a.ref, a.summary, d.title, d.text
 FROM acts a JOIN act_documents ad ON ad.act_id = a.id JOIN documents d ON d.id = ad.document_id
 WHERE a.ref = '1-II-0415';
+
+-- Who lent money for ransoms, and how much (in écus)
+SELECT party2_name, count(*) AS acts, sum(price) AS total
+FROM acts WHERE transaction_type = 'Redemption' AND currency LIKE 'écus%'
+GROUP BY party2_name ORDER BY total DESC LIMIT 20;
+
+-- Captors / slave-owners paid ransoms
+SELECT other_parties_names, other_parties_role, date_iso, price, currency
+FROM acts WHERE other_parties_role LIKE '%recipient of ransom%';
 
 -- Acts recorded under a given chancellor
 SELECT ref, date_iso, summary FROM acts WHERE chancelier LIKE '%Roze%';
@@ -143,8 +203,8 @@ and the warnings will show where.
 
 ## Possible next steps
 
-* **People and places**: extract the individuals (names, origin such as *corse,
-  sicilien, de Marseille*, roles such as *patron, renégat, esclave*) into
-  `persons` / `act_persons` tables, and normalise spelling variants.
+* **People**: build `persons` / `act_persons` tables from the party columns and merge
+  spelling variants (*Borrilly / Borrilli / Borilly*), so individuals can be followed across
+  acts and volumes.
 * Refine `act_type` and capture amounts written out in words.
 * Correct OCR in the Part II–III transcriptions where needed.

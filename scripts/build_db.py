@@ -24,6 +24,9 @@ import sys
 import unicodedata
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import extract_parties  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 
 MONTHS = {
@@ -237,7 +240,9 @@ def parse_analysis(pdf, vol):
         nonlocal current
         if current:
             current["summary"] = join_text(current.pop("lines"))
-            acts.append(current)
+            # A bare "s. d." line followed by an editor-supplied "[date]" entry is one act
+            if current["summary"]:
+                acts.append(current)
         current = None
 
     last_register = None
@@ -730,7 +735,27 @@ CREATE TABLE acts (                    -- one row per act analysed in Part I
     vice_consul      TEXT,
     chancelier       TEXT,
     page             INTEGER NOT NULL,       -- printed page
-    pdf_page         INTEGER NOT NULL
+    pdf_page         INTEGER NOT NULL,
+    -- transaction details (rule-based draft, corrected by hand: see annotations/)
+    month_day              TEXT,      -- "25 avril" / "s. d."
+    transaction_type       TEXT,      -- Redemption, Debt, Payment / receipt, Sale / transfer, Power of attorney...
+    party1_name            TEXT,      -- the party making the act (debtor, grantor, recipient...); several = "; "
+    party1_origins         TEXT,      -- origin/nationality as given ("sicilien", "de Trapani"), aligned with names
+    party1_role            TEXT,      -- role in the transaction, then status/occupation
+    party2_name            TEXT,      -- the counterparty (creditor, attorney, payer...)
+    party2_origins         TEXT,
+    party2_role            TEXT,
+    other_parties_names    TEXT,      -- others mentioned: captive, captor paid, guarantor...
+    other_parties_origins  TEXT,
+    other_parties_role     TEXT,
+    matter                 TEXT,      -- what the transaction is about
+    price                  REAL,      -- principal sum
+    currency               TEXT,      -- currency of the price, as qualified in the text
+    other_equivalent       TEXT,      -- further sums, rates of exchange, goods given in exchange
+    keywords               TEXT,      -- "; "-separated
+    decision               TEXT,      -- outcome of decisions, deliberations, disputes
+    notes                  TEXT,      -- terms, later annotations, condition of the act, language
+    extraction             TEXT       -- 'auto' (rules only) or 'reviewed' (checked by hand)
 );
 CREATE INDEX acts_date ON acts(date_iso);
 CREATE INDEX acts_type ON acts(act_type);
@@ -781,6 +806,15 @@ CREATE VIRTUAL TABLE acts_fts USING fts5(
     summary, content='acts', content_rowid='id', tokenize='unicode61 remove_diacritics 2');
 CREATE VIRTUAL TABLE documents_fts USING fts5(
     title, text, content='documents', content_rowid='id', tokenize='unicode61 remove_diacritics 2');
+
+CREATE VIEW v_transactions AS
+SELECT a.ref, a.year, a.month, a.day, a.month_day, a.transaction_type,
+       a.party1_name, a.party1_origins, a.party1_role,
+       a.party2_name, a.party2_origins, a.party2_role,
+       a.other_parties_names, a.other_parties_origins, a.other_parties_role,
+       a.matter, a.price, a.currency, a.other_equivalent, a.keywords, a.decision, a.notes,
+       a.summary, a.volume_id AS volume, a.register, a.page, a.pdf_page, a.extraction
+FROM acts a ORDER BY a.volume_id, a.seq;
 
 CREATE VIEW v_acts AS
 SELECT a.ref, a.date_iso, a.date_raw, t.label AS type, a.language, a.summary,
@@ -840,7 +874,12 @@ def build(config_path, out_path):
             print(f"  part {part['number']}: {len(entries)} documents", file=sys.stderr)
 
         acts, officials, footnotes = parse_analysis(pdf, vol)
+        ann_path = ROOT / "annotations" / f"vol{vid}.json"
+        ann = json.loads(ann_path.read_text(encoding="utf-8")) if ann_path.exists() else {}
+        overrides = ann.get("acts", {})
+        reviewed_upto = ann.get("reviewed_through_seq", 0)
         seq_by_index = {}
+        prev_tx = None
         for i, a in enumerate(acts, 1):
             enrich(a)
             # "Même acte..." / "Acte semblable...": same kind of act as the previous one
@@ -848,6 +887,44 @@ def build(config_path, out_path):
                 a["act_type"] = acts[i - 2]["act_type"]
             links = link_documents(a, doc_by_page)
             ref = f"{vid}-{a['register']}-{i:04d}"
+            a["ref"] = ref
+            tx = extract_parties.to_columns(a, extract_parties.extract(a))
+            # "Le même" / "au même": the party of the previous act
+            if prev_tx:
+                if tx["party1_name"] and re.fullmatch(r"(?:Le|La|Les) m[êe]mes?|\(same as previous act\)", tx["party1_name"]):
+                    for f in ("name", "origins"):
+                        tx[f"party1_{f}"] = prev_tx[f"party1_{f}"]
+                    tx["party1_role"] = tx["party1_role"] or prev_tx["party1_role"]
+                    tx["notes"] = ((tx["notes"] or "") + " Party 1 is the same as in the previous act.").strip()
+                if re.search(r"\b(?:au|du|le) même\b(?!\s+(?:lieu|ville|jour|objet|sujet))", a["summary"]) and not tx["party2_name"]:
+                    for f in ("name", "origins", "role"):
+                        tx[f"party2_{f}"] = prev_tx[f"party2_{f}"]
+                if re.match(r"(?:En \w+\. — )?(?:M[êe]me acte|Acte sem\w*blable)", a["summary"]):
+                    for side, nm in (("party1", "name"), ("party2", "name"), ("other_parties", "names")):
+                        if not tx[f"{side}_{nm}"] or tx[f"{side}_{nm}"].startswith("("):
+                            for f in (nm, "origins", "role"):
+                                tx[f"{side}_{f}"] = prev_tx[f"{side}_{f}"]
+                    tx["transaction_type"] = prev_tx["transaction_type"]
+            if a.get("date_supplied"):
+                tx["notes"] = ("Undated in the register (s. d.); date supplied by the editor. " + (tx["notes"] or "")).strip()
+            for k, v in overrides.get(ref, {}).items():
+                if k not in tx:
+                    raise SystemExit(f"annotations/vol{vid}.json: unknown field {k!r} for {ref}")
+                tx[k] = v
+            # ";" separates people; when a role/origin list does not line up one-to-one
+            # with the names, its ";" were separating facets of one description.
+            for nm, fields in (("party1_name", ("party1_origins", "party1_role")),
+                               ("party2_name", ("party2_origins", "party2_role")),
+                               ("other_parties_names", ("other_parties_origins", "other_parties_role"))):
+                n = len(tx[nm].split(";")) if tx[nm] else 0
+                for f in fields:
+                    v = tx[f]
+                    if v is not None and not v.strip(" ;,"):
+                        tx[f] = None
+                    elif v and len(v.split(";")) != n:
+                        tx[f] = re.sub(r"\s*;\s*", ", ", v).strip(" ,")
+            prev_tx = dict(tx)
+            tx["extraction"] = "reviewed" if (i <= reviewed_upto or ref in overrides) else "auto"
             cur = db.execute(
                 "INSERT INTO acts (volume_id, ref, register, seq, date_iso, year, month, day, "
                 "undated, date_supplied, date_raw, summary, language, act_type, concerns_ransom, "
@@ -860,6 +937,8 @@ def build(config_path, out_path):
                  int(a["unfinished"]), int(a["damaged"]), a["consul"], a["vice_consul"],
                  a["chancelier"], a["page"], a["pdf_page"]))
             act_id = cur.lastrowid
+            db.execute("UPDATE acts SET " + ", ".join(f"{k} = ?" for k in tx) + " WHERE id = ?",
+                       [*tx.values(), act_id])
             for doc_id, method in links:
                 db.execute("INSERT OR IGNORE INTO act_documents VALUES (?,?,?)", (act_id, doc_id, method))
             if a["mentions_extenso"] and not links:
@@ -869,6 +948,9 @@ def build(config_path, out_path):
                 db.execute("INSERT INTO act_amounts (act_id, amount, currency, qualifier, raw) "
                            "VALUES (?,?,?,?,?)", (act_id, m["amount"], m["currency"],
                                                   m["qualifier"], m["raw"]))
+        unknown = set(overrides) - {f"{vid}-{a['register']}-{j:04d}" for j, a in enumerate(acts, 1)}
+        if unknown:
+            print(f"  ! annotations refer to unknown acts: {sorted(unknown)[:5]}", file=sys.stderr)
         for o in officials:
             db.execute("INSERT INTO officials (volume_id, name, role, register, first_act_id, page, "
                        "pdf_page) VALUES (?,?,?,?,?,?,?)",
@@ -893,6 +975,7 @@ def export_csv(db_path, out_dir):
     out_dir.mkdir(exist_ok=True)
     db = sqlite3.connect(db_path)
     for name, sql in [("acts", "SELECT * FROM v_acts"),
+                      ("transactions", "SELECT * FROM v_transactions"),
                       ("act_amounts", "SELECT a.ref, m.amount, m.currency, m.qualifier, m.raw "
                                       "FROM act_amounts m JOIN acts a ON a.id = m.act_id ORDER BY a.seq"),
                       ("documents", "SELECT volume_id, part, roman, title, date_iso, page_start, "
