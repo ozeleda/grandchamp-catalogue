@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 1086,
+ "reviewed_through_seq": 1126,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -9938,6 +9938,363 @@
    "currency": "écus d'or de 64 aspres",
    "matter": "Debt",
    "keywords": "debt"
+  },
+  "2-IV-1087": {
+   "party1_name": "Dmytrie Fillalty",
+   "party1_role": "principal, captive",
+   "matter": "To sell his property and ransom him",
+   "keywords": "ransom"
+  },
+  "2-IV-1088": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant",
+   "other_parties_names": "Prosporo Pagnaly; Mamet; Belle Assan bel Casson; Fattyma",
+   "other_parties_origins": "corse; de Bône; ; ",
+   "other_parties_role": "agent who took the hides; Muslim captive to be ransomed; Muslim captive; Muslim captive",
+   "matter": "In March 1609 gave Pagnaly 600 hides to sell at Livorno and ransom three Muslim captives with the proceeds",
+   "notes": "Three witnesses confirm the declaration.",
+   "keywords": "hides; Muslim captives; ransom"
+  },
+  "2-IV-1089": {
+   "other_parties_names": "Prosporo Pagnaly",
+   "other_parties_origins": "corse",
+   "other_parties_role": "debtor",
+   "matter": "Recovery of what Pagnaly owes",
+   "notes": "Printed « sept. », although the surrounding acts are from October and November 1609.",
+   "keywords": "debt collection"
+  },
+  "2-IV-1090": {
+   "transaction_type": "Consular decision",
+   "party1_origins": "; juif de Livourne",
+   "party1_role": "party, ship master (patron); party",
+   "party2_name": "Hugues Changet",
+   "party2_role": "consul (gives sentence)",
+   "other_parties_names": "Anthoine Lovico",
+   "other_parties_role": "witness",
+   "matter": "Dispute over a sale of brazilwood",
+   "notes": "Printed « sept. », although the surrounding acts are from October and November 1609.",
+   "keywords": "brazilwood; dispute; Jews"
+  },
+  "2-IV-1091": {
+   "transaction_type": "Redemption",
+   "party1_name": "Fantino Dalfino",
+   "party1_role": "declarant, ransomed captive, Dominican father",
+   "party2_name": "Hercule Tamagne",
+   "party2_origins": "d'Elbe",
+   "party2_role": "payer of the ransom",
+   "other_parties_names": "Ossoman Dey; Roberto Strozzi et Cie; Domynigo Dalfino",
+   "other_parties_origins": "; de Venise; ",
+   "other_parties_role": "recipient of ransom payment; bankers who ordered the payment; procurator of the Republic of Venice",
+   "price": 723.5,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransomed on the order of Strozzi & Co. of Venice at the request of the procurator Domenico Dalfino",
+   "notes": "Printed « sept. », although the surrounding acts are from October and November 1609.",
+   "keywords": "ransom; clergy; Venice"
+  },
+  "2-IV-1092": {
+   "party2_origins": "juif",
+   "matter": "Summons to take delivery of 23 cantars of brazilwood he bought",
+   "notes": "Unfinished act. Printed « sept. », although the surrounding acts are from October and November 1609.",
+   "keywords": "brazilwood; Jews"
+  },
+  "2-IV-1093": {
+   "price": 262.5,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan",
+   "notes": "Printed « sept. », although the surrounding acts are from October and November 1609.",
+   "keywords": "loan"
+  },
+  "2-IV-1094": {
+   "transaction_type": "Redemption",
+   "party1_origins": "d'Amsterdam",
+   "party1_role": "ransomed captive",
+   "party2_name": "Marco Francisco",
+   "party2_role": "payer of the ransom",
+   "other_parties_names": "Ossoman Dey; Mathieu da Terensia",
+   "other_parties_origins": "; marchand de Livourne",
+   "other_parties_role": "recipient of ransom payment; principal (ordered the ransom)",
+   "currency": "écus",
+   "other_equivalent": "Plus 30 écus 40 aspres supplied to him",
+   "matter": "Ransomed on the order of Mathieu da Terensia, merchant of Livorno",
+   "keywords": "ransom; Dutch"
+  },
+  "2-IV-1095": {
+   "party1_role": "seller, governor and protector of the Militia of the Kingdom of Tunis",
+   "party2_name": "Joane Rio",
+   "party2_origins": "de Levante",
+   "party2_role": "buyer, ship master (patron)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ship of 3,500 cantars with sails, rigging and three iron swivel guns, taken by the galliots of Bizerte",
+   "keywords": "ship sale; prize; dey"
+  },
+  "2-IV-1096": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable within a year",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1097": {
+   "party2_origins": "; de Raguse",
+   "party2_role": "payer, executor; payer, executor",
+   "other_parties_names": "Divan of the Janissaries; Miquely Praxatty",
+   "other_parties_origins": "; de Raguse",
+   "other_parties_role": "recipient of ransom payment; testator (whose estate paid)",
+   "currency": "écus",
+   "other_equivalent": "47 aspres",
+   "matter": "Ransom paid by the executors of Miquely Praxatty's will",
+   "keywords": "ransom; bequest; Ragusa"
+  },
+  "2-IV-1098": {
+   "party1_name": "Agoustino de Matheo",
+   "party1_origins": "de Monte Maon (Corse)",
+   "party1_role": "recipient, ransomed captive",
+   "party2_name": "Joan de Luca Myquelle; Joan de Biaxo",
+   "party2_role": "payer, executor; payer, executor",
+   "other_parties_names": "Divan of the Janissaries",
+   "currency": "écus",
+   "other_equivalent": "47 aspres",
+   "matter": "Ransom paid by the executors of Miquely Praxatty's will",
+   "keywords": "ransom; bequest; Ragusa"
+  },
+  "2-IV-1099": {
+   "date": "1609-11-07",
+   "party2_name": "Joan de Luca Myquelle; Joan de Biaxo",
+   "party2_role": "payer, executor; payer, executor",
+   "other_parties_names": "Ossoman Dey; Miquely Praxatty",
+   "other_parties_origins": "; de Raguse",
+   "other_parties_role": "recipient of ransom payment; testator",
+   "currency": "écus",
+   "other_equivalent": "16 aspres",
+   "matter": "Ransom paid by the executors (« hepitropy ») of Miquely Praxatty's will",
+   "notes": "Day read as 1, between acts of 7 and 9 November.",
+   "keywords": "ransom; bequest; Ragusa"
+  },
+  "2-IV-1100": {
+   "other_parties_names": "Ossoman Dey; Jacques Moustier",
+   "other_parties_origins": "; de Marseille",
+   "other_parties_role": "recipient of ransom payment; principal (on whose account)",
+   "currency": "écus de 12 réaux castillans",
+   "matter": "Ransom paid on account of Jacques Moustier",
+   "notes": "Act in French.",
+   "keywords": "ransom"
+  },
+  "2-IV-1101": {
+   "party1_role": "principal, slave of Ossoman Dey",
+   "matter": "To raise funds, probably for his ransom",
+   "keywords": "ransom; family"
+  },
+  "2-IV-1102": {
+   "currency": "écus",
+   "other_equivalent": "29½ aspres",
+   "matter": "Settlement of an account",
+   "keywords": "account; payment"
+  },
+  "2-IV-1103": {
+   "other_parties_names": "Moratto; Rocho Manfredino",
+   "other_parties_origins": "turc de Tunis; ",
+   "other_parties_role": "recipient of ransom payment, caïd; principal (ordered the ransom)",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "52 aspres",
+   "matter": "Ransom repayable at Livorno",
+   "keywords": "ransom; loan; Dutch"
+  },
+  "2-IV-1104": {
+   "party1_origins": "de St-Filhiou (San Feliu) en Catalogne",
+   "price": 137.5,
+   "currency": "écus d'or d'Espagne",
+   "keywords": "payment"
+  },
+  "2-IV-1105": {
+   "party1_origins": "de Bagnols en Languedoc",
+   "other_parties_names": "Ossoman Dey",
+   "currency": "écus d'or de 12 réaux",
+   "matter": "Ransom loan repayable at Marseille",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1106": {
+   "transaction_type": "Power of attorney",
+   "party1_origins": "de Fréjus, habitant Araise",
+   "party1_role": "principal, slave of Assan Bally (Turk of Bizerte)",
+   "party2_name": "Issabette Aurame",
+   "party2_origins": "d'Araise",
+   "party2_role": "attorney, wife of party 1",
+   "matter": "To raise funds, probably for his ransom",
+   "notes": "Act in French.",
+   "keywords": "ransom; family"
+  },
+  "2-IV-1107": {
+   "party1_name": "Mamout; Baxis",
+   "party1_origins": "maure de Djerba; maure de Djerba",
+   "party1_role": "witness; witness",
+   "other_parties_names": "Ally fils de Assan; Amouro benxalem",
+   "other_parties_origins": "turc de Xatalye (Antalya); ",
+   "other_parties_role": "shipper of goods for Malta; raïs of the « loude »",
+   "matter": "At Bizerte on 4 November 1609 saw Ally load goods for Malta on the « loude » of raïs Amouro; off the Île Plane it was taken by a polacre flying an all-white flag despite flying the Malta flag; they escaped in its boat",
+   "notes": "Act in French.",
+   "keywords": "capture; Malta; flag"
+  },
+  "2-IV-1108": {
+   "transaction_type": "Protest / summons",
+   "party1_role": "complainant, ship master (patron)",
+   "party2_name": "Guillon Angallier",
+   "party2_origins": "de Toulon",
+   "party2_role": "accused, ship master (patron)",
+   "matter": "Angallier took sails he had bought at Tunis and stored at La Goulette",
+   "notes": "Two witness statements follow. Act in French.",
+   "keywords": "theft; sails"
+  },
+  "2-IV-1109": {
+   "party2_name": "Ally Pacha",
+   "party2_role": "buyer (and seller of the second ship)",
+   "price": 400,
+   "currency": "écus d'or",
+   "other_equivalent": "In exchange Ally Pacha sold him a Neapolitan « saettia » of 1,400 cantars for 500 écus d'or",
+   "matter": "Sold a « saettia » of 1,000 cantars with sails and rigging; bought a Neapolitan saettia taken by the Bizerte galleys",
+   "keywords": "ship sale; exchange; prize; pasha"
+  },
+  "2-IV-1110": {
+   "party1_role": "summoning party, ship master (patron)",
+   "party2_name": "Juseppy Creudy",
+   "party2_role": "party summoned",
+   "matter": "Summons to collect the 23 cantars of brazilwood bought at La Goulette",
+   "decision": "Creudy replies it is Saturday, a feast day, and will answer the next day",
+   "keywords": "brazilwood; Jews; Sabbath"
+  },
+  "2-IV-1111": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron)",
+   "party2_name": "Hugues Changet",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for the last fitting-out of his boat « Ste Marye du Rosary », payable at Marseille",
+   "notes": "Act in French.",
+   "keywords": "loan; ship"
+  },
+  "2-IV-1112": {
+   "date": "1609-12-14",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt",
+   "notes": "Act in French.",
+   "keywords": "debt"
+  },
+  "2-IV-1113": {
+   "matter": "Debt",
+   "notes": "Act in French.",
+   "keywords": "debt"
+  },
+  "2-IV-1114": {
+   "date": "1610-01-05",
+   "party2_origins": "de la Torre del Greco",
+   "other_parties_names": "Joan Leonardo",
+   "other_parties_role": "principal (on whose account)",
+   "currency": "écus",
+   "notes": "Printed « 19 janv. », but the next act is dated 5 January; perhaps 4 or 5.",
+   "keywords": "payment"
+  },
+  "2-IV-1115": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt",
+   "keywords": "debt"
+  },
+  "2-IV-1116": {
+   "transaction_type": "Protest / summons",
+   "other_parties_names": "Hugues Changet",
+   "other_parties_role": "consul (summons the seller)",
+   "matter": "Sold his polacre without the consul's consent to Sidi Hamida, who will arm her as a corsair; contrary to royal ordinances, the consul summons him to cancel the sale and deposit the 470 écus",
+   "decision": "The seller replies he did not know the ordinances, the buyer is a merchant trading with the Levant, and the money is his",
+   "notes": "Act in French.",
+   "keywords": "ship sale; corsairs; royal ordinances"
+  },
+  "2-IV-1117": {
+   "party2_name": "Heurban de Nans",
+   "party2_origins": "de Sixfours",
+   "other_parties_names": "Ossoman Dey; Louys Changet",
+   "other_parties_role": "dey (refuses the licence until his warships sail); chancellor",
+   "matter": "Summons to take the licence for his polacre at La Goulette and sail as soon as possible; Armand opposes loading cargo; the ship is exempt from anchorage dues given the purpose of his voyage",
+   "decision": "The dey said he will let him sail once his warships have put to sea; reply received by the chancellor Louys Changet, as the consul was bedridden",
+   "notes": "Act in French.",
+   "keywords": "embargo; licence; dey"
+  },
+  "2-IV-1118": {
+   "party1_origins": "de Marseille",
+   "party2_name": "Josepo Creuda; Habrami Creuda",
+   "party2_origins": "juif de Livourne; juif de Livourne",
+   "party2_role": "charterer; charterer",
+   "currency": "écus",
+   "matter": "Charter of his « saettia »",
+   "notes": "Unfinished act.",
+   "keywords": "charter; Jews"
+  },
+  "2-IV-1119": {
+   "party1_origins": "de Laigueglia",
+   "party1_role": "requesting party, slave of Sidi Hamida (Turk of Tunis)",
+   "other_parties_names": "Joan Francisco Garriano",
+   "other_parties_origins": "de Laigueglia",
+   "other_parties_role": "deceased (died of plague at Algiers 1 year 8 months before)",
+   "matter": "Witnesses to the death of Garriano at Algiers, of the plague",
+   "notes": "Two witness statements follow.",
+   "keywords": "death; plague; Algiers; slavery"
+  },
+  "2-IV-1120": {
+   "party2_name": "[...] Imperato",
+   "price": 105,
+   "currency": "pièces de 8 réaux castillans",
+   "other_parties_names": "Maryo de Lionardo Quarantotto; Lionora Bonsignore",
+   "other_parties_origins": "de Pise; de Naples",
+   "other_parties_role": "principal (ordered the payment); principal (ordered the payment)",
+   "matter": "Payment on the order of Quarantotto and the lady Lionora Bonsignore",
+   "keywords": "payment"
+  },
+  "2-IV-1121": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Lorenso Pira; Giovanny de Geronyme; Tomasello Palonbo",
+   "party1_origins": "de Sassari; de Mera de Moneglia (Rivière de Gênes); de la Torre del Greco",
+   "party1_role": "declarant; declarant; declarant",
+   "matter": "Explain the conditions of the act of 24 November 1608 (share in the « Nunziata »)",
+   "keywords": "ship share; partnership"
+  },
+  "2-IV-1122": {
+   "transaction_type": "Declaration / attestation",
+   "matter": "Same matter",
+   "keywords": "ship share"
+  },
+  "2-IV-1123": {
+   "transaction_type": "Declaration / attestation",
+   "matter": "Same matter",
+   "keywords": "ship share"
+  },
+  "2-IV-1124": {
+   "party1_origins": "de Marseille",
+   "party1_role": "debtor, ransomed captive, wife of Honorat Jouhart of Grasse",
+   "other_parties_names": "Francisco Loubretto",
+   "other_parties_role": "lender of 50 écus (slave of Ossoman Dey), repaid",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "Total ransom 100 écus",
+   "matter": "Ransom loan",
+   "notes": "Receipt dated 11 August 1610 in the margin.",
+   "keywords": "ransom; loan; women"
+  },
+  "2-IV-1125": {
+   "party1_origins": "d'Alicante",
+   "other_parties_names": "Ossoman Dey; Miquel Vidal",
+   "other_parties_origins": "; de Cagliari",
+   "other_parties_role": "recipient of ransom payment; principal (ordered the ransom)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable one month after arrival at Cagliari",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-1126": {
+   "party1_name": "Pedro de Rouxo",
+   "party1_role": "recipient, ransomed captive, Capuchin father",
+   "party2_name": "Jousepe [...]",
+   "party2_role": "payer",
+   "other_parties_names": "Mamet Cheleby",
+   "other_parties_origins": "turc de Tunis",
+   "other_parties_role": "recipient of ransom payment",
+   "price": null,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom (amount left blank)",
+   "notes": "Unfinished act.",
+   "keywords": "ransom; clergy"
   }
  }
 }
