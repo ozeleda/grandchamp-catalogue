@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 796,
+ "reviewed_through_seq": 836,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -7152,6 +7152,359 @@
    "matter": "Ransom loan",
    "notes": "Folio 141 (OCR 441). Day read as 6, after acts of 13 May; probably 16.",
    "keywords": "ransom; loan"
+  },
+  "2-IV-0797": {
+   "transaction_type": "Payment / receipt",
+   "party1_role": "creditor (gives receipt)",
+   "party2_name": "Salviano Gauderise",
+   "party2_role": "debtor (paid), ship master (patron)",
+   "currency": "écus d'or",
+   "matter": "Discharge for 160 écus owed",
+   "keywords": "receipt; debt"
+  },
+  "2-IV-0798": {
+   "transaction_type": "Redemption",
+   "party1_role": "witness; witness",
+   "party1_origins": "de Naples, habitant à Malte; génois, habitant à Malte",
+   "party2_name": "Franco Tomasello",
+   "party2_role": "payer of the ransom",
+   "other_parties_names": "Angielo di Michele Giordano",
+   "other_parties_origins": "de Malte",
+   "other_parties_role": "ransomed captive",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Witnessed the ransom of Angielo Giordano for 123 écus including the Porte fee",
+   "keywords": "ransom; witnesses; fees"
+  },
+  "2-IV-0799": {
+   "transaction_type": "Undertaking / promise",
+   "party1_role": "promisor, captive; promisor",
+   "party2_name": "Say Amet ben Ali",
+   "party2_origins": "maure de Tripoli",
+   "party2_role": "promisee (safe conduct)",
+   "matter": "Promise that Say Amet ben Ali will not be troubled when he goes to Cagliari to negotiate Santoro's ransom",
+   "keywords": "ransom; safe conduct"
+  },
+  "2-IV-0800": {
+   "currency": "écus",
+   "matter": "Money Gauderise was charged to deliver",
+   "keywords": "payment; remittance"
+  },
+  "2-IV-0801": {
+   "currency": "écus d'or",
+   "matter": "Money delivered on the same terms",
+   "keywords": "payment; remittance"
+  },
+  "2-IV-0802": {
+   "transaction_type": "Protest / summons",
+   "party1_role": "requesting party",
+   "party2_name": "Stefano Sicard",
+   "party2_origins": "de la Ciotat",
+   "party2_role": "author of the record",
+   "other_parties_names": "Hugues Changet",
+   "other_parties_role": "consul (signs)",
+   "matter": "Asks the consul to annul a record made by Sicard about a sale of wine",
+   "keywords": "wine; annulment"
+  },
+  "2-IV-0803": {
+   "transaction_type": "Declaration / attestation",
+   "party1_origins": "de Reggio",
+   "party1_role": "requesting party, slave",
+   "other_parties_names": "Mameti Cielebi; Dienora di Stefano Bonsignore; Hercole; Maria",
+   "other_parties_role": "master; fellow captive; fellow captive (her brother); fellow captive (servant)",
+   "currency": "écus",
+   "matter": "Enslaved two years ago and sold with Dienora Bonsignore, her brother and servant to Mameti Cielebi; allowed by his master to go to Christendom to fetch the 500 écus for all their ransoms; asks for witnesses",
+   "notes": "Four witness statements follow.",
+   "keywords": "ransom; slavery; parole"
+  },
+  "2-IV-0804": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "price": 92,
+   "currency": "soltanis",
+   "other_equivalent": "64 aspres",
+   "matter": "Loan repayable ten days after arrival at Cagliari",
+   "keywords": "loan"
+  },
+  "2-IV-0805": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron)",
+   "party2_name": "Marcanto Toppori",
+   "party2_role": "creditor",
+   "price": 100,
+   "currency": "soltanis turcs",
+   "matter": "Loan for the last fitting-out of the ship « San Franco e Nostra Sa del Socchorso », repayable ten days after arrival at Cagliari",
+   "keywords": "loan; ship"
+  },
+  "2-IV-0806": {
+   "transaction_type": "Redemption",
+   "party1_role": "recipient, ransomed captive",
+   "party2_name": "Gio Batista Toppori",
+   "party2_role": "lender",
+   "other_parties_names": "Assano",
+   "other_parties_origins": "renégat corse",
+   "other_parties_role": "recipient of ransom payment, caïd, renegade",
+   "price": 292,
+   "currency": "soltanis turcs",
+   "matter": "Ransom loan, repayable ten days after arrival at Cagliari",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0807": {
+   "party2_name": "Gio Bata Toppori",
+   "party2_role": "promisee, ship master (patron)",
+   "currency": "écus",
+   "matter": "Promises 75 écus for passage to Sardinia; Toppori had to postpone a voyage to Palermo",
+   "keywords": "passage; freight"
+  },
+  "2-IV-0808": {
+   "transaction_type": "Debt",
+   "party1_name": "Giacomo de Conte",
+   "party1_origins": "flamand, habitant en Goa (Indes portugaises)",
+   "party1_role": "debtor, ransomed captive",
+   "other_parties_names": "Mamet bey",
+   "other_parties_origins": "capitaine de Bizerte",
+   "other_parties_role": "recipient of ransom payment, captain of Bizerte",
+   "price": 955.5,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable one month after arrival at Marseille",
+   "notes": "Same person as Jacques de Conte (act of May 1608).",
+   "keywords": "ransom; loan; India"
+  },
+  "2-IV-0809": {
+   "price": 50,
+   "currency": "pièces de 8 réaux castillans",
+   "party2_role": "payer (debtor)",
+   "matter": "Repayment of a debt",
+   "keywords": "debt; payment"
+  },
+  "2-IV-0810": {
+   "date": "1608-05-20",
+   "transaction_type": "Surety",
+   "party1_role": "guarantor, ship master (patron)",
+   "party2_name": "Antonio Manfredini",
+   "party2_role": "principal debtor",
+   "other_parties_names": "Santo Simodeo",
+   "other_parties_role": "creditor",
+   "currency": "écus",
+   "matter": "Surety for Manfredini's 150-écu debt to Simodeo",
+   "notes": "Day read as 2, between acts of 23 and 26 May; perhaps 24 or 25.",
+   "keywords": "surety; debt"
+  },
+  "2-IV-0811": {
+   "party1_name": "Marcho di Giorgio Ermino (Armenio)",
+   "party2_name": "Girolamo Bonfanti",
+   "price": 100,
+   "currency": "pièces de 8 réaux castillans",
+   "party2_role": "payer (debtor), ship master (patron)",
+   "matter": "Repayment of a debt",
+   "keywords": "debt; payment"
+  },
+  "2-IV-0812": {
+   "matter": "4 casks of wine Bonfanti had undertaken to deliver",
+   "keywords": "wine; delivery"
+  },
+  "2-IV-0813": {
+   "party1_origins": "génois",
+   "party1_role": "recipient, ship master (patron)",
+   "matter": "Freight of goods from Palermo to Tunis",
+   "keywords": "freight"
+  },
+  "2-IV-0814": {
+   "party2_name": "Gio Maria Paghano; Giesci Paghano",
+   "party2_origins": "de Policastro; de Policastro",
+   "party2_role": "sender; sender (brothers)",
+   "other_parties_names": "Grazia Paghano; Dienora Paghano",
+   "other_parties_role": "payees, wives of the senders",
+   "price": 80,
+   "currency": "pièces (monnaie de Naples)",
+   "matter": "Money to carry to their wives",
+   "keywords": "remittance; family"
+  },
+  "2-IV-0815": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom",
+   "keywords": "ransom"
+  },
+  "2-IV-0816": {
+   "party1_role": "principal",
+   "party2_name": "Agostino di Polo",
+   "party2_origins": "de Sartène",
+   "party2_role": "attorney",
+   "matter": "Power of attorney (summary cut off)",
+   "keywords": "power of attorney"
+  },
+  "2-IV-0817": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), ship master (patron)",
+   "party2_name": "Bartolomeo Orlando",
+   "party2_origins": "génois",
+   "party2_role": "creditor, ship master (patron)",
+   "price": 63,
+   "currency": "réaux castillans",
+   "matter": "Loan for the last fitting-out of his ship, payable at Cagliari",
+   "keywords": "loan; ship"
+  },
+  "2-IV-0818": {
+   "party2_name": "Asta Assano Genovese",
+   "other_parties_role": "recipient of ransom payment, Turk of Bizerte",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan; to be repaid at Tabarca",
+   "keywords": "ransom; loan; Tabarca"
+  },
+  "2-IV-0819": {
+   "party2_origins": "de Rossetto (Rosetta)",
+   "currency": "écus d'or d'Espagne",
+   "other_parties_role": "recipient of ransom payment, raïs",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0820": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Giovan Soudin",
+   "party1_origins": "d'Aulioules (Ollioules)",
+   "party1_role": "declarant, ship master (patron) of the « Sta Maria bona ventura »",
+   "other_parties_names": "a Turkish frigate of Bizerte; the French consul",
+   "other_parties_role": "captor (12 banks); obtained the release",
+   "price": 100,
+   "currency": "écus",
+   "matter": "Sea protest: sailing from Arase to Porto Torres, taken on 13 May 15 miles off the Sanguinaires and taken to Bizerte; the goods, said to be Genoese, unloaded; mast and yards taken; patron and men released through the consul for 100 écus",
+   "notes": "Continues on the next lines of p. 120. Five witness statements follow.",
+   "keywords": "sea protest; corsairs; ransom"
+  },
+  "2-IV-0821": {
+   "drop": true
+  },
+  "2-IV-0822": {
+   "party1_name": "Hugues Changet",
+   "party1_role": "arbitrator (consul)",
+   "party2_name": "Franco Scotto; Gio Bata Danna",
+   "party2_origins": "de Palerme; génois",
+   "party2_role": "party; party",
+   "matter": "Decision on a dispute between Scotto and Danna",
+   "keywords": "arbitration"
+  },
+  "2-IV-0823": {
+   "transaction_type": "Surety",
+   "party1_name": "Antonio Santoro; Agostino Baressi",
+   "party1_origins": "de Valence; castillan",
+   "party1_role": "guarantor; guarantor, don",
+   "party2_name": "Antonio Bartolotto",
+   "party2_role": "principal",
+   "other_parties_names": "Caito Assano",
+   "other_parties_origins": "renégat corse",
+   "other_parties_role": "creditor (slave-owner), caïd, renegade",
+   "currency": "écus",
+   "matter": "Surety for the 500 écus Bartolotto undertook to bring back from Corsica",
+   "keywords": "surety; ransom"
+  },
+  "2-IV-0824": {
+   "party2_name": "Antonio Santoro; Agostino Baressi",
+   "party2_origins": "de Valence; castillan",
+   "party2_role": "promisee; promisee",
+   "matter": "Promises to return to Tunis with the ransom within five months, or pay 150 écus on top of the 500",
+   "keywords": "ransom; parole; penalty"
+  },
+  "2-IV-0825": {
+   "currency": "écus",
+   "keywords": "payment"
+  },
+  "2-IV-0826": {
+   "party1_origins": "d'Aulioules (Ollioules)",
+   "party1_role": "recipient, ship master (patron)",
+   "party2_role": "lender, ship master (patron)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan to redeem his barque held by the infidels; repayable one month after the barque's arrival at Marseille",
+   "keywords": "ship redemption; loan"
+  },
+  "2-IV-0827": {
+   "transaction_type": "Declaration / attestation",
+   "other_parties_names": "Honoré Hicard",
+   "other_parties_role": "ship master (patron)",
+   "matter": "Inventory of goods on board the « Sta Maria bona ventura » plundered by the galleys of Bizerte",
+   "keywords": "inventory; corsairs"
+  },
+  "2-IV-0828": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant, ship master (patron)",
+   "other_parties_names": "five Turkish galleys of Bizerte",
+   "other_parties_role": "captors",
+   "matter": "Sea protest: left Marseille on 22 May for Chios or Constantinople; taken on the 28th 30 miles off Porto Farina; things taken from the hold there and more goods and money at La Goulette",
+   "notes": "Six witness statements on this affair are on folios 188–193.",
+   "keywords": "sea protest; corsairs; galleys"
+  },
+  "2-IV-0829": {
+   "party2_name": "Franc Tomasino; Gio Bata Palma",
+   "party2_origins": "corse, habitant à Marseille; de Marseille",
+   "party2_role": "creditor, ship master (patron); creditor",
+   "other_parties_names": "Asta Assano",
+   "other_parties_origins": "renégat génois",
+   "other_parties_role": "recipient of ransom payment, renegade",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "21 aspres",
+   "matter": "Ransom loan repayable at Ajaccio",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0830": {
+   "other_parties_names": "Giacomo Santo",
+   "other_parties_role": "debtor",
+   "matter": "Recovery of debts, notably from Giacomo Santo",
+   "keywords": "debt collection"
+  },
+  "2-IV-0831": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "lender",
+   "other_parties_names": "Sidi Mamette Cielbett",
+   "other_parties_origins": "maure de Bizerte",
+   "other_parties_role": "recipient of ransom payment",
+   "matter": "Ransom loan repayable 15 days after arrival at Cagliari",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0832": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Antonio Deidier",
+   "party1_origins": "de Marseille",
+   "party1_role": "declarant, ship master (patron) of the « Sta Anna bona ventura »",
+   "other_parties_names": "5 galleys of Bizerte",
+   "other_parties_role": "captors",
+   "price": 700,
+   "currency": "réaux",
+   "matter": "Sea protest: bound for Chios, hid three bags of 700 réaux in all (under a cask, in a chest, in an oil jar); the Moors found the first; taken near Zembra (« Zenbalo in Barberia »)",
+   "notes": "Five witness statements follow.",
+   "keywords": "sea protest; corsairs; coin"
+  },
+  "2-IV-0833": {
+   "party2_origins": "de Marseille; corse, habitant Marseille; corse, habitant Marseille",
+   "other_parties_names": "Ossoman Day",
+   "other_parties_role": "recipient of ransom payment (dey)",
+   "currency": "livres tournois (monnaie de France)",
+   "other_equivalent": "Livres of 20 sols",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0834": {
+   "party2_name": "Franc Silvestro",
+   "party2_role": "attorney, brother of party 1",
+   "other_parties_names": "Giovan Soudin",
+   "other_parties_origins": "d'Aulioules",
+   "other_parties_role": "debtor",
+   "matter": "Recovery of sums, notably from Giovan Soudin",
+   "keywords": "debt collection"
+  },
+  "2-IV-0835": {
+   "date": "1608-06",
+   "transaction_type": "Declaration / attestation",
+   "other_parties_names": "Honoré Hicard",
+   "other_parties_role": "ship master (patron)",
+   "matter": "Seventh testimony on the capture of Hicard's ship by 5 galleys of Bizerte",
+   "notes": "Folio 195 of the register. Undated (s. d.).",
+   "keywords": "sea protest; witnesses"
+  },
+  "2-IV-0836": {
+   "price": 1000,
+   "currency": "pièces de 12 réaux castillans",
+   "matter": "Loan",
+   "notes": "Receipt dated 31 July 1608, registered at the foot of the act on 13 September.",
+   "keywords": "loan"
   }
  }
 }
