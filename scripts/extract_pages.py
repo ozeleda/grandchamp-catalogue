@@ -46,6 +46,13 @@ def header_number(text):
         m = NUM_LINE.match(l)
         if m and 0 < int(m.group(1)) < 800:
             return int(m.group(1))
+    for l in lines[:2]:
+        # running title and number on one line: "ANALYSE DES ACTES (1651-1660)     3",
+        # "  275     TABLE DES NOMS CITÉS"
+        m = (re.match(r"^\s*[A-ZÀ-Ý][A-ZÀ-Ýa-zà-ÿ ()\d.,'’\-–—]{6,}?\s{2,}(\d{1,3})\s*$", l)
+             or re.match(r"^\s*(\d{1,3})\s{2,}[A-ZÀ-Ý][A-ZÀ-Ý ()\d.,'’\-–—]{6,}$", l))
+        if m and re.search(r"[A-ZÀ-Ý]{4,}", l) and 0 < int(m.group(1)) < 800:
+            return int(m.group(1))
     return None
 
 
@@ -138,6 +145,10 @@ def reindent(text):
                      else " " * (12 - lead) + l for l in lines)
 
 
+NOTE_START = re.compile(r"^\s*(?:Acte|Sign|Non |Suit|Une mention|Le bas|En marge|En (?:grande )?partie|Témoin|Les témoins|Même)")
+LATE_LAYOUT = False          # volumes 5-8 (set in main): continuation lines indented only 4-5 spaces
+
+
 def normalise(text):
     out = []
     for l in text.split("\n"):
@@ -199,7 +210,8 @@ def normalise(text):
         i += 1
     # A margin date in front of a continuation line (lower case): it belongs to the next act,
     # whose first line ("En italien. — ...") came out without a date.
-    entry = re.compile(r"^(\s{0,3}(?:1er|\d{1,2})(?:\s+[a-zéû]{2,6}\.?)?(?:\s*[—–-])?)(\s{3,})(?=\S)")
+    entry = re.compile(r"^(\s{0,3}(?:1er|\d{1,2})(?:\s+[a-zéû]{2,6}\.?)?"
+                       + (r"(?:\s*[—–-]+){0,3})" if LATE_LAYOUT else r"(?:\s*[—–-])?)") + r"(\s{3,})(?=\S)")
     lang_only = re.compile(r"^\s*En \w+\. —\s*$")
     for i, l in enumerate(merged):
         m = entry.match(l)
@@ -226,22 +238,88 @@ def normalise(text):
                 merged[k2] = ""
                 continue
         if not re.match(r"[a-zà-ÿ,;\d]", rest) and (re.match(r"E[nt]\s*\w+\s*\.\s*[—–-]", rest) or not nxt_i
-                                                    or not re.match(r"^\s{6,}En \w+\. — ", merged[nxt_i])):
+                                                    or not re.match(r"^\s{3,}En \w+\. —(?:\s|$)", merged[nxt_i])):
             continue
-        for j in range(i + 1, min(i + 6, len(merged))):
+        seen = 0
+        for j in range(i + 1, min(i + 14, len(merged))):
             nxt = merged[j]
+            seen += bool(nxt.strip())
+            if seen > 6:
+                break
             prev_text = next((merged[k] for k in range(j - 1, i, -1) if merged[k].strip()), rest).rstrip()
-            starts_act = (re.match(r"^\s{6,}En \w+\. — ", nxt)
+            starts_act = (re.match(r"^\s{3,}En \w+\. —(?:\s|$)", nxt)
                           or (re.match(r"[a-zà-ÿ,;\d]", rest) and prev_text.endswith((".", ")", "»"))
-                              and re.match(r"^\s{6,}(?:\(\s?\d+\s?\)|\([A-Z]|[A-ZÉ][a-zéè]*\.? [A-ZÉ]|[A-ZÉ][a-zéè]+[ ,])", nxt)))
+                              and re.match(r"^\s{6,}(?:\(\s?\d+(?:\s?v\s?[°*º]?)?\s?\)|\([A-Z]|[A-ZÉ][a-zéè]*\.? [A-ZÉ]|[A-ZÉ][a-zéè]+[ ,])", nxt)))
+            if starts_act and not re.match(r"^\s*En \w+\. —", nxt) and NOTE_START.match(nxt):
+                starts_act = False
+            if (not starts_act and LATE_LAYOUT and re.match(r"[a-zà-ÿ,;\d]", rest)
+                    and not prev_text.endswith(("-", ",")) and re.match(r"^\s{8,}[A-ZÉ][a-zéè]+ [A-ZÉ(]", nxt)
+                    and not NOTE_START.match(nxt)):
+                # volumes 5-8: an act without its date starts with a paragraph indent
+                starts_act = True
             if starts_act:
                 tok = re.sub(r"\s+", " ", m.group(1).strip())
                 merged[j] = tok + " " * max(4, 12 - len(tok)) + nxt.strip()
                 merged[i] = " " * len(m.group(0)) + l[m.end():]
                 break
-            if nxt.strip() and not re.match(r"^\s{6,}", nxt):
+            if nxt.strip() and not re.match(r"^\s{3,}", nxt):
                 break
     return "\n".join(merged)
+
+
+MONTH_HEAD = re.compile(r"^\s{0,4}(?P<m>Janvier|F[ée]vrier|Mars|Avril|Mai|Juin|Juillet|Ao[uû]t|Septembre|Octobre|"
+                        r"Novembre|D[ée]cembre)\s*\.?(?:\s{2,}(?P<y>1[5-7]\d\d)(?:\s*[-–]\s*\d{0,4})?)?\s*$")
+MONTH_ABBR = {"janvier": "janv.", "février": "fév.", "fevrier": "fév.", "mars": "mars", "avril": "avril",
+              "mai": "mai", "juin": "juin", "juillet": "juil.", "août": "août", "aout": "août",
+              "septembre": "sept.", "octobre": "oct.", "novembre": "nov.", "décembre": "déc.", "decembre": "déc."}
+
+
+def month_headings(text, years=None):
+    """Volumes 5-8 print the month as a heading and the year at the right edge of the page,
+    with only the day in the margin. Rewrite them as in volumes 2-3: the year on its own line
+    at the left, and the month after the day of the first act under the heading."""
+    out, pending = [], None
+    for l in text.split("\n"):
+        y = re.fullmatch(r"\s*(1[5-7]\d\d)(?:\s*[-–]\s*\d{1,4})?\s*", l)
+        if y and len(l) - len(l.lstrip()) > 12:
+            out.append("  " + y.group(1))
+            continue
+        if re.match(r"^\s{0,6}(?:1er|\d{1,2})\s+(?:janv|f[ée]v|mars|avril|mai|juin|juil|ao[uû]t|sept|oct|nov|d[ée]c)"
+                    r"[a-zéû]*\.?,?\s+1[5-7]\d\d\b", l):
+            out.append("         " + l)        # "30 juin 1633. Signé..." : a date inside the text
+            continue
+        m = MONTH_HEAD.match(l)
+        fz = None if m else re.match(r"^\s{0,4}(?P<w>[A-ZÉ][a-zéèûô]{2,9})\.?(?:\s{3,}\S{0,4}\s*(?P<y>1[5-7]\d\d)"
+                                     r"(?:\s*[-–]\s*\d{0,4})?)?\s*$", l)
+        if fz:
+            import difflib
+            hit = difflib.get_close_matches(fz.group("w").lower(), list(MONTH_ABBR), n=1, cutoff=0.7)
+            if hit:
+                m = {"m": hit[0], "y": fz.group("y")}
+        if m:
+            m = {"m": m["m"], "y": m["y"]}
+            if m["y"] and years and not years[0] <= int(m["y"]) <= years[1]:
+                m["y"] = None                  # misread year ("1688" on a page of 1645)
+            pending = MONTH_ABBR[m["m"].lower()]
+            out.append(f"  {m['y']}" if m["y"] else "")
+            # the OCR sometimes reads the heading after the day of the act it heads:
+            # " 3   -" / "Juillet" / "   En italien. — ..."
+            back = [k for k in range(len(out) - 2, max(-1, len(out) - 6), -1) if out[k].strip()][:2]
+            for k in back:
+                d = re.match(r"^(\s{0,3})(1er|1°|\d{1,2})(?:\s*[—–-]+)?(\s*(?:En \w+\. —)?\s*)$", out[k])
+                if d and int(re.match(r"\d+", d.group(2)).group()) <= 31:
+                    out[k] = f"{d.group(1)}{d.group(2)} {pending}" + (d.group(3) if d.group(3).strip() else "")
+                    pending = None
+                    break
+            continue
+        d = re.match(r"^\s{0,3}(1er|1°|\d{1,2})(?:\s*[—–-]+)?\s{2,}(?=\S)", l)
+        if d and pending and int(re.match(r"\d+", d.group(1)).group()) <= 31:
+            tok = f"{d.group(1)} {pending}"
+            out.append(tok + " " * max(3, 12 - len(tok)) + l[d.end():])
+            pending = None
+            continue
+        out.append(l)
+    return "\n".join(out)
 
 
 def raw_volume(vid, vol):
@@ -275,6 +353,8 @@ def main():
     if not vol.get("scans"):
         return raw_volume(vid, vol)
     scans = vol["scans"]
+    global LATE_LAYOUT
+    LATE_LAYOUT = bool(vol.get("month_headings"))
     out_dir = ROOT / "text" / f"vol{vid}" / "pages"
     out_dir.mkdir(parents=True, exist_ok=True)
     for f in out_dir.glob("*.txt"):
@@ -321,7 +401,12 @@ def main():
                     print(f"  plate: {seq[k][0]} p.{seq[k][1]}", file=sys.stderr)
             between = keep
         elif len(between) < need:
-            print(f"  ! {need - len(between)} page(s) missing between {n1} and {n2}", file=sys.stderr)
+            every = list(range(i1 + 1, i2))
+            if len(every) == need:
+                # a blank page (verso before a new section) fills the gap: number it, it is not written
+                between = every
+            else:
+                print(f"  ! {need - len(between)} page(s) missing between {n1} and {n2}", file=sys.stderr)
         for j, k in enumerate(between):
             labels[k] = f"p{n1 + 1 + j:03d}"
     fm = 0
@@ -372,6 +457,10 @@ def main():
             # act pages: a "|" is the page gutter or a column rule read by the OCR (in the
             # two-column indexes it separates the columns and is kept)
             t = "\n".join(re.sub(r"(?:(?<=\s)|^)\|(?=\s|$)", " ", l).rstrip() for l in t.split("\n"))
+            # margin '1"', '1**', '1°' (in the documents, "1º" numbers the first document)
+            t = re.sub(r"(?m)^(\s{0,3})[14](?:\"|\*\*?|°|º)(?=\s)", r"\g<1>1er", t)
+            if vol.get("month_headings"):
+                t = month_headings(t, (int(vol["period_start"][:4]), int(vol["period_end"][:4]) + 3))
         for f in page_fixes:          # hand corrections of the page text, checked against the scan
             if f["page"] == lab:
                 if f["old"] not in t:

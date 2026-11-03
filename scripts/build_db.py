@@ -63,6 +63,7 @@ ENTRY_RE = re.compile(
     r"(?=\s|$)\s*(?P<rest>.*)$"
 )
 YEAR_RE = re.compile(r"^\s{0,12}(?P<y>[1iI][5S6][0-9OÔoiflS]{2,3})(?:\s*$|\s{5,}(?P<rest>\S.*)$)")
+RUNNING_RE = re.compile(r"^\s*(?:\d{1,3}\s+)?(?:LA\s+FRANCE\s+EN\s+TUNISIE|ANALYSE\s+DES\s+ACTES\s*\(|CORRESPONDANCE\b)")
 PAGE_HDR_RE = re.compile(r"^\s{8,}[-—–~]?\s*([0-9]{1,3})\s*[-—–~.]*\s*$")
 FOOTNOTE_RE = re.compile(r"^\s*\((\d{1,2})\)\s+\S")
 # A bold heading on its own line, e.g. "Daniel de Mussan, chancelier (1)".
@@ -179,7 +180,13 @@ def norm_year(tok, previous, vol, page, reg=None):
         last2 = int(digits)
     except ValueError:
         return previous
-    year = 1600 + last2 if last2 < 50 else 1500 + last2
+    cands = [c * 100 + last2 for c in (15, 16, 17) if lo <= c * 100 + last2 <= hi]
+    if tok[:2] in ("15", "16", "17") and int(tok[:2]) * 100 + last2 in cands:
+        year = int(tok[:2]) * 100 + last2
+    elif cands:
+        year = cands[0]
+    else:
+        year = 1600 + last2 if last2 < 50 else 1500 + last2
     if not lo <= year <= hi:
         print(f"  ! year {tok!r} on page {page} out of range, keeping {previous}", file=sys.stderr)
         return previous
@@ -254,6 +261,8 @@ def iter_analysis_lines(pdf, vol):
         for line in lines:
             if not line.strip():
                 continue
+            if RUNNING_RE.match(line):
+                continue                  # running title with the page number (volumes 5-8)
             if PAGE_HDR_RE.match(line):
                 m = PAGE_HDR_RE.match(line)
                 if int(m.group(1)) != printed and not noisy(vol):
@@ -390,6 +399,14 @@ def parse_analysis(pdf, vol):
     last_day = 0
     day_guess = False
     year_seen = False
+    page_years = {}                       # year printed at the top of each page (volumes 5-8)
+    if vol.get("month_headings"):
+        for pg in range(vol["analysis_pages"][0], vol["analysis_pages"][1] + 1):
+            for l in page_text(vol, pg)[1].split("\n")[:6]:
+                ym = YEAR_RE.match(l)
+                if ym:
+                    page_years[pg] = norm_year(ym.group("y"), None, vol, pg)
+                    break
     for printed, pdf_page, line in iter_analysis_lines(pdf, vol):
         reg = register_for(printed)
         if reg is not last_register:
@@ -399,7 +416,18 @@ def parse_analysis(pdf, vol):
             month = None
         ym = YEAR_RE.match(line)
         if ym:
-            year = norm_year(ym.group("y"), year, vol, printed, reg)
+            new_year = norm_year(ym.group("y"), year, vol, printed, reg)
+            confirmed = sum(page_years.get(printed + k) == new_year for k in (1, 2, 3)) >= 2
+            if (vol.get("month_headings") and year and started and new_year != year and not confirmed
+                    and not (new_year == year + 1 and (month is None or month >= 11 or month <= 1))):
+                # volumes 5-8: the year at the page edge is often misread; the register runs
+                # forward, so it can only stay or move on at the turn of the year
+                print(f"  ? p.{printed}: year {ym.group('y')!r} ignored (current {year}, month {month})",
+                      file=sys.stderr)
+                new_year = year
+            if vol.get("month_headings") and year and started and new_year > year and month and month < 11:
+                month = None              # a new year heading whose month heading the OCR lost
+            year = new_year
             year_seen = True
             started = True
             if ym.group("rest") and current:
@@ -455,6 +483,16 @@ def parse_analysis(pdf, vol):
                     day_guess = True
                 if day is None:
                     print(f"  ? p.{printed}: unreadable day {tok!r}", file=sys.stderr)
+                month_inferred = False
+                if (em["ditto"] and vol.get("month_headings") and day and last_day and month
+                        and day < last_day - 12):
+                    # volumes 5-8 print the month as a heading; when the OCR lost it, the
+                    # day falling back (30 -> 2) marks the next month
+                    month = month % 12 + 1
+                    if month == 1:
+                        year += 1
+                    month_year = year
+                    month_inferred = True
                 last_day = day or last_day
                 if not em["ditto"]:
                     if (noisy(vol) and month and month >= 11 and em["month"] <= 2
@@ -468,6 +506,7 @@ def parse_analysis(pdf, vol):
                 "date_raw": line[: m.start("rest")].strip(),
                 "page": printed, "pdf_page": pdf_page, "lines": [m.group("rest")],
                 "day_guess": (not undated) and day_guess,
+                "month_inferred": (not undated) and month_inferred,
                 "consul": in_office["consul"], "vice_consul": in_office["vice_consul"],
                 "chancelier": in_office["chancelier"],
             }

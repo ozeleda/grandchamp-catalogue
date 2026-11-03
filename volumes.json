@@ -315,6 +315,388 @@
         371,
         373
       ]
+    },
+    {
+      "id": 5,
+      "scans": [
+        "pdfs/La France en Tunisie v.5_Part1.pdf",
+        "pdfs/La France en Tunisie v.5_Part2.pdf"
+      ],
+      "first_body_page": [
+        0,
+        26
+      ],
+      "title": "La France en Tunisie au XVIIe siècle (1631-1650)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/La France en Tunisie v.5_Part1.pdf",
+      "published": "Tunis, J. Barlier, 1927",
+      "period_start": "1631-01-01",
+      "period_end": "1650-12-31",
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567231",
+      "pages_dir": "text/vol5/pages",
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        290
+      ],
+      "registers": [
+        {
+          "number": "XI",
+          "label": "Onzième registre (suite)",
+          "start_page": 1,
+          "date_start": "1630-01-16",
+          "date_end": "1631-08-14"
+        },
+        {
+          "number": "XII",
+          "label": "Douzième registre",
+          "start_page": 16,
+          "date_start": "1631-08-18",
+          "date_end": "1638-12-22"
+        },
+        {
+          "number": "XIII",
+          "label": "Treizième registre",
+          "start_page": 143,
+          "date_start": "1639-02-08",
+          "date_end": "1641-11-04"
+        },
+        {
+          "number": "XIV",
+          "label": "Quatorzième registre",
+          "start_page": 196,
+          "date_start": "1643-01-15",
+          "date_end": "1651-03-03"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "documents": {
+          "pages": [
+            291,
+            296
+          ],
+          "title": "documents annexes (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            297,
+            367
+          ],
+          "title": "table des principaux noms cités de 1631 à 1650",
+          "columns": true
+        },
+        "index_slaves": {
+          "pages": [
+            368,
+            371
+          ],
+          "title": "esclaves rachetés par les diverses Rédemptions, de 1631 à 1650",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            372,
+            375
+          ],
+          "title": "noms des navires cités",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            376,
+            378
+          ],
+          "title": "table des photographies et des signatures, table des matières, corrections"
+        }
+      },
+      "tesseract_threshold": 20,
+      "month_headings": true
+    },
+    {
+      "id": 6,
+      "scans": [
+        "pdfs/La France en Tunisie v.6_Part1.pdf",
+        "pdfs/La France en Tunisie v.6_Part2.pdf"
+      ],
+      "first_body_page": [
+        0,
+        78
+      ],
+      "title": "La France en Tunisie au XVIIe siècle (1651-1660)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/La France en Tunisie v.6_Part1.pdf",
+      "published": "Tunis, J. Barlier, 1928",
+      "period_start": "1651-01-01",
+      "period_end": "1660-12-31",
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567232",
+      "pages_dir": "text/vol6/pages",
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        270
+      ],
+      "registers": [
+        {
+          "number": "XIV",
+          "label": "Quatorzième registre (suite)",
+          "start_page": 1,
+          "date_start": "1643-03-15",
+          "date_end": "1651-03-03"
+        },
+        {
+          "number": "XV",
+          "label": "Quinzième registre",
+          "start_page": 6,
+          "date_start": "1651-03-09",
+          "date_end": "1656-12-28"
+        },
+        {
+          "number": "XVI",
+          "label": "Seizième registre",
+          "start_page": 163,
+          "date_start": "1657-01-01",
+          "date_end": "1660-02-20"
+        },
+        {
+          "number": "XVII",
+          "label": "Dix-septième registre",
+          "start_page": 249,
+          "date_start": "1660-03-02",
+          "date_end": "1666-02-08"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "index_names": {
+          "pages": [
+            271,
+            318
+          ],
+          "title": "table des principaux noms cités de 1651 à 1660",
+          "columns": true
+        },
+        "index_slaves": {
+          "pages": [
+            319,
+            319
+          ],
+          "title": "esclaves rachetés par les diverses Rédemptions de 1651 à 1660",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            320,
+            323
+          ],
+          "title": "noms des navires cités",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            324,
+            326
+          ],
+          "title": "table des photographies, plans et signatures, table des matières"
+        }
+      },
+      "tesseract_threshold": 20,
+      "month_headings": true
+    },
+    {
+      "id": 7,
+      "scans": [
+        "pdfs/La France en Tunisie v.7_Part1.pdf",
+        "pdfs/La France en Tunisie v.7_Part2.pdf"
+      ],
+      "first_body_page": [
+        0,
+        50
+      ],
+      "title": "La France en Tunisie au XVIIe siècle (1661-1680)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/La France en Tunisie v.7_Part1.pdf",
+      "published": "Tunis, J. Aloccio, 1929",
+      "period_start": "1661-01-01",
+      "period_end": "1680-12-31",
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567233",
+      "pages_dir": "text/vol7/pages",
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        324
+      ],
+      "registers": [
+        {
+          "number": "XVII",
+          "label": "Dix-septième registre (suite)",
+          "start_page": 1,
+          "date_start": "1660-03-02",
+          "date_end": "1666-02-08"
+        },
+        {
+          "number": "XVIII",
+          "label": "Dix-huitième registre",
+          "start_page": 118,
+          "date_start": "1667-05-01",
+          "date_end": "1674-09-15"
+        },
+        {
+          "number": "XIX",
+          "label": "Dix-neuvième registre",
+          "start_page": 239,
+          "date_start": "1674-09-15",
+          "date_end": "1681-06-19"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "documents": {
+          "pages": [
+            325,
+            328
+          ],
+          "title": "correspondance (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            329,
+            377
+          ],
+          "title": "table des principaux noms cités de 1661 à 1680",
+          "columns": true
+        },
+        "index_slaves": {
+          "pages": [
+            378,
+            378
+          ],
+          "title": "esclaves rachetés par les diverses Rédemptions de 1661 à 1680",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            379,
+            385
+          ],
+          "title": "noms des navires cités",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            386,
+            388
+          ],
+          "title": "table des photographies et signatures, table des matières"
+        }
+      },
+      "tesseract_threshold": 20,
+      "month_headings": true
+    },
+    {
+      "id": 8,
+      "scans": [
+        "pdfs/La France en Tunisie v.8_Part1.pdf",
+        "pdfs/La France en Tunisie v.8_Part2.pdf",
+        "pdfs/La France en Tunisie v.8_Part3.pdf",
+        "pdfs/La France en Tunisie v.8_Part4.pdf"
+      ],
+      "first_body_page": [
+        0,
+        58
+      ],
+      "title": "La France en Tunisie au XVIIe siècle (1681-1700)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/La France en Tunisie v.8_Part1.pdf",
+      "published": "Tunis, J. Aloccio, 1930",
+      "period_start": "1681-01-01",
+      "period_end": "1700-12-31",
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567234",
+      "pages_dir": "text/vol8/pages",
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        336
+      ],
+      "registers": [
+        {
+          "number": "XIX",
+          "label": "Dix-neuvième registre (suite)",
+          "start_page": 1,
+          "date_start": "1674-09-15",
+          "date_end": "1681-06-19"
+        },
+        {
+          "number": "XX",
+          "label": "Vingtième registre",
+          "start_page": 7,
+          "date_start": "1681-07-27",
+          "date_end": "1684-04-24"
+        },
+        {
+          "number": "XXI",
+          "label": "Vingt et unième registre",
+          "start_page": 41,
+          "date_start": "1684-05-29",
+          "date_end": "1689-01-03"
+        },
+        {
+          "number": "XXII",
+          "label": "Vingt-deuxième registre",
+          "start_page": 133,
+          "date_start": "1689-01-03",
+          "date_end": "1693-02-05"
+        },
+        {
+          "number": "XXIII",
+          "label": "Vingt-troisième registre",
+          "start_page": 197,
+          "date_start": "1693-02-07",
+          "date_end": "1700-06-19"
+        },
+        {
+          "number": "XXIV",
+          "label": "Vingt-quatrième registre",
+          "start_page": 325,
+          "date_start": "1700-06-23",
+          "date_end": "1703-05-23"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "documents": {
+          "pages": [
+            337,
+            614
+          ],
+          "title": "correspondance, rapports de mer, documents divers (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            615,
+            660
+          ],
+          "title": "table alphabétique des principaux noms cités de 1681 à 1700",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            661,
+            672
+          ],
+          "title": "noms des navires cités",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            673,
+            675
+          ],
+          "title": "table des photographies et signatures, table des matières, corrections"
+        }
+      },
+      "tesseract_threshold": 20,
+      "month_headings": true
     }
   ]
 }

@@ -3019,7 +3019,7 @@ text: Cristoffo de Castagnolla, génois, de Lavagna, a été racheté par Samuel
 
 [act 3-V-0277]
 date: 1612-08-01
-date printed: 1° août
+date printed: 1er août
 date status: printed in the margin
 register: V
 page: 46 (scan: La France en Tunisie v.3_Part1.pdf p. 67)
@@ -9696,7 +9696,7 @@ text: En italien. — Pierre Fremin dit Compian, de Marseille, a reçu de Bobin 
 
 [act 3-V-0892]
 date: 1615-09-01
-date printed: 1° sept.
+date printed: 1er sept.
 date status: printed in the margin
 register: V
 page: 145 (scan: La France en Tunisie v.3_Part1.pdf p. 166)
@@ -16769,7 +16769,7 @@ text: En ilalien. — (289) Geronimo Boraggi, de Trapani, doit à Marcio de Ferr
 
 [act 3-VI-1501]
 date: 1617-08-01
-date printed: 1° août
+date printed: 1er août
 date status: printed in the margin
 register: VI
 page: 246 (scan: La France en Tunisie v.3_Part2.pdf p. 15)
@@ -18714,7 +18714,7 @@ text: En italien. — Simone Pasquino di Brignattone, vassal du duc de Nosciera,
 
 [act 3-VI-1660]
 date: 1617-12-01
-date printed: 1° déc.
+date printed: 1er déc.
 date status: printed in the margin
 register: VI
 page: 274 (scan: La France en Tunisie v.3_Part2.pdf p. 45)
@@ -18763,7 +18763,7 @@ text: En italien. — Giustina Negra. de Zanthe, a été rachetée le 16 mars, p
 
 [act 3-VI-1664]
 date: 1617-12-01
-date printed: 1° déc.
+date printed: 1er déc.
 date status: printed in the margin
 register: VI
 page: 275 (scan: La France en Tunisie v.3_Part2.pdf p. 46)
@@ -18787,7 +18787,7 @@ text: En italien. — Vincenso Senese, de Santio Isca, de Naples, a été rachet
 
 [act 3-VI-1666]
 date: 1617-12-01
-date printed: 1° —
+date printed: 1er —
 date status: printed in the margin
 register: VI
 page: 275 (scan: La France en Tunisie v.3_Part2.pdf p. 46)
@@ -27054,7 +27054,7 @@ text: En italien. — Le cap. Teramo Bianco, génois, s'engage vis-à-vis de G. 
 
 [act 3-VII-2347]
 date: 1620-06-01
-date printed: 1° —
+date printed: 1er —
 date status: printed in the margin
 register: VII
 page: 369 (scan: La France en Tunisie v.3_Part2.pdf p. 142)

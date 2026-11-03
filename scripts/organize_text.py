@@ -16,6 +16,7 @@ fixes.json and regenerated.
 Usage: python3 scripts/organize_text.py 2
 """
 import difflib
+import calendar
 import json
 import re
 import sys
@@ -226,6 +227,8 @@ def date_status(a):
         return "supplied by the editor (in brackets)"
     if a["undated"]:
         return "undated in the register (s. d.)"
+    if a.get("month_inferred"):
+        return "month not read (heading lost in the scan); taken as the month after the previous act's"
     if a.get("day_guess"):
         return ("not printed or not legible; taken from the previous act"
                 if a["date_raw"].startswith("(") else "day reconstructed from a damaged reading")
@@ -276,6 +279,13 @@ def write_acts(vol, acts, officials, footnotes, index, out):
             lines += [f"[official] {o['name']}, {o['role'].replace('_', '-')} (heading on p. {o['page']})", ""]
         src = index.get(page_label(a["page"]), {})
         s = a["summary"]
+        if a.get("day") and a.get("month") and a.get("year") and not a["undated"] \
+                and a["day"] > calendar.monthrange(a["year"], a["month"])[1]:
+            note = (f"the day printed ({a['day']}) does not exist in this month "
+                    f"({'the book prints (sic)' if 'sic' in (a['date_raw'] or '') else 'misprint or misreading'}); "
+                    "the date is kept to the month")
+            a["date_note"] = f"{a['date_note']}; {note}" if a.get("date_note") else note
+            a["day"] = None
         lines.append(f"[act {a['ref']}]")
         lines.append(f"date: {act_date(a)}")
         lines.append(f"date printed: {re.sub(r'\s+', ' ', a['date_raw'] or '—').strip()}")
