@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 675,
+ "reviewed_through_seq": 716,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -6058,6 +6058,349 @@
    "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
    "keywords": "ransom; redemption mission",
    "other_parties_names": "Divan of the Janissaries"
+  },
+  "2-III-0676": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0677": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "price": 6,
+   "notes": "Amount « 6 (sic) » in the source."
+  },
+  "2-III-0678": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "ducats de Naples",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0679": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor, abbot (redemption agent); debtor (redemption agent)",
+   "party2_role": "creditor, pasha, king of Tunis",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "Plus 22 écus advanced as a loan",
+   "matter": "Price of the ransom of two Christians plus a loan, repayable within six months",
+   "decision": "Repaid 9 December 1607 (note at the foot of the act)",
+   "notes": "The Pacha's seal is clearly legible.",
+   "keywords": "ransom; loan; redemption mission; pasha"
+  },
+  "2-III-0680": {
+   "transaction_type": "Consular decision",
+   "party1_name": "G. B. Danna",
+   "party1_role": "party",
+   "party2_name": "his shippers",
+   "party2_role": "party",
+   "matter": "Settlement of a dispute between Danna and his shippers",
+   "keywords": "dispute; freight"
+  },
+  "2-III-0681": {
+   "party1_origins": "du royaume de Naples",
+   "price": 472.5,
+   "currency": "écus",
+   "matter": "Freight of goods from Livorno to Tunis",
+   "keywords": "freight"
+  },
+  "2-III-0682": {
+   "party2_name": "Rafael Frane",
+   "party2_origins": "de Marseille",
+   "party2_role": "payer, ship master (patron)",
+   "other_parties_names": "Hisuffo; Antonio Lovico",
+   "other_parties_origins": "janissaire; corse habitant Marseille",
+   "other_parties_role": "recipient of ransom payment, janissary; principal (on whose order the money was paid)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom paid on Lovico's order; repayable within two months",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0683": {
+   "party1_role": "shipowner / master (lets the ship), ship master (patron)",
+   "matter": "Charter of the « Sta Maria del Carmine » for a voyage to Naples",
+   "keywords": "charter; ship"
+  },
+  "2-III-0684": {
+   "transaction_type": "Deliberation of the Nation",
+   "party1_name": "Hugues Changet",
+   "party1_role": "consul (presents the matter)",
+   "party2_name": "the assembled Nation",
+   "party2_role": "advisers",
+   "other_parties_names": "Asta Moratto Genovese; Asta Assano; Moratto Rais; Andrea Marino",
+   "other_parties_role": "writers of the letter; writers of the letter; former master who freed the boy; self-declared cousin (of bad character)",
+   "matter": "A boy freed by Moratto Rais was to be handed to Andrea Marino, a man of bad life",
+   "decision": "The boy is to be handed to the Consul, who will keep him at his house",
+   "keywords": "freed captive; minor; guardianship"
+  },
+  "2-III-0685": {
+   "other_parties_names": "Assuman Dey",
+   "other_parties_role": "seller of the cotton (dey)",
+   "matter": "Summons to deliver 450 bales of cotton he bought, to be loaded on the chartered ship",
+   "decision": "Vinciguerra replies the dey refused to deliver the cotton; the protesters reply on 21 July",
+   "notes": "End of the reply effaced.",
+   "keywords": "cotton; protest; charter"
+  },
+  "2-III-0686": {
+   "party1_name": "Anto Franco Santone; Raffael France; Anto Manfredini; Giulano Pini",
+   "party1_origins": "corse; corse; ; de Marseille",
+   "party1_role": "declarant; declarant; declarant; declarant",
+   "other_parties_names": "galleys of Bizerte; Morato Rais",
+   "other_parties_role": "corsairs",
+   "matter": "Declare to the French consul that the galleys of Bizerte and of Morato Rais were going raiding on the coasts of Sardinia, Corsica and the Genoese Riviera",
+   "keywords": "corsairs; galleys; intelligence"
+  },
+  "2-III-0687": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Hugues Changet",
+   "party1_role": "investigating official, vice-consul",
+   "party2_name": "Gio Anto Caulet",
+   "party2_role": "subject of the inquiry, buyer of the barque",
+   "other_parties_names": "Asta Moratto",
+   "other_parties_role": "seller of the barque",
+   "matter": "Inquiry: Caulet tried to sail without paying his debts, promised not to leave, then weighed anchor against the Pacha's orders",
+   "keywords": "inquiry; debt; ship"
+  },
+  "2-III-0688": {
+   "party1_role": "declarant, merchant",
+   "other_parties_names": "Mamett Bey; Moratto Rais",
+   "other_parties_role": "commanders of the galleys of Bizerte and Algiers",
+   "matter": "Sea protest: left Savona for Palermo on 8 June; taken on the 14th by 8 galleys of Bizerte and Algiers 40 miles off Monte Cristo and plundered",
+   "keywords": "sea protest; corsairs; galleys"
+  },
+  "2-III-0689": {
+   "party1_role": "declarant; declarant",
+   "other_parties_names": "Raimondo Sardi",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "ship master (patron) who carried them",
+   "matter": "Declare they were brought to Tunis with 27 other Moors by the patron Sardi and have no complaint against him",
+   "notes": "The declarants signed in Italian.",
+   "keywords": "passengers; Moors; ship"
+  },
+  "2-III-0690": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "currency": "écus",
+   "matter": "Loan repayable at Trapani or Palermo",
+   "keywords": "loan"
+  },
+  "2-III-0691": {
+   "party1_role": "summoning party, ship master (patron)",
+   "party2_name": "his shippers",
+   "party2_role": "party summoned",
+   "matter": "Summons to his shippers to let him sail",
+   "decision": "Reply of the shippers follows",
+   "keywords": "freight; summons"
+  },
+  "2-III-0692": {
+   "transaction_type": "Protest / summons",
+   "matter": "Same matter (Tardio and his shippers)",
+   "notes": "Followed by three partly torn, illegible acts.",
+   "keywords": "freight"
+  },
+  "2-III-0693": {
+   "party2_origins": "de Malte",
+   "party2_role": "party summoned (shipper)",
+   "matter": "Summons to his shipper to let him sail for Malta",
+   "keywords": "freight; summons"
+  },
+  "2-III-0694": {
+   "party1_origins": "de Pistoia",
+   "party1_role": "recipient, ransomed captive",
+   "party2_origins": "français",
+   "party2_role": "lender",
+   "price": 66.5,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for the balance of his ransom, repayable eight days after arrival at Livorno",
+   "notes": "Act written in Italian. The last three leaves of the register are in shreds and unusable.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0695": {
+   "matter": "Recovery of debts",
+   "keywords": "debt collection"
+  },
+  "2-IV-0696": {
+   "transaction_type": "Company / partnership",
+   "party1_role": "agent (receives capital)",
+   "party2_role": "investor",
+   "price": 217.5,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money lent to buy goods",
+   "keywords": "loan; trade"
+  },
+  "2-IV-0697": {
+   "transaction_type": "Redemption",
+   "party1_role": "recipient, ship master (patron)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "To ransom a Turk in Sicily and bring him to Tunis",
+   "keywords": "ransom; Muslim captive"
+  },
+  "2-IV-0698": {
+   "party2_origins": "renégat génois",
+   "party2_role": "attorney, renegade",
+   "other_parties_names": "Ossaino",
+   "other_parties_origins": "turc de Tripoli",
+   "other_parties_role": "debtor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Recovery of a 57-écu debt",
+   "keywords": "debt collection"
+  },
+  "2-IV-0699": {
+   "party2_origins": "hébreu",
+   "matter": "Summons to pay the 4 écus a day owed while waiting to load his polacre, at La Goulette for two and a half months",
+   "decision": "Parente is ready to load but Ossoman Dey has not allowed it until the galleys leave",
+   "keywords": "demurrage; embargo; Jews"
+  },
+  "2-IV-0700": {
+   "transaction_type": "Protest / summons",
+   "party1_role": "claimant, ship master (patron)",
+   "party2_name": "Giuda Parente",
+   "party2_origins": "hébreu",
+   "party2_role": "party claimed against",
+   "matter": "Claims the value of goods he consigned to Parente on arrival",
+   "keywords": "consignment; Jews"
+  },
+  "2-IV-0701": {
+   "party1_name": "Simone Adanno",
+   "party1_origins": "de Sestri de Levante",
+   "party1_role": "principal",
+   "party2_role": "attorney; attorney; attorney",
+   "matter": "Recovery of debts and sale of his goods",
+   "keywords": "debt collection"
+  },
+  "2-IV-0702": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "requesting party, ship master (patron), former slave",
+   "other_parties_names": "Mucciante Rabarino; Pietro Romano",
+   "other_parties_origins": "de Chatenet; lucquois",
+   "other_parties_role": "partner (refuses to share profit); partner, slave",
+   "matter": "While slaves at Tunis, they set up a tavern together in a rented house with an unwritten profit-sharing agreement; Mucciante refuses Deidier his share",
+   "notes": "Four witness statements follow.",
+   "keywords": "tavern; partnership; slavery; dispute"
+  },
+  "2-IV-0703": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan",
+   "decision": "Act annulled",
+   "notes": "Don Diego Ossorio signs as witness.",
+   "keywords": "loan"
+  },
+  "2-IV-0704": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_origins": "maure de Tunis",
+   "party2_role": "lender",
+   "price": 26.5,
+   "matter": "Loan for the balance of his ransom",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0705": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_origins": "maure de Tunis",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "205 onces de Sicile 15 taris",
+   "other_parties_names": "Girolamo Bonfanti",
+   "other_parties_role": "ship master (patron)",
+   "matter": "Loan repayable at Palermo one month after the arrival of Bonfanti's ship",
+   "keywords": "loan"
+  },
+  "2-IV-0706": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable within a year",
+   "notes": "Receipt dated 10 May 1608 at the foot of the act.",
+   "keywords": "loan"
+  },
+  "2-IV-0707": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Giuda Parente",
+   "party1_origins": "hébreu",
+   "party1_role": "declarant",
+   "party2_name": null,
+   "party2_role": null,
+   "matter": "Has it recorded that coral received from Livorno was of poor quality",
+   "keywords": "coral; damaged goods; Jews"
+  },
+  "2-IV-0708": {
+   "party1_role": "debtor; debtor; debtor",
+   "party1_origins": "hébreu; hébreu; hébreu",
+   "party2_origins": "renégat génois",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable within six months",
+   "notes": "An illegible note at the foot, probably the receipt.",
+   "keywords": "loan; Jews; renegade"
+  },
+  "2-IV-0709": {
+   "matter": "Recovery of a debt",
+   "keywords": "debt collection"
+  },
+  "2-IV-0710": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Ali di Giaffer Montese",
+   "party2_role": "creditor, slave on the Tuscan galleys",
+   "other_parties_names": "Ali's brothers; Roccho Manfredini",
+   "other_parties_role": "recipients of the ransom; alternative payee",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Price of his own ransom paid to Ali's brothers; payable on arrival at Palermo to Ali or Roccho Manfredini",
+   "keywords": "ransom; debt; Muslim captive"
+  },
+  "2-IV-0711": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "lender",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan, repayable at Malta",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0712": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Girolamo Bonfanti",
+   "party2_origins": "génois",
+   "party2_role": "creditor, ship master (patron)",
+   "matter": "Received a bale of indigo (?) which he sold to pay his ransom; will repay its value at the Palermo price eight days after arrival",
+   "keywords": "ransom; indigo; loan"
+  },
+  "2-IV-0713": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "lender",
+   "matter": "Ransom loan, repayable on arrival in Sicily",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0714": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_name": "Antonio Esmiol; Dosilesdigna; Anto Biella; Nicolo Finamante",
+   "party2_origins": "; ; de Camaiore; de Bergame, habitant à Messine",
+   "party2_role": "creditor; creditor; creditor; creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan to be repaid in goods (wine or other) within ten months",
+   "keywords": "loan; wine"
+  },
+  "2-IV-0715": {
+   "party1_role": "promisor, slave",
+   "party2_name": "Mamet bey",
+   "party2_role": "promisee (undertakes to free Morone)",
+   "other_parties_names": "Ali Sbeid",
+   "other_parties_origins": "de Sousse, maure",
+   "other_parties_role": "Muslim slave on the Tuscan galleys (to be freed)",
+   "matter": "Undertakes to have Ali Sbeid freed and brought to Tunis; Mamet bey will free Morone when Sbeid arrives, even if Sbeid dies after his release",
+   "notes": "Folio 24 of the register. Continues on the next page.",
+   "keywords": "captive exchange; galleys; Muslim captive"
+  },
+  "2-IV-0716": {
+   "drop": true
   }
  }
 }
