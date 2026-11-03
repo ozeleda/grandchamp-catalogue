@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 435,
+ "reviewed_through_seq": 475,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -3875,6 +3875,384 @@
    "other_parties_role": "deceased (estate)",
    "matter": "Power of attorney to collect Valerio Lovico's estate",
    "keywords": "inheritance"
+  },
+  "2-III-0436": {
+   "party1_name": "Guglialma Gio[...]; Vatistina",
+   "party1_origins": "corse, de Vignanetta; corse, de Vignanetta",
+   "party1_role": "debtor, ransomed captive; debtor, ransomed captive, wife of Guglialma",
+   "other_parties_names": "Morato Corso; Mametto",
+   "other_parties_origins": "; maure",
+   "other_parties_role": "recipient of ransom payment; recipient of ransom payment, caïd",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for their ransom; repayable one month after arrival at Livorno",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0437": {
+   "party1_origins": "de Bastia; de Bastia",
+   "party1_role": "debtor, ransomed captive, wife of Tomascio; debtor, ransomed captive, son of captain Martin",
+   "other_parties_names": "Soliman",
+   "other_parties_origins": "de Tunis",
+   "other_parties_role": "recipient of ransom payment, raïs",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "Of which 50½ écus for Fiordispina's ransom and 281 écus 14 aspres for Camillo",
+   "matter": "Loan for their ransom; repayable two months after arrival at Livorno",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0438": {
+   "party1_origins": "janissaire de Tunis",
+   "party1_role": "principal, janissary",
+   "party2_name": "Andrea Macobal; Franciscou Tamasalo",
+   "party2_origins": null,
+   "party2_role": "attorney; attorney, ship master (patron)",
+   "other_parties_names": "Matiolo di Elias (?)",
+   "other_parties_role": "debtor (buyer of the slave)",
+   "currency": "écus d'or",
+   "matter": "Recovery of 220 écus owed for the sale of a slave named Francoys",
+   "keywords": "slave sale; debt collection"
+  },
+  "2-III-0439": {
+   "transaction_type": "Debt",
+   "party1_origins": "de Calvi (Corse)",
+   "party1_role": "debtor",
+   "party2_name": "Antonio Maria Francesco",
+   "party2_origins": "corse, habitant à Marseille",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan to ransom a Christian",
+   "keywords": "loan; ransom"
+  },
+  "2-III-0440": {
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Vincenso Valleggio; Laurenzo [...]",
+   "other_parties_names": "Mamet",
+   "other_parties_origins": "maure de Tunis",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or",
+   "matter": "Balance of his ransom",
+   "notes": "Receipt dated 31 May 1607 at the foot of the act.",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0441": {
+   "currency": "écus d'or",
+   "matter": "Ransom loan, repayable on arrival at Palermo",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0442": {
+   "other_parties_names": "Matteo Noghero",
+   "other_parties_origins": "de Majorque",
+   "other_parties_role": "debtor",
+   "currency": "écus",
+   "matter": "Recovery of a 130-écu debt",
+   "keywords": "debt collection"
+  },
+  "2-III-0443": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan",
+   "keywords": "loan"
+  },
+  "2-III-0444": {
+   "party1_name": "Gioane Di Bernardo Rocchaforte",
+   "party1_origins": null,
+   "party1_role": "party (captive to be freed)",
+   "party2_name": "Agi Molasi Broabedi",
+   "party2_origins": "maure de Tunis",
+   "party2_role": "party (master)",
+   "other_parties_names": "Fatima",
+   "other_parties_origins": "fille de Mamet [...]",
+   "other_parties_role": "slave at Palermo (to be exchanged)",
+   "matter": "Gioane is to bring the slave Fatima from Palermo; on her arrival Gioane will be freed",
+   "keywords": "captive exchange; slavery"
+  },
+  "2-III-0445": {
+   "party1_name": "Ant. di Francesco",
+   "party1_role": "summoning party, ship master (patron)",
+   "party2_name": "Giovan. Vinciguerra",
+   "party2_role": "summoned party",
+   "other_parties_names": "[...] Salvetti; Jaques Lovico; Antoine Lovico",
+   "other_parties_origins": "de Marseille; ; ",
+   "other_parties_role": "sender of the money; witness; witness",
+   "currency": "écus",
+   "matter": "Summons to accept 50 écus sent by Salvetti",
+   "decision": "Vinciguerra persists in his refusal",
+   "keywords": "payment refused"
+  },
+  "2-III-0446": {
+   "party1_name": "Mamet bey",
+   "party1_origins": null,
+   "party1_role": "seller, testamentary executor of the late Assan Pacha, ex-king of Tunis",
+   "party2_name": "Olivier Chiavary",
+   "party2_origins": "de Marseille",
+   "party2_role": "buyer, ship master (patron)",
+   "other_parties_names": "Assan Pacha",
+   "other_parties_role": "deceased debtor (ex-king of Tunis)",
+   "price": 6956,
+   "currency": "talleri",
+   "other_equivalent": "Equivalent to 5,000 écus d'or d'Espagne (debt contracted at Tripoli)",
+   "matter": "Ship « Santa Trinita » (4,000 salmes, 5 iron guns, boat, frigate, rigging) moored at La Goulette, given in settlement of Assan Pacha's debt",
+   "notes": "Act struck out and unsigned; witnesses not named. Complete signed act in October 1606.",
+   "keywords": "ship sale; debt settlement"
+  },
+  "2-III-0447": {
+   "party1_role": "recipient, agent of Altifa, wife of the king of Tunis",
+   "other_parties_names": "Tahar; Altifa",
+   "other_parties_origins": "maure de Tunis; ",
+   "other_parties_role": "ransomed captive (slave at Palermo); principal, wife of the king of Tunis",
+   "matter": "Ransom of Tahar",
+   "keywords": "ransom; Muslim captive"
+  },
+  "2-III-0448": {
+   "date": "1606-09",
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "buyer (acknowledges purchase)",
+   "party1_origins": "de Marseille",
+   "matter": "Acknowledges buying the ship sold in the act of 16 September",
+   "notes": "Act struck out and unsigned. Day partly illegible in the scan (…6).",
+   "keywords": "ship sale"
+  },
+  "2-III-0449": {
+   "date": "1606-09-24",
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant, ship master",
+   "other_parties_names": "Hughett Ciangett (Hugues Changet)",
+   "other_parties_role": "vice-consul for the French Nation",
+   "matter": "Sea protest: on 24 August, sheltering at Elba, the barque « Sta Sicilia Sta Caterina bona ventura » from Livorno had to slip its cable and leave its anchors in a mistral",
+   "notes": "Three crew members made the same deposition. Day read as …4 by OCR; probably 24.",
+   "keywords": "sea protest; ship"
+  },
+  "2-III-0450": {
+   "date": "1606-09-25",
+   "currency": "écus d'or d'Espagne",
+   "notes": "Day read as …5 by OCR; probably 25.",
+   "keywords": "payment"
+  },
+  "2-III-0451": {
+   "date": "1606-09-25",
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Honorato Nabori",
+   "party1_origins": "de St-Tropez",
+   "party1_role": "declarant, ship master (patron)",
+   "other_parties_names": "Turkish corsairs",
+   "other_parties_role": "captors (two brigantines)",
+   "matter": "Sea protest: barque « Santo Antonio bonaventura », leaving Porto Conte on 3 September with 1,000 barrels of tuna for Naples, was taken by two Turkish brigantines; three men taken off and goods unloaded at Tunis on the 17th",
+   "notes": "Partly effaced. Day read as …5 by OCR; probably 25.",
+   "keywords": "sea protest; corsairs; ship; goods"
+  },
+  "2-III-0452": {
+   "party1_name": "Franco Telleschi",
+   "party1_origins": "de Castel Fiorentino (?)",
+   "party1_role": "recipient, ransomed captive, of the Religion of San Frac",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom",
+   "notes": "Partly effaced.",
+   "keywords": "ransom"
+  },
+  "2-III-0453": {
+   "party1_name": "Fabritio di [...] Simonetto",
+   "party1_origins": "corse",
+   "party1_role": "recipient, ransomed captive",
+   "party2_name": "Costantino Tomaso",
+   "party2_origins": "corse",
+   "party2_role": "payer",
+   "other_parties_names": "Rejep",
+   "other_parties_origins": "renégat génois",
+   "other_parties_role": "recipient of ransom payment, caïd, renegade",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom",
+   "keywords": "ransom; renegade"
+  },
+  "2-III-0454": {
+   "party1_name": "Claudo Cinuti (?) (Claude Chimon)",
+   "party1_role": "declarant",
+   "other_parties_names": "Marcantonio Quarantotti",
+   "other_parties_origins": "de Pise",
+   "other_parties_role": "other party to the contract",
+   "matter": "Certifies a contract for Tunis hides made at Livorno in July",
+   "keywords": "hides; trade"
+  },
+  "2-III-0455": {
+   "party1_name": "[...]",
+   "party1_origins": "maure de Djerba",
+   "party1_role": "seller",
+   "party2_name": "Antonio Lovico",
+   "party2_origins": "corse, habitant à Marseille",
+   "party2_role": "buyer",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Barque of about 500 cantars with masts and yards only",
+   "keywords": "ship sale"
+  },
+  "2-III-0456": {
+   "party1_name": "Giulro Pagano",
+   "party1_origins": "de Naples",
+   "party1_role": "declarant",
+   "other_parties_names": "Salvadore Stizzo",
+   "other_parties_role": "ship master (patron) of the frigate",
+   "matter": "Declares he is leaving the frigate and will not continue the voyage (before the Consul of France)",
+   "keywords": "crew; ship"
+  },
+  "2-III-0457": {
+   "transaction_type": "Debt",
+   "party1_name": "Curtanni Maiocho",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Girolamo Biancho",
+   "party2_role": "creditor (lender)",
+   "other_parties_names": "Assan Genovese",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for his ransom; repayable two months after arrival in Christendom",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0458": {
+   "party1_role": "principal, vice-consul",
+   "party2_name": "Gio. Valentano",
+   "matter": "Recovery of a debt at Djerba",
+   "keywords": "debt collection"
+  },
+  "2-III-0459": {
+   "party1_name": "Gio. Maiocho",
+   "party1_role": "guarantor",
+   "party2_name": "Matteo Maiocho",
+   "party2_role": "principal debtor",
+   "matter": "Surety for a debt",
+   "keywords": "surety; debt"
+  },
+  "2-III-0460": {
+   "transaction_type": "Registration / copy",
+   "party1_name": "Venturino Moscha",
+   "party1_role": "debtor",
+   "party2_name": "Antonio Caggio",
+   "party2_role": "creditor",
+   "currency": "onces de Palerme",
+   "matter": "Registration of a promise of 24 August 1605 regarding a debt",
+   "keywords": "debt; registration"
+  },
+  "2-III-0461": {
+   "party1_role": "seller, testamentary executor of the late Assan Pacha, former king of Tunis",
+   "party2_name": "Olivier Chiavary",
+   "party2_origins": "de Marseille",
+   "party2_role": "buyer, ship master (patron)",
+   "other_parties_names": "Assan Pacha",
+   "other_parties_role": "deceased debtor (former king of Tunis)",
+   "currency": "thalers",
+   "matter": "Ship « Santissima Trinita » (4,000 salmes, 5 iron guns, boat, frigate, rigging) anchored at La Goulette",
+   "notes": "Same act as 16 September 1606, but complete and signed; bears an illegible seal.",
+   "keywords": "ship sale; debt settlement"
+  },
+  "2-III-0462": {
+   "transaction_type": "Agreement",
+   "party1_name": "Olivier Chiavary",
+   "party1_role": "party, for himself and for Bernardino Chules & Co.",
+   "party2_name": "Mamet Bey",
+   "party2_role": "party (executor of Assan Pacha)",
+   "other_parties_names": "Bernardino Chules et Cie",
+   "other_parties_role": "partners of Chiavary",
+   "matter": "Chiavary accepts the « Santissima Trinita » in settlement of Assan Pacha's debt; ship to sail to Morea and Constantinople with freight shared half and half; ship to be returned if Mamet Bey can pay in cash",
+   "keywords": "ship; debt settlement; freight"
+  },
+  "2-III-0463": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable eight days after arrival at Palermo",
+   "keywords": "loan"
+  },
+  "2-III-0464": {
+   "party1_origins": "de Gènes, habitant à Palerme",
+   "party1_role": "recipient, ransomed captive",
+   "party2_origins": "de Palerme",
+   "party2_role": "lender",
+   "other_parties_names": "Asstan Moratto",
+   "other_parties_origins": "de Palerme",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan, repayable on arrival at Palermo",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0465": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Venturino Mosca",
+   "party1_role": "requesting party",
+   "party2_name": "Nicola Dorestagno",
+   "party2_role": "other party",
+   "matter": "Inquiry into a business matter",
+   "keywords": "inquiry"
+  },
+  "2-III-0466": {
+   "party1_origins": "du lac de Côme",
+   "party1_role": "recipient",
+   "other_parties_names": "Donato Riella",
+   "other_parties_role": "sender of the money (brother of party 1)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money remitted by his brother Donato",
+   "keywords": "payment; remittance"
+  },
+  "2-III-0467": {
+   "party1_origins": "du lac de Côme",
+   "party1_role": "recipient, ransomed captive",
+   "party2_origins": "du lac de Côme",
+   "party2_role": "lender",
+   "currency": "écus d'or",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0468": {
+   "party2_name": "Paulo di Puccio",
+   "party2_role": "beneficiary of the surety",
+   "currency": "écus",
+   "matter": "Surety for Paulo di Puccio for the 258 écus he paid, should it be claimed from him",
+   "keywords": "surety"
+  },
+  "2-III-0469": {
+   "currency": "écus d'or d'Espagne",
+   "keywords": "payment"
+  },
+  "2-III-0470": {
+   "party1_role": "summoning party, vice-consul, acting on orders of François Savary de Brèves",
+   "party2_name": "Olivier Chiavary",
+   "party2_origins": "de Marseille",
+   "party2_role": "summoned party, ship master (patron)",
+   "other_parties_names": "François Savary de Brèves",
+   "other_parties_role": "gentleman of the King's Chamber (letter from Bône, 10 September)",
+   "matter": "Summons to go and recover his ship left at Bône by Savary de Brèves",
+   "decision": "Chiavary held liable for any damage from delay",
+   "keywords": "ship; summons"
+  },
+  "2-III-0471": {
+   "matter": "Power of attorney (no details)"
+  },
+  "2-III-0472": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "lender",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for the balance of her ransom, repayable on arrival at Palermo",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0473": {
+   "transaction_type": "Undertaking / promise",
+   "party1_name": "Marem Rais « delli Mari Negri »",
+   "party1_origins": "turc",
+   "party1_role": "promisor, raïs",
+   "party2_name": "Mamutt di Mussa",
+   "party2_origins": "turc, janissaire de Tunis",
+   "party2_role": "promisee, janissary",
+   "matter": "Promises to bring two casks of Sicilian wine shortly",
+   "keywords": "wine"
+  },
+  "2-III-0474": {
+   "date": "1606-10-18",
+   "party1_role": "guarantor; guarantor; guarantor; guarantor, ship master (patron)",
+   "party1_name": "Ettor Cuigliandro; Filippo Cuigliandro; Paulo Puccio; Girolamo Romano",
+   "other_parties_names": "Marem Rais; Mamutt di Mussa",
+   "other_parties_role": "principal promisor; promisee",
+   "matter": "Surety for Dorestagno, who stood guarantor for Marem Rais for delivery of the wine to Mamutt di Mussa",
+   "keywords": "surety; wine"
+  },
+  "2-III-0475": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "lender",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for the balance of his ransom",
+   "keywords": "ransom; loan"
   }
  }
 }
