@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 515,
+ "reviewed_through_seq": 555,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -4605,11 +4605,359 @@
   },
   "2-III-0515": {
    "transaction_type": "Redemption",
-   "other_parties_names": "Mustafa Cartagi; Agostina di Perzio",
-   "other_parties_origins": "turc janissaire de Tunis; ",
-   "other_parties_role": "recipient of ransom payment, janissary; wife of party 1 (to be asked for payment)",
-   "matter": "Ransom loan; Nizzo to be paid by Mornillo's wife",
+   "other_parties_names": "Mustafa Cartagi",
+   "other_parties_origins": "turc janissaire de Tunis",
+   "other_parties_role": "recipient of ransom payment, janissary",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan",
+   "currency": "écus"
+  },
+  "2-III-0516": {
+   "party1_role": "principal, ransomed captive",
+   "party2_role": "attorney, creditor",
+   "other_parties_names": "Agostina di Perzio",
+   "other_parties_role": "wife of party 1 (to pay)",
+   "currency": "écus",
+   "matter": "Power to collect 450 écus from Mornillo's wife (repayment of his ransom)",
+   "keywords": "ransom; debt collection; family"
+  },
+  "2-III-0517": {
+   "transaction_type": "Redemption",
+   "party1_role": "declarant, ransomed captive, Capuchin friar",
+   "party2_name": "Salvadore Nizzo",
+   "party2_role": "payer of the ransom",
+   "other_parties_names": "Mamet Mandil",
+   "other_parties_origins": "maure de Tunis",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus",
+   "matter": "Certifies he was ransomed",
+   "keywords": "ransom; clergy"
+  },
+  "2-III-0518": {
+   "currency": "écus",
+   "matter": "Debt",
+   "notes": "Receipt dated 9 May following at the foot of the act.",
+   "keywords": "debt"
+  },
+  "2-III-0519": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor",
+   "party2_name": "Guglielmo Martino",
+   "party2_origins": "majorquin",
+   "party2_role": "creditor",
+   "currency": "écus d'or",
+   "matter": "Debt repayable at Cagliari",
+   "keywords": "debt"
+  },
+  "2-III-0520": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant, ship master (patron) of the « Sta Maria della Grotta di Morea »",
+   "other_parties_names": "viceroy of Palermo's « bertoni »",
+   "other_parties_role": "captors",
+   "matter": "Sea protest: returning from Smyrna with cotton, wool, carpets, copper and hides, anchored at Dragoneri off Cerigo; two ships of the viceroy of Palermo searched him and found the goods belonged to Jews and Turks",
+   "keywords": "sea protest; ship; cotton; wool; Jews"
+  },
+  "2-III-0521": {
+   "party1_origins": "de Marseille",
+   "party1_role": "recipient, ransomed captive (probably)",
+   "party2_role": "lender",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Money received, probably for a ransom",
    "keywords": "ransom; loan"
+  },
+  "2-III-0522": {
+   "party1_name": "Niccolao Minuto; Andrea Carone",
+   "currency": "écus d'or d'Espagne",
+   "notes": "Receipt dated 2 June at the foot of the act.",
+   "keywords": "debt"
+  },
+  "2-III-0523": {
+   "transaction_type": "Redemption",
+   "party1_name": "Melyan Lazare",
+   "party1_role": "ransomed captive",
+   "party2_name": "Sliman Pacha",
+   "party2_role": "recipient of ransom (gives receipt)",
+   "matter": "Probably a receipt for the ransom of Melyan Lazare; on 18 April Sliman Pacha waived the 30 écus still due",
+   "notes": "Very effaced; bears Sliman Pacha's seal.",
+   "keywords": "ransom; receipt"
+  },
+  "2-III-0524": {
+   "party1_origins": "parisien",
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "payer, ship master (patron)",
+   "other_parties_names": "Giana Montona",
+   "other_parties_role": "wife of Ruggier (to be repaid)",
+   "matter": "Ransom paid at Modon; repayable to Ruggier's wife on Giovanni's arrival in France",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0525": {
+   "party1_name": "Giovanni di [...]",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan, repayable within six months",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0526": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant, ship master (patron) of the tartane « Nostra donna delle Gratie »",
+   "matter": "Sea protest: left Tabarca on 12 November and was wrecked on the 14th near Cap Blanc",
+   "notes": "Two crew members give depositions. OCR reads « 42 novembre ».",
+   "keywords": "sea protest; shipwreck"
+  },
+  "2-III-0527": {
+   "transaction_type": "Protest / summons",
+   "party1_name": "Bartolo Hiccio (?)",
+   "party1_role": "party, ship master (patron) of the saettia « Sta Maria de portosalvo »",
+   "party2_name": "Ascanio di Massa; Pasquarello Imperato",
+   "party2_role": "party, abbot; party",
+   "other_parties_names": "Casa santa de Naples (Elemosina); the Pacha and Divan of Tunis",
+   "other_parties_role": "institution that sent the ship; detained the patron",
+   "matter": "Dispute between the patron and the redemption agents; the patron was detained by the Pacha and Divan",
+   "keywords": "redemption mission; dispute; ship"
+  },
+  "2-III-0528": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "price": 149,
+   "currency": "pièces de réaux castillans",
+   "matter": "Loan repayable at Djerba",
+   "keywords": "loan; Jews"
+  },
+  "2-III-0529": {
+   "party2_name": "Ascanio de Massa; Pasqual Imperato",
+   "party2_role": "summoned party, abbot; summoned party",
+   "other_parties_names": "governors of the hospital of San Jacopo del Spagniolo, Naples",
+   "other_parties_role": "providers of the redemption funds",
+   "matter": "Summons to repay the 3,800 écus deposited by the hospital to ransom Spanish slaves at Tunis",
+   "decision": "Holds them liable for all costs if they do not return the deposit",
+   "keywords": "redemption mission; Spanish captives; deposit"
+  },
+  "2-III-0530": {
+   "party1_name": "Gabreillo Pontinal Catelari",
+   "party1_origins": "du Cap de Taragona",
+   "party1_role": "principal",
+   "matter": "Recovery of debts",
+   "keywords": "debt collection"
+  },
+  "2-III-0531": {
+   "matter": "Recovery of debts",
+   "keywords": "debt collection"
+  },
+  "2-III-0532": {
+   "party1_name": "[...] Ugho",
+   "party1_origins": "génois, habitant à Palerme",
+   "party1_role": "declarant",
+   "other_parties_names": "Gio. Bat. Danna",
+   "other_parties_role": "shipper (loaded at Trapani)",
+   "matter": "Wine received from Trapani leaked: four casks half empty; asks for witnesses",
+   "notes": "Seven witness statements follow.",
+   "keywords": "wine; damaged goods"
+  },
+  "2-III-0533": {
+   "party2_name": "Giachi Oddo",
+   "party2_origins": "de Marseille",
+   "party2_role": "payer",
+   "price": 13.5,
+   "currency": "pièces de 8 réaux castillans",
+   "keywords": "payment"
+  },
+  "2-III-0534": {
+   "party1_origins": null,
+   "party1_role": "debtor, captive, knight of the Order of St John of Jerusalem",
+   "party2_name": "Asta Assan",
+   "party2_origins": "renégat génois",
+   "party2_role": "creditor, master of the captive, renegade",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom of 2,100 écus payable at Tunis within one year; if paid early he will be freed and given his « carta di franchezza »",
+   "notes": "Signed « Le chevalier Daullioulles, dit de Vintimille ».",
+   "keywords": "ransom; knight of Malta; letter of freedom"
+  },
+  "2-III-0535": {
+   "transaction_type": "Redemption",
+   "party1_name": "Giuseppe Pancrazzi",
+   "party1_role": "ransomed captive",
+   "party2_name": "[...] Hizzo (Nizzo?)",
+   "party2_origins": "napolitain",
+   "party2_role": "payer, ship master (patron)",
+   "other_parties_names": "Mustafa Cartagi",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus",
+   "matter": "Effaced act about a ransom",
+   "notes": "Five attestations follow.",
+   "keywords": "ransom"
+  },
+  "2-III-0536": {
+   "other_parties_names": "Giulano Paghano",
+   "other_parties_role": "deceased",
+   "matter": "Effaced act about the death of Giulano Paghano",
+   "keywords": "death"
+  },
+  "2-III-0537": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan), knight",
+   "party2_name": "Franto Franceze",
+   "party2_role": "lender",
+   "currency": "écus d'or d'Espagne",
+   "notes": "Very effaced. Receipt dated 2 June at the foot; unclear whether « Franceze » is a name or a nationality.",
+   "keywords": "loan"
+  },
+  "2-III-0538": {
+   "party1_role": "requesting party",
+   "other_parties_names": "Gio Bata Calvia; Kader Pacha",
+   "other_parties_origins": "de Milazzo; ",
+   "other_parties_role": "deceased, slave; slave-owner",
+   "matter": "Inquiry into Calvia's death: three witnesses say he died in Constantinople three years ago",
+   "keywords": "death; slavery; inquiry"
+  },
+  "2-III-0539": {
+   "party1_role": "declarant, consul; declarant; declarant; declarant",
+   "other_parties_names": "the Divan",
+   "matter": "Certify that all ships at La Goulette are held by order of the Divan until the Bizerte galleys have left",
+   "keywords": "embargo; ship; galleys"
+  },
+  "2-III-0540": {
+   "party1_name": "Domco Riella",
+   "party1_origins": "lombard",
+   "party1_role": "declarant, slave at Tunis",
+   "other_parties_names": "Venturino Moscha",
+   "other_parties_role": "depositary (also a slave)",
+   "matter": "Entrusted three precious rings to Moscha three years ago when ill of the plague; Moscha has since left Tunis; asks witnesses to certify",
+   "keywords": "deposit; jewels; slavery; plague"
+  },
+  "2-III-0541": {
+   "party1_name": "Gio Antonio Caulett (Bourguignon); Luigi Frigius",
+   "party1_origins": "; de Marseille",
+   "party2_origins": "de Marseille",
+   "matter": "Summons to sail for Marseille with the boat they chartered and loaded",
+   "decision": "The patron is ready but lacks his sails and the permission of the Divan and Pacha",
+   "keywords": "charter; ship; embargo"
+  },
+  "2-III-0542": {
+   "other_parties_names": "Niccolo Scotto",
+   "other_parties_role": "principal (on whose account)",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "payment"
+  },
+  "2-III-0543": {
+   "party1_name": "Hostan Morat (Osta Morato)",
+   "party2_name": "Salvador Ysso",
+   "party2_role": "buyer, ship master (patron)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Lateen barque of 400 quintals with 2 anchors, 2 cables and rigging",
+   "keywords": "ship sale"
+  },
+  "2-III-0544": {
+   "transaction_type": "Sale / transfer",
+   "party1_role": "buyer (receives the goods)",
+   "party2_role": "seller",
+   "other_parties_names": "Niccolo Scotto",
+   "other_parties_role": "principal (on whose account)",
+   "price": 108,
+   "other_equivalent": "3 casks at 36 écus each",
+   "matter": "3 casks of wine",
+   "keywords": "wine"
+  },
+  "2-III-0545": {
+   "party1_name": "Nardo Grecho",
+   "party1_origins": "de Casal Fumaro de Malte",
+   "party1_role": "promisor, slave at Tunis",
+   "other_parties_names": "Mamette Sciemi; Ali Sciemi",
+   "other_parties_role": "Muslim captive at Malta (to be freed); his father",
+   "matter": "Promises to bring Mamette Sciemi free from Malta; on his arrival Grecho will be freed without paying his owner",
+   "keywords": "captive exchange; Malta"
+  },
+  "2-III-0546": {
+   "party1_name": "Giuseppe di Milazzo",
+   "party1_role": "payer",
+   "party2_name": "Silviano Gauderissi",
+   "party2_role": "party on whose account he paid",
+   "price": 33,
+   "currency": "écus",
+   "other_equivalent": null,
+   "notes": "A very effaced note of 24 August following says Giuseppe di Milazzo received 47 écus from Gauderissi.",
+   "keywords": "payment"
+  },
+  "2-III-0547": {
+   "party1_name": "Franco Borghignon; Antonio Caulett; Luigi Morenghi dit Frigius (?)",
+   "party1_origins": "de Marseille",
+   "party1_role": "protesting party (charterers)",
+   "party2_name": "Tomaso Oddo",
+   "party2_role": "ship master (patron)",
+   "matter": "Protest: Oddo unloaded eight of their wool bales to take other goods; ship chartered Marseille–Tunis and back at 80 écus a month",
+   "currency": "écus",
+   "notes": "Price is the monthly charter rate.",
+   "keywords": "charter; wool; protest"
+  },
+  "2-III-0548": {
+   "transaction_type": "Protest / summons",
+   "party1_name": "Tomaso Oddo",
+   "party1_role": "protesting party, ship master (patron)",
+   "party2_name": "Caulet",
+   "party2_role": "party protested against",
+   "matter": "Oddo complains Caulet, shipped as pilot, will not follow him and took his best sailors",
+   "decision": "Caulet's party answers he was not the pilot and the sailors left lawfully for promotion",
+   "keywords": "crew; charter; protest"
+  },
+  "2-III-0549": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "lender",
+   "other_parties_names": "Mustafa Pacha",
+   "other_parties_role": "recipient of ransom payment",
+   "matter": "Ransom loan repayable 15 days after arrival at Palermo",
+   "notes": "Receipt dated 20 June following beneath the act.",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0550": {
+   "party1_name": "Fra Fran di Vintimiglia; Doumas Fabbri",
+   "party1_role": "recipient, ransomed captive, knight; recipient, ransomed captive",
+   "party1_origins": "; de la Cadière",
+   "party2_role": "lender",
+   "other_parties_names": "Asta Assano Genovese",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable one month after arrival at Marseille",
+   "notes": "Signed « le chev. Daullioulles dit Vintimille — Fabre ».",
+   "keywords": "ransom; loan; knight of Malta"
+  },
+  "2-III-0551": {
+   "date": "1607-05-29",
+   "party1_name": "Beirano",
+   "party1_origins": "renégat vénitien",
+   "party1_role": "requesting party, caïd, renegade",
+   "party2_name": "Burlacchini",
+   "party2_role": "debtor (signatory of the promise)",
+   "other_parties_names": "Sr de Moessach (Moissac)",
+   "other_parties_role": "endorsed (visa)",
+   "currency": "écus",
+   "matter": "Asks verification of a promise of 16 July 1604 for a 1,602-écu debt",
+   "notes": "Day read as 9 by OCR, between May and June acts; probably 29.",
+   "keywords": "debt; verification"
+  },
+  "2-III-0552": {
+   "party1_role": "recipient, ransomed captive, knight; recipient, ransomed captive",
+   "party1_origins": "; de la Cadière",
+   "party2_role": "lender",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan; knight of Malta"
+  },
+  "2-III-0553": {
+   "party2_name": "Caulet; Bourguignon; Luigi Moneri dit Frigius",
+   "party2_role": "buyer; buyer; buyer",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Boat of 900 salmes with sails (except the mainsail), 2 cables, 2 anchors",
+   "keywords": "ship sale"
+  },
+  "2-III-0554": {
+   "party2_name": "Pietro Antonio Datenaso",
+   "party2_origins": "de Positano (Naples)",
+   "party2_role": "attorney (fellow countryman)",
+   "keywords": "power of attorney"
+  },
+  "2-III-0555": {
+   "currency": "écus (monnaie de Naples)",
+   "notes": "Receipt at the foot of the act (date cut off).",
+   "keywords": "payment"
   }
  }
 }
