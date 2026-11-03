@@ -1,104 +1,4 @@
 {
- "fm01": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 1,
-  "side": "R"
- },
- "fm02": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 3,
-  "side": "L"
- },
- "fm03": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 3,
-  "side": "R"
- },
- "fm04": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 4,
-  "side": "R"
- },
- "fm05": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 5,
-  "side": "R"
- },
- "fm06": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 6,
-  "side": "L"
- },
- "fm07": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 6,
-  "side": "R"
- },
- "fm08": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 7,
-  "side": "R"
- },
- "fm09": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 8,
-  "side": "L"
- },
- "fm10": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 8,
-  "side": "R"
- },
- "fm11": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 9,
-  "side": "L"
- },
- "fm12": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 9,
-  "side": "R"
- },
- "fm13": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 10,
-  "side": "L"
- },
- "fm14": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 10,
-  "side": "R"
- },
- "fm15": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 11,
-  "side": "L"
- },
- "fm16": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 11,
-  "side": "R"
- },
- "fm17": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 12,
-  "side": "L"
- },
- "fm18": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 12,
-  "side": "R"
- },
- "fm19": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 13,
-  "side": "L"
- },
- "fm20": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 13,
-  "side": "R"
- },
  "p001": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
   "pdf_page": 14,
@@ -179,11 +79,6 @@
   "pdf_page": 22,
   "side": "L"
  },
- "plate-022R": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 22,
-  "side": "R"
- },
  "p017": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
   "pdf_page": 23,
@@ -231,293 +126,291 @@
  },
  "p026": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 28,
+  "pdf_page": 29,
   "side": "L"
  },
  "p027": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 28,
+  "pdf_page": 29,
   "side": "R"
  },
  "p028": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 29,
+  "pdf_page": 30,
   "side": "L"
  },
  "p029": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 29,
+  "pdf_page": 30,
   "side": "R"
  },
  "p030": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 30,
+  "pdf_page": 31,
   "side": "L"
  },
  "p031": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 30,
+  "pdf_page": 31,
   "side": "R"
  },
  "p032": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 31,
+  "pdf_page": 32,
   "side": "L"
  },
  "p033": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 31,
+  "pdf_page": 32,
   "side": "R"
  },
  "p034": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 32,
+  "pdf_page": 33,
   "side": "L"
  },
  "p035": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 32,
+  "pdf_page": 33,
   "side": "R"
  },
  "p036": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 33,
+  "pdf_page": 34,
   "side": "L"
  },
  "p037": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 33,
+  "pdf_page": 34,
   "side": "R"
  },
  "p038": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 34,
+  "pdf_page": 35,
   "side": "L"
  },
  "p039": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 34,
+  "pdf_page": 35,
   "side": "R"
  },
  "p040": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 35,
+  "pdf_page": 36,
   "side": "L"
  },
  "p041": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 35,
+  "pdf_page": 36,
   "side": "R"
  },
  "p042": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 36,
+  "pdf_page": 37,
   "side": "L"
  },
  "p043": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 36,
+  "pdf_page": 37,
   "side": "R"
  },
  "p044": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 37,
+  "pdf_page": 38,
   "side": "L"
  },
  "p045": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 37,
+  "pdf_page": 38,
   "side": "R"
  },
  "p046": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 38,
+  "pdf_page": 39,
   "side": "L"
  },
  "p047": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 38,
+  "pdf_page": 39,
   "side": "R"
  },
  "p048": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 39,
+  "pdf_page": 40,
   "side": "L"
  },
  "p049": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 39,
+  "pdf_page": 40,
   "side": "R"
  },
  "p050": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 40,
+  "pdf_page": 41,
   "side": "L"
  },
  "p051": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 40,
+  "pdf_page": 41,
   "side": "R"
  },
  "p052": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 41,
+  "pdf_page": 42,
   "side": "L"
  },
  "p053": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 41,
+  "pdf_page": 42,
   "side": "R"
  },
  "p054": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 42,
+  "pdf_page": 43,
   "side": "L"
  },
  "p055": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 42,
+  "pdf_page": 43,
   "side": "R"
  },
  "p056": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 43,
+  "pdf_page": 44,
   "side": "L"
  },
  "p057": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 43,
+  "pdf_page": 44,
   "side": "R"
  },
  "p058": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 44,
+  "pdf_page": 45,
   "side": "L"
  },
  "p059": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 44,
+  "pdf_page": 45,
   "side": "R"
  },
  "p060": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 45,
+  "pdf_page": 46,
   "side": "L"
  },
  "p061": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 45,
+  "pdf_page": 46,
   "side": "R"
  },
  "p062": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 46,
+  "pdf_page": 47,
   "side": "L"
  },
  "p063": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 46,
+  "pdf_page": 47,
   "side": "R"
  },
  "p064": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 47,
+  "pdf_page": 48,
   "side": "L"
  },
  "p065": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 47,
+  "pdf_page": 48,
   "side": "R"
  },
  "p066": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 48,
+  "pdf_page": 49,
   "side": "L"
  },
  "p067": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 48,
+  "pdf_page": 49,
   "side": "R"
  },
  "p068": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 49,
+  "pdf_page": 50,
   "side": "L"
  },
  "p069": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 49,
+  "pdf_page": 50,
   "side": "R"
  },
  "p070": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 50,
+  "pdf_page": 51,
   "side": "L"
  },
  "p071": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 50,
+  "pdf_page": 51,
   "side": "R"
  },
  "p072": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 51,
+  "pdf_page": 52,
   "side": "L"
  },
  "p073": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 51,
+  "pdf_page": 52,
   "side": "R"
  },
  "p074": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 52,
+  "pdf_page": 53,
   "side": "L"
  },
  "p075": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 52,
+  "pdf_page": 53,
   "side": "R"
  },
  "p076": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 53,
+  "pdf_page": 54,
   "side": "L"
  },
  "p077": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 53,
+  "pdf_page": 54,
   "side": "R"
  },
  "p078": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 54,
+  "pdf_page": 55,
   "side": "L"
  },
  "p079": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 54,
+  "pdf_page": 55,
   "side": "R"
  },
  "p080": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 55,
+  "pdf_page": 56,
   "side": "L"
  },
  "p081": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 55,
+  "pdf_page": 56,
   "side": "R"
  },
  "p082": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 56,
-  "side": "L"
+  "file": "pdfs/La France en Tunisie v.4_Part2.pdf",
+  "pdf_page": 20
  },
  "p083": {
-  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
-  "pdf_page": 56,
-  "side": "R"
+  "file": "pdfs/La France en Tunisie v.4_Part2.pdf",
+  "pdf_page": 20
  },
  "p084": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
@@ -2332,6 +2225,101 @@
  "p447": {
   "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part4.pdf",
   "pdf_page": 72,
+  "side": "R"
+ },
+ "fm01": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 1,
+  "side": "R"
+ },
+ "fm02": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 3,
+  "side": "L"
+ },
+ "fm03": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 3,
+  "side": "R"
+ },
+ "fm04": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 5,
+  "side": "R"
+ },
+ "fm05": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 6,
+  "side": "L"
+ },
+ "fm06": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 6,
+  "side": "R"
+ },
+ "fm07": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 7,
+  "side": "R"
+ },
+ "fm08": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 8,
+  "side": "L"
+ },
+ "fm09": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 8,
+  "side": "R"
+ },
+ "fm10": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 9,
+  "side": "L"
+ },
+ "fm11": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 9,
+  "side": "R"
+ },
+ "fm12": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 10,
+  "side": "L"
+ },
+ "fm13": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 10,
+  "side": "R"
+ },
+ "fm14": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 11,
+  "side": "L"
+ },
+ "fm15": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 11,
+  "side": "R"
+ },
+ "fm16": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 12,
+  "side": "L"
+ },
+ "fm17": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 12,
+  "side": "R"
+ },
+ "fm18": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 13,
+  "side": "L"
+ },
+ "fm19": {
+  "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+  "pdf_page": 13,
   "side": "R"
  }
 }

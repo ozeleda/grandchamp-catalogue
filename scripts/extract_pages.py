@@ -146,6 +146,7 @@ def reindent(text):
 
 
 NOTE_START = re.compile(r"^\s*(?:Acte|Sign|Non |Suit|Une mention|Le bas|En marge|En (?:grande )?partie|Témoin|Les témoins|Même)")
+TWO_UP = False               # volume 4 (set in main): Tesseract text of the two-page photocopy
 LATE_LAYOUT = False          # volumes 5-8 (set in main): continuation lines indented only 4-5 spaces
 
 
@@ -468,6 +469,18 @@ def month_headings(text, years=None):
             if leader.search(l) or (leader.search(nxt) and not re.match(r"^\s{0,8}\d{1,2}\s*[—–-]", nxt)):
                 list_items.add(k)
     for k_line, l in enumerate(src):
+        # a running head whose month lost its first letters (« évrier   1629 », « illet 1626 »)
+        # or that ends in specks (« 1623 TT »)
+        cut = TWO_UP and re.fullmatch(r"\s{0,6}(?P<w>[a-zéèû]{3,8})\.?\s{2,}\S{0,3}\s*(?P<y>1[5-7]\d\d)\b.{0,6}", l)
+        if cut:
+            hit = [m for m in MONTH_NAMES if m.endswith(cut.group("w"))]
+            if len(hit) == 1:
+                l = hit[0].capitalize() + "      " + cut.group("y")
+        if TWO_UP:
+            # a speck before the margin date (« i. 31 — Claude Severt »)
+            l = re.sub(r"^\s{0,3}(?:[^\w\s]{1,2}|[a-zA-Z][.,:;]?|[a-zA-Z]{2}[.,:;])\s+(?=(?:1er|\d{1,2})\s*[—–=-]+\s)", "", l)
+        if TWO_UP and re.fullmatch(r"\s*1[5-7]\d\d\s+\S{1,3}\s*", l) and len(l) - len(l.lstrip()) <= 12:
+            l = "  " + l.split()[0]
         y = re.fullmatch(r"\s*(1[5-7]\d\d)(?:\s*[-–]\s*\d{1,4})?\s*", l)
         if y and len(l) - len(l.lstrip()) > 12:
             out.append("  " + y.group(1))
@@ -534,6 +547,14 @@ def raw_volume(vid, vol):
             lab = f"fm{fm:02d}"
         (out_dir / f"{lab}.txt").write_text(t, encoding="utf-8")
         index[lab] = {"file": vol["file"], "pdf_page": p}
+    for lab in vol.get("missing_pages", []):
+        # pages absent from the scan, transcribed by hand from another copy
+        hand = ROOT / "text" / f"vol{vid}" / "transcribed" / f"p{lab:03d}.txt"
+        if hand.exists():
+            (out_dir / f"p{lab:03d}.txt").write_text(hand.read_text(encoding="utf-8"), encoding="utf-8")
+            index[f"p{lab:03d}"] = {"file": vol.get("missing_pages_source", "?"),
+                                    "pdf_page": vol.get("missing_pages_pdf", {}).get(str(lab))}
+    index = dict(sorted(index.items(), key=lambda kv: (not kv[0].startswith("p"), kv[0])))
     (out_dir / "index.json").write_text(json.dumps(index, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"vol {vid}: {len(index)} pages written to {out_dir.relative_to(ROOT)}")
 
@@ -547,6 +568,8 @@ def main():
     scans = vol["scans"]
     global LATE_LAYOUT
     LATE_LAYOUT = bool(vol.get("month_headings"))
+    global TWO_UP
+    TWO_UP = bool(vol.get("two_up"))
     mo_path = ROOT / "text" / f"vol{vid}" / "margin_ocr.json"
     margin_ocr = json.loads(mo_path.read_text(encoding="utf-8")) if mo_path.exists() else {}
     out_dir = ROOT / "text" / f"vol{vid}" / "pages"
@@ -563,6 +586,8 @@ def main():
                 # two book pages per PDF page, OCR'd half by half by ocr_two_up.py
                 part = Path(name).stem.rsplit("_", 1)[-1]
                 for side in "LR":
+                    if f"{part}-{p:03d}{side}" in vol.get("skip_halves", []):
+                        continue                   # a spread photocopied twice
                     f = ROOT / "text" / f"vol{vid}" / "halves" / f"{part}-{p:03d}{side}.txt"
                     t = f.read_text(encoding="utf-8") if f.exists() else ""
                     sides[len(seq)] = side
@@ -616,6 +641,21 @@ def main():
                 print(f"  ! {need - len(between)} page(s) missing between {n1} and {n2}", file=sys.stderr)
         for j, k in enumerate(between):
             labels[k] = f"p{n1 + 1 + j:03d}"
+    if vol.get("page_numbers"):
+        # pages numbered by hand (running header unreadable, checked on the image) are final
+        pinned_labels = {}
+        for k in range(len(seq)):
+            if k in sides:
+                part = Path(seq[k][0]).stem.rsplit("_", 1)[-1]
+                n = vol["page_numbers"].get(f"{part}-{seq[k][1]:03d}{sides[k]}")
+                if n:
+                    pinned_labels[k] = f"p{n:03d}"
+        taken = set(pinned_labels.values())
+        for k in range(len(seq)):
+            if k in pinned_labels:
+                labels[k] = pinned_labels[k]
+            elif labels[k] in taken:
+                labels[k] = None
     fm = 0
     for i in range(start):
         if len(seq[i][2].strip()) >= 40:
@@ -688,6 +728,14 @@ def main():
         index[lab] = {"file": name, "pdf_page": p}
         if k_seq in sides:
             index[lab]["side"] = sides[k_seq]          # left or right half of the PDF page
+    for lab in vol.get("missing_pages", []):
+        # pages absent from the scan, transcribed by hand from another copy
+        hand = ROOT / "text" / f"vol{vid}" / "transcribed" / f"p{lab:03d}.txt"
+        if hand.exists():
+            (out_dir / f"p{lab:03d}.txt").write_text(hand.read_text(encoding="utf-8"), encoding="utf-8")
+            index[f"p{lab:03d}"] = {"file": vol.get("missing_pages_source", "?"),
+                                    "pdf_page": vol.get("missing_pages_pdf", {}).get(str(lab))}
+    index = dict(sorted(index.items(), key=lambda kv: (not kv[0].startswith("p"), kv[0])))
     (out_dir / "index.json").write_text(json.dumps(index, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"vol {vid}: {len(index)} pages written to {out_dir.relative_to(ROOT)}")
 

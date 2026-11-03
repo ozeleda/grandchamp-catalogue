@@ -1,0 +1,48 @@
+{
+ "pages": [],
+ "acts": {
+  "date": [
+   {
+    "find": "Pierre Paul Anbroxin ne réussissant",
+    "date": "1621-06-24",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Bernardo Simon, d’Ho",
+    "date": "1621-06-25",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Fra Filippo Carbone, d",
+    "date": "1621-06-25",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Domenico et Fran°° d",
+    "date": "1621-06-25",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Poucet Nicollas, marinier",
+    "date": "1621-07-01",
+    "note": "Margin « 1er — » under the heading « Juillet »."
+   },
+   {
+    "find": "...... sarde, donne un",
+    "date": "1621-07-01",
+    "note": "Margin « 1er — »."
+   }
+  ],
+  "merge_with_previous": [
+   {
+    "find": "Jean Clément les 300 écus que celui-"
+   },
+   {
+    "find": "Le début et la fin de l'acte sont ill"
+   },
+   {
+    "find": "de 12 réaux, pour acheter à Tunis de"
+   }
+  ]
+ }
+}
