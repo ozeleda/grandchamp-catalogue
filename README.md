@@ -10,9 +10,16 @@ charters, protests…), together with the documents he published in full.
 | 1 — *La France en Tunisie à la fin du XVIe siècle* (Tunis, 1920) | 1582–1600 | 855 | 33 + 38 |
 | 2 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1921) | 1601–1610 | 1326 | annexes: text files only |
 | 3 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1925) | 1611–1620 | 2452 | annexes: text files only |
+| 5 — *La France en Tunisie au XVIIe siècle* (Tunis, 1927) | 1631–1650 | 2187 | annexes: text files only |
+| 6 — *id.* (Tunis, 1928) | 1651–1660 | 1710 | — |
+| 7 — *id.* (Tunis, 1929) | 1661–1680 | 1771 | correspondence: text files only |
+| 8 — *id.* (Tunis, 1930) | 1681–1700 | 1658 | correspondence, sea reports, documents (pp. 337–614): text files only |
 
-The transaction columns of volumes 1 and 2 were reviewed by hand, act by act. Those of volume 3
-are the automatic draft (`extraction = 'auto'`) and still need the same review.
+Volume 4 (1621–1630) and volume 10 will be added from their scans later; volume 9 (the letters
+of Nicolas Béranger) is not part of this catalogue.
+
+The transaction columns of volumes 1 and 2 were reviewed by hand, act by act. Those of volumes
+3 and 5–8 are the automatic draft (`extraction = 'auto'`) and still need the same review.
 
 Every volume also has **plain-text files** in `text/vol<N>/`, one per printed page plus organised
 files (acts with date and other markers, annexed documents, indexes, table of contents). The
@@ -27,7 +34,7 @@ database is built from them. See [`text/README.md`](text/README.md).
 | `csv/` | Other CSVs (UTF-8 with BOM): `acts`, `act_amounts`, `documents`, `officials` |
 | `text/vol<N>/` | Plain-text edition of each volume: page files, `acts.txt` with markers, documents, indexes… ([details](text/README.md)) |
 | `annotations/vol1.json`, `annotations/vol2.json` | Hand corrections to the extracted transaction columns (all acts of both volumes reviewed) |
-| `pdfs/` | Source scans: volume 1 from the Internet Archive; volumes 2, 3, 5–8, 10 from HathiTrust (Google OCR), split into parts under 25 MB; `v.2.pdf` is the older photocopy of volume 2 |
+| `pdfs/` | Source scans: volume 1 from the Internet Archive; volumes 2–8 and 10 from HathiTrust (Google OCR), split into parts under 25 MB; `v.2.pdf` is the older photocopy of volume 2 |
 | `volumes.json` | Per-volume settings: page layout plus the manual OCR corrections |
 | `ocr/vol2/` | Tesseract OCR of the older volume 2 photocopy, used as a second reading (see below) |
 | `scripts/extract_pages.py` | Writes the page text files of a volume from its scans |
@@ -129,9 +136,9 @@ but are not authoritative:
 * The register is not strictly chronological (follow-up acts were written next
   to the original), so `seq` keeps the printed order and `date_iso` the act's own date.
 
-## Volumes 2 and 3: HathiTrust scans
+## Volumes 2, 3 and 5–8: HathiTrust scans
 
-Volumes 2 and 3 are read from the HathiTrust scans (`pdfs/La France en Tunisie v.N_PartK.pdf`), whose
+Volumes 2, 3 and 5–8 are read from the HathiTrust scans (`pdfs/La France en Tunisie v.N_PartK.pdf`), whose
 Google OCR is much better than the earlier photocopy of volume 2. The pipeline is:
 
 1. `scripts/extract_pages.py N` numbers the pages from the running headers, drops library pages,
@@ -167,6 +174,21 @@ Volume 3 notes:
 * From p. 168 to 22 September 1617, Grandchamp's own manuscript was destroyed in the 1923 fire
   at the Imprimerie Rapide, and he redid that part from the register. Some leaves were too damaged
   for a second reading. His note is kept in the text.
+
+Volumes 5–8 notes:
+
+* The layout differs from volumes 2–3: the month is printed as a heading (or at the top of the
+  page) and only the day in the margin; the year is at the right edge of the page. The page step
+  (`month_headings` in `volumes.json`) rewrites this into the volume 2–3 form (« 3 juil. »,
+  year line at the left) before the acts are parsed.
+* Where the OCR lost a month heading, the month is taken as the one after the previous act's when
+  the day falls back (30 → 2); `date status` says so. Years misread at the page edge are checked
+  against the following pages.
+* A few days printed in the book do not exist (« 31 juin (sic) »); these acts are dated to the month,
+  with a `date note`.
+* Amounts in « pièces de 8 réaux » (pieces of eight), the usual currency of these volumes, are read
+  as such in the `price` and `currency` columns.
+* Volume 8: the analysis ends on p. 335; p. 336 is a blank page.
 
 ## Schema (main tables)
 

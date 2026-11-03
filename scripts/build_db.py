@@ -445,7 +445,7 @@ def parse_analysis(pdf, vol):
             if role == "consul":
                 in_office["vice_consul"] = None if in_office["vice_consul"] == name else in_office["vice_consul"]
             continue
-        lone = re.match(r"^\s{0,8}(?P<tok>[—–-]{1,3}|\?(?:\s+(?P<m>[a-zéû]{3,9})\.?)?(?:\s+[—–-])?)\s{3,}(?P<rest>(?:En\s+\w+\.\s*[—–-]+\s|\(|[A-ZÉ«]).*)$", line)
+        lone = re.match(r"^\s{0,8}(?P<tok>[—–-]{1,3}|\?(?:\s+(?P<m>[a-zéû]{3,9})\.?)?(?:\s+[—–-])?)(?:\s{3,}|\s{2}(?=En\s))(?P<rest>(?:En\s+\w+\.\s*[—–-]+\s|\(|[A-ZÉ«]).*)$", line)
         if started and noisy(vol) and vol.get("pages_dir") and lone:
             # "—" alone: same date as the act above; "?" : the day is not known
             flush()

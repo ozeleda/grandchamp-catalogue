@@ -10964,7 +10964,7 @@ page: 163 (scan: La France en Tunisie v.3_Part1.pdf p. 186)
 language: italien
 chancelier: Frangois Icard
 dates mentioned: 1614-08
-text: En italien. — Giovan Eaglefielde, marchand anglais, déclare sur la demande de Pietro della Grangia, français habitant à Livourne, que Gio Baliart, écossais, capitaine d'un navire, est arrivé d'Angleterre à Alger au mois d'août 1614. Il y a été reçu par son compatriote et associé Jaymes Frizel. Contrairement à ce qui a été dit, Baliart n'a point été pris par des corsaires; il est venu librement à Alger, a vendu sa cargaison de blé, puis, après quelques mois de séjour, il a été nolisé pour Tétouan, où il a transporté des marchandises appartenant à des Turcs et à des Maures. De Tétouan il est reparti, avec son navire, pour l'Angleterre ou l'Ecosse.
+text: En italien. — Giovan Eaglefielde, marchand anglais, déclare sur la demande de Pietro della Grangia, français habitant à Livourne, que Gio Baliart, écossais, capitaine d'un navire, est arrivé d'Angleterre à Alger au mois d'août 1614. Il y a été reçu par son compatriote et associé Jaymes Frizel. Contrairement à ce qui a été dit, Baliart n'a point été pris par des corsaires; il est venu librement à Alger, a vendu sa cargaison de blé, puis, après quelques mois de séjour, il a été nolisé pour Tétouan, où il a transporté des marchandises appartenant à des Turcs et à des Maures. De Tétouan il est reparti, avec son navire, pour l'Angleterre ou l'Ecosse. 1
 
 [act 3-VI-1009]
 date: 1615-12-01
@@ -21590,7 +21590,7 @@ language: français
 vice-consul: Claude Severt
 chancelier: Jacques Vacon
 amounts: 155 écus; 36 aspres
-text: (541)Le cap. Reynaud Fabre a reçu de Jehan Luques 155 écus et 36 aspres, pour l'ultime expédition du St-Jacques la Fleur de Lys.
+text: (541) Le cap. Reynaud Fabre a reçu de Jehan Luques 155 écus et 36 aspres, pour l'ultime expédition du St-Jacques la Fleur de Lys.
 
 [act 3-VI-1898]
 date: 1618-07-24
@@ -21610,11 +21610,12 @@ date printed: 25
 date status: printed in the margin
 register: VI
 page: 307 (scan: La France en Tunisie v.3_Part2.pdf p. 78)
+folio: 545
 language: français
 vice-consul: Claude Severt
 chancelier: Jacques Vacon
 amounts: 230 écus; 40 aspres
-text: Claude Anthoine Vignon, marchand de Marseille, a (545) reçu de Andan (Adan) Allegre et du patron Anth. Bosquet 230 écus et 40 aspres, pour les employer en marchandises non prohibées à charger sur le St-Jacques la Fleur Dalys.
+text: (545) Claude Anthoine Vignon, marchand de Marseille, a regu de Andan (Adan) Allegre et du patron Anth. Bosquet 230 écus et 40 aspres, pour les employer en marchandises non prohibées à charger sur le St-Jacques la Fleur Dalys.
 
 [act 3-VI-1900]
 date: 1618-07-31
@@ -21626,7 +21627,7 @@ folio: 544
 language: italien
 vice-consul: Claude Severt
 chancelier: Jacques Vacon
-text: En italien. — (544) Le rais Benort, maure de Sfax, reçu de Aggi Abed, maure de Monastir, 60 sultanis d'or, que Benort paiera à Malte à Mahamet Delabeddi, maure de Sousse, marchand.
+text: En italien. — (544) Le rais Benort, maure de Sfax, a reçu de Aggi Abed, maure de Monastir, 60 sultanis d'or, que Benort paiera à Malte à Mahamet Delabeddi, maure de Sousse, marchand.
 
 [act 3-VI-1901]
 date: 1618-08-01
@@ -21638,22 +21639,23 @@ language: italien
 vice-consul: Claude Severt
 chancelier: Jacques Vacon
 amounts: 265 écus d'or
-text: En italien. — Gio Batta Mondovy, génois de Porto Fino, riv. de Gênes, a été racheté, par Batta della Torre, à Ragebe Bei, renégat français, pour 265 écus d'or. Rachat effectué sur l'ordre de G. B. Giustiniano, gouv. de Ta-
+text: En italien. — Gio Batta Mondovy, génois de Porto Fino, riv. de Gênes, a été racheté, par Batta della Torre, à Ragebe Bei, renégat français, pour 265 écus d'or. Rachat effectué sur l'ordre de G. B. Giustiniano, gouv. de Tabarca, agissant lui-même pour la Rédemption de Gênes.
 
 [act 3-VI-1902]
 date: 1618-08-01
-date printed: 1
+date printed: —
 date status: printed in the margin
 register: VI
 page: 307 (scan: La France en Tunisie v.3_Part2.pdf p. 78)
+folio: 545
 language: italien
 vice-consul: Claude Severt
 chancelier: Jacques Vacon
-text: En italien. — Fours, 42 ans, barca, agissant lui-même pour la Rédemption de Gênes. (545) Le patron Honorat Vicart, de Six parti d'Araisse, riv. de Gênes, le 17 juillet avec son navire le Sto-Gio Batta buonaventura, chargé de 20 balles de toile et divers pour Cagliari, a été pris le 28 à 3 milles de Pausada de Sardaigne par une galiote turque du caid Giaffer, renégat génois. Le navire conduit à la Goulette le 31 juillet, a été complètement déchargé, la cargaison appartenant à des Italiens. Suivent les témoignages de Bartollomeo Beussier, de Six Fours, 45 ans, marin; Antonio Porquier, de Six Fours, 37 ans, marin; Matheo Porquier, de Six Fours, 24 ans. marin.
+text: En italien. — (545) Le patron Honorat Vicart, de Six Fours, 42 ans, parti d’Araisse, riv. de Gênes, le 17 juillet avec son navire le Sto-Gio Batta buonaventura, chargé de 20 balles de toile et divers pour Cagliari, a été pris le 28 à 3 milles de Pausada de Sardaigne par une galiote turque du caid Giaffer, renégat génois. Le navire conduit à la Goulette le 31 juillet, a été complètement déchargé, la cargaison appartenant à des Italiens. Suivent les témoignages de Bartollomeo Beussier, de Six Fours, 45 ans, marin; Antonio Porquier, de Six Fours, 37 ans, marin; Matheo Porquier, de Six Fours, 24 ans. marin.
 
 [act 3-VI-1903]
 date: 1618-08-01
-date printed: 1er —
+date printed: —
 date status: printed in the margin
 register: VI
 page: 307 (scan: La France en Tunisie v.3_Part2.pdf p. 78)
@@ -21662,11 +21664,11 @@ language: italien
 vice-consul: Claude Severt
 chancelier: Jacques Vacon
 amounts: 330 écus d'or
-text: En italien. — (548) Stefano Pera de Stefano, de San Remo, riv. de Gênes, a été racheté par Batta della Torre à Barba Regep, janissaire de Tunis, pour 330 écus d'or. Mêmes conditions que pour le rachat de Mondovy. (Voir plus haut).
+text: En italien. — (548) Stefano Pera de Stefano, de San- Remo, riv. de Gênes, a été racheté par Batta della Torre à Barba Regep, janissaire de Tunis, pour 330 écus d'or. Mémes conditions que pour le rachat de Mondovy. (Voir plus haut).
 
 [act 3-VI-1904]
 date: 1618-08-01
-date printed: 1 -
+date printed: 1 —
 date status: printed in the margin
 register: VI
 page: 307 (scan: La France en Tunisie v.3_Part2.pdf p. 78)

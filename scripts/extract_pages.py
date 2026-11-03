@@ -458,7 +458,7 @@ def main():
             # two-column indexes it separates the columns and is kept)
             t = "\n".join(re.sub(r"(?:(?<=\s)|^)\|(?=\s|$)", " ", l).rstrip() for l in t.split("\n"))
             # margin '1"', '1**', '1°' (in the documents, "1º" numbers the first document)
-            t = re.sub(r"(?m)^(\s{0,3})[14](?:\"|\*\*?|°|º)(?=\s)", r"\g<1>1er", t)
+            t = re.sub(r"(?m)^(\s{0,3})(?:[14][19]?(?:\"|\*\*?|°|º)|[Ll]er|1 er|1r|er)(?=\s)", r"\g<1>1er", t)
             if vol.get("month_headings"):
                 t = month_headings(t, (int(vol["period_start"][:4]), int(vol["period_end"][:4]) + 3))
         for f in page_fixes:          # hand corrections of the page text, checked against the scan

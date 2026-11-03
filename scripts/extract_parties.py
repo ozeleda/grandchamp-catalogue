@@ -86,8 +86,9 @@ PURPOSES = [
 
 AMT_RE = re.compile(
     r"(?<![\w/])(?P<num>\d{1,3}(?:\.\d{3})+|\d+)(?P<frac>\s*(?:et\s+(?:demi[e]?|un\s+tiers|\d/\d|[\\½¼¾])|[½¼¾]|\d/\d))?\s+"
-    r"(?P<cur>[ée]cus?|onces?|ducats?|aspres?|taris?|piastres?|livres?|sols?|sous|r[ée]aux|carlins?|"
-    r"sequins?|doubles?|doublons?|sultanins?|florins?|thalers?|deniers?|pi[èe]ces? de huit)\b"
+    r"(?P<cur>pi[èe]ces?(?P<pfrac>\s+et\s+(?:demie?|\d/\d|[½¼¾\\]))?\s+de\s+(?:8|huit)\s+r[ée]aux(?:\s+castillans)?|"
+    r"[ée]cus?|onces?|ducats?|aspres?|taris?|piastres?|livres?|sols?|sous|r[ée]aux|carlins?|"
+    r"sequins?|doubles?|doublons?|sultanins?|sultanis|pistoles?|florins?|thalers?|deniers?|pi[èe]ces? de huit)\b"
     r"(?P<qual>(?:\s*,?\s*(?:d'or|d'argent|de\s+Sicile|de\s+Naples|d'Espagne|coin\s+d'Espagne|sol\b|pistol\w*|"
     r"de\s+France|de\s+Marseille|de\s+Malte|de\s+Venise|de\s+\d+\s+(?:aspres|taris|r[ée]aux|carlins|soubz|sous)(?:\s+chaque)?))*)"
     r"(?P<frac2>\s+et\s+demie?\b)?",
@@ -104,6 +105,7 @@ CUR_NORM = [
     (r"r[ée]aux", "réaux"), (r"carlins?", "carlins"), (r"sequins?", "sequins"),
     (r"doubles?|doublons?", "doublons"), (r"sultanins?", "sultanins"), (r"florins?", "florins"),
     (r"thalers?", "thalers"), (r"deniers?", "deniers"), (r"pi[èe]ces? de huit", "pièces de huit"),
+    (r"pi[èe]ces?.*r[ée]aux.*", "pièces de 8 réaux"), (r"sultanis", "sultanins"), (r"pistoles?", "pistoles"),
 ]
 
 NAME_START = re.compile(r"^(?:[A-ZÀ-ÝÉ]|d'|de\s+[A-Z]|di\s+[A-Z])")
@@ -303,6 +305,8 @@ def cut_p2(text):
 def norm_currency(m):
     cur = m.group("cur").lower()
     base = next(v for k, v in CUR_NORM if re.fullmatch(k, cur))
+    if base == "pièces de 8 réaux" and "castillan" in cur:
+        base += " castillans"
     qual = re.sub(r"\s+", " ", (m.group("qual") or "")).strip(" ,")
     qual = re.sub(r"^,\s*", "", qual)
     return f"{base} {qual}".strip()
@@ -310,7 +314,7 @@ def norm_currency(m):
 
 def amount_value(m):
     num = int(m.group("num").replace(".", ""))
-    frac = (m.group("frac") or m.group("frac2") or "").strip()
+    frac = (m.group("frac") or m.group("frac2") or m.group("pfrac") or "").strip()
     if "demi" in frac or "½" in frac or "\\" in frac:
         num += 0.5
     elif "tiers" in frac:
