@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 235,
+ "reviewed_through_seq": 315,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -2164,6 +2164,637 @@
   "2-III-0235": {
    "currency": "écus d'or d'Espagne",
    "matter": "Debt for his ransom (taken by two Turkish frigates on the way to Malta), repayable 15 days after arrival at Marseille"
+  },
+  "2-III-0236": {
+   "drop": true
+  },
+  "2-III-0237": {
+   "date": "1604-08-23",
+   "transaction_type": "Redemption",
+   "party1_name": "Mamet de Mostafa",
+   "party1_origins": "turc",
+   "party1_role": "party to the exchange; father of Fatima",
+   "party2_name": "Leonardo Mansico",
+   "party2_origins": "maltais, de Casal Nuovo",
+   "party2_role": "party to the exchange; father of Pauline",
+   "other_parties_names": "Pauline Mansico; Fatima; Moustafa Agha; Nicolas Gavia",
+   "other_parties_origins": "; ; turc; vénitien",
+   "other_parties_role": "captive in Tunis, daughter of Mansico; captive in Malta, daughter of Mamet; master of Pauline; received Pauline (for delivery)",
+   "matter": "Contract made in Malta (in Moorish) for each father to ransom the other's daughter and exchange them; Mamet has ransomed Pauline and handed her to Nicolas Gavia",
+   "other_equivalent": "exchange of captives",
+   "keywords": "ransom; slavery; family",
+   "notes": "Act written in italien. Summary starts on the previous page (the first lines are in the act numbered 0236)."
+  },
+  "2-III-0238": {
+   "transaction_type": "Other",
+   "matter": "Act begun and struck out",
+   "notes": "Struck out."
+  },
+  "2-III-0239": {
+   "transaction_type": "Other",
+   "matter": "Act begun and struck out",
+   "notes": "Act written in italien. Struck out."
+  },
+  "2-III-0240": {
+   "transaction_type": "Sale / transfer",
+   "party1_name": "Pierre Mailland (Pietro Magliano)",
+   "party1_role": "seller, ship master",
+   "party2_name": "Nicollo Cavia",
+   "party2_origins": "vénitien",
+   "party2_role": "buyer",
+   "currency": "écus d'or",
+   "other_equivalent": "including rigging, hoops and cask staves aboard",
+   "matter": "Sale of his ship, paid in cash",
+   "keywords": "ship"
+  },
+  "2-III-0241": {
+   "transaction_type": "Power of attorney",
+   "party1_origins": "de Saint-Laurent (Provence)",
+   "party1_role": "principal",
+   "party2_name": "Anthoine Lovico",
+   "party2_role": "attorney",
+   "other_parties_names": "Jehan Torrilhon",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "debtor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Power of attorney to recover a debt of 13 écus"
+  },
+  "2-III-0242": {
+   "party1_origins": "d'Antibes",
+   "party1_role": "debtor; ransomed captive",
+   "party2_name": "Anthoine Lovico",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for the balance of his ransom, repayable on arrival in France"
+  },
+  "2-III-0243": {
+   "party1_name": "Pierre Mailland (Pietro Magliano)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable a month after arrival at Livorno",
+   "keywords": "loan"
+  },
+  "2-III-0244": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for his ransom, repayable two months after arrival in Corsica"
+  },
+  "2-III-0245": {
+   "party1_name": "Kassem Asfouri; Brahim Asfouri",
+   "party1_role": "principals, sons and heirs of El Agi Boufasen Lasfouri",
+   "party2_name": "Anthoine Lovico",
+   "party2_role": "attorney",
+   "other_parties_names": "Anthoine Vernet; El Agi Boufasen Lasfouri",
+   "other_parties_origins": "de Marseille;",
+   "other_parties_role": "debtor; deceased creditor",
+   "matter": "Power of attorney to recover a debt from Anthoine Vernet (act of 27 May 1600, now lost)",
+   "keywords": "inheritance"
+  },
+  "2-III-0246": {
+   "party2_role": "creditor (absent, represented by his brother Mammi Barbiero, renegade)",
+   "other_parties_names": "Mammi Barbiero",
+   "other_parties_role": "brother of the creditor, renegade",
+   "currency": "écus d'or d'Espagne",
+   "notes": "Act written in italien. Struck out and unfinished."
+  },
+  "2-III-0247": {
+   "transaction_type": "Redemption",
+   "party1_name": "Giacomo Santo Dangeli",
+   "party1_origins": "corse",
+   "party1_role": "debtor; ransomed captive",
+   "party2_name": "Valentino Alphonso",
+   "party2_origins": "corse, de Sisco",
+   "party2_role": "creditor",
+   "price": 130,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Same as the previous act, without Mami: debt for his ransom, repayable on arrival at Livorno",
+   "notes": "Act written in italien. The end of the summary is in the next record (0248)."
+  },
+  "2-III-0248": {
+   "drop": true
+  },
+  "2-III-0249": {
+   "date": "1604-08-28",
+   "price": 31.25,
+   "currency": "écus d'or d'Espagne",
+   "other_parties_names": "Anthoine Berengier",
+   "other_parties_role": "payee at Marseille",
+   "matter": "Loan repayable to Berengier at Marseille",
+   "keywords": "loan"
+  },
+  "2-III-0250": {
+   "date": "1604-08-28",
+   "party1_origins": "du Beausset (Provence)",
+   "party1_role": "debtor; ransomed captive",
+   "other_parties_names": "Agi Mostafa",
+   "other_parties_origins": "turc",
+   "other_parties_role": "janissary, recipient of ransom payment",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0251": {
+   "date": "1604-08-28",
+   "party1_role": "debtor; ransomed captive",
+   "other_parties_names": "Mami Corso",
+   "other_parties_origins": "turc",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for his ransom, repayable on arrival at Livorno"
+  },
+  "2-III-0252": {
+   "other_parties_names": "Mamet Bey; Salah ben Facalouf Gerbino; Andrye Manconvail",
+   "other_parties_role": "recipient of ransom payment; partner of the creditor; agent, « grande visconte » of Malta",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for his ransom, repayable at Malta"
+  },
+  "2-III-0253": {
+   "currency": "écus d'or",
+   "other_equivalent": "of 15 taris each",
+   "keywords": "loan"
+  },
+  "2-III-0254": {
+   "party2_name": "(his brother)",
+   "other_parties_names": "Stephano Simodio",
+   "other_parties_origins": "corse",
+   "other_parties_role": "debtor",
+   "matter": "Power of attorney to recover a debt from Stephano Simodio"
+  },
+  "2-III-0255": {
+   "transaction_type": "Protest / summons",
+   "party1_name": "Jehan Gaspard Pebre",
+   "party1_role": "protesting party, ship master of « St Pierre Bonaventure »",
+   "party2_name": "Silviano Gauderissi",
+   "party2_role": "charterer (in breach)",
+   "matter": "Gauderissi has not met the conditions of the charter of the « St Pierre Bonaventure »",
+   "keywords": "ship; freight / shipping; dispute"
+  },
+  "2-III-0256": {
+   "party1_name": "Paulina Pesana",
+   "party1_origins": "de Malte",
+   "party1_role": "debtor; ransomed captive; daughter of Jacopo Mousquato",
+   "other_parties_names": "Mami Dagar; Salla Belmaquolou; Jehan Pesana",
+   "other_parties_origins": "maure de Tunis; maure djerbien;",
+   "other_parties_role": "recipient of ransom payment; payee at Malta; relative of her husband (made the agreement)",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0257": {
+   "date": "1604-08-24",
+   "party1_role": "debtor, aged 60",
+   "party2_role": "creditor, aged 26",
+   "other_parties_names": "Caito Ali Napolitano",
+   "other_parties_role": "seller of the saytia",
+   "matter": "Loan to pay the balance of the price of a saytia",
+   "keywords": "loan; ship"
+  },
+  "2-III-0258": {
+   "other_parties_role": "recipient of ransom payment, son of Doraly, of Bizerte",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0259": {
+   "party1_role": "debtor; ransomed captive",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0260": {
+   "party1_name": "Santo Dangota",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0261": {
+   "party1_origins": "maltais",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0262": {
+   "price": 194.5,
+   "currency": "écus d'or"
+  },
+  "2-III-0263": {
+   "date": "1604-09-02",
+   "price": 175.5,
+   "currency": "écus d'or",
+   "notes": "Act written in italien. Part of the page is missing for these three acts; the next two are effaced and illegible; the three after are partly torn."
+  },
+  "2-III-0264": {
+   "party1_name": "Giuma",
+   "party1_origins": "maure",
+   "party1_role": "recipient, raïs (undertakes to ransom the slave)",
+   "party2_name": "Francesco Lorenzvallef",
+   "party2_role": "payer; doctor, slave of Cara Osman Dey",
+   "other_parties_names": "Cara Osman Dey",
+   "other_parties_role": "master of the slave",
+   "other_equivalent": "balance of a ransom of 441 écus",
+   "matter": "Balance of a ransom; Giuma swears on the Koran to free the doctor in November",
+   "decision": "Release promised for November"
+  },
+  "2-III-0265": {
+   "party1_name": "Anthoine [...]",
+   "party1_origins": "citoyen de Marseille",
+   "party1_role": "debtor",
+   "party2_name": "Victor Fabron",
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor, ship master (patron)",
+   "other_parties_names": "Mustafa Pacha; Jehan Velin; Lovico",
+   "other_parties_origins": "; de Marseille;",
+   "other_parties_role": "received the money; ship master who had promised a galley sail; guarantor",
+   "matter": "Money paid to the Pasha for a galley sail promised by Jehan Velin",
+   "keywords": "debt; Pasha / Bey of Tunis; ship",
+   "notes": "Partly torn. From here on the register is in very bad condition (water damage)."
+  },
+  "2-III-0266": {
+   "date": "1604-09-09",
+   "party1_origins": "de Zante; de Zante",
+   "party2_role": "creditor, English merchant",
+   "other_parties_names": "Gaitto Moratto Genovese; Cader Agha",
+   "other_parties_role": "recipient of ransom payment; to refund half if they are returned",
+   "currency": "sequins d'or",
+   "other_equivalent": null,
+   "matter": "Debt for their ransom, repayable at Zante; if not repaid, Jackson brings them back to Tunis and gets the money refunded",
+   "keywords": "ransom; guarantee"
+  },
+  "2-III-0267": {
+   "party2_name": "Anthoine Largue (?)",
+   "party2_role": "attorney",
+   "matter": "Power of attorney (concerning Sardinians)",
+   "notes": "Partly illegible."
+  },
+  "2-III-0268": {
+   "transaction_type": "Redemption",
+   "party1_name": "Nicolas Scotto; Roche Bonaventura",
+   "party1_role": "debtors; ransomed captive",
+   "party2_name": "Mamy Montese",
+   "party2_origins": "de Tunis",
+   "party2_role": "creditor, janissary",
+   "matter": "Money advanced for the ransom of Roche Bonaventura, repayable on arrival at Palermo",
+   "notes": "Begun in Italian, finished in French."
+  },
+  "2-III-0269": {
+   "transaction_type": "Redemption",
+   "party1_name": "Mouselim [...]",
+   "matter": "Same matter as the previous act",
+   "notes": "Mostly illegible."
+  },
+  "2-III-0270": {
+   "transaction_type": "Redemption",
+   "party1_role": "declarants; captives",
+   "other_parties_names": "Casanova Natali; Caytto Morato Genovese; Jackson",
+   "other_parties_origins": "; turc; anglais",
+   "other_parties_role": "master of their boat; buyer of the captives at the bazaar (450 écus); English merchant who paid the ransom",
+   "other_equivalent": "sold at the bazaar for 450 écus; ransom agreed at 1,200 écus; repayable as 600 sequins at Zante",
+   "matter": "Statement: taken off Calabria by two Bizerte brigantines and sold in Tunis; ransomed through the English merchant Jackson",
+   "keywords": "ransom; slavery"
+  },
+  "2-III-0271": {
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0272": {
+   "date": "1604-10-02",
+   "transaction_type": "Redemption",
+   "party1_role": "redeemer",
+   "matter": "Redemption of a captive; 355 écus repayable to a raïs on arrival at Malta",
+   "notes": "Act written in italien. Partly illegible."
+  },
+  "2-III-0273": {
+   "party2_role": "attorney, squire (écuyer)",
+   "other_parties_names": "Raphael Roux",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "debtor, ship master",
+   "matter": "Registration of a power of attorney made at Marseille to recover a debt from Raphael Roux"
+  },
+  "2-III-0274": {
+   "party2_name": "Raphael Roux",
+   "price": 67.5,
+   "currency": "écus",
+   "matter": "Recovery of the debt under the previous power of attorney"
+  },
+  "2-III-0275": {
+   "party1_name": "François Jonard",
+   "party1_origins": "de St Tropez",
+   "party1_role": "debtor, ship master of « St Pierre Bonaventure »",
+   "party2_name": "Mongin Lazare",
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor",
+   "price": 108,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable 20 days after arrival at Marseille",
+   "keywords": "loan"
+  },
+  "2-III-0276": {
+   "matter": "Loan repayable 20 days after arrival at Marseille",
+   "keywords": "loan"
+  },
+  "2-III-0277": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Honnorat Garnier",
+   "party1_role": "certifying vice-consul",
+   "party2_name": "Mathieu Vassalou; Anthoine de la Lande; Anthoine Marin",
+   "party2_role": "complainants, ship masters",
+   "other_parties_names": "two brigantines of Bizerte; the Kahia of the Pasha and the Divan",
+   "other_parties_role": "took the barques; heard the complaint",
+   "matter": "Three barques loaded with grain for Genoa taken off Provence by two Bizerte brigantines; the raïs confessed before the Divan and had put in at Tabarca",
+   "keywords": "grain; ship; janissaries / divan; Tabarca",
+   "notes": "The summary continues in the next record (0278)."
+  },
+  "2-III-0278": {
+   "drop": true
+  },
+  "2-III-0279": {
+   "party2_name": "Mongian de Lazare",
+   "price": 176.833,
+   "currency": "écus",
+   "other_equivalent": "at 64 sous to the écu = 565 livres 15 sous",
+   "matter": "Debt repayable 20 days after arrival at Marseille"
+  },
+  "2-III-0280": {
+   "split_at": [
+    "Le patron Steve Giuli"
+   ],
+   "transaction_type": "Debt",
+   "party1_name": "François Jonard",
+   "party1_role": "debtor, ship master",
+   "party2_role": "creditor",
+   "other_equivalent": null,
+   "currency": "écus",
+   "matter": "Debt payable a month after arrival at Marseille"
+  },
+  "2-III-0280b": {
+   "transaction_type": "Redemption",
+   "party1_name": "Steve Giuli",
+   "party1_role": "debtor, ship master (patron); ransomed captive",
+   "party2_name": "Ambrosy Rev[...]",
+   "party2_role": "creditor",
+   "price": 140,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for the balance of his ransom, repayable ten days after arrival at Cagliari"
+  },
+  "2-III-0281": {
+   "date": "1604-12-03",
+   "party2_name": "Morat; Alli",
+   "party2_role": "charterers, caïds, customs officers for hides",
+   "other_parties_names": "Anthoine Lovico",
+   "other_parties_role": "to receive 200 écus indemnity if the ship does not return",
+   "price": null,
+   "currency": null,
+   "other_equivalent": "200 écus d'or indemnity if he fails to return; freight rates in the act",
+   "matter": "Charter of the « Ste Marie Bonaventure » (about 2,000 cantars): to Livorno and back to Tunis to load hides",
+   "keywords": "hides; ship; freight / shipping; customs"
+  },
+  "2-III-0282": {
+   "transaction_type": "Redemption",
+   "party1_name": "Anthonin Lalande; Mathieu Vassalou",
+   "party1_origins": "de Marseille; de Marseille",
+   "party1_role": "ship masters (owners of the barques)",
+   "other_parties_names": "Molieres",
+   "other_parties_role": "witness",
+   "matter": "Ransom of the two barques now at Tabarca, where they were sold by the raïs",
+   "keywords": "ransom; ship; Tabarca",
+   "notes": "Very effaced."
+  },
+  "2-III-0283": {
+   "party2_role": "creditor, squire (écuyer) of Marseille",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan for his ransom, repayable 15 days after arrival at Marseille"
+  },
+  "2-III-0284": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "François Jonard",
+   "party1_role": "declarant, ship master of « St Pierre »",
+   "matter": "Sea protest: taken by two Turkish galleys on the way from Girgenti to Palermo to load grain; crew fled in the boat; the raïs sold the grain at Sousse",
+   "keywords": "grain; ship; galleys"
+  },
+  "2-III-0285": {
+   "party2_name": "Mongian de Lazare",
+   "currency": "écus d'or",
+   "matter": "Loan for fitting out his ship, repayable 20 days after arrival at Marseille",
+   "keywords": "loan; ship"
+  },
+  "2-III-0286": {
+   "party2_name": "Pierre de Soubeiran",
+   "party2_role": "creditor",
+   "keywords": "loan"
+  },
+  "2-III-0287": {
+   "transaction_type": "Charter (freight)",
+   "party1_name": "Anthoine Cordonier (?)",
+   "party1_origins": "de Martigues",
+   "party1_role": "shipowner / master (receives the freight)",
+   "party2_name": "Pierre de Soubeiran",
+   "party2_role": "charterer (payer)",
+   "price": 100,
+   "currency": "écus d'or",
+   "matter": "Freight (nolis) of a ship",
+   "keywords": "ship; freight / shipping"
+  },
+  "2-III-0288": {
+   "transaction_type": "Redemption",
+   "party1_role": "debtor, ship master (patron)",
+   "party2_name": "Esprit Geni (?)",
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor",
+   "matter": "Loan to go to Tabarca to ransom his barque",
+   "keywords": "ransom; ship; Tabarca",
+   "notes": "Struck out and unfinished."
+  },
+  "2-III-0289": {
+   "date": "1604-12-18",
+   "party1_origins": "de la Ciotat",
+   "party1_role": "debtor, ship master (patron)",
+   "party2_origins": "de Marseille",
+   "matter": "Loan to go to Tabarca to ransom his barque (completed and witnessed)",
+   "keywords": "ransom; ship; Tabarca"
+  },
+  "2-III-0290": {
+   "date": "1604-12",
+   "transaction_type": "Redemption",
+   "party2_name": "Matheo Delue",
+   "party2_role": "payer (lender)",
+   "other_parties_names": "Francesco R[...]",
+   "other_parties_role": "captive ransomed",
+   "matter": "Ransom of Francesco R[...], repayable on arrival at Malta or in Christendom",
+   "notes": "Act written in italien. The beginning is effaced; date uncertain."
+  },
+  "2-III-0291": {
+   "date": "1605-01",
+   "party1_name": "Francesco Hernandes Vallef",
+   "party1_role": "debtor; ransomed captive; doctor",
+   "party2_name": "Giuma",
+   "party2_origins": "maure",
+   "party2_role": "creditor, raïs",
+   "price": 1012,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for his ransom, payable four months after arrival at Malta"
+  },
+  "2-III-0292": {
+   "date": "1605-01",
+   "transaction_type": "Redemption",
+   "party1_role": "principal; slave of Osman Dey",
+   "party2_role": "attorney; attorney, fiscal procurator of the royal patrimony of Sicily",
+   "matter": "Power of attorney to sell property to pay his ransom"
+  },
+  "2-III-0293": {
+   "date": "1605-01",
+   "party1_name": "Giuma",
+   "party1_role": "recipient, raïs",
+   "party2_name": "Francesco Ernandes Vallef",
+   "party2_role": "payer, doctor",
+   "matter": "Further payment towards the doctor's ransom (see 7 Sept. 1604 and 2 Jan.)",
+   "notes": "Act written in italien. The ransom is particularly confused."
+  },
+  "2-III-0294": {
+   "date": "1605-01",
+   "party2_name": "Matthiolo Delye",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0295": {
+   "date": "1605-01",
+   "currency": "écus d'or d'Espagne"
+  },
+  "2-III-0296": {
+   "date": "1605-01",
+   "split_at": [
+    "En italien. (En partie"
+   ],
+   "party2_role": "payers, friars",
+   "party2_origins": "corse, de Bonifacio; corse, de Bonifacio",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": null,
+   "matter": "Money for his ransom, repayable on arrival at Bonifacio"
+  },
+  "2-III-0296b": {
+   "transaction_type": "Redemption",
+   "matter": "Concerns a Moorish slave in Malta; the ransom seems to be 312 écus d'or",
+   "price": 312,
+   "currency": "écus d'or",
+   "notes": "Act written in italien. Partly effaced; very badly written."
+  },
+  "2-III-0297": {
+   "date": "1605-01",
+   "party2_name": "Josepho",
+   "party2_origins": "de Milazzo",
+   "party2_role": "creditor",
+   "price": 120,
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable within eight months",
+   "keywords": "loan"
+  },
+  "2-III-0298": {
+   "transaction_type": "Redemption",
+   "party1_name": "Nicolas Scotto",
+   "party1_role": "debtor (guarantor of the price)",
+   "party2_name": "Morato Inglese",
+   "party2_role": "creditor, janissary",
+   "other_parties_names": "Rocco Rizo",
+   "other_parties_origins": "de Palerme",
+   "other_parties_role": "Christian captive (price of 130 écus)",
+   "price": 130,
+   "currency": "écus",
+   "matter": "Price of a Christian captive, payable within two months (see act of 26 May 1604)"
+  },
+  "2-III-0299": {
+   "party1_name": "Gauderissi (Silviano)",
+   "party2_origins": "de Milazzo",
+   "currency": "écus d'or d'Espagne",
+   "notes": "Act written in italien. Beginning effaced."
+  },
+  "2-III-0300": {
+   "party2_name": "Francesco Thomasello; Matthiolo Delye",
+   "party2_role": "creditor; creditor",
+   "other_parties_names": "Ysouf chaouch",
+   "other_parties_role": "recipient of ransom payment",
+   "matter": "Debt for his ransom, repayable on arrival at Malta"
+  },
+  "2-III-0301": {
+   "party1_name": "Guilem (son of Joseph)",
+   "party1_role": "debtor; ransomed captive",
+   "other_parties_names": "Moustaze",
+   "other_parties_origins": "turc",
+   "other_parties_role": "recipient of ransom payment"
+  },
+  "2-III-0302": {
+   "transaction_type": "Other",
+   "party1_role": "agent (receives goods to sell)",
+   "party2_name": "Josepho [...]",
+   "party2_role": "consignor",
+   "other_equivalent": "230 camel (?) skins",
+   "matter": "Consignment of skins to sell at Malta; Cavia will buy goods with the proceeds",
+   "keywords": "hides; goods"
+  },
+  "2-III-0303": {
+   "party1_name": "Honnorat Garnier",
+   "party1_role": "vice-consul (judge)",
+   "party2_name": "Silviano Gauderissi; Paulo Musolo",
+   "party2_role": "litigants",
+   "matter": "Dispute between Gauderissi and Musolo",
+   "decision": "Ruling by the vice-consul (see next act: Gauderissi owes 22¼ écus)",
+   "keywords": "dispute"
+  },
+  "2-III-0304": {
+   "price": 22.25,
+   "currency": "écus monnaie de Malte",
+   "other_parties_names": "Francesco Thomasello",
+   "other_parties_role": "to pay the sum"
+  },
+  "2-III-0305": {
+   "date": "1605-01-20",
+   "party2_name": "Mattiolo Delia",
+   "party2_origins": "de Malte",
+   "party2_role": "creditor",
+   "currency": "écus d'or",
+   "other_equivalent": "of 14 taris each"
+  },
+  "2-III-0306": {
+   "transaction_type": "Other",
+   "party1_name": "Silviano Gauderissi; Mattiolo Delia",
+   "party1_role": "parties",
+   "matter": "Settlement of debts between them",
+   "keywords": "accounts"
+  },
+  "2-III-0307": {
+   "drop": true
+  },
+  "2-III-0308": {
+   "transaction_type": "Redemption",
+   "party1_role": "debtor; ransomed captive",
+   "party2_name": "Silviano Gauderissi; Andrea Marco Francesco",
+   "party2_role": "creditor; payee, « gran visconte »",
+   "currency": "écus d'or",
+   "matter": "Debt for his ransom"
+  },
+  "2-III-0309": {
+   "date": "1605-01",
+   "party2_name": "Francesco Thomasello",
+   "party2_role": "creditor",
+   "price": 635.5,
+   "currency": "écus",
+   "matter": "Debt for his ransom, repayable on arrival at Malta"
+  },
+  "2-III-0310": {
+   "party1_name": "Filippo Dilimy (di Leone?)",
+   "price": 400,
+   "currency": "écus d'or",
+   "other_equivalent": "of 14 taris",
+   "notes": "Act written in italien. Amount garbled in the scan (?09): 1,035 minus 635½ suggests 399½."
+  },
+  "2-III-0311": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor",
+   "party2_name": "Silviano Gauderissi",
+   "party2_role": "creditor (advanced the money)",
+   "matter": "The 1,035 écus paid in the two previous acts were advanced by Gauderissi; repayable on return from Malta",
+   "keywords": "ransom; debt"
+  },
+  "2-III-0312": {
+   "currency": "écus d'or",
+   "other_equivalent": "of 14 taris",
+   "other_parties_names": "[...]",
+   "other_parties_role": "Turks, recipients of ransom payment"
+  },
+  "2-III-0313": {
+   "party1_role": "principal; slave of the caïd Ramadan in Tunis",
+   "other_parties_names": "Ramadan",
+   "other_parties_role": "caïd, master of party 1"
+  },
+  "2-III-0314": {
+   "currency": "écus d'or",
+   "notes": "Act written in italien. Very effaced."
+  },
+  "2-III-0315": {
+   "matter": "Loan to buy a boat (frigate)",
+   "keywords": "loan; ship"
   }
  }
 }
