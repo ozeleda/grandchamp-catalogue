@@ -356,6 +356,7 @@ def parse_analysis(pdf, vol):
     last_register = None
     last_day = 0
     day_guess = False
+    year_seen = False
     for printed, pdf_page, line in iter_analysis_lines(pdf, vol):
         reg = register_for(printed)
         if reg is not last_register:
@@ -366,6 +367,7 @@ def parse_analysis(pdf, vol):
         ym = YEAR_RE.match(line)
         if ym:
             year = norm_year(ym.group("y"), year, vol, printed, reg)
+            year_seen = True
             started = True
             if ym.group("rest") and current:
                 current["lines"].append(ym.group("rest"))
@@ -405,7 +407,7 @@ def parse_analysis(pdf, vol):
                 last_day = day or last_day
                 if not em["ditto"]:
                     if (vol.get("text_source") and month and month >= 11 and em["month"] <= 2
-                            and year < int(reg["date_end"][:4])):
+                            and not year_seen and year < int(reg["date_end"][:4])):
                         year += 1          # the new year's heading was lost in the scan
                     month = em["month"]
             m = em["m"]
@@ -418,13 +420,14 @@ def parse_analysis(pdf, vol):
                 "consul": in_office["consul"], "vice_consul": in_office["vice_consul"],
                 "chancelier": in_office["chancelier"],
             }
+            year_seen = False
             continue
         mo = re.match(rf"^\s{{0,4}}(?P<m>{'|'.join(MONTH_ABBR)})\.?\s{{2,}}(?P<rest>[A-ZÉ«(].*)$", line)
         if started and vol.get("text_source") and mo and norm_month(mo.group("m"), True):
             # month without its day (the day was lost in the scan)
             flush()
             new_m = norm_month(mo.group("m"), True)
-            if month and month >= 11 and new_m <= 2 and year < int(reg["date_end"][:4]):
+            if month and month >= 11 and new_m <= 2 and not year_seen and year < int(reg["date_end"][:4]):
                 year += 1
             month = new_m
             current = {
@@ -434,6 +437,7 @@ def parse_analysis(pdf, vol):
                 "consul": in_office["consul"], "vice_consul": in_office["vice_consul"],
                 "chancelier": in_office["chancelier"],
             }
+            year_seen = False
             continue
         if (started and current and vol.get("text_source")
                 and re.match(r"^\s*E[nt]i?\s+it\S*\s*[.,:]?\s*[—–-]", line)
@@ -448,6 +452,7 @@ def parse_analysis(pdf, vol):
                 "consul": in_office["consul"], "vice_consul": in_office["vice_consul"],
                 "chancelier": in_office["chancelier"],
             }
+            year_seen = False
             continue
         if not started or is_noise(line):
             continue
@@ -1046,6 +1051,11 @@ def build(config_path, out_path):
                 a["act_type"] = acts[i - 2]["act_type"]
             ref = f"{vid}-{a['register']}-{i:04d}"
             a["ref"] = ref
+            if overrides.get(ref, {}).get("drop"):
+                continue             # OCR debris, not an act (the ref is left unused)
+            if vol.get("text_source"):
+                a["summary"] = re.sub(r"(?<=\s)[|¦©®ÈÌ](?=\s)|\s+[|¦]\s*$", "", a["summary"])
+                a["summary"] = re.sub(r"\s{2,}", " ", a["summary"]).strip()
             # hand-corrected date (OCR misreadings): "date" = YYYY-MM-DD / YYYY-MM / null (undated)
             if "date" in overrides.get(ref, {}):
                 d = overrides[ref]["date"]
@@ -1081,7 +1091,7 @@ def build(config_path, out_path):
             if a.get("date_supplied"):
                 tx["notes"] = ("Undated in the register (s. d.); date supplied by the editor. " + (tx["notes"] or "")).strip()
             for k, v in overrides.get(ref, {}).items():
-                if k == "date":
+                if k in ("date", "drop"):
                     continue
                 if k not in tx:
                     raise SystemExit(f"annotations/vol{vid}.json: unknown field {k!r} for {ref}")
