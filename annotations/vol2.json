@@ -16775,6 +16775,17 @@
    "notes": "Two witness statements follow; acts 275 and 276 concern the same matter."
   },
   "2-IV-0932": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Marcho Francesco",
+   "party1_origins": "corse",
+   "party1_role": "requesting party",
+   "other_parties_names": "Asta Mami",
+   "other_parties_origins": "renégat corse",
+   "other_parties_role": "deceased",
+   "matter": "Same matter as the previous act (inquiry into the death and will of Asta Mami)",
+   "keywords": "death; will; renegade; inquiry"
+  },
+  "2-IV-0933": {
    "transaction_type": "Redemption",
    "party1_name": "Bata Carneglio",
    "party1_origins": "de Treghoso (Riv. dé Gênes)",
@@ -16792,7 +16803,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-0933": {
+  "2-IV-0934": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Mamet de Mussa",
    "party1_origins": "turc, janissaire",
@@ -16810,7 +16821,7 @@
    "keywords": "payment; wine",
    "decision": null
   },
-  "2-IV-0934": {
+  "2-IV-0935": {
    "transaction_type": "Redemption",
    "party1_name": "Niccola Guarello",
    "party1_origins": "génois",
@@ -16829,7 +16840,7 @@
    "decision": null,
    "notes": "»; 1 September."
   },
-  "2-IV-0935": {
+  "2-IV-0936": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Hossoman Day",
    "party1_origins": null,
@@ -16848,7 +16859,7 @@
    "decision": null,
    "notes": "Continues on p. 131."
   },
-  "2-IV-0936": {
+  "2-IV-0937": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Niccola Dorestagno; Niccolo Scotto",
    "party1_origins": "de Palerme; de Palerme",
@@ -16866,7 +16877,7 @@
    "keywords": "death; English corsairs; shipwreck",
    "decision": null
   },
-  "2-IV-0937": {
+  "2-IV-0938": {
    "transaction_type": "Debt",
    "party1_name": "Antonio Salada",
    "party1_origins": "de Sestri di Ponente",
@@ -16884,7 +16895,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-0938": {
+  "2-IV-0939": {
    "transaction_type": "Redemption",
    "party1_name": "Giovanni Temies",
    "party1_origins": "de La Rochelle",
@@ -16902,7 +16913,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-0939": {
+  "2-IV-0940": {
    "transaction_type": "Redemption",
    "party1_name": "Melchione de Vegha",
    "party1_origins": "de Palerme",
@@ -16920,7 +16931,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-0940": {
+  "2-IV-0941": {
    "transaction_type": "Debt",
    "party1_name": "Sebastian du Boys",
    "party1_origins": "de Marseille",
@@ -16938,7 +16949,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-0941": {
+  "2-IV-0942": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Pantalino Tomasino; Gio Morellett (Jehan Maurellet)",
    "party1_origins": "de Marseille; de Marseille",
@@ -16956,7 +16967,7 @@
    "keywords": "consular correspondence; ship",
    "decision": null
   },
-  "2-IV-0942": {
+  "2-IV-0943": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Marco Franco",
    "party1_origins": "corse",
@@ -16974,7 +16985,7 @@
    "keywords": "debt; payment",
    "decision": null
   },
-  "2-IV-0943": {
+  "2-IV-0944": {
    "transaction_type": "Power of attorney",
    "party1_name": "Pietro Paulo Anbrogin",
    "party1_origins": null,
@@ -16992,7 +17003,7 @@
    "keywords": "debt collection",
    "decision": null
   },
-  "2-IV-0944": {
+  "2-IV-0945": {
    "transaction_type": "Company / partnership",
    "party1_name": "Pietro Paulo Anbrogino",
    "party1_origins": null,
@@ -17010,7 +17021,7 @@
    "keywords": "commenda; trade; interior",
    "decision": null
   },
-  "2-IV-0945": {
+  "2-IV-0946": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Gio Martino",
    "party1_origins": null,
@@ -17029,7 +17040,7 @@
    "decision": null,
    "notes": "Two witness statements follow."
   },
-  "2-IV-0946": {
+  "2-IV-0947": {
    "transaction_type": "Debt",
    "party1_name": "Gio Martin",
    "party1_origins": null,
@@ -17047,7 +17058,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-0947": {
+  "2-IV-0948": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Antonio Calvano",
    "party1_origins": "de Marseille",
@@ -17065,7 +17076,7 @@
    "keywords": "wine; consignment; damaged goods",
    "decision": null
   },
-  "2-IV-0948": {
+  "2-IV-0949": {
    "transaction_type": "Power of attorney",
    "party1_name": "Girolamo Bonfante",
    "party1_origins": "génois",
@@ -17083,7 +17094,7 @@
    "keywords": "debt collection",
    "decision": null
   },
-  "2-IV-0949": {
+  "2-IV-0950": {
    "transaction_type": "Redemption",
    "party1_name": "Dienora di Stefano Bonsignore",
    "party1_origins": "de Reggio (Naples)",
@@ -17101,7 +17112,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-0950": {
+  "2-IV-0951": {
    "transaction_type": "Redemption",
    "party1_name": "Hercole Bonsignore",
    "party1_origins": "de Reggio",
@@ -17119,7 +17130,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-0951": {
+  "2-IV-0952": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Hercules Trullet",
    "party1_origins": "de Toulon",
@@ -17138,7 +17149,7 @@
    "decision": null,
    "notes": "Continues on the next lines of p. 133. Three witness statements follow."
   },
-  "2-IV-0952": {
+  "2-IV-0953": {
    "transaction_type": "Power of attorney",
    "party1_name": "Gio Felippo Bandenches (Badencas)",
    "party1_origins": "de Gliesan (Catalogne)",
@@ -17157,7 +17168,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-0953": {
+  "2-IV-0954": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Monet Ardison",
    "party1_origins": "de Cannes",
@@ -17176,7 +17187,7 @@
    "decision": null,
    "notes": "Two witness statements follow."
   },
-  "2-IV-0954": {
+  "2-IV-0955": {
    "transaction_type": "Charter (freight)",
    "party1_name": "Gio Udibert (Audibert)",
    "party1_origins": "de Sixfours",
@@ -17195,7 +17206,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-0955": {
+  "2-IV-0956": {
    "transaction_type": "Power of attorney",
    "party1_name": "Gabriello Pentinato",
    "party1_origins": "du Cap de Taragone",
@@ -17214,7 +17225,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-0956": {
+  "2-IV-0957": {
    "transaction_type": "Debt",
    "party1_name": "Raffaello Villabeglia (Villabella)",
    "party1_origins": "d'Ogd Telrich (?) en Catalogne",
@@ -17232,7 +17243,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-0957": {
+  "2-IV-0958": {
    "transaction_type": "Debt",
    "party1_name": "Frane Balester",
    "party1_origins": "de Sigiegi (Catalogne)",
@@ -17250,7 +17261,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-0958": {
+  "2-IV-0959": {
    "transaction_type": "Debt",
    "party1_name": "Gio Mottet (J. de Motet)",
    "party1_origins": "de Marseille",
@@ -17268,7 +17279,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-0959": {
+  "2-IV-0960": {
    "transaction_type": "Debt",
    "party1_name": "Raffael Villabeglia",
    "party1_origins": null,
@@ -17286,7 +17297,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-0960": {
+  "2-IV-0961": {
    "transaction_type": "Debt",
    "party1_name": "Muzio Bolzano; Nunziante Paghano",
    "party1_origins": null,
@@ -17304,7 +17315,7 @@
    "keywords": "loan; hostage; ransom",
    "decision": null
   },
-  "2-IV-0961": {
+  "2-IV-0962": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Marco Quarantotti",
    "party1_origins": "de Pise",
@@ -17323,7 +17334,7 @@
    "decision": null,
    "notes": "Two witness statements follow."
   },
-  "2-IV-0962": {
+  "2-IV-0963": {
    "transaction_type": "Debt",
    "party1_name": "Gio Bata Delis (Delies)",
    "party1_origins": "de Valence",
@@ -17341,7 +17352,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-0963": {
+  "2-IV-0964": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Anto Santoro",
    "party1_origins": "de Valence",
@@ -17359,7 +17370,7 @@
    "keywords": "ransom; repayment",
    "decision": null
   },
-  "2-IV-0964": {
+  "2-IV-0965": {
    "transaction_type": "Debt",
    "party1_name": "Giuseppe Sergio",
    "party1_origins": "de Palerme",
@@ -17377,7 +17388,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-0965": {
+  "2-IV-0966": {
    "transaction_type": "Power of attorney",
    "party1_name": "Mamet Chorra",
    "party1_origins": "maure de Tunis",
@@ -17395,7 +17406,7 @@
    "keywords": "debt collection; family",
    "decision": null
   },
-  "2-IV-0966": {
+  "2-IV-0967": {
    "transaction_type": "Redemption",
    "party1_name": "Antonello Colonna; Giuseppe Colonna",
    "party1_origins": null,
@@ -17413,7 +17424,7 @@
    "keywords": "ransom; loan; family",
    "decision": null
   },
-  "2-IV-0967": {
+  "2-IV-0968": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Nuntiante di Cesaro; Muzio Bolzano; Gio Bata Lispagnuolo",
    "party1_origins": "de Vetri; ; ",
@@ -17431,7 +17442,7 @@
    "keywords": "ransom; witnesses",
    "decision": null
   },
-  "2-IV-0968": {
+  "2-IV-0969": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Marco Quarantotti",
    "party1_origins": "de Pise",
@@ -17449,7 +17460,7 @@
    "keywords": "arbitration; imprisonment",
    "decision": null
   },
-  "2-IV-0969": {
+  "2-IV-0970": {
    "transaction_type": "Redemption",
    "party1_name": null,
    "party1_origins": null,
@@ -17468,7 +17479,7 @@
    "decision": null,
    "notes": ": through an error the register's numbering jumps from 322 to 333."
   },
-  "2-IV-0970": {
+  "2-IV-0971": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Pietro Matricia; Giovanni Tirella",
    "party1_origins": "de Palerme; ",
@@ -17486,7 +17497,7 @@
    "keywords": "slavery; certification; Constantinople",
    "decision": null
   },
-  "2-IV-0971": {
+  "2-IV-0972": {
    "transaction_type": "Redemption",
    "party1_name": "Nunziante di Ciesaro",
    "party1_origins": "de Vetri",
@@ -17504,7 +17515,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-0972": {
+  "2-IV-0973": {
    "transaction_type": "Company / partnership",
    "party1_name": "Pietro Tomasello",
    "party1_origins": null,
@@ -17522,7 +17533,7 @@
    "keywords": "ship share; fish; partnership",
    "decision": null
   },
-  "2-IV-0973": {
+  "2-IV-0974": {
    "transaction_type": "Consular decision",
    "party1_name": "Lattanza Fronzo; Domenico Calabro",
    "party1_origins": null,
@@ -17540,7 +17551,7 @@
    "keywords": "measures; dispute",
    "decision": "The instrument is to be sealed and checked by the French consul at Palermo"
   },
-  "2-IV-0974": {
+  "2-IV-0975": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Mamet",
    "party1_origins": null,
@@ -17558,7 +17569,7 @@
    "keywords": "ship sale; price dispute; pasha",
    "decision": null
   },
-  "2-IV-0975": {
+  "2-IV-0976": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Giovan Angelo Paulello",
    "party1_origins": null,
@@ -17577,7 +17588,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-0976": {
+  "2-IV-0977": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Ottavio Battaglia",
    "party1_origins": "de Lipari",
@@ -17595,7 +17606,7 @@
    "keywords": "ransom; remittance",
    "decision": null
   },
-  "2-IV-0977": {
+  "2-IV-0978": {
    "transaction_type": "Company / partnership",
    "party1_name": "Giovanni Angelo Paulello",
    "party1_origins": null,
@@ -17613,7 +17624,7 @@
    "keywords": "ship share; partnership",
    "decision": null
   },
-  "2-IV-0978": {
+  "2-IV-0979": {
    "transaction_type": "Company / partnership",
    "party1_name": "Pietro Hendrich",
    "party1_origins": "flamand",
@@ -17631,7 +17642,7 @@
    "keywords": "ship share; partnership",
    "decision": null
   },
-  "2-IV-0979": {
+  "2-IV-0980": {
    "transaction_type": "Redemption",
    "party1_name": "Moratto",
    "party1_origins": "de Messine",
@@ -17649,7 +17660,7 @@
    "keywords": "ransom",
    "decision": null
   },
-  "2-IV-0980": {
+  "2-IV-0981": {
    "transaction_type": "Will",
    "party1_name": "Giovan Angielo Paulello",
    "party1_origins": "de Naples",
@@ -17667,7 +17678,7 @@
    "keywords": "will",
    "decision": null
   },
-  "2-IV-0981": {
+  "2-IV-0982": {
    "transaction_type": "Consular decision",
    "party1_name": "Gio Valentino; Marco Quarantotti",
    "party1_origins": "de Marseille; de Pise",
@@ -17685,7 +17696,7 @@
    "keywords": "arbitration",
    "decision": null
   },
-  "2-IV-0982": {
+  "2-IV-0983": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Antonello Colonna; Giuseppe Colonna",
    "party1_origins": null,
@@ -17704,7 +17715,7 @@
    "decision": null,
    "notes": "Continues on p. 137."
   },
-  "2-IV-0983": {
+  "2-IV-0984": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Pierre Coraud",
    "party1_origins": "de Marseille",
@@ -17723,7 +17734,7 @@
    "decision": null,
    "notes": "Four witness statements follow."
   },
-  "2-IV-0984": {
+  "2-IV-0985": {
    "transaction_type": "Power of attorney",
    "party1_name": "Gregorio di Trifine Colenda",
    "party1_origins": null,
@@ -17741,7 +17752,7 @@
    "keywords": "ransom",
    "decision": null
   },
-  "2-IV-0985": {
+  "2-IV-0986": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Gregorio Bonsignore",
    "party1_origins": "de Trapani",
@@ -17759,7 +17770,7 @@
    "keywords": "payment",
    "decision": null
   },
-  "2-IV-0986": {
+  "2-IV-0987": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Giovann Gripari; Pasquale Simodey",
    "party1_origins": "de Chio; corse",
@@ -17777,7 +17788,7 @@
    "keywords": "ship sale; prize; salt cod",
    "decision": null
   },
-  "2-IV-0987": {
+  "2-IV-0988": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Pietro Tomasello",
    "party1_origins": "de la Torre del Greco",
@@ -17795,7 +17806,7 @@
    "keywords": "ship sale; salt cod",
    "decision": null
   },
-  "2-IV-0988": {
+  "2-IV-0989": {
    "transaction_type": "Power of attorney",
    "party1_name": "Marco Antonio Paulello",
    "party1_origins": null,
@@ -17813,7 +17824,7 @@
    "keywords": "power of attorney",
    "decision": null
   },
-  "2-IV-0989": {
+  "2-IV-0990": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Menico Calabro",
    "party1_origins": null,
@@ -17831,7 +17842,7 @@
    "keywords": "freight; dispute",
    "decision": null
   },
-  "2-IV-0990": {
+  "2-IV-0991": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Menico Calabro",
    "party1_origins": null,
@@ -17849,7 +17860,7 @@
    "keywords": "freight",
    "decision": null
   },
-  "2-IV-0991": {
+  "2-IV-0992": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Stefano Bianco Raugeo; Gio Lunardo di Nardo",
    "party1_origins": "; napolitain",
@@ -17867,7 +17878,7 @@
    "keywords": "naval combat; death; galleys",
    "decision": null
   },
-  "2-IV-0992": {
+  "2-IV-0993": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Filippo",
    "party1_origins": "de Naples",
@@ -17885,7 +17896,7 @@
    "keywords": "death; slavery; Algiers",
    "decision": null
   },
-  "2-IV-0993": {
+  "2-IV-0994": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Nicolo Dorestagno",
    "party1_origins": null,
@@ -17903,7 +17914,7 @@
    "keywords": "payment; ransom",
    "decision": null
   },
-  "2-IV-0994": {
+  "2-IV-0995": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Paulo di Pucio",
    "party1_origins": "de Palerme",
@@ -17921,7 +17932,7 @@
    "keywords": "payment; ransom",
    "decision": null
   },
-  "2-IV-0995": {
+  "2-IV-0996": {
    "transaction_type": "Power of attorney",
    "party1_name": "Nardo Grima",
    "party1_origins": "maltais",
@@ -17939,7 +17950,7 @@
    "keywords": "debt collection; family",
    "decision": null
   },
-  "2-IV-0996": {
+  "2-IV-0997": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Pons Bonifay",
    "party1_origins": "de la Ciotat",
@@ -17958,7 +17969,7 @@
    "decision": null,
    "notes": "He declared the goods Spanish. Four witness statements follow."
   },
-  "2-IV-0997": {
+  "2-IV-0998": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Mamet",
    "party1_origins": "odabassi de Tunis",
@@ -17976,7 +17987,7 @@
    "keywords": "remittance; Jews; Muslim captive",
    "decision": null
   },
-  "2-IV-0998": {
+  "2-IV-0999": {
    "transaction_type": "Power of attorney",
    "party1_name": "Domenico Mazzaro",
    "party1_origins": "de Naples",
@@ -17994,7 +18005,7 @@
    "keywords": "debt collection",
    "decision": null
   },
-  "2-IV-0999": {
+  "2-IV-1000": {
    "transaction_type": "Power of attorney",
    "party1_name": "Domenico Mazzaro",
    "party1_origins": null,
@@ -18012,7 +18023,7 @@
    "keywords": "debt collection; family",
    "decision": null
   },
-  "2-IV-1000": {
+  "2-IV-1001": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Guaspari Alfonso (signs « Anfossis »)",
    "party1_origins": "de Marseille",
@@ -18031,7 +18042,7 @@
    "decision": null,
    "notes": "This consul appears on no known list."
   },
-  "2-IV-1001": {
+  "2-IV-1002": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Lanterme Vincentou",
    "party1_origins": "corse habitant à Marseille",
@@ -18050,7 +18061,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1002": {
+  "2-IV-1003": {
    "transaction_type": "Power of attorney",
    "party1_name": "Anthoyne Bau",
    "party1_origins": "de Marseille",
@@ -18069,7 +18080,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1003": {
+  "2-IV-1004": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Pierre Marin",
    "party1_origins": "de la Ciotat",
@@ -18088,7 +18099,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1004": {
+  "2-IV-1005": {
    "transaction_type": "Redemption",
    "party1_name": "Jehan Lantoyne Garberin",
    "party1_origins": "de Crapet",
@@ -18107,7 +18118,7 @@
    "decision": null,
    "notes": "(?) of the register. Act in French."
   },
-  "2-IV-1005": {
+  "2-IV-1006": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Pantellino Tomasin",
    "party1_origins": "de Marseille",
@@ -18126,7 +18137,7 @@
    "decision": null,
    "notes": "One deposition follows. Act in French."
   },
-  "2-IV-1006": {
+  "2-IV-1007": {
    "transaction_type": "Redemption",
    "party1_name": "Bernard Lemerie",
    "party1_origins": "de Cannes",
@@ -18145,7 +18156,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1007": {
+  "2-IV-1008": {
    "transaction_type": "Redemption",
    "party1_name": "Antonio Falone",
    "party1_origins": "de Malte",
@@ -18163,7 +18174,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1008": {
+  "2-IV-1009": {
    "transaction_type": "Redemption",
    "party1_name": "Matteo Derna",
    "party1_origins": "du Comos",
@@ -18181,7 +18192,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1009": {
+  "2-IV-1010": {
    "transaction_type": "Redemption",
    "party1_name": "Jacomo Maritato",
    "party1_origins": "de Palerme",
@@ -18199,7 +18210,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1010": {
+  "2-IV-1011": {
    "transaction_type": "Redemption",
    "party1_name": "Filippo Lomaghio",
    "party1_origins": "de Palerme",
@@ -18217,7 +18228,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1011": {
+  "2-IV-1012": {
    "transaction_type": "Redemption",
    "party1_name": "Benedetto Pastina",
    "party1_origins": "génois",
@@ -18235,7 +18246,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1012": {
+  "2-IV-1013": {
    "transaction_type": "Redemption",
    "party1_name": "Guglielmo Picchott (Guillaume Picot); Guglielmo Bonhome; Giusselin Ledien",
    "party1_origins": "de St-Malo en Bretagne; de St-Malo en Bretagne; de St-Malo en Bretagne",
@@ -18254,7 +18265,7 @@
    "decision": null,
    "notes": "Continues on p. 141. Receipt dated 25 February 1609 at the foot of the act."
   },
-  "2-IV-1013": {
+  "2-IV-1014": {
    "transaction_type": "Redemption",
    "party1_name": "Salvadore Tizzo (ou Tozzo)",
    "party1_origins": "de Palerme",
@@ -18272,7 +18283,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1014": {
+  "2-IV-1015": {
    "transaction_type": "Redemption",
    "party1_name": "Franco Coccia",
    "party1_origins": "de Squillaccia",
@@ -18290,7 +18301,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1015": {
+  "2-IV-1016": {
    "transaction_type": "Undertaking / promise",
    "party1_name": "Franco Coccia",
    "party1_origins": null,
@@ -18308,7 +18319,7 @@
    "keywords": "captive exchange; Muslim captive",
    "decision": null
   },
-  "2-IV-1016": {
+  "2-IV-1017": {
    "transaction_type": "Debt",
    "party1_name": "Jehan Brevet",
    "party1_origins": "de Cannes",
@@ -18327,7 +18338,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1017": {
+  "2-IV-1018": {
    "transaction_type": "Debt",
    "party1_name": "Gaillard",
    "party1_origins": "de Marseille",
@@ -18346,7 +18357,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1018": {
+  "2-IV-1019": {
    "transaction_type": "Redemption",
    "party1_name": "Girolamo Romano dit Fraganelo",
    "party1_origins": "de Termini (Sicile)",
@@ -18365,7 +18376,7 @@
    "decision": null,
    "notes": "Written in very bad Italian."
   },
-  "2-IV-1019": {
+  "2-IV-1020": {
    "transaction_type": "Redemption",
    "party1_name": "Guilleaume Piqot; Guilleaume Bonhomme; Jausselin Ledien",
    "party1_origins": "de St-Malo; de St-Malo; de St-Malo",
@@ -18384,7 +18395,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1020": {
+  "2-IV-1021": {
    "transaction_type": "Debt",
    "party1_name": "Guilleaume Piqot; Guilleaume Bonhomme; Jausselin Ledien",
    "party1_origins": "de St-Malo; de St-Malo; de St-Malo",
@@ -18403,7 +18414,7 @@
    "decision": null,
    "notes": "Receipt dated 26 September 1609 registered beneath the act. Act in French."
   },
-  "2-IV-1021": {
+  "2-IV-1022": {
    "transaction_type": "Redemption",
    "party1_name": "Antoni Mastia",
    "party1_origins": "catalan",
@@ -18422,7 +18433,7 @@
    "decision": null,
    "notes": "« Fia » is probably Jean Baptiste Pin."
   },
-  "2-IV-1022": {
+  "2-IV-1023": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Domenico Riella; Bastiano Palombo; Pietro Napoleone",
    "party1_origins": "lombard; de la Torre; de Gilpary",
@@ -18440,7 +18451,7 @@
    "keywords": "death; slavery; bagno",
    "decision": null
   },
-  "2-IV-1023": {
+  "2-IV-1024": {
    "transaction_type": "Debt",
    "party1_name": "Nicolas Scotto; Nicolo Dorestagna",
    "party1_origins": null,
@@ -18459,7 +18470,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1024": {
+  "2-IV-1025": {
    "transaction_type": "Debt",
    "party1_name": "Cristofalo Moreles Romero",
    "party1_origins": "castillan",
@@ -18477,7 +18488,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1025": {
+  "2-IV-1026": {
    "transaction_type": "Debt",
    "party1_name": "Gio Batesta Danna",
    "party1_origins": "génois habitant à Palerme",
@@ -18495,7 +18506,7 @@
    "keywords": "debt",
    "decision": null
   },
-  "2-IV-1026": {
+  "2-IV-1027": {
    "transaction_type": "Power of attorney",
    "party1_name": "Jhoano Tibiol",
    "party1_origins": "vénitien",
@@ -18513,7 +18524,7 @@
    "keywords": "debt collection",
    "decision": null
   },
-  "2-IV-1027": {
+  "2-IV-1028": {
    "transaction_type": "Power of attorney",
    "party1_name": "Regnaude Povone",
    "party1_origins": "de Lonchyllo de Calabre",
@@ -18531,7 +18542,7 @@
    "keywords": "debt collection",
    "decision": null
   },
-  "2-IV-1028": {
+  "2-IV-1029": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Peyron Gualant; Pierre Blacho; Espinoso Pinto",
    "party1_origins": "de Marseille; de Marseille; ",
@@ -18549,7 +18560,7 @@
    "keywords": "ship sale; prize",
    "decision": null
   },
-  "2-IV-1029": {
+  "2-IV-1030": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Hugues Changet",
    "party1_origins": null,
@@ -18568,7 +18579,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1030": {
+  "2-IV-1031": {
    "transaction_type": "Undertaking / promise",
    "party1_name": "Francisco Concia",
    "party1_origins": "calabrais",
@@ -18586,7 +18597,7 @@
    "keywords": "captive exchange; Muslim captive",
    "decision": null
   },
-  "2-IV-1031": {
+  "2-IV-1032": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Nicolo Dorestagno; Antonio Salvago",
    "party1_origins": "de Palerme; de Palerme",
@@ -18604,7 +18615,7 @@
    "keywords": "death; slavery; violence",
    "decision": null
   },
-  "2-IV-1032": {
+  "2-IV-1033": {
    "transaction_type": "Debt",
    "party1_name": "Pierre Estienne dit Négrin",
    "party1_origins": "d'Agde (?)",
@@ -18623,7 +18634,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1033": {
+  "2-IV-1034": {
    "transaction_type": "Debt",
    "party1_name": "Pierre Estienne",
    "party1_origins": null,
@@ -18642,7 +18653,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1034": {
+  "2-IV-1035": {
    "transaction_type": "Debt",
    "party1_name": "Gioane Mourellet (Jehan Maurellet)",
    "party1_origins": "de Marseille",
@@ -18660,7 +18671,7 @@
    "keywords": "loan; ship",
    "decision": null
   },
-  "2-IV-1035": {
+  "2-IV-1036": {
    "transaction_type": "Power of attorney",
    "party1_name": "Marcantonio Paulillo",
    "party1_origins": "de Naples",
@@ -18679,7 +18690,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1036": {
+  "2-IV-1037": {
    "transaction_type": "Debt",
    "party1_name": "Regnaldo Pavvone",
    "party1_origins": "calabrais",
@@ -18697,7 +18708,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-1037": {
+  "2-IV-1038": {
    "transaction_type": "Undertaking / promise",
    "party1_name": "Franco Scotto",
    "party1_origins": "de Palerme",
@@ -18716,7 +18727,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1038": {
+  "2-IV-1039": {
    "transaction_type": "Power of attorney",
    "party1_name": "Antonino Squierdo",
    "party1_origins": "de Messine",
@@ -18734,7 +18745,7 @@
    "keywords": "power of attorney",
    "decision": null
   },
-  "2-IV-1039": {
+  "2-IV-1040": {
    "transaction_type": "Debt",
    "party1_name": "Franco Scotto",
    "party1_origins": "de Palerme",
@@ -18752,7 +18763,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-1040": {
+  "2-IV-1041": {
    "transaction_type": "Redemption",
    "party1_name": "Agostino Barressi (Barres)",
    "party1_origins": "espagnol de Madrid, habitant à Palerme",
@@ -18770,7 +18781,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1041": {
+  "2-IV-1042": {
    "transaction_type": "Power of attorney",
    "party1_name": "Antonino Laciolina",
    "party1_origins": null,
@@ -18788,7 +18799,7 @@
    "keywords": "debt collection; clergy",
    "decision": null
   },
-  "2-IV-1042": {
+  "2-IV-1043": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Gian Battista Buttaro",
    "party1_origins": "napolitain",
@@ -18806,7 +18817,7 @@
    "keywords": "remittance",
    "decision": null
   },
-  "2-IV-1043": {
+  "2-IV-1044": {
    "transaction_type": "Redemption",
    "party1_name": "Gian Batista Dianna (?)",
    "party1_origins": null,
@@ -18825,7 +18836,7 @@
    "decision": null,
    "notes": "Perhaps « Batistagna »."
   },
-  "2-IV-1044": {
+  "2-IV-1045": {
    "transaction_type": "Debt",
    "party1_name": "Gian Batista Dianno",
    "party1_origins": "sicilien",
@@ -18843,7 +18854,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-1045": {
+  "2-IV-1046": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Gian Batista Dianna",
    "party1_origins": null,
@@ -18862,7 +18873,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1046": {
+  "2-IV-1047": {
    "transaction_type": "Debt",
    "party1_name": "Batista delle Torre",
    "party1_origins": null,
@@ -18881,7 +18892,7 @@
    "decision": null,
    "notes": "Receipt dated 25 August at the foot of the act. Act in French."
   },
-  "2-IV-1047": {
+  "2-IV-1048": {
    "transaction_type": "Debt",
    "party1_name": "Pierre Guassan",
    "party1_origins": "de Marseille",
@@ -18899,7 +18910,7 @@
    "keywords": "loan; ship",
    "decision": null
   },
-  "2-IV-1048": {
+  "2-IV-1049": {
    "transaction_type": "Debt",
    "party1_name": "Pierre Guasan; Pierre Blache",
    "party1_origins": null,
@@ -18918,7 +18929,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1049": {
+  "2-IV-1050": {
    "transaction_type": "Protest / summons",
    "party1_name": "Jehan de Martin; Pierre Soubeiran",
    "party1_origins": "de Marseille; ",
@@ -18937,7 +18948,7 @@
    "decision": "Reply of the patron follows",
    "notes": "Act in French."
   },
-  "2-IV-1050": {
+  "2-IV-1051": {
    "transaction_type": "Debt",
    "party1_name": "Giuda Parente",
    "party1_origins": "hébreu de Fez, habitant à Livourne",
@@ -18955,7 +18966,7 @@
    "keywords": "loan; Jews; renegade",
    "decision": null
   },
-  "2-IV-1051": {
+  "2-IV-1052": {
    "transaction_type": "Agreement",
    "party1_name": "Jehan Gautier; Agy Aly Fresgir",
    "party1_origins": "habitant à Malte; maure de Tunis",
@@ -18973,7 +18984,7 @@
    "keywords": "captive exchange; Malta",
    "decision": null
   },
-  "2-IV-1052": {
+  "2-IV-1053": {
    "transaction_type": "Protest / summons",
    "party1_name": "Jehan de Martin; Pierre de Soubeyran",
    "party1_origins": null,
@@ -18992,7 +19003,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1053": {
+  "2-IV-1054": {
    "transaction_type": "Redemption",
    "party1_name": "Antonyno Esguerdo",
    "party1_origins": "de Messine",
@@ -19010,7 +19021,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1054": {
+  "2-IV-1055": {
    "transaction_type": "Debt",
    "party1_name": "Pierre Blage (Blache)",
    "party1_origins": null,
@@ -19029,7 +19040,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1055": {
+  "2-IV-1056": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Serviano Gauderisse",
    "party1_origins": null,
@@ -19048,7 +19059,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1056": {
+  "2-IV-1057": {
    "transaction_type": "Debt",
    "party1_name": "Mouchouan Tabarin",
    "party1_origins": "de Marseille",
@@ -19067,7 +19078,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1057": {
+  "2-IV-1058": {
    "transaction_type": "Redemption",
    "party1_name": "Pedro Andres",
    "party1_origins": "portugais",
@@ -19086,7 +19097,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1058": {
+  "2-IV-1059": {
    "transaction_type": "Debt",
    "party1_name": "Balthezar Rodomont",
    "party1_origins": "de St-Gal, habitant à Marseille",
@@ -19105,7 +19116,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1059": {
+  "2-IV-1060": {
    "transaction_type": "Debt",
    "party1_name": "Pierre Gaillard",
    "party1_origins": "de Marseille",
@@ -19124,7 +19135,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1060": {
+  "2-IV-1061": {
    "transaction_type": "Debt",
    "party1_name": "Pedro Casollo; Jaumes Gros (Jauma Gros)",
    "party1_origins": "de Pinède (Catalogne); catalan",
@@ -19142,7 +19153,7 @@
    "keywords": "debt",
    "decision": null
   },
-  "2-IV-1061": {
+  "2-IV-1062": {
    "transaction_type": "Charter (freight)",
    "party1_name": "Pantelin Toumazin",
    "party1_origins": null,
@@ -19161,7 +19172,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1062": {
+  "2-IV-1063": {
    "transaction_type": "Debt",
    "party1_name": "Antony Lovico",
    "party1_origins": "de Marseille",
@@ -19180,7 +19191,7 @@
    "decision": "Repaid 1 June",
    "notes": "Act in French."
   },
-  "2-IV-1063": {
+  "2-IV-1064": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Pierre de Soubeyran",
    "party1_origins": "écuyer de la ville de Nîmes en Languedoc",
@@ -19199,7 +19210,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1064": {
+  "2-IV-1065": {
    "transaction_type": "Redemption",
    "party1_name": "Honnorat Anfous",
    "party1_origins": "de Marseille",
@@ -19218,7 +19229,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1065": {
+  "2-IV-1066": {
    "transaction_type": "Redemption",
    "party1_name": "Honorat Anfous",
    "party1_origins": "habitant de Marseille",
@@ -19237,7 +19248,7 @@
    "decision": null,
    "notes": "Receipt dated 5 June at the foot (?). Act in French."
   },
-  "2-IV-1066": {
+  "2-IV-1067": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Esprit Ville Grose (Villacrossa)",
    "party1_origins": "de Toulon",
@@ -19256,7 +19267,7 @@
    "decision": null,
    "notes": "Six witness statements follow. Act in French."
   },
-  "2-IV-1067": {
+  "2-IV-1068": {
    "transaction_type": "Debt",
    "party1_name": "Reynaud Fabre",
    "party1_origins": "de Marseille",
@@ -19275,7 +19286,7 @@
    "decision": "Repaid 9 February 1610",
    "notes": "Act in French."
   },
-  "2-IV-1068": {
+  "2-IV-1069": {
    "transaction_type": "Debt",
    "party1_name": "Reynaud Fabre",
    "party1_origins": null,
@@ -19294,7 +19305,7 @@
    "decision": "Repaid 9 February 1610",
    "notes": "Act in French."
   },
-  "2-IV-1069": {
+  "2-IV-1070": {
    "transaction_type": "Debt",
    "party1_name": "Pantelin Toumaxin",
    "party1_origins": null,
@@ -19313,7 +19324,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1070": {
+  "2-IV-1071": {
    "transaction_type": "Power of attorney",
    "party1_name": "Antony Esmiol",
    "party1_origins": "de Doise (?) en Provence",
@@ -19331,7 +19342,7 @@
    "keywords": "debt collection",
    "decision": null
   },
-  "2-IV-1071": {
+  "2-IV-1072": {
    "transaction_type": "Debt",
    "party1_name": "Salviano Gaudereso",
    "party1_origins": null,
@@ -19349,7 +19360,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-1072": {
+  "2-IV-1073": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Osta Assan Genovese",
    "party1_origins": "turc de Tunis",
@@ -19367,7 +19378,7 @@
    "keywords": "ship sale; prize; English",
    "decision": null
   },
-  "2-IV-1073": {
+  "2-IV-1074": {
    "transaction_type": "Power of attorney",
    "party1_name": "Mamet",
    "party1_origins": "turc de Tunis",
@@ -19385,7 +19396,7 @@
    "keywords": "debt collection",
    "decision": null
   },
-  "2-IV-1074": {
+  "2-IV-1075": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Ossoman Day",
    "party1_origins": null,
@@ -19403,7 +19414,7 @@
    "keywords": "ship sale; prize; dey",
    "decision": null
   },
-  "2-IV-1075": {
+  "2-IV-1076": {
    "transaction_type": "Debt",
    "party1_name": "Reynaud Fabre",
    "party1_origins": null,
@@ -19422,7 +19433,7 @@
    "decision": "Repaid 5 September 1609",
    "notes": "Act in French."
   },
-  "2-IV-1076": {
+  "2-IV-1077": {
    "transaction_type": "Redemption",
    "party1_name": "Jehan Neveu",
    "party1_origins": "de La Rochelle",
@@ -19441,7 +19452,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1077": {
+  "2-IV-1078": {
    "transaction_type": "Redemption",
    "party1_name": "Jehan de la Lagueune (?)",
    "party1_origins": "de La Rochelle",
@@ -19460,7 +19471,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1078": {
+  "2-IV-1079": {
    "transaction_type": "Power of attorney",
    "party1_name": "Jehan Louys de Joanys (Jehan Louis Jauny)",
    "party1_origins": null,
@@ -19479,7 +19490,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1079": {
+  "2-IV-1080": {
    "transaction_type": "Debt",
    "party1_name": "Reynaud Fabre",
    "party1_origins": null,
@@ -19498,7 +19509,7 @@
    "decision": "Repaid 29 August 1609",
    "notes": "Act in French."
   },
-  "2-IV-1080": {
+  "2-IV-1081": {
    "transaction_type": "Debt",
    "party1_name": "Pierre Servan",
    "party1_origins": "de Marseille",
@@ -19517,7 +19528,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1081": {
+  "2-IV-1082": {
    "transaction_type": "Debt",
    "party1_name": "Guillon Melle; Antony Peyre",
    "party1_origins": "de Cannes, habitant à Marseille; de Marseille",
@@ -19536,7 +19547,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1082": {
+  "2-IV-1083": {
    "transaction_type": "Redemption",
    "party1_name": null,
    "party1_origins": null,
@@ -19555,7 +19566,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1083": {
+  "2-IV-1084": {
    "transaction_type": "Protest / summons",
    "party1_name": "Dominico de Joany",
    "party1_origins": "corse, habitant à Marseille",
@@ -19574,7 +19585,7 @@
    "decision": "Anfossy replies he owes nothing, as he will prove in France",
    "notes": "Anfossy is probably the consul Guaspari Alfonso (« Anfossis »). Act in French."
   },
-  "2-IV-1084": {
+  "2-IV-1085": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Zacharias Pretor",
    "party1_origins": "anglais",
@@ -19593,7 +19604,7 @@
    "decision": null,
    "notes": "Two French witness statements follow."
   },
-  "2-IV-1085": {
+  "2-IV-1086": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Salviano Gaudrisio",
    "party1_origins": null,
@@ -19611,7 +19622,7 @@
    "keywords": "debt",
    "decision": null
   },
-  "2-IV-1086": {
+  "2-IV-1087": {
    "transaction_type": "Debt",
    "party1_name": "Reynaud Fabre",
    "party1_origins": null,
@@ -19630,7 +19641,7 @@
    "decision": null,
    "notes": "Receipt at the foot of the act. Act in French."
   },
-  "2-IV-1087": {
+  "2-IV-1088": {
    "transaction_type": "Debt",
    "party1_name": "Reynaud Fabre",
    "party1_origins": null,
@@ -19649,7 +19660,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1088": {
+  "2-IV-1089": {
    "transaction_type": "Debt",
    "party1_name": "Reynaud Fabre; Guillaume Fouques",
    "party1_origins": "; habitant La Rochelle",
@@ -19668,7 +19679,7 @@
    "decision": null,
    "notes": "Receipt at the foot of the act. Act in French."
   },
-  "2-IV-1089": {
+  "2-IV-1090": {
    "transaction_type": "Redemption",
    "party1_name": "Guillaume Fouques",
    "party1_origins": "habitant La Rochelle",
@@ -19687,7 +19698,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1090": {
+  "2-IV-1091": {
    "transaction_type": "Debt",
    "party1_name": "Daumas Fabre",
    "party1_origins": "de la Cadière",
@@ -19706,7 +19717,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1091": {
+  "2-IV-1092": {
    "transaction_type": "Debt",
    "party1_name": "Hounorat Marin",
    "party1_origins": "de Marseille",
@@ -19725,7 +19736,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1092": {
+  "2-IV-1093": {
    "transaction_type": "Redemption",
    "party1_name": "Jaumet Martin",
    "party1_origins": "de Marseille",
@@ -19744,7 +19755,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1093": {
+  "2-IV-1094": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Pierre de Soubeyran",
    "party1_origins": "de Nîmes",
@@ -19763,7 +19774,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1094": {
+  "2-IV-1095": {
    "transaction_type": "Debt",
    "party1_name": "Gilles Lesné; Mychel Hamont",
    "party1_origins": null,
@@ -19782,7 +19793,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1095": {
+  "2-IV-1096": {
    "transaction_type": "Debt",
    "party1_name": "Esperit Ville Cros; Pierre Chapelle",
    "party1_origins": "de Toulon; de Toulon",
@@ -19801,7 +19812,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1096": {
+  "2-IV-1097": {
    "transaction_type": "Debt",
    "party1_name": "Esperit Ville Cros; Pierre Chapelle",
    "party1_origins": "de Toulon; de Toulon",
@@ -19820,7 +19831,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1097": {
+  "2-IV-1098": {
    "transaction_type": "Consular decision",
    "party1_name": "Francesco Estelle; Estienne Symodiou",
    "party1_origins": null,
@@ -19839,7 +19850,7 @@
    "decision": "The experts declare the herrings rotten and worthless",
    "notes": "Act in French."
   },
-  "2-IV-1098": {
+  "2-IV-1099": {
    "transaction_type": "Agreement",
    "party1_name": "Louys Isnard",
    "party1_origins": "de St-Tropez",
@@ -19858,7 +19869,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1099": {
+  "2-IV-1100": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Ally Aga",
    "party1_origins": "janissaire turc de Tunis",
@@ -19876,7 +19887,7 @@
    "keywords": "payment; turbans",
    "decision": null
   },
-  "2-IV-1100": {
+  "2-IV-1101": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Caytto Ally",
    "party1_origins": "turc de Tunis",
@@ -19895,7 +19906,7 @@
    "decision": null,
    "notes": "An Arabic seal at the foot of the act."
   },
-  "2-IV-1101": {
+  "2-IV-1102": {
    "transaction_type": "Debt",
    "party1_name": "Guillaume Fougues",
    "party1_origins": "de Ponant",
@@ -19914,7 +19925,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1102": {
+  "2-IV-1103": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Silvestro Tafutto",
    "party1_origins": "de Trapani, habitant à Malte",
@@ -19932,7 +19943,7 @@
    "keywords": "remittance",
    "decision": null
   },
-  "2-IV-1103": {
+  "2-IV-1104": {
    "transaction_type": "Debt",
    "party1_name": "Salviano Gauderisi",
    "party1_origins": null,
@@ -19950,7 +19961,7 @@
    "keywords": "loan; ship",
    "decision": null
   },
-  "2-IV-1104": {
+  "2-IV-1105": {
    "transaction_type": "Debt",
    "party1_name": "Jaume Morel",
    "party1_origins": "catalan",
@@ -19968,7 +19979,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1105": {
+  "2-IV-1106": {
    "transaction_type": "Redemption",
    "party1_name": "Joan Felhiou Badencas",
    "party1_origins": "catalan",
@@ -19986,7 +19997,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1106": {
+  "2-IV-1107": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Jousepo Cabado Escarparo",
    "party1_origins": "trapanais",
@@ -20005,7 +20016,7 @@
    "decision": null,
    "notes": "Five witness statements follow."
   },
-  "2-IV-1107": {
+  "2-IV-1108": {
    "transaction_type": "Redemption",
    "party1_name": "Andreou Lheon",
    "party1_origins": "d'Areins en Catalogne",
@@ -20023,7 +20034,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1108": {
+  "2-IV-1109": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Esteve Symedeou",
    "party1_origins": "corse, habitant à Marseille",
@@ -20042,7 +20053,7 @@
    "decision": null,
    "notes": "Two witness statements follow."
   },
-  "2-IV-1109": {
+  "2-IV-1110": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Ally",
    "party1_origins": "de Tunis",
@@ -20060,7 +20071,7 @@
    "keywords": "ship sale; prize; pasha",
    "decision": null
   },
-  "2-IV-1110": {
+  "2-IV-1111": {
    "transaction_type": "Redemption",
    "party1_name": "Antonino Esquierdo",
    "party1_origins": "de Messine",
@@ -20078,7 +20089,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1111": {
+  "2-IV-1112": {
    "transaction_type": "Power of attorney",
    "party1_name": "Pantalni Rouxe",
    "party1_origins": "génois, habitant à Malte",
@@ -20096,7 +20107,7 @@
    "keywords": "debt collection",
    "decision": null
   },
-  "2-IV-1112": {
+  "2-IV-1113": {
    "transaction_type": "Power of attorney",
    "party1_name": "Esteve Symedeou",
    "party1_origins": null,
@@ -20114,7 +20125,7 @@
    "keywords": "power of attorney",
    "decision": null
   },
-  "2-IV-1113": {
+  "2-IV-1114": {
    "transaction_type": "Power of attorney",
    "party1_name": "Jousepo Cabado",
    "party1_origins": "de Trapani",
@@ -20132,7 +20143,7 @@
    "keywords": "debt collection; slavery",
    "decision": null
   },
-  "2-IV-1114": {
+  "2-IV-1115": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Rachep (Rigiepo)",
    "party1_origins": "turc",
@@ -20151,7 +20162,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1115": {
+  "2-IV-1116": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Joan de Rio",
    "party1_origins": "de Levante",
@@ -20170,7 +20181,7 @@
    "decision": null,
    "notes": "Three witness statements follow."
   },
-  "2-IV-1116": {
+  "2-IV-1117": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Symon Adan",
    "party1_origins": "de Sestri di Levante",
@@ -20188,7 +20199,7 @@
    "keywords": "payment",
    "decision": null
   },
-  "2-IV-1117": {
+  "2-IV-1118": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Agoustino Blanco",
    "party1_origins": "de Lensan (Rivière de Gênes), habitant à Malaga",
@@ -20207,7 +20218,7 @@
    "decision": null,
    "notes": "Ink has eaten the paper; the acts are illegible up to no. 608."
   },
-  "2-IV-1118": {
+  "2-IV-1119": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Jacq Saretta; Jousepo Spinolla",
    "party1_origins": "de Quayette; ",
@@ -20225,7 +20236,7 @@
    "keywords": "death; slavery",
    "decision": null
   },
-  "2-IV-1119": {
+  "2-IV-1120": {
    "transaction_type": "Power of attorney",
    "party1_name": "Natan Lyvy",
    "party1_origins": "juif d'Alger",
@@ -20243,7 +20254,7 @@
    "keywords": "debt collection; Jews",
    "decision": null
   },
-  "2-IV-1120": {
+  "2-IV-1121": {
    "transaction_type": "Redemption",
    "party1_name": "Louyse de Antony de Juliane",
    "party1_origins": "de Venise",
@@ -20261,7 +20272,7 @@
    "keywords": "ransom; Tabarca",
    "decision": null
   },
-  "2-IV-1121": {
+  "2-IV-1122": {
    "transaction_type": "Redemption",
    "party1_name": "Bastiano Blanco; Batista Rouxo",
    "party1_origins": null,
@@ -20279,7 +20290,7 @@
    "keywords": "ransom; children; family",
    "decision": null
   },
-  "2-IV-1122": {
+  "2-IV-1123": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Honorat Blein",
    "party1_origins": "de Toulon",
@@ -20297,7 +20308,7 @@
    "keywords": "freight",
    "decision": null
   },
-  "2-IV-1123": {
+  "2-IV-1124": {
    "transaction_type": "Redemption",
    "party1_name": "Mathieu Callon",
    "party1_origins": "de Toulon",
@@ -20316,7 +20327,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1124": {
+  "2-IV-1125": {
    "transaction_type": "Power of attorney",
    "party1_name": "Guilhen Daniel (dit Gran)",
    "party1_origins": "de Sixfours",
@@ -20335,7 +20346,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1125": {
+  "2-IV-1126": {
    "transaction_type": "Debt",
    "party1_name": "Nycolau Scotto; Antony Manette",
    "party1_origins": null,
@@ -20354,7 +20365,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1126": {
+  "2-IV-1127": {
    "transaction_type": "Debt",
    "party1_name": "Marcantony Paulillo",
    "party1_origins": "de Naples",
@@ -20372,7 +20383,7 @@
    "keywords": "debt",
    "decision": null
   },
-  "2-IV-1127": {
+  "2-IV-1128": {
    "transaction_type": "Power of attorney",
    "party1_name": "Dmytrie Fillalty",
    "party1_origins": "de Zanthe",
@@ -20390,7 +20401,7 @@
    "keywords": "ransom",
    "decision": null
   },
-  "2-IV-1128": {
+  "2-IV-1129": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Malen Yssac",
    "party1_origins": "maure de Bône",
@@ -20409,7 +20420,7 @@
    "decision": null,
    "notes": "Three witnesses confirm the declaration."
   },
-  "2-IV-1129": {
+  "2-IV-1130": {
    "transaction_type": "Power of attorney",
    "party1_name": "Malen Haissa",
    "party1_origins": "maure de Bône",
@@ -20428,7 +20439,7 @@
    "decision": null,
    "notes": "», although the surrounding acts are from October and November 1609."
   },
-  "2-IV-1130": {
+  "2-IV-1131": {
    "transaction_type": "Consular decision",
    "party1_name": "Santo Symedeou; Giosepy Crady",
    "party1_origins": "; juif de Livourne",
@@ -20447,7 +20458,7 @@
    "decision": null,
    "notes": "», although the surrounding acts are from October and November 1609."
   },
-  "2-IV-1131": {
+  "2-IV-1132": {
    "transaction_type": "Redemption",
    "party1_name": "Fantino Dalfino",
    "party1_origins": "de Venise",
@@ -20466,7 +20477,7 @@
    "decision": null,
    "notes": "», although the surrounding acts are from October and November 1609."
   },
-  "2-IV-1132": {
+  "2-IV-1133": {
    "transaction_type": "Protest / summons",
    "party1_name": "Santo Symedey",
    "party1_origins": null,
@@ -20485,7 +20496,7 @@
    "decision": null,
    "notes": "Unfinished act.», although the surrounding acts are from October and November 1609."
   },
-  "2-IV-1133": {
+  "2-IV-1134": {
    "transaction_type": "Debt",
    "party1_name": "Peyron Gassan; Hercule Tamagne",
    "party1_origins": null,
@@ -20504,7 +20515,7 @@
    "decision": null,
    "notes": "», although the surrounding acts are from October and November 1609."
   },
-  "2-IV-1134": {
+  "2-IV-1135": {
    "transaction_type": "Redemption",
    "party1_name": "Adan Jorge Bexelz (Adam Bessels)",
    "party1_origins": "d'Amsterdam",
@@ -20522,7 +20533,7 @@
    "keywords": "ransom; Dutch",
    "decision": null
   },
-  "2-IV-1135": {
+  "2-IV-1136": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Ossoman Dey",
    "party1_origins": null,
@@ -20540,7 +20551,7 @@
    "keywords": "ship sale; prize; dey",
    "decision": null
   },
-  "2-IV-1136": {
+  "2-IV-1137": {
    "transaction_type": "Redemption",
    "party1_name": "Nicolo Carlo Maquarela",
    "party1_origins": "de Candie",
@@ -20558,7 +20569,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1137": {
+  "2-IV-1138": {
    "transaction_type": "Redemption",
    "party1_name": "Donnaita Quachoutto",
    "party1_origins": "de Procida",
@@ -20576,7 +20587,7 @@
    "keywords": "ransom; bequest; Ragusa",
    "decision": null
   },
-  "2-IV-1138": {
+  "2-IV-1139": {
    "transaction_type": "Redemption",
    "party1_name": "Agoustino de Matheo",
    "party1_origins": "de Monte Maon (Corse)",
@@ -20594,7 +20605,7 @@
    "keywords": "ransom; bequest; Ragusa",
    "decision": null
   },
-  "2-IV-1139": {
+  "2-IV-1140": {
    "transaction_type": "Redemption",
    "party1_name": "Anastasia de Nicolo",
    "party1_origins": "de Zanthe",
@@ -20613,7 +20624,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1140": {
+  "2-IV-1141": {
    "transaction_type": "Redemption",
    "party1_name": "Pierre Marin",
    "party1_origins": null,
@@ -20632,7 +20643,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1141": {
+  "2-IV-1142": {
    "transaction_type": "Power of attorney",
    "party1_name": "Pellecro de Lopin",
    "party1_origins": "de Gênes",
@@ -20650,7 +20661,7 @@
    "keywords": "ransom; family",
    "decision": null
   },
-  "2-IV-1142": {
+  "2-IV-1143": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Hugues Changet",
    "party1_origins": null,
@@ -20668,7 +20679,7 @@
    "keywords": "account; payment",
    "decision": null
   },
-  "2-IV-1143": {
+  "2-IV-1144": {
    "transaction_type": "Redemption",
    "party1_name": "Jan Hiacopas Brum (Jan Jacobus Bruyn)",
    "party1_origins": "flamand, d'Amsterdam",
@@ -20686,7 +20697,7 @@
    "keywords": "ransom; loan; Dutch",
    "decision": null
   },
-  "2-IV-1144": {
+  "2-IV-1145": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Joan Battiste Py",
    "party1_origins": "de St-Filhiou (San Feliu) en Catalogne",
@@ -20704,7 +20715,7 @@
    "keywords": "payment",
    "decision": null
   },
-  "2-IV-1145": {
+  "2-IV-1146": {
    "transaction_type": "Redemption",
    "party1_name": "Pierre Bousquet",
    "party1_origins": "de Bagnols en Languedoc",
@@ -20722,7 +20733,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1146": {
+  "2-IV-1147": {
    "transaction_type": "Power of attorney",
    "party1_name": "Barnabeou Espitalier",
    "party1_origins": "de Fréjus, habitant Araise",
@@ -20741,7 +20752,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1147": {
+  "2-IV-1148": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Mamout; Baxis",
    "party1_origins": "maure de Djerba; maure de Djerba",
@@ -20760,7 +20771,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1148": {
+  "2-IV-1149": {
    "transaction_type": "Protest / summons",
    "party1_name": "Arnaud Moureu",
    "party1_origins": null,
@@ -20779,7 +20790,7 @@
    "decision": null,
    "notes": "Two witness statements follow. Act in French."
   },
-  "2-IV-1149": {
+  "2-IV-1150": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Arnaud Moureu",
    "party1_origins": null,
@@ -20797,7 +20808,7 @@
    "keywords": "ship sale; exchange; prize; pasha",
    "decision": null
   },
-  "2-IV-1150": {
+  "2-IV-1151": {
    "transaction_type": "Protest / summons",
    "party1_name": "Santo Symedeou",
    "party1_origins": null,
@@ -20815,7 +20826,7 @@
    "keywords": "brazilwood; Jews; Sabbath",
    "decision": "Creudy replies it is Saturday, a feast day, and will answer the next day"
   },
-  "2-IV-1151": {
+  "2-IV-1152": {
    "transaction_type": "Debt",
    "party1_name": "Arnaut Moureu",
    "party1_origins": null,
@@ -20834,7 +20845,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1152": {
+  "2-IV-1153": {
    "transaction_type": "Debt",
    "party1_name": "Arnaut Moreu",
    "party1_origins": null,
@@ -20853,7 +20864,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1153": {
+  "2-IV-1154": {
    "transaction_type": "Debt",
    "party1_name": "Arnaut Moreu",
    "party1_origins": null,
@@ -20872,7 +20883,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1154": {
+  "2-IV-1155": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Joan Pedro Masolla",
    "party1_origins": "de Capra",
@@ -20891,7 +20902,7 @@
    "decision": null,
    "notes": "», but the next act is dated 5 January; perhaps 4 or 5."
   },
-  "2-IV-1155": {
+  "2-IV-1156": {
    "transaction_type": "Debt",
    "party1_name": "Ally Xebedy",
    "party1_origins": "maure de Sousse",
@@ -20909,7 +20920,7 @@
    "keywords": "debt",
    "decision": null
   },
-  "2-IV-1156": {
+  "2-IV-1157": {
    "transaction_type": "Protest / summons",
    "party1_name": "Honnorat Quaxier",
    "party1_origins": "de Cannes",
@@ -20928,7 +20939,7 @@
    "decision": "The seller replies he did not know the ordinances, the buyer is a merchant trading with the Levant, and the money is his",
    "notes": "Act in French."
   },
-  "2-IV-1157": {
+  "2-IV-1158": {
    "transaction_type": "Protest / summons",
    "party1_name": "François Armand",
    "party1_origins": "de Marseille",
@@ -20947,7 +20958,7 @@
    "decision": "The dey said he will let him sail once his warships have put to sea; reply received by the chancellor Louys Changet, as the consul was bedridden",
    "notes": "Act in French."
   },
-  "2-IV-1158": {
+  "2-IV-1159": {
    "transaction_type": "Charter (freight)",
    "party1_name": "Jaumet de Beaulieu",
    "party1_origins": "de Marseille",
@@ -20966,7 +20977,7 @@
    "decision": null,
    "notes": "Unfinished act."
   },
-  "2-IV-1159": {
+  "2-IV-1160": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Joan Antonio Payan",
    "party1_origins": "de Laigueglia",
@@ -20985,7 +20996,7 @@
    "decision": null,
    "notes": "Two witness statements follow."
   },
-  "2-IV-1160": {
+  "2-IV-1161": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Jousepo Allexy",
    "party1_origins": "de Messine",
@@ -21003,7 +21014,7 @@
    "keywords": "payment",
    "decision": null
   },
-  "2-IV-1161": {
+  "2-IV-1162": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Lorenso Pira; Giovanny de Geronyme; Tomasello Palonbo",
    "party1_origins": "de Sassari; de Mera de Moneglia (Rivière de Gênes); de la Torre del Greco",
@@ -21019,24 +21030,6 @@
    "currency": null,
    "other_equivalent": null,
    "keywords": "ship share; partnership",
-   "decision": null
-  },
-  "2-IV-1162": {
-   "transaction_type": "Declaration / attestation",
-   "party1_name": null,
-   "party1_origins": null,
-   "party1_role": null,
-   "party2_name": null,
-   "party2_origins": null,
-   "party2_role": null,
-   "other_parties_names": null,
-   "other_parties_origins": null,
-   "other_parties_role": null,
-   "matter": "Same matter",
-   "price": null,
-   "currency": null,
-   "other_equivalent": null,
-   "keywords": "ship share",
    "decision": null
   },
   "2-IV-1163": {
@@ -21058,6 +21051,24 @@
    "decision": null
   },
   "2-IV-1164": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": null,
+   "party1_origins": null,
+   "party1_role": null,
+   "party2_name": null,
+   "party2_origins": null,
+   "party2_role": null,
+   "other_parties_names": null,
+   "other_parties_origins": null,
+   "other_parties_role": null,
+   "matter": "Same matter",
+   "price": null,
+   "currency": null,
+   "other_equivalent": null,
+   "keywords": "ship share",
+   "decision": null
+  },
+  "2-IV-1165": {
    "transaction_type": "Redemption",
    "party1_name": "Marguerite Seguiere",
    "party1_origins": "de Marseille",
@@ -21076,7 +21087,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1165": {
+  "2-IV-1166": {
    "transaction_type": "Redemption",
    "party1_name": "Miquel Parejia",
    "party1_origins": "d'Alicante",
@@ -21094,7 +21105,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1166": {
+  "2-IV-1167": {
    "transaction_type": "Redemption",
    "party1_name": "Pedro de Rouxo",
    "party1_origins": "de Sassari",
@@ -21113,7 +21124,7 @@
    "decision": null,
    "notes": "Unfinished act."
   },
-  "2-IV-1167": {
+  "2-IV-1168": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Antonio Marco",
    "party1_origins": "arménien, habitant Constantinople",
@@ -21132,7 +21143,7 @@
    "decision": null,
    "notes": "Three witness statements follow."
   },
-  "2-IV-1168": {
+  "2-IV-1169": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Doumenyco de Laxaro",
    "party1_origins": "arménien",
@@ -21151,7 +21162,7 @@
    "decision": null,
    "notes": "Two witness statements follow."
   },
-  "2-IV-1169": {
+  "2-IV-1170": {
    "transaction_type": "Power of attorney",
    "party1_name": "Antonio de Marco",
    "party1_origins": "arménien, de Constantinople",
@@ -21169,7 +21180,7 @@
    "keywords": "debt collection; Armenians",
    "decision": null
   },
-  "2-IV-1170": {
+  "2-IV-1171": {
    "transaction_type": "Power of attorney",
    "party1_name": "Bastian de Quaravachail dit Assan Yttris; Diego Hernandes dit Hybren Salin; Allonso Castelayno dit Ally Raphat; Domingo Peres dit Ysoub Assan",
    "party1_origins": "maures de Grenade habitant à Tunis",
@@ -21188,7 +21199,7 @@
    "decision": null,
    "notes": "Nearly two pages of names; the principals signed their Spanish names, two in Arabic. Act in French."
   },
-  "2-IV-1171": {
+  "2-IV-1172": {
    "transaction_type": "Consular decision",
    "party1_name": "Jacques Jourdan; Toumas Cestier",
    "party1_origins": null,
@@ -21207,7 +21218,7 @@
    "decision": "Sentence of the consul after an assembly of the merchants and patrons of the Échelle (almost illegible)",
    "notes": "Ink has eaten the paper. Act in French."
   },
-  "2-IV-1172": {
+  "2-IV-1173": {
    "transaction_type": "Power of attorney",
    "party1_name": "Laurenso Pira",
    "party1_origins": "de Sassari",
@@ -21225,7 +21236,7 @@
    "keywords": "ransom",
    "decision": null
   },
-  "2-IV-1173": {
+  "2-IV-1174": {
    "transaction_type": "Redemption",
    "party1_name": "Giorge Mychida",
    "party1_origins": "de Messine",
@@ -21243,7 +21254,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1174": {
+  "2-IV-1175": {
    "transaction_type": "Redemption",
    "party1_name": "Gregorio de Trifonne Collenda",
    "party1_origins": "de Raguse",
@@ -21262,7 +21273,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1175": {
+  "2-IV-1176": {
    "transaction_type": "Redemption",
    "party1_name": "Gregorio de Trifonne Collenda",
    "party1_origins": "de Raguse",
@@ -21281,7 +21292,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1176": {
+  "2-IV-1177": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Silvestro Chiafouto",
    "party1_origins": null,
@@ -21299,7 +21310,7 @@
    "keywords": "loan repayment",
    "decision": null
   },
-  "2-IV-1177": {
+  "2-IV-1178": {
    "transaction_type": "Protest / summons",
    "party1_name": "Gregorio de Trifonne Collenda",
    "party1_origins": null,
@@ -21317,7 +21328,7 @@
    "keywords": "ransom; redemption mission; interest",
    "decision": "Inperato replies the Redemption never charged him with ransoming Gregorio"
   },
-  "2-IV-1178": {
+  "2-IV-1179": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Jaumet de Beaulieu",
    "party1_origins": "de Marseille",
@@ -21336,7 +21347,7 @@
    "decision": null,
    "notes": "Three witness statements follow. Act in French."
   },
-  "2-IV-1179": {
+  "2-IV-1180": {
    "transaction_type": "Debt",
    "party1_name": "Reynaud Fabre; Mathurin Bonastier",
    "party1_origins": "de Marseille; de la Chaume d'Olonne en Poitou",
@@ -21355,7 +21366,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1180": {
+  "2-IV-1181": {
    "transaction_type": "Debt",
    "party1_name": "Reynaud Fabre; Mathurin Bonastier",
    "party1_origins": "de Marseille; de la Chaume d'Olonne en Poitou",
@@ -21374,7 +21385,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1181": {
+  "2-IV-1182": {
    "transaction_type": "Redemption",
    "party1_name": "Anne Daugerolle (« Anné Dogerolles »)",
    "party1_origins": "chevalier de Comyeres, de la paroisse de Mably, près de Roanne",
@@ -21393,7 +21404,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1182": {
+  "2-IV-1183": {
    "transaction_type": "Redemption",
    "party1_name": "Gilles le Maire dit Parsifontaine",
    "party1_origins": null,
@@ -21412,7 +21423,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1183": {
+  "2-IV-1184": {
    "transaction_type": "Debt",
    "party1_name": "Reynaud Fabre",
    "party1_origins": null,
@@ -21431,7 +21442,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1184": {
+  "2-IV-1185": {
    "transaction_type": "Redemption",
    "party1_name": "Henri Penard; Andre Peyraud; René Brochet; Louys Jansonnet; Gilles Saunier; Mathurin Bouenin; Jehan Reinaud",
    "party1_origins": "des Sables d'Olonne",
@@ -21450,7 +21461,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1185": {
+  "2-IV-1186": {
    "transaction_type": "Power of attorney",
    "party1_name": "Jehan Anthoyne Myfret",
    "party1_origins": "du Puget Denier en Provence",
@@ -21469,7 +21480,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1186": {
+  "2-IV-1187": {
    "transaction_type": "Debt",
    "party1_name": "Jousepo Dalexio",
    "party1_origins": "de Messine",
@@ -21487,7 +21498,7 @@
    "keywords": "debt",
    "decision": null
   },
-  "2-IV-1187": {
+  "2-IV-1188": {
    "transaction_type": "Debt",
    "party1_name": "François Metayer; Jehan Montagne; René Guiet; Jacques Monsiou",
    "party1_origins": null,
@@ -21506,7 +21517,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1188": {
+  "2-IV-1189": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Anthoine Marin Franciscou",
    "party1_origins": "de Marseille",
@@ -21525,7 +21536,7 @@
    "decision": null,
    "notes": "Three witness statements follow; on 5 April six more about unloading the silk. Act in French."
   },
-  "2-IV-1189": {
+  "2-IV-1190": {
    "transaction_type": "Redemption",
    "party1_name": "Ventourin de Antonio Fourtariot",
    "party1_origins": "de Venise",
@@ -21543,7 +21554,7 @@
    "keywords": "ransom; Tabarca; Jews",
    "decision": null
   },
-  "2-IV-1190": {
+  "2-IV-1191": {
    "transaction_type": "Power of attorney",
    "party1_name": "Malen Ha Yssa",
    "party1_origins": "maure de Bône",
@@ -21561,7 +21572,7 @@
    "keywords": "hides; Muslim captives; debt collection",
    "decision": null
   },
-  "2-IV-1191": {
+  "2-IV-1192": {
    "transaction_type": "Power of attorney",
    "party1_name": "Charles Rosnel (Charles de Rosmel)",
    "party1_origins": null,
@@ -21580,7 +21591,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1192": {
+  "2-IV-1193": {
    "transaction_type": "Redemption",
    "party1_name": "Franciscou cavaliero dal Bolgiouxo (Franco Cavalero da Bolgioioso)",
    "party1_origins": "de Milan",
@@ -21599,7 +21610,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1193": {
+  "2-IV-1194": {
    "transaction_type": "Power of attorney",
    "party1_name": "[...] fils de Fraoustina",
    "party1_origins": null,
@@ -21618,7 +21629,7 @@
    "decision": null,
    "notes": "Very effaced."
   },
-  "2-IV-1194": {
+  "2-IV-1195": {
    "transaction_type": "Debt",
    "party1_name": "Anthoine Marin Franciscou; Anthoine de Martin",
    "party1_origins": "; de Marseille",
@@ -21637,7 +21648,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1195": {
+  "2-IV-1196": {
    "transaction_type": "Redemption",
    "party1_name": "Jehan Fleuriot",
    "party1_origins": "d'Angers",
@@ -21656,7 +21667,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1196": {
+  "2-IV-1197": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Nove de Moise",
    "party1_origins": "arménien",
@@ -21675,7 +21686,7 @@
    "decision": null,
    "notes": "Unfinished and unsigned."
   },
-  "2-IV-1197": {
+  "2-IV-1198": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Esteve Symedeo",
    "party1_origins": null,
@@ -21693,7 +21704,7 @@
    "keywords": "debt; payment",
    "decision": null
   },
-  "2-IV-1198": {
+  "2-IV-1199": {
    "transaction_type": "Redemption",
    "party1_name": "Estienne Millesaut; Daniel Argentin",
    "party1_origins": "breton; breton",
@@ -21712,7 +21723,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1199": {
+  "2-IV-1200": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Estefano de Nicolo Bianquy",
    "party1_origins": "de Raguse",
@@ -21730,7 +21741,7 @@
    "keywords": "ransom; redemption mission; Ragusa",
    "decision": null
   },
-  "2-IV-1200": {
+  "2-IV-1201": {
    "transaction_type": "Debt",
    "party1_name": "Louca Falconne",
    "party1_origins": "de Perasto",
@@ -21748,7 +21759,7 @@
    "keywords": "loan; redemption mission; Ragusa",
    "decision": null
   },
-  "2-IV-1201": {
+  "2-IV-1202": {
    "transaction_type": "Redemption",
    "party1_name": "Piedro de Fransesco Cordich",
    "party1_origins": "de Calamotta",
@@ -21766,7 +21777,7 @@
    "keywords": "ransom; redemption mission; Ragusa; Tripoli",
    "decision": null
   },
-  "2-IV-1202": {
+  "2-IV-1203": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Vinsenso (?) (Morat)",
    "party1_origins": "de l'Île de Messa",
@@ -21784,7 +21795,7 @@
    "keywords": "renegade; property",
    "decision": null
   },
-  "2-IV-1203": {
+  "2-IV-1204": {
    "transaction_type": "Debt",
    "party1_name": "Vinsenso di Joany",
    "party1_origins": "de Raguse",
@@ -21802,7 +21813,7 @@
    "keywords": "debt; redemption mission; Ragusa",
    "decision": null
   },
-  "2-IV-1204": {
+  "2-IV-1205": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Gregorio de Trifonne Collenda",
    "party1_origins": "de Raguse",
@@ -21821,7 +21832,7 @@
    "decision": null,
    "notes": "Two witness statements follow. Very hard to read; ink has eaten the paper."
   },
-  "2-IV-1205": {
+  "2-IV-1206": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Vinsenso (Mourat)",
    "party1_origins": "de l'Île de Messa",
@@ -21840,7 +21851,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1206": {
+  "2-IV-1207": {
    "transaction_type": "Redemption",
    "party1_name": "Piedro de Fransisco Cordich",
    "party1_origins": "de Calamotta",
@@ -21858,7 +21869,7 @@
    "keywords": "ransom; loan; Tripoli",
    "decision": null
   },
-  "2-IV-1207": {
+  "2-IV-1208": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Luzio Matheo",
    "party1_origins": "corse",
@@ -21877,7 +21888,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1208": {
+  "2-IV-1209": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Piedro Toumaxello",
    "party1_origins": null,
@@ -21895,7 +21906,7 @@
    "keywords": "ship share; assignment; fish",
    "decision": null
   },
-  "2-IV-1209": {
+  "2-IV-1210": {
    "transaction_type": "Power of attorney",
    "party1_name": "Marcantony Paulillo",
    "party1_origins": "de Naples",
@@ -21913,7 +21924,7 @@
    "keywords": "debt collection",
    "decision": null
   },
-  "2-IV-1210": {
+  "2-IV-1211": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Mourat; Rachep",
    "party1_origins": "turc renégat corse; turc renégat corse",
@@ -21932,7 +21943,7 @@
    "decision": null,
    "notes": "Five witnesses confirm the ransom."
   },
-  "2-IV-1211": {
+  "2-IV-1212": {
    "transaction_type": "Power of attorney",
    "party1_name": "Muratto bey",
    "party1_origins": "fils d'Alfonso, corse de Bastia",
@@ -21950,7 +21961,7 @@
    "keywords": "debt collection; renegade",
    "decision": null
   },
-  "2-IV-1212": {
+  "2-IV-1213": {
    "transaction_type": "Registration / copy",
    "party1_name": "Dominico Falconetto",
    "party1_origins": null,
@@ -21968,7 +21979,7 @@
    "keywords": "bill of lading; registration",
    "decision": null
   },
-  "2-IV-1213": {
+  "2-IV-1214": {
    "transaction_type": "Registration / copy",
    "party1_name": "Mourat bey",
    "party1_origins": "turc, renégat corse",
@@ -21986,7 +21997,7 @@
    "keywords": "registration; trade",
    "decision": null
   },
-  "2-IV-1214": {
+  "2-IV-1215": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Joan Andre Busuttil",
    "party1_origins": "de Malte",
@@ -22005,7 +22016,7 @@
    "decision": null,
    "notes": "Three witness statements follow."
   },
-  "2-IV-1215": {
+  "2-IV-1216": {
    "transaction_type": "Power of attorney",
    "party1_name": "Hugues Changet",
    "party1_origins": "de Marseille",
@@ -22023,7 +22034,7 @@
    "keywords": "debt collection; consul",
    "decision": null
   },
-  "2-IV-1216": {
+  "2-IV-1217": {
    "transaction_type": "Registration / copy",
    "party1_name": "Marco Francisco",
    "party1_origins": "corse",
@@ -22041,7 +22052,7 @@
    "keywords": "bill of lading; hides; gum arabic",
    "decision": null
   },
-  "2-IV-1217": {
+  "2-IV-1218": {
    "transaction_type": "Redemption",
    "party1_name": "[...] Tourtel; Beltrand Leouxier (Bertrand Beussier)",
    "party1_origins": "de Sixfours; de Sixfours",
@@ -22060,7 +22071,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1218": {
+  "2-IV-1219": {
    "transaction_type": "Power of attorney",
    "party1_name": "Jehan de Castellane Claret",
    "party1_origins": "de Claret en Provence",
@@ -22079,7 +22090,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1219": {
+  "2-IV-1220": {
    "transaction_type": "Redemption",
    "party1_name": "Pierre Gaudin",
    "party1_origins": "des Sables d'Olonne",
@@ -22098,7 +22109,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1220": {
+  "2-IV-1221": {
    "transaction_type": "Power of attorney",
    "party1_name": "Mouratto; Racep Aga",
    "party1_origins": "turc renégat corse; turc renégat corse",
@@ -22116,7 +22127,7 @@
    "keywords": "debt collection; renegades; family",
    "decision": null
   },
-  "2-IV-1221": {
+  "2-IV-1222": {
    "transaction_type": "Redemption",
    "party1_name": "Joan Canavalo de Pero",
    "party1_origins": "de Ranpalo (Rivière de Gênes)",
@@ -22134,7 +22145,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1222": {
+  "2-IV-1223": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Joan Canavalo de Pero",
    "party1_origins": null,
@@ -22152,7 +22163,7 @@
    "keywords": "remittance",
    "decision": null
   },
-  "2-IV-1223": {
+  "2-IV-1224": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Anthoine Lovico; Anthoine Berengier",
    "party1_origins": "de Marseille; de Marseille",
@@ -22171,7 +22182,7 @@
    "decision": null,
    "notes": "», probably 1er juillet. Act in French."
   },
-  "2-IV-1224": {
+  "2-IV-1225": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Anthoine Lovico; Anthoine Berengier",
    "party1_origins": "de Marseille; de Marseille",
@@ -22190,7 +22201,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1225": {
+  "2-IV-1226": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Anthoine Lovico; Anthoine Berengier",
    "party1_origins": "de Marseille; de Marseille",
@@ -22209,7 +22220,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1226": {
+  "2-IV-1227": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Anthoine Lovico; Anthoine Berengier",
    "party1_origins": "de Marseille; de Marseille",
@@ -22228,7 +22239,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1227": {
+  "2-IV-1228": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Anthoine Lovico; Anthoine Berengier",
    "party1_origins": "de Marseille; de Marseille",
@@ -22247,7 +22258,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1228": {
+  "2-IV-1229": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Anthoine Lovico; Anthoine Berengier",
    "party1_origins": "de Marseille; de Marseille",
@@ -22266,7 +22277,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1229": {
+  "2-IV-1230": {
    "transaction_type": "Redemption",
    "party1_name": "Nicoulas Janses",
    "party1_origins": "d'Amsterdam",
@@ -22285,7 +22296,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1230": {
+  "2-IV-1231": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Jehan du Ventou (Devento)",
    "party1_origins": "de Mar. seille",
@@ -22304,7 +22315,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1231": {
+  "2-IV-1232": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Anthoine Lovico; Anthoine Berengier",
    "party1_origins": null,
@@ -22323,7 +22334,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1232": {
+  "2-IV-1233": {
    "transaction_type": "Power of attorney",
    "party1_name": "Marcantonio Paulillo",
    "party1_origins": "de Naples",
@@ -22341,7 +22352,7 @@
    "keywords": "debt; power of attorney",
    "decision": null
   },
-  "2-IV-1233": {
+  "2-IV-1234": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Anthoine Lovico; Anthoine Berengier",
    "party1_origins": null,
@@ -22360,7 +22371,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1234": {
+  "2-IV-1235": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Jehan Vallentin",
    "party1_origins": "de Marseille",
@@ -22379,7 +22390,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1235": {
+  "2-IV-1236": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Stefano Nabone",
    "party1_origins": "de St-Tropez",
@@ -22398,7 +22409,7 @@
    "decision": null,
    "notes": "Three witness statements follow."
   },
-  "2-IV-1236": {
+  "2-IV-1237": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Gio Anto Serié",
    "party1_origins": "de St-Tropez",
@@ -22417,7 +22428,7 @@
    "decision": null,
    "notes": "Three witness statements follow."
   },
-  "2-IV-1237": {
+  "2-IV-1238": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Anthoine Lovico; Anthoine Berengier",
    "party1_origins": null,
@@ -22436,7 +22447,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1238": {
+  "2-IV-1239": {
    "transaction_type": "Registration / copy",
    "party1_name": "Marcantonio Paulillo",
    "party1_origins": "de Naples",
@@ -22454,7 +22465,7 @@
    "keywords": "redemption mission; reward; registration",
    "decision": null
   },
-  "2-IV-1239": {
+  "2-IV-1240": {
    "transaction_type": "Power of attorney",
    "party1_name": "Antonio Esmiol",
    "party1_origins": null,
@@ -22472,7 +22483,7 @@
    "keywords": "debt collection; Malta",
    "decision": null
   },
-  "2-IV-1240": {
+  "2-IV-1241": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Stefano Simodio",
    "party1_origins": null,
@@ -22491,7 +22502,7 @@
    "decision": null,
    "notes": "Undated (s. d.). Act in French."
   },
-  "2-IV-1241": {
+  "2-IV-1242": {
    "transaction_type": "Marriage contract",
    "party1_name": "Francesco di Polo",
    "party1_origins": "du Cagniano du Cap Corse",
@@ -22510,7 +22521,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1242": {
+  "2-IV-1243": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Fransisco Vanogon",
    "party1_origins": "grenadin de Ville Rollette d'Espagne",
@@ -22529,7 +22540,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1243": {
+  "2-IV-1244": {
    "transaction_type": "Debt",
    "party1_name": "Anthoine Arnaud",
    "party1_origins": null,
@@ -22548,7 +22559,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1244": {
+  "2-IV-1245": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Fransiscous Vaneques; Laxaro de Roubles; Diogou d’Albaxin",
    "party1_origins": "marchands de Villarrubia de la Manche d'Espagne",
@@ -22567,7 +22578,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1245": {
+  "2-IV-1246": {
    "transaction_type": "Redemption",
    "party1_name": "Domynigo Santouchou",
    "party1_origins": "de Bonifacio",
@@ -22585,7 +22596,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1246": {
+  "2-IV-1247": {
    "transaction_type": "Redemption",
    "party1_name": "Joan Antonyo de Joan Matheo",
    "party1_origins": "corse",
@@ -22603,7 +22614,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1247": {
+  "2-IV-1248": {
    "transaction_type": "Debt",
    "party1_name": "Peiron Gassan",
    "party1_origins": "de Marseille",
@@ -22622,7 +22633,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1248": {
+  "2-IV-1249": {
    "transaction_type": "Agreement",
    "party1_name": "Habrain Asfouri",
    "party1_origins": "maure de Tunis",
@@ -22640,7 +22651,7 @@
    "keywords": "captive exchange; Malta; Tripoli",
    "decision": null
   },
-  "2-IV-1249": {
+  "2-IV-1250": {
    "transaction_type": "Undertaking / promise",
    "party1_name": "Fransisco da Guilermo; Tomaso Sagra",
    "party1_origins": "de Levie (Corse); corse",
@@ -22658,7 +22669,7 @@
    "keywords": "surety; ransom",
    "decision": null
   },
-  "2-IV-1250": {
+  "2-IV-1251": {
    "transaction_type": "Redemption",
    "party1_name": "Francisco de Georgy",
    "party1_origins": "de Venise",
@@ -22676,7 +22687,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1251": {
+  "2-IV-1252": {
    "transaction_type": "Registration / copy",
    "party1_name": "Anton Franco Santone",
    "party1_origins": "corse",
@@ -22694,7 +22705,7 @@
    "keywords": "registration; trade",
    "decision": null
   },
-  "2-IV-1252": {
+  "2-IV-1253": {
    "transaction_type": "Debt",
    "party1_name": "François Vion",
    "party1_origins": "de Marseille",
@@ -22713,7 +22724,7 @@
    "decision": null,
    "notes": "the last numbered folio (the register's numbering stops at 1013). Act in French."
   },
-  "2-IV-1253": {
+  "2-IV-1254": {
    "transaction_type": "Power of attorney",
    "party1_name": "De Terues Boisgirault; Vespasiano Balbiano; Antoine de Ribaute; Henri Myron; Honorat Dupons; De la Palu; Jehan de Castellane Claret; Claude de Villeneuve Torrette; Louys de Perussis; Ju° de Silva y Ribera; Jayme Peres de Nueros; Gaspar Aldret; Jehan de Montaurons",
    "party1_origins": null,
@@ -22732,7 +22743,7 @@
    "decision": null,
    "notes": "Names as signed. Dated 26 July (see the next act and the act of 29 July)."
   },
-  "2-IV-1254": {
+  "2-IV-1255": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "De Terues Boisgirault; Vespasiano Balbiano; Antoine de Ribaute; Henri Myron; Honorat Dupons; De la Palu; Jehan de Castellane Claret; Claude de Villeneuve Torrette; Louys de Perussis; Ju° de Silva y Ribera; Jayme Peres de Nueros; Gaspar Aldret; Jehan de Montaurons",
    "party1_origins": null,
@@ -22750,7 +22761,7 @@
    "keywords": "knights of Malta; captive exchange",
    "decision": null
   },
-  "2-IV-1255": {
+  "2-IV-1256": {
    "transaction_type": "Power of attorney",
    "party1_name": "Tusanti de Terues Boysgirault",
    "party1_origins": "du Poitou",
@@ -22768,7 +22779,7 @@
    "keywords": "ransom; knights of Malta",
    "decision": null
   },
-  "2-IV-1256": {
+  "2-IV-1257": {
    "transaction_type": "Redemption",
    "party1_name": "Francisco Catarm",
    "party1_origins": "vénitien",
@@ -22787,7 +22798,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1257": {
+  "2-IV-1258": {
    "transaction_type": "Company / partnership",
    "party1_name": "Antonio Lovico; Marco Francesco; Gio Gioia Manfredino Manfredini; Giorgio de Vega Pinto; Stefano Simodey; Ercole Tamagni; Loigi Changet",
    "party1_origins": null,
@@ -22806,7 +22817,7 @@
    "decision": null,
    "notes": "Continues on p. 172."
   },
-  "2-IV-1258": {
+  "2-IV-1259": {
    "transaction_type": "Redemption",
    "party1_name": "Francisco de Paulo",
    "party1_origins": "du Cap Corse",
@@ -22824,7 +22835,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1259": {
+  "2-IV-1260": {
    "transaction_type": "Undertaking / promise",
    "party1_name": "Anthoine Lovico",
    "party1_origins": null,
@@ -22843,7 +22854,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1260": {
+  "2-IV-1261": {
    "transaction_type": "Undertaking / promise",
    "party1_name": "Vincenzo Rispoli",
    "party1_origins": "maltais",
@@ -22861,7 +22872,7 @@
    "keywords": "captive exchange; Malta",
    "decision": null
   },
-  "2-IV-1261": {
+  "2-IV-1262": {
    "transaction_type": "Debt",
    "party1_name": "Peyron Gassan",
    "party1_origins": null,
@@ -22880,7 +22891,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1262": {
+  "2-IV-1263": {
    "transaction_type": "Debt",
    "party1_name": "Peyron Gassan",
    "party1_origins": null,
@@ -22899,7 +22910,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1263": {
+  "2-IV-1264": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Hugues Changet",
    "party1_origins": null,
@@ -22918,7 +22929,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1264": {
+  "2-IV-1265": {
    "transaction_type": "Redemption",
    "party1_name": "Francisco de Marcanthonyo de Esfachotty",
    "party1_origins": "de Venise",
@@ -22936,7 +22947,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1265": {
+  "2-IV-1266": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Anthoine Lovico",
    "party1_origins": "de Marseille",
@@ -22954,7 +22965,7 @@
    "keywords": "hides; shipping",
    "decision": null
   },
-  "2-IV-1266": {
+  "2-IV-1267": {
    "transaction_type": "Company / partnership",
    "party1_name": "Francisco Estelle; Esteve Symedey",
    "party1_origins": "de Marseille; corse",
@@ -22972,7 +22983,7 @@
    "keywords": "ship share; partnership",
    "decision": null
   },
-  "2-IV-1267": {
+  "2-IV-1268": {
    "transaction_type": "Power of attorney",
    "party1_name": "Principio Garofoly",
    "party1_origins": "de la Torre del Greco",
@@ -22990,7 +23001,7 @@
    "keywords": "ransom; family",
    "decision": null
   },
-  "2-IV-1268": {
+  "2-IV-1269": {
    "transaction_type": "Power of attorney",
    "party1_name": "the Granadan Moors (see act of 26 February 1610)",
    "party1_origins": null,
@@ -23009,7 +23020,7 @@
    "decision": null,
    "notes": "The total is very large: one party alone claims 23,265 écus stolen. Signatures give only the Arabic names. See the annexed documents."
   },
-  "2-IV-1269": {
+  "2-IV-1270": {
    "transaction_type": "Power of attorney",
    "party1_name": "Aly benfracie (Ali ben Fredj)",
    "party1_origins": null,
@@ -23027,7 +23038,7 @@
    "keywords": "debt collection; Malta",
    "decision": null
   },
-  "2-IV-1270": {
+  "2-IV-1271": {
    "transaction_type": "Debt",
    "party1_name": "Benedetto Vygnolla",
    "party1_origins": "de Lavagna (Gênes)",
@@ -23045,7 +23056,7 @@
    "keywords": "loan; ship",
    "decision": null
   },
-  "2-IV-1271": {
+  "2-IV-1272": {
    "transaction_type": "Redemption",
    "party1_name": "Bernardino Ferro",
    "party1_origins": "de Xelle (Rivière de Gênes)",
@@ -23063,7 +23074,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1272": {
+  "2-IV-1273": {
    "transaction_type": "Redemption",
    "party1_name": "Jouane Chase",
    "party1_origins": "de Moneglia (Rivière de Gênes)",
@@ -23081,7 +23092,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1273": {
+  "2-IV-1274": {
    "transaction_type": "Power of attorney",
    "party1_name": "the knights of St John of Jerusalem (acts of 26–27 July 1610)",
    "party1_origins": null,
@@ -23100,7 +23111,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1274": {
+  "2-IV-1275": {
    "transaction_type": "Surety",
    "party1_name": "Jehan Toureau; Thomasi Caulet; Jehan Tenque; Charles de Rybe; Meiximyn Gallegne; Louys Deymier; Jacques Tourtel; Jacques Augerot; Jacques Sengla; Pierre Vidal; Guillen Bernart; Luco Martin; Bertrand Pistoye; Honorat Perisol; Vittor Masson; Benet Jourdan",
    "party1_origins": "de Toulon; de Marseille; de Martigues; de Toulon; de Marseille; de Marseille; de Sixfours; d'Ollioules; de Bormes; de Sixfours; de Sixfours; de St-Tropez; de Martigues; de St-Tropez; de la Ciotat; de la Ciotat",
@@ -23119,7 +23130,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1275": {
+  "2-IV-1276": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Jehan Anthoine Gasin",
    "party1_origins": "turc de Tunis (renegade from Sisteron)",
@@ -23138,7 +23149,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1276": {
+  "2-IV-1277": {
    "transaction_type": "Company / partnership",
    "party1_name": "Giovane de Geronime",
    "party1_origins": "de Mer (Rivière de Gênes)",
@@ -23156,7 +23167,7 @@
    "keywords": "ship share",
    "decision": null
   },
-  "2-IV-1277": {
+  "2-IV-1278": {
    "transaction_type": "Charter (freight)",
    "party1_name": "Benedetto Vygnolo",
    "party1_origins": "de Lavagna",
@@ -23174,7 +23185,7 @@
    "keywords": "charter",
    "decision": null
   },
-  "2-IV-1278": {
+  "2-IV-1279": {
    "transaction_type": "Redemption",
    "party1_name": "Louiso Giordano",
    "party1_origins": "corse",
@@ -23193,7 +23204,7 @@
    "decision": null,
    "notes": "The act is very confused; Mourato Bey seems to be a Corsican renegade named Francesco de Gilierno."
   },
-  "2-IV-1279": {
+  "2-IV-1280": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Guillen Dendai; Jaume Roustan",
    "party1_origins": "de Toulon; de Toulon",
@@ -23212,7 +23223,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1280": {
+  "2-IV-1281": {
    "transaction_type": "Power of attorney",
    "party1_name": "Jaumet Gautier",
    "party1_origins": "de Toulon",
@@ -23231,7 +23242,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1281": {
+  "2-IV-1282": {
    "transaction_type": "Debt",
    "party1_name": "Honorat Yhouart; Margueritte Seguier",
    "party1_origins": null,
@@ -23250,7 +23261,7 @@
    "decision": "Repaid 7 February 1611",
    "notes": "Act in French."
   },
-  "2-IV-1282": {
+  "2-IV-1283": {
    "transaction_type": "Power of attorney",
    "party1_name": "Mame Jaraye",
    "party1_origins": "maure de Sfax",
@@ -23268,7 +23279,7 @@
    "keywords": "ship; clearance",
    "decision": null
   },
-  "2-IV-1283": {
+  "2-IV-1284": {
    "transaction_type": "Debt",
    "party1_name": "Bernabeau de Nans",
    "party1_origins": "de Sixfours",
@@ -23287,7 +23298,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1284": {
+  "2-IV-1285": {
    "transaction_type": "Debt",
    "party1_name": "Honorat Yhouard; Margueritte Seguier",
    "party1_origins": null,
@@ -23306,7 +23317,7 @@
    "decision": "Repaid 6 April 1611",
    "notes": "Act in French."
   },
-  "2-IV-1285": {
+  "2-IV-1286": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Jousep Sarocho",
    "party1_origins": "juif de Venise",
@@ -23324,7 +23335,7 @@
    "keywords": "account; Jews",
    "decision": null
   },
-  "2-IV-1286": {
+  "2-IV-1287": {
    "transaction_type": "Charter (freight)",
    "party1_name": "Orlano Porsio",
    "party1_origins": "de Pasitano (Naples)",
@@ -23342,7 +23353,7 @@
    "keywords": "freight; demurrage; embargo",
    "decision": null
   },
-  "2-IV-1287": {
+  "2-IV-1288": {
    "transaction_type": "Debt",
    "party1_name": "Marco Mastrillo; Angello Ajoux",
    "party1_origins": "napolitain; de Malte",
@@ -23360,7 +23371,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-1288": {
+  "2-IV-1289": {
    "transaction_type": "Consular decision",
    "party1_name": "Laure",
    "party1_origins": "de Palerme",
@@ -23378,7 +23389,7 @@
    "keywords": "debt; judgement",
    "decision": "Toumaxello condemned to pay"
   },
-  "2-IV-1289": {
+  "2-IV-1290": {
    "transaction_type": "Power of attorney",
    "party1_name": "Donato Baraya",
    "party1_origins": "lombard",
@@ -23396,7 +23407,7 @@
    "keywords": "debt collection; slavery",
    "decision": null
   },
-  "2-IV-1290": {
+  "2-IV-1291": {
    "transaction_type": "Protest / summons",
    "party1_name": "Fra Joàn de Vallegio",
    "party1_origins": null,
@@ -23414,7 +23425,7 @@
    "keywords": "ransom; redemption mission",
    "decision": "Inperato replies Ossoman Dey took those 300 écus to pay the ransom of two women"
   },
-  "2-IV-1291": {
+  "2-IV-1292": {
    "transaction_type": "Redemption",
    "party1_name": "Pedro de St-Esteffeno (Pedro de Santitistevan)",
    "party1_origins": "de Biscaye",
@@ -23433,7 +23444,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1292": {
+  "2-IV-1293": {
    "transaction_type": "Redemption",
    "party1_name": "Fra Augenio",
    "party1_origins": "de Girgenti",
@@ -23451,7 +23462,7 @@
    "keywords": "ransom; interest; clergy",
    "decision": "Repaid 6 April 1611 (printed 1641)"
   },
-  "2-IV-1293": {
+  "2-IV-1294": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Antonyno Esgaliouno",
    "party1_origins": "de Girgenti",
@@ -23470,7 +23481,7 @@
    "decision": null,
    "notes": "Three witness statements follow."
   },
-  "2-IV-1294": {
+  "2-IV-1295": {
    "transaction_type": "Redemption",
    "party1_name": "Pedro de St-Estefano",
    "party1_origins": "de Biscaye",
@@ -23488,7 +23499,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1295": {
+  "2-IV-1296": {
    "transaction_type": "Power of attorney",
    "party1_name": "Habrain Asfouri",
    "party1_origins": "maure de Tunis",
@@ -23506,7 +23517,7 @@
    "keywords": "debt collection; captive exchange",
    "decision": null
   },
-  "2-IV-1296": {
+  "2-IV-1297": {
    "transaction_type": "Debt",
    "party1_name": "Marcantonio Montorello (Montereale)",
    "party1_origins": "de Naples",
@@ -23524,7 +23535,7 @@
    "keywords": "debt",
    "decision": null
   },
-  "2-IV-1297": {
+  "2-IV-1298": {
    "transaction_type": "Declaration / attestation",
    "party1_name": "Antonio Lovico",
    "party1_origins": null,
@@ -23543,7 +23554,7 @@
    "decision": null,
    "notes": "Witnesses include Boisgirault, Jaime Peres, Antoine de Ribaude, Henri Miron, De la Palu, Gio de Silva Ribera, Gaspar Aldretta, Gio de Castellane Claret, Marco Francesco (36), Giorgio Vega Penta, Manfredino Manfredini, Antonio Francesco Santoro (50), Pasquale Inperato, Gio Gioia (27)."
   },
-  "2-IV-1298": {
+  "2-IV-1299": {
    "transaction_type": "Redemption",
    "party1_name": "Gioan de Valegio",
    "party1_origins": null,
@@ -23562,7 +23573,7 @@
    "decision": "Repaid 12 February 1611",
    "notes": null
   },
-  "2-IV-1299": {
+  "2-IV-1300": {
    "transaction_type": "Surety",
    "party1_name": "Gioan de Valegio",
    "party1_origins": "de Valegio se porte caution de la",
@@ -23580,7 +23591,7 @@
    "keywords": "surety; ransom",
    "decision": null
   },
-  "2-IV-1300": {
+  "2-IV-1301": {
    "transaction_type": "Redemption",
    "party1_name": "Jouan Andreo Sanguineo",
    "party1_origins": "de Trapani",
@@ -23598,7 +23609,7 @@
    "keywords": "ransom; fees; loan",
    "decision": null
   },
-  "2-IV-1301": {
+  "2-IV-1302": {
    "transaction_type": "Redemption",
    "party1_name": "Fra Ceroubino",
    "party1_origins": "de Naples",
@@ -23616,7 +23627,7 @@
    "keywords": "ransom; loan; clergy",
    "decision": null
   },
-  "2-IV-1302": {
+  "2-IV-1303": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Osta Morat Genovese",
    "party1_origins": null,
@@ -23634,7 +23645,7 @@
    "keywords": "ship sale",
    "decision": null
   },
-  "2-IV-1303": {
+  "2-IV-1304": {
    "transaction_type": "Other",
    "party1_name": "Battista Ugho; Joan Cataron",
    "party1_origins": "de Palerme; ",
@@ -23653,7 +23664,7 @@
    "decision": null,
    "notes": "Ink has eaten the paper."
   },
-  "2-IV-1304": {
+  "2-IV-1305": {
    "transaction_type": "Redemption",
    "party1_name": "Battista Mornylla",
    "party1_origins": "de Naples",
@@ -23672,7 +23683,7 @@
    "decision": null,
    "notes": "Partly illegible."
   },
-  "2-IV-1305": {
+  "2-IV-1306": {
    "transaction_type": "Other",
    "party1_name": null,
    "party1_origins": null,
@@ -23690,7 +23701,7 @@
    "keywords": "illegible",
    "decision": null
   },
-  "2-IV-1306": {
+  "2-IV-1307": {
    "transaction_type": "Debt",
    "party1_name": "Anthouron Preyre",
    "party1_origins": "de Marseille",
@@ -23709,7 +23720,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1307": {
+  "2-IV-1308": {
    "transaction_type": "Debt",
    "party1_name": "Orlando Porxio",
    "party1_origins": "de Pasitano",
@@ -23727,7 +23738,7 @@
    "keywords": "loan; ship",
    "decision": null
   },
-  "2-IV-1308": {
+  "2-IV-1309": {
    "transaction_type": "Redemption",
    "party1_name": "Louyse Roumane",
    "party1_origins": "de Pasitano",
@@ -23746,7 +23757,7 @@
    "decision": "Repaid 2 December 1610",
    "notes": null
   },
-  "2-IV-1309": {
+  "2-IV-1310": {
    "transaction_type": "Debt",
    "party1_name": "Battista Crouara",
    "party1_origins": "de Palerme",
@@ -23764,7 +23775,7 @@
    "keywords": "debt; slavery",
    "decision": null
   },
-  "2-IV-1310": {
+  "2-IV-1311": {
    "transaction_type": "Redemption",
    "party1_name": "Frère Jehan de Vallejo",
    "party1_origins": "de N.-D. de Montserrat",
@@ -23783,7 +23794,7 @@
    "decision": null,
    "notes": "Same person as Gioan de Valegio (act of 15 November). Act in French."
   },
-  "2-IV-1311": {
+  "2-IV-1312": {
    "transaction_type": "Power of attorney",
    "party1_name": "Lauria",
    "party1_origins": "de Palerme",
@@ -23802,7 +23813,7 @@
    "decision": null,
    "notes": "The power of attorney follows. Act in French."
   },
-  "2-IV-1312": {
+  "2-IV-1313": {
    "transaction_type": "Redemption",
    "party1_name": "Louyse Roumano",
    "party1_origins": "de Pasitano",
@@ -23820,7 +23831,7 @@
    "keywords": "ransom; loan; women",
    "decision": null
   },
-  "2-IV-1313": {
+  "2-IV-1314": {
    "transaction_type": "Other",
    "party1_name": null,
    "party1_origins": null,
@@ -23839,7 +23850,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1314": {
+  "2-IV-1315": {
    "transaction_type": "Payment / receipt",
    "party1_name": "Guilleaume Ardent",
    "party1_origins": "de Marseille",
@@ -23858,7 +23869,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1315": {
+  "2-IV-1316": {
    "transaction_type": "Redemption",
    "party1_name": "Pedro Delamiel de St-Stefano",
    "party1_origins": "de Biscaye",
@@ -23876,7 +23887,7 @@
    "keywords": "ransom; loan",
    "decision": null
   },
-  "2-IV-1316": {
+  "2-IV-1317": {
    "transaction_type": "Redemption",
    "party1_name": "Crisosthomo de Lauro",
    "party1_origins": "de Palerme",
@@ -23895,7 +23906,7 @@
    "decision": null,
    "notes": null
   },
-  "2-IV-1317": {
+  "2-IV-1318": {
    "transaction_type": "Power of attorney",
    "party1_name": "Battista Ugho",
    "party1_origins": "de Palerme",
@@ -23913,7 +23924,7 @@
    "keywords": "freight; power of attorney",
    "decision": null
   },
-  "2-IV-1318": {
+  "2-IV-1319": {
    "transaction_type": "Power of attorney",
    "party1_name": "Ysouf Rais Ingles",
    "party1_origins": "turc et janissaire de Tunis",
@@ -23932,7 +23943,7 @@
    "decision": null,
    "notes": "Followed by the promise signed by Pietro Gassan."
   },
-  "2-IV-1319": {
+  "2-IV-1320": {
    "transaction_type": "Protest / summons",
    "party1_name": "Hugues Changet",
    "party1_origins": null,
@@ -23951,7 +23962,7 @@
    "decision": null,
    "notes": "Act in French."
   },
-  "2-IV-1320": {
+  "2-IV-1321": {
    "transaction_type": "Debt",
    "party1_name": "Battista Crouare",
    "party1_origins": "de Palerme",
@@ -23969,7 +23980,7 @@
    "keywords": "loan",
    "decision": null
   },
-  "2-IV-1321": {
+  "2-IV-1322": {
    "transaction_type": "Debt",
    "party1_name": "Viltou de Hourxi",
    "party1_origins": "de Trapani",
@@ -23987,7 +23998,7 @@
    "keywords": "loan; ship",
    "decision": null
   },
-  "2-IV-1322": {
+  "2-IV-1323": {
    "transaction_type": "Redemption",
    "party1_name": "Coustanso Genaroune",
    "party1_origins": "de Palerme",
@@ -24005,7 +24016,7 @@
    "keywords": "ransom; fees; women",
    "decision": null
   },
-  "2-IV-1323": {
+  "2-IV-1324": {
    "transaction_type": "Sale / transfer",
    "party1_name": "Sidi Ysouf",
    "party1_origins": "turc de Tunis",
@@ -24023,7 +24034,7 @@
    "keywords": "ship sale",
    "decision": null
   },
-  "2-IV-1324": {
+  "2-IV-1325": {
    "transaction_type": "Power of attorney",
    "party1_name": "Jullian Pin",
    "party1_origins": "de Marseille",
@@ -24041,7 +24052,7 @@
    "keywords": "slavery; bagno; goods",
    "decision": null
   },
-  "2-IV-1325": {
+  "2-IV-1326": {
    "transaction_type": "Debt",
    "party1_name": "Pedro Toumaxello",
    "party1_origins": "de la Torre del Greco",

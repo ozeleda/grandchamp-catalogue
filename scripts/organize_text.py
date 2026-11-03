@@ -374,6 +374,7 @@ def build_acts(vol):
         o["after_act_seq"] = next((i for i, a in enumerate(acts) if a["summary"] == o["_before"]), len(acts))
     for a in acts:
         a["summary"] = re.sub(r"\s{2,}", " ", a["summary"]).strip()
+        a["summary"] = re.sub(r"^[-–.]\s*(?=En \w+\. —)", "", a["summary"])     # "- En italien. —"
         # the book prints ½ as a stacked fraction, which the Google OCR drops: "53 écus et d'or"
         fixed = re.sub(r"(\d+ (?:écus|pièces|onces|taris|réaulx|sequins|ducats|livres|cantars)(?: d'or)? et)"
                        r"(?=\s*(?:[,.;)]|d'or|payé|pour|de Sicile|de 8))", r"\1 ½", a["summary"])

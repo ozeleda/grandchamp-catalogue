@@ -376,7 +376,7 @@ def parse_analysis(pdf, vol):
             # A bare "s. d." line followed by an editor-supplied "[date]" entry is one act;
             # a scrap of a few characters is OCR debris split off the previous act.
             if (len(current["summary"]) < 20 and acts and noisy(vol)
-                    and not re.match(r"(?:En \w+\. — )?(?:\(\d+\) )?M[êe]me acte", current["summary"])):
+                    and not re.match(r"(?:En \w+\. — )?(?:\(\d+\) )?M[êe]me (?:acte|affaire|sujet)", current["summary"])):
                 acts[-1]["summary"] = (acts[-1]["summary"] + " " + current["summary"]).strip()
             elif current["summary"]:
                 acts.append(current)

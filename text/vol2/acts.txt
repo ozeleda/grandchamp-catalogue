@@ -3377,18 +3377,18 @@ language: français
 vice-consul: Anthoine Bérenger
 chancelier: Daussouyn
 amounts: 125 écus
-text: Mamy Montese, janissaire de Tunis, a avancé 125 écus pour le rachat de Roche Bonnaventure. Nicolas Scotto et Roche s'engagent à rembourser la somme à l'arrivée à Pa-
+text: Mamy Montese, janissaire de Tunis, a avancé 125 écus pour le rachat de Roche Bonnaventure. Nicolas Scotto et Roche s'engagent à rembourser la somme à l'arrivée à Palerme. (L'acte commencé en italien est terminé en français).
 
 [act 2-III-0292]
 date: 1604-09-29
-date printed: 29       -
+date printed: 29  —
 date status: printed in the margin
 register: III
 page: 47 (scan: La France en Tunisie v.2_Part1.pdf p. 64)
 language: français
 vice-consul: Anthoine Bérenger
 chancelier: Daussouyn
-text: lerme. (L'acte commencé en italien est terminé en français). Mouselim ....... (Il s'agit de la même affaire que là précédente).
+text: Mouselim ....... (Il s'agit de la même affaire que la précédente).
 
 [act 2-III-0293]
 date: 1604-09-29
@@ -8317,7 +8317,7 @@ language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 amounts: 300 écus
-text: - En italien. — Les mêmes empruntent dans les mêmes conditions 300 écus à Hisuffo Chiausso. (Même empreinte).
+text: En italien. — Les mêmes empruntent dans les mêmes conditions 300 écus à Hisuffo Chiausso. (Même empreinte).
 
 [act 2-III-0707]
 date: 1607-06-28
@@ -8459,7 +8459,7 @@ page: 104 (scan: La France en Tunisie v.2_Part1.pdf p. 123)
 language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
-text: - En italien. — Le patron Andrea Tardio, de Naples, nolise son navire nommé ((Sta-Maria del Carmine », à Marcho Franco, Gio Vinciguerra, Franco Stella et Piero La Grangia, pour aller à Naples.
+text: En italien. — Le patron Andrea Tardio, de Naples, nolise son navire nommé ((Sta-Maria del Carmine », à Marcho Franco, Gio Vinciguerra, Franco Stella et Piero La Grangia, pour aller à Naples.
 
 [act 2-III-0719]
 date: 1607-07-17
@@ -9167,7 +9167,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 amounts: 900 écus
 dates mentioned: 1608-06-02
-text: -En italien. — (65) Antonio Bartoletto, génois promet à Antonio Santoro, de Valence, qu'allant en Sardaigne pour « porter son rachat et celui de Santoro », il paiera une indemnité à celui-ci s'il n'est pas revenu à Tunis dans un délai donné. Santoro a promis 900 écus pour son propre rachat à Chaito Assano, renégat corse. (Une mention au bas de l'acte annule celui-ci. Cette mention est datée du 2 juin 1608).
+text: En italien. — (65) Antonio Bartoletto, génois promet à Antonio Santoro, de Valence, qu'allant en Sardaigne pour « porter son rachat et celui de Santoro », il paiera une indemnité à celui-ci s'il n'est pas revenu à Tunis dans un délai donné. Santoro a promis 900 écus pour son propre rachat à Chaito Assano, renégat corse. (Une mention au bas de l'acte annule celui-ci. Cette mention est datée du 2 juin 1608).
 
 [act 2-IV-0776]
 date: 1607-12-13
@@ -11140,9 +11140,21 @@ folio: 273
 language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
-text: En italien. — (273) Marcho Francesco, corse, demande qu'une information soit faite au sujet des circonstances qui ont entouré la mort de Asta Mami, renégat corse. Le testa- , ment n'aurait pas été observé par Ossoman Day. (Suivent deux témoignages). (275) Mème affaire. (276) Même affaire.
+text: En italien. — (273) Marcho Francesco, corse, demande qu'une information soit faite au sujet des circonstances qui ont entouré la mort de Asta Mami, renégat corse. Le testa- , ment n'aurait pas été observé par Ossoman Day. (Suivent deux témoignages). (275) Mème affaire.
 
 [act 2-IV-0932]
+date: 1608-08-20
+date printed: 20
+date status: printed in the margin
+register: IV
+page: 130 (scan: La France en Tunisie v.2_Part2.pdf p. 5)
+folio: 276
+language: français
+vice-consul: Anthoine Bérenger
+chancelier: Hercule Tamagny
+text: (276) Même affaire.
+
+[act 2-IV-0933]
 date: 1608-08-25
 date printed: 25
 date status: printed in the margin
@@ -11155,7 +11167,7 @@ chancelier: Hercule Tamagny
 amounts: 428 écus d'or d'Espagne
 text: En italien. — (278) Bata Carneglio, de Treghoso (Riv. de Gênes ) , doit au patron Gio di Rio, de Levante, 428 écus d'or d'Espagne payés pour son rachat à Mamet Bey. Somme remboursable un mois après l'arrivée à Livourne.
 
-[act 2-IV-0933]
+[act 2-IV-0934]
 date: 1608-08-28
 date printed: 28
 date status: printed in the margin
@@ -11169,7 +11181,7 @@ amounts: 52 écus d'or d'Espagne
 dates mentioned: 1606-10-17
 text: En italien. — (279) Mamet de Mussa, ture, janissaire de Tunis , a reçu de Niccolo d'Orestagno, de Palerme, 52 écus d'or d'Espagne. (Vise un acte du 17 octobre 1606 passé en réalité le 18. Voir plus haut).
 
-[act 2-IV-0934]
+[act 2-IV-0935]
 date: 1608-09-01
 date printed: 1er   sept.
 date status: printed in the margin
@@ -11182,7 +11194,7 @@ chancelier: Hercule Tamagny
 amounts: 23 écus d'or d'Espagne
 text: En italien. — (280) Niccola Guarello, génois, a reçu du patron Gio di Rio 23 écus d'or d'Espagne payés pour le complément de son rachat sur l'ordre de la Rédemption de Gênes.
 
-[act 2-IV-0935]
+[act 2-IV-0936]
 date: 1608-09-03
 date printed: 3
 date status: printed in the margin
@@ -11195,7 +11207,7 @@ chancelier: Hercule Tamagny
 amounts: 150 écus d'or d'Espagne; 64 aspres
 text: En italien. — (281) Hossoman Day, gouverneur et protecteur de la Milice du Royaume de Tunis, vend au patron Giovanni Rio une polacre de 1.200 cantars de portée pour 150 écus d'or d'Espagne et 64 aspres. La dite polacre n'a ni voiles, ni ancres, ni agrès d'aucune sorte. Elle a été prise par des corsaires et conduite à La Goulette où elle est depuis de « longs mois ».
 
-[act 2-IV-0936]
+[act 2-IV-0937]
 date: 1608-09-07
 date printed: 7 sept.
 date status: printed in the margin
@@ -11207,7 +11219,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (282) Niccola Dorestagno et Niccolo Scotto, de Palerme, déclarent que Giorgio di Franco, grec, embarqué sur le corsaire anglais du capitaine Vuardi, s'est noyé en mer lors de la perte de ce navire.
 
-[act 2-IV-0937]
+[act 2-IV-0938]
 date: 1608-09-07
 date printed: 7
 date status: printed in the margin
@@ -11219,7 +11231,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (283) Antonio Salada, de Sestri di Ponente, doit au patron Bata Rosso 125 pièces de 8 réaulx payées pour son rachat à Asta Moratto, renégat génois.
 
-[act 2-IV-0938]
+[act 2-IV-0939]
 date: 1608-09-08
 date printed: 8
 date status: printed in the margin
@@ -11232,7 +11244,7 @@ chancelier: Hercule Tamagny
 amounts: 128 écus
 text: En italien. — (284) Giovanni Temies, de La Rochelle, doit au patron Franco Stella, corse, 128 écus et 1/2 d'or d'Espagne payés pour son rachat à Assan Bali, ture de Bizerte. Somme remboursable un mois après l'arrivée à Marseille.
 
-[act 2-IV-0939]
+[act 2-IV-0940]
 date: 1608-09-08
 date printed: 8
 date status: printed in the margin
@@ -11245,7 +11257,7 @@ chancelier: Hercule Tamagny
 amounts: 120 écus d'or d'Espagne
 text: En italien. — (285) Melchione de Vegha, de Palerme, doit à Mamet Chorra, maure de Tunis, 120 écus d'or d'Espagne payés pour son rachat à Mami Rais, turc de Tunis. Somme remboursable quinze jours après l'arrivée à Palerme.
 
-[act 2-IV-0940]
+[act 2-IV-0941]
 date: 1608-09-09
 date printed: 9
 date status: printed in the margin
@@ -11258,7 +11270,7 @@ chancelier: Hercule Tamagny
 amounts: 45 écus
 text: En italien. — (286) Sebastian du Boys, de Marseille, doit au rais Amor Salim, maure de Rossetto, 45 écus prêtés et remboursables à Malte.
 
-[act 2-IV-0941]
+[act 2-IV-0942]
 date: 1608-09-09
 date printed: 9
 date status: printed in the margin
@@ -11270,7 +11282,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (287) Le patron Pantalino Tomasino et Gio Morellett, de Marseille (Jehan Maurellet), appelés à Tunis par le Consul de France, certifient que celui-ci a remis en leur présence au patron Antonio Fonter des lettres et papiers à porter aux Consuls et Gouverneur de Marseille. Fonter a répondu qu'il était prêt à mettre à la voile.
 
-[act 2-IV-0942]
+[act 2-IV-0943]
 date: 1608-09-16
 date printed: 16
 date status: printed in the margin
@@ -11283,7 +11295,7 @@ chancelier: Hercule Tamagny
 amounts: 42 écus
 text: En italien. — (288) Marco Franco, corse, a reçu de Pietro Paulo Anbrogin 42 écus de 12 réaulx castillans que celui-ci lui devait.
 
-[act 2-IV-0943]
+[act 2-IV-0944]
 date: 1608-09-17
 date printed: 17
 date status: printed in the margin
@@ -11295,7 +11307,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (289) Pietro Paulo Anbrogin, corse habitant à Marseille, donne une procuration à Antonio Calvano pour récupérer certaines créances.
 
-[act 2-IV-0944]
+[act 2-IV-0945]
 date: 1608-09-17
 date printed: 17
 date status: printed in the margin
@@ -11308,7 +11320,7 @@ chancelier: Hercule Tamagny
 amounts: 50 écus d'or d'Espagne
 text: En italien. — (290) Pietro Paulo Anbrogino a reçu de Francesco Stella, corse, habitant à Marseille, 50 écus d'or d'Espagne à employer en marchandises dans l'intérieur de la Tunisie où Anbrogin va aller. La moitié du bénéfice sera pour Francesco Stella.
 
-[act 2-IV-0945]
+[act 2-IV-0946]
 date: 1608-09-18
 date printed: 18 sept.
 date status: printed in the margin
@@ -11320,7 +11332,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (291) Gio Martino, écuyer de la Ville de Marseille, parti de La Goulette avec la barque « Santa Maria bona ventura », patron Onorato Marin, avec 30 chevaux et des cuirs pour Marseille le 17 août, déclare qu'une voie d'eau se produisit immédiatement et qu'à la hauteur du Cap Carthage les chevaux avaient de l'eau jusqu'aux genoux. Entre la Galite et la Sardaigne, le vent de mistral s'étant levé et la voie d'eau continuant à remplir le bateau, il fut décidé d'aller relâcher à l'île de Tabarca, ce qui fut fait. Là, un maître charpentier examina le bateau et déclara qu'il fallait changer des bordages; mais le capitaine et les marins, pour ne pas perdre trop de temps, se contentèrent d'une plaque de plomb sur de la toile. Le bateau reprit la mer le 25 août; 24 heures après, une autre voie d'eau se produisit. Un homme du bord réussit à l'aveugler et on put atteindre la Sardaigne. Deux chevaux étaient morts. Parti le 6 septembre pour la Provence, le bateau fut pris le 7 par deux corsaires qui le conduisirent à Bizerte. Là, d'autres chevaux étant morts, le reste fut mis à terre. Une fois la barque remise en état, les chevaux seront rembarqués et, avec l'aide de Dieu, Martin espère arriver en Provence. (Suivent deux témoignages).
 
-[act 2-IV-0946]
+[act 2-IV-0947]
 date: 1608-09-22
 date printed: 22
 date status: printed in the margin
@@ -11333,7 +11345,7 @@ chancelier: Hercule Tamagny
 amounts: 216 écus d'or d'Espagne
 text: En italien. — (295) Gio Martin doit à Antonio Calvano 216 écus d'or d'Espagne prêtés et remboursables un mois après l'arrivée à Marseille.
 
-[act 2-IV-0947]
+[act 2-IV-0948]
 date: 1608-09-28
 date printed: 28
 date status: printed in the margin
@@ -11346,7 +11358,7 @@ chancelier: Hercule Tamagny
 amounts: 11 écus
 text: En italien. — (296) Antonio Calvano, de Marseille, a vu consigner à Anton Manfredini, corse, 19 barriques et demie de vin de Sardaigne par Santo di Marco, Stefano Simodey et le patron Stefano Sicard. Au bout de quelques mois, Manfredini, qui était chargé de vendre ce vin, n'ayant pas trouvé d'acheteur, le vin s'est gâté et n'a pu être vendu ensuite que 11 écus et 1/2 la barrique.
 
-[act 2-IV-0948]
+[act 2-IV-0949]
 date: 1608-09-28
 date printed: 28                           -
 date status: printed in the margin
@@ -11359,7 +11371,7 @@ chancelier: Hercule Tamagny
 ocr corrections: Barbafie -> Barbarie
 text: En italien. — (297) Le patron Girolamo Bonfante, génois, donne une procuration à Anto Boero pour récupérer certaines créances à Tunis et en Barbarie.
 
-[act 2-IV-0949]
+[act 2-IV-0950]
 date: 1608-10-11
 date printed: 11 oct.
 date status: printed in the margin
@@ -11372,7 +11384,7 @@ chancelier: Hercule Tamagny
 amounts: 200 écus d'or d'Espagne
 text: En italien. — (299) La dame Dienora di Stefano Bonsignore, de Reggio (Naples), doit à Marco Quarantotti, de Pise, 200 écus d'or d'Espagne payés pour son rachat à Mamet Cielebi, turc de Tunis. Somme remboursable à Naples.
 
-[act 2-IV-0950]
+[act 2-IV-0951]
 date: 1608-10-11
 date printed: 11  —
 date status: printed in the margin
@@ -11385,7 +11397,7 @@ chancelier: Hercule Tamagny
 amounts: 200 écus d'or d'Espagne
 text: En italien. — (300) Hercole Bonsignore, de Reggio, doit à Mario Quarantotti, de Pise, 200 écus d'or d'Espagne payés pour son rachat à Mamet Cielebi, turc de Tunis. Somme remboursable à Naples.
 
-[act 2-IV-0951]
+[act 2-IV-0952]
 date: 1608-10-14
 date printed: 14  —
 date status: printed in the margin
@@ -11397,7 +11409,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (301) Hercules Trullet, de Toulon, patron de la barque « Santa Anna bona ventura », se trouvant à Cagliari chargée de fromage pour Livourne, est parti le 3 octobre. Le même jour, il a été pris par un « petachio » monté par des corsaires turcs et anglais. Ceux-ci ont conduit le bateau à La Goulette et l'ont déchargé; ils ont également pillé les armes et munitions et les effets de l'équipage. Les français ont été relâchés sur l'intervention du Consul. (Suivent trois témoignages).
 
-[act 2-IV-0952]
+[act 2-IV-0953]
 date: 1608-10-20
 date printed: 20  —
 date status: printed in the margin
@@ -11409,7 +11421,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (305) Gio Felippo Bandenches (Badencas), de Gliesan (Catalogne), donne une procuration à Domco Vesciere, recteur et curé de Villa Givica de Crespian, pour se procurer des fonds. (Evidemment pour le rachat du constituant).
 
-[act 2-IV-0953]
+[act 2-IV-0954]
 date: 1608-10-20
 date printed: 20  —
 date status: printed in the margin
@@ -11421,7 +11433,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (306) Le patron Monet Ardison, de Cannes, parti de Malte le 10 octobre pour aller à Syracuse avec la tartane « Gio Bona Ventura », charger du vin, a été pris le 11 par cinq galères de Bizerte. Monet et ses hommes sont passés sur les galères; la tartane, une fois pillée, a été abandonnée en mer. Le Consul a fait relâcher l'équipage. (Suivent deux témoignages).
 
-[act 2-IV-0954]
+[act 2-IV-0955]
 date: 1608-11-07
 date printed: 7 nov.
 date status: printed in the margin
@@ -11433,7 +11445,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (308) Le patron Gio Udibert (Audibert), de Sixfours, se trouvant à Taragone, a nolisé sa polacre « San Diego » à Marco Franco, corse, pour aller de Taragone à Tunis et de là à Marseille. D'un commun accord, le chargeur et le patron décident que le bateau ira à Nice.
 
-[act 2-IV-0955]
+[act 2-IV-0956]
 date: 1608-11-07
 date printed: 7   —
 date status: printed in the margin
@@ -11445,7 +11457,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (309) Gabriello Pentinato, du Cap de Taragone, donne une procuration à Chaterina Pentinato, sa fille, pour se procurer des fonds.
 
-[act 2-IV-0956]
+[act 2-IV-0957]
 date: 1608-11-07
 date printed: 7 nov.
 date status: printed in the margin
@@ -11458,7 +11470,7 @@ chancelier: Hercule Tamagny
 amounts: 65 écus d'or d'Espagne
 text: En italien. — (310) Raffaello Villa beglia (Villabella), d'Ostelrich en Catalogne, doit à Franco Cipriotto, grec habitant à Malte, 65 écus d'or d'Espagne prêtés et remboursables quinze jours après l'arrivée à Cagliari.
 
-[act 2-IV-0957]
+[act 2-IV-0958]
 date: 1608-11-10
 date printed: 10
 date status: printed in the margin
@@ -11470,7 +11482,7 @@ chancelier: Hercule Tamagny
 amounts: 118 écus d'or d'Espagne
 text: En italien. — 311) Le patron Franco Balester, de Sigies Catalogne), doit à Anto Arnaud et Gio Bata Pin, catalan, 118 écus d'or d'Espagne prêtés et remboursables à San Felippo.
 
-[act 2-IV-0958]
+[act 2-IV-0959]
 date: 1608-11-11
 date printed: 11
 date status: printed in the margin
@@ -11482,7 +11494,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (312) Gio Mottet (J. de Motet), de Marseille, doit à Antonio Calvano 124 pièces et 1/2 de 8 réaulx castillans prêtés.
 
-[act 2-IV-0959]
+[act 2-IV-0960]
 date: 1608-11-12
 date printed: 12
 date status: printed in the margin
@@ -11494,7 +11506,7 @@ chancelier: Hercule Tamagny
 amounts: 84 écus d'or d'Espagne
 text: En italien. — 313 Raffael Villa beglia doit à Gio B. Pin 84 écus d'or d'Espagne prêtés et remboursables à Barcelone.
 
-[act 2-IV-0960]
+[act 2-IV-0961]
 date: 1608-11-12
 date printed: 12
 date status: printed in the margin
@@ -11508,7 +11520,7 @@ amounts: 110 écus d'or d'Espagne
 ocr corrections: Carlagi -> Cartagi
 text: En italien. — (314) Muzio Bolzano, Nunziante Paghano, ont emprunté à Mustafa Cartagi, ture et janissaire de Tunis, 110 écus d'or d'Espagne remboursables dans le délai de quatre mois. Comme garantie, Nunziante est resté dans les mains de Mustafa; Muzio et Luca Romano vont aller à Naples pour se procurer des fonds, puis ils reviendront à Tunis rembourser Mustafa et délivrer Nunziante.
 
-[act 2-IV-0961]
+[act 2-IV-0962]
 date: 1608-11-12
 date printed: 12
 date status: printed in the margin
@@ -11519,7 +11531,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — ) (315 Marco Quarantotti, de Pise, a racheté à Assan, renégal corse, un chrétien nommé Hercole Bonsignore, de Reggio. Celui-ci est mort le 10 novembre et a été enterré à « l'endroit habituel du bastion ». Marco demande au Consul de faire certifier la chose par témoins. (Suivent deux témoignages).
 
-[act 2-IV-0962]
+[act 2-IV-0963]
 date: 1608-11-15
 date printed: 15
 date status: printed in the margin
@@ -11532,7 +11544,7 @@ chancelier: Hercule Tamagny
 amounts: 400 écus d'or d'Espagne
 text: En italien. — (316) Gio Bata Delis (Delies), de Valence, doit à Antonio Santoro, de la même ville, 400 écus d'or d'Espagne payés pour son rachat et remboursables à l'arrivée à Valence.
 
-[act 2-IV-0963]
+[act 2-IV-0964]
 date: 1608-11-15
 date printed: 15
 date status: printed in the margin
@@ -11545,7 +11557,7 @@ chancelier: Hercule Tamagny
 amounts: 400 écus d'or d'Espagne
 text: En italien. — (317) Anto Santoro, de Valence, a reçu de Gio Bata de Lis 400 écus d'or d'Espagne qu'il lui avait prêtés pour payer son rachat.
 
-[act 2-IV-0964]
+[act 2-IV-0965]
 date: 1608-11-17
 date printed: 17
 date status: printed in the margin
@@ -11557,7 +11569,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (318) Giuseppe Sergio, de Palerme, a reçu castillans qu'il lui avait prêtés à Trapani " .. de Lattanzio Fronzo, de la même ville, 300 pièces de 8 réaulx
 
-[act 2-IV-0965]
+[act 2-IV-0966]
 date: 1608-11-19
 date printed: 19
 date status: printed in the margin
@@ -11569,7 +11581,7 @@ chancelier: Hercule Tamagny
 amounts: 120 écus
 text: En italien. — 319) Mamet Chorra, maure de Tunis, donne une procuration à Salima, fille de Mamet Bettingieri (? ), femme du dit Mamet Chorra, alors à Palerme, pour récupérer une créance de 120 écus sur Melchion de Vegha.
 
-[act 2-IV-0966]
+[act 2-IV-0967]
 date: 1608-11-20
 date printed: 20 nov.
 date status: printed in the margin
@@ -11582,7 +11594,7 @@ chancelier: Hercule Tamagny
 amounts: 214 écus d'or d'Espagne
 text: En italien. — (320) Antonello Colonna et Giuseppe Colonna, sonfils, doivent à Luca Romano, de la Torre del Greco, 214 écus d'or d'Espagne payés pour le rachat de Giuseppe à Mustafa fils de Assan bali, turc de Tunis. Somme remboursable quinze jours après l'arrivée à Naples.
 
-[act 2-IV-0967]
+[act 2-IV-0968]
 date: 1608-11-20
 date printed: 20
 date status: printed in the margin
@@ -11595,7 +11607,7 @@ chancelier: Hercule Tamagny
 amounts: 214 écus
 text: En italien. — (321) Nuntiante di Cesaro, de Vetri, Muzio Bolzano, Gio Bata Lispagnuolo étaient présents lorsque Luca Romano a rachelé pour 214 écus à Mustafa, fils d'Assan Bali, Giuseppe de Antonello Colonna.
 
-[act 2-IV-0968]
+[act 2-IV-0969]
 date: 1608-11-21
 date printed: 21
 date status: printed in the margin
@@ -11607,7 +11619,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (322) Marco Quarantotti, de Pise, arbitre -dans le différend survenu entre Gio Bata Danna et Niccolo et Francesco Scotto, expose ce qui a été fait. Le deuxième arbitre, le patron Girolamo Bianco, a refusé de rédiger une sentence. Gio B. Danna est toujours prisonnier dans le bagne des janissaires de Tunis.
 
-[act 2-IV-0969]
+[act 2-IV-0970]
 date: 1608-11-21
 date printed: 21
 date status: printed in the margin
@@ -11618,7 +11630,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (333. Par suite d'une erreur, la pagination saute de 322 à 333). Au sujet du rachat de Giuseppe Colonna.
 
-[act 2-IV-0970]
+[act 2-IV-0971]
 date: 1608-11-22
 date printed: 22
 date status: printed in the margin
@@ -11631,7 +11643,7 @@ chancelier: Hercule Tamagny
 ocr corrections: cerfifient -> certifient
 text: En italien. — (331) Pietro Matricia, de Palerme, esclave de Ali Pacha, et Giovanni Tirella, esclave du même Pacha, certifient qu'il y a environ sept mois Paulo Manchuzo était à Constantinople esclave de Bairam Chaia, de Stamboul, kaya de l'Arsenal de cette ville.
 
-[act 2-IV-0971]
+[act 2-IV-0972]
 date: 1608-11-23
 date printed: 23
 date status: printed in the margin
@@ -11644,7 +11656,7 @@ chancelier: Hercule Tamagny
 amounts: 60 écus d'or d'Espagne
 text: En italien. — (335) Nunziante di Ciesaro, de Vetri, doit à Muzio Bolzano et Luca Romano, de la Torre del Greco, 60 écus d'or d'Espagne prêtés pour payer son rachat à Ossoman Day. Somme remboursable à l'arrivée à Naples..
 
-[act 2-IV-0972]
+[act 2-IV-0973]
 date: 1608-11-24
 date printed: 24
 date status: printed in the margin
@@ -11657,7 +11669,7 @@ chancelier: Hercule Tamagny
 amounts: 325 écus d'or d'Espagne; 1.300 écus
 text: En italien. — (336) Le patron Pietro Tomasello, de la Torre del Greco, a reçu de Lorenzo Pira, de Sassari, Giovanni di Gerolamo, génois, Tomasello Palonbo, de la Torre del Greco, 325 écus d'or d'Espagne pour payer la quatrième part du vaisseau la « Nunziata » avec son chargement de poisson que Pietro Tomasello a payés 1.300 écus.
 
-[act 2-IV-0973]
+[act 2-IV-0974]
 date: 1608-11-25
 date printed: 25
 date status: printed in the margin
@@ -11669,7 +11681,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (338) Lattanza Fronzo et le patron Domenico Calabro demandent à Hugues Changet, vice-consul, de régler un différend entre eux. Il s'agit de l'instrument qui a servi à mesurer certaines marchandises. Hugues Changet décide que cet instrument sera mis sous scellés et vérifié par le consul de France à Palerme.
 
-[act 2-IV-0974]
+[act 2-IV-0975]
 date: 1608-11-25
 date printed: 25 nov.
 date status: printed in the margin
@@ -11681,7 +11693,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (339) Mamet, ex-Pacha du Royaume de Tunis, expose que le dernier jour de février passé il a vendu à Ulivier Chiavary et Andrea Fiorini, pour le compte de Bernardino Culles, un navire de 1.500 salmes de portée. Les acheteurs ont demandé une diminution du prix convenu.
 
-[act 2-IV-0975]
+[act 2-IV-0976]
 date: 1608-11-28
 date printed: 28
 date status: printed in the margin
@@ -11694,7 +11706,7 @@ chancelier: Hercule Tamagny
 amounts: 1.915 écus d'or; 50 aspres
 text: En italien. — (340) Giovan Angelo Paulello a acheté à Ossoman Day un navire chargé de poisson et d'autres marchandises pour 1.915 écus d'or el 50 aspres. Navire et chargement vont aller à Naples sous la conduite du patron Pietro Tomasello, de la Torre del Greco.
 
-[act 2-IV-0976]
+[act 2-IV-0977]
 date: 1608-11-28
 date printed: 28 -
 date status: printed in the margin
@@ -11707,7 +11719,7 @@ chancelier: Hercule Tamagny
 amounts: 240 écus d'or d'Espagne
 text: En italien. — (311) Ottavio Battaglia, de Lipari, a reçu de Giovan Angelo Paulello, napolitain, 240 écus d'or d'Espagne qui avaient été donnés à celui-ci par Batta Charollo pour racheter un esclave ou, à défaut, remettre la somme à Battaglia.
 
-[act 2-IV-0977]
+[act 2-IV-0978]
 date: 1608-11-28
 date printed: 28
 date status: printed in the margin
@@ -11720,7 +11732,7 @@ chancelier: Hercule Tamagny
 amounts: 220 écus d'or d'Espagne
 text: En italien. — (342) Giovanni Angelo Paulello déclare que dans l'achat du bateau chargé de poisson dont il a été question plus haut, Ottavio Battaglia participe pour 220 écus d'or d'Espagne.
 
-[act 2-IV-0978]
+[act 2-IV-0979]
 date: 1608-11-28
 date printed: 28
 date status: printed in the margin
@@ -11733,7 +11745,7 @@ chancelier: Hercule Tamagny
 amounts: 250 écus d'or d'Espagne
 text: En italien. — (343) Pietro Hendrich, flamand, participe dans la même affaire pour 250 écus d'or d'Espagne.
 
-[act 2-IV-0979]
+[act 2-IV-0980]
 date: 1608-11-28
 date printed: 28
 date status: printed in the margin
@@ -11746,7 +11758,7 @@ chancelier: Hercule Tamagny
 amounts: 100 écus d'or d'Espagne
 text: En italien. — (344) Moratto, renégat de Messine, a reçu de Franco Scotto, de Palerme, 100 écus d'or d'Espagne à valoir sur les 200 du rachat de Fra Antonino Lazzolena.
 
-[act 2-IV-0980]
+[act 2-IV-0981]
 date: 1608-11-30
 date printed: 30
 date status: printed in the margin
@@ -11758,7 +11770,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (345) Testament de Giovan Angielo Paulello, de Naples.
 
-[act 2-IV-0981]
+[act 2-IV-0982]
 date: 1608-11-30
 date printed: 30
 date status: printed in the margin
@@ -11770,7 +11782,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (347) Le patron Gio Valentino, de Marseille, et Marco Quarantotti, de Pise, font connaître leur avis au sujet d'un différend entre Gregorio Bonsignore et Hulivier Chiavary..
 
-[act 2-IV-0982]
+[act 2-IV-0983]
 date: 1608-12-04
 date printed: 4 déc.
 date status: printed in the margin
@@ -11784,7 +11796,7 @@ amounts: 120 écus d'or d'Espagne
 dates mentioned: 1608-11-20
 text: En italien. — (348) Antonello Colonna et Giuseppe Colonna, son fils, comparaissent avec Marcantonio Paulello. Celui-ci déclare qu'il a reçu d'eux 120 écus d'or d'Espagne sur les 214 qu'ils doivent à Luca Romano. (Voir l'acte du 20 novembre 1608).
 
-[act 2-IV-0983]
+[act 2-IV-0984]
 date: 1608-12-04
 date printed: 4 déc.
 date status: printed in the margin
@@ -11796,7 +11808,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (349) Consulat du patron Pierre Coraud, de Marseille. Son navire « Sta Maria et Sta Anna » a été pris par des corsaires turcs et anglais alors qu'il allait de Chypre à Venise. L'un des corsaires s'appelait la « Maddalena ». Coraud et ses marins, amenés le 22 novembre à Tunis, ont été relâchés sur les instances du consul de France, mais les marchandises de la cargaison ont été pillées. (Suivent quatre témoignages).
 
-[act 2-IV-0984]
+[act 2-IV-0985]
 date: 1608-12-04
 date printed: 4
 date status: printed in the margin
@@ -11808,7 +11820,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (353) Gregorio di Trifine Colenda ........ donne une procuration à Gio di Trifine Raugio et Jacomo Berty, de Croccibianca, pour se procurer des fonds.
 
-[act 2-IV-0985]
+[act 2-IV-0986]
 date: 1608-12-04
 date printed: 4
 date status: printed in the margin
@@ -11821,7 +11833,7 @@ chancelier: Hercule Tamagny
 amounts: 80 écus d'or d'Espagne
 text: En italien. — (355) Gregorio Bonsignore, de Trapani, a reçu du patron Ulivier Chiavari 80 écus d'or d'Espagne pour le compte de Gio Gramignano.
 
-[act 2-IV-0986]
+[act 2-IV-0987]
 date: 1608-12-06
 date printed: 6
 date status: printed in the margin
@@ -11834,7 +11846,7 @@ chancelier: Hercule Tamagny
 amounts: 3.000 écus d'or d'Espagne
 text: En italien. — (356) Le patron Giovann Gripari, de Chio, et le patron Pasquale Simodey, corse, ont acheté à Ossoman Day, gouverneur et protecteur de la Milice du Royaume de Tunis, un navire de 1.000 salmes avec ses agrès, mais sans artillerie, avec un chargement de morue pour 3.000 écus d'or d'Espagne qui ont été payés comptant. Le navire, qui se trouve à La Goulette, va être conduit à Naples.
 
-[act 2-IV-0987]
+[act 2-IV-0988]
 date: 1608-12-06
 date printed: 6
 date status: printed in the margin
@@ -11847,7 +11859,7 @@ chancelier: Hercule Tamagny
 amounts: 1.300 écus
 text: En italien. — (358) Le patron Pietro Tomasello, de la Torre del Greco,fait une déclaration au sujet de l'achat de la « Nunziata », chargée de morue, payée 1.300 écus. Le navire va être conduit à Naples.
 
-[act 2-IV-0988]
+[act 2-IV-0989]
 date: 1608-12-09
 date printed: 9
 date status: printed in the margin
@@ -11859,7 +11871,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (359) Le patron Marco Antonio Paulello donne une procuration à Franco Paulello pour se procurer des fonds.
 
-[act 2-IV-0989]
+[act 2-IV-0990]
 date: 1608-12-09
 date printed: 9
 date status: printed in the margin
@@ -11872,7 +11884,7 @@ chancelier: Hercule Tamagny
 dates mentioned: 1608-11-25
 text: En italien. — (361) Le patron Menico Calabro, de la saettia « San Franco di Paula », et les marins de ce bateau font une déclaration au sujet du chargement. (Voir l'acte du 25 novembre 1608 et la sentence du Consul).
 
-[act 2-IV-0990]
+[act 2-IV-0991]
 date: 1608-12-09
 date printed: 9 déc.
 date status: printed in the margin
@@ -11885,7 +11897,7 @@ chancelier: Hercule Tamagny
 amounts: 80 onces de Sicile
 text: En italien. — (363) Le patron Menico Calabro a reçu de Lattanzo Fronzo, de Palerme, 80 onces de Sicile sur les 90 dues pour le fret de son navire.
 
-[act 2-IV-0991]
+[act 2-IV-0992]
 date: 1608-12-10
 date printed: 10
 date status: printed in the margin
@@ -11897,7 +11909,7 @@ chancelier: Hercule Tamagny
 dates mentioned: 1603-06
 text: En italien. — 364, Stefano Bianco Raugeo, Gio Lunardo de Nardo, napolitain, déclarent que se trouvant en juin 1603 sur le bateau la « Gierba » du baron Siculiana, ils ont pris part à un combat avec deux galères de Bizerte au cours duquel le capitaine Marichio di Curciola a été tué par un coup de canon.
 
-[act 2-IV-0992]
+[act 2-IV-0993]
 date: 1608-12-10
 date printed: 10
 date status: printed in the margin
@@ -11908,7 +11920,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — 365) Filippo, de Naples, et deux autres, ont vu mourir à Alger quatre ans auparavant Paulo Purizzoto. Ils étaient alors tous esclaves de Mamet Bey.
 
-[act 2-IV-0993]
+[act 2-IV-0994]
 date: 1608-12-11
 date printed: 11
 date status: printed in the margin
@@ -11920,7 +11932,7 @@ chancelier: Hercule Tamagny
 amounts: 68 écus d'or d'Espagne
 text: En italien. — (366. Nicolo Dorestagno a reçu de Fra Antonin Lazzolina, carmélite, 68 écus d'or d'Espagne.
 
-[act 2-IV-0994]
+[act 2-IV-0995]
 date: 1608-12-11
 date printed: 11
 date status: printed in the margin
@@ -11933,7 +11945,7 @@ chancelier: Hercule Tamagny
 amounts: 68 écus d'or d'Espagne
 text: En italien. — (367) Paulo di Pucio de Palerme, a reçu de Fra Antonino Lazzolina 68 écus d'or d'Espagne.
 
-[act 2-IV-0995]
+[act 2-IV-0996]
 date: 1608-12-19
 date printed: 19
 date status: printed in the margin
@@ -11945,7 +11957,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (368) Nardo Grima, maltais, donne une procuration à Stasia, fille de Stefanino Greco, femme du constituant, pour récupérer certaines créances.
 
-[act 2-IV-0996]
+[act 2-IV-0997]
 date: 1608-12-24
 date printed: 24
 date status: printed in the margin
@@ -11958,7 +11970,7 @@ chancelier: Hercule Tamagny
 amounts: 56 écus
 text: En italien. — (369) Le patron Pons Bonifay, de la Ciotat, étant allé à Alexandrie d'Egypte avec son navire le « Sta Maria Maddalena », nolisé par Antonio Bartoletto, a chargé de marchandises, indigo.et autres, pour Barcelone. Parti d'Alexandrie le 29 octobre, il est arrivé le 29 novembre à Malte où il est resté trois ou quatre jours pour se ravitailler. Le mauvais temps l'ayant forcé de passer par le cap Corse, il se trouvait la veille de St-André à 20 milles du dit cap. Là, il a rencontré une tartane montée par des corsaires anglais et tures qui lui ont tiré des coups de canon et des coups de mousquet qui ont avarié sa voilure. Les corsaires se sont emparés du bateau et l'ont conduit à La Goulette où il est arrivé le 7 décembre. Bonifay a déclaré que la marchandise était espagnole. Là, le navire a été à peu près complètement déchargé par les tures, puis rendu à son équipage. Bonifay a dû payer 56 écus. (Suivent quatre témoignages).
 
-[act 2-IV-0997]
+[act 2-IV-0998]
 date: 1609-01-15
 date printed: 15 janv.
 date status: printed in the margin
@@ -11971,7 +11983,7 @@ chancelier: Hercule Tamagny
 amounts: 20 écus d'or
 text: En italien. — (377) Mamet, odabassi de Tunis, a reçu de Rubino di Muse Asule, juif, 20 écus d'or et un sac de clefs que le dit Rubino avait été chargé de lui remettre par Agiballa, maure de Constantinople (?), esclave à Livourne.
 
-[act 2-IV-0998]
+[act 2-IV-0999]
 date: 1609-01-20
 date printed: 20  —
 date status: printed in the margin
@@ -11983,7 +11995,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (378) Domenico Mazzaro, de Naples, donne une procuration à Vincenso Valleggio, de Palerme, pour récupérer une créance sur Antonino di Antonio, de Naples.
 
-[act 2-IV-0999]
+[act 2-IV-1000]
 date: 1609-01-20
 date printed: 20  —
 date status: printed in the margin
@@ -11995,7 +12007,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Hercule Tamagny
 text: En italien. — (379) Domenico Mazzaro donne une procuration à Gio Tomaso Mazzaro, son père, pour récupérer la même créance.
 
-[act 2-IV-1000]
+[act 2-IV-1001]
 date: 1609-01-25
 date printed: 25  —
 date status: printed in the margin
@@ -12011,7 +12023,7 @@ text: En italien. — (380) Guaspari Alfonso, de Marseille, « à présent Consu
 
 [official] Martin, chancelier (heading on p. 139)
 
-[act 2-IV-1001]
+[act 2-IV-1002]
 date: 1609-02-09
 date printed: 9 fév.
 date status: printed in the margin
@@ -12024,7 +12036,7 @@ chancelier: Martin
 amounts: 45 écus; 25 aspres
 text: (381) Lanterme Vincentou, corse habitant à Marseille, a reçu d'Antoine Carravane 45 écus et 25 aspres, de 66 sous pièce, pour compte de Gaspard Grillet, de Marseille.
 
-[act 2-IV-1002]
+[act 2-IV-1003]
 date: 1609-02-10
 date printed: 10  —
 date status: printed in the margin
@@ -12036,7 +12048,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Martin
 text: (382) Anthoyne Bau, de Marseille, esclave à Tunis, donne une procuration à Urbane Trevese (?), de Marseille, pour s'occuper de ses affaires.
 
-[act 2-IV-1003]
+[act 2-IV-1004]
 date: 1609-02-12
 date printed: 12 fév.
 date status: printed in the margin
@@ -12048,7 +12060,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Martin
 text: (383) Information prise à la requête du patron Pierre Marin, de la Ciotat, contre Michel Dauby, nochier dudit vaisseau. Au sujet d'un vol d'argent commis à bord.
 
-[act 2-IV-1004]
+[act 2-IV-1005]
 date: 1609-02-11
 date printed: 11
 date status: printed in the margin
@@ -12061,7 +12073,7 @@ chancelier: Martin
 amounts: 185 écus
 text: (386) Le patron Jehan Lantoyne Garberin, de Crapet, a reçu 185 écus du patron Louys Leugou pour la rançon d'un maure que le déclarant a amené de Naples.
 
-[act 2-IV-1005]
+[act 2-IV-1006]
 date: 1609-02-12
 date printed: 12
 date status: printed in the margin
@@ -12073,7 +12085,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Martin
 text: (386) Le patron Pantellino Tomasin, de Marseille, déclare que, par suite du mauvais temps, l'eau a pénétré dans la cale de son navire et a fait du dégât à certaines marchandises. Un homme a été enlevé par la mer. (Suit une déposition).
 
-[act 2-IV-1006]
+[act 2-IV-1007]
 date: 1609-02-20
 date printed: 20--
 date status: printed in the margin
@@ -12086,7 +12098,7 @@ chancelier: Martin
 amounts: 220 écus
 text: (389) Bernard Lemerie, de Cannes, a reçu de Jehan Brevet 220 écus et 1/2 de 60 sous prêtés pour payer son rachat au Pacha de Tunis. Somme remboursable un mois après l'arrivée à Cannes.
 
-[act 2-IV-1007]
+[act 2-IV-1008]
 date: 1609-02-20
 date printed: 20
 date status: printed in the margin
@@ -12099,7 +12111,7 @@ chancelier: Martin
 amounts: 300 écus d'or d'Espagne
 text: En italien. — (300) Antonio Falone, de Malte, doit à Salime, de Zuara, 300 écus d'or d'Espagne payés pour son rachat à Assan balli, de Bizerte. Somme remboursable à Malte.
 
-[act 2-IV-1008]
+[act 2-IV-1009]
 date: 1609-02-23
 date printed: 23
 date status: printed in the margin
@@ -12112,7 +12124,7 @@ chancelier: Martin
 amounts: 229 écus; 50 aspres d'or d'Espagne; 114 onces; 25 taris de Sicile
 text: En italien. — (391) Matteo Derna, du Comos, doit à Franco Scotto, de Palerme, 229 écus et 50 aspres d'or d'Espagne payés pour son rachat à Romadan Bey. Correspond à 114 onces et 25 taris de Sicile.
 
-[act 2-IV-1009]
+[act 2-IV-1010]
 date: 1609-02-23
 date printed: 23
 date status: printed in the margin
@@ -12125,7 +12137,7 @@ chancelier: Martin
 amounts: 133 écus d'or d'Espagne; 66 onces; 15 taris
 text: En italien. — (392) Jacomo Maritato, de Palerme, doit à Franco Scotto 133 écus d'or d'Espagne payés pour son rachat à Mamet Cielebi. Correspond à 66 onces et 15 taris.
 
-[act 2-IV-1010]
+[act 2-IV-1011]
 date: 1609-02-23
 date printed: 23
 date status: printed in the margin
@@ -12138,7 +12150,7 @@ chancelier: Martin
 amounts: 57 écus; 28 onces
 text: En italien. — (393) Filippo Lomaghio, de Palerme, a reçu de Fr. Scotto 57 écus et 1/2 payés pour son rachat. Correspond à 28 onces
 
-[act 2-IV-1011]
+[act 2-IV-1012]
 date: 1609-02-23
 date printed: 23
 date status: printed in the margin
@@ -12150,7 +12162,7 @@ chancelier: Martin
 amounts: 12 taris; 100 écus d'or d'Espagne; 50 onces
 text: En italien. — et 12 taris. (394) Le patron Benedetto Pastina, génois, a reçu de Fr. Scotto 100 écus d'or d'Espagne payés pour son rachat. (50 onces).
 
-[act 2-IV-1012]
+[act 2-IV-1013]
 date: 1609-02-27
 date printed: 27
 date status: printed in the margin
@@ -12164,7 +12176,7 @@ amounts: 693 écus
 dates mentioned: 1609-02-25
 text: En italien. — (395) Guglielmo Picchott (Guillaume Picot), Guglielmo Bonhome, Giusselin Ledien, de St-Malo en Bretagne, doivent à Antonio Calvano, de Marseille, et Giache Reinaud, de la même ville, 693 écus et 1/3 d'or d'Espagne prêtés pour payer leur rachat à Ossoman Day. (La quittance en date du 25 février 1609 est au bas de l'acle).
 
-[act 2-IV-1013]
+[act 2-IV-1014]
 date: 1609-03-06
 date printed: 6 mars
 date status: printed in the margin
@@ -12177,7 +12189,7 @@ chancelier: Martin
 amounts: 120 écus; 52 aspres
 text: En italien. — (397) Salvadore Tizzo (ou Tozzo), de Palerme, doit à Franco Scotto 120 écus et 52 aspres payés pour son rachat à Barba (sic) Hasuffi.
 
-[act 2-IV-1014]
+[act 2-IV-1015]
 date: 1609-03-06
 date printed: 6
 date status: printed in the margin
@@ -12190,7 +12202,7 @@ chancelier: Martin
 amounts: 266 écus d'or d'Espagne
 text: En italien. — (398) Franco Coccia, de Squillaccia, doit à Gio Domenico Falacina, habitant à Malte, 266 écus d'or d'Espagne payés pour son rachat à Mamet Selibey, turc et janissaire de Tunis. Somme remboursable à Santa Femia (Calabre).
 
-[act 2-IV-1015]
+[act 2-IV-1016]
 date: 1609-03-06
 date printed: 6
 date status: printed in the margin
@@ -12202,7 +12214,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Martin
 text: En italien. — (399) Franco Coccia s'engage à donner à Franco Scotto tout ce qu'il faudra pour racheter un turc nommé Ossaino, de Gallipoli, esclave en Sicile.
 
-[act 2-IV-1016]
+[act 2-IV-1017]
 date: 1609-03-21
 date printed: 21
 date status: printed in the margin
@@ -12216,7 +12228,7 @@ amounts: 97 écus
 dates mentioned: 1609-02-20
 text: (400) Jehan Brevet, de Cannes, doit au patron Peyron Galant, de Marseille, 97 écus et 1/2 de 60 sous payés pour le rachat de Bernard Lemerie. (Voir l'acte du 20 février 1609).
 
-[act 2-IV-1017]
+[act 2-IV-1018]
 date: 1609-03-23
 date printed: 23
 date status: printed in the margin
@@ -12227,9 +12239,9 @@ language: français
 vice-consul: Anthoine Bérenger
 chancelier: Martin
 amounts: 32 écus; 16 aspres
-text: (401) Gaillard, maître maréchal de Marseille, doit à Jehan -Louis Joanis, de la même ville, 32 écus et 16 aspres. Somme
+text: (401) Gaillard, maître maréchal de Marseille, doit à Jehan -Louis Joanis, de la même ville, 32 écus et 16 aspres. Somme remboursable un mois après l'arrivée à Marseille.
 
-[act 2-IV-1018]
+[act 2-IV-1019]
 date: 1609-03-26
 date printed: 26
 date status: printed in the margin
@@ -12239,9 +12251,9 @@ language: français
 vice-consul: Anthoine Bérenger
 chancelier: Martin
 amounts: 119 écus; 13 aspres d'or d'Espagne
-text: En très mauvais italien. remboursable un mois après l'arrivée à Marseille. mano, dit Fraganelo, de Termini (Sicile), doit à Francisco Scotto 119 écus et 13 aspres d'or d'Espagne payés pour son rachat à Terevis (? ), janissaire. Vise le rachat d'un esclave turc.
+text: En très mauvais italien. — (402) Le patron Girolamo Romano, dit Fraganelo, de Termini (Sicile), doit à Francisco Scotto 119 écus et 13 aspres d'or d'Espagne payés pour son rachat à Terevis (? ), janissaire. Vise le rachat d'un esclave turc.
 
-[act 2-IV-1019]
+[act 2-IV-1020]
 date: 1609-03-30
 date printed: 30
 date status: printed in the margin
@@ -12254,7 +12266,7 @@ chancelier: Martin
 amounts: 276 écus
 text: (404) Guilleaume Piqot, Guilleaume Bon homme et Jausselin Ledien, de St-Malô, reconnaissent devoir à Joseph Estienne et Cº, de Marseille, 276 écus de 64 sous, monnaie de France, que leur a prêtés Hugues Changet pour leur rachat.
 
-[act 2-IV-1020]
+[act 2-IV-1021]
 date: 1609-04-02
 date printed: 2 avril
 date status: printed in the margin
@@ -12267,7 +12279,7 @@ chancelier: Martin
 dates mentioned: 1609-09-26
 text: (405) Même acte que le précédent. Les déclarants s'engagent à rembourser Joseph Estienne un mois après leur arrivée à Marseille. La quittance est enregistrée au-dessous de l'acte; elle est datée du 26 septembre 1609.
 
-[act 2-IV-1021]
+[act 2-IV-1022]
 date: 1609-04-04
 date printed: 4
 date status: printed in the margin
@@ -12280,7 +12292,7 @@ chancelier: Martin
 amounts: 57 écus d'or d'Espagne
 text: En italien. — (407) Antoni Mastia, catalan, doit à Jehan Bata Fia, de St-Felice, 57 écus d'or d'Espagne payés pour son rachat à Regepo, sous-comite de la galère de Mamet Bey. Somme remboursable deux mois après l'arrivée en Catalogne. (Fia doit être Jean Baptiste Pin).
 
-[act 2-IV-1022]
+[act 2-IV-1023]
 date: 1609-04-01
 date printed: 1 avril
 date status: printed in the margin
@@ -12293,7 +12305,7 @@ chancelier: Martin
 dates mentioned: 1608-02-16
 text: En italien. — (409) Domenico Riella, lombard, Bastiano Palombo, de la Torre, Pietro Napoleone, de Gilpary, esclaves de Ossoman Dey, ont connu au bagne de celui-ci Dominicho Labarbera, de Syracuse. Cet esclave est décédé le 16 février 1608. C'est Bastiano qui lui a enlevé les fers des pieds.
 
-[act 2-IV-1023]
+[act 2-IV-1024]
 date: 1609-04-16
 date printed: 16
 date status: printed in the margin
@@ -12305,7 +12317,7 @@ chancelier: Martin
 amounts: 400 écus d'or d'Espagne
 text: En italien. — 410) Nicolas Scotto et Nicolo Dorestagna doivent à Morato, renégat anglais, 400 écus d'or d'Espagne remboursables dans le délai d'un an.
 
-[act 2-IV-1024]
+[act 2-IV-1025]
 date: 1609-04-04
 date printed: 4 avril
 date status: printed in the margin
@@ -12318,7 +12330,7 @@ chancelier: Martin
 amounts: 300 écus d'or d'Espagne
 text: En italien. — (411) Cristofalo Moreles Romero, castillan, paiera dès son arrivée à Palerme à Mamet Chorra, maure de Tunis habitant à Palerme, 300 écus d'or d'Espagne payés pour son rachat à Sidi Amida (y compris tous les frais et l'intérêt).
 
-[act 2-IV-1025]
+[act 2-IV-1026]
 date: 1609-04-04
 date printed: 4
 date status: printed in the margin
@@ -12331,7 +12343,7 @@ chancelier: Martin
 amounts: 30 écus d'or d'Espagne
 text: En italien. — (112) Gio Batesta Danna, génois habitant à Palerme , doit à Francisco Scotto 30 écus d'or d'Espagne.
 
-[act 2-IV-1026]
+[act 2-IV-1027]
 date: 1609-04-04
 date printed: 4
 date status: printed in the margin
@@ -12344,7 +12356,7 @@ chancelier: Martin
 amounts: 300 écus
 text: En italien. — (414) Jhoano Tibiol, vénitien, donne une procuration à Salem ben Sala, maure de Zouara, pour se faire rembourser 300 écus par Sigismond Altano, également vénitien.
 
-[act 2-IV-1027]
+[act 2-IV-1028]
 date: 1609-04-08
 date printed: 8
 date status: printed in the margin
@@ -12356,7 +12368,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Martin
 text: En italien. — (415) Regnaude Povone, de Lonchyllo de Calabre, donne une procuration à Estoudio Manchonne pour récupérer une créance.
 
-[act 2-IV-1028]
+[act 2-IV-1029]
 date: 1609-04-10
 date printed: 10
 date status: printed in the margin
@@ -12369,7 +12381,7 @@ chancelier: Martin
 amounts: 500 écus d'or d'Espagne
 text: En italien. — (416) Le patron Peyron Gualant, de Marseille Pierre Blacho, de la même ville, Espinoso Pinto ont acheté à Ossoman Day un navire de 600 salmes avec ses voiles et agrès pour 500 écus d'or d'Espagne.
 
-[act 2-IV-1029]
+[act 2-IV-1030]
 date: 1609-04-11
 date printed: 11
 date status: printed in the margin
@@ -12382,7 +12394,7 @@ chancelier: Martin
 flags: copied in full in the annexes
 text: (418) Hugues Changet, à présent vice-consul pour la nation française, a reçu de Anfossy, de Marseille, ci-devant vice-consul, les vêtements de prêtre pour célébrer la messe, ainsi que les livres de la chancellerie. Il promet de ne s'en dessaisir qu'aux mains de qui viendrait exercer la charge de consul. Voir la copie in extenso aux Documents annexes.
 
-[act 2-IV-1030]
+[act 2-IV-1031]
 date: 1609-04-13
 date printed: 13
 date status: printed in the margin
@@ -12393,7 +12405,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Martin
 text: En italien. — Concia, calabrais, doit à Franco Scotto, de la somme qui sera nécessaire pour racheter un turc nommé Ossaino, qui est esclave en Sicile. Le déclarant est nommé dans le même acte « Guocia et Goicia
 
-[act 2-IV-1031]
+[act 2-IV-1032]
 date: 1609-04-13
 date printed: 13 avril
 date status: printed in the margin
@@ -12405,7 +12417,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Martin
 text: En italien. — (420) Nicolo Dorestagno et Antonio Salvago, de Palerme, et autres, se trouvant à Tunis la veille de la fête de la Conversion de St-Paul, certifient que le nommé Migniquo Coullotta a été tué ce jour-là dans la maison de Chouq Sain, son maître.
 
-[act 2-IV-1032]
+[act 2-IV-1033]
 date: 1609-04-14
 date printed: 14
 date status: printed in the margin
@@ -12418,7 +12430,7 @@ chancelier: Martin
 amounts: 91 écus d'or
 text: (421) Pierre Estienne, dit Négrin, d'Agde (?), doit à Antoine Calvano, de Marseille, 91 écus d'or prêtés et remboursables à Livourne. Negrin est patron du bateau « Ste-Madeleine ».
 
-[act 2-IV-1033]
+[act 2-IV-1034]
 date: 1609-04-14
 date printed: 14
 date status: printed in the margin
@@ -12431,7 +12443,7 @@ chancelier: Martin
 amounts: 650 écus d'or
 text: (422) Pierre Estienne doit à Pierre Lagrange, de Bordeaux, 650 écus d'or de 12 julii et 1/2 prêtés pour « l'ultime expédition » de son navire.
 
-[act 2-IV-1034]
+[act 2-IV-1035]
 date: 1609-04-15
 date printed: 15    -
 date status: printed in the margin
@@ -12444,7 +12456,7 @@ chancelier: Martin
 amounts: 50 écus d'or d'Espagne de Marseille
 text: En italien. — (423) Gioane Mourellet (Jehan Maurellet), doit à Pierre Lagrange 50 écus d'or d'Espagne de Marseille, prêtés pour « l'ultime expédition » de la polacre Sta-Barba.
 
-[act 2-IV-1035]
+[act 2-IV-1036]
 date: 1609-04-15
 date printed: 15
 date status: printed in the margin
@@ -12456,7 +12468,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Martin
 text: En italien. — (424) Marcantonio Paulillo, de Naples, donne une procuration au père Gian Batista de Hourso et au père Honoré Daponte, de la Congrégation des Jésuites, pour s'oecuper de ses affaires.
 
-[act 2-IV-1036]
+[act 2-IV-1037]
 date: 1609-04-16
 date printed: 16
 date status: printed in the margin
@@ -12471,7 +12483,7 @@ text: En italien. — (426) Regnaldo Pavvone, calabrais, doit à Estudio Mansson
 
 [official] Louys Changet, chancelier (heading on p. 143)
 
-[act 2-IV-1037]
+[act 2-IV-1038]
 date: 1609-04-17
 date printed: 17
 date status: printed in the margin
@@ -12485,7 +12497,7 @@ amounts: 1.416 écus; 1.016 écus; 400 écus
 dates mentioned: 1609-10-01
 text: En italien. — (427) Franco Scotto, de Palerme, s'engage à payer à Ali Pacha, roi de Tunis, 1.416 écus pour prix de 125 quintaux de poisson (1.016 écus), et 400 écus pour prix d'une patache flamande de 600 salmes de portée. La somme est payable le 1er octobre 1609; faute de ce faire, Scotto paiera le double à Ali Pacha. Scotto laisse à Tunis quatre personnes en garantie: Nicolo Scotto, son père; Nicolo d'Oristagno; Antonio Salvaggio; le père Antonino Lazzolina.
 
-[act 2-IV-1038]
+[act 2-IV-1039]
 date: 1609-04-17
 date printed: 17                          -
 date status: printed in the margin
@@ -12497,7 +12509,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (428) Antonino Squierdo, de Messine, donne une procuration à Salem ........ , maure, pour se procurer des fonds.
 
-[act 2-IV-1039]
+[act 2-IV-1040]
 date: 1609-04-17
 date printed: 17
 date status: printed in the margin
@@ -12510,7 +12522,7 @@ chancelier: Louys Changet
 amounts: 133 écus d'or d'Espagne; 66 onces; 15 taris de Sicile
 text: En italien. — (429) Franco Scotto, de Palerme, doit au patron Estoudo Mançone 133 écus d'or d'Espagne (66 onces et 15 taris de Sicile) que celui-ci lui a prêtés.
 
-[act 2-IV-1040]
+[act 2-IV-1041]
 date: 1609-04-18
 date printed: 18 avril
 date status: printed in the margin
@@ -12523,7 +12535,7 @@ chancelier: Louys Changet
 amounts: 80 écus d'or d'Espagne
 text: En italien. — (430) Don Agostino Barressi (Barres), espagnol de Madrid, habitant à Palerme, doit à Franco Scotto 80 écus d'or d'Espagne payés pour le complément de son rachat.
 
-[act 2-IV-1041]
+[act 2-IV-1042]
 date: 1609-04-18
 date printed: 18  —
 date status: printed in the margin
@@ -12535,7 +12547,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (431) Le P. Antonino Laciolina, carmélite, donne une procuration à Franco Scotto pour récupérer certaines créances.
 
-[act 2-IV-1042]
+[act 2-IV-1043]
 date: 1609-04-18
 date printed: 18  —
 date status: printed in the margin
@@ -12548,7 +12560,7 @@ chancelier: Louys Changet
 amounts: 60 sequins; 10 écus
 text: En italien. — (432) Gian Battista Buttaro, napolitain, a reçu de Serviano Gauderissi, de Malte, 60 sequins turcs et 10 écus de monnaie de Malte que celui-ci était chargé de lui remettre.
 
-[act 2-IV-1043]
+[act 2-IV-1044]
 date: 1609-04-21
 date printed: 21  —
 date status: printed in the margin
@@ -12561,7 +12573,7 @@ chancelier: Louys Changet
 amounts: 70 écus
 text: En italien. — (433) Gian Batista Dianna (?) doit à Franco Scotto 70 écus payés pour son rachat à Rageppi Malazzo et à Bayanolly Mami. (Peut-être « Batistagna »).
 
-[act 2-IV-1044]
+[act 2-IV-1045]
 date: 1609-04-21
 date printed: 21  —
 date status: printed in the margin
@@ -12574,7 +12586,7 @@ chancelier: Louys Changet
 amounts: 23 écus d'or d'Espagne
 text: En italien. — (434) Gian Batista Dianno, sicilien, doit à Osta Morato Genovese, janissaire de Tunis, 23 écus d'or d'Espagne que celui-ci lui a prêtés.
 
-[act 2-IV-1045]
+[act 2-IV-1046]
 date: 1609-04-21
 date printed: 21  —
 date status: printed in the margin
@@ -12587,7 +12599,7 @@ chancelier: Louys Changet
 amounts: 121 écus
 text: En italien. — (435) Gian Batista Dianna a reçu de Gian Lionardo Guarensia 121 écus.
 
-[act 2-IV-1046]
+[act 2-IV-1047]
 date: 1609-04-21
 date printed: 21  —
 date status: printed in the margin
@@ -12600,7 +12612,7 @@ chancelier: Louys Changet
 amounts: 210 écus d'or de 64 aspres
 text: (436) Batista delle Torre, homme de Phelippo Nomellino, a reçu de Assan, corse renégat de Cara Djafer, 210 écus d'or de 64 aspres la pièce. Somme remboursable le 15 juin suivant. La quittance en date du 25 août est au bas de l'acte.
 
-[act 2-IV-1047]
+[act 2-IV-1048]
 date: 1609-04-21
 date printed: 21  —
 date status: printed in the margin
@@ -12613,7 +12625,7 @@ chancelier: Louys Changet
 amounts: 100 écus d'or
 text: En italien. — (437) Le patron Petro Guassan, de Marseille, doit à Herculles Picholliny 100 écus d'or de 12 julii et 1/2 pour l'ultime expédition de la polacre « Ste-Marie bonne venture ».
 
-[act 2-IV-1048]
+[act 2-IV-1049]
 date: 1609-04-22
 date printed: 22  —
 date status: printed in the margin
@@ -12627,7 +12639,7 @@ amounts: 390 écus d'or
 dates mentioned: 1609-04-10
 text: (438) Les patrons Pierre Guasan et Pierre Blache ont reçu de Pierre La Grange 390 écus d'or qu'il leur a prêtés pour acheter le bateau « St-Pierre ». (Voir l'acte du 10 avril 1609).
 
-[act 2-IV-1049]
+[act 2-IV-1050]
 date: 1609-04-23
 date printed: 23  —
 date status: printed in the margin
@@ -12639,7 +12651,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (439) Jehan de Martin, de Marseille, et Pierre Soubeiran somment le patron Pantenlin Toumaxin d'embarquer les marchandises qu'il doit prendre et de partir pour Marseille. Suit la réponse du patron Toumaxin.
 
-[act 2-IV-1050]
+[act 2-IV-1051]
 date: 1609-04-24
 date printed: 24  —
 date status: printed in the margin
@@ -12652,7 +12664,7 @@ chancelier: Louys Changet
 amounts: 30 écus d'or d'Espagne
 text: En italien. — (441) Giuda Parente, hébreu de Fez, habitant à Livourne, doit à Osta Assan, turc renégat génois de Tunis, 30 écus d'or d'Espagne remboursables dans un délai de trois mois.
 
-[act 2-IV-1051]
+[act 2-IV-1052]
 date: 1609-04-24
 date printed: 24   avril
 date status: printed in the margin
@@ -12664,7 +12676,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (442) Jehan Gautier, habitant à Malte, et Agy Aly Fresgir, maure de Tunis, s'engagent, le premier à faire libérer à Malte un esclave maure nommé Abbedelem, maure de Tunis, et à le faire venir à Tunis; le second à mettre alors en liberté Jehan Gautier.
 
-[act 2-IV-1052]
+[act 2-IV-1053]
 date: 1609-04-25
 date printed: 25
 date status: printed in the margin
@@ -12676,7 +12688,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: ( 443) Jehan de Martin et Pierre de Soubeyran ayant appris que les marins du bateau de Toumasin ont débarqué tellement le dit bateau était en mauvais état, rendent responsable le patron en question des pertes que leur occasionne ce retard.
 
-[act 2-IV-1053]
+[act 2-IV-1054]
 date: 1609-04-28
 date printed: 28
 date status: printed in the margin
@@ -12689,7 +12701,7 @@ chancelier: Louys Changet
 amounts: 250 écus d'or d'Espagne
 text: En italien. — (446) Antonyno Esguerdo, de Messine, doit à Angelo Ajoux, de Malte, et à Abdalla Amet, de Djerba, 250 écus d'or d'Espagne payés pour son rachat à Arnaout Moustafa. Somme remboursable à l'arrivée à Malte.
 
-[act 2-IV-1054]
+[act 2-IV-1055]
 date: 1609-04-28
 date printed: 28   -
 date status: printed in the margin
@@ -12702,7 +12714,7 @@ chancelier: Louys Changet
 amounts: 40 écus
 text: (448) Le patron Pierre Blage (Blache) a reçu de Toumas Evangeliste, marchand de Marseille, 40 écus et 1/3 pour la dernière expédition de son vaisseau, le « St-Pierre bonne venture ».
 
-[act 2-IV-1055]
+[act 2-IV-1056]
 date: 1609-04-28
 date printed: 28 -
 date status: printed in the margin
@@ -12715,7 +12727,7 @@ chancelier: Louys Changet
 amounts: 180 écus d'or
 text: En italien. — (449) Serviano Gauderisse a reçu de Abdalla Aman, djerbien, 180 écus d'or pour le prix d'une frégate de 600 quintaux vendue à Hammamet.
 
-[act 2-IV-1056]
+[act 2-IV-1057]
 date: 1609-04-28
 date printed: 28
 date status: printed in the margin
@@ -12728,7 +12740,7 @@ chancelier: Louys Changet
 amounts: 38 écus d'or d'Espagne
 text: (450) Mouchouan Tabarin, de Marseille, a reçu de Pierre Antibou, de St-Tropez, 38 écus d'or d'Espagne à titre de prèt.
 
-[act 2-IV-1057]
+[act 2-IV-1058]
 date: 1609-05-05
 date printed: 5 mai
 date status: printed in the margin
@@ -12741,7 +12753,7 @@ chancelier: Louys Changet
 amounts: 200 écus d'or d'Espagne
 text: En italien. — (451) Pedro Andres, fils de Andres Rodrigos, portugais, doit à Mette Corral (Amet Chorra), maure de Tunis, 200 écus d'or d'Espagne payés pour son rachat à Carfagy Moustafa, mansone aga (mansoul agha). Somme remboursable quinze jours après l'arrivée à Palerme.
 
-[act 2-IV-1058]
+[act 2-IV-1059]
 date: 1609-05-06
 date printed: 6
 date status: printed in the margin
@@ -12754,7 +12766,7 @@ chancelier: Louys Changet
 amounts: 31 écus
 text: (453) Balthezar Rodomont de St-Gal habitant à Marseille doit à Jehan Pierre, marinier, de Marseille, 31 écus et 1/4 de 64 sous . Somme remboursable six jours après l'arrivée à Marseille.
 
-[act 2-IV-1059]
+[act 2-IV-1060]
 date: 1609-05-06
 date printed: 6
 date status: printed in the margin
@@ -12767,7 +12779,7 @@ chancelier: Louys Changet
 amounts: 31 écus
 text: (454) Pierre Gaillard, de Marseille, doit à Gilles Bouyer, marchand de la même ville, 31 écus et 1/4. Somme remboursable quinze jours après l'arrivée à Marseille.
 
-[act 2-IV-1060]
+[act 2-IV-1061]
 date: 1609-05-09
 date printed: 9 mai
 date status: printed in the margin
@@ -12780,7 +12792,7 @@ chancelier: Louys Changet
 amounts: 25 écus d'or d'Espagne
 text: En italien. — (456) Le patron Pedro Casollo, de Pinède en Catalogne, Jaumes Gros (Jauma Gros), également catalan, doivent à Battista Pin, de San Felice, 25 écus d'or d'Espagne.
 
-[act 2-IV-1061]
+[act 2-IV-1062]
 date: 1609-05-13
 date printed: 13  —
 date status: printed in the margin
@@ -12793,7 +12805,7 @@ chancelier: Louys Changet
 amounts: 1.050 livres
 text: (457) Le patron Pantelin Toumazin, pour lui et au nom des « partisips » de son « petache », le « Sto-Domenicho bonne venture », nolise le dit bateau à Pierre de Soubeyran et à Jehan Martin. Le navire sera prêt à charger dans deux mois à La Goulette pour aller à Marseille et sur la côte de Provence. Le fret sera de 1.050 livres tournois; les droits d'ancrage et avaries seront aux frais des chargeurs.
 
-[act 2-IV-1062]
+[act 2-IV-1063]
 date: 1609-05-13
 date printed: 13  —
 date status: printed in the margin
@@ -12806,7 +12818,7 @@ chancelier: Louys Changet
 amounts: 44 écus d'or
 text: (459) Antony Lovico, de Marseille, a reçu du patron Guilleaume Vine 44 écus d'or et 1/2. Lovico remboursera la somme au retour de Guilleaume qui va en Provence avec Toumazin. (Somme remboursée le 1er juin).
 
-[act 2-IV-1063]
+[act 2-IV-1064]
 date: 1609-05-18
 date printed: 18  —
 date status: printed in the margin
@@ -12819,7 +12831,7 @@ chancelier: Louys Changet
 amounts: 385 livres
 text: (460) Pierre de Sobeyran, écuyer de la ville de Nismes en Languedoc, a reçu de Jehan Martin, écuyer de la ville de Marseille, 385 livres et 12 sous monnaie de France que celui-ci lui devait.
 
-[act 2-IV-1064]
+[act 2-IV-1065]
 date: 1609-05-18
 date printed: 18  —
 date status: printed in the margin
@@ -12832,7 +12844,7 @@ chancelier: Louys Changet
 amounts: 32 écus d'or
 text: (462) Honnorat Anfous, de Marseille, a reçu de Jehan Gilles Boyer 32 écus d'or et 1/2 payés pour son rachat à Ossoman Day.
 
-[act 2-IV-1065]
+[act 2-IV-1066]
 date: 1609-05-18
 date printed: 18  —
 date status: printed in the margin
@@ -12845,7 +12857,7 @@ chancelier: Louys Changet
 amounts: 32 écus
 text: (463) Honorat Anfous, boulanger, habitant de Marseille, a reçu du patron Douminique de Jouany, corse, habitant la même ville, 32 écus et 1/2 de 65 sous payés à Ossoman Day pour son rachat. Somme remboursable huit jours après l'arrivée à Marseille. (La quittance en date du 5 juin est en marge de l'acte).
 
-[act 2-IV-1066]
+[act 2-IV-1067]
 date: 1609-05-20
 date printed: 20  —
 date status: printed in the margin
@@ -12857,7 +12869,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (464) Le patron Esprit Ville Grose (Villacrossa), de Toulon, a chargé à Toulon son navire le « St-Joseph », de 4.000 quintaux de marchandises diverses pour Hambourg. Il est allé à Marseille le 1er avril et il y a séjourné jusqu'au 20. Le 29 avril, se trouvant à 10 milles du cap Palos, il a été chassé par quatre vaisseaux de guerre armés à Tunis de turcs et d'anglais. Poursuivi jusqu'à l'Ile Plane, il a été forcé de se rendre et a été amené à La Goulette où il est arrivé le 7 mai. Les marchandises ont été déchargées, puis, sur les prières de Anthoine Berangier, député du commerce de la ville de Marseille, on en a rendu certaines qui sont énumérées dans l'acte et qui appartenaient au patron et aux marins. (Suivent six témoignages).
 
-[act 2-IV-1067]
+[act 2-IV-1068]
 date: 1609-06-01
 date printed: 1er juin
 date status: printed in the margin
@@ -12871,7 +12883,7 @@ amounts: 132 écus
 dates mentioned: 1610-02-09
 text: (480) Reynaud Fabre, marchand de Marseille, doit à Jaumé Danain (Dagnan) 132 écus de 64 sous remboursables quarante-cinq jours après l'arrivée à Marseille. (Somme remboursée le 9 février 1610).
 
-[act 2-IV-1068]
+[act 2-IV-1069]
 date: 1609-06-01
 date printed: 1   —
 date status: printed in the margin
@@ -12885,7 +12897,7 @@ amounts: 66 écus
 dates mentioned: 1610-02-09
 text: (481) Reynaud Fabre doit à Pierre Gastaut, marchand de Marseille, 66 écus de 65 sous. (Somme remboursée le 9 février 1610).
 
-[act 2-IV-1069]
+[act 2-IV-1070]
 date: 1609-06-02
 date printed: 2   —
 date status: printed in the margin
@@ -12898,7 +12910,7 @@ chancelier: Louys Changet
 amounts: 130 écus d'or d'Espagne
 text: (482) Le patron Pantelin Toumaxin a reçu de Antony Calvano 130 écus d'or d'Espagne pour la dernière expédition du « St-Douminique ». Somme remboursable quinze jours après l'arrivée à Marseille.
 
-[act 2-IV-1070]
+[act 2-IV-1071]
 date: 1609-06-02
 date printed: 2   —
 date status: printed in the margin
@@ -12910,7 +12922,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (484) Antony Esmiol, de Doise (?) en Provence, donne une procuration à Pierre Collun, dit Pigran, de Gascogne, pour récupérer une créance sur Gregorio Massone, napolitain.
 
-[act 2-IV-1071]
+[act 2-IV-1072]
 date: 1609-06-05
 date printed: 5   —
 date status: printed in the margin
@@ -12923,7 +12935,7 @@ chancelier: Louys Changet
 amounts: 1.500 écus d'or d'Espagne
 text: En italien. — (486) Salviano Gaudereso a reçu du caïd Alli, turc de Tunis, 1.500 écus d'or d'Espagne à titre de prêt et pour un espace de six mois.
 
-[act 2-IV-1072]
+[act 2-IV-1073]
 date: 1609-06-05
 date printed: 5   —
 date status: printed in the margin
@@ -12936,7 +12948,7 @@ chancelier: Louys Changet
 amounts: 200 écus d'or d'Espagne
 text: En italien. — (489) Osta Assan Genovese, turc de Tunis, a vendu au capitaine Joane Chime (?), Joane Catalor, Rafal Blacamor, anglais, une « patache » de 700 cantars pour 200 écus d'or d'Espagne. Ce navire avait été pris par les corsaires turcs de Tunis et conduit à La Goulette.
 
-[act 2-IV-1073]
+[act 2-IV-1074]
 date: 1609-06-06
 date printed: 6   —
 date status: printed in the margin
@@ -12949,7 +12961,7 @@ chancelier: Louys Changet
 amounts: 200 écus d'or d'Espagne
 text: En italien. — (491) Mamet, fils de Ysouf Coulouli, turc de Tunis, donne une procuration à Paulo Corgo pour récupérer une créance de 200 écus d'or d'Espagne sur Agy Ysouf, turc de Bône.
 
-[act 2-IV-1074]
+[act 2-IV-1075]
 date: 1609-06-09
 date printed: 9   —
 date status: printed in the margin
@@ -12962,7 +12974,7 @@ chancelier: Louys Changet
 amounts: 800 écus d'or d'Espagne
 text: En italien. — (493) Ossoman Day, gouverneur et protecteur de la Milice du Royaume de Tunis, a vendu à Marcantony Montoreale, napolitain, un navire de 4.000 cantars pour 800 écus d'or d'Espagne. Le navire a ses voiles et une partie de ses agrès. Ce navire avait été pris par les corsaires turcs de Tunis et conduit à La Goulette.
 
-[act 2-IV-1075]
+[act 2-IV-1076]
 date: 1609-06-09
 date printed: 9   —
 date status: printed in the margin
@@ -12976,7 +12988,7 @@ amounts: 215 livres
 dates mentioned: 1609-09-05
 text: (495) Reynaud Fabre doit à Antony Seigner, de Marseille, 215 livres tournois monnaie de France, remboursables quarante-cinq jours après l'arrivée à Marseille. (Somme remboursée le 5 septembre 1609).
 
-[act 2-IV-1076]
+[act 2-IV-1077]
 date: 1609-06-09
 date printed: 9 juin
 date status: printed in the margin
@@ -12989,7 +13001,7 @@ chancelier: Louys Changet
 amounts: 105 écus
 text: (496) Jehan Neveu, de La Rochelle, doit à Reynaud Fabre 105 écus et 36 sous monnaie de France payés pour son rachat et remboursables quatre jours après l'arrivée à La Rochelle.
 
-[act 2-IV-1077]
+[act 2-IV-1078]
 date: 1609-06-09
 date printed: 9
 date status: printed in the margin
@@ -13002,7 +13014,7 @@ chancelier: Louys Changet
 amounts: 79 écus
 text: (497) Jehan de la Lagueune (? ), de La Rochelle, doit à Reynaud Fabre 79 écus et 12 sous payés pour son rachat à Cassim Jaous, turc et janissaire de Tunis. Somme remboursable quatre jours après l'arrivée à La Rochelle.
 
-[act 2-IV-1078]
+[act 2-IV-1079]
 date: 1609-06-09
 date printed: 9
 date status: printed in the margin
@@ -13014,7 +13026,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (499) Jehan Louys de Joanys (Jehan Louis Jauny) donne une procuration à Ballesar de Martin, écuyer de Marseille, pour récupérer une créance sur Pierre Gaillard, maître maréchal de Marseille.
 
-[act 2-IV-1079]
+[act 2-IV-1080]
 date: 1609-06-09
 date printed: 9
 date status: printed in the margin
@@ -13028,7 +13040,7 @@ amounts: 40 livres
 dates mentioned: 1609-08-29
 text: (501) Reynaud Fabre doit à Anthoine Malpoint, de Marseille, 40 livres el 7 sous tournois. (Somme remboursée le 29 août 1609).
 
-[act 2-IV-1080]
+[act 2-IV-1081]
 date: 1609-06-10
 date printed: 10
 date status: printed in the margin
@@ -13040,7 +13052,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (502) Le patron Pierre Servan, de Marseille, doit au patron Mathiou Doudon, de la même ville, 162 pièces et 1/2 de 8 réaulx payées pour son rachat à Chafer Genovese, raïs d'une galère d'Alger. Somme remboursable quarante-cinq jours après l'arrivée à Marseille.
 
-[act 2-IV-1081]
+[act 2-IV-1082]
 date: 1609-06-10
 date printed: 10    -
 date status: printed in the margin
@@ -13051,20 +13063,21 @@ language: français
 vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 amounts: 150 écus d'or
-text: (504) Le patron Guillon Melle, de Cannes, habitant à Marseille, et le patron Antony Peyre, de Marseille, doivent à Mathieu Dondon, de la même ville, 150 écus d'or de 12 réaulx payés pour le rachat de Guillon Melle à Chafer Genovese,
+text: (504) Le patron Guillon Melle, de Cannes, habitant à Marseille, et le patron Antony Peyre, de Marseille, doivent à Mathieu Dondon, de la même ville, 150 écus d'or de 12 réaulx payés pour le rachat de Guillon Melle à Chafer Genovese, raïs d'une galère d'Alger.
 
-[act 2-IV-1082]
+[act 2-IV-1083]
 date: 1609-06-10
-date printed: 10    -
+date printed: 10  —
 date status: printed in the margin
 register: IV
 page: 148 (scan: La France en Tunisie v.2_Part2.pdf p. 23)
+folio: 506
 language: français
 vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
-text: raïs d'une galère d'Alger. (506) Même affaire.
+text: (506) Même affaire.
 
-[act 2-IV-1083]
+[act 2-IV-1084]
 date: 1609-06-10
 date printed: 10 -
 date status: printed in the margin
@@ -13077,7 +13090,7 @@ chancelier: Louys Changet
 amounts: 15 écus
 text: (508) Le patron Dominico de Joany, corse, habitant à Marseille, somme Gaspart Anfossy, de la même ville, de lui payer les nollis de sa personne et de deux serviteurs, ainsi que de certaines marchandises, sur la polacre « Ste Anne », pour le trajet de Marseille à Tunis. Le prix du passage de Anfossy et de ses deux serviteurs est de 15 écus. Anfossy répond qu'il ne doit rien, comme il le prouvera en France (1).
 
-[act 2-IV-1084]
+[act 2-IV-1085]
 date: 1609-06-10
 date printed: 10
 date status: printed in the margin
@@ -13090,7 +13103,7 @@ chancelier: Louys Changet
 dates mentioned: 1609-03
 text: En italien. — (510) Zacharias Pretor, anglais, demande à faire témoigner qu'il a été pris sous le cap de Gate, en mars 1609 , avec son navire nommé la « Diamante », capitaine Joan Dortoman, par un navire corsaire armé à Tunis de tures et d'anglais, capitaine Sanson, anglais. La ((Diamante » et sa-cargaison ont été vendues à La Goulette. (Suivent deux témoignages de français).
 
-[act 2-IV-1085]
+[act 2-IV-1086]
 date: 1609-06-10
 date printed: 10 juin
 date status: printed in the margin
@@ -13103,7 +13116,7 @@ chancelier: Louys Changet
 amounts: 30 écus
 text: En italien. — (512) Salviano Gaudrisio fait une déclaration au sujet d'une dette de 30 écus.
 
-[act 2-IV-1086]
+[act 2-IV-1087]
 date: 1609-06-12
 date printed: 12
 date status: printed in the margin
@@ -13115,7 +13128,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (514) Reynaud Fabre doit à Jacques Allary, de Marseille, 130livres tournois remboursables cinq jours après l'arrivée à Marseille. La quittance est au bas de l'acte.
 
-[act 2-IV-1087]
+[act 2-IV-1088]
 date: 1609-06-12
 date printed: 12
 date status: printed in the margin
@@ -13128,7 +13141,7 @@ chancelier: Louys Changet
 amounts: 34 écus
 text: (516) Reynaud Fabre doit à Pierre Gastaud, de Marseille, 34 écus de 65 sous remboursables cinq jours après l'arrivée à Marseille. La quittance est en marge de l'acte.
 
-[act 2-IV-1088]
+[act 2-IV-1089]
 date: 1609-06-12
 date printed: 12
 date status: printed in the margin
@@ -13141,7 +13154,7 @@ chancelier: Louys Changet
 amounts: 174 écus; 522 livres
 text: (517) Reynaud Fabre et Guillaume Fouques, capitaine ordinaire ....... pour le Roi aux mers de Ponant, habitant La Rochelle, ont reçu de Jacques Vaccon, marchand d'Ollioules, 174 écus de 60 sous (522 livres tournois) à titre de prêt. Somme remboursable deux mois après l'arrivée à Marseille. La quittance est au bas de l'acte.
 
-[act 2-IV-1089]
+[act 2-IV-1090]
 date: 1609-06-12
 date printed: 12
 date status: printed in the margin
@@ -13154,7 +13167,7 @@ chancelier: Louys Changet
 amounts: 174 écus
 text: (519) Guillaume Fouques, capitaine entretenu pour le Roi aux mers de Ponant, doit à Reynaud Fabre 174 écus payés pour son rachat à Asta Assan Genovese, turc de Tunis.
 
-[act 2-IV-1090]
+[act 2-IV-1091]
 date: 1609-06-12
 date printed: 12
 date status: printed in the margin
@@ -13168,7 +13181,7 @@ amounts: 32 écus
 ocr corrections: ½ restored
 text: (521) Le capitaine Daumas Fabre, de la Cadière, doit à Jacques Vaccon 32 écus et ½, 1/2.
 
-[act 2-IV-1091]
+[act 2-IV-1092]
 date: 1609-06-12
 date printed: 12
 date status: printed in the margin
@@ -13181,7 +13194,7 @@ chancelier: Louys Changet
 amounts: 12 écus
 text: (523) Hounorat Marin, de Marseille, doit à Johan Vallentin, marchand de la même ville, 12 écus.
 
-[act 2-IV-1092]
+[act 2-IV-1093]
 date: 1609-06-12
 date printed: 12
 date status: printed in the margin
@@ -13195,7 +13208,7 @@ amounts: 105 écus
 ocr corrections: Jaumel -> Jaumet
 text: (524) Le patron Jaumet Martin, de Marseille, doit à Marco Francisco, corse, habitant la même ville, 105 écus payés pour son rachat à Chafer Genovese, raïs d'une galère d'Alger. Somme remboursable un mois après l'arrivée à Marseille.
 
-[act 2-IV-1093]
+[act 2-IV-1094]
 date: 1609-06-12
 date printed: 12
 date status: printed in the margin
@@ -13208,7 +13221,7 @@ chancelier: Louys Changet
 amounts: 1.620 écus
 text: (526) Pierre de Soubeyran, écuyer de la ville de Nîmes, vend à Thomas Gaillard 1.350 cuirs peloux pour 1.620 écus de 12 réaulx castillans.
 
-[act 2-IV-1094]
+[act 2-IV-1095]
 date: 1609-06-13
 date printed: 13    -
 date status: printed in the margin
@@ -13221,7 +13234,7 @@ chancelier: Louys Changet
 amounts: 164 écus
 text: (528) Gilles Lesné, Mychel Hamont et autres doivent à Anthoine Berengier, député du commerce de la ville de Marseille, 164 écus de 12 réaulx payés à Abedit Coja, turc janissaire de Tunis, pour le rachat de Jacques Biouchet et pour l'argent qui leur a été donné pour leurs dépenses et vivres. Somme remboursable huit jours après l'arrivée à Marseille.
 
-[act 2-IV-1095]
+[act 2-IV-1096]
 date: 1609-06-13
 date printed: 13 juin
 date status: printed in the margin
@@ -13235,7 +13248,7 @@ amounts: 120 écus
 flags: struck out
 text: (530) Le patron Esperit Ville Cros et Pierre Chapelle, de Toulon, doivent à Thoumas Gaillard, de Marseille, 120 écus de 12 réaulx payés pour la restitution des marchandises qui restaient sur le « St-Joseph ». Somme remboursable à Marseille. (Acte biffé).
 
-[act 2-IV-1096]
+[act 2-IV-1097]
 date: 1609-06-15
 date printed: 15  —
 date status: printed in the margin
@@ -13247,7 +13260,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (531) Même acte.
 
-[act 2-IV-1097]
+[act 2-IV-1098]
 date: 1609-06-15
 date printed: 15  —
 date status: printed in the margin
@@ -13259,7 +13272,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (534) Le patron Francesco Estelle, Estienne Symodiou et autres exposent au Consul de France que Ossoman Day les a forcés à prendre une certaine quantité de barils de harengs, marchandise périssable. Hugues Changet désigne deux patrons pour examiner les dits harengs et voir ce qu'ils valent. Les experts déclarent que les harengs sont pourris et de nulle valeur.
 
-[act 2-IV-1098]
+[act 2-IV-1099]
 date: 1609-06-16
 date printed: 16  —
 date status: printed in the margin
@@ -13272,7 +13285,7 @@ chancelier: Louys Changet
 amounts: 30 écus
 text: (537) Le patron Louys Isnard, de St-Tropez, étant « tombé en disgrâce d'esclavitude » à Tunis, cède ses fonctions de patron de la « Ste-Anne bonne venture » au patron Vincent Germondre, de St-Tropez. Ce dernier touchera 30 écus de 12 julii et 1/2 pour conduire le bateau précité de Tunis à Livourne.
 
-[act 2-IV-1099]
+[act 2-IV-1100]
 date: 1609-06-17
 date printed: 17  —
 date status: printed in the margin
@@ -13285,7 +13298,7 @@ chancelier: Louys Changet
 amounts: 200 écus d'or d'Espagne
 text: En italien. — (539) Ally Aga, janissaire turc de Tunis, a reçu de Paulo Gorjo Armenio 200 écus d'or d'Espagne et 144 turbans pour le compte de Dominico de Lazaro.
 
-[act 2-IV-1100]
+[act 2-IV-1101]
 date: 1609-06-20
 date printed: 20  —
 date status: printed in the margin
@@ -13298,7 +13311,7 @@ chancelier: Louys Changet
 amounts: 250 écus d'or d'Espagne
 text: En italien. — (541) Caytto Ally, turc de Tunis, vend à Mametto Coral, maure de Tunis, habitant à Palerme, une « saettia » nommée « Sta-Marya di gratia », de 800 cantars avec ses voiles et agrès, pour 250 écus d'or d'Espagne. (Un sceau arabe au bas de l'acte).
 
-[act 2-IV-1101]
+[act 2-IV-1102]
 date: 1609-06-22
 date printed: 22  —
 date status: printed in the margin
@@ -13311,7 +13324,7 @@ chancelier: Louys Changet
 amounts: 48 écus
 text: (542) Guillaume Fougues, capitaine entretenu pour le Roi aux mers de Ponant, doit 48 écus à Jacques Vaccon, somme payée pour le complément de son rachat et remboursable deux mois après l'arrivée à Marseille.
 
-[act 2-IV-1102]
+[act 2-IV-1103]
 date: 1609-06-22
 date printed: 22  —
 date status: printed in the margin
@@ -13324,7 +13337,7 @@ chancelier: Louys Changet
 amounts: 214 écus d'or; 14 taris
 text: En italien. — (544) Le patron Silvestro Tafutto, de Trapani, habitant à Malte, a reçu de Silviano Gauderisi 214 écus d'or de 14 taris que celui-ci était chargé de lui remettre.
 
-[act 2-IV-1103]
+[act 2-IV-1104]
 date: 1609-06-22
 date printed: 22 juin
 date status: printed in the margin
@@ -13337,7 +13350,7 @@ chancelier: Louys Changet
 amounts: 270 écus; 14 taris
 text: En italien. — (546) Le patron Salviano Gauderisi a reçu de Silvestro Tiafuto 270 écus de 14 taris pour la dernière expédition du « Nostra Donna di gratia ».
 
-[act 2-IV-1104]
+[act 2-IV-1105]
 date: 1609-06-22
 date printed: 22
 date status: printed in the margin
@@ -13351,7 +13364,7 @@ amounts: 14 écus
 ocr corrections: text taken from the second OCR (this page is badly read in the main scan)
 text: En italien. — (548) Le patron Jaume Morel, catalan, doit a Joan Battista Pin 14 écus d’or payés pour le complément de son rachat.
 
-[act 2-IV-1105]
+[act 2-IV-1106]
 date: 1609-06-22
 date printed: 22
 date status: printed in the margin
@@ -13364,7 +13377,7 @@ chancelier: Louys Changet
 amounts: 122 écus d'or d'Espagne
 text: En italien. — (551) Joan Felhiou Badencas, catalan, a reçu de Joan Batista Pin 122 écus d'or d'Espagne payés pour son rachat à Mustafa Aga, ture janissaire de Tunis.
 
-[act 2-IV-1106]
+[act 2-IV-1107]
 date: 1609-06-22
 date printed: 22
 date status: printed in the margin
@@ -13377,7 +13390,7 @@ chancelier: Louys Changet
 amounts: 250 écus d'or
 text: En italien. — (553) Jousepo Cabado Escarparo, trapanais, esclave de Osta Mami, déclare au consul qu'il a donné le 15 mai précédent à Minico de Pedro, corse, 250 écus d'or pour faire des affaires à Tunis et non ailleurs. Il lui a donné en outre divers bijoux. Or Minico est parti pour Livourne sans rien dire à Cabado. (Suivent cinq témoignages).
 
-[act 2-IV-1107]
+[act 2-IV-1108]
 date: 1609-06-22
 date printed: 22
 date status: printed in the margin
@@ -13390,7 +13403,7 @@ chancelier: Louys Changet
 amounts: 405 écus d'or d'Espagne
 text: En italien. — (560) Le patron Andreou Lheon, d'Areins en Catalogne, a reçu de Joan Batista Py 405 écus d'or d'Espagne payés pour son rachat aux héritiers de Mamet Bey.
 
-[act 2-IV-1108]
+[act 2-IV-1109]
 date: 1609-06-26
 date printed: 26
 date status: printed in the margin
@@ -13402,7 +13415,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (562) Esteve Symedeou, corse, habitant à Marseille, expose que Dominico de Pedro, également corse, lui a pris un ballot de soie pour le vendre. Au lieu de cela, il s'est embarqué pour Livourne. (Suivent deux témoignages).
 
-[act 2-IV-1109]
+[act 2-IV-1110]
 date: 1609-06-27
 date printed: 27
 date status: printed in the margin
@@ -13415,7 +13428,7 @@ chancelier: Louys Changet
 amounts: 300 écus d'or d'Espagne
 text: En italien. — (565) Ally, pacha du Royaume de Tunis, vend à Silviano Gauderisi un « patache écossais » (? ) de 3.000 cantars, avec ses ancres, ses voiles et deux câbles, ainsi qu'une partie du gréement, pour 300 écus d'or d'Espagne. Ce navire, pris par les corsaires turcs de Tunis, a été conduit à La Goulette où il a séjourné pendant de longs mois.
 
-[act 2-IV-1110]
+[act 2-IV-1111]
 date: 1609-06-27
 date printed: 27
 date status: printed in the margin
@@ -13428,7 +13441,7 @@ chancelier: Louys Changet
 amounts: 230 écus d'or d'Espagne
 text: En italien. — (567) Antonino Esquierdo, de Messine, doit à Silviano Gauderisi 230 écus d'or d'Espagne payés pour son rachat à Arnout Mustafa, turc janissaire de Tunis.
 
-[act 2-IV-1111]
+[act 2-IV-1112]
 date: 1609-06-29
 date printed: 29
 date status: printed in the margin
@@ -13441,7 +13454,7 @@ chancelier: Louys Changet
 amounts: 1.500 écus d'or d'Espagne
 text: En italien. — (569) Le patron Pantalni Rouxe, génois, habitant à Malte, donne une procuration au patron Silvestro Tiafutto, trapanais, pour récupérer une créance de 1.500 écus d'or d'Espagne sur Silviano Gauderisi.
 
-[act 2-IV-1112]
+[act 2-IV-1113]
 date: 1609-07-18
 date printed: 18 juil.
 date status: printed in the margin
@@ -13453,7 +13466,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (571) Esteve Symedeou donne une procuration à Antony Lovico, de Marseille, présent, pour recevoir l'argent et les marchandises qui pourraient arriver à Tunis à son nom.
 
-[act 2-IV-1113]
+[act 2-IV-1114]
 date: 1609-07-18
 date printed: 18
 date status: printed in the margin
@@ -13466,7 +13479,7 @@ chancelier: Louys Changet
 amounts: 250 écus d'or d'Espagne
 text: En italien. — (572) Jousepo Cabado, de Trapani, esclave à Tunis, donne une procuration à Estève Symedeou pour recouvrer une créance de 250 écus d'or d'Espagne sur Dominico de Pedro, corse.
 
-[act 2-IV-1114]
+[act 2-IV-1115]
 date: 1609-07-29
 date printed: 29
 date status: printed in the margin
@@ -13479,7 +13492,7 @@ chancelier: Louys Changet
 amounts: 4.303 écus d'or
 text: (574) Le caïd Rachep, fermier de la Douane de Tunis, ture, a vendu à Pierre de Soubeyran et à Jehan Martin, de Marseille, 4.530 cuirs peloux pour 4.303 écus d'or et 1/2. (Signé: Io Chato Rigiepo douaniero).
 
-[act 2-IV-1115]
+[act 2-IV-1116]
 date: 1609-08-05
 date printed: 5 août
 date status: printed in the margin
@@ -13492,7 +13505,7 @@ chancelier: Louys Changet
 dates mentioned: 1609-07-08
 text: En italien. — (576) Le patron Joan de Rio, de Levante, expose qu'il est parti de Levante le 8 juillet 1609 avec sa polacre « St-Joane », pour venir à La Goulette où il est arrivé le 19 du même mois. Il a travaillé au déchargement des marchandises jusqu'au 30 juillet. Ce jour-là sont arrivés à La Goulette quinze galions de guerre espagnols qui ont brûlé tous les navires sur rade, tant corsaires que marchands, y compris le « St-Joane ». Le déclarant a pu sauver dans son canot un pierrier de bronze, un de fer et ses voiles. (Suivent trois témoignages).
 
-[act 2-IV-1116]
+[act 2-IV-1117]
 date: 1609-08-17
 date printed: 17
 date status: printed in the margin
@@ -13504,7 +13517,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (582) Symon Adan, reçu de Joan de Rio 2.036 pièces de 8 réaulx d'Espagne.
 
-[act 2-IV-1117]
+[act 2-IV-1118]
 date: 1609-08-17
 date printed: 17
 date status: printed in the margin
@@ -13518,7 +13531,7 @@ dates mentioned: 1609-02
 flags: illegible, damaged
 text: En italien. — (583) Le capitaine Agoustino Blanco, de Lensan (Rivière de Gênes), habitant à Malaga, expose que se trouvant à Malaga en février 1609 les officiers du roi d'Espagne s'embarquèrent sur son navire ..... L'encre a rongé le papier. Les actes sont illisibles jusqu'à la page 608.
 
-[act 2-IV-1118]
+[act 2-IV-1119]
 date: 1609-08-24
 date printed: 24
 date status: printed in the margin
@@ -13530,7 +13543,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (608) Jacq Saretta, de Quayette, esclave de Mamet Bey, et Jousepo Spinolla, également esclave du même, certifient avoir connu Pedro Riquerdo, génois, esclave à Bizerte de Couchouk Amat Saragouzano, et l'avoir vu mourir et enterrer il y a environ trois ans.
 
-[act 2-IV-1119]
+[act 2-IV-1120]
 date: 1609-08-25
 date printed: 25
 date status: printed in the margin
@@ -13542,7 +13555,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (609) Natan Lyvy, juif d'Alger, donne une procuration à Moise Zebib, juif de Tetouan, pour récupérer certaines créances.
 
-[act 2-IV-1120]
+[act 2-IV-1121]
 date: 1609-08-27
 date printed: 27 août
 date status: printed in the margin
@@ -13554,7 +13567,7 @@ chancelier: Louys Changet
 amounts: 240 écus d'or d'Espagne
 text: En italien. — Louyse de Antony de Juliane, de Venise, déclare que Battista de la Tourre, de Chiavary (Rivière de Gênes), l'a racheté pour 240 écus d'or d'Espagne sur l'ordre de Joan Battiste Justiniano, gouverneur de Tabarca, à Hasan Rays Trapanese, turc de Bizerte.
 
-[act 2-IV-1121]
+[act 2-IV-1122]
 date: 1609-08-29
 date printed: 29    -
 date status: printed in the margin
@@ -13567,7 +13580,7 @@ chancelier: Louys Changet
 amounts: 800 écus d'or de 64 aspres
 text: En italien. — (615) Les patrons Bastiano Blanco et Batista Rouxo déclarent que Simon Adan, de Sistre de Levante, a racheté ses cinq enfants à Ossoman Dey pour 800 écus d'or de 64 aspres.
 
-[act 2-IV-1122]
+[act 2-IV-1123]
 date: 1609-09-19
 date printed: 19 sept.
 date status: printed in the margin
@@ -13580,7 +13593,7 @@ chancelier: Louys Changet
 amounts: 527 écus d'or; 48 aspres
 text: En italien. — (617) Le patron Honorat Blein, de Toulon, a reçu pour les nolis de son navire 527 écus d'or et 48 aspres.
 
-[act 2-IV-1123]
+[act 2-IV-1124]
 date: 1609-09-24
 date printed: 24
 date status: printed in the margin
@@ -13593,7 +13606,7 @@ chancelier: Louys Changet
 amounts: 200 écus
 text: (620) Le patron Mathieu Callon, de Toulon, doit au patron Jehan Honorat Blein 200 écus payés pour son rachat à Osta Morat Genovese. Somme remboursable un mois après l'arrivée à Toulon.
 
-[act 2-IV-1124]
+[act 2-IV-1125]
 date: 1609-10-02
 date printed: 2 oct.
 date status: printed in the margin
@@ -13605,7 +13618,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (623) Guilhen Daniel, dit Gran, marinier de Sixfours, esclave de Ali, Pacha de Tunis, donne une procuration à sa mère Lyone Denanse, de Sixfours, pour vendre ses biens et en tirer le prix de son rachat.
 
-[act 2-IV-1125]
+[act 2-IV-1126]
 date: 1609-10-02
 date printed: 2
 date status: printed in the margin
@@ -13618,7 +13631,7 @@ amounts: 100 écus d'or d'Espagne
 dates mentioned: 1610-01-02
 text: En italien. — vent à George - (624) Nycolau Scotto et Antony Manette Blac, anglais, 100 écus d'or d'Espagne prêtés et remboursables dans le délai d'un mois. La quittance en date du 2 janvier 1610 est en marge de l'acte; George Blac y est dit « Ally Angles turc ».
 
-[act 2-IV-1126]
+[act 2-IV-1127]
 date: 1609-10-06
 date printed: 6
 date status: printed in the margin
@@ -13631,7 +13644,7 @@ chancelier: Louys Changet
 amounts: 474 écus d'or de 64 aspres
 text: En italien. — (626) Marcantony Paulillo, de Naples, doit à Arnaout Moustafa, mansoul aga de Tunis, 474 écus d'or de 64 aspres.
 
-[act 2-IV-1127]
+[act 2-IV-1128]
 date: 1609-10-12
 date printed: 12
 date status: printed in the margin
@@ -13643,7 +13656,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (628) Dmytrie Fillalty, de Zanthe, donne une procuration à Anastasio de Nicolo, de la même ville, pour vendre ses biens et le racheter.
 
-[act 2-IV-1128]
+[act 2-IV-1129]
 date: 1609-10-15
 date printed: 15
 date status: printed in the margin
@@ -13656,7 +13669,7 @@ chancelier: Louys Changet
 dates mentioned: 1609-03
 text: En italien. — (631) Malen Yssac, maure de Bône, a remis en mars 1609 à Prosporo Pagnaly, corse, 600 cuirs pour les porter à Livourne et racheter avec le prix de vente Mamet, de Bone, Belle Assan bel Casson et Fattyma. Trois témoins certifient que la déclaration précitée est bien exacte.
 
-[act 2-IV-1129]
+[act 2-IV-1130]
 date: 1609-09-16
 date printed: 16 sept.
 date status: printed in the margin
@@ -13668,7 +13681,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (636) Malen Haissa, maure de Bône, donne une procuration à Marco Antonio Quarantotto, de Pise, pour récupérer ce que doit Prosporo Pagnaly.
 
-[act 2-IV-1130]
+[act 2-IV-1131]
 date: 1609-09-16
 date printed: 16
 date status: printed in the margin
@@ -13680,7 +13693,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (637) Le patron Santo Symedeou et Giosepy Crady, juif de Livourne, exposent au consul de France un différend qu'ils ont au sujet d'une vente de « brazil ». Hugues Changet rend une sentence à ce sujet. (Anthoine Lovico signe comme témoin).
 
-[act 2-IV-1131]
+[act 2-IV-1132]
 date: 1609-09-21
 date printed: 21
 date status: printed in the margin
@@ -13693,7 +13706,7 @@ chancelier: Louys Changet
 amounts: 723 écus
 text: En italien. — (640) Le révérendissime Père Fantino Dalfino, de Venise, de l'Ordre de « St-Domyngo de predicatore », expose qu'il a été racheté à Ossoman Dey par Hercule Tamagne, d'Elbe, pour 723 écus et 1/2 d'or d'Espagne. Cette somme a été payée par ordre de Roberto Estrossy & compagnie, de Venise, à l'instance de Domynigo Dalfino, « procuratore de la serenyssyma Republicqua dy Venesia ».
 
-[act 2-IV-1132]
+[act 2-IV-1133]
 date: 1609-09-27
 date printed: 27
 date status: printed in the margin
@@ -13706,7 +13719,7 @@ chancelier: Louys Changet
 flags: unfinished
 text: En italien. — (644) Le patron Santo Symedey somme Giuseppe Crudy, juif, de prendre livraison des 23 cantars de brezil qu'il lui a achetés. (Acte inachevé).
 
-[act 2-IV-1133]
+[act 2-IV-1134]
 date: 1609-09-28
 date printed: 28
 date status: printed in the margin
@@ -13719,7 +13732,7 @@ chancelier: Louys Changet
 amounts: 262 écus
 text: En italien. — (645). Le patron Peyron Gassan et Hercule "Tamagne doivent à Marco Francisco 262 écus et 1/2 d'or d'Espagne qu'il leur a prêtés.
 
-[act 2-IV-1134]
+[act 2-IV-1135]
 date: 1609-11-02
 date printed: 2 nov.
 date status: printed in the margin
@@ -13731,7 +13744,7 @@ chancelier: Louys Changet
 amounts: 430 écus; 30 écus; 40 aspres
 text: En italien. — Adan Jorge Bexelz (Adam Bessels), d'Amsterdam, a été racheté à Ossoman Dey par Marco Francisco pour 430 écus. Marco lui a fourni en outre 30 écus et 40 aspres, tout cela sur l'ordre de Mathieu da Terensia, marchand de Livourne.
 
-[act 2-IV-1135]
+[act 2-IV-1136]
 date: 1609-11-05
 date printed: 5
 date status: printed in the margin
@@ -13745,7 +13758,7 @@ amounts: 540 écus d'or d'Espagne
 ocr corrections: Rió -> Rio
 text: En italien. — (650) Ossoman Dey, gouverneur et protecteur de la Milice du Royaume de Tunis, vend au patron Joane Rio, de Levante, un vaisseau de 3. 500 cantars avec ses voiles, agrès, trois pierriers de fer, pour 540 écus d'or d'Espagne. Ce navire a été pris par les galiotes de Bizerte et conduit à La Goulette où il est resté longtemps.
 
-[act 2-IV-1136]
+[act 2-IV-1137]
 date: 1609-11-07
 date printed: 7
 date status: printed in the margin
@@ -13757,7 +13770,7 @@ chancelier: Louys Changet
 amounts: 200 écus d'or d'Espagne
 text: En italien. — Nicolo Carlo Maquarela, de Candie, chirurgien, doit à Domynyqo de Lazaro 200 écus d'or d'Espagne payés pour son rachat à Hasain Aga Mansour, de Tunis. Somme remboursable dans le délai d'un an.
 
-[act 2-IV-1137]
+[act 2-IV-1138]
 date: 1609-11-07
 date printed: 7 nov.
 date status: printed in the margin
@@ -13769,7 +13782,7 @@ chancelier: Louys Changet
 amounts: 274 écus; 47 aspres
 text: En italien. — Donnatta Quachoutto, de Procida, a reçu de Joan de Luca Myquelle et de Joan de Biaxo, de Raguse, 274 écus et 47 aspres payés pour son rachat au Divan des janissaires de Tunis.
 
-[act 2-IV-1138]
+[act 2-IV-1139]
 date: 1609-11-07
 date printed: 7
 date status: printed in the margin
@@ -13782,7 +13795,7 @@ chancelier: Louys Changet
 amounts: 274 écus; 47 aspres
 text: En italien. — (654) Agoustino de Matheo, de Monte Maon (Corse), a reçu des mêmes que dans l'acte précédent 274 écus et 47 aspres payés pour son rachat au Divan des janissaires de Tunis.
 
-[act 2-IV-1139]
+[act 2-IV-1140]
 date: 1609-11-07
 date printed: 7 -
 date status: printed in the margin
@@ -13795,7 +13808,7 @@ chancelier: Louys Changet
 amounts: 128 écus; 16 aspres
 text: En italien. — (656) Anastasia de Nicolo, de Zanthe, a reçu des mêmes 128 écus et 16 aspres payés pour son rachat à Ossoman Dey. Dans les trois actes précédents, Joan de Luca et Joan de Biaxo agissent comme « hepitropy >>(1) du testament de Miquely Praxatty, de Raguse.
 
-[act 2-IV-1140]
+[act 2-IV-1141]
 date: 1609-11-09
 date printed: 9
 date status: printed in the margin
@@ -13808,7 +13821,7 @@ chancelier: Louys Changet
 amounts: 256 écus
 text: (658) Le patron Pierre Marin, de la Ciotat, a reçu de Antony Lovico, de Marseille, 256 écus de 12 réaulx castillans payés pour son rachat à Ossoman Dey pour le compte de Jacques Moustier, de Marseille.
 
-[act 2-IV-1141]
+[act 2-IV-1142]
 date: 1609-11-10
 date printed: 10
 date status: printed in the margin
@@ -13819,7 +13832,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — de Lopin, de Gènes, esclave d'Ossoman Dey, donne une procuration à sa mère Symone de Lopin, de Gênes, pour se procurer des fonds. Sans doute pour son rachat.
 
-[act 2-IV-1142]
+[act 2-IV-1143]
 date: 1609-11-10
 date printed: 10
 date status: printed in the margin
@@ -13832,7 +13845,7 @@ chancelier: Louys Changet
 amounts: 39 écus; 29 aspres
 text: En italien. — (662) Hugues Changet, vice-consul pour la Nation française, a reçu de Joan Battiste Py, de St-Filhiou en Catalogne, 39 écus et 29 aspres et 1/2 pour solde d'un compte.
 
-[act 2-IV-1143]
+[act 2-IV-1144]
 date: 1609-11-11
 date printed: 11
 date status: printed in the margin
@@ -13845,7 +13858,7 @@ chancelier: Louys Changet
 amounts: 296 écus; 52 aspres d'or d'Espagne
 text: En italien. — (663) Jan Hiacopas Brum (Jan Jacobus Bruyn), flamand, d'Amsterdam, a reçu de Marco Francisco, corse, 296 écus et 52 aspres d'or d'Espagne payés pour son rachat au Caïd Moratto, turc de Tunis, sur l'ordre de Rocho Manfredino. Somme remboursable à Livourne.
 
-[act 2-IV-1144]
+[act 2-IV-1145]
 date: 1609-11-12
 date printed: 12    -
 date status: printed in the margin
@@ -13858,7 +13871,7 @@ chancelier: Louys Changet
 amounts: 137 écus
 text: En italien. — (665) Joan Battiste Py, marchand de St-Filhiou en Catalogne, a reçu de Marco Francisco 137 écus et 1/2 d'or d'Espagne.
 
-[act 2-IV-1145]
+[act 2-IV-1146]
 date: 1609-11-16
 date printed: 16 nov.
 date status: printed in the margin
@@ -13871,7 +13884,7 @@ chancelier: Louys Changet
 amounts: 232 écus d'or
 text: En italien. — (667) Pierre Bousquet, de Bagnois en Languedoc, a reçu de Anthoine Lovyco, de Marseille, 232 écus d'or de 12 réaulx payés pour son rachat à Ossoman Dey. Somme remboursable à Marseille.
 
-[act 2-IV-1146]
+[act 2-IV-1147]
 date: 1609-11-24
 date printed: 24
 date status: printed in the margin
@@ -13884,7 +13897,7 @@ chancelier: Louys Changet
 ocr corrections: babitant -> habitant
 text: (669) Barnabeou Espitalier, de Fréjus, habitant Araise, esclave de Assan Bally, turc de Bizerte, donne une procuration à sa femme Issabette Aurame, d'Araise, pour se procurer des fonds. Sans doute pour son rachat.
 
-[act 2-IV-1147]
+[act 2-IV-1148]
 date: 1609-11-25
 date printed: 25
 date status: printed in the margin
@@ -13897,7 +13910,7 @@ chancelier: Louys Changet
 dates mentioned: 1609-11-04
 text: (671) Mamout, maure de Djerba, Baxis, également maure de Djerba, se trouvant à Bizerte le 4 novembre 1609, ont vu que Ally fils de Assan, turc de Xatalye, a chargé sur le loude de rais Amouro benxalem un certain nombre de marchandises pour Malte. Le dit loude relâchant à l'Ile Plane a été pris par une polacre ayant la banière toute blanche, malgré que le loude ait hissé le pavillon de Malte. Les déclarants ne savent pas où le loude a été amené parce qu'ils se sont enfuis avec le canot du dit loude.
 
-[act 2-IV-1148]
+[act 2-IV-1149]
 date: 1609-11-27
 date printed: 27
 date status: printed in the margin
@@ -13909,7 +13922,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (673) Le patron Arnaud Moureu, de la Ciotat, expose que le patron Guillon Angallier, de Toulon, lui a pris des voiles qu'il avait achetées à Tunis et déposées à La Goulette. Suivent deux témoignages.
 
-[act 2-IV-1149]
+[act 2-IV-1150]
 date: 1609-11-28
 date printed: 28
 date status: printed in the margin
@@ -13922,7 +13935,7 @@ chancelier: Louys Changet
 amounts: 400 écus d'or; 500 écus d'or
 text: En italien. — (679) Le patron Arnaud Moureu, de la Ciotat, vend à Ally Pacha une « saettia » de 1.000 cantars avec ses voiles et agrès pour 400 écus d'or. Ally Pacha vend à Arnaud Moureu une « saettia >> napolitaine de 1.400 cantars pour 500 écus d'or. Cette « saettia » a été prise et conduite à La Goulette par les galères de Bizerte.
 
-[act 2-IV-1150]
+[act 2-IV-1151]
 date: 1609-11-28
 date printed: 28
 date status: printed in the margin
@@ -13934,7 +13947,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (681) Santo Symedeou Jusepру Creudy de venir prendre les 23 cantars de « braxil » qu'il lui a achetés à La Goulette. Juseppi Creudy répond que c'est samedi, donc jour de fête. Il fera connaître son avis le lendemain.
 
-[act 2-IV-1151]
+[act 2-IV-1152]
 date: 1609-12-09
 date printed: 9 déc.
 date status: printed in the margin
@@ -13947,7 +13960,7 @@ chancelier: Louys Changet
 amounts: 24 écus d'or d'Espagne
 text: (683) Le patron Arnaut Moureu a reçu de Hugues Changet 24 écus d'or d'Espagne pour ultime expédition de son bateau le « Ste Marye du Rorary ». Somme payable à Marseille à Josep Estienne et Cie.
 
-[act 2-IV-1152]
+[act 2-IV-1153]
 date: 1609-12-09
 date printed: 9 déc.
 date status: printed in the margin
@@ -13960,7 +13973,7 @@ chancelier: Louys Changet
 amounts: 84 écus d'or d'Espagne
 text: (684) Arnaut Moreu doit à Josep Estienne 84 écus d'or d'Espagne.
 
-[act 2-IV-1153]
+[act 2-IV-1154]
 date: 1609-12-14
 date printed: 14
 date status: printed in the margin
@@ -13973,7 +13986,7 @@ chancelier: Louys Changet
 amounts: 84 écus
 text: (686) Le même doit à Rafeau Francisco 84 écus.
 
-[act 2-IV-1154]
+[act 2-IV-1155]
 date: 1610-01-19
 date printed: 19 janv.
 date status: printed in the margin
@@ -13986,7 +13999,7 @@ chancelier: Louys Changet
 amounts: 40 écus
 text: En italien. — (688) Le patron Joan Pedro Masolla, de Capra, a reçu de Moutio Balsano, de la Torre del Greco, 40 écus pour le compte de Joan Leonardo.
 
-[act 2-IV-1155]
+[act 2-IV-1156]
 date: 1610-01-25
 date printed: 25
 date status: printed in the margin
@@ -13999,7 +14012,7 @@ chancelier: Louys Changet
 amounts: 65 écus d'or d'Espagne
 text: En italien. — (690) Ally Xebedy, maure de Sousse, doit à Martino Hermenyo 65 écus d'or d'Espagne.
 
-[act 2-IV-1156]
+[act 2-IV-1157]
 date: 1610-01-26
 date printed: 26
 date status: printed in the margin
@@ -14012,7 +14025,7 @@ chancelier: Louys Changet
 amounts: 470 écus
 text: (692) Le patron Honnorat Quaxier, de Cannes, a vendu sa polacre à Sidi Hamida, de Tunis, qui va l'armer pour partir en course contre les chrétiens. Cette vente ayant été faite sans avis du Consul et étant contraire aux ordonnances royales, Hugues Changet somme Honnorat de se dédire et de ne pas livrer la polacre. Il le somme également de consigner le montant de la vente, soit 470 écus. Le vendeur répond qu'il ignorait les ordonnances auxquelles le Consul se réfère. La polacre a été vendue à un marchand qui veut s'en servir pour commercer avec le Levant. Quant à l'argent de la vente, il est à lui et il entend le garder.
 
-[act 2-IV-1157]
+[act 2-IV-1158]
 date: 1610-01-20
 date printed: 20
 date status: printed in the margin
@@ -14024,7 +14037,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (696) François Armand, écuyer de la Ville de Marseille, somme le patron Heurban de Nans, de Sixfours, de prendre la licence de sa polacre mouillée à La Goulette et de se préparer à partir le plus tôt possible. Armand s'oppose à ce que l'on charge des marchandises. Etant donné le but de son voyage à Tunis, le navire qui l'a amené est exempt de droits d'ancrage. Le patron répond qu'il est prêt à prendre la licence pour partir. Ossoman Dey, à qui il est allé demander la dite licence, lui a répondu qu'il le laissera mettre à la voile lorsque ses navires de guerre auront pris la mer. Hugues Changet étant alité, la réponse du Dey a été reçue par le chancelier Louys Changet et par le janissaire de la maison.
 
-[act 2-IV-1158]
+[act 2-IV-1159]
 date: 1610-01-29
 date printed: 29 janv.
 date status: printed in the margin
@@ -14038,7 +14051,7 @@ amounts: 220 écus
 flags: unfinished
 text: En italien. — (699) Le patron Jaumet de Beaulieu, de Marseille, nolise sa « saettia » aux frères Josepo et Habram Creuda, juifs de Livourne, pour 220 écus. (Acte inachevé).
 
-[act 2-IV-1159]
+[act 2-IV-1160]
 date: 1610-02-03
 date printed: 3 fév.
 date status: printed in the margin
@@ -14050,7 +14063,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (700) Joan Antonio Payan, de Laigueglia, esclave de Sidi Hamida, turc de Tunis, demande à faire entendre des témoins au sujet de la mort de Joan Francisco Garriano, de la même ville, mort survenue à Alger un an et huit mois avant la déclaration précitée. Suivent deux témoignages. L'intéressé est mort de la peste.
 
-[act 2-IV-1160]
+[act 2-IV-1161]
 date: 1610-02-09
 date printed: 9
 date status: printed in the margin
@@ -14062,7 +14075,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (704) Jousepo Allexy, de Messine, a reçu de Pasquale Imperato 105 pièces de 8 réaulx castillans, somme versée sur l'ordre de Maryo de Lionardo Quarantotto, de Pise, et de la dame Lionora Bonsignore, de Naples.:
 
-[act 2-IV-1161]
+[act 2-IV-1162]
 date: 1610-02-12
 date printed: 12
 date status: printed in the margin
@@ -14075,7 +14088,7 @@ chancelier: Louys Changet
 dates mentioned: 1608-11-24
 text: En italien. — (711) Lorenso Pira, de Sassari, Giovanny de Geronyme, de Mera de Moneglia (Rivière de Gênes), Tomasello Palonbo, de la Torre del Greco, indiquent dans quelles conditions a été passé l'acte du 24 novembre 1608. (Voir plus haut) .
 
-[act 2-IV-1162]
+[act 2-IV-1163]
 date: 1610-02-12
 date printed: 12
 date status: printed in the margin
@@ -14087,7 +14100,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (714) Même affaire.
 
-[act 2-IV-1163]
+[act 2-IV-1164]
 date: 1610-02-12
 date printed: 12
 date status: printed in the margin
@@ -14099,7 +14112,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (716) Même affaire.
 
-[act 2-IV-1164]
+[act 2-IV-1165]
 date: 1610-02-12
 date printed: 12
 date status: printed in the margin
@@ -14113,7 +14126,7 @@ amounts: 80 écus d'or d'Espagne; 100 écus; 50 écus
 dates mentioned: 1610-08-11
 text: En italien. — (718) Marguerite Seguiere, de Marseille, épouse de Honorat Jouhart, de Grasse, doit à Assan Corsou 80 écus d'or d'Espagne prêtés pour payer son rachat. Le prix total est de 100 écus; Francisco Loubretto, esclave de Ossoman Dey lui a prêté également 50 écus qu'elle a remboursés. (La quittance en date du 11 août 1610 est en marge de l'acte).
 
-[act 2-IV-1165]
+[act 2-IV-1166]
 date: 1610-02-16
 date printed: 16
 date status: printed in the margin
@@ -14126,7 +14139,7 @@ chancelier: Louys Changet
 amounts: 387 écus d'or d'Espagne
 text: En italien. — (721) Miquel Parejia, d'Alicante, doit à Jousepo Carouso, de Cagliari, 387 écus d'or d'Espagne payés pour son rachat à Ossoman Dey. Somme remboursable un mois après l'arrivée à Cagliari. Le rachat a été fait sur l'ordre de Miquel Vidal, de Cagliari.
 
-[act 2-IV-1166]
+[act 2-IV-1167]
 date: 1610-02-18
 date printed: 18
 date status: printed in the margin
@@ -14139,7 +14152,7 @@ chancelier: Louys Changet
 flags: unfinished
 text: En italien. — (723) Le Père Pedro de Rouxo, de Sassari, capucin de l'Ordre de San Francisco, a reçu de Jousepe de Marseille, ........ écus d'or d'Espagne payés pour son rachat à Mamet Cheleby, turc de Tunis (Acte inachevé).
 
-[act 2-IV-1167]
+[act 2-IV-1168]
 date: 1610-02-26
 date printed: 26 fév.
 date status: printed in the margin
@@ -14152,7 +14165,7 @@ chancelier: Louys Changet
 dates mentioned: 1609-07
 text: En italien. — (724) Antonio Marco, arménien, habitant Constantinople, expose qu'en juillet 1609 il a fait acheter de la soie (?) à Tunis par Andrea Caldeo pour la porter à Livourne. Il n'a jamais eu de nouvelles de cette marchandise. (Suivent trois témoignages dans le même sens).
 
-[act 2-IV-1168]
+[act 2-IV-1169]
 date: 1610-02-26
 date printed: 26  —
 date status: printed in the margin
@@ -14166,7 +14179,7 @@ amounts: 260 écus d'or d'Espagne
 dates mentioned: 1609-04
 text: En italien. — (728) Doumenyco de Laxaro, arménien, expose que se trouvant à Livourne en avril 1609, il a donné à Paulo, arménien, 260 écus d'or d'Espagne à lui consigner à Tunis, plus certaines marchandises. Il n'en a jamais eu de nouvelles. (Suivent deux témoignages dans le même sens).
 
-[act 2-IV-1169]
+[act 2-IV-1170]
 date: 1610-02-26
 date printed: 26  —
 date status: printed in the margin
@@ -14179,7 +14192,7 @@ chancelier: Louys Changet
 amounts: 132 écus d'or d'Espagne
 text: En italien. — (733) Antonio de Marco, arménien, de Constantinople, donne une procuration à Symon, arménien, habitant à Venise, pour récupérer une créance de 132 écus d'or d'Espagne sur Andrea Caldeo.
 
-[act 2-IV-1170]
+[act 2-IV-1171]
 date: 1610-02-26
 date printed: 26  —
 date status: printed in the margin
@@ -14192,7 +14205,7 @@ chancelier: Louys Changet
 dates mentioned: 1610-01-08
 text: (736) Bastian de Quaravachail dit Assan Yttris et Diego Hernandes dit Hybren Salin, et Allonso Castelayno dit Ally Raphat, et Domingo Peres dit Ysoub Assan, etc..., maures de Grenade, habitant à Tunis, donnent une procuration à deux des leurs pour agir contre le capitaine Anthouron Estienne dit Megrin et son fils Pierre Estienne et les faire condamner à la restitution des joyaux et marchandises des constituants méchamment volés et dérobés à Porto Farina le 8 janvier 1610 où ils les ont laissés tous nus à terre. (Il y a près de deux pages de noms. Les constituants ont signé leur nom espagnol, sauf deux qui ont signé en arabe) (1).
 
-[act 2-IV-1171]
+[act 2-IV-1172]
 date: 1610-03-08
 date printed: 8 mars
 date status: printed in the margin
@@ -14206,7 +14219,7 @@ amounts: 6.000 écus
 flags: illegible, damaged
 text: (741) Jacques Jourdan, patron du vaisseau « Ste-Anne », Toumas Cestier, écrivain du dit navire, pris et amenés à La Goulette par une polacre de Mamet Pacha de Tunis, le patron Jehan Bonnet étant mort dans le combat qui a précédé la prise du « Ste-Anne », exposent que le Pacha veut saisir les marchandises du chargement et réduire en esclavage les hommes de l'équipage parce qu'ils se sont défendus contre les turcs. Pour éviter cela, les déclarants ont offert 6.000 écus pour calmer le Pacha. Ils demandent au Consul de leur faire prêter la somme en attendant qu'ils la reçoivent de France. Suit une sentence du Consul rendue après réunion des marchands et patrons de l'Echelle. (A peu près illisible, l'encre ayant rongé le papier).
 
-[act 2-IV-1172]
+[act 2-IV-1173]
 date: 1610-03-10
 date printed: 10 mars
 date status: printed in the margin
@@ -14218,7 +14231,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (748) Laurenso Pira, de Sassari, esclave de Sidi Hamida, turc de Tunis, donne une procuration à Gaspart Cougia, de la même ville, pour se procurer des fonds. Sans doute pour le racheter.
 
-[act 2-IV-1173]
+[act 2-IV-1174]
 date: 1610-03-10
 date printed: 10  —
 date status: printed in the margin
@@ -14231,7 +14244,7 @@ chancelier: Louys Changet
 amounts: 200 écus d'or
 text: En italien. — (751) Le patron Giorge Mychida, de Messine, doit au patron Sylvestro Chiafoutto 200 écus d'or payés pour son rachat à Ally Pacha. Somme remboursable un mois après l'arrivée à Malte.
 
-[act 2-IV-1174]
+[act 2-IV-1175]
 date: 1610-03-11
 date printed: 11  —
 date status: printed in the margin
@@ -14244,7 +14257,7 @@ chancelier: Louys Changet
 amounts: 419 ducats; 10 carlins
 text: En italien. — (753) Gregorio de Trifonne Collenda, de Raguse, doit à Joan de Biasso Cincho (Zinzo) 419 ducats de 10 carlins chaque payés pour son rachat à Arabagy Rais, turc.
 
-[act 2-IV-1175]
+[act 2-IV-1176]
 date: 1610-03-11
 date printed: 11  —
 date status: printed in the margin
@@ -14257,7 +14270,7 @@ chancelier: Louys Changet
 amounts: 141 écus d'or d'Espagne
 text: En italien. — (755) Le même doit à Dominiqo de Laxaro, arménien, 141 écus d'or d'Espagne et 3/4 payés pour le complément de son rachat.
 
-[act 2-IV-1176]
+[act 2-IV-1177]
 date: 1610-03-11
 date printed: 11  —
 date status: printed in the margin
@@ -14271,7 +14284,7 @@ amounts: 150 écus d'or de 64 aspres
 dates mentioned: 1609-10-06
 text: En italien. — (757) Le patron Silvestro Chiafouto a reçu du rais Salem ben Sale, de Zouara (Royaume de Tunis), 150 écus d'or de 64 aspres; remboursement d'un prêt fait à Malte le 6 octobre 1609.
 
-[act 2-IV-1177]
+[act 2-IV-1178]
 date: 1610-03-12
 date printed: 12  —
 date status: printed in the margin
@@ -14283,7 +14296,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (758) Gregorio de Trifonne Collenda proteste contre les faits et gestes de Pasquale Inperato qui, à Tunis depuis trois mois, n'a pas encore payé le rachat du déclarant. Celui-ci, pour éviter de plus grands ennuis, a dû emprunter la somme à 33 % d'intérêt. Pasquale Inperato répond que la Rédemption ne l'a nullement chargé de racheter Gregorio.
 
-[act 2-IV-1178]
+[act 2-IV-1179]
 date: 1610-03-12
 date printed: 12  —
 date status: printed in the margin
@@ -14296,7 +14309,7 @@ chancelier: Louys Changet
 dates mentioned: 1610-02
 text: (762) Le patron Jaumet de Beaulieu, de Marseille, arrivé à Bizerte en février 1610 avec sa barque la « Ste-Marie Bonne venture », a été obligé par un turc nommé Sidi Amida, de Tunis, d'aller à la Feumere Salade (Fiumara Salata — Oued Melah) charger du bois pour la construction des galères. Ayant mis huit maures dans sa barque, il est allé charger le dit bois; au retour, le 4 mars, se trouvant à l'embouchure de la « fumade » de Bizerte, un fort coup de vent l'a jeté à la côte où sa barque s'est mise en pièces. Il n'a pu sauver que les mâts, quelques voiles, trois ancres et un câble. (Suivent trois témoignages dans le même sens).
 
-[act 2-IV-1179]
+[act 2-IV-1180]
 date: 1610-03-13
 date printed: 13 mars
 date status: printed in the margin
@@ -14308,7 +14321,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (766) Reynaud Fabre, marchand de Marseille, et Mathurin Bonastier, de la Chaume Doulloune en Poitou, doivent à François Armant, bourgeois de Marseille, 1.040 pièces de 8 réaulx castillans la pièce payés pour le rachat de Louys Jousemot, de Huroux Penard, de Mathurin Bonouin, de Gilles Saulnier, de Rene Brochop et de Andre Poiraud, esclaves des turcs à Tunis.
 
-[act 2-IV-1180]
+[act 2-IV-1181]
 date: 1610-03-13
 date printed: 13  —
 date status: printed in the margin
@@ -14321,7 +14334,7 @@ chancelier: Louys Changet
 amounts: 531 écus d'or; 51 aspres
 text: (769) Les mêmes doivent à Anthoyne Lovyco et à Anthoine Berengier 531 écus d'or et 51 aspres prêtés pour délivrer les esclaves mentionnés dans l'acte précédent.
 
-[act 2-IV-1181]
+[act 2-IV-1182]
 date: 1610-03-13
 date printed: 13  —
 date status: printed in the margin
@@ -14334,7 +14347,7 @@ chancelier: Louys Changet
 amounts: 207 écus
 text: (771) Anne Daugerolle chevalier de Comyeres, de la paroisse de Mably, près de Roanne, doit à Anthoine Lovico et Anthoine Berengier 207 écus de 12 réaulx castillans payés pour son rachat. Il s'agit d'un chevalier de St-Jean de Jérusalem qui signe « Anné Dogerolles ».
 
-[act 2-IV-1182]
+[act 2-IV-1183]
 date: 1610-03-13
 date printed: 13  —
 date status: printed in the margin
@@ -14347,7 +14360,7 @@ chancelier: Louys Changet
 amounts: 386 écus
 text: (773) Gilles le Maire dit Parsifontaine, doit aux mêmes 386 écus de 12 réaulx castillans payés pour son rachat à Ossoman Dey.
 
-[act 2-IV-1183]
+[act 2-IV-1184]
 date: 1610-03-13
 date printed: 13  —
 date status: printed in the margin
@@ -14360,7 +14373,7 @@ chancelier: Louys Changet
 amounts: 53 écus
 text: (775) Reynaud Fabre doit à Hurban de Nans, de Sixfours, 53 écus et 1/3.
 
-[act 2-IV-1184]
+[act 2-IV-1185]
 date: 1610-03-13
 date printed: 13  —
 date status: printed in the margin
@@ -14373,7 +14386,7 @@ chancelier: Louys Changet
 amounts: 1.642 écus
 text: (777) Henri Penard, des Sables d'Olonne, Andre Peyraud, René Brochet, Louys Jansonnet, Gilles Saunier, Mathurin Bouenin, Jehan Reinaud doivent à Reynaud Fabre et Matheurin Benestier 1.642 écus de 12 réaulx castillans payés pour leur rachat à Ossoman Dey et Ysoub Jaous, turc.
 
-[act 2-IV-1185]
+[act 2-IV-1186]
 date: 1610-03-15
 date printed: 15  —
 date status: printed in the margin
@@ -14385,7 +14398,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (780) Jehan Anthoyne Myfret, du Puget Denier en Provence, esclave des héritiers de Mamet bey, turcs de Tunis, donne une procuration aux Consuls de Puget Thénier pour vendre ses biens. Evidemment pour payer son rachat.
 
-[act 2-IV-1186]
+[act 2-IV-1187]
 date: 1610-03-17
 date printed: 17  —
 date status: printed in the margin
@@ -14398,7 +14411,7 @@ chancelier: Louys Changet
 amounts: 130 écus d'or d'Espagne
 text: En italien. — (783) Jousepo Dalexio, de Messine, doit à Pasgalle Inperatto 130 écus d'or d'Espagne.
 
-[act 2-IV-1187]
+[act 2-IV-1188]
 date: 1610-03-17
 date printed: 17  —
 date status: printed in the margin
@@ -14411,7 +14424,7 @@ chancelier: Louys Changet
 amounts: 84 écus d'or; 16 aspres
 text: (786) François Metayer, Jehan Montagne, René Guiet, Jacques Monsiou doivent à Antony Lovico et Antony Berengier 84 écus d'or et 16 aspres prêtés pour payer les droits de leur rachat.
 
-[act 2-IV-1188]
+[act 2-IV-1189]
 date: 1610-04-01
 date printed: 1er avril
 date status: printed in the margin
@@ -14424,7 +14437,7 @@ chancelier: Louys Changet
 amounts: 54.000 écus d'or; 3.000 écus; 57.000 écus
 text: (788) Le patron Anthoine Marin Franciscou, de Marseille, patron du galion « St-Vincent », expose qu'ayant chargé son navire à Tripoli de Syrie et Alexandrette de marchandises diverses pour Marseille, il a fait voile pour ce port. Parti le 19 mars de l'île d'Elbe, il a été pris le même jour par un vaisseau rond corsaire après un très vif combat où le « St-Vincent > perdit 15 hommes tant marins que passagers. Anthoine Marin a été lui-même grièvement blessé. Le corsaire, qui appartenait à Ossoman Dey, a conduit le « St- Vincent » à La Goulette où il est arrivé le 25 mars. Grâce au Consul et à Anthoine Lovico, les marchandises n'ont pas été confisquées comme voulait le faire Ossoman Dey et celui-ci a transigé pour 54.000 écus d'or et la livraison de l'artillerie. Il a fallu donner 3.000 écus à Yssoub Chaouch et à Osta Morat Genovese qui ont fait faire l'accord. Le total à payer est donc de 57.000 écus. Anthoine Marin a trouvé une partie de la somme à Tunis, mais pour plus de sûreté, Ossoman Dey a exigé qu'il dépose 100 balles de soie dans le magasin du Consul de France jusqu'à complet paiement de la somme due. Tout le reste du chargement va être transporté à Marseille et mis entre les mains des Députés du négoce. (Suivent trois témoignages dans le même sens). Le 5 avril, le patron demande au Consul de faire entendre de nouveaux témoins au sujet du déchargement de la soie à déposer en garantie. (Suivent six témoignages).
 
-[act 2-IV-1189]
+[act 2-IV-1190]
 date: 1610-04-01
 date printed: 1
 date status: printed in the margin
@@ -14437,7 +14450,7 @@ chancelier: Louys Changet
 amounts: 248 écus d'or d'Espagne
 text: En italien. — (822) Ventourin de Antonio Fourtariot, de Venise, reconnaît avoir été racheté pour 248 écus d'or d'Espagne aux héritiers de Mamet bey par Symon Escanasia, juif, sur l'ordre de Joan Battiste Justyniano, gouverneur de Tabarca.
 
-[act 2-IV-1190]
+[act 2-IV-1191]
 date: 1610-04-03
 date printed: 3
 date status: printed in the margin
@@ -14450,7 +14463,7 @@ chancelier: Louys Changet
 dates mentioned: 1609-03
 text: En italien. — (824) Malen Ha Yssa, maure de Bône, donne une procuration au docteur Bernardetto, de Livourne, pour récupérer 600 cuirs sur Prosporo Pagnaly, corse. Ces cuirs ont été remis à Prosporo en mars 1609 pour les porter à Livourne et racheter avec le montant de leur vente Agy Mamet, Bel Assan, Bel Casson et Fattyma.
 
-[act 2-IV-1191]
+[act 2-IV-1192]
 date: 1610-04-05
 date printed: 5 avril
 date status: printed in the margin
@@ -14462,7 +14475,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (826) Frère Charles Rosnel (Charles de Rosmel), religieux de l'Ordre de St-Augustin, esclave de Ossoman Dey, donre une procuration à Felip et Pierre de Rosnel, ses frères, pour engager ou vendre une rente qu'il a à Paris. Evidemment pour payer son rachat.
 
-[act 2-IV-1192]
+[act 2-IV-1193]
 date: 1610-04-05
 date printed: 5
 date status: printed in the margin
@@ -14475,7 +14488,7 @@ chancelier: Louys Changet
 amounts: 307 écus
 text: (828) Franciscou cavaliero dal Bolgiouxo (Franco Cavalro da Bolgioioso), de Milan, doit à Anthoine Lovico et Anthoine Berangier 307 écus et 1/2 de 12 réaulx castillans payés pour le complément de son rachat à Bizerte aux héritiers de Assan Bally, turc. Somme remboursable un mois après l'arrivée à Marseille.
 
-[act 2-IV-1193]
+[act 2-IV-1194]
 date: 1610-04-07
 date printed: 7
 date status: printed in the margin
@@ -14489,7 +14502,7 @@ amounts: 250 écus
 flags: damaged
 text: En italien. — ( 830) .......... fils de Fraoustina, esclave de Draout Chaous, turc de Tunis, donne une procuration à .... pour se procurer les 250 écus de sa rançon. (Très effacé ).
 
-[act 2-IV-1194]
+[act 2-IV-1195]
 date: 1610-04-12
 date printed: 12
 date status: printed in the margin
@@ -14502,7 +14515,7 @@ chancelier: Louys Changet
 amounts: 172 écus; 52 aspres
 text: (833) Le patron Anthoine Marin Franciscou et Anthoine de Martin, de Marseille, doivent au patron Rafeou Fransiscou, de Marseille, 172 écus et 52 aspres pour la dernière expédition du vaisseau « St-Vincent », patron Anthoine Marin Fransiscou.
 
-[act 2-IV-1195]
+[act 2-IV-1196]
 date: 1610-04-12
 date printed: 12
 date status: printed in the margin
@@ -14515,7 +14528,7 @@ chancelier: Louys Changet
 amounts: 1.500 livres
 text: (836) Jehan Fleuriot, d'Angers, doit à René Pelletier 1.500 livres tournois payées pour son rachat à Ally Pacha, autrefois Pacha de Tunis. La somme a été payée à Tunis par Anthoine Lovico.
 
-[act 2-IV-1196]
+[act 2-IV-1197]
 date: 1610-04-12
 date printed: 12
 date status: printed in the margin
@@ -14528,7 +14541,7 @@ chancelier: Louys Changet
 flags: unfinished
 text: En italien. — (838) Nove de Moise, arménien, a reçu un certain nombre de marchandises qu'il avait confiées à Livourne à Esteve Symedeo ..... (Inachevé et non signé).
 
-[act 2-IV-1197]
+[act 2-IV-1198]
 date: 1610-04-12
 date printed: 12
 date status: printed in the margin
@@ -14540,7 +14553,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (839) Esteve Symedeo a reçu de Nove de Moise 100 soultanis d'or que celui-ci lui devait.
 
-[act 2-IV-1198]
+[act 2-IV-1199]
 date: 1610-04-13
 date printed: 13
 date status: printed in the margin
@@ -14553,7 +14566,7 @@ chancelier: Louys Changet
 amounts: 51 écus d'or
 text: (842) Estienne Millesaut et Daniel Argentin, bretons, doivent à Anthoine Lovico et Anthoine Berengier 51 écus d'or prêtés pour payer les droits de leur rachat. Somme remboursable un mois après l'arrivée du « St-Vincent ».
 
-[act 2-IV-1199]
+[act 2-IV-1200]
 date: 1610-04-15
 date printed: 15
 date status: printed in the margin
@@ -14566,7 +14579,7 @@ chancelier: Louys Changet
 amounts: 32 écus
 text: En italien. — (844) Estefano de Nicolo Bianquy, de Raguse, a reçu de Joan de Louca Miquelly et de Joan de Baixo (Biaggio), députés de la Rédemption de Raguse, 32 écus el 1/2 que le déclarant avait prétés à Tunis à Maryno de Biaggio pour le complément de son rachat.
 
-[act 2-IV-1200]
+[act 2-IV-1201]
 date: 1610-04-15
 date printed: 15 avril
 date status: printed in the margin
@@ -14578,7 +14591,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (845) Louca, fils de Joane Falconne, de Perasto,esclave de Ossoman Dey, a reçu des mêmes 21 pièces de 8 réaulx castillans à titre de prêt.
 
-[act 2-IV-1201]
+[act 2-IV-1202]
 date: 1610-04-15
 date printed: 15
 date status: printed in the margin
@@ -14591,7 +14604,7 @@ chancelier: Louys Changet
 amounts: 150 écus d'or d'Espagne
 text: En italien. — (847) Piedro de Fransesco Cordich, de Calamotta, a reçu des mêmes 150 écus d'or d'Espagne payés pour son rachat à Ally, pacha de Tripoli de Barbarie.
 
-[act 2-IV-1202]
+[act 2-IV-1203]
 date: 1610-04-15
 date printed: 15
 date status: printed in the margin
@@ -14604,7 +14617,7 @@ chancelier: Louys Changet
 ocr corrections: habile -> habite
 text: En italien. — (851) Vinsenso (?), fils de Andrea Androusco, renégat ture appelé Morat, esclave de la mère de Mamet Bey, réclame certains objets qu'il a laissés à l'Ile de Messa où habite sa famille.
 
-[act 2-IV-1203]
+[act 2-IV-1204]
 date: 1610-04-16
 date printed: 16
 date status: printed in the margin
@@ -14617,7 +14630,7 @@ chancelier: Louys Changet
 amounts: 30 écus d'or d'Espagne
 text: En italien. — (854) Vinsenso di Joany, de Raguse, esclave de Ossoman Dey, doit à Joan de Luca Miquely et à Joan de Biaggio 30 écus d'or d'Espagne.
 
-[act 2-IV-1204]
+[act 2-IV-1205]
 date: 1610-04-20
 date printed: 20
 date status: printed in the margin
@@ -14631,7 +14644,7 @@ dates mentioned: 1606-08
 flags: damaged
 text: En italien. — (856) Gregorio de Trifonne Collenda, de Raguse, expose qu'en août 1606 le capitaine Vincenxo de Martino, de Perastro, et son compagnon Matheo de Trifonne sont partis de Messine pour aller charger du froment en Albanie. Dans le golfe de Venise et à Céphalonie ils pillèrent des bateaux vénitiens, puis furent pris eux-mêmes par des corsaires, conduits à Alger, puis à Tunis. Là Vinsenxo mourut en 1607 chez Osta Assan Genovese, turc et janissaire de Tunis, (Suivent deux témoignages dans le même sens. Ces actes sont très difficiles à lire, l'encre ayant rongé le papier).
 
-[act 2-IV-1205]
+[act 2-IV-1206]
 date: 1610-04-20
 date printed: 20
 date status: printed in the margin
@@ -14643,7 +14656,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (867) Vinsenso, fils de Andrea Androusco, de l'Ile de Messa, renégat turc appelé Mourat, de 23 ans environ, esclave de la mère de Mamet bey, fait une déclaration au sujet des biens de son père.
 
-[act 2-IV-1206]
+[act 2-IV-1207]
 date: 1610-04-20
 date printed: 20
 date status: printed in the margin
@@ -14655,7 +14668,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (870) Piedro de Fransisco Cordich, de Calamotta, doit à Luca de Miquelly 111 pièces de 8 réaulx castillans payées pour le complément de son rachat à Ally, pacha de Tripoli de Barbarie.
 
-[act 2-IV-1207]
+[act 2-IV-1208]
 date: 1610-04-22
 date printed: 22
 date status: printed in the margin
@@ -14667,7 +14680,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (872) Le patron Luzio Matheo, corse, a reçu de Hugues Changet, vice-consul, une barque nommée « Ste-Margueritte bonne venture de 1.400 quintaux de portée avec ses mâts, voiles, ancres, agrès, artillerie, etc. Cette barque, qui avait été prise par les corsaires turcs, a été remise au Consul par Ally Pacha, autrefois Pacha de Tunis. Luzio doit la conduire à Livourne et la remettre au patron Moichouan Tourtel (?), de Sixfours.
 
-[act 2-IV-1208]
+[act 2-IV-1209]
 date: 1610-05-01
 date printed: 1er   mai
 date status: printed in the margin
@@ -14679,7 +14692,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (876) Le patron Piedro Toumaxello, de la Torre del Greco, donne à Marcantonio Paulillo, de Naples, tous ses droits sur le vaisseau la « Nontiade », chargée de poisson et autres marchandises, retenue à Palerme par le Vice-Roi de Sicile.
 
-[act 2-IV-1209]
+[act 2-IV-1210]
 date: 1610-05-04
 date printed: 4
 date status: printed in the margin
@@ -14691,7 +14704,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (878) Marcantony Paulillo, de Naples, donne une procuration à Francisco Scotto, de Palerme, pour récupérer des créances.
 
-[act 2-IV-1210]
+[act 2-IV-1211]
 date: 1610-05-21
 date printed: 21
 date status: printed in the margin
@@ -14706,7 +14719,7 @@ dates mentioned: 1608-09
 ocr corrections: Cing -> Cinq
 text: En italien. — (880) Mourat et Rachep, tures renégats corexposent qu'en septembre 1608 ils ont racheté à Tunis ses, au Divan des janissaires Dominico de Pedro, de St Piero da Xigoro (Corse), pour 273 écus d'or d'Espagne. La somme devait être remboursée à Xenebra, femme de Joan Jacomo, mère desdits Morat et Rachep, et à Antonya, leur sœur. Arrivé en Corse, Dominico n'a rien voulu payer en disant qu'il n'avait rien reçu à Tunis. (Cinq témoins certifient que le rachat a bien été effectué comme l'ont dit les déclarants).
 
-[act 2-IV-1211]
+[act 2-IV-1212]
 date: 1610-05-22
 date printed: 22
 date status: printed in the margin
@@ -14718,7 +14731,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (889) Muratto bey, renégat, fils d'Alfonso, corse de Bastia, donne une procuration à Joan Filippo et à Ambroxio Falconne, de Bastia, pour qu'ils s'occupent de ses affaires et notamment de faire rembourser ce que lui doit Prospero Pagnale de Piedro, de Mursiglia (Cap Corse), etc ...
 
-[act 2-IV-1212]
+[act 2-IV-1213]
 date: 1610-05-24
 date printed: 24    -
 date status: printed in the margin
@@ -14731,7 +14744,7 @@ chancelier: Louys Changet
 dates mentioned: 1609-11-07
 text: En italien. — (893) Enregistrement d'une police de chargement du 7 novembre 1609 faite par Dominico Falconetto, de Bastia.
 
-[act 2-IV-1213]
+[act 2-IV-1214]
 date: 1610-05-24
 date printed: 24
 date status: printed in the margin
@@ -14744,7 +14757,7 @@ chancelier: Louys Changet
 dates mentioned: 1608-08-02
 text: En italien. — (896) Mourat bey, turc, renégat corse, demande l'enregistrement d'un « écrit » de Prosporo Pagnally, marchand corse, daté du 2 août 1608. Il s'agit de marchandises à transporter à Livourne.
 
-[act 2-IV-1214]
+[act 2-IV-1215]
 date: 1610-05-25
 date printed: 25    -
 date status: printed in the margin
@@ -14756,7 +14769,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (898) Joan Andre Busuttil, de Malte, expose qu'il y a quatre mois le raïs Salem de Suaxi, maure, a acheté à La Goulette au raïs Capitan Soliman Malta, capitaine d'un berton « posticio » qui fait toujours les voyages de Corse, 60 barils de sardine. Une contestation s'étant élevée à ce sujet, le déclarant demande que des témoins soient entendus. (Suivent trois témoignages).
 
-[act 2-IV-1215]
+[act 2-IV-1216]
 date: 1610-05-27
 date printed: 27 mai
 date status: printed in the margin
@@ -14768,7 +14781,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (906) Hugues Changet, de Marseille, consul pour la nation française, donne une procuration au Dr Rodrigo d'Alfonseca, de Pise, pour qu'il s'occupe de ses affaires et notamment pour qu'il se fasse rembourser une créance par le patron Joany Rio, de Levante.
 
-[act 2-IV-1216]
+[act 2-IV-1217]
 date: 1610-06-02
 date printed: 2 juin
 date status: printed in the margin
@@ -14781,7 +14794,7 @@ chancelier: Louys Changet
 dates mentioned: 1609-11-05
 text: En italien. — (912) Marco Francisco, corse, demande l'enregistrement d'une police de chargement faite par Joan Battiste Pyn le 5 novembre 1609. (Suit la police en question: cuirs et gomme arabique).
 
-[act 2-IV-1217]
+[act 2-IV-1218]
 date: 1610-06-03
 date printed: 3
 date status: printed in the margin
@@ -14794,7 +14807,7 @@ chancelier: Louys Changet
 amounts: 130 écus
 text: (914) Le patron Tourtel et Beltrand Leouxier (Bertrand Beussier ) , de Sixfours, doivent au patron Jehan Berenguier, de la ville de Marseille, 130 écus de 12 réaulx castillans payés à Ossoman Dey pour le rachat de Bertrand Beussier. Somme remboursable vingt jours après l'arrivée de la polacre « Ste- Bergitte bonne venture », patron Jehan Berenguier, à Marseille.
 
-[act 2-IV-1218]
+[act 2-IV-1219]
 date: 1610-06-07
 date printed: 7
 date status: printed in the margin
@@ -14806,7 +14819,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (917) Frère Jehan de Casthelane Claret (Jehan de Castellane Claret), de Claret en Provence, chevalier de l'ordre de St-Jean de Jérusalem, donne une procuration à Jehan de Castellane de Dalouis, de Dalouis en Provence, pour vendre la partie d'une maison que possède le constituant à Malte, à Ville ' neuve (une chambre et une antichambre). Jehan de Castellane de Dalouis est également chevalier de St-Jean de Jérusalem.
 
-[act 2-IV-1219]
+[act 2-IV-1220]
 date: 1610-06-11
 date printed: 11   -
 date status: printed in the margin
@@ -14819,7 +14832,7 @@ chancelier: Louys Changet
 amounts: 149 écus
 text: (920) Pierre Gaudin, des Sables d'Olonne, doit à Anthoine Lovico et Anthoine Berengier 149 écus 2/3 de 12 réaulx castillans payés pour son rachat à Baba Assan, ture janissaire de Tunis. Somme remboursable quinze jours après l'arrivée du vaisseau « St-Victor » à Marseille.
 
-[act 2-IV-1220]
+[act 2-IV-1221]
 date: 1610-06-11
 date printed: 11
 date status: printed in the margin
@@ -14831,7 +14844,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (922) Mouratto et Racep Aga, turcs renégats corses, donnent une procuration à Louxiano de Monfridonne, de Vico (Corse), oncle des constituants, pour s'occuper de leurs affaires et notamment pour faire rembourser ce qui leur est dû par Domenico de Pedro.
 
-[act 2-IV-1221]
+[act 2-IV-1222]
 date: 1610-06-11
 date printed: 11 juin
 date status: printed in the margin
@@ -14844,7 +14857,7 @@ chancelier: Louys Changet
 amounts: 200 écus d'or d'Espagne
 text: En italien. — (928) Joan Canavalo de Pero, de Ranpalo (Rivière de Gênes), doit à Monfredino, marchand corse, 200 écus d'or d'Espagne payés pour son rachat à Sidi Hamidy, turc de Tunis. Somme remboursable à l'arrivée à Livourne.
 
-[act 2-IV-1222]
+[act 2-IV-1223]
 date: 1610-06-11
 date printed: 11  —
 date status: printed in the margin
@@ -14856,7 +14869,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (930) Joan Canavalo de Pero a reçu de Monfredino 127 pièces de 8 réaulx castillans que celui-ci était chargé de lui remettre par Battiste Merello & frères, de Gênes.
 
-[act 2-IV-1223]
+[act 2-IV-1224]
 date: 1610-07-01
 date printed: 1er juil.
 date status: printed in the margin
@@ -14869,7 +14882,7 @@ chancelier: Louys Changet
 amounts: 3.306 écus; 1.136 livres; 1.170 écus; 1.136 écus; 1.136 livres
 text: (932) Anthoine Lovico et Anthoine Berengier, députés par les intéressés du vaisseau « St-Esperit », capitaine Jehan du Ventou, de Marseille, ont reçu du capitaine Jaumet Anbroxin et de Baltoxat Constant, de Marseille, capitaine et écrivain du galion « St-Victor », 3.306 écus de 12 réaulx castillans d'une part, et 1.136 livres tournois d'autre part. Le chevalier de Ribaude, de St-Jean de Jerusalem, participe dans ces sommes pour 1.170 écus. Les 1.136 écus restants et les 1.136 livres tournois appartiennent à Anbroxin et Constant et aux autres officiers et mariniers du « St-Victor ». Pour toutes ces sommes, Lovico et Berengier ont hypothéqué toutes les marchandises du vaisseau « St-Esperit » chargées sur le « St-Victor », marchandises que les dites sommes ont permis de délivrer ici à Tunis.
 
-[act 2-IV-1224]
+[act 2-IV-1225]
 date: 1610-07-01
 date printed: 1er juil.
 date status: printed in the margin
@@ -14882,7 +14895,7 @@ chancelier: Louys Changet
 amounts: 1.315 écus
 text: (935) Les mêmes ont reçu en la même qualité de Gabriou Leonide et de François Siguier, de Marseille, capitaine et écrivain du galion « St-Mathieu », 1.315 écus et 1/2 de 12 réaulx castillans. (Comme dans l'acte précédent).
 
-[act 2-IV-1225]
+[act 2-IV-1226]
 date: 1610-07-02
 date printed: 2   —
 date status: printed in the margin
@@ -14895,7 +14908,7 @@ chancelier: Louys Changet
 amounts: 2.839 écus
 text: (937) Même acte pour 2.839 écus reçus de Jehan Berenguier.
 
-[act 2-IV-1226]
+[act 2-IV-1227]
 date: 1610-07-02
 date printed: 2   —
 date status: printed in the margin
@@ -14908,7 +14921,7 @@ chancelier: Louys Changet
 amounts: 1.248 écus
 text: (940) Même acte pour 1.248 écus reçus de Henric Leys, marchand anglais.
 
-[act 2-IV-1227]
+[act 2-IV-1228]
 date: 1610-07-02
 date printed: 2   —
 date status: printed in the margin
@@ -14920,7 +14933,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (942) Même acte pour 1.000 pièces de 8 réaulx castillans reçues de Allessandre de Andrea, arménien.
 
-[act 2-IV-1228]
+[act 2-IV-1229]
 date: 1610-07-02
 date printed: 2   —
 date status: printed in the margin
@@ -14933,7 +14946,7 @@ chancelier: Louys Changet
 amounts: 3.182 écus
 text: (945) Même acte pour 3.182 écus de 12 réaulx reçus de Jaumet Anbroxin et de Baltexat Constant.
 
-[act 2-IV-1229]
+[act 2-IV-1230]
 date: 1610-07-02
 date printed: 2 juil.
 date status: printed in the margin
@@ -14947,7 +14960,7 @@ amounts: 100 écus; 105 livres
 ocr corrections: text taken from the second OCR (this page is badly read in the main scan)
 text: (948) Nicoulas Janses, d'Amsterdam, a reçu de Anthoine Lovico 100 écus de 12 réaulx pour le complément de son rachat, plus 105 livres tournois.
 
-[act 2-IV-1230]
+[act 2-IV-1231]
 date: 1610-07-02
 date printed: 2
 date status: printed in the margin
@@ -14960,7 +14973,7 @@ chancelier: Louys Changet
 ocr corrections: text taken from the second OCR (this page is badly read in the main scan)
 text: (950) Le capitaine Jehan du Ventou (Devento), de Mar. seille, fait une déclaration au sujet d’une petite boîte de: bijoux chargée à Tripoli de Syrie et destinée à des mar. chands flamands de Marseille.
 
-[act 2-IV-1231]
+[act 2-IV-1232]
 date: 1610-07-03
 date printed: 3
 date status: printed in the margin
@@ -14973,7 +14986,7 @@ chancelier: Louys Changet
 amounts: 1.680 écus
 text: (953) Même acte qu'au folio 945, pour 1.680 écus de 12 réaulx reçus de Marcou Fransiscou, marchand corse.
 
-[act 2-IV-1232]
+[act 2-IV-1233]
 date: 1610-07-03
 date printed: 3
 date status: printed in the margin
@@ -14986,7 +14999,7 @@ chancelier: Louys Changet
 amounts: 214 écus
 text: En italien. — (956) Marcantonio Paulillo, de Naples donne une procuration à la dame Giulia Cattonia, de la même ville, pour faire rembourser une dette de 214 écus à Luca Romano.
 
-[act 2-IV-1233]
+[act 2-IV-1234]
 date: 1610-07-03
 date printed: 3
 date status: printed in the margin
@@ -14997,9 +15010,9 @@ language: français
 vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 amounts: 1.714 écus
-text: (958) Même acte qu'au folio 953, pour 1.714 écus de 12. réaulx reçus de Henry de Myron, chevalier de St-Jean de Jerusalem, esclave de Ossoman Dey.
+text: (958) Même acte qu'au folio 953, pour 1.714 écus de 12 réaulx reçus de Henry de Myron, chevalier de St-Jean de Jerusalem, esclave de Ossoman Dey.
 
-[act 2-IV-1234]
+[act 2-IV-1235]
 date: 1610-07-05
 date printed: 5
 date status: printed in the margin
@@ -15012,7 +15025,7 @@ chancelier: Louys Changet
 amounts: 490 écus; 40 aspres
 text: (961) Jehan Vallentin, de Marseille, cède à Anthoine Berengier une créance de 490 écus et 40 aspres sur Anthoine Lovico. Vallentin doit lui-même cette somme à Jacques Moustiers, écuyer de la ville de Marseille.
 
-[act 2-IV-1235]
+[act 2-IV-1236]
 date: 1610-07-05
 date printed: 5
 date status: printed in the margin
@@ -15025,7 +15038,7 @@ chancelier: Louys Changet
 dates mentioned: 1610-05-28
 text: En italien. — (964) Le patron Stefano Nabone, de St-Tropez, ayant chargé 246 barriques de vin à Biseglia, est parti de ce port pour Civita Vecchia le 28 mai 1610. Il a été pris le 10 juin auprès du cap Spartivento par cinq galères de Bizerte armées de turcs et d'anglais qui l'ont conduit à La Goulette où il est arrivé le 22 juin. Le bateau a été déchargé et on lui a enlevé son artillerie et ses armes. Restitué à son capitaine et l'équipage délivré sur l'intervention du Consul, Stefano Nabone demande à regagner la chrétienté. (Suivent trois témoignages).
 
-[act 2-IV-1236]
+[act 2-IV-1237]
 date: 1610-07-05
 date printed: 5
 date status: printed in the margin
@@ -15037,7 +15050,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (969) Le patron Gio Anto Serié, de St-Tropez, expose qu'ayant chargé de blé à Tarante pour le porter à Naples, il a été pris dans le golfe de la Rocciella par quatre galères de Bizerte qui l'ont conduit à Sousse, déchargé et pillé. L'équipage français a été mis en liberté sur intervention du Consul. (Suivent trois témoignages). '
 
-[act 2-IV-1237]
+[act 2-IV-1238]
 date: 1610-07-05
 date printed: 5   -
 date status: printed in the margin
@@ -15050,7 +15063,7 @@ chancelier: Louys Changet
 amounts: 900 écus
 text: (972) Même acte qu'au folio 958, pour 900 écus de 12 réaulx reçus de Jacques Vaccon de Marseille.
 
-[act 2-IV-1238]
+[act 2-IV-1239]
 date: 1610-07-09
 date printed: 9 juil.
 date status: printed in the margin
@@ -15064,7 +15077,7 @@ amounts: 100 ducats
 dates mentioned: 1608-06-30
 text: En italien. — (976) Marcantonio Paulillo, de Naples, demande l'enregistrement d'un « écrit >>de la Rédemption de Naples. Il s'agit d'une promesse de 100 ducats à qui rachètera Jousepe Coulouna Disca, esclave des turcs. Cette promesse est datée du 30 juin 1608.
 
-[act 2-IV-1239]
+[act 2-IV-1240]
 date: 1610-07-14
 date printed: 14
 date status: printed in the margin
@@ -15077,7 +15090,7 @@ chancelier: Louys Changet
 amounts: 100 écus d'or d'Espagne
 text: En italien. — (978) Antonio Esmiol donne une procuration à Marco Bernal, espagnol, « granbisconte >>de la ville de Malte, pour faire rembourser 100 écus d'or d'Espagne que lui doit Gregorio Mazzone, napolitain.
 
-[act 2-IV-1240]
+[act 2-IV-1241]
 date: undated (1610)
 date printed: s. d.
 date status: undated in the register (s. d.)
@@ -15089,7 +15102,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (979) Enquête faite sur la demande de Stefano Simodio au sujet des affaires de celui-ci et de Pierre Firmyn dit Ponpian, de Marseille.
 
-[act 2-IV-1241]
+[act 2-IV-1242]
 date: 1610-07-15
 date printed: 15
 date status: printed in the margin
@@ -15102,7 +15115,7 @@ chancelier: Louys Changet
 amounts: 300 écus d'or d'Espagne
 text: En italien. — (983) Francesco di Polo, du Cagniano du Cap Corse, demande au caïd Assano de Cassano, renégat corse, de lui donner pour légitime épouse Provinca, sœur de Assano et fille de Cassano. Le renégat y consent et tous deux jurent sur « les Saintes Ecritures ». Assano a donné comme dot à sa sœur 300 écus d'or d'Espagne qui ont servi à payer le rachat de Francesco.
 
-[act 2-IV-1242]
+[act 2-IV-1243]
 date: 1610-07-16
 date printed: 16
 date status: printed in the margin
@@ -15115,7 +15128,7 @@ chancelier: Louys Changet
 amounts: 525 écus
 text: (985) Fransisco Vanogon, grenadin de Ville Rollette d'Espagne, a reçu de Anthoine Arnaud, marchand de Beaucaire, 525 écus de 12 réaulx que celui-ci lui devait.
 
-[act 2-IV-1243]
+[act 2-IV-1244]
 date: 1610-07-17
 date printed: 17 -
 date status: printed in the margin
@@ -15128,7 +15141,7 @@ chancelier: Louys Changet
 amounts: 344 écus
 text: (987) Le capitaine Anthoine Arnaud doit à Anthoine Lovico et Anthoine Berengier 344 écus de 12 réaulx castillans.
 
-[act 2-IV-1244]
+[act 2-IV-1245]
 date: 1610-07-17
 date printed: 17
 date status: printed in the margin
@@ -15140,7 +15153,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: (990) Fransiscous Vaneques, Laxaro de Roubles, Diogou d'Albaxin, marchands de Violle Roubrogo de la Manche d'Espagne, déclarent qu'ils ont été transportés de Marseille à Tunis par le capitaine Anthoine Arnaud, de Beaucaire, sur le vaisseau « Ste-Marye Madaleyne », avec 300 grenadins, petits et grands, leurs hardes et marchandises. Ils sont très satisfaits de la façon dont ils ont été traités et ils ordonnent que 2.000 réaulx castillans restés en garantie à Marseille seront remis au capitaine.
 
-[act 2-IV-1245]
+[act 2-IV-1246]
 date: 1610-07-23
 date printed: 23
 date status: printed in the margin
@@ -15153,7 +15166,7 @@ chancelier: Louys Changet
 amounts: 260 écus d'or d'Espagne
 text: En italien. — (993) Domynigo Santouchou, de Bonifacio, doit au patron Fransiscou Estella, de Marseille, à Esteve Symedey, corse, Lantelmou Vinsens, corse, 260 écus d'or d'Espagne payés pour son rachat à Chouco Mouratto, turc janissaire de Tunis. Somme remboursable à l'arrivée à Livourne.
 
-[act 2-IV-1246]
+[act 2-IV-1247]
 date: 1610-07-23
 date printed: 23 juil.
 date status: printed in the margin
@@ -15166,7 +15179,7 @@ chancelier: Louys Changet
 amounts: 62 écus
 text: En italien. — (996) Joan Antonyo de Joan Matheo, corse, doit à Esteve Symedey, corse, 62 écus et 1/2 d'or d'Espagne payés pour son rachat à Couchouco Moratto, turc janissaire de Tunis. Somme remboursable à l'arrivée à Livourne.
 
-[act 2-IV-1247]
+[act 2-IV-1248]
 date: 1610-07-24
 date printed: 24
 date status: printed in the margin
@@ -15179,7 +15192,7 @@ chancelier: Louys Changet
 amounts: 88 écus d'or; 51 aspres
 text: En italien. — (999) Le patron Peiron Gassan, de Marseille, a reçu de Habrain Asfouri, maure de Tunis, 88 écus d'or et 51 aspres à payer à Malte à raïs Mamet Lamamy, maure de Sousse, esclave de la Religion.
 
-[act 2-IV-1248]
+[act 2-IV-1249]
 date: 1610-07-26
 date printed: 26
 date status: printed in the margin
@@ -15192,7 +15205,7 @@ chancelier: Louys Changet
 amounts: 900 écus d'or
 text: En italien. — (1002) Habrain Asfouri a rachelé le patron Vincenso Rispolo, de Malte, pour 900 écus d'or à Tripoli de Barbarie. Il le mettra en liberté le jour où arrivera à Tunis le raïs Hamet Lemamy, esclave de la Religion de St-Jean à Malte.
 
-[act 2-IV-1249]
+[act 2-IV-1250]
 date: 1610-07-27
 date printed: 27
 date status: printed in the margin
@@ -15205,7 +15218,7 @@ chancelier: Louys Changet
 amounts: 260 écus
 text: En italien. — (1001) Fransisco da Guilermo, de Levie (Corse), et Tomaso Sagra, corse, promettent de relever Louxiano de Monfridonne et Xennebra, femme de Joan Jacomo, de leur caution pour Dominigo Santouchou (260 écus).
 
-[act 2-IV-1250]
+[act 2-IV-1251]
 date: 1610-07-27
 date printed: 27
 date status: printed in the margin
@@ -15218,7 +15231,7 @@ chancelier: Louys Changet
 amounts: 46 ducats
 text: En italien. — (1006) Francisco de Georgy, de Venise, doit à Michel Benutio, de Venise, 46 ducats payés pour son rachat à la mère de Mamet bey. Somme remboursable à Venise.
 
-[act 2-IV-1251]
+[act 2-IV-1252]
 date: 1610-07-27
 date printed: 27
 date status: printed in the margin
@@ -15232,7 +15245,7 @@ amounts: 250 écus
 dates mentioned: 1609-04-23
 text: En italien. — (1008) Anton Franco Santone, corse, demande l'enregistrement d'un record du 23 avril 1609 fait par lui à Prospero Pagniale. Il s'agit de marchandises chargées sur la polacre « Ste-Marie bonne venture », patron Peiron Gasan. Suit l'enregistrement d'une autre pièce faite par Prospero Pagniale et relative à 250 écus.
 
-[act 2-IV-1252]
+[act 2-IV-1253]
 date: 1610-07-27
 date printed: 27
 date status: printed in the margin
@@ -15245,7 +15258,7 @@ chancelier: Louys Changet
 amounts: 65 écus
 text: (1012) François Vion, de Marseille, a reçu de Marcou Fransiscou 65 écus de 12 réaulx castillans pour la dernière expédition dudit Vion. Somme remboursable quinze jours après l'arrivée à Marseille.
 
-[act 2-IV-1253]
+[act 2-IV-1254]
 date: 1610-07-27
 date printed: 27 juil.
 date status: printed in the margin
@@ -15257,7 +15270,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — (1) Tusanti de Terues Boysgirault, Vespesiano Balbiano, Gio de Silva Ribera, D. Giaime Peres de Nueros, Antonio de Cubiere Ribaute, Henrico Miron, Honorato du Pons, Gioachim de la Palu, Gio de Grasse Montoron, Glaudo de Villanova Torrette, Gaspart Aldebert, Gio de Castellane Clarett, Loigi de Perusiss, tous chevaliers de l'ordre de Jerusalem, donnent une procuration à leur collègue Charlo Cienutt Basplessis pour se rendre à Malte et s'occuper de leur rachat, notamment en faisant relâcher, s'il le faut, des esclaves turcs et maures. (D'après les signatures, les noms des chevaliers de St- Jean de Jerusalem visés dans cet acte sont les suivants: De Terues Boisgirault, Vespasiano Balbiano, Antoine Deribaute, Myron, Honorat Dupons, De la Palu, Jehan de Castellane Claret, Claude de Villeneuve Torrette, Louys de Perussis, don Juº de Silva y Ribera, D. Jayme Peres de Nueros, don Gaspar Aldret, Jehan de Montaurons).
 
-[act 2-IV-1254]
+[act 2-IV-1255]
 date: 1610-07-26
 date printed: 26
 date status: printed in the margin
@@ -15268,7 +15281,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Les chevaliers St-Jean de Jerusalem visés dans l'acte précité déclarent qu'ils ont convenu avec Ossoman Dey de faire venir de Malte pour les échanger avec eux-mêmes Soliman Rais et les autres tures pris avec celui-ci.
 
-[act 2-IV-1255]
+[act 2-IV-1256]
 date: 1610-07-27
 date printed: 27
 date status: printed in the margin
@@ -15279,7 +15292,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Tusanti de Terues Boysgirault, du Poitou, donne une procuration à Charlo Cienut Basplesis, d'Angers, pour se procurer des fonds en vue de son rachat.
 
-[act 2-IV-1256]
+[act 2-IV-1257]
 date: 1610-07-27
 date printed: 27                           -
 date status: printed in the margin
@@ -15291,7 +15304,7 @@ chancelier: Louys Changet
 amounts: 267 écus d'or d'Espagne
 text: En italien. — Francisco Catarm, vénitien, doit à Hercule Tamagne 267 écus d'or d'Espagne payés pour son rachat à la dame Ha Issa, mère de Mamet bey. La somme a été payée 1 sur l'ordre de Fabio Orlandino & Cie de Livourne, agissant pour le compte de Jacomo Loena et de Roberto Estrosy, de Venise.
 
-[act 2-IV-1257]
+[act 2-IV-1258]
 date: 1610-07-27
 date printed: 27
 date status: printed in the margin
@@ -15302,7 +15315,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Antonio Lovico, Marco Francesco, Gio Gioia Manfredino Manfredini, Giorgio de Vega Pinto, Stefano Simodey, Ercole Tamagni, Loigi Changet et autres chrétiens, et David Cardoso, Moise Baruch, Daniel Boghatt, Jacobo Montesion et autres passent un accord aux termes duquel aucun d'eux ne devra prendre ou faire prendre sous quelque prétexte que ce soit aucune sorte de marchandise au caïd Mamet Somer, douanier de Tunis, cuirs, cires, laines, etc. , sauf par l'intermédiaire de celui d'entre eux qui sera élu par les autres. Une pénalité est prévue contre celui qui ne se conformera pas à cet accord. Le contrat règle aussi le nombre de « journées » de chacun des comparants et spécifie la quantité de marchandises en magasin chez chacun.
 
-[act 2-IV-1258]
+[act 2-IV-1259]
 date: 1610-07-27
 date printed: 27 juil.
 date status: printed in the margin
@@ -15312,9 +15325,9 @@ language: italien
 vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 amounts: 28 écus d'or; 37 aspres
-text: En italien. — Francisco de Paulo, du Cap Corse, doit à Esteve Simedey 28 écus d'or et 37 aspres payés pour le com- . plément de son rachat.
+text: En italien. — Francisco de Paulo, du Cap Corse, doit à Esteve Simedey 28 écus d'or et 37 aspres payés pour le complément de son rachat.
 
-[act 2-IV-1259]
+[act 2-IV-1260]
 date: 1610-07-29
 date printed: 29
 date status: printed in the margin
@@ -15326,7 +15339,7 @@ chancelier: Louys Changet
 dates mentioned: 1610-07-26
 text: Anthoine Lovico déclare aux chevaliers de St-Jean de Jerusalem visés dans les actes du 27 et du 26 juillet 1610 qu'il s'engage à les faire mettre en liberté par Ossoman Dey dès que le Raïs Soliman et les autres janissaires faits prisonniers avec lui seront revenus de Malte, où ils sont esclaves de la Religion.
 
-[act 2-IV-1260]
+[act 2-IV-1261]
 date: 1610-07-29
 date printed: 29 -
 date status: printed in the margin
@@ -15337,7 +15350,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Le patron Vincenzo Rispoli, maltais, libéré par Abran Lasfori et remis au patron Piero Gasan, s'engage à faire remettre en liberté le raïs Amet Aman, esclave de la Religion, et à le confier au patron Peiron Franco.
 
-[act 2-IV-1261]
+[act 2-IV-1262]
 date: 1610-07-29
 date printed: 29
 date status: printed in the margin
@@ -15349,7 +15362,7 @@ chancelier: Louys Changet
 amounts: 69 écus d'or; 36 aspres
 text: Le patron Peyron Gassan doit à Anthoine Lovico 69 écus d'or et 36 aspres qui ont servi pour la dernière expédition du navire « St-Pierre ». Somme remboursable huit jours après l'arrivée à Malte.
 
-[act 2-IV-1262]
+[act 2-IV-1263]
 date: 1610-07-29
 date printed: 29
 date status: printed in the margin
@@ -15361,7 +15374,7 @@ chancelier: Louys Changet
 amounts: 115 écus
 text: Acte identique pour 115 écus de 12 réaulx reçus de Monfradinno Monfradinno.
 
-[act 2-IV-1263]
+[act 2-IV-1264]
 date: 1610-07-30
 date printed: 30
 date status: printed in the margin
@@ -15374,7 +15387,7 @@ amounts: 25 écus d'or d'Espagne
 ocr corrections: Ilugues -> Hugues
 text: Hugues Changet, vice-consul pour la Nation française, a reçu du patron Jehan Gaspart Pebre, de Toulon, 25 écus d'or d'Espagne (prix de toile à voile).
 
-[act 2-IV-1264]
+[act 2-IV-1265]
 date: 1610-07-31
 date printed: 31
 date status: printed in the margin
@@ -15386,7 +15399,7 @@ chancelier: Louys Changet
 amounts: 562 écus; 60 aspres d'or d'Espagne
 text: En italien. — Francisco de Marcanthonyo de Esfachotty, de Venise, doit à Anthoine Lovico 562 écus et 60 aspres d'or d'Espagne payés pour son rachat à Sidi Farat Kaya, turc de Tunis, sur l'ordre de Marcantonyo et Clemente Carantotto, de Pise.
 
-[act 2-IV-1265]
+[act 2-IV-1266]
 date: 1610-07-31
 date printed: 31 juil.
 date status: printed in the margin
@@ -15397,7 +15410,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Anthoine Lovico, de Marseille, déclare que les cuirs chargés sur le vaisseau du patron Francisco Estelle, le « Ste-Anne », par Malem Ha Yssa, maure de Bône, sont chargés à son nom pour les porter à Livourne.
 
-[act 2-IV-1266]
+[act 2-IV-1267]
 date: 1610-07-31
 date printed: 31
 date status: printed in the margin
@@ -15410,7 +15423,7 @@ amounts: 800 écus d'or d'Espagne
 dates mentioned: 1609-07
 text: En italien. — Francisco Estelle, de Marseille, et Esteve Symedey déclarent qu'ils ont acheté en juillet 1609 à Ossoman Dey un vaisseau de deux mille quintaux pour 800 écus d'or d'Espagne. Ils indiquent la part de chacun d'eux dans cet achat.
 
-[act 2-IV-1267]
+[act 2-IV-1268]
 date: 1610-08-09
 date printed: 9 août
 date status: printed in the margin
@@ -15421,7 +15434,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Principio Garofoly, de la Torre del Greco, esclave à Tunis des héritiers de Mamet Bey, donne une procuration à Vincenzo Garofoly, son frère, pour se procurer des fonds. Sans doute pour le racheter.
 
-[act 2-IV-1268]
+[act 2-IV-1269]
 date: 1610-08-11
 date printed: 11
 date status: printed in the margin
@@ -15434,7 +15447,7 @@ amounts: 23.265 écus
 dates mentioned: 1610-02-26
 text: Les maures de Grenade visés dans l'acte du 26 février 1610 au sujet du vol commis à leur encontre par Anthouron et Pierre Estienne, exposent qu'après l'enquête qui a été faite, la Cour de Montpellier a condamné les coupables à mort ou aux galères avec confiscation de leurs biens et restitution des choses volées. Ils chargent leurs mandataires de poursuivre cette restitution et énumèrent ce qui leur est dû comme argent. (La somme totale est très élevée, un seul des comparants déclarant qu'il lui a été enlevé 23.265 écus). Les signatures ne reproduisent que le nom arabe. Le nom espagnol a disparu (1).
 
-[act 2-IV-1269]
+[act 2-IV-1270]
 date: 1610-08-26
 date printed: 26
 date status: printed in the margin
@@ -15445,7 +15458,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Le raïs Aly benfracie (Ali ben Fredj) donne une procuration au raïs Mamet de Caps, maure (de Gabès), pour se faire rembourser tout ce qui lui est dû par maître Andria, fondeur de l'artillerie de la Religion à Malte.
 
-[act 2-IV-1270]
+[act 2-IV-1271]
 date: 1610-08-28
 date printed: 28                            -
 date status: printed in the margin
@@ -15457,7 +15470,7 @@ chancelier: Louys Changet
 amounts: 52 écus d'or d'Espagne
 text: En italien. — Le patron Benedetto Vygnolla, de Lavagna (Gênes), a reçu de Manfredino Manfredino 52 écus d'or d'Espagne qui ont servi pour la dernière expédition du (St- Anthonyo » qui va de La Goulette à Livourne.
 
-[act 2-IV-1271]
+[act 2-IV-1272]
 date: 1610-08-28
 date printed: 28
 date status: printed in the margin
@@ -15469,7 +15482,7 @@ chancelier: Louys Changet
 amounts: 100 écus d'or d'Espagne
 text: En italien. — Bernardino Ferro, de Xelle (Rivière de Gênes ) , doit au patron Benedetto Vignola 100 écus d'or d'Espagne payés pour son rachat à Assan Corsou, turc de Tunis. Somme remboursable quinze jours après l'arrivée à Gênes.
 
-[act 2-IV-1272]
+[act 2-IV-1273]
 date: 1610-08-28
 date printed: 28 août
 date status: printed in the margin
@@ -15481,7 +15494,7 @@ chancelier: Louys Changet
 amounts: 100 écus d'or d'Espagne
 text: En italien. — Jouane Chase, de Mouneglia (Rivière de Gènes), doit à Benedetto Vignola 100 écus d'or d'Espagne payés pour son rachat à Ysoub Geleby, turc de Tunis. Somme remboursable quinze jours après l'arrivée à Gênes..
 
-[act 2-IV-1273]
+[act 2-IV-1274]
 date: 1610-09-03
 date printed: 3 sept.
 date status: printed in the margin
@@ -15493,7 +15506,7 @@ chancelier: Louys Changet
 dates mentioned: 1610-07-26
 text: Les chevaliers de St-Jean de Jérusalem mentionnés dans les actes du 27 et 26 juillet 1610 donnent une procuration à René Pelletier, écuyer de la ville de Blois, habitant à Marseille, pour toucher certaines sommes dues aux Frères Vespaxiano Balbiano, piémontais, et Honnorat Du Poux, de Nice.
 
-[act 2-IV-1274]
+[act 2-IV-1275]
 date: 1610-09-04
 date printed: 4
 date status: printed in the margin
@@ -15505,7 +15518,7 @@ chancelier: Louys Changet
 amounts: 3000 écus d'or; 3000 écus
 text: Le patron Jehan Toureau, de Toulon, le patron Thomas Caulet, de Marseille, Jehan Tenque, de Martigues, Charles de Rybe, de Toulon, Meiximyn Gallegne, de Marseille, Louys Deymier, de Marseille, Jacques Tourtel, de Sixfours, Jacques Augerot, d'Ollioulles, écrivain de Tourtel, le patron Jacques Sengla, de Bourmes, Pierre Vidal, de Sixfours, Guillen Bernart, de Sixfours, Luco Martin, de St- Tropez, Bertrand Pistoye, de Martigues, Honorat Perisol, de St-Tropez, Vittor Masson, de la Ciotat, Benet Jourdan, de la Ciotat, déclarent à Hugues Changet, consul, que << attendu que Ossoman Dey ........ ne veut donner licence « à aucun vaisseau ni barque pour partir du port de la Goulette de Tunis pour aller en chrétienté si ne donnent « caution les ci-devant nommés de 3000 écus d'or pour cha- « cun deux qu'ils n'iront point en Sicile en quelque port de << la dite île ni Malte au partir qu'ils feront du port de la <<Goulette, lesquels patrons ci devant nommés ont prié le « dit Consul de leur être caution envers le dit Ossoman « Dey, de quoi le dit Sr Consul s'oblige au dit Ossoman Dey « que en cas qu'il y eut quelqu'un des dits patrons qui tou- << chassent en Sicile ou Malte de payer 3000 écus envers le << dit Ossoman Dey. Lesquels ci-dessus nommés déclarent « en vertu de la présente au dit Sr Consul de le relever de << la dite caution envers le dit Ossoman Dey & tous d'une << voix commune & de leurs bons gré & pure & franche vo- << lonté s'obligent audit Sr Consul que en cas que celui qui << touchera en Sicile ou Malte de payer trois mille écus d'or « chacun de celui qui se trouvera avoir touché audit Malte « ou Sicile & pour ce ont obligé leurs propres personnes « & leurs vaisseaux & barques ......
 
-[act 2-IV-1275]
+[act 2-IV-1276]
 date: 1610-09-06
 date printed: 6 sept.
 date status: printed in the margin
@@ -15516,7 +15529,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: Jehan Anthoine Gasin, nommé Ysoub, turc de Tunis, donne l'usufruit de ses biens à Sisteron à sa mère Catherine Meyrane . A la mort de celle-ci les dits biens passeront à Jehan Garsin, frère du déclarant, habitant à Sisteron.
 
-[act 2-IV-1276]
+[act 2-IV-1277]
 date: 1610-09-07
 date printed: 7
 date status: printed in the margin
@@ -15527,7 +15540,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Giovane de Geronime, de Mer (Rivière de Gênes),fait une déclaration au sujet de så part dans le navire la « Nonciade ».
 
-[act 2-IV-1277]
+[act 2-IV-1278]
 date: 1610-09-09
 date printed: 9
 date status: printed in the margin
@@ -15538,7 +15551,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Le patron Benedetto Vygnolo, de Lavagna, déclare qu'il a nolisé le mois précédent à Livourne sa barque « Sto-Antonyo et San Benedetto » à Horatio Erbuccy. Le subrécargue de ce dernier, Gioan Gioia, s'engage à noliser à nouveau le cas échéant la dite barque.
 
-[act 2-IV-1278]
+[act 2-IV-1279]
 date: 1610-09-15
 date printed: 15
 date status: printed in the margin
@@ -15550,7 +15563,7 @@ chancelier: Louys Changet
 amounts: 250 écus d'or d'Espagne
 text: En italien. — Louiso Giordano, corse, esclave de Romadan Bey, a été racheté par Mourato Bey, corse de Bastia, sur la prière de la dame Louxitta, sa sœur, pour 250 écus d'or d'Espagne. Cet acte est très confus; il semble que Mourato Bey est un renégat corse nommé Francesco de Gilierno.
 
-[act 2-IV-1279]
+[act 2-IV-1280]
 date: 1610-09-28
 date printed: 28
 date status: printed in the margin
@@ -15561,7 +15574,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: Les patrons Guillen Dendal, de Toulon, et Jaume Roustan, de la même ville, exposent que venant de Toulon chargés de « mourisques » avec leurs barques, ils ont été pris sur les côtes de Sardaigne par une tartane armée en guerre portant pavillon de Savoie. Les hommes de cette tartane ont pris et saccagé ce qu'ils ont voulu. Les déclarants ont reconnu sur la tartane le capitaine Marxeilhon, de Marseille, Tripeday, de Martigues, et deux autres.
 
-[act 2-IV-1280]
+[act 2-IV-1281]
 date: 1610-10-02
 date printed: 2 oct.
 date status: printed in the margin
@@ -15573,7 +15586,7 @@ chancelier: Louys Changet
 amounts: 28 écus
 text: Le patron Jaumet Gautier, de Toulon, esclave de Ossoman Dey, donne une procuration au patron Anthoine Ycard, de Toulon, pour récupérer une dette de 28 écus.
 
-[act 2-IV-1281]
+[act 2-IV-1282]
 date: 1610-10-02
 date printed: 2 -
 date status: printed in the margin
@@ -15586,7 +15599,7 @@ amounts: 65 écus d'or d'Espagne
 dates mentioned: 1611-02-07
 text: Honorat Yhouart et sa femme Margueritte Seguier ont reçu de Assan Franxes, turc de Tunis, 65 écus d'or d'Espagne remboursables dans un délai de huit mois. (Somme remboursée le 7 février 1611).
 
-[act 2-IV-1282]
+[act 2-IV-1283]
 date: 1610-10-07
 date printed: 7 oct.
 date status: printed in the margin
@@ -15597,7 +15610,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Mame Jaraye, maure de Sfax, donne une procuration à Battiste Hougo, de Palerme, pour pouvoir expédier et faire mettre à la voile pour Trapani la frégate « Sta-Anna », patron Joan Cattaro, qui se trouve à La Goulette.
 
-[act 2-IV-1283]
+[act 2-IV-1284]
 date: 1610-10-10
 date printed: 10
 date status: printed in the margin
@@ -15609,7 +15622,7 @@ chancelier: Louys Changet
 amounts: 67 écus d'or; 32 aspres
 text: Le patron Bernabeau de Nans, de Sixfours, doit à Anthoine Lovico 67 écus d'or et 32 aspres pour la dernière expédition de son navire la « Ste-Catheryne ». Somme payable à Anthoine Berengier, à Marseille, quinze jours après l'arrivée du dit navire.
 
-[act 2-IV-1284]
+[act 2-IV-1285]
 date: 1610-10-15
 date printed: 15
 date status: printed in the margin
@@ -15622,7 +15635,7 @@ amounts: 50 écus d'or de 64 aspres
 dates mentioned: 1611-04-06
 text: Honorat Yhouard et Margueritte Seguier, sa femme, doivent à Mamet Franses, janissaire de Tunis, 50 écus d'or de 64 aspres que celui-ci leur a prêtés et qu'ils rembourseront dans un délai de six mois. Somme remboursée le 6 avril 1611.
 
-[act 2-IV-1285]
+[act 2-IV-1286]
 date: 1610-10-15
 date printed: 15
 date status: printed in the margin
@@ -15634,7 +15647,7 @@ chancelier: Louys Changet
 amounts: 264 écus d'or d'Espagne
 text: En italien. — Jousep Sarocho, fils de Cham Sarocho, juif de Venise, déclare en qualité de mandataire de sa mère et de ses frères qu'il a reçu de Simon Escannasio, juif de Tunis, 264 écus d'or d'Espagne pour solde d'un compte qu'il y avait entre eux.
 
-[act 2-IV-1286]
+[act 2-IV-1287]
 date: 1610-10-14
 date printed: 14
 date status: printed in the margin
@@ -15646,7 +15659,7 @@ chancelier: Louys Changet
 amounts: 90 onces; 20 taris de Sicile; 20 aspres
 text: En italien. — Le patron Orlano Porsio, de Pasitano (Naples), a reçu de Mahamet Coral, maure de Tunis, 90 onces et 20 taris de Sicile pour nolis de la frégate nommée « Sta- Maria de Possitano ». Ossoman dey ne voulant pas donner de licence aux bateaux pour aller en chrétienté, Mahamet Coral paiera à Porsio 20 aspres par jour de détention.
 
-[act 2-IV-1287]
+[act 2-IV-1288]
 date: 1610-10-16
 date printed: 16
 date status: printed in the margin
@@ -15658,7 +15671,7 @@ chancelier: Louys Changet
 amounts: 100 écus d'or de 64 aspres
 text: Marco Mastrillo, napolitain, esclave du caïd Ally Napollittano, et Angello Ajoux, de Malte, doivent à Mamet Franses, janissaire de Tunis, 100 écus d'or de 64 aspres à titre de prêt et remboursables dans un délai de quatre mois.
 
-[act 2-IV-1288]
+[act 2-IV-1289]
 date: 1610-10-20
 date printed: 20
 date status: printed in the margin
@@ -15670,7 +15683,7 @@ chancelier: Louys Changet
 amounts: 40 onces de Sicile
 text: En italien. — La dame Laure, femme de Latansio Franse, de Palerme, réclame 40 onces de Sicile au patron Pedro Toumaxello, de la Torre del Greco. Hugues Changet, viceconsul, condamne Toumaxello à payer cette somme.
 
-[act 2-IV-1289]
+[act 2-IV-1290]
 date: 1610-10-20
 date printed: 20
 date status: printed in the margin
@@ -15681,7 +15694,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Donato Baraya, lombard, esclave de Ossoman dey, donne une procuration à Donato Manxino, de Palerme, pour récupérer certaines sommes.
 
-[act 2-IV-1290]
+[act 2-IV-1291]
 date: 1610-10-27
 date printed: 27 oct.
 date status: printed in the margin
@@ -15693,7 +15706,7 @@ chancelier: Louys Changet
 amounts: 300 écus d'or; 300 écus
 text: En italien. — Fra Joan de Vallegio, esclave de Sidi Hamida, somme Pasgarello Inperatto, de Naples, de payer au dit Hamida les 300 écus d'or de son rachat. Paschale Inperato répond que Ossoman Dey lui a pris les 300 écus dont parle Vallegio pour payer le rachat de deux femmes.
 
-[act 2-IV-1291]
+[act 2-IV-1292]
 date: 1610-10-30
 date printed: 30
 date status: printed in the margin
@@ -15705,7 +15718,7 @@ chancelier: Louys Changet
 amounts: 400 écus d'or; 300 écus
 text: En italien. — Pedro de St-Esteffeno (Pedro de Santitistevan), de Biscaye, déclare que Mamet Corat, maure de Tunis, habitant à Palerme, l'a racheté pour 400 écus d'or à la mère de Mahamet bey, de Tunis. Sur cette somme, 300 écus sont payés sur l'ordre de don Fernando de Methianse, inquisiteur du Royaume de Sicile; les 100 autres appartiennent à Mamet Corat et sont remboursables quinze jours après l'arrivée à Palerme.
 
-[act 2-IV-1292]
+[act 2-IV-1293]
 date: 1610-11-03
 date printed: 3 nov.
 date status: printed in the margin
@@ -15718,7 +15731,7 @@ amounts: 300 écus d'or d'Espagne
 dates mentioned: 1611-04-06
 text: En italien. — Fra Augenio, de Girgenti, de l'Ordre de St-François de Paul, déclare que Mamet Corat l'a racheté à Ossoman Dey pour 300 écus d'or d'Espagne. Cent écus ont été fournis par Fra Joan, de Girgenti. Les 200 autres sont remboursables à Mamet Corat quinze jours après l'arrivée en Sicile, y compris les intérêts à raison de 33 % . (Somme remboursée le 6 avril 1611).
 
-[act 2-IV-1293]
+[act 2-IV-1294]
 date: 1610-11-05
 date printed: 5
 date status: printed in the margin
@@ -15729,7 +15742,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Antonyno Esgaliouno, de Girgenti, expose qu'il avait fait certains négoces en compagnie d'un esclave nommé Leonardo Carenso vers 1608. La somme qui lui revenait ne lui a pas été payée. (Suivent trois témoignages).
 
-[act 2-IV-1294]
+[act 2-IV-1295]
 date: 1610-11-06
 date printed: 6
 date status: printed in the margin
@@ -15741,7 +15754,7 @@ chancelier: Louys Changet
 amounts: 58 écus
 text: En italien. — Pedro de St-Estefano, de Biscaye, a reçu de Nountio Camaroune, de Palerme, esclave de Mamet bey, 58 écus et 1/4 d'or d'Espagne payés pour le complément de son rachat aux frères de Mamet bey. Somme remboursable quinze jours après l'arrivée à Palerme.
 
-[act 2-IV-1295]
+[act 2-IV-1296]
 date: 1610-11-11
 date printed: 11
 date status: printed in the margin
@@ -15754,7 +15767,7 @@ amounts: 2.000 écus d'or
 dates mentioned: 1610-07-29
 text: En italien. — Habrain Asfouri, maure de Tunis, donne une procuration au raïs Salem ben Sale, de Zouara, Royaume de Tripoli de Barbarie, pour s'occuper de ses affaires et, en particulier, pour se faire rembourser une dette de 2.000 écus d'or par le patron Vinsenso Rispollo, de Malte. (Voir l'acte du 29 juillet 1610).
 
-[act 2-IV-1296]
+[act 2-IV-1297]
 date: 1610-11-11
 date printed: 11 -
 date status: printed in the margin
@@ -15767,7 +15780,7 @@ amounts: 65 écus d'or d'Espagne
 dates mentioned: 1611-01-11
 text: En italien. — Marcantonio Montorello (Montereale), de Naples, doit à Dominico Falconetto, de Bastia, 65 écus d'or d'Espagne payables le 11 janvier 1611.
 
-[act 2-IV-1297]
+[act 2-IV-1298]
 date: 1610-11-09
 date printed: 9 nov.
 date status: printed in the margin
@@ -15778,7 +15791,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Antonio Lovico expose au Consul qu'il a acheté les mois précédents une certaine quantité d'huile et qu'il l'a envoyée à Malte pour la vendre à la Religion sous la conduite d'un sien neveu, Spinetto di Spinetto. Par la méchanceté du patron Pieron Gazano, de Marseille, il y a eu fraude et l'huile enlevée a été remplacée par de l'eau. Pour se sauver, Spinetto, qui avait été mis en prison, a dit que l'huile appartenait à Osman dey; la marchandise a donc été saisie comme appartenant à des infidèles. Lovico ajoute que les dires de Pieron Gazan sont faux et il demande qu'une enquête soit faite. Il explique que c'est grâce à lui que les chevalier de St-Jean de Jérusalem dont il a été question plus haut ont pu envisager leur échange contre les tures capturés avec Soliman Rais. Lorsque, grâce à lui, Lovico, l'accord a pu se faire entre Osman Dey et les chevaliers, il n'y avait aucun navire pour porter à Malte le mandataire de ceux-ci. Cédant à leurs supplications, Lovico a consenti à envoyer de l'huile à la Religion sur deux navires affrétés par lui et accompagnés par son neveu Spinetto di Spinetto. Les deux navires sont commandés par Pieron Gazzano et par Anto Arnau. Suivent les témoignages de Boisgirault (qui expose comment a pu être envisagé leur rachat par voie d'échange et comment ses camarades et lui ont demandé à Lovico d'envoyer un chargement d'huile à Malte en même temps que leur mandataire Il certifie que l'huile appartient bien à Lovico et à deux autres chrétiens), de don Jaime Peres, de Antoine de Ribaude, de Henri Miron, de de La Palu, de don Gio de Silva Ribera, de Gaspar Aldretta, de Gio de Castellane Claret, de Marco Francesco, marchand corse (36 ans), de Giorgio Vega Penta, de Manfredino Manfredini, de Antonio Francesco Santoro (50 ans), de Pasquale Inperato, de Gio Gioia (27 ans).
 
-[act 2-IV-1298]
+[act 2-IV-1299]
 date: 1610-11-15
 date printed: 15
 date status: printed in the margin
@@ -15791,7 +15804,7 @@ amounts: 650 écus d'or d'Espagne; 300 écus; 350 écus
 dates mentioned: 1611-02-12
 text: En italien. — Le P. fra Gioan de Valegio, religieux de St- Benytto de Montserrat, déclare avoir été racheté à sidi Hamida, turc, par Mamet Corat, maure de Tunis, pour 650 écus d'or d'Espagne. Sur cette somme, 300 écus ont été fournis par l'Inquisiteur de Palerme et 350 par Mamet Corat. Valegio s'engage à rembourser ces 350 écus dans un délai d'un mois à compter de la signature du présent acte, plus l'intérêt à 33 % . (Somme remboursée le 12 février 1611).
 
-[act 2-IV-1299]
+[act 2-IV-1300]
 date: 1610-11-15
 date printed: 15 nov.
 date status: printed in the margin
@@ -15803,7 +15816,7 @@ chancelier: Louys Changet
 amounts: 170 écus
 text: En italien. — Le P. de Valegio se porte caution de la somme de 170 écus que Mamet Corat a fournie au P. de St-Estevan, de Biscaye.
 
-[act 2-IV-1300]
+[act 2-IV-1301]
 date: 1610-11-16
 date printed: 16 -
 date status: printed in the margin
@@ -15815,7 +15828,7 @@ chancelier: Louys Changet
 amounts: 20 écus d'or
 text: En italien. — Le patron Jouan Andreo Sanguineo, de Trapani, doit à Bernardino Camerono, de la même ville, 20 écus d'or payés pour les droits de son rachat et remboursables dans un délai de deux mois.
 
-[act 2-IV-1301]
+[act 2-IV-1302]
 date: 1610-11-17
 date printed: 17
 date status: printed in the margin
@@ -15827,7 +15840,7 @@ chancelier: Louys Changet
 amounts: 500 écus d'or d'Espagne
 text: En italien. — Fra Ceroubino, de Naples, capucin, doit au patron Salvador Isxo, napolitain, 500 écus d'or d'Espagne payés pour son rachat à Mamet Pacha, de Tunis. Somme remboursable à Cagliari.
 
-[act 2-IV-1302]
+[act 2-IV-1303]
 date: 1610-11-17
 date printed: 17                           -
 date status: printed in the margin
@@ -15839,7 +15852,7 @@ chancelier: Louys Changet
 amounts: 250 écus d'or d'Espagne
 text: En italien. — Osta Morat Genovese a reçu 250 écus d'or d'Espagne du patron Salvador Isxo pour la vente d'une frégate napolitaine.
 
-[act 2-IV-1303]
+[act 2-IV-1304]
 date: 1610-11-18
 date printed: 18
 date status: printed in the margin
@@ -15851,7 +15864,7 @@ chancelier: Louys Changet
 flags: illegible, damaged
 text: En italien. — Battista Ugho, de Palerme, et le patron Joan Cataron .......... (Acte illisible. L'encre a rongé le papier).
 
-[act 2-IV-1304]
+[act 2-IV-1305]
 date: 1610-11-19
 date printed: 19
 date status: printed in the margin
@@ -15864,7 +15877,7 @@ amounts: 200 écus d'or d'Espagne
 flags: illegible
 text: En italien. — Mornylla, de Naples, a reçu de Marcantonyo Montrealle, de Naples, 200 écus d'or d'Espagne payés pour son rachat à Romadan bey, turc de Tunis. (En partie illisible).
 
-[act 2-IV-1305]
+[act 2-IV-1306]
 date: 1610-11-19
 date printed: 19 -
 date status: printed in the margin
@@ -15876,7 +15889,7 @@ chancelier: Louys Changet
 flags: illegible
 text: En italien. — (Illisible).
 
-[act 2-IV-1306]
+[act 2-IV-1307]
 date: 1610-11-22
 date printed: 22 -
 date status: printed in the margin
@@ -15888,7 +15901,7 @@ chancelier: Louys Changet
 amounts: 45 écus
 text: Le patron Anthouron Preyre, de Marseille, doit à Miquel Salindre, marinier de la même ville, 45 écus et 1/2 de 12 réaulx que celui-ci lui a prêtés.
 
-[act 2-IV-1307]
+[act 2-IV-1308]
 date: 1610-11-22
 date printed: 22
 date status: printed in the margin
@@ -15900,7 +15913,7 @@ chancelier: Louys Changet
 amounts: 100 écus d'or d'Espagne
 text: En italien. — Le patron Orlando Porxio, de Pasitano, a reçu de Battista Ugho, de Palerme, 100 écus d'or d'Espagne qui ont servi pour la dernière expédition de sa frégate nommée « Sta-Maria de Poxyttano ».
 
-[act 2-IV-1308]
+[act 2-IV-1309]
 date: 1610-11-22
 date printed: 22    -
 date status: printed in the margin
@@ -15913,7 +15926,7 @@ amounts: 270 écus d'or d'Espagne
 dates mentioned: 1610-12-02
 text: En italien. — Louyse Roumane, de Pasitano, doit au patron Orlando Porxio 270 écus d'or d'Espagne payés pour son rachat à Osta Morat Genovese. Somme remboursable un mois après l'arrivée à Pasitano. (Somme remboursée le 2 décembre 1610).
 
-[act 2-IV-1309]
+[act 2-IV-1310]
 date: 1610-11-24
 date printed: 24 nov.
 date status: printed in the margin
@@ -15925,7 +15938,7 @@ chancelier: Louys Changet
 amounts: 67 écus
 text: En italien. — Le patron Battista Crouara, de Palerme, doit à Antonyno de Junta, de Messine, esclave de Mamet bey, 67 écus et 1/2 d'or d'Espagne remboursables quatre jours après son retour du voyage qu'il va faire en Sicile.
 
-[act 2-IV-1310]
+[act 2-IV-1311]
 date: 1610-11-27
 date printed: 27
 date status: printed in the margin
@@ -15937,7 +15950,7 @@ chancelier: Louys Changet
 amounts: 627 écus
 text: Frère Jehan de Vallejo, religieux de l'Ordre de St-Benoit de N. D. de Monserat, doit à Anthoine Lovico 627 écus de 12 réaulx payés pour son rachat à Hamida, turc de Tunis. Somme remboursable à Anthoine Berengier à Marseille.
 
-[act 2-IV-1311]
+[act 2-IV-1312]
 date: 1610-12-02
 date printed: 2 déc.
 date status: printed in the margin
@@ -15950,7 +15963,7 @@ amounts: 2.500 écus d'or d'Espagne
 dates mentioned: 1607-07
 text: Après avoir exposé comment Latanzio Fronte, de Palerme, sa femme, sa belle-mère et ses cinq enfants ont été pris en juillet 1607 par des corsaires barbaresques et vendus à Tunis, comment après s'être mis d'accord avec son maître pour 2.500 écus d'or d'Espagne pour le rachat de toute la famille, ledit Latanzio a été autorisé à aller chercher la somme en Sicile, sa femme Lauria déclare qu'il ne lui a pas encore été possible de trouver tous les fonds. Son mari lui demande une procuration pour vendre une rente. (Suit la procuration).
 
-[act 2-IV-1312]
+[act 2-IV-1313]
 date: 1610-12-02
 date printed: 2
 date status: printed in the margin
@@ -15962,7 +15975,7 @@ chancelier: Louys Changet
 amounts: 355 écus d'or d'Espagne
 text: En italien. — Louyse Roumano, de Pasitano, doit au patron Orlando Porxio, de la même ville, 355 écus d'or d'Espagne payés pour son rachat à Osta Morato Genovese. Somme remboursable un mois après l'arrivée à Pasitano.
 
-[act 2-IV-1313]
+[act 2-IV-1314]
 date: 1610-12-04
 date printed: 4
 date status: printed in the margin
@@ -15973,7 +15986,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: Inventaire des ((robes et meubles du feu St Anthoine Lovico, de Marseille, fait en Tunis le quatrième jour du moys de déxambre l'an mil six cens & dix ». Suit l'inventaire fait le 8 décembre des objets et marchandises laissés chez le Consul.
 
-[act 2-IV-1314]
+[act 2-IV-1315]
 date: 1610-12-06
 date printed: 6
 date status: printed in the margin
@@ -15985,7 +15998,7 @@ chancelier: Louys Changet
 amounts: 465 écus
 text: Guilleaume Ardent, marchand de Marseille, a reçu de Barthelemy Ycard, de Sixfours, 465 écus et 42 sous monnaie de France.
 
-[act 2-IV-1315]
+[act 2-IV-1316]
 date: 1610-12-07
 date printed: 7
 date status: printed in the margin
@@ -15997,7 +16010,7 @@ chancelier: Louys Changet
 amounts: 27 onces de Sicile
 text: En italien. — Pedro Delamiel de St-Stefano, de Biscaye, doit à Nardo Coutrarou, de Palerme, 27 onces de Sicile payées pour son rachat à Ferat Chaya, turc de Tunis. Somme remboursable à Palerme.
 
-[act 2-IV-1316]
+[act 2-IV-1317]
 date: 1610-12-07
 date printed: 7
 date status: printed in the margin
@@ -16009,7 +16022,7 @@ chancelier: Louys Changet
 amounts: 25 onces de Sicile
 text: En italien. — (Le registre porte par erreur la date du 7 novembre). Crisosthomo de Lauro, de Palerme, doit à Nardo Coutraro 25 onces de Sicile payées pour son rachat à Hasan Jouc, janissaire de Tunis. Somme remboursable à l'arrivée à Palerme.
 
-[act 2-IV-1317]
+[act 2-IV-1318]
 date: 1610-12-09
 date printed: 9 déc.
 date status: printed in the margin
@@ -16020,7 +16033,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Battista Ugho, de Palerme, mandataire de Mamet Jaraye, maure de Sfax, donne une procuration à Battista Bonavya, génois, & à Toscano de Ferro de Joany, de Trapani, pour toucher tous les nolis que fera la frégate « Sta-Anna ».
 
-[act 2-IV-1318]
+[act 2-IV-1319]
 date: 1610-12-10
 date printed: 10
 date status: printed in the margin
@@ -16032,7 +16045,7 @@ chancelier: Louys Changet
 amounts: 200 écus d'or; 57 aspres
 text: En italien. — Ysouf Rais Ingles, turcet janissaire de Tunis, donne une procuration au chevalier de St-Jean de Jérusalem Francisco di Vintymiglia Aurioures (Le chev. d'Aulioulles dit de Vintimille) pour faire payer au patron Peiron Gassan, de Marseille, une dette de 200 écus d'or et 57 aspres. (Suit la promesse signée par Pietro Gassan à Yssouf Rais Ingles).
 
-[act 2-IV-1319]
+[act 2-IV-1320]
 date: 1610-12-10
 date printed: 10
 date status: printed in the margin
@@ -16043,7 +16056,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: Hugues vice-consul, somme Esteve Simedey, de remettre dans le magasin du Consul toutes les marchandises venues sur le vaisseau du patron François Estelle pour le compte de Anthoine Lovico
 
-[act 2-IV-1320]
+[act 2-IV-1321]
 date: 1610-12-11
 date printed: 11
 date status: printed in the margin
@@ -16055,7 +16068,7 @@ chancelier: Louys Changet
 amounts: 200 écus d'or d'Espagne
 text: En italien. — Le patron Battista Crouare, de Palerme, doit à Anthonio Coutraro, de la même ville, 200 écus d'or d'Espagne que celui-ci lui a prêtés. Somme remboursable dans un délai de trois mois.
 
-[act 2-IV-1321]
+[act 2-IV-1322]
 date: 1610-12-11
 date printed: 11
 date status: printed in the margin
@@ -16067,7 +16080,7 @@ chancelier: Louys Changet
 amounts: 16 onces; 20 taris
 text: En italien. — Le patron Vittou de Hourxi, de Trapani, a reçu de Battista Ugho 16 onces et 20 taris pour la dernière expédition de sa felouque nommée « La nonxiade ».
 
-[act 2-IV-1322]
+[act 2-IV-1323]
 date: 1610-12-11
 date printed: 11
 date status: printed in the margin
@@ -16079,7 +16092,7 @@ chancelier: Louys Changet
 amounts: 10 écus d'or
 text: En italien. — a reçu de La dame Coustanso Genaroune, de Palerme, Antonyo Coutraro 10 écus d'or payés (pour les droits de son rachat) et remboursables à Palerme.
 
-[act 2-IV-1323]
+[act 2-IV-1324]
 date: 1610-12-20
 date printed: 20
 date status: printed in the margin
@@ -16091,7 +16104,7 @@ chancelier: Louys Changet
 amounts: 150 écus d'or d'Espagne
 text: En italien. — Sidi Ysouf, turc de Tunis, a vendu un loude catalan de 500 quintaux environ à Marcantonio Montoreale, marchand napolitain, pour 150 écus d'or d'Espagne.
 
-[act 2-IV-1324]
+[act 2-IV-1325]
 date: 1610-12-23
 date printed: 23
 date status: printed in the margin
@@ -16102,7 +16115,7 @@ vice-consul: Anthoine Bérenger
 chancelier: Louys Changet
 text: En italien. — Jullian Pin, de Marseille, esclave des héritiers de Mamet bey, écrivain de son bagne, donne une procuration à Salem rais, maure de Djerba, pour récupérer certaines marchandises de Peiron Gasan, de Marseille.
 
-[act 2-IV-1325]
+[act 2-IV-1326]
 date: 1610-12-30
 date printed: 30 déc.
 date status: printed in the margin
