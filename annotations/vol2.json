@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 956,
+ "reviewed_through_seq": 993,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -8587,6 +8587,340 @@
    "other_parties_role": "principal (on whose account)",
    "matter": "Payment on account of Gio Gramignano",
    "keywords": "payment"
+  },
+  "2-IV-0957": {
+   "transaction_type": "Sale / transfer",
+   "party1_name": "Giovann Gripari; Pasquale Simodey",
+   "party1_origins": "de Chio; corse",
+   "party1_role": "buyer, ship master (patron); buyer, ship master (patron)",
+   "party2_name": "Ossoman Day",
+   "party2_role": "seller, governor and protector of the Militia of the Kingdom of Tunis",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ship of 1,000 salmes with rigging but no artillery, laden with salt cod, paid in cash; to be taken from La Goulette to Naples",
+   "keywords": "ship sale; prize; salt cod"
+  },
+  "2-IV-0958": {
+   "transaction_type": "Sale / transfer",
+   "party1_role": "declarant (buyer), ship master (patron)",
+   "party1_origins": "de la Torre del Greco",
+   "matter": "Declaration about the purchase of the « Nunziata », laden with salt cod, for 1,300 écus; the ship will go to Naples",
+   "currency": "écus",
+   "keywords": "ship sale; salt cod"
+  },
+  "2-IV-0959": {
+   "party2_role": "attorney",
+   "matter": "To raise funds",
+   "keywords": "power of attorney"
+  },
+  "2-IV-0960": {
+   "party1_role": "declarant, ship master (patron) of the saettia « San Franco di Paula »",
+   "other_parties_names": "his sailors; Lattanzo Fronzo",
+   "other_parties_role": "co-declarants; shipper",
+   "matter": "Declaration about the cargo (see act of 19 November and the consul's sentence)",
+   "keywords": "freight; dispute"
+  },
+  "2-IV-0961": {
+   "party2_name": "Lattanzo Fronzo",
+   "party2_origins": "de Palerme",
+   "party2_role": "payer (shipper)",
+   "other_equivalent": "On account of 99 onces due",
+   "matter": "Freight of his ship",
+   "keywords": "freight"
+  },
+  "2-IV-0962": {
+   "party1_name": "Stefano Bianco Raugeo; Gio Lunardo di Nardo",
+   "party1_origins": "; napolitain",
+   "other_parties_names": "baron Siculiana; Marichio di Curciola",
+   "other_parties_role": "owner of the ship « Gierba »; captain (killed)",
+   "matter": "Were aboard the « Gierba » in June 1603 during a fight with two Bizerte galleys in which captain Marichio di Curciola was killed",
+   "keywords": "naval combat; death; galleys"
+  },
+  "2-IV-0963": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "witness (with two others)",
+   "other_parties_names": "Paulo Purizzoto; Mamet Bey",
+   "other_parties_role": "deceased; master",
+   "matter": "Saw Paulo Purizzoto die at Algiers four years ago; all were then slaves of Mamet Bey",
+   "keywords": "death; slavery; Algiers"
+  },
+  "2-IV-0964": {
+   "date": "1608-12-10",
+   "party2_role": "payer, Carmelite friar",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "payment; ransom"
+  },
+  "2-IV-0965": {
+   "date": "1608-12-10",
+   "party2_role": "payer, Carmelite friar",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "payment; ransom"
+  },
+  "2-IV-0966": {
+   "party2_name": "Stasia",
+   "party2_role": "attorney, wife of party 1, daughter of Stefanino Greco",
+   "matter": "Recovery of debts",
+   "keywords": "debt collection; family"
+  },
+  "2-IV-0967": {
+   "transaction_type": "Declaration / attestation",
+   "party1_origins": "de la Ciotat",
+   "party1_role": "declarant, ship master (patron) of the « Sta Maria Maddalena »",
+   "other_parties_names": "Antonio Bartoletto; English and Turkish corsairs",
+   "other_parties_role": "charterer; captors (a tartane)",
+   "price": 56,
+   "currency": "écus",
+   "matter": "Sea protest: loaded indigo etc. at Alexandria for Barcelona (left 29 Oct.), at Malta 29 Nov.; off Cape Corse on St Andrew's eve a corsair tartane fired on him and took the ship to La Goulette (7 Dec.), where it was almost entirely unloaded and returned; he paid 56 écus",
+   "notes": "He declared the goods Spanish. Four witness statements follow.",
+   "keywords": "sea protest; corsairs; English; indigo"
+  },
+  "2-IV-0968": {
+   "party1_origins": "odabassi de Tunis",
+   "party1_role": "recipient, janissary officer (odabaşı)",
+   "party2_origins": "juif",
+   "party2_role": "carrier",
+   "other_parties_names": "Agi balla",
+   "other_parties_origins": "maure de Constantinople (?), esclave à Livourne",
+   "other_parties_role": "sender (Muslim slave at Livorno)",
+   "currency": "écus d'or",
+   "other_equivalent": "Plus a bag of keys",
+   "matter": "Money and a bag of keys sent by a Muslim slave at Livorno",
+   "keywords": "remittance; Jews; Muslim captive"
+  },
+  "2-IV-0969": {
+   "date": "1609-01",
+   "other_parties_names": "Antonino di Antonio",
+   "other_parties_origins": "de Naples",
+   "other_parties_role": "debtor",
+   "matter": "Recovery of a debt",
+   "keywords": "debt collection"
+  },
+  "2-IV-0970": {
+   "date": "1609-01",
+   "party2_name": "Gio Tomaso Mazzaro",
+   "party2_role": "attorney, father of party 1",
+   "other_parties_names": "Antonino di Antonio",
+   "other_parties_role": "debtor",
+   "matter": "Recovery of the same debt",
+   "keywords": "debt collection; family"
+  },
+  "2-IV-0971": {
+   "date": "1609-01",
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Guaspari Alfonso (signs « Anfossis »)",
+   "party1_role": "incoming consul for the French Nation",
+   "party2_role": "outgoing vice-consul",
+   "matter": "Handover of the consulate: registers of contracts (1582–1607), the royal seal of the chancellery, a command of the Grand Seigneur in favour of the French nation, a chalice, chasuble and mass accessories",
+   "notes": "This consul appears on no known list. The end of the act is unclear (procuration by Gio Martin, notary at Marseille; date missing).",
+   "keywords": "consulate; handover; registers; chancellery"
+  },
+  "2-IV-0972": {
+   "party1_name": "Lanterme Vincentou",
+   "party1_origins": "corse habitant à Marseille",
+   "party1_role": "recipient",
+   "party2_name": "Antoine Carravane",
+   "party2_role": "payer",
+   "other_parties_names": "Gaspard Grillet",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "principal (on whose account)",
+   "price": 45,
+   "currency": "écus de 66 sous",
+   "other_equivalent": "25 aspres",
+   "notes": "Act in French.",
+   "keywords": "payment"
+  },
+  "2-IV-0973": {
+   "party1_name": "Anthoyne Bau",
+   "party1_origins": "de Marseille",
+   "party1_role": "principal, slave at Tunis",
+   "matter": "To manage his affairs",
+   "notes": "Act in French.",
+   "keywords": "slavery"
+  },
+  "2-IV-0974": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Pierre Marin",
+   "party1_origins": "de la Ciotat",
+   "party1_role": "requesting party, ship master (patron)",
+   "party2_name": "Michel Dauby",
+   "party2_role": "accused, boatswain (nocher) of the ship",
+   "matter": "Inquiry into a theft of money on board",
+   "notes": "Act in French.",
+   "keywords": "theft; crew; inquiry"
+  },
+  "2-IV-0975": {
+   "transaction_type": "Redemption",
+   "party1_name": "Jehan Lantoyne Garberin",
+   "party1_origins": "de Crapet",
+   "party1_role": "recipient, ship master (patron)",
+   "party2_name": "Louys Leugou",
+   "party2_role": "payer, ship master (patron)",
+   "other_parties_names": "a Moor",
+   "other_parties_role": "Muslim captive brought from Naples",
+   "currency": "écus",
+   "matter": "Ransom of a Moor he brought from Naples",
+   "notes": "Folio 385 (?) of the register. Act in French.",
+   "keywords": "ransom; Muslim captive"
+  },
+  "2-IV-0976": {
+   "date": "1609-02",
+   "party1_name": "Pantellino Tomasin",
+   "party1_origins": "de Marseille",
+   "party1_role": "declarant, ship master (patron)",
+   "matter": "Bad weather let water into the hold and damaged goods; a man was swept overboard",
+   "notes": "Day read as 2, out of sequence. One deposition follows. Act in French.",
+   "keywords": "sea protest; damaged goods; death"
+  },
+  "2-IV-0977": {
+   "party1_name": "Bernard Lemerie",
+   "party1_origins": "de Cannes",
+   "party1_role": "recipient, ransomed captive",
+   "party2_name": "Jehan Brevet",
+   "party2_role": "lender",
+   "other_parties_names": "the Pacha of Tunis",
+   "other_parties_role": "recipient of ransom payment",
+   "price": 220.5,
+   "currency": "écus de 60 sous",
+   "other_equivalent": null,
+   "matter": "Ransom loan repayable one month after arrival at Cannes",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0978": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable at Malta",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0979": {
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "50 aspres; equivalent to 114 onces 25 taris of Sicily",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0980": {
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "Equivalent to 66 onces 15 taris",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0981": {
+   "party2_name": "Franco Scotto",
+   "party2_role": "lender",
+   "price": 57.5,
+   "currency": "écus",
+   "other_equivalent": "Equivalent to 28 onces 12 taris",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0982": {
+   "party2_name": "Franco Scotto",
+   "party2_role": "lender",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "50 onces",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0983": {
+   "transaction_type": "Redemption",
+   "party1_origins": "de St-Malo en Bretagne; de St-Malo en Bretagne; de St-Malo en Bretagne",
+   "party1_role": "debtor, ransomed captive; debtor, ransomed captive; debtor, ransomed captive",
+   "price": 693.33,
+   "currency": "écus d'or d'Espagne",
+   "other_parties_names": "Ossoman Day",
+   "other_parties_role": "recipient of ransom payment (dey)",
+   "matter": "Ransom loan",
+   "notes": "Continues on p. 141. Receipt dated 25 February 1609 at the foot of the act.",
+   "keywords": "ransom; loan; Bretons"
+  },
+  "2-IV-0984": {
+   "drop": true
+  },
+  "2-IV-0985": {
+   "other_parties_names": "Barba (sic) Hasuffi",
+   "currency": "écus",
+   "other_equivalent": "52 aspres",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0986": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable at Santa Eufemia (Calabria)",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0987": {
+   "transaction_type": "Undertaking / promise",
+   "party2_name": "Franc Scotto",
+   "party2_role": "promisee",
+   "other_parties_names": "Ossaino",
+   "other_parties_origins": "turc de Gallipoli",
+   "other_parties_role": "Muslim slave in Sicily (to be ransomed)",
+   "matter": "Undertakes to give Scotto whatever is needed to ransom Ossaino, a Turk enslaved in Sicily",
+   "keywords": "captive exchange; Muslim captive"
+  },
+  "2-IV-0988": {
+   "transaction_type": "Debt",
+   "party1_name": "Jehan Brevet",
+   "party1_origins": "de Cannes",
+   "party1_role": "debtor",
+   "party2_role": "creditor, ship master (patron)",
+   "price": 97.5,
+   "currency": "écus de 60 sous",
+   "other_equivalent": null,
+   "matter": "Paid for the ransom of Bernard Lemerie (see act of 20 February 1609)",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0989": {
+   "party1_name": "Gaillard",
+   "party1_origins": "de Marseille",
+   "party1_role": "debtor, master farrier",
+   "party2_origins": "de Marseille",
+   "currency": "écus",
+   "other_equivalent": "16 aspres",
+   "matter": "Debt repayable one month after arrival at Marseille",
+   "notes": "Act in French.",
+   "keywords": "debt"
+  },
+  "2-IV-0990": {
+   "party1_name": "Girolamo Romano dit Fraganelo",
+   "party1_role": "debtor, ransomed captive, ship master (patron)",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "13 aspres",
+   "matter": "Ransom loan; refers to the ransom of a Turkish slave",
+   "notes": "Folio 402. Written in very bad Italian.",
+   "keywords": "ransom; loan"
+  },
+  "2-IV-0991": {
+   "party1_name": "Guilleaume Piqot; Guilleaume Bonhomme; Jausselin Ledien",
+   "party1_origins": "de St-Malo; de St-Malo; de St-Malo",
+   "party1_role": "debtor, ransomed captive; debtor, ransomed captive; debtor, ransomed captive",
+   "party2_name": "Joseph Estienne et Cie",
+   "party2_origins": "de Marseille",
+   "party2_role": "creditor",
+   "other_parties_names": "Hugues Changet",
+   "other_parties_role": "lender (on the creditor's behalf)",
+   "price": 276,
+   "currency": "écus de 64 sous (monnaie de France)",
+   "matter": "Ransom loan made by Hugues Changet",
+   "notes": "Act in French.",
+   "keywords": "ransom; loan; Bretons"
+  },
+  "2-IV-0992": {
+   "transaction_type": "Debt",
+   "party1_name": "Guilleaume Piqot; Guilleaume Bonhomme; Jausselin Ledien",
+   "party1_role": "debtor; debtor; debtor",
+   "party2_name": "Joseph Estienne",
+   "party2_role": "creditor",
+   "matter": "Same act as the previous one; repayable one month after their arrival at Marseille",
+   "notes": "Receipt dated 26 September 1609 registered beneath the act. Act in French.",
+   "keywords": "ransom; loan; Bretons"
+  },
+  "2-IV-0993": {
+   "party2_role": "creditor (Jean Baptiste Pin?)",
+   "other_parties_role": "recipient of ransom payment, sub-comite of Mamet Bey's galley",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan repayable two months after arrival in Catalonia",
+   "notes": "« Fia » is probably Jean Baptiste Pin.",
+   "keywords": "ransom; loan; galleys"
   }
  }
 }
