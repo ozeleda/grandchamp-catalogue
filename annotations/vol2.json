@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 555,
+ "reviewed_through_seq": 595,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -4956,8 +4956,329 @@
   },
   "2-III-0555": {
    "currency": "écus (monnaie de Naples)",
-   "notes": "Receipt at the foot of the act (date cut off).",
+   "notes": "Receipt dated 6 June at the foot of the act.",
    "keywords": "payment"
+  },
+  "2-III-0556": {
+   "drop": true
+  },
+  "2-III-0557": {
+   "party1_name": "Don Diegho de Ossorio",
+   "party1_role": "promisor",
+   "party2_name": "Mamett Caïa",
+   "party2_origins": "de Tunis",
+   "party2_role": "promisee",
+   "other_parties_names": "Abderraman",
+   "other_parties_origins": "janissaire de Tunis",
+   "other_parties_role": "Muslim slave on the galleys of Sicily (to be freed)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Undertakes to have Abderraman freed and handed to Mamett Caïa, or to pay 250 écus if he is dead",
+   "decision": "On 19 June Mamet Caïa released Diegho from this promise",
+   "keywords": "captive exchange; galleys; Muslim captive"
+  },
+  "2-III-0558": {
+   "party1_origins": "de Marseille; de Marseille",
+   "other_parties_names": "Guglo Rabul",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "requesting party",
+   "price": 4,
+   "currency": "réaux per « migliaro »",
+   "matter": "Certify they saw 50 « migliara » of false amber sold to various Moors at Tunis at 4 réaux per « migliaro »",
+   "keywords": "amber; trade; fraud"
+  },
+  "2-III-0559": {
+   "party1_name": "Fra Franc di Vintimiglia (chev. Daullioulles dit Vintimille)",
+   "party1_role": "declarant, knight of St John of Jerusalem",
+   "other_parties_names": "Don Diego Ossorio; Adelantado mayor of Castile; Andrea Morena",
+   "other_parties_origins": "; ; castillan",
+   "other_parties_role": "officer who advised removing the ladders; commander of the Sicilian galleys; witness confirming the account",
+   "matter": "Account of the Hammamet affair (galleys of Malta and Sicily): the Adelantado refused to have the ladders removed, causing the disaster and the capture of Ossorio and Vintimille",
+   "keywords": "Hammamet; galleys; Knights of Malta; military action; captivity"
+  },
+  "2-III-0560": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Don Diegho Ossorio",
+   "party1_role": "declarant",
+   "other_parties_names": "chev. de Vintimille; Guglielmo Person; Nardo Grecho",
+   "other_parties_origins": "; anglais; de Malte",
+   "other_parties_role": "subject of the testimony; witness; witness",
+   "matter": "Same account of the Hammamet affair: the general ignored advice to remove the ladders; the Moors counter-attacked and routed the Christians; Vintimille fought bravely, was wounded by three arquebus shots, and ransomed himself at Tunis for 2,500 écus",
+   "price": 2500,
+   "currency": "écus",
+   "notes": "Continues on p. 93. Guglielmo Person and Nardo Grecho make the same declaration.",
+   "keywords": "Hammamet; galleys; Knights of Malta; military action; ransom"
+  },
+  "2-III-0561": {
+   "drop": true
+  },
+  "2-III-0562": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan",
+   "decision": "Repaid 22 June",
+   "keywords": "loan"
+  },
+  "2-III-0563": {
+   "party2_origins": "de Damantia (Calabre)",
+   "party2_role": "attorney",
+   "keywords": "power of attorney"
+  },
+  "2-III-0564": {
+   "transaction_type": "Agreement",
+   "party1_name": "Gio Bata Danna; Gio Bata di Filippo",
+   "party1_role": "party; party",
+   "party2_name": "Ascanio de Massa; Pasquale Imperato",
+   "party2_role": "arbitrator, abbot; arbitrator",
+   "matter": "Request for arbitration (see award of 20 June)",
+   "keywords": "arbitration"
+  },
+  "2-III-0565": {
+   "currency": "écus d'or d'Espagne",
+   "matter": "Profit from a sale of wine",
+   "keywords": "wine; profit"
+  },
+  "2-III-0566": {
+   "party2_name": "Federigo Luchese; Carlo Berlinger",
+   "party2_role": "payer, ship master (patron); payer, ship master (patron)",
+   "other_parties_names": "Dumas Fabbri; Mustafa",
+   "other_parties_origins": "; renégat d'Ossuman Dey",
+   "other_parties_role": "carrier of the money; corsair who captured the « San Dome »",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "Part of 840 écus carried by Dumas Fabbri",
+   "matter": "Part of 840 écus that Dumas Fabbri was bringing him on the « San Dome », captured by Mustafa",
+   "keywords": "payment; corsairs; knight of Malta"
+  },
+  "2-III-0567": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "expert; expert",
+   "other_parties_names": "Andrea Tardio",
+   "other_parties_role": "ship master (patron)",
+   "matter": "Expert report on Tardio's ship: no fraud for the missing wine, the loss is due to the dryness of the casks",
+   "keywords": "wine; survey; damaged goods"
+  },
+  "2-III-0568": {
+   "matter": "Declaration about the missing wine",
+   "notes": "Followed by two effaced, illegible acts.",
+   "keywords": "wine"
+  },
+  "2-III-0569": {
+   "transaction_type": "Redemption",
+   "party1_name": "Mamutto",
+   "party1_role": "requesting party, raïs",
+   "party2_name": "Marchese di Roccho",
+   "party2_role": "ransomed captive (signatory of the promise)",
+   "currency": "écus",
+   "matter": "Verification of a promise of 20 November 1603 for the ransom of Marchese di Roccho, paid 120 écus",
+   "notes": "Two witness statements follow.",
+   "keywords": "ransom; verification"
+  },
+  "2-III-0570": {
+   "party2_name": "Ascanio de Massa",
+   "party2_role": "attorney, abbot",
+   "other_parties_names": "Marchese di Roccho",
+   "other_parties_role": "debtor",
+   "matter": "Recovery of the 120 écus Annibale advanced for Marchese di Roccho's ransom",
+   "keywords": "debt collection; ransom"
+  },
+  "2-III-0571": {
+   "transaction_type": "Debt",
+   "party1_role": "debtor (acknowledges receipt of loan)",
+   "party2_role": "creditor, consul",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Loan repayable within three months",
+   "notes": "Receipt dated 19 November 1610 at the foot of the act.",
+   "keywords": "loan"
+  },
+  "2-III-0572": {
+   "party1_name": "Hisuffo della [...]",
+   "party1_origins": "janissaire de Tunis",
+   "other_parties_names": "Donato de Pazzi",
+   "other_parties_origins": "florentin",
+   "other_parties_role": "debtor",
+   "matter": "Recovery of a 2,600-écu debt",
+   "keywords": "debt collection"
+  },
+  "2-III-0573": {
+   "party2_origins": "syndic de Valence (?)",
+   "party2_role": "attorney, syndic",
+   "keywords": "power of attorney"
+  },
+  "2-III-0574": {
+   "other_parties_names": "Andrea Tardio",
+   "other_parties_role": "ship master (patron)",
+   "matter": "Declaration about Tardio's wine",
+   "keywords": "wine"
+  },
+  "2-III-0575": {
+   "party2_origins": "de Tunis",
+   "other_parties_names": "Abderraman; Baiat",
+   "other_parties_origins": "turc d'Anatolie, janissaire de Tunis; ",
+   "other_parties_role": "Muslim slave on the galleys of Sicily (to be freed); his brother",
+   "matter": "Undertakes to have Abderraman freed and handed to Mamett Caia",
+   "keywords": "captive exchange; galleys; Muslim captive"
+  },
+  "2-III-0576": {
+   "party1_role": "declarant, ship master (patron)",
+   "matter": "New declaration about the wine he brought from Livorno",
+   "notes": "End of summary illegible in the scan.",
+   "keywords": "wine"
+  },
+  "2-III-0577": {
+   "matter": "Promises to indemnify Danna for any trouble on his account",
+   "keywords": "indemnity"
+  },
+  "2-III-0578": {
+   "transaction_type": "Redemption",
+   "party1_name": "Don Diegho Ossorio",
+   "party1_role": "declarant (acknowledges receipt), ransomed captive",
+   "party2_name": "Gio Bat. Danna",
+   "party2_role": "payer",
+   "other_parties_names": "Giovanni de Vigliegha; Mustafa Bacha",
+   "other_parties_origins": "« fischale del Santo off° del Regnio »; ",
+   "other_parties_role": "sender of the money, fiscal of the Holy Office; recipient of ransom payment",
+   "currency": "écus",
+   "matter": "Money remitted by Giovanni de Vigliegha, used to pay his ransom",
+   "keywords": "ransom; Inquisition"
+  },
+  "2-III-0579": {
+   "party1_role": "recipient, ransomed captive",
+   "party2_role": "lender",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Ransom loan",
+   "keywords": "ransom; loan"
+  },
+  "2-III-0580": {
+   "transaction_type": "Consular decision",
+   "party1_name": "Ascanio de Massa; Pasquale Inperato",
+   "party1_role": "arbitrator, abbot; arbitrator",
+   "party2_name": "Gio Bata Danna; Bata di Filippo",
+   "party2_role": "party (to pay); party (to be paid)",
+   "currency": "écus",
+   "matter": "Arbitration award",
+   "decision": "Danna to pay 80 écus to di Filippo",
+   "keywords": "arbitration"
+  },
+  "2-III-0581": {
+   "transaction_type": "Redemption",
+   "party1_role": "recipient, ransomed captive",
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer, abbot (redemption agent); payer (redemption agent)",
+   "other_parties_names": "Mamett Levantescho; Gouverneurs de la Rédemption de Naples",
+   "other_parties_role": "recipient of ransom payment; to be repaid",
+   "currency": "écus",
+   "other_equivalent": "Repayable at Naples at 18½ carlins per écu. Paid: 90 écus to Mamett, 11 to the Divan of the Janissaries, 10 to the Pacha, ½ at La Goulette, 11 aspres for the « carta di franchezza »",
+   "matter": "Ransom paid by the Naples redemption mission; repayable to the Governors of the Redemption at Naples",
+   "keywords": "ransom; redemption mission; fees; letter of freedom"
+  },
+  "2-III-0582": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "other_equivalent": "43 aspres; Cara Assuman received 160 écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0583": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "other_equivalent": "5 aspres; Hisuffo received 160 écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0584": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0585": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0586": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0587": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0588": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "other_parties_names": "Bervarli",
+   "other_parties_role": "recipient of ransom payment",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0589": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "other_parties_names": "Hassano",
+   "other_parties_role": "recipient of ransom payment, caïd",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0590": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0591": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "other_parties_role": "recipient of ransom payment, chaouch",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0592": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "other_parties_role": "recipient of ransom payment, dey",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0593": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0594": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission"
+  },
+  "2-III-0595": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "price": 222,
+   "currency": "écus",
+   "other_equivalent": "30 aspres",
+   "matter": "Ransom paid by the Naples redemption mission",
+   "keywords": "ransom; redemption mission"
   }
  }
 }
