@@ -176,6 +176,8 @@ def apply_fixes(acts, fixes):
         acts[i]["summary"] = acts[i]["summary"].replace(f["old"], f["new"])
     for f in fixes.get("split", []):
         i = find(f["find"], f.get("page"))
+        # several splits of one act: a later mark is in a piece split off earlier
+        i = next((j for j in range(i, min(i + 8, len(acts))) if acts[j]["summary"].find(f["at"]) > 0), i)
         a = acts[i]
         k = a["summary"].find(f["at"])
         if k <= 0:
@@ -200,10 +202,23 @@ def apply_fixes(acts, fixes):
             a["date_note"] = f"{a['date_note']}; {f['note']}" if a.get("date_note") else f["note"]
     for f in fixes.get("date", []):
         set_date(acts[find(f["find"], f.get("page"))], f["date"], f.get("note"))
+    for pg, dates in fixes.get("page_dates", {}).items():
+        # the dates of all the acts that start on a page, read from the page image; applied
+        # only when the number of acts matches (otherwise the page needs a split or a merge)
+        on = [a for a in acts if a["page"] == int(pg)]
+        if len(on) != len(dates):
+            print(f"  ! fixes.json page_dates p.{pg}: {len(dates)} dates for {len(on)} acts", file=sys.stderr)
+            continue
+        for a, d in zip(on, dates):
+            if d and d != act_date(a):
+                set_date(a, None if d == "undated" else d,
+                         "Date read from the page image (the OCR misread or lost the margin).")
     return acts
 
 
 def set_date(a, d, note=None):
+    if d and d.startswith("undated"):
+        d = None
     parts = [int(x) for x in d.split("-")] if d else []
     a["undated"] = not parts
     a["year"] = parts[0] if parts else a["year"]
