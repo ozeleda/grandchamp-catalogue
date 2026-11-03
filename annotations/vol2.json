@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 595,
+ "reviewed_through_seq": 635,
  "acts": {
   "2-III-0001": {
    "drop": true
@@ -5279,6 +5279,410 @@
    "other_equivalent": "30 aspres",
    "matter": "Ransom paid by the Naples redemption mission",
    "keywords": "ransom; redemption mission"
+  },
+  "2-III-0596": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0597": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "price": 171,
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0598": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "price": 126,
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0599": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "date": "1607-06-20",
+   "notes": "Day misread by OCR; corrected from the run of acts (the mission's receipts are dated 20 and 23 June).",
+   "party1_name": "Stefano de Fiorino",
+   "party1_role": "recipient, ransomed captive",
+   "other_equivalent": "24 aspres"
+  },
+  "2-III-0600": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_equivalent": "43 aspres",
+   "notes": "This act and the two previous are signed as witness by don Diego Ossorio."
+  },
+  "2-III-0601": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "price": 174,
+   "other_equivalent": "43 aspres",
+   "other_parties_names": "Mamett Simiero (?)",
+   "other_parties_role": "recipient of ransom payment, caïd",
+   "notes": "OCR reads 4174 écus; probably 174."
+  },
+  "2-III-0602": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0603": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Probably the balance of a ransom; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "price": 21.5
+  },
+  "2-III-0604": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "date": "1607-06-20",
+   "notes": "Day misread by OCR; corrected from the run of acts (the mission's receipts are dated 20 and 23 June).",
+   "other_equivalent": "23 aspres"
+  },
+  "2-III-0605": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0606": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Fees (droits) for his ransom; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "date": "1607-06-20",
+   "notes": "Day misread by OCR; corrected from the run of acts (the mission's receipts are dated 20 and 23 June).",
+   "party1_role": "recipient, ransomed captive"
+  },
+  "2-III-0607": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "date": "1607-06-20",
+   "notes": "Day misread by OCR; corrected from the run of acts (the mission's receipts are dated 20 and 23 June).",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0608": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "date": "1607-06-20",
+   "notes": "Day misread by OCR; corrected from the run of acts (the mission's receipts are dated 20 and 23 June).",
+   "other_equivalent": "44 aspres"
+  },
+  "2-III-0609": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_equivalent": "30 aspres"
+  },
+  "2-III-0610": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_parties_names": "Aina (?)",
+   "other_parties_origins": "de Bizerte",
+   "other_equivalent": "81 aspres"
+  },
+  "2-III-0611": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_parties_names": "Cara Assomano",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0612": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "price": 79,
+   "other_equivalent": "12 aspres"
+  },
+  "2-III-0613": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_parties_names": "Regieppo",
+   "other_parties_role": "recipient of ransom payment, caïd",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0614": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "transaction_type": "Redemption",
+   "party1_name": "Franco d'Antonio del Conso",
+   "party1_origins": "d'Otrante",
+   "party1_role": "recipient, ransomed captive",
+   "other_parties_names": "Asta Morato Genovese",
+   "other_parties_role": "recipient of ransom payment",
+   "price": 171,
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0615": {
+   "date": "1607-06-23",
+   "party1_name": "Giovanni Silvestro Rubiano",
+   "party1_origins": "espagnol",
+   "party1_role": "promisor, sergeant",
+   "party2_name": "Gio Bata Danna",
+   "party2_role": "promisee",
+   "other_parties_names": "Cassem Ali",
+   "other_parties_origins": "maure de Bizerte",
+   "other_parties_role": "Muslim slave on the galleys of Sicily (to be freed)",
+   "currency": "écus",
+   "matter": "Undertakes to have Cassem Ali freed, or to pay 250 écus if he is dead",
+   "decision": "A note of 24 June signed by don Diego Ossorio cancels the act",
+   "notes": "Day read as 25 by OCR; 23 in the text layer.",
+   "keywords": "captive exchange; galleys; Muslim captive"
+  },
+  "2-III-0616": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "transaction_type": "Redemption",
+   "party1_role": "recipient, ransomed captive",
+   "other_parties_names": "Cara [Assomano]",
+   "other_parties_role": "recipient of ransom payment",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0617": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0618": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "party1_origins": "du casale di Consenta (?)",
+   "party1_role": "recipient, ransomed captive",
+   "other_parties_names": "Mamett Bey",
+   "other_parties_role": "recipient of ransom payment",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0619": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission; clergy",
+   "party1_name": "Père Bonaventura",
+   "party1_role": "recipient, ransomed captive, Capuchin",
+   "other_parties_names": "Asta Assano Genovese",
+   "other_parties_role": "recipient of ransom payment",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0620": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "transaction_type": "Redemption",
+   "party1_name": "Gio Lorenzo Saccho Manno (?)",
+   "party1_origins": "de Sicile",
+   "party1_role": "recipient, ransomed captive",
+   "other_parties_names": "Aly Bey",
+   "other_parties_role": "recipient of ransom payment",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0621": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "date": "1607-06-23",
+   "notes": "Day misread by OCR (29); corrected to 23 from the run of acts. Number of écus illegible in the scan (19?).",
+   "price": null,
+   "other_equivalent": "44 aspres"
+  },
+  "2-III-0622": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "date": "1607-06-23",
+   "notes": "Day misread by OCR; corrected from the run of acts (the mission's receipts are dated 20 and 23 June).",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0623": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "date": "1607-06-23",
+   "notes": "Day misread by OCR; corrected from the run of acts (the mission's receipts are dated 20 and 23 June).",
+   "other_equivalent": "5 aspres"
+  },
+  "2-III-0624": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "price": null,
+   "other_equivalent": "43 aspres",
+   "notes": "Number of écus missing in the summary."
+  },
+  "2-III-0625": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_equivalent": "32 aspres",
+   "other_parties_names": "[...]"
+  },
+  "2-III-0626": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Fees (droits) for his ransom",
+   "keywords": "ransom; redemption mission; clergy",
+   "party1_role": "recipient, ransomed captive, Carmelite friar",
+   "price": 21.5
+  },
+  "2-III-0627": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_equivalent": "45 aspres"
+  },
+  "2-III-0628": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "price": 111.5,
+   "other_parties_names": "the Pacha"
+  },
+  "2-III-0629": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_parties_names": "the Pacha",
+   "other_equivalent": "32 aspres"
+  },
+  "2-III-0630": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0631": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "date": "1607-06-23",
+   "notes": "Day misread by OCR; corrected from the run of acts (the mission's receipts are dated 20 and 23 June).",
+   "other_parties_names": "the Pacha",
+   "other_equivalent": "32 aspres"
+  },
+  "2-III-0632": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "date": "1607-06-23",
+   "notes": "Day misread by OCR; corrected from the run of acts (the mission's receipts are dated 20 and 23 June).",
+   "other_equivalent": "43 aspres"
+  },
+  "2-III-0633": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "price": 111.5,
+   "other_parties_names": "the Pacha",
+   "other_parties_role": "recipient of ransom payment"
+  },
+  "2-III-0634": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "price": null,
+   "other_parties_names": "Assano Odabacki",
+   "other_parties_role": "recipient of ransom payment",
+   "other_equivalent": "43 aspres",
+   "notes": "Number of écus misread by OCR (t9; the text layer reads 12)."
+  },
+  "2-III-0635": {
+   "party2_name": "Ascanio de Massa; Pasquale Inperato",
+   "party2_role": "payer (redemption agents)",
+   "currency": "écus",
+   "matter": "Ransom paid by the Naples redemption mission; same repayment clause",
+   "keywords": "ransom; redemption mission",
+   "price": 221,
+   "other_parties_names": "Hassoman",
+   "other_equivalent": "43 aspres"
   }
  }
 }
