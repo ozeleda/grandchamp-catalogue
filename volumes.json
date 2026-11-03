@@ -72,6 +72,50 @@
       "toc_page_fixes": {
         "II:22": 140
       }
+    },
+    {
+      "id": 2,
+      "file": "pdfs/La France en Tunisie v.2.pdf",
+      "title": "La France en Tunisie au début du XVIIe siècle (1601-1610)",
+      "author": "Pierre Grandchamp",
+      "published": "Tunis, 1921",
+      "period_start": "1601-11-23",
+      "period_end": "1610-12-30",
+      "source_url": null,
+      "text_source": "ocr/vol2",
+      "two_up": {
+        "pdf_pages": [
+          8,
+          103
+        ],
+        "first_printed_page": 2
+      },
+      "missing_pages": [
+        8,
+        9
+      ],
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        182
+      ],
+      "registers": [
+        {
+          "number": "III",
+          "label": "Troisième registre",
+          "start_page": 1,
+          "date_start": "1601-11-23",
+          "date_end": "1607-08-06"
+        },
+        {
+          "number": "IV",
+          "label": "Quatrième registre",
+          "start_page": 106,
+          "date_start": "1607-09-04",
+          "date_end": "1610-12-30"
+        }
+      ],
+      "parts": []
     }
   ]
 }

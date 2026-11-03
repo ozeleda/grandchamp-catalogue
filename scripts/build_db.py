@@ -845,6 +845,13 @@ def build(config_path, out_path):
         if not pdf.exists():
             print(f"skipping volume {vol['id']}: {pdf} not found", file=sys.stderr)
             continue
+        if vol.get("text_source") and not (ROOT / vol["text_source"] / "index.json").exists():
+            print(f"skipping volume {vol['id']}: OCR cache {vol['text_source']} not built yet "
+                  f"(run scripts/ocr_volume.py {vol['id']})", file=sys.stderr)
+            continue
+        if vol.get("text_source"):
+            print(f"skipping volume {vol['id']}: OCR-based parsing not implemented yet", file=sys.stderr)
+            continue
         print(f"Volume {vol['id']}: {vol['title']}", file=sys.stderr)
         vid = vol["id"]
         db.execute("INSERT INTO volumes VALUES (?,?,?,?,?,?,?,?,?)",
