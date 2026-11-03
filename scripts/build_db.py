@@ -448,6 +448,9 @@ def parse_analysis(pdf, vol):
         lone = re.match(r"^\s{0,8}(?P<tok>[—–-]{1,3}|\?(?:\s+(?P<m>[a-zéû]{3,9})\.?)?(?:\s+[—–-])?)(?:\s{3,}|\s{2}(?=En\s))(?P<rest>(?:En\s+\w+\.\s*[—–-]+\s|\(|[A-ZÉ«]).*)$", line)
         if started and noisy(vol) and vol.get("pages_dir") and lone:
             # "—" alone: same date as the act above; "?" : the day is not known
+            above = current or (acts[-1] if acts else None)
+            if above and not lone.group("tok").startswith("?") and above.get("year") and above.get("month"):
+                year, month = above["year"], above["month"]   # not a year line read in between
             flush()
             unknown = lone.group("tok").startswith("?")
             if lone.group("m") and norm_month(lone.group("m") + ".", True):
@@ -489,8 +492,8 @@ def parse_analysis(pdf, vol):
                     # volumes 5-8 print the month as a heading; when the OCR lost it, the
                     # day falling back (30 -> 2) marks the next month
                     month = month % 12 + 1
-                    if month == 1:
-                        year += 1
+                    if month == 1 and year == month_year:
+                        year += 1          # unless the page's year line has already moved on
                     month_year = year
                     month_inferred = True
                 last_day = day or last_day

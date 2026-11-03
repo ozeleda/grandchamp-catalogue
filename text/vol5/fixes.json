@@ -1,0 +1,34 @@
+{
+ "pages": [
+  {
+   "page": "p063",
+   "old": "17  —   En italien. — Guglielmo",
+   "new": "1er  —   En italien. — Guglielmo",
+   "note": "« 1er » read as 17 by the OCR"
+  }
+ ],
+ "acts": {
+  "date": [
+   {
+    "find": "« Premier » est sans doute mis pour « dernier »",
+    "date": "1635-03-31",
+    "note": "The register writes « premier »; the editor reads « dernier » (last day of March, running head « Mars »)."
+   },
+   {
+    "find": "Felip Gollee, de Carata",
+    "date": "1635-03-31",
+    "note": "31 March (running head « Mars » on p. 75)."
+   },
+   {
+    "find": "(356) Enregistrement, à la requête de Osta Ragiep",
+    "date": "1635-03-31",
+    "note": "31 March (running head « Mars » on p. 75)."
+   },
+   {
+    "find": "Francois Carnot, fils d’Aleim",
+    "date": "1635-03-31",
+    "note": "31 March (running head « Mars » on p. 75)."
+   }
+  ]
+ }
+}

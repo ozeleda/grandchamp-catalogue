@@ -147,7 +147,7 @@ text: Berthelemy esclave, Sigalous, de Bargemont, demeurant à St-Tropez, donne 
 
 [act 6-XIV-0015]
 date: 1651-02-04
-date printed: 4
+date printed: 4 fév.
 date status: printed in the margin
 register: XIV
 page: 3 (scan: La France en Tunisie v.6_Part1.pdf p. 80)
@@ -250,7 +250,7 @@ text: En italien. — Guillaume Martorelle, de Majorque, esclave du Bey, a reçu
 
 [act 6-XIV-0025]
 date: 1651-02-21
-date printed: 21
+date printed: 21 fév.
 date status: printed in the margin
 register: XIV
 page: 5 (scan: La France en Tunisie v.6_Part1.pdf p. 82)
@@ -723,8 +723,8 @@ amounts: 8 réaux
 text: (614) Esprit Pastour, chirurgien de la ville d'Aix, esclave de l'Ill Cheluby, donne une procuration à Jean Estienne Faveregue, chirurgien, esclave du Bey, pour recevoir de Pierre Ollivier, boulanger, esclave dans le bagne de la Conception, 50 pièces de 8 réaux, dues par celui-ci.
 
 [act 6-XV-0071]
-date: 1651-05-27
-date printed: 27 -
+date: 1651-07-27
+date printed: 27 juil.
 date status: printed in the margin
 register: XV
 page: 11 (scan: La France en Tunisie v.6_Part1.pdf p. 88)
@@ -733,7 +733,7 @@ amounts: 8 réaux
 text: En italien. — Bey Demitre Mauro, grec, a reçu de Nofre Scot, esclave du , 112 pièces de 8 réaux, prêtées pour subvenir à ses négoces.
 
 [act 6-XV-0072]
-date: 1651-06-02
+date: 1651-08-02
 date printed: 2 -
 date status: month not read (heading lost in the scan); taken as the month after the previous act's
 register: XV
@@ -1009,7 +1009,7 @@ text: En italien. — (634) Andrea Vassalo, de Naples, esclave du Dey, donne une
 
 [act 6-XV-0099]
 date: 1651-08-07
-date printed: 7 -
+date printed: 7 août
 date status: printed in the margin
 register: XV
 page: 15 (scan: La France en Tunisie v.6_Part1.pdf p. 92)
@@ -1215,7 +1215,7 @@ text: En italien. — (649) Giacobo Pallisere, majorquin, esclave d'Abichi Cogi,
 
 [act 6-XV-0119]
 date: 1651-09-22
-date printed: 22 -
+date printed: 22 sept.
 date status: printed in the margin
 register: XV
 page: 18 (scan: La France en Tunisie v.6_Part1.pdf p. 95)
@@ -1351,8 +1351,8 @@ flags: illegible
 text: En italien. — (660) Ragep, caid de la Douane des Cuirs de donne une procuration au patron G. M. Dellarbore pour recouvrer une créance de 1048 pièces de 8 réaux, à Malte. Vise l'acte du 27 juillet 1651. Un sceau arabe illisible.
 
 [act 6-XV-0132]
-date: 1651-09-03
-date printed: 3 sept.
+date: 1651-10-03
+date printed: 3 oct.
 date status: printed in the margin
 register: XV
 page: 20 (scan: La France en Tunisie v.6_Part1.pdf p. 97)
@@ -1413,7 +1413,7 @@ text: En italien. — (664) Domenico Santorine, maltais, ci-devant esclave, a re
 
 [act 6-XV-0138]
 date: 1651-10-09
-date printed: 9 —
+date printed: 9 oct.
 date status: printed in the margin
 register: XV
 page: 21 (scan: La France en Tunisie v.6_Part1.pdf p. 98)
@@ -1545,8 +1545,8 @@ amounts: 5 réaux
 text: (672) Pierre Marval (Maraval), de Frontignan, patron de la barque Ste-Marie bon, a reçu à titre de prêt de Philippe Battu (Batut), patron de la barque St-Pierre bon ", du même lieu, « 34 marcs d'argent pièces de 5 réaux de Barcelone », pour employer à ses négoces, « le pris desquels trente quatre marcs dargent selon leur valeur a la Monnoie de Montpellier Ledit patron Pierre Marval promet rendre & paier audit patron Philippe Battu ou autre pour Luy a la volonté & premiere requeste diceluy patron Battu a peine de tous despens dommages & Intherestz Lequel patron Battu confesse que Ledit patron Marval luy a mis es mains en Nentissement & gage de son deub trois cens pieces de huict reaux, du.. ? .. neuf dont il y en a cent vingt cinq de couppée, desquels trois cens pieces Ledit patron Battu se pourra servir & les emploier s'il en a besoin, & s'il les emploie desduira audit patron Marval Leur valeur pourquoy il les aura peu changer La diminution estant portée par Iceluy Marval, & sil ne les change promet de les rendre audit patron Marval en Luy paiant son
 
 [act 6-XV-0151]
-date: 1651-10-02
-date printed: 2 oct.
+date: 1651-11-02
+date printed: 2 nov.
 date status: printed in the margin
 register: XV
 page: 23 (scan: La France en Tunisie v.6_Part1.pdf p. 100)
@@ -1555,7 +1555,7 @@ language: italien
 text: En italien. — (673) Gio Battista Ballestrero, de Sto-Remo del Seicolo, esclave de Aggi Mametto Day, donne une procuration à Brigidina Ballestrero, sa femme, au R. P. Francisco Ballestrero, son frère, à Pietro Francisco Ballestrero, son cousin, absents, pour recouvrer des créances pour « l'entretien » des enfants du constituant.
 
 [act 6-XV-0152]
-date: 1651-10-02
+date: 1651-11-02
 date printed: 2 -
 date status: printed in the margin
 register: XV
@@ -1794,8 +1794,8 @@ text: En italien, — [689] Giovanni Scotto, esclave, donne une procuration à D
 
 [act 6-XV-0176]
 date: 1652-02-03
-date printed: 3 —
-date status: month not read (heading lost in the scan); taken as the month after the previous act's
+date printed: 3 fév.
+date status: printed in the margin
 register: XV
 page: 26 (scan: La France en Tunisie v.6_Part1.pdf p. 103)
 language: français
@@ -1946,7 +1946,7 @@ text: En italien. — (L'acte est daté par erreur de 1651) Sidi Ragep, caid de 
 
 [act 6-XV-0191]
 date: 1652-02-29
-date printed: 29
+date printed: 29 fév.
 date status: printed in the margin
 register: XV
 page: 28 (scan: La France en Tunisie v.6_Part1.pdf p. 105)
@@ -2151,8 +2151,8 @@ language: français
 text: Le patron Jacques Chartreux, de Marseille, donne une procuration à Anne Chese, sa femme, pour vendre des biens, etc. , et le racheter.
 
 [act 6-XV-0211]
-date: 1652-05-04
-date printed: 4 mai
+date: 1652-06-04
+date printed: 4 juin
 date status: printed in the margin
 register: XV
 page: 31 (scan: La France en Tunisie v.6_Part1.pdf p. 108)
@@ -2380,7 +2380,7 @@ text: Jean Estienne Faveregue, esclave du Bey, a reçu de Simon Mutio, marchand 
 
 [act 6-XV-0231]
 date: 1652-09-04
-date printed: 4 -
+date printed: 4 sept.
 date status: printed in the margin
 register: XV
 page: 37 (scan: La France en Tunisie v.6_Part1.pdf p. 114)
@@ -2535,7 +2535,7 @@ text: (729) Jean Estrault, marchand français, habitant à Malte, donne une proc
 
 [act 6-XV-0245]
 date: 1652-10-10
-date printed: 10
+date printed: 10 oct.
 date status: printed in the margin
 register: XV
 page: 39 (scan: La France en Tunisie v.6_Part1.pdf p. 116)
@@ -2667,7 +2667,7 @@ text: En italien. — (736) Pietro di Anthonio Paulo, de Cintura en Corse, escla
 
 [act 6-XV-0257]
 date: 1652-11-02
-date printed: 2 -
+date printed: 2 nov.
 date status: printed in the margin
 register: XV
 page: 41 (scan: La France en Tunisie v.6_Part1.pdf p. 118)
@@ -2747,8 +2747,8 @@ text: En italien. — (740) Domenico Marsillia, maltais, ci-devant esclave de Si
 
 [act 6-XV-0264]
 date: 1652-12-03
-date printed: 3 —
-date status: month not read (heading lost in the scan); taken as the month after the previous act's
+date printed: 3 déc.
+date status: printed in the margin
 register: XV
 page: 42 (scan: La France en Tunisie v.6_Part1.pdf p. 119)
 language: italien
@@ -2941,7 +2941,7 @@ text: En italien. — (749) Le même a reçu à titre de prêt de Antho Mercante
 
 [act 6-XV-0281]
 date: 1653-01-09
-date printed: 9 -
+date printed: 9 janv.
 date status: printed in the margin
 register: XV
 page: 45 (scan: La France en Tunisie v.6_Part1.pdf p. 122)
@@ -3154,8 +3154,8 @@ text: En italien. — (759) Le même a reçu de Luca Liandri, corse, 25 pièces 
 
 [act 6-XV-0300]
 date: 1653-02-08
-date printed: 8 —
-date status: month not read (heading lost in the scan); taken as the month after the previous act's
+date printed: 8 fév.
+date status: printed in the margin
 register: XV
 page: 48 (scan: La France en Tunisie v.6_Part1.pdf p. 125)
 language: français
@@ -3232,7 +3232,7 @@ text: En italien. — Luca Liandry, corse, a reçu à titre de prêt de Izaaco A
 
 [act 6-XV-0307]
 date: 1653-03-06
-date printed: 6 -
+date printed: 6 mars
 date status: printed in the margin
 register: XV
 page: 49 (scan: La France en Tunisie v.6_Part1.pdf p. 126)
@@ -3714,7 +3714,7 @@ text: (783) André Gairouard, de la Cadière en Provence, esclave des héritiers
 
 [act 6-XV-0350]
 date: 1653-06-10
-date printed: 10 -
+date printed: 10 juin
 date status: printed in the margin
 register: XV
 page: 54 (scan: La France en Tunisie v.6_Part1.pdf p. 131)
@@ -3838,7 +3838,7 @@ text: Joseph Michel, de Marseille, esclave de Murdat, ci-devant pacha de Tunis, 
 
 [act 6-XV-0361]
 date: 1653-06-25
-date printed: 25 —
+date printed: 25 juin
 date status: printed in the margin
 register: XV
 page: 56 (scan: La France en Tunisie v.6_Part1.pdf p. 133)
@@ -4039,8 +4039,8 @@ text: En italien. — (798) Domenico de feu Batt*, corse de Pino, cidevant escla
 
 [act 6-XV-0379]
 date: 1653-08-02
-date printed: 2 —
-date status: month not read (heading lost in the scan); taken as the month after the previous act's
+date printed: 2 août
+date status: printed in the margin
 register: XV
 page: 59 (scan: La France en Tunisie v.6_Part1.pdf p. 136)
 language: italien
@@ -4182,7 +4182,7 @@ text: Sidi Ali, renégat, nommé ci-devant Jean Fournaire, de la Ciotat, demeura
 
 [act 6-XV-0392]
 date: 1653-08-26
-date printed: 26
+date printed: 26 août
 date status: printed in the margin
 register: XV
 page: 61 (scan: La France en Tunisie v.6_Part1.pdf p. 138)
@@ -4378,7 +4378,7 @@ text: En italien. — (813) Jean Estienne Fravegue, esclave de Amout, bey de Tun
 
 [act 6-XV-0410]
 date: 1653-09-06
-date printed: 6
+date printed: 6 sept.
 date status: printed in the margin
 register: XV
 page: 63 (scan: La France en Tunisie v.6_Part1.pdf p. 140)
@@ -4887,7 +4887,7 @@ text: En italien. — (830) Isaac Israel Medina, marchand juif, résisidant à T
 
 [act 6-XV-0455]
 date: 1653-11-17
-date printed: 17
+date printed: 17 nov.
 date status: printed in the margin
 register: XV
 page: 69 (scan: La France en Tunisie v.6_Part1.pdf p. 146)
@@ -4940,7 +4940,7 @@ text: En italien. — (833) Mamet Cheleby certifie que sur les 800 pièces de 8 
 
 [act 6-XV-0460]
 date: 1653-12-06
-date printed: 6-
+date printed: 6 déc.
 date status: printed in the margin
 register: XV
 page: 70 (scan: La France en Tunisie v.6_Part1.pdf p. 147)
@@ -4995,7 +4995,7 @@ text: Guillaume Tournaire, de la Ciotat, esclave des héritiers (?) de feu Agy M
 
 [act 6-XV-0465]
 date: 1653-12-15
-date printed: 15 -
+date printed: 15 déc.
 date status: printed in the margin
 register: XV
 page: 71 (scan: La France en Tunisie v.6_Part1.pdf p. 148)
@@ -5084,7 +5084,7 @@ text: En italien. — Gabriel Malia, marchand maltais, a reçu de Mamet Bougibel
 
 [act 6-XV-0473]
 date: 1653-12-20
-date printed: 20 —
+date printed: 20 déc.
 date status: printed in the margin
 register: XV
 page: 72 (scan: La France en Tunisie v.6_Part1.pdf p. 149)
@@ -5492,7 +5492,7 @@ text: Cosme de Galdebas Gardebat), chirurgien de Marseille, esclave de Mammet Ch
 
 [act 6-XV-0509]
 date: 1654-02-09
-date printed: 9 -
+date printed: 9 fév.
 date status: printed in the margin
 register: XV
 page: 77 (scan: La France en Tunisie v.6_Part1.pdf p. 154)
@@ -5586,7 +5586,7 @@ text: En italien. — Gioseppe Gusti, palermitain, esclave de Mamet Cheliby, fil
 
 [act 6-XV-0517]
 date: 1654-02-17
-date printed: 17
+date printed: 17 fév.
 date status: printed in the margin
 register: XV
 page: 78 (scan: La France en Tunisie v.6_Part1.pdf p. 155)
@@ -5653,7 +5653,7 @@ text: Charles Gillet, d'Esclaron en Champaigne, esclave de Amet Cheleby, fils de
 
 [act 6-XV-0523]
 date: 1654-02-25
-date printed: 25
+date printed: 25 fév.
 date status: printed in the margin
 register: XV
 page: 79 (scan: La France en Tunisie v.6_Part1.pdf p. 156)
@@ -6058,8 +6058,8 @@ amounts: 8 réaux
 text: En italien. — (878) Le R. F. P. Paulo Peyro Malle (Piromalli), dominicain calabrais, missionnaire apostolique, ci-devant esclave des héritiers de Agy Mammetto dey, promet à Don Gasparo Diaz, pisan, esclave de Abderraman pacha de Rhodo, et à Solyman rais, turc, présent, de payer dès son arrivée à Chio à Mannina Justiniana, femme dudit Gasparo, 180 pièces de 8 réaux, pour semblable somme qu'ils lui ont prêtée pour payer son rachat.
 
 [act 6-XV-0559]
-date: 1654-05-01
-date printed: 1er mai
+date: 1654-06-01
+date printed: 1er juin
 date status: printed in the margin
 register: XV
 page: 84 (scan: La France en Tunisie v.6_Part1.pdf p. 161)
@@ -6070,7 +6070,7 @@ amounts: 54 piastres; 8 réaux
 text: (878) Cosme Martinot, esclave des héritiers de Agy Mammet dey, reconnaît que sur toutes les sommes reçues pour lui par Jean Levacher, il ne reste plus aux mains de celui-ci que 54 piastres de 8 réaux, tout le reste ayant été payé au déclarant, etc...
 
 [act 6-XV-0560]
-date: 1654-05-05
+date: 1654-06-05
 date printed: 5 —
 date status: printed in the margin
 register: XV
@@ -6081,7 +6081,7 @@ amounts: 8 réaux; 21 aspres; 300 piastres
 text: En italien. — Antonio di San-Magno, de Naples, et Gioseppe, son fils, esclaves à Tunis, le premier de Agi Mammet ben Musa, le second de Amet Cheliby, ont été rachetés par Isaacq Alcalai et David Uziel pour 380 pièces de 8 réaux, plus 60 pièces et # pour la Porte, etc. Somme totale 537 pièces et 21 aspres. La fin de l'acte est au f° 881. Le f° 879 contient la lettre de Martinot à Jean Le Vacher analysée ci-dessous. Le f° 880 est en blanc. (879) Martinot à Jehan Le Vacher. — Il demande à Le Vacher de toucher 300 piastres dues par Jehan Marie Delarbori, de recevoir ses lettres, d'y répondre si besoin est, de recevoir 4 barriques de vin de Saragousse (Syracuse) et de les vendre ou d'attendre pour cela que vienne le Romadan des Turcs, etc. Cette lettre est écrite du bagne de St-François.
 
 [act 6-XV-0561]
-date: 1654-05-08
+date: 1654-06-08
 date printed: 8 —
 date status: printed in the margin
 register: XV
@@ -6093,7 +6093,7 @@ amounts: 100 piastres; 8 réaux
 text: (881) Mathieu Dalliot, de Cassis, esclave des héritiers de Agy Mammet dey, a reçu de Marcq Anthoine Dou et Louys Mere 100 piastres de 8 réaux.
 
 [act 6-XV-0562]
-date: 1654-05-11
+date: 1654-06-11
 date printed: 41 —
 date status: day reconstructed from a damaged reading
 register: XV
@@ -6105,7 +6105,7 @@ amounts: 8 réaux; 20 aspres
 text: En italien. — (881) Le Fr. Jacintho Della Bronda, mineur observantin de la province de Sardaigne, a été racheté par Isaacq Alcalai et David Uziel pour 429 pièces de 8 réaux et 20 aspres, y compris les frais accessoires.
 
 [act 6-XV-0563]
-date: 1654-05-13
+date: 1654-06-13
 date printed: 43 —
 date status: day reconstructed from a damaged reading
 register: XV
@@ -6597,7 +6597,7 @@ text: En italien. — (894) Nicolao Rimbault promet à Guillielmo Monturello, ma
 
 [act 6-XV-0606]
 date: 1654-08-11
-date printed: 11 —
+date printed: 11 août
 date status: printed in the margin
 register: XV
 page: 91 (scan: La France en Tunisie v.6_Part1.pdf p. 168)
@@ -6949,7 +6949,7 @@ text: En italien. — (906) Le cap. Laurenzo Fransen, flamand, d'Anvers (? ), es
 
 [act 6-XV-0637]
 date: 1654-10-05
-date printed: 5
+date printed: 5 oct.
 date status: printed in the margin
 register: XV
 page: 95 (scan: La France en Tunisie v.6_Part1.pdf p. 172)
@@ -7188,7 +7188,7 @@ text: Jacques Chabert, de la Ciotat, patron, ci-devant esclave de Amout bey, a �
 
 [act 6-XV-0658]
 date: 1654-12-09
-date printed: 9
+date printed: 9 déc.
 date status: printed in the margin
 register: XV
 page: 99 (scan: La France en Tunisie v.6_Part1.pdf p. 176)
@@ -7287,7 +7287,7 @@ text: (919 v°) Jean Rolin, esclave de Amet Cheleby, a reçu de Jean Le Vacher, 
 
 [act 6-XV-0667]
 date: 1654-12-22
-date printed: 22
+date printed: 22 déc.
 date status: printed in the margin
 register: XV
 page: 100 (scan: La France en Tunisie v.6_Part1.pdf p. 177)
@@ -7379,7 +7379,7 @@ text: En italien. — Gioseppe Bonavia, maltais, ci-devant esclave de Amet Cheli
 
 [act 6-XV-0675]
 date: 1655-01-07
-date printed: 7
+date printed: 7 janv.
 date status: printed in the margin
 register: XV
 page: 101 (scan: La France en Tunisie v.6_Part1.pdf p. 178)
@@ -7519,7 +7519,7 @@ text: (944) (Sur une feuille de petit format intercalée dans le re- . gistre). 
 
 [act 6-XV-0687]
 date: 1655-01-14
-date printed: 14
+date printed: 14 janv.
 date status: printed in the margin
 register: XV
 page: 103 (scan: La France en Tunisie v.6_Part1.pdf p. 180)
@@ -7747,7 +7747,7 @@ text: En italien. — (952) Gregorio Capello, d'Arbisola (Albissola), ci-devant 
 
 [act 6-XV-0707]
 date: 1655-02-20
-date printed: 20 —
+date printed: 20 fév.
 date status: printed in the margin
 register: XV
 page: 106 (scan: La France en Tunisie v.6_Part1.pdf p. 183)
@@ -8192,7 +8192,7 @@ text: En italien. — (967) Catharina di Oratio, génoise, esclave du rais Saiet
 
 [act 6-XV-0747]
 date: 1655-06-04
-date printed: 4
+date printed: 4 juin
 date status: printed in the margin
 register: XV
 page: 111 (scan: La France en Tunisie v.6_Part1.pdf p. 188)
@@ -8701,7 +8701,7 @@ text: (984) Le patron Vincent Vincent, de Marseille, remboursera, un mois après
 
 [act 6-XV-0792]
 date: 1655-08-18
-date printed: 18
+date printed: 18 août
 date status: printed in the margin
 register: XV
 page: 118 (scan: La France en Tunisie v.6_Part1.pdf p. 195)
@@ -9186,7 +9186,7 @@ text: En italien. — Pietro Gras, majorquin, ci-devant esclave de Amed Cheliby,
 
 [act 6-XV-0835]
 date: 1655-11-18
-date printed: 18 -
+date printed: 18 nov.
 date status: printed in the margin
 register: XV
 page: 124 (scan: La France en Tunisie v.6_Part2.pdf p. 5)
@@ -9324,7 +9324,7 @@ text: En italien. — (1010) Le chancelier déclare s'être transporté dans le 
 
 [act 6-XV-0847]
 date: 1655-12-03
-date printed: 3
+date printed: 3 déc.
 date status: printed in the margin
 register: XV
 page: 125 (scan: La France en Tunisie v.6_Part2.pdf p. 6)
@@ -9406,7 +9406,7 @@ text: (1017) François Casanove, marinier de Marseille, ci-devant esclave des en
 
 [act 6-XV-0854]
 date: 1655-12-13
-date printed: 13 -
+date printed: 13 déc.
 date status: printed in the margin
 register: XV
 page: 127 (scan: La France en Tunisie v.6_Part2.pdf p. 8)
@@ -9484,7 +9484,7 @@ text: Guillen Battareau, de Toulon, esclave d’Estamorat, donne une procuration
 
 [act 6-XV-0861]
 date: 1655-12-29
-date printed: 29 -
+date printed: 29 déc.
 date status: printed in the margin
 register: XV
 page: 128 (scan: La France en Tunisie v.6_Part2.pdf p. 9)
@@ -9553,8 +9553,8 @@ chancelier: Marc  Bouisson
 text: (1027) Testament de François de Leon, de Marseille. (Voir plus haut). Les témoins sont: Jean Ambrozin, Charles Ollivier, Jean Louys Boisson, Hanry Phelip Castelane, Anthoine Granet, Barthellemy Berthelemy, Anthoine Gernier (Granet), écuyer de Marseille, cidevant esclave à Alger de Biquel Ogy, François Francelion, de Richelieu en Poitou, frère coadjuteur de la Congrégation de la Mission. Au milieu de la page: Sit nommen Dominy benedictum Registre des actes et procures pour Lannee mil six cens cinquante six depuis le 3m janvier jusques au mois de Juin Par moy Marc Bouisson, chan "
 
 [act 6-XV-0867]
-date: 1656-12-03
-date printed: 3 déc.
+date: 1656-01-03
+date printed: 3 janv.
 date status: printed in the margin
 register: XV
 page: 129 (scan: La France en Tunisie v.6_Part2.pdf p. 10)
@@ -9755,8 +9755,8 @@ text: En italien. — (1037) Gio Argon, maltais, ci-devant esclave de Hamud bey,
 
 [act 6-XV-0885]
 date: 1656-02-01
-date printed: 1er —
-date status: month not read (heading lost in the scan); taken as the month after the previous act's
+date printed: 1er fév.
+date status: printed in the margin
 register: XV
 page: 131 (scan: La France en Tunisie v.6_Part2.pdf p. 12)
 language: italien
@@ -9779,7 +9779,7 @@ text: En italien. — (1038) Gio Dominico, corse, ci-devant esclave d'Isuf Corso
 
 [act 6-XV-0887]
 date: 1656-02-07
-date printed: 7 -
+date printed: 7 fév.
 date status: printed in the margin
 register: XV
 page: 132 (scan: La France en Tunisie v.6_Part2.pdf p. 13)
@@ -9915,7 +9915,7 @@ text: (1046) François Arnaud, marinier de la Ciotat, ci-devant esclave de Hamud
 
 [act 6-XV-0899]
 date: 1656-03-02
-date printed: 2 —
+date printed: 2 mars
 date status: printed in the margin
 register: XV
 page: 134 (scan: La France en Tunisie v.6_Part2.pdf p. 15)
@@ -10510,8 +10510,8 @@ chancelier: Marc  Bouisson
 text: (Sans f°) Jacques Bally, de Frontignan, patron de la barque ‘St-François Bonne Vanture, parti de la Ciotat pour venir à Sousse, est arrivé le 4 mai. Il a traité avec le caid pour faire son chargement. Durant ce temps, Ollivier et Castellane traitaient de leur côté avec le Dey. Sollicité, le Dey refuse l'autorisation de charger à Sousse et exige que le bateau aille à Sfax. Le patron et les marins voyant la laine du chargement de Sousse déjà à bord refusent d'obéir aux ordres d'Ollivier et Castellane qui protestent , etc. Leur mémoire est déposé en chancellerie le 9 juin.
 
 [act 6-XV-0951]
-date: 1656-06-09
-date printed: 9 juin
+date: 1656-05-09
+date printed: 9 mai
 date status: printed in the margin
 register: XV
 page: 143 (scan: La France en Tunisie v.6_Part2.pdf p. 24)
@@ -10523,7 +10523,7 @@ text: En italien. — (1084) Don Aignello Rosso, prêtre, de Naples, ci-devant e
 
 [act 6-XV-0952]
 date: 1656-06-22
-date printed: 22 -
+date printed: 22 juin
 date status: printed in the margin
 register: XV
 page: 143 (scan: La France en Tunisie v.6_Part2.pdf p. 24)
@@ -10711,9 +10711,9 @@ amounts: 1.000 livres
 text: (1099) François Thomas, chirurgien de Barbonne près Sezanne en Brie, esclave à Tunis de Morat bey, donne une procuration à Mre François Gerard, procureur du Roi en la prévôté de Chante Merle, demeurant à Barbonne, absent, pour vendre des biens jusqu'à 1.000 livres tournois et le racheter.
 
 [act 6-XV-0969]
-date: 1656-07-17
-date printed: 47 —
-date status: day reconstructed from a damaged reading
+date: 1656-08-01
+date printed: 1er —
+date status: month not read (heading lost in the scan); taken as the month after the previous act's
 register: XV
 page: 146 (scan: La France en Tunisie v.6_Part2.pdf p. 29)
 language: italien
@@ -10722,7 +10722,7 @@ amounts: 8 réaux
 text: En italien. — Allexandro Daillot et Gio Astraud, résidant à Malte, ont recu de Nicolo Dimachi, grec, présent, 330 pièces de 8 réaux (change compris), payables à Malte 15 jours après leur arrivée.
 
 [act 6-XV-0970]
-date: 1656-07-18
+date: 1656-08-18
 date printed: 18 —
 date status: printed in the margin
 register: XV
@@ -10900,7 +10900,7 @@ text: (1112 v ° ) Charles Houlley, 38 ans, a été racheté le 31 juillet par J
 
 [act 6-XV-0986]
 date: 1656-08-08
-date printed: 8
+date printed: 8 août
 date status: printed in the margin
 register: XV
 page: 150 (scan: La France en Tunisie v.6_Part2.pdf p. 33)
@@ -11162,7 +11162,7 @@ text: En italien. — Fabiano La Rosa, maltais, patron de la barque Nre Dame du 
 
 [act 6-XV-1010]
 date: 1656-09-05
-date printed: 5 -
+date printed: 5 sept.
 date status: printed in the margin
 register: XV
 page: 153 (scan: La France en Tunisie v.6_Part2.pdf p. 36)
@@ -11686,8 +11686,8 @@ text: En italien. — Guiglielmo Martourello (Guilem Martorel), marchand de Majo
 
 [act 6-XV-1058]
 date: 1656-12-04
-date printed: 4 -
-date status: month not read (heading lost in the scan); taken as the month after the previous act's
+date printed: 4 déc.
+date status: printed in the margin
 register: XV
 page: 160 (scan: La France en Tunisie v.6_Part2.pdf p. 43)
 language: italien
@@ -11958,7 +11958,7 @@ text: Le patron Anthoine Mathieu, de Martigues, doit à Jean Ambrozin 156 piastr
 
 [act 6-XVI-1082]
 date: 1657-02-03
-date printed: 3
+date printed: 3 fév.
 date status: printed in the margin
 register: XVI
 page: 165 (scan: La France en Tunisie v.6_Part2.pdf p. 48)
@@ -12517,7 +12517,7 @@ text: Anthoine Allamand, de Draguignan, ci-devant esclave de Amet Cheliby ben Is
 
 [act 6-XVI-1130]
 date: 1657-05-07
-date printed: 7 -
+date printed: 7 mai
 date status: printed in the margin
 register: XVI
 page: 172 (scan: La France en Tunisie v.6_Part2.pdf p. 55)
@@ -12993,8 +12993,8 @@ text: En italien. — Gio Van Serrit Sendeman, flamand de Zélande, ci-devant es
 
 [act 6-XVI-1168]
 date: 1657-08-06
-date printed: 6 —
-date status: month not read (heading lost in the scan); taken as the month after the previous act's
+date printed: 6 août
+date status: printed in the margin
 register: XVI
 page: 178 (scan: La France en Tunisie v.6_Part2.pdf p. 61)
 folio: 83
@@ -13166,7 +13166,7 @@ text: En italien. — (90) Gioseppe Callota (ou Cassola), de Majorque, ci-devant
 
 [act 6-XVI-1182]
 date: 1657-08-17
-date printed: 17
+date printed: 17 août
 date status: printed in the margin
 register: XVI
 page: 180 (scan: La France en Tunisie v.6_Part2.pdf p. 63)
@@ -13263,7 +13263,7 @@ text: Fr. Joseph Thomas Merle S" de Beauchant (Beauchamps), chevalier de l'Ordre
 
 [act 6-XVI-1190]
 date: 1657-08-22
-date printed: 22 —
+date printed: 22 août
 date status: printed in the margin
 register: XVI
 page: 181 (scan: La France en Tunisie v.6_Part2.pdf p. 64)
@@ -13374,7 +13374,7 @@ text: En italien. — (98) Gioseppe Maldonato, maltais, a reçu de Noel della Ca
 
 [act 6-XVI-1199]
 date: 1657-09-30
-date printed: 30 -
+date printed: 30 sept.
 date status: printed in the margin
 register: XVI
 page: 182 (scan: La France en Tunisie v.6_Part2.pdf p. 65)
@@ -13474,7 +13474,7 @@ text: (102) Le patron Nicolas Caire, nocher de la barque Nostra Dame de Mont Car
 
 [act 6-XVI-1207]
 date: 1657-09-05
-date printed: 5
+date printed: 5 sept.
 date status: printed in the margin
 register: XVI
 page: 183 (scan: La France en Tunisie v.6_Part2.pdf p. 66)
@@ -13646,7 +13646,7 @@ text: En italien. — Louis di Rossoly, de Nonza en Corse, ci-devant esclave de 
 
 [act 6-XVI-1221]
 date: 1657-11-06
-date printed: 6 -
+date printed: 6 nov.
 date status: printed in the margin
 register: XVI
 page: 185 (scan: La France en Tunisie v.6_Part2.pdf p. 68)
@@ -14271,7 +14271,7 @@ text: En italien. — Wintys, flamand, ci-devant esclave de Mamet Laffeci, fils 
 
 [act 6-XVI-1272]
 date: 1658-02-28
-date printed: 28 —
+date printed: 28 fév.
 date status: printed in the margin
 register: XVI
 page: 192 (scan: La France en Tunisie v.6_Part2.pdf p. 75)
@@ -14296,7 +14296,7 @@ text: En italien. — Vincenzo Pecinino, de Malte, donne une procuration à son 
 
 [act 6-XVI-1274]
 date: 1658-03-06
-date printed: 6 —
+date printed: 6 mars
 date status: printed in the margin
 register: XVI
 page: 192 (scan: La France en Tunisie v.6_Part2.pdf p. 75)
@@ -14774,7 +14774,7 @@ text: En italien. — (172) Bernardo Rombo, de Pra, Riv de Gênes, esclave des h
 
 [act 6-XVI-1313]
 date: 1658-06-03
-date printed: 3-
+date printed: 3 juin
 date status: printed in the margin
 register: XVI
 page: 198 (scan: La France en Tunisie v.6_Part2.pdf p. 81)
@@ -15583,8 +15583,8 @@ text: En italien. — (215) Spiro Ksilori, grec de Zanthe, ci-devant esclave à 
 
 [act 6-XVI-1380]
 date: 1658-12-03
-date printed: 3
-date status: month not read (heading lost in the scan); taken as the month after the previous act's
+date printed: 3 déc.
+date status: printed in the margin
 register: XVI
 page: 209 (scan: La France en Tunisie v.6_Part2.pdf p. 92)
 language: français
@@ -15660,7 +15660,7 @@ text: En italien. — Eugenio Lancellotto (Lancilotto), de Ceraso (Roy* de Naple
 
 [act 6-XVI-1386]
 date: 1659-01-09
-date printed: 9 —
+date printed: 9 janv.
 date status: printed in the margin
 register: XVI
 page: 210 (scan: La France en Tunisie v.6_Part2.pdf p. 93)
@@ -15822,8 +15822,8 @@ text: En italien. — (236) Habraan Videra, marchand juif résidant à Tunis, fa
 
 [act 6-XVI-1399]
 date: 1659-02-01
-date printed: 1er —
-date status: month not read (heading lost in the scan); taken as the month after the previous act's
+date printed: 1er fév.
+date status: printed in the margin
 register: XVI
 page: 212 (scan: La France en Tunisie v.6_Part2.pdf p. 95)
 folio: 237
@@ -15884,7 +15884,7 @@ text: (243) Jean Martin Nadau, de St-Tropez, esclave du S Chelibi, de Tunis, don
 
 [act 6-XVI-1404]
 date: 1659-02-13
-date printed: 13
+date printed: 13 fév.
 date status: printed in the margin
 register: XVI
 page: 213 (scan: La France en Tunisie v.6_Part2.pdf p. 96)
@@ -15973,7 +15973,7 @@ text: En italien. — (254) Domenico Fran Cavagnaro, de Gênes, et Gio Batt Ferr
 
 [act 6-XVI-1411]
 date: 1659-02-21
-date printed: 21 —
+date printed: 21 fév.
 date status: printed in the margin
 register: XVI
 page: 214 (scan: La France en Tunisie v.6_Part2.pdf p. 97)
@@ -16010,8 +16010,8 @@ chancelier: Saboulin
 text: (257) Pierre Groman, de Migniere en Lorraine, habitant à Toulon, esclave de Mamet, pacha de Tunis, donne une procuration à Anne Brune, sa femme, et en l’absence de celle-ci à Jacques et Noel Groman, frères, ses fils, « pour recouvrer ce qui lui revient pour deux voyages qu'il a fait en course avec un brigantin et une felouque, savoir le premier voyage pour lieutenant sur ladite felouque. avec laquelle ont fait trois prises accompagnés dudit brigantin, sur une desquelles il eut le commandement pour la conduire à Toulon. Ayant rendu le bord pour ce voyage là, l’année suivante il serait été employé pour la même charge sur ledit brigantin pour faire un voyage en course s'étant accordé de tirer le dix pour cent également partagé avec le cap” Jacq. Galle , cap dudit brigantin, et le cape Jacq. Nicolle, capne de ladite felouque, comme apert par son accord fait en ladite amirauté [de Toulon], avec lesquels ont été pris par les galères de Bizerte d'où sont détenus maintenant captifs en cette dite ville [de Tunis] .... » Les sommes recouvrées devront servir au rachat de Pierre Groman.
 
 [act 6-XVI-1414]
-date: 1659-03-04
-date printed: 4 mars
+date: 1659-02-04
+date printed: 4 fév.
 date status: printed in the margin
 register: XVI
 page: 215 (scan: La France en Tunisie v.6_Part2.pdf p. 98)
@@ -16024,7 +16024,7 @@ text: (259) Jacques Nicolle, du Croisic, dans l'évêché de Nantes, esclave de 
 
 [act 6-XVI-1415]
 date: 1659-03-05
-date printed: 5 -
+date printed: 5 mars
 date status: printed in the margin
 register: XVI
 page: 215 (scan: La France en Tunisie v.6_Part2.pdf p. 98)
@@ -16549,9 +16549,9 @@ amounts: 8 réaux; 6 aspres
 text: En italien. — (319) Gerbrant Claisen Van Hoogho Woude, flamand, ci-devant esclave de Agi Mustafa dey, a élé fait franc et libre par Daniel Lombroso, pour 675 pièces de 8 réaux et 6 aspres, sur l'ordre de Cornelio Vannech et C*, marchands flamands résidant à Livourne.
 
 [act 6-XVI-1456]
-date: 1659-05-17
-date printed: 47 —
-date status: day reconstructed from a damaged reading
+date: 1659-06-01
+date printed: 1er —
+date status: month not read (heading lost in the scan); taken as the month after the previous act's
 register: XVI
 page: 223 (scan: La France en Tunisie v.6_Part2.pdf p. 106)
 folio: 321
@@ -16561,7 +16561,7 @@ chancelier: Saboulin
 text: En italien. — (321) Fran°° Magro, du Cazale Zebouc dans l'île de Malte, esclave de Amoud pacha, donne une procuration à Paulo Grego, maltais, présent, pour recouvrer des créances, vendre des biens, etc., et le racheter.
 
 [act 6-XVI-1457]
-date: 1659-05-17
+date: 1659-06-17
 date printed: 17 -
 date status: printed in the margin
 register: XVI
@@ -16575,7 +16575,7 @@ dates mentioned: 1659-04-16
 text: En italien. — (322) Le patron Gioseppe Collonna, de Palerme, esclave de Amoud pacha, déclare qu’étant en partence pour al- 1er en « gilies »*), il donne une procuration à Stamameto, renégat maltais, barbier dudit Pacha, pour recouvrer les 588 pièces de 8 réaux déposées en chancellerie par Gio Batt* Lavagio Rosso. (Voir l'acte du 16 avril 1659).
 
 [act 6-XVI-1458]
-date: 1659-05-21
+date: 1659-06-21
 date printed: 21 —
 date status: printed in the margin
 register: XVI
@@ -16587,7 +16587,7 @@ chancelier: Saboulin
 text: En italien. — (324) Andria Chicoulouna, maltais, esclave de Amouda pacha, donne une procuration à Fran°° Gauchi pour recueillir une succession et le racheter.
 
 [act 6-XVI-1459]
-date: 1659-05-23
+date: 1659-06-23
 date printed: 23 -
 date status: printed in the margin
 register: XVI
@@ -16599,7 +16599,7 @@ chancelier: Saboulin
 text: (325) Enregistrement, à la demande de Sima Zarka, marchand juif de Tunis, d’une lettre de Jean Bap‘* Sossin, marchand de Marseille, et d’une police de chargement. (Opérations commerciales).
 
 [act 6-XVI-1460]
-date: 1659-05-23
+date: 1659-06-23
 date printed: 23
 date status: printed in the margin
 register: XVI
@@ -16612,7 +16612,7 @@ amounts: 8 réaux
 text: En italien. — (330) Mario Monte di Giulio, de Dish (Roy* de Naples), esclave de Mamet Chelibi, a regu de Gabrielo Sauve, du même lieu, esclave du même maître, 20 pièces de 8 réaux, prétées pour ses besoins.
 
 [act 6-XVI-1461]
-date: 1659-05-23
+date: 1659-06-23
 date printed: 23 -
 date status: printed in the margin
 register: XVI
@@ -17172,7 +17172,7 @@ text: En italien. — (396) Domenico Mollo, de Sorrente (Roy de Naples), ci-deva
 
 [act 6-XVI-1505]
 date: 1659-08-27
-date printed: 27
+date printed: 27 août
 date status: printed in the margin
 register: XVI
 page: 231 (scan: La France en Tunisie v.6_Part2.pdf p. 114)
@@ -18221,7 +18221,7 @@ text: En italien. — (510) Brancasse, de Naples, ci-devant esclave des héritie
 
 [act 6-XVI-1587]
 date: 1660-02-11
-date printed: 11
+date printed: 11 fév.
 date status: printed in the margin
 register: XVI
 page: 246 (scan: La France en Tunisie v.6_Part2.pdf p. 129)
@@ -18689,9 +18689,9 @@ amounts: 8 réaux
 text: En italien. — [570] Procuration de Morat bey en faveur de Ramadan, turc, envoyé pour ambassadeur au roi de France par Agi Mustafa dey et Mahamet pacha, pour recouvrer 1.800 pièces de 8 réaux, dues par Jean Ambrozin audit Bey « pour des marchandises de cuirs, laines et cires de la douane de cette dite ville que le Sr Ambrozin a prises et qui ont esté données en son nom au Sr Andre Laurens, de la ville de Marseille, résidant à Tunis, son correspondant, a présent Abdraman, etc..... » Sceau du Bey. Ilisible.
 
 [act 6-XVII-1625]
-date: 1660-03-17
-date printed: 47 —
-date status: day reconstructed from a damaged reading
+date: 1660-03-01
+date printed: 1er mars
+date status: printed in the margin
 register: XVII
 page: 254 (scan: La France en Tunisie v.6_Part2.pdf p. 137)
 language: italien
@@ -18712,7 +18712,7 @@ amounts: 100 livres; 150 livres
 text: En italien. — [573] Procuration de Fran°°..... en faveur du R. P. Seg” Gio Tremol, de Minorque, habitant à Majorque, absent, pour recouvrer 100 livres dues par le R. P. Fr. Onofrio Sole, solde des 150 livres que le constituant lui. a données en dépôt il ya8 ans.
 
 [act 6-XVII-1627]
-date: 1660-03-17
+date: 1660-03-01
 date printed: —
 date status: printed in the margin
 register: XVII
@@ -18725,7 +18725,7 @@ text: En italien. — [574] Salvator Tenda, sarde, ci-devant esclave de. Mahamet
 
 [act 6-XVII-1628]
 date: 1660-03-24
-date printed: 24 mars
+date printed: 24
 date status: printed in the margin
 register: XVII
 page: 254 (scan: La France en Tunisie v.6_Part2.pdf p. 137)
@@ -19110,7 +19110,7 @@ text: En italien. — (616) Mahamet pacha a reçu de Giacomo Franceschi, corse, 
 
 [act 6-XVII-1660]
 date: 1660-07-09
-date printed: 9 —
+date printed: 9 juil.
 date status: printed in the margin
 register: XVII
 page: 260 (scan: La France en Tunisie v.6_Part2.pdf p. 143)
@@ -19698,8 +19698,8 @@ text: En italien. — (674) Pietro Cassello, de Roviel (Roy° de Naples), et Asc
 
 [act 6-XVII-1708]
 date: 1660-12-03
-date printed: 3 —
-date status: month not read (heading lost in the scan); taken as the month after the previous act's
+date printed: 3 déc.
+date status: printed in the margin
 register: XVII
 page: 269 (scan: La France en Tunisie v.6_Part2.pdf p. 152)
 folio: 676

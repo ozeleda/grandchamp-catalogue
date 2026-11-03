@@ -274,6 +274,117 @@ MONTH_ABBR = {"janvier": "janv.", "février": "fév.", "fevrier": "fév.", "mars
               "septembre": "sept.", "octobre": "oct.", "novembre": "nov.", "décembre": "déc.", "decembre": "déc."}
 
 
+def fix_first_of_month(text):
+    """The superscript of « 1er » makes the OCR read « 47 » or « 17 ». 47 is never a day; 17 is
+    taken for 1er only between two acts of the 1st."""
+    lines = text.split("\n")
+    pat = re.compile(r"^(\s{0,3})(1er|\d{1,2})(?=(?:\s+[a-zéû]{3,5}\.?)?(?:\s*[—–-]+)?\s{2,}\S)")
+    marks = [(i, m) for i, l in enumerate(lines) for m in [pat.match(l)] if m]
+    for k, (i, m) in enumerate(marks):
+        tok = m.group(2)
+        nxt = marks[k + 1][1].group(2) if k + 1 < len(marks) else None
+        prv = marks[k - 1][1].group(2) if k else None
+        nxt_n = 1 if nxt == "1er" else int(nxt) if nxt else None
+        if tok == "47" or (tok == "17" and prv in ("1er", "1") and nxt in ("1er", "1")):
+            lines[i] = m.group(1) + "1er" + lines[i][m.end():]
+    return "\n".join(lines)
+
+
+RUNNING_TITLE = re.compile(r"LA\s+FRANCE\s+EN|EN\s+TUNISIE\s+AU|ANALYSE\s+DES\s+ACTES|CORRESPONDANCE")
+MONTH_NAMES = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre",
+               "octobre", "novembre", "décembre"]
+
+
+def fuzzy_month(word):
+    """A month name read by an OCR: exact for the short names (mai, mars, juin, août: « Marc »,
+    « Main » are words of the text), close enough for the long ones (« Décemhre »)."""
+    import difflib
+    key = re.sub(r"[^a-zéèûô]", "", word.lower().replace("1", "l").replace("0", "o"))
+    key = {"aout": "août", "fevrier": "février", "decembre": "décembre"}.get(key, key)
+    if key in MONTH_NAMES:
+        return key
+    hit = difflib.get_close_matches(key, [m for m in MONTH_NAMES if len(m) >= 6], n=1, cutoff=0.75)
+    return hit[0] if hit and abs(len(hit[0]) - len(key)) <= 1 else None
+
+
+def margin_entries(page_ocr):
+    """The margin of the page image (margin_ocr.json) as a list of ("H", month) headings and
+    ("D", day) dates, top to bottom. Lines starting right of the margin are text (« 8 réaux »)."""
+    rows = [r + [None] * (3 - len(r)) for r in page_ocr.get("lines", [])]
+    xs = sorted(x for y, t, x in rows if x is not None and re.match(r"(1er|1°|\d{1,2})\s*[—–-]", t))
+    margin = xs[len(xs) // 5] if xs else None
+    seq = []
+    for y, t, x in rows:
+        if margin is not None and x is not None and x > margin + 0.015:
+            continue
+        m = re.match(r"(1er|1°|\d{1,2})\b", t)
+        if m:
+            d = 1 if not m.group(1).isdigit() else int(m.group(1))
+            if d <= 31:
+                seq.append(("D", d))
+        elif y >= 0.09 and len(t.split()) == 1 and t[:1].isupper() and fuzzy_month(t):
+            seq.append(("H", fuzzy_month(t)))
+    return seq
+
+
+def image_months(text, page_ocr):
+    """Put back the month headings the Google OCR lost, from margin_ocr.json (Tesseract on the
+    left part of the page image): the running head names the month of the first act on the
+    page, and each heading the month of the act that follows it. A heading line is inserted
+    before the matching act, unless the act already carries a month."""
+    if not page_ocr:
+        return text
+    lines = text.split("\n")
+    act_re = re.compile(r"^\s{0,3}(1er|1°|\d{1,2})(?=(?:\s*[—–=-]+)?\s{2,}\S|\s*[—–=-]+\s*$|\s*$)")
+    acts = [(i, 1 if m.group(1).startswith("1e") or m.group(1) == "1°" else int(m.group(1)))
+            for i, l in enumerate(lines) for m in [act_re.match(l)] if m and not RUNNING_TITLE.search(l)]
+    if not acts:
+        return text
+    n = max(1, len(lines))
+
+    def day_of(tok):
+        m = re.match(r"(1er|1°|\d{1,2})", tok)
+        return None if not m else 1 if not m.group(1).isdigit() else int(m.group(1))
+
+    targets = {}
+    if page_ocr.get("head"):
+        targets[acts[0][0]] = page_ocr["head"]
+    # the image's margin as a sequence of headings and days, aligned with the acts found in
+    # the Google text by their days (longest common subsequence)
+    seq = margin_entries(page_ocr)
+    ds = [k for k, e in enumerate(seq) if e[0] == "D"]
+    A, B = [seq[k][1] for k in ds], [a[1] for a in acts]
+    L = [[0] * (len(B) + 1) for _ in range(len(A) + 1)]
+    for i in range(len(A) - 1, -1, -1):
+        for j in range(len(B) - 1, -1, -1):
+            L[i][j] = L[i + 1][j + 1] + 1 if A[i] == B[j] else max(L[i + 1][j], L[i][j + 1])
+    pair, i, j = {}, 0, 0
+    while i < len(A) and j < len(B):
+        if A[i] == B[j]:
+            pair[ds[i]] = j
+            i, j = i + 1, j + 1
+        elif L[i + 1][j] >= L[i][j + 1]:
+            i += 1
+        else:
+            j += 1
+    for k, e in enumerate(seq):
+        if e[0] != "H":
+            continue
+        nxt = next((pair[q] for q in range(k + 1, len(seq)) if seq[q][0] == "D" and q in pair), None)
+        prv = next((pair[q] for q in range(k - 1, -1, -1) if seq[q][0] == "D" and q in pair), None)
+        first_d_after = next((q for q in range(k + 1, len(seq)) if seq[q][0] == "D"), None)
+        if nxt is not None and first_d_after in pair:
+            targets[acts[nxt][0]] = e[1]
+        elif prv is not None and prv + 1 < len(acts):
+            targets[acts[prv + 1][0]] = e[1]          # the day under the heading was misread
+    out = []
+    for i, l in enumerate(lines):
+        if i in targets and not re.match(r"^\s{0,3}(?:1er|1°|\d{1,2})\s+[a-zéû]{3,9}\.?(?:\s|$)", l):
+            out.append(targets[i].capitalize())
+        out.append(l)
+    return "\n".join(out)
+
+
 def month_headings(text, years=None):
     """Volumes 5-8 print the month as a heading and the year at the right edge of the page,
     with only the day in the margin. Rewrite them as in volumes 2-3: the year on its own line
@@ -291,11 +402,8 @@ def month_headings(text, years=None):
         m = MONTH_HEAD.match(l)
         fz = None if m else re.match(r"^\s{0,4}(?P<w>[A-ZÉ][a-zéèûô]{2,9})\.?(?:\s{3,}\S{0,4}\s*(?P<y>1[5-7]\d\d)"
                                      r"(?:\s*[-–]\s*\d{0,4})?)?\s*$", l)
-        if fz:
-            import difflib
-            hit = difflib.get_close_matches(fz.group("w").lower(), list(MONTH_ABBR), n=1, cutoff=0.7)
-            if hit:
-                m = {"m": hit[0], "y": fz.group("y")}
+        if fz and fuzzy_month(fz.group("w")):
+            m = {"m": fuzzy_month(fz.group("w")), "y": fz.group("y")}
         if m:
             m = {"m": m["m"], "y": m["y"]}
             if m["y"] and years and not years[0] <= int(m["y"]) <= years[1]:
@@ -312,7 +420,11 @@ def month_headings(text, years=None):
                     pending = None
                     break
             continue
-        d = re.match(r"^\s{0,3}(1er|1°|\d{1,2})(?:\s*[—–-]+)?\s{2,}(?=\S)", l)
+        if pending and re.match(r"^\s{0,3}(?:1er|1°|\d{1,2})\s+(?:janv|f[ée]v|mars|avril|mai|juin|juil|ao[uû]t|sept|oct|nov|d[ée]c)", l):
+            pending = None                     # the act carries its own month
+        d = re.match(r"^\s{0,3}(1er|1°|\d{1,2})(?:\s*[—–=-]+)?\s{2,}(?=\S)", l)
+        if d and RUNNING_TITLE.search(l):
+            d = None                           # "2     LA FRANCE EN TUNISIE ..." : the page number
         if d and pending and int(re.match(r"\d+", d.group(1)).group()) <= 31:
             tok = f"{d.group(1)} {pending}"
             out.append(tok + " " * max(3, 12 - len(tok)) + l[d.end():])
@@ -355,6 +467,8 @@ def main():
     scans = vol["scans"]
     global LATE_LAYOUT
     LATE_LAYOUT = bool(vol.get("month_headings"))
+    mo_path = ROOT / "text" / f"vol{vid}" / "margin_ocr.json"
+    margin_ocr = json.loads(mo_path.read_text(encoding="utf-8")) if mo_path.exists() else {}
     out_dir = ROOT / "text" / f"vol{vid}" / "pages"
     out_dir.mkdir(parents=True, exist_ok=True)
     for f in out_dir.glob("*.txt"):
@@ -460,6 +574,8 @@ def main():
             # margin '1"', '1**', '1°' (in the documents, "1º" numbers the first document)
             t = re.sub(r"(?m)^(\s{0,3})(?:[14][19]?(?:\"|\*\*?|°|º)|[Ll]er|1 er|1r|er)(?=\s)", r"\g<1>1er", t)
             if vol.get("month_headings"):
+                t = fix_first_of_month(t)
+                t = image_months(t, margin_ocr.get(lab))
                 t = month_headings(t, (int(vol["period_start"][:4]), int(vol["period_end"][:4]) + 3))
         for f in page_fixes:          # hand corrections of the page text, checked against the scan
             if f["page"] == lab:
