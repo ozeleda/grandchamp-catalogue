@@ -34,6 +34,13 @@ def ink_gutter(img):
 def process(pdf, page, out_dir):
     with tempfile.TemporaryDirectory() as tmp:
         img = O.render(pdf, page, tmp)
+        if img.width < img.height:
+            # a single page on this sheet: written as the left half, the right one left empty
+            half, angle = O.deskew(img)
+            stem = f"{Path(pdf).stem.rsplit('_', 1)[-1]}-{page:03d}"
+            (out_dir / f"{stem}L.txt").write_text(O.layout_text(O.ocr_words(half, tmp), half.width), encoding="utf-8")
+            (out_dir / f"{stem}R.txt").write_text("", encoding="utf-8")
+            return page, None
         try:
             g = O.find_gutter(pdf, page, img.width)
         except Exception:

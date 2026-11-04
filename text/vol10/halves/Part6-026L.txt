@@ -1,0 +1,20 @@
+Rapid      #:   -17238156
+CROSS     REF   ID:   5932204
+LENDER:               HUL    :: HD
+BORROWER:             HUL    :: Widener   Library
+TYPE:                 Book Chapter
+BOOK  TITLE:          La France en Tunisie. VOL 10
+USER  BOOK  TITLE:    La France en Tunisie. VOL 10
+CHAPTER  TITLE:       NA
+BOOK  AUTHOR:         Grandchamp, Pierre, ed.
+EDITION:
+VOLUME:
+PUBLISHER:            Impr rapide,
+YEAR:                 1933
+PAGES:                300-400
+ISBN:
+LCCN:
+OCLC  #:              25948253
+PATRON  NOTES:        EndNotes Accompanying Images/Plates Title/Verso Page(s)
+Processed by RapidX:  3/3/2021 5:49:25 AM
+This material may be protected by copyright law (Title 17 U.S. Code)

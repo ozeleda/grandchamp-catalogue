@@ -62,7 +62,7 @@ ENTRY_RE = re.compile(
     r"|(?P<dayonly>[0-9]{1,2}(?:er)?)(?=\s{4,}[A-ZÉ«(]))"
     r"(?=\s|$)\s*(?P<rest>.*)$"
 )
-YEAR_RE = re.compile(r"^\s{0,12}(?P<y>[1iI][5S6][0-9OÔoiflS]{2,3})(?:\s*$|\s{5,}(?P<rest>\S.*)$)")
+YEAR_RE = re.compile(r"^\s{0,12}(?P<y>[1iI][5S67][0-9OÔoiflS]{2,3})(?:\s*$|\s{5,}(?P<rest>\S.*)$)")
 RUNNING_RE = re.compile(r"^\s*(?:\d{1,3}\s+)?(?:LA\s+FRANCE\s+EN\s+TUNISIE|ANALYSE\s+DES\s+ACTES\s*\(|CORRESPONDANCE\b)")
 PAGE_HDR_RE = re.compile(r"^\s{8,}[-—–~]?\s*([0-9]{1,3})\s*[-—–~.]*\s*$")
 FOOTNOTE_RE = re.compile(r"^\s*\((\d{1,2})\)\s+\S")

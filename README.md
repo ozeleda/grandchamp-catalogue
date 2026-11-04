@@ -10,13 +10,24 @@ charters, protests…), together with the documents he published in full.
 | 1 — *La France en Tunisie à la fin du XVIe siècle* (Tunis, 1920) | 1582–1600 | 855 | 33 + 38 |
 | 2 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1921) | 1601–1610 | 1326 | annexes: text files only |
 | 3 — *La France en Tunisie au début du XVIIe siècle* (Tunis, 1925) | 1611–1620 | 2452 | annexes: text files only |
+| 4 — *La France en Tunisie au XVIIe siècle* (Tunis, 1926) | 1621–1630 | 2327 | documents on Thomas de Arcos: text files only |
 | 5 — *La France en Tunisie au XVIIe siècle* (Tunis, 1927) | 1631–1650 | 2192 | annexes: text files only |
 | 6 — *id.* (Tunis, 1928) | 1651–1660 | 1714 | — |
 | 7 — *id.* (Tunis, 1929) | 1661–1680 | 1760 | correspondence: text files only |
 | 8 — *id.* (Tunis, 1930) | 1681–1700 | 1655 | correspondence, sea reports, documents (pp. 337–614): text files only |
 
-Volume 4 (1621–1630) and volume 10 will be added from their scans later; volume 9 (the letters
-of Nicolas Béranger) is not part of this catalogue.
+| 10 — *La France en Tunisie de 1701 à l'avènement de la dynastie husseinite (1705)* (Tunis, 1933) | 1701–1703 | 283 | consular reports, protests, letters (pp. 61–190) and Nicolas Béranger's correspondence (pp. 191–321): text files only |
+
+Volume 9 (the letters of Nicolas Béranger) is not part of this catalogue.
+
+**Volumes 4 and 10** are read from photocopies (two pages per sheet; one per sheet in volume 10,
+Parts 5–6), which proved more legible than the HathiTrust photographs of the open book (Tesseract
+confidence about 90 against 85). `scripts/ocr_two_up.py` splits each sheet at the gutter and OCRs
+each half; `volumes.json` pins the page number of every half (`page_numbers`) and lists the sheets
+photocopied twice (`skip_halves`). The photocopy's own Acrobat text layer is used as a second
+reading of the margin dates. Volume 4, pp. 82–83, missing from the photocopy, were transcribed from
+the photographs. Volume 10's act analysis ends on 28 May 1703: the rest of register XXIV is lost.
+The date check against the page images is complete for volume 10 and covers volume 4 up to p. 136.
 
 The transaction columns of volumes 1 and 2 were reviewed by hand, act by act. Those of volumes
 3 and 5–8 are the automatic draft (`extraction = 'auto'`) and still need the same review.

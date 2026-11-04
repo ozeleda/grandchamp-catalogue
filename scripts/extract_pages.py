@@ -469,6 +469,10 @@ def month_headings(text, years=None):
             if leader.search(l) or (leader.search(nxt) and not re.match(r"^\s{0,8}\d{1,2}\s*[—–-]", nxt)):
                 list_items.add(k)
     for k_line, l in enumerate(src):
+        if TWO_UP:
+            # Tesseract reads the bold 1 of the years as 4 (« 4701 », « Janvier 4704 »)
+            l = re.sub(r"(?<![\d.,])4([67]\d\d)(?=[\s.,)]|$)", r"1\1", l) if re.search(r"(?<![\d.,])4[67]\d\d\b", l) and \
+                (re.fullmatch(r"\s*4[67]\d\d\.?\s*", l) or MONTH_HEAD.match(re.sub(r"4([67]\d\d)", r"1\1", l))) else l
         # a running head whose month lost its first letters (« évrier   1629 », « illet 1626 »)
         # or that ends in specks (« 1623 TT »)
         cut = TWO_UP and re.fullmatch(r"\s{0,6}(?P<w>[a-zéèû]{3,8})\.?\s{2,}\S{0,3}\s*(?P<y>1[5-7]\d\d)\b.{0,6}", l)
@@ -699,6 +703,29 @@ def main():
         if hand.exists():
             # pages the OCR scrambled, transcribed by hand from the page image
             t = hand.read_text(encoding="utf-8")
+        if vol.get("margin_specks") and k_seq in sides and re.fullmatch(r"p\d+", lab) \
+                and vol["analysis_pages"][0] <= int(lab[1:]) <= vol["analysis_pages"][1]:
+            # specks at the edge of the photocopy read as digits: a margin number without its
+            # dash or month is kept only when the Acrobat layer also reads a date there
+            acro = acrobat_margin(ROOT / name, p, sides[k_seq]) or {"lines": []}
+            days = {int(m.group(1)) for _, tx, _ in acro["lines"] for m in [re.match(r"(\d{1,2})\b", tx)] if m}
+            # a dark edge read as the same digit down the page (« 4 » on many lines): never a date
+            lead = [m.group(1) for l in t.split("\n") for m in [re.match(r"^\s{0,3}(\d)(?=\s{2,}[^\s—–=-]|\s*$)", l)] if m]
+            edge = {d for d in set(lead) if lead.count(d) >= 4}
+            t = "\n".join(re.sub(r"^(\s{0,3})(\d)(?=\s{2,}\S|\s*$)", lambda m: m.group(1) + " " if m.group(2) in edge else m.group(0), l)
+                          for l in t.split("\n"))
+            if edge:
+                dated = [len(l) - len(l.lstrip()) for l in t.split("\n")
+                         if re.match(r"^\s*(?:1er|\d{1,2})\s*[—–-]\s|^\s*(?:%s)\b" % "|".join(m.capitalize() for m in MONTH_NAMES), l)]
+                cut = min(dated, default=0)
+                t = "\n".join(l[cut:] if len(l) - len(l.lstrip()) >= cut else l.lstrip() for l in t.split("\n"))
+            # dates set further in than the margin (« 3 — (206) », « Avril »)
+            t = "\n".join(l.lstrip() if re.match(r"^\s{4,12}(?:1er|\d{1,2})\s*[—–-]+\s+(?:\(|En\s|«)", l)
+                           or re.match(r"^\s{4,12}(?:%s)\s*$" % "|".join(m.capitalize() for m in MONTH_NAMES), l)
+                           else l for l in t.split("\n"))
+            t = "\n".join(
+                (" " * len(m.group(0)) + l[m.end():]) if (m := re.match(r"^\s{0,3}(\d{1,2})(?=\s{2,}[^\s—–=-])", l))
+                and int(m.group(1)) not in days else l for l in t.split("\n"))
         t = normalise(normalise(t))        # a second pass settles lines the first one moved
         if re.fullmatch(r"p\d+", lab) and vol["analysis_pages"][0] <= int(lab[1:]) <= vol["analysis_pages"][1]:
             # act pages: a "|" is the page gutter or a column rule read by the OCR (in the
