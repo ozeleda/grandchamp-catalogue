@@ -1,0 +1,84 @@
+{
+ "pages": [
+  {
+   "page": "p011",
+   "old": "     2   -    En italien. —\n         de Messine, esclave de\n                                 (615) Simone Loperno\n                                 Aggi Mametto,\n                                                 a reçu de Paulo Spano,\n                                                dey de Tunis, 300 pièces\n",
+   "new": "2 juil.      En italien. — (615) Simone Loperno a reçu de Paulo Spano,\n         de Messine, esclave de Aggi Mametto, dey de Tunis, 300 pièces\n",
+   "note": "scrambled by the OCR; heading « Juillet » above"
+  }
+ ],
+ "acts": {
+  "date": [
+   {
+    "find": "Bey Demitre Mauro",
+    "date": "1651-05-27",
+    "note": "Under the heading « Mai » (p. 11); the heading « Juillet » follows this act."
+   },
+   {
+    "find": "(660) Ragep, caid de la Douane",
+    "date": "1651-09-29",
+    "note": "Margin « 29 — »; lost in the OCR."
+   },
+   {
+    "find": "(812) Le R. P. Fr. Christoforo",
+    "date": "1653-09-04",
+    "note": "Margin « 4 — » under the heading « Septembre »; lost in the OCR."
+   },
+   {
+    "find": "Fran Gibert, majorquin",
+    "date": "1655-11-17",
+    "note": "Margin « 17 — »; lost in the OCR."
+   },
+   {
+    "find": "(1135) Le mème déclare",
+    "date": "1656-09-22",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Maurica, grec de Candie",
+    "date": "1656-08-11",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(32 v°) Ossain, renégat génois",
+    "date": "1657-04-04",
+    "note": "Margin « 4 — » under the heading « Avril »."
+   },
+   {
+    "find": "(99) Tomaso Cochy",
+    "date": "1657-09-03",
+    "note": "Margin « 3 — » in September (p. 182)."
+   },
+   {
+    "find": "(101) Noel della Caillia",
+    "date": "1657-09-04",
+    "note": "Margin « 4 — » in September (p. 182)."
+   },
+   {
+    "find": "(259) Jacques Nicolle, du Croisic",
+    "date": "1659-03-04",
+    "note": "Margin « 4 — » under the heading « Mars »."
+   },
+   {
+    "find": "(308 Fran Bavastro",
+    "date": "1659-04-22",
+    "note": "Margin « 22 — »; lost in the OCR."
+   },
+   {
+    "find": "Spegnez, de Gaète, ci-devant esclave des héritiers de Stamurat dey, a reçu du même 216",
+    "date": "1657-09-03",
+    "note": "Margin « 3 — » in September (p. 182)."
+   },
+   {
+    "find": "[583] Leonardo Commerse",
+    "date": "1660-05-19",
+    "note": "Margin « 19 — »; lost in the OCR."
+   },
+   {
+    "find": "[585] Jacob Jansen",
+    "date": "1660-05-21",
+    "note": "Margin « 21 — »; lost in the OCR."
+   }
+  ]
+ }
+}

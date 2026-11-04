@@ -1,0 +1,547 @@
+{
+ "pages": [
+  {
+   "page": "p027",
+   "old": "\n       —  En  italien. — Le patron  Andrea  Bernardo",
+   "new": "\nDécembre\n1er —   En  italien. — Le patron  Andrea  Bernardo",
+   "note": "heading « Décembre » and « 1er — » lost in the OCR"
+  },
+  {
+   "page": "p027",
+   "old": "4      Curef, du même",
+   "new": "       Curef, du même"
+  }
+ ],
+ "acts": {
+  "date": [
+   {
+    "find": "Pierre Paul Anbroxin ne réussissant",
+    "date": "1621-06-24",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Bernardo Simon, d’Ho",
+    "date": "1621-06-25",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Fra Filippo Carbone, d",
+    "date": "1621-06-25",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Domenico et Fran°° d",
+    "date": "1621-06-25",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Poucet Nicollas, marinier",
+    "date": "1621-07-01",
+    "note": "Margin « 1er — » under the heading « Juillet »."
+   },
+   {
+    "find": "...... sarde, donne un",
+    "date": "1621-07-01",
+    "note": "Margin « 1er — »."
+   },
+   {
+    "find": "Giulio di Giacomo promet à Gulielmo B",
+    "date": "1622-02-06",
+    "note": "Part of the act of 6 February (paragraph of that act)."
+   },
+   {
+    "find": "Barthelemy Obert, d'Antibes, doit à R",
+    "date": "1622-03-31",
+    "note": "Margin « 31 — » under the heading « Mars »; the act is printed after those of April."
+   },
+   {
+    "find": "Le cap. Felipe Piasen",
+    "date": "1623-05-09",
+    "note": "Checked against the page image."
+   }
+  ],
+  "merge_with_previous": [
+   {
+    "find": "Jean Clément les 300 écus que celui-"
+   },
+   {
+    "find": "Le début et la fin de l'acte sont ill"
+   },
+   {
+    "find": "de 12 réaux, pour acheter à Tunis de"
+   },
+   {
+    "find": "27 le, 1864 livres tournois"
+   },
+   {
+    "find": "Piettro ‘Teodoro, flamand"
+   },
+   {
+    "find": "clare au cap. Sebastiano Fabrone"
+   },
+   {
+    "find": "Signé: Dessena, canfceliere]."
+   },
+   {
+    "find": "Claude Severt, v. c., 28 écus d'or de 64"
+   },
+   {
+    "find": "Le registre porte la mention suivante en italien: Prenez"
+   },
+   {
+    "find": "—# — : Suivent les copies des documents"
+   },
+   {
+    "find": "— db — de sa mère"
+   },
+   {
+    "find": "Acte passé dans la maison de Morato bey."
+   },
+   {
+    "find": "so, génois, d’une police datée du"
+   },
+   {
+    "find": "Le feuillet suivant porte la mention: « A Mon"
+   },
+   {
+    "find": "Il s’agit vraisemblablement du vice-consul à"
+   },
+   {
+    "find": "Signé: Castilhe, chanselier.",
+    "page": 43
+   },
+   {
+    "find": "Di Vra Il ex° aff” amici"
+   },
+   {
+    "find": "All Ile ex et valleros"
+   },
+   {
+    "find": "Il est question de la prise du Ste-Ann"
+   },
+   {
+    "find": "billet 1923 Les 2.883"
+   },
+   {
+    "find": "pour le « consolat » et autres écritures, payés"
+   },
+   {
+    "find": "(?) 1623, au cap. Giacomo Costa, 72 sa"
+   },
+   {
+    "find": "197 a Fin 1624 que tout ainsin"
+   },
+   {
+    "find": "Acte passé dans la maison de Claude S",
+    "page": 130
+   }
+  ],
+  "split": [
+   {
+    "find": "Mehemet de Nessimi, de la Mer Noire",
+    "at": "— Joachin Bonvin, marchand",
+    "date": "1622-03-31",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Barthelemy Obert, d'Antibes, doit à Romadan",
+    "at": "— Jehanon Taron, d’Antibes",
+    "date": "1622-03-31",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Félix Dandrade, de Marseille, est parti de Livourne",
+    "at": "(40) Le patron Peiron Fabre, d’A",
+    "date": "1623-04-18",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Félix Dandrade, de Marseille, est parti de Livourne",
+    "at": "Alessandro Bazzo, de Chio,",
+    "date": "1623-04-26",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Nicolas Chabert, marchand de Martigues, doit à Joachim",
+    "at": "— Le patron Antoni Patron (sic)",
+    "date": "1623-05-08",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Le cap. Felipe Piasen",
+    "at": "(88) Joachim Bonvin déclare",
+    "date": "1623-05-13",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Le cap. Felipe Piasen",
+    "at": "P_ Joachim Bonvin, marchand",
+    "date": "1623-05-13",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Le cap. Felipe Piasen",
+    "at": "b (59) « ...... come seroit",
+    "date": "1623-05-13",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Nicolas Chabert, marchand de Martigues, doit à Joachim",
+    "at": "(87) George Descalis",
+    "date": "1623-05-08",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(147) Louisio di Bastiano",
+    "at": "Jehan Berenguier, de Marse",
+    "date": "1623-11-17",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "Abram Valensin, juif, donne une procuration à Giosef",
+    "at": "Le patron Guillem Anteume et Jehan",
+    "date": "1624-01-08",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(184) Le rais Mamet, de Gab",
+    "at": "Pierre Amblas, du Pont du St-Espr",
+    "date": "1624-02-05",
+    "date_raw": "(split from the previous act)",
+    "note": "Checked against the page image."
+   }
+  ],
+  "page_dates": {
+   "33": [
+    "1622-03-01",
+    "1622-03-01",
+    "undated",
+    "1622-03-05",
+    "1622-03-05",
+    "1622-03-09",
+    "1622-03-09"
+   ],
+   "39": [
+    "1622-04-12",
+    "1622-04-15",
+    "1622-04-16",
+    "1622-04-20",
+    "1622-04-22",
+    "1622-04-23",
+    "1622-04-23",
+    "1622-10-14"
+   ],
+   "41": [
+    "1622-10-17",
+    "1622-10-18",
+    "1622-10-24",
+    "1622-10-24"
+   ],
+   "45": [
+    "1622-11-22",
+    "1622-11-22",
+    "1622-11-22",
+    "1622-11-22",
+    "1622-12-02",
+    "1622-12-04",
+    "1622-12-04"
+   ],
+   "49": [
+    "1623-02-07",
+    "1623-02-04",
+    "1623-02-07",
+    "1623-02-07",
+    "1623-02-07",
+    "1623-02-07",
+    "1623-02-10"
+   ],
+   "51": [
+    "1623-01-16",
+    "1623-01-16",
+    "1623-01-21",
+    "1623-01-21",
+    "1623-01-21",
+    "1623-01-22"
+   ],
+   "52": [
+    "1623-01-26",
+    "1623-01-24",
+    "1623-01-24",
+    "1623-01-24",
+    "1623-01-25",
+    "1623-01-27",
+    "1623-01-28",
+    "1623-01-28",
+    "1623-01-28"
+   ],
+   "50": [
+    "1623-01-10",
+    "1623-01-13",
+    "1623-01-13",
+    "1623-01-13",
+    "1623-01-14",
+    "1623-01-16"
+   ],
+   "43": [
+    "1622-10-31",
+    "1622-11-02",
+    "1622-11-02",
+    "1622-11-03",
+    "1622-11-09",
+    "1622-11-09",
+    "1622-11-09",
+    "1622-11-10",
+    "1622-11-10",
+    "1622-11-10"
+   ],
+   "55": [
+    "1623-04-05",
+    "1623-04-15"
+   ],
+   "66": [
+    "1623-04-28",
+    "1623-04-27",
+    "1623-04-29",
+    "1623-05-03",
+    "1623-05-03",
+    "1623-05-02"
+   ],
+   "70": [
+    "1623-05-13",
+    "1623-05-14",
+    "1623-05-15",
+    "1623-05-17",
+    "1623-05-20",
+    "1623-05-22"
+   ],
+   "71": [
+    "1623-05-23",
+    "1623-05-23",
+    "1623-05-23",
+    "1623-05-26"
+   ],
+   "79": [
+    "1623-07-20",
+    "1623-07-21"
+   ],
+   "80": [
+    "1623-07-21",
+    "1623-07-21",
+    "undated",
+    "1623-07-22",
+    "1623-07-10"
+   ],
+   "81": [
+    "1623-08-03",
+    "1623-08-22"
+   ],
+   "84": [
+    "1623-09-11",
+    "1623-09-16",
+    "1623-09-23",
+    "1623-09-28",
+    "1623-10-03",
+    "1623-10-05",
+    "1623-10-07",
+    "1623-10-07"
+   ],
+   "85": [
+    "1623-10-11",
+    "1623-10-13"
+   ],
+   "89": [
+    "1623-10-30",
+    "1623-11-01",
+    "1623-10-31",
+    "1623-11-03",
+    "1623-11-01",
+    "1623-11-04",
+    "1623-11-04",
+    "1623-11-04"
+   ],
+   "91": [
+    "1623-11-13",
+    "1623-11-16",
+    "1623-11-17",
+    "1623-11-18",
+    "1623-11-18",
+    "1623-11-22",
+    "1623-11-23",
+    "1623-11-27",
+    "1623-11-27",
+    "1623-12-05"
+   ],
+   "92": [
+    "1623-12-05",
+    "1623-12-06",
+    "1623-12-06",
+    "1623-12-06",
+    "1623-12-07",
+    "1623-12-07",
+    "1623-12-11"
+   ],
+   "95": [
+    "1624-01-10",
+    "1624-01-10",
+    "1624-01-10",
+    "1624-01-11"
+   ],
+   "97": [
+    "1624-01-20",
+    "1624-01-20",
+    "1624-01-23",
+    "1624-01-26",
+    "1624-01-26",
+    "1624-01-27",
+    "1624-01-30"
+   ],
+   "98": [
+    "1624-01-29",
+    "1624-01-30",
+    "1624-01-30",
+    "1624-01-30",
+    "1624-01-31",
+    "1624-01-31",
+    "1624-02-01",
+    "1624-02-01",
+    "1624-02-05",
+    "1624-02-06"
+   ],
+   "99": [
+    "1624-02-07",
+    "1624-02-12",
+    "1624-02-12",
+    "1624-02-13"
+   ],
+   "100": [
+    "1624-02-14",
+    "1624-02-20",
+    "1624-02-26",
+    "1623-12-14",
+    "1624-02-28",
+    "1624-02-28",
+    "1624-02-26",
+    "1624-02-29",
+    "1624-02-29",
+    "1624-02-29",
+    "1624-02-29",
+    "1624-02-29",
+    "1624-02-29"
+   ],
+   "103": [
+    "1624-02-29",
+    "1624-02-29",
+    "1624-02-29",
+    "1624-02-29",
+    "1624-02-29",
+    "1624-03-02",
+    "1624-03-02",
+    "1624-03-02",
+    "1624-03-04",
+    "1624-03-06",
+    "1624-03-06"
+   ],
+   "105": [
+    "1624-03-12",
+    "1624-03-12",
+    "1624-03-13",
+    "1624-03-14",
+    "1624-03-16",
+    "1624-03-18",
+    "1624-03-19",
+    "1624-03-21",
+    "1624-03-21",
+    "1624-03-23"
+   ],
+   "115": [
+    "1624-04-18",
+    "1624-04-18",
+    "1624-04-18",
+    "1624-04-19",
+    "1624-04-19",
+    "1624-04-20",
+    "1624-04-20",
+    "1624-04-20",
+    "1624-04-20"
+   ],
+   "117": [
+    "1624-04-20",
+    "1624-04-22",
+    "1624-04-21",
+    "1624-04-23",
+    "undated"
+   ],
+   "116": [
+    "1624-04-20",
+    "1624-04-20"
+   ],
+   "125": [
+    "1624-06-12",
+    "1624-06-14",
+    "1624-06-15",
+    "1624-06-15",
+    "1624-06-15",
+    "1624-06-15"
+   ],
+   "122": [
+    "1624-05-02",
+    "1624-05-02",
+    "1624-05-03",
+    "1624-05-02",
+    "1624-05-04",
+    "1624-05-04",
+    "1624-05-04",
+    "1624-05-07",
+    "1624-05-07",
+    "1624-05-15"
+   ],
+   "124": [
+    "1624-05-22",
+    "1624-06-03",
+    "1624-06-10",
+    "1624-06-12"
+   ],
+   "126": [
+    "1624-06-17",
+    "1624-06-18",
+    "1624-06-15",
+    "1624-06-18",
+    "1624-06-18",
+    "1624-06-19",
+    "1624-06-19",
+    "1624-06-25"
+   ],
+   "130": [
+    "1624-07-08",
+    "1624-07-08",
+    "1624-07-09",
+    "1624-07-14",
+    "1624-07-14",
+    "1624-07-25",
+    "1624-07-25",
+    "1624-07-24",
+    "1624-07-26",
+    "1624-07-26"
+   ],
+   "131": [
+    "1624-07-28",
+    "1624-07-29",
+    "1624-07-28",
+    "1624-07-30",
+    "1624-07-30",
+    "1624-08-02"
+   ]
+  }
+ }
+}

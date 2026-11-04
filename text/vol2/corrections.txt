@@ -1,0 +1,20 @@
+# La France en Tunisie au début du XVIIe siècle (1601-1610) — corrections (errata), p. 256
+# Transcribed by hand from the page image (the OCR garbled the table). Where the act
+# text could be located, the correction is applied in text/vol2/fixes.json.
+
+Page   2, ligne 31, lire : de Melchior de Lazare...
+Page   8, ligne 27, lire : la rançon de Pietro Gallego.            [applied in the transcription of p. 8]
+Page  40, ligne 22, lire : du rais Amor Miselim...
+Page  49, ligne 10, lire : avoir reçu de Salvatore Monnello...
+Page  28, ligne  8, lire : patron Anth. Jordan...
+Page  54, lignes 21 et 27, supprimer : ou 29.                       [applied: dates read « 28 »]
+Page  80, ligne 33, lire : pour Marem Rais...                       [applied]
+Page  83, ligne 13, lire : où il se trouve lui a...
+Page 119, ligne 28, lire : lui étaient dues.                         [applied]
+Page 125, ligne 26, lire : lui ait pris les cuirs...                 [applied]
+Page 128, ligne 19, lire : Charlo Ayme di Medrid (De Myredry)...     [applied]
+Page 139, ligne 29, ajouter : Voir la copie in extenso aux Documents annexes.   [applied]
+Page 142, ligne 33, ajouter : Voir la copie in extenso aux Documents annexes.   [applied]
+Page 199, 1re col., lire : Berangier ou Beranger (Anthoine), chancelier puis vice-consul à Tunis.
+Page 225, lire : Lombarducci (Giorgetto)...
+Dans l'analyse des Actes, au lieu de « réaulx », lire « réaux ».     [not applied: the text keeps the printed form]

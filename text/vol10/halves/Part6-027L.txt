@@ -1,0 +1,30 @@
+5                                                          Odyssey
+   Rapid     #:   -17238156
+Status         Rapid Code    Branch Name               Start Date
+New                HUL       Widener Library           02/26/2021 12:55 PM
+Local Holding In   HUL       Widener Library           02/26/2021 12:55 PM
+Pending            HUL       HD                        02/26/2021 12:56 PM
+Batch Not Printed  HUL       HD                        02/26/2021 03:52 PM
+ CALL    #:              Afr  2485.5
+ LOCATION:               HUL     :: HD    :: HXDZEW-—-{<--
+ REQUEST  TYPE:          Book Chapter      anne                ne          PI
+ USER BOOK  TITLE:       La France en runs                  H  XD    Z-  L?
+ HUL  CATALOG TITLE:     La France en Tunisie               NU
+ CHAPTER TITLE:          NA
+ BOOK AUTHOR:            Grandchamp, Pierre, ed.
+ EDITION:
+ VOLUME:
+ PUBLISHER:              Impr rapide,
+ YEAR:                   1933
+ PAGES:                  300-400
+ ISBN:
+ LCCN:
+ OCLC #:                25948253
+CROSS  REFERENCE  ID:   [TN:5932204][ODYSSEY:206.107.43.109/HUL]
+VERIFIED:
+ BORROWER:           HUL     ::  Widener      Library
+PATRON  NOTES:       EndNotes Accompanying Images/Plates Title/Verso Page(s)
+     «RAPID...                    This material may be protected by copyright
+         Vu     ame         10     onds         07            3
+       T        Fo                                G
+      Send                      Zov-
