@@ -86,7 +86,7 @@ PURPOSES = [
 
 AMT_RE = re.compile(
     r"(?<![\w/])(?P<num>\d{1,3}(?:\.\d{3})+|\d+)(?P<frac>\s*(?:et\s+(?:demi[e]?|un\s+tiers|\d/\d|[\\½¼¾])|[½¼¾]|\d/\d))?\s+"
-    r"(?P<cur>pi[èe]ces?(?P<pfrac>\s+et\s+(?:demie?|\d/\d|[½¼¾\\]))?\s+de\s+(?:8|huit)\s+r[ée]aux(?:\s+castillans)?|"
+    r"(?P<cur>pi[èe]ces?(?=\s+et\s+\d+\s+aspres|\s*[.,;)]|\s+(?:pour|prêt|payé|remboursable|à|au|aux|qui|que|change)\b|$)|pi[èe]ces?(?P<pfrac>\s+et\s+(?:demie?|\d/\d|[½¼¾\\]))?\s+de\s+(?:8|huit)\s+r[ée]aux(?:\s+castillans)?|"
     r"[ée]cus?|onces?|ducats?|aspres?|taris?|piastres?|livres?|sols?|sous|r[ée]aux|carlins?|"
     r"sequins?|doubles?|doublons?|sultanins?|sultanis|pistoles?|florins?|thalers?|deniers?|pi[èe]ces? de huit)\b"
     r"(?P<qual>(?:\s*,?\s*(?:d'or|d'argent|de\s+Sicile|de\s+Naples|d'Espagne|coin\s+d'Espagne|sol\b|pistol\w*|"
@@ -105,7 +105,7 @@ CUR_NORM = [
     (r"r[ée]aux", "réaux"), (r"carlins?", "carlins"), (r"sequins?", "sequins"),
     (r"doubles?|doublons?", "doublons"), (r"sultanins?", "sultanins"), (r"florins?", "florins"),
     (r"thalers?", "thalers"), (r"deniers?", "deniers"), (r"pi[èe]ces? de huit", "pièces de huit"),
-    (r"pi[èe]ces?.*r[ée]aux.*", "pièces de 8 réaux"), (r"sultanis", "sultanins"), (r"pistoles?", "pistoles"),
+    (r"pi[èe]ces?.*r[ée]aux.*", "pièces de 8 réaux"), (r"pi[èe]ces?", "pièces de 8 réaux"), (r"sultanis", "sultanins"), (r"pistoles?", "pistoles"),
 ]
 
 NAME_START = re.compile(r"^(?:[A-ZÀ-ÝÉ]|d'|de\s+[A-Z]|di\s+[A-Z])")
@@ -116,7 +116,7 @@ NAME_START = re.compile(r"^(?:[A-ZÀ-ÝÉ]|d'|de\s+[A-Z]|di\s+[A-Z])")
 def clean_summary(s):
     s = re.sub(r"^[^\wÀ-ÿ«]+", "", s.strip())
     s = re.sub(r"^[\W_]*(?:E[nt]i?)\s+(?:italien|latin|espagnol|provençal|français)\s*[.:,]?\s*[—–-]+\s*", "", s.strip())
-    s = re.sub(r"^[({]?\s*\d+\s*\)\s*(?:\d+\)\s*|\(\w\)\s*)?", "", s)   # register folio "(269)"
+    s = re.sub(r"^[({\[]?\s*\d+\s*(?:v\s*[°º*”"]?\s*)?(?:sic\s*)?[)\]]\s*(?:\d+\)\s*|\(\w\)\s*)?", "", s)   # register folio "(269)", "(318 v°)"
     s = re.sub(r"\bà(?=[A-ZÉ])", "à ", s)            # OCR: "àBastiano"
     s = re.sub(r"\bde'\s", "de ", s)
     s = re.sub(r"\.\s+(?=d[e']\s?[A-Z])", ", ", s)          # OCR: "Rabastan. de Marseille"
@@ -428,6 +428,37 @@ def extract(act):
             res["type"] = "rachat"
             res["p1"], res["p2"] = parse_people(m.group("p1")), parse_people(m.group("p2"))
             p1_role, p2_role = "ransomed captive", "redeemer (paid the ransom)"
+    # ---- "X, de Y, (esclave de Z,) a été racheté (à Z) par W pour N" / "a été fait franc et libre par W"
+    if not res["type"]:
+        m = re.match(r"^(?P<p1>.+?),?\s+(?:a|ont)\s+été\s+(?:rachet[ée]e?s?|faite?s?\s+francs?\s+et\s+libres?)\b(?P<rest>.*)$", main) or \
+            re.match(r"^(?P<p1>.+?),?\s+(?:est|sont)\s+(?:rachet[ée]e?s?|faite?s?\s+francs?\s+et\s+libres?)\b(?P<rest>.*)$", main)
+        if m and NAME_START.match(m.group("p1")):
+            res["type"] = "rachat"
+            rest = m.group("rest")
+            res["p1"] = parse_people(m.group("p1"))
+            stop = r"(?=,?\s+(?:par|pour|à|au|aux|sur|moyennant|dans|avec)\s|[.;]|$)"
+            bm = re.search(r"(?:^|,?\s)par\s+(?P<x>.+?)" + stop, rest)
+            sm = re.search(r"(?:^|,?\s)(?:à|au|aux)\s+(?!l'ordre|la\s+demande|Livourne|Malte|Gênes|Naples|Marseille|Tunis)(?P<x>.+?)" + stop, rest)
+            if bm:
+                res["p2"] = parse_people(bm.group("x"))
+            if sm and NAME_START.match(sm.group("x").strip()) or (sm and re.match(r"(?:caïd|cayt|cait|caid|roi|pacha|bey|dey)\b", sm.group("x").strip(), re.I)):
+                for pp in parse_people(sm.group("x")):
+                    pp["roles"] = ["seller / owner (receives the ransom)"] + [r for r in pp["roles"] if r]
+                    res["others"].append(pp)
+            em = re.search(r"esclave\s+(?:de|du|des)\s+(?P<x>[^,;.]+)", m.group("p1"))
+            if em and not res["others"]:
+                for pp in parse_people(em.group("x")):
+                    pp["roles"] = ["slave-owner (receives the ransom)"]
+                    res["others"].append(pp)
+            om = re.search(r"sur\s+l'ordre\s+(?:de|du|des)\s+(?P<x>.+?)(?=,?\s+(?:pour|agissant|qui)\b|[.;]|$)", rest)
+            if om:
+                for pp in parse_people(om.group("x")):
+                    pp["roles"] = ["principal (ordered the ransom)"] + [r for r in pp["roles"] if r]
+                    res["others"].append(pp)
+            p1_role, p2_role = "ransomed captive", "redeemer (paid the ransom)"
+            am = AMT_RE.search(rest)
+            if am:
+                res["price"], res["currency"] = amount_value(am), norm_currency(am)
     # ---- "X a racheté (à Y) Z": redemption by purchase
     if not res["type"]:
         m = re.match(r"^(?P<p1>.+?)\s+(?:a|ont)\s+rachet[ée]e?s?\s+(?P<rest>.*)$", main)

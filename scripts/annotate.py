@@ -26,6 +26,8 @@ data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"revi
 new = json.load(sys.stdin)
 upto = new.pop("_reviewed_through_seq", None)
 for ref, fields in new.items():
+    if not isinstance(fields, dict):
+        sys.exit(f"{ref}: expected an object of fields, got {fields!r}")
     tgt = data["acts"].setdefault(ref, {})
     for k, v in fields.items():
         tgt[SHORT.get(k, k)] = v
