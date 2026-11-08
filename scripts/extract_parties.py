@@ -116,7 +116,7 @@ NAME_START = re.compile(r"^(?:[A-ZÀ-ÝÉ]|d'|de\s+[A-Z]|di\s+[A-Z])")
 def clean_summary(s):
     s = re.sub(r"^[^\wÀ-ÿ«]+", "", s.strip())
     s = re.sub(r"^[\W_]*(?:E[nt]i?)\s+(?:italien|latin|espagnol|provençal|français)\s*[.:,]?\s*[—–-]+\s*", "", s.strip())
-    s = re.sub(r"^[({\[]?\s*\d+\s*(?:v\s*[°º*”"]?\s*)?(?:sic\s*)?[)\]]\s*(?:\d+\)\s*|\(\w\)\s*)?", "", s)   # register folio "(269)", "(318 v°)"
+    s = re.sub(r'^[({\[]?\s*\d+\s*(?:v\s*[°º*”"]?\s*)?(?:sic\s*)?[)\]]\s*(?:\d+\)\s*|\(\w\)\s*)?', "", s)   # register folio "(269)", "(318 v°)"
     s = re.sub(r"\bà(?=[A-ZÉ])", "à ", s)            # OCR: "àBastiano"
     s = re.sub(r"\bde'\s", "de ", s)
     s = re.sub(r"\.\s+(?=d[e']\s?[A-Z])", ", ", s)          # OCR: "Rabastan. de Marseille"
@@ -746,6 +746,18 @@ def extract(act):
     if flags:
         notes.append("Condition: " + ", ".join(flags) + ".")
     res["notes"] = " ".join(dict.fromkeys(n.strip() for n in notes if n.strip())) or None
+
+    # ---- "X a reçu de Y ... à titre de prêt": a loan, not a receipt
+    if (res.get("type_en") == "Payment / receipt" and "rachat" not in s
+            and re.search(r"à titre de prêt|(?:qu'il|que celui-ci|qu'ils) lui (?:a|ont) prêtée?s?|avance de fonds|remboursables?\s+(?:à|au|aux|dès|un mois|15 jours)\b", s)):
+        res["type_en"] = "Loan"
+        swap = {"recipient (acknowledges receipt)": "borrower", "payer": "lender"}
+        for p in res["p1"] + res["p2"]:
+            p["roles"] = [swap.get(r, r) for r in p["roles"]]
+        if res["matter"] and res["matter"].startswith("Receipt"):
+            res["matter"] = "Loan"
+        if "loan" not in (res["keywords"] or ""):
+            res["keywords"] = "; ".join(x for x in ("loan", res["keywords"]) if x)
     return res
 
 

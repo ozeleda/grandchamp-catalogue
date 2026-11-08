@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 610,
+ "reviewed_through_seq": 810,
  "acts": {
   "3-IV-0001": {
    "transaction_type": "Deposit",
@@ -5656,6 +5656,1862 @@
    "matter": "Payment ordered by the inquisitor of Sicily",
    "currency": "écus d'or d'Espagne",
    "notes": "In very bad Italian."
+  },
+  "3-V-0611": {
+   "party1_role": "principal, slave at Tunis",
+   "matter": "Power of attorney to raise funds for his ransom",
+   "notes": "In Italian."
+  },
+  "3-V-0612": {
+   "party1_origins": "du lac de Côme",
+   "party1_role": "principal, slave",
+   "matter": "Power of attorney to raise funds for his ransom",
+   "keywords": "ransom; slavery",
+   "notes": "In Italian."
+  },
+  "3-V-0613": {
+   "party1_origins": "de la Ciotat",
+   "party1_role": "recipient, ransomed captive",
+   "party2_name": "Barnabe Tortel",
+   "party2_origins": "de Six Fours",
+   "party2_role": "payer (lender), ship master (patron)",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Money that paid his ransom"
+  },
+  "3-V-0614": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Bonavita Pigione",
+   "party1_origins": "corse",
+   "party1_role": "declarant, ship master (Santa Anna Bonaventura)",
+   "party2_name": "Pietro Verana",
+   "party2_origins": "di Sant Urpe",
+   "party2_role": "admiral of M. de Manty's squadron (pillaged the ship)",
+   "other_parties_names": "M. de Manty",
+   "other_parties_role": "commander of four French warships (seized the ship, then ordered it returned)",
+   "matter": "Arriving from Livorno at La Goulette, his ship was seized by M. de Manty's squadron as Turkish; on his protest it was ordered returned, but Verana first stripped it of its rigging and a new cable",
+   "price": null,
+   "keywords": "ship; seizure; pillage; French navy",
+   "notes": "In Italian; partly quoted."
+  },
+  "3-V-0615": {
+   "transaction_type": "Declaration / attestation",
+   "party1_role": "declarant, debtor",
+   "party2_role": "creditor, English",
+   "party2_origins": "anglais",
+   "matter": "Declaration about the 212 écus he owes to Hull (cf. act of 2 Oct. 1613)",
+   "notes": "In Italian."
+  },
+  "3-V-0616": {
+   "currency": "écus d'or d'Espagne",
+   "party2_role": "payer (redeemer)",
+   "notes": "In Italian."
+  },
+  "3-V-0617": {
+   "other_parties_role": "slave-owner (receives the ransom), son of Othman Dey",
+   "matter": "Ransom of a captive",
+   "currency": "écus d'or",
+   "notes": "In Italian."
+  },
+  "3-V-0618": {
+   "transaction_type": "Exchange of captives",
+   "party1_role": "promisor, captive",
+   "party2_name": "Messia Reo",
+   "party2_role": "slave-owner (holds Messaut)",
+   "other_parties_names": "Messaut di Mamett",
+   "other_parties_origins": "djerbien",
+   "other_parties_role": "slave of Antonio's father (to be brought to Barbary)",
+   "matter": "He will bring Messaut, slave of his father, to Algiers, Tabarca or another Barbary town and be freed on Messaut's arrival; meanwhile he will not be chained",
+   "keywords": "exchange of captives; Majorca",
+   "notes": "In Italian. Messia Reo is the declarant's father."
+  },
+  "3-V-0619": {
+   "notes": "In Italian."
+  },
+  "3-V-0620": {
+   "transaction_type": "Redemption",
+   "party1_role": "promisor (debtor), captive of Ali Bey",
+   "party2_name": "Loisi Sabatta",
+   "party2_origins": "andalou",
+   "party2_role": "payee (guarantor of the ransom)",
+   "other_parties_names": "Ali Bey",
+   "other_parties_role": "slave-owner (to receive 150 écus), renegade of Occhiali",
+   "matter": "Promise to pay Sabatta in Sicily the 150 écus that Sabatta promised Ali Bey for his release, or return to Tunis as Ali Bey's slave",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "ransom; renegade; guarantee; Moriscos",
+   "notes": "In Italian."
+  },
+  "3-V-0621": {
+   "transaction_type": "Declaration / attestation",
+   "party1_name": "Juan de Benabides; Juan de Cafra",
+   "party1_origins": "de Alcala de Henares; de Alcala de Henares",
+   "party1_role": "declarant (owner of the money); declarant (owner of the money)",
+   "party2_name": "Gioan Marino",
+   "party2_role": "agent (to recover the sums)",
+   "other_parties_names": "Geronimo de Bitoria; Juan de Sa Ria",
+   "other_parties_role": "notary (holds 1,000 écus); bookseller (holds 3,000 écus of Cafra)",
+   "matter": "On leaving Alcalá they left 1,000 écus with a notary and Cafra 3,000 with a bookseller; they charge Marino to recover them",
+   "other_equivalent": "and 3,000 écus left with the bookseller",
+   "keywords": "Moriscos; deposit; recovery",
+   "notes": "In Spanish."
+  },
+  "3-V-0622": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Giovanni de Benavides; Giovan de Cafra",
+   "party1_origins": "de Alcala de Henares; de Alcala de Henares",
+   "party1_role": "principal; principal",
+   "party2_name": "Giovane Marino",
+   "party2_role": "attorney (agent)",
+   "other_parties_names": "Gerolamo de Vittoria; Giovan di Saria",
+   "other_parties_role": "debtor, notary; debtor, bookseller",
+   "matter": "Power of attorney to recover the sums held by the notary and the bookseller",
+   "keywords": "Moriscos; debt recovery",
+   "notes": "In Italian."
+  },
+  "3-V-0623": {
+   "party1_role": "principal, captive",
+   "notes": "In Italian."
+  },
+  "3-V-0624": {
+   "party1_origins": "de l'île de Calamotta (Raguse)",
+   "party1_role": "ransomed captive (undertakes to repay)",
+   "party2_name": "Luca di Marino",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Rectors and Council of Ragusa",
+   "other_parties_role": "expected to pay the ransom",
+   "matter": "Ransom; he will repay if the Rectors and Council of Ragusa do not",
+   "keywords": "ransom; Ragusa",
+   "notes": "In Italian."
+  },
+  "3-V-0625": {
+   "transaction_type": "Redemption",
+   "party1_name": "Marizza di Lucca; Marino; Giovan Tomaso Ruschi",
+   "party1_origins": "de Raguse; de Raguse; de Raguse",
+   "party1_role": "ransomed captive; ransomed captive, son (3 years old); ransomed captive",
+   "party2_name": "Luca di Marino",
+   "party2_origins": "ragusais",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Eder; Rectors and Council of Ragusa",
+   "other_parties_origins": ";",
+   "other_parties_role": "slave-owner (receives the ransom), renegade of Baba Ragep; expected to pay the ransom",
+   "matter": "Ransom of three Ragusans; they will repay if the Rectors and Council of Ragusa do not",
+   "other_equivalent": null,
+   "keywords": "ransom; Ragusa; women; renegade",
+   "notes": "In Italian."
+  },
+  "3-V-0626": {
+   "matter": "Charter of the Santa Chaterina Bonaventura to carry 36 people (men, women and children) to Naples and hand them to the consul of Ragusa",
+   "keywords": "charter; ransomed captives; Ragusa; passengers",
+   "notes": "In Italian."
+  },
+  "3-V-0627": {
+   "party2_origins": "provençal habitant à Livourne",
+   "party2_role": "creditor, ship master (patron)",
+   "other_parties_role": "slave-owner (held him in his bagne for « certain debts »), receives the ransom",
+   "matter": "Debt for his ransom",
+   "currency": "écus d'or d'Espagne",
+   "notes": "In Italian. Thomas Caulet signs as witness."
+  },
+  "3-V-0628": {
+   "transaction_type": "Donation",
+   "party1_name": "Mamy (formerly Honnoré Roux)",
+   "party1_origins": "de Château-Neuf d'Ap... en Provence",
+   "party1_role": "donor, French renegade, son of the late Anth. Roux dit Frichon",
+   "party2_name": "Jane Angeline",
+   "party2_origins": "de Grasse",
+   "party2_role": "donee, mother (present at Tunis)",
+   "matter": "Gift to his mother of his share of his father's estate, in gratitude for her journey from France to see him",
+   "keywords": "renegade; donation; inheritance; family"
+  },
+  "3-V-0629": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Jules Vidal",
+   "party1_origins": "de Bormes en Provence",
+   "party1_role": "principal, slave of Agi Chaban for 8 years",
+   "party2_name": "Isaac Feraporte (?)",
+   "party2_role": "attorney (agent), cousin, clerk of court at Bormes",
+   "other_parties_names": "Jacques Blin; Loys Durand",
+   "other_parties_role": "brother-in-law (did nothing); party to an earlier agreement",
+   "matter": "His relatives did nothing for his ransom; he gives his cousin a power of attorney, notably about the agreement with Durand (cf. act of 30 Oct. 1613)",
+   "price": null,
+   "keywords": "ransom; slavery; family",
+   "notes": "Badly written."
+  },
+  "3-V-0630": {
+   "transaction_type": "Sale / transfer",
+   "party1_role": "buyer (pays at Livorno), ship master (patron)",
+   "party2_name": "Scieich Bascia",
+   "party2_origins": "turc du Levant",
+   "party2_role": "seller",
+   "other_parties_names": "Mame Rais Dalachi; Manfredino Manfredino",
+   "other_parties_origins": ";",
+   "other_parties_role": "payee, brother of the Sheikh, held at Livorno; guarantor",
+   "matter": "294 hairy hides received; their value (420 ducats) to be paid to the Sheikh's brother held at Livorno",
+   "keywords": "hides; guarantee; Livorno",
+   "notes": "In Italian."
+  },
+  "3-V-0631": {
+   "transaction_type": "Redemption",
+   "party1_name": "Giuseppe Martino",
+   "party1_origins": "du Ciervo (Riv. de Gênes)",
+   "party1_role": "ransomed captive",
+   "party2_name": "Batta della Torre",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Osta Moratto Genovese; G. B. Giustiniani",
+   "other_parties_origins": ";",
+   "other_parties_role": "slave-owner (receives the ransom); principal, governor of Tabarca, for the Redemption of Genoa",
+   "matter": "Ransom of a captive",
+   "price": "182.5",
+   "currency": "écus d'or d'Espagne",
+   "notes": "In Italian."
+  },
+  "3-V-0632": {
+   "party2_name": "Batta della Torre",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Assan Bali; G. B. Giustiniani",
+   "other_parties_origins": "turc de Bizerte;",
+   "other_parties_role": "slave-owner (receives the ransom); principal, for the Redemption of Genoa",
+   "matter": "Ransom of a captive",
+   "keywords": "ransom; Redemption (charitable order); Tabarca",
+   "notes": "In Italian."
+  },
+  "3-V-0633": {
+   "party2_name": "Batta della Torre",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Mametto Pelcoano; G. B. Giustiniani",
+   "other_parties_origins": "turc;",
+   "other_parties_role": "slave-owner (receives the ransom), janissary of Tunis; principal, for the Redemption of Genoa",
+   "matter": "Ransom of a captive",
+   "price": "427.5",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "ransom; Redemption (charitable order); Tabarca",
+   "notes": "In Italian."
+  },
+  "3-V-0634": {
+   "party2_name": "Batta della Torre",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Sidi Amida; G. B. Giustiniani",
+   "other_parties_origins": "turc de Tunis;",
+   "other_parties_role": "slave-owner (receives the ransom); principal, for the Redemption of Genoa",
+   "matter": "Ransom of a captive",
+   "keywords": "ransom; Redemption (charitable order); Tabarca",
+   "notes": "In Italian."
+  },
+  "3-V-0635": {
+   "party1_role": "principal, now at Tunis",
+   "party2_name": "Salamone Navaro",
+   "party2_role": "attorney (agent), father",
+   "matter": "Power of attorney to recover all sums owed to him at Livorno and elsewhere",
+   "notes": "In Italian. Thomas Caulet signs as witness."
+  },
+  "3-V-0636": {
+   "party2_origins": "corse habitant à Marseille",
+   "other_parties_role": "slave-owner (receives the ransom), French renegade",
+   "other_parties_names": "Agi Chaban; Loys Durand",
+   "other_parties_origins": ";",
+   "notes": "Loys Durand stands surety for the debt."
+  },
+  "3-V-0637": {
+   "other_parties_names": "Léon ...; S. de Mantis",
+   "other_parties_origins": "de St-Tropez;",
+   "other_parties_role": "debtor, ship master (left with Mantis); commander of two warships (took Léon's ship)",
+   "matter": "Power of attorney to recover 8 écus from the master Léon, who followed his ship when the Sr de Mantis took it at La Goulette",
+   "keywords": "debt recovery; ship; French navy",
+   "notes": "Signed: Claude Severt, chancellor."
+  },
+  "3-V-0638": {
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Batta Pino",
+   "party2_origins": "de San Felippo en Catalogne",
+   "currency": "écus d'or de 12 réaux castillans",
+   "notes": "In Italian."
+  },
+  "3-V-0639": {
+   "party1_name": "Batta Levanto",
+   "party1_origins": "corse",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Bartolo Rio",
+   "party2_origins": "de Levanto",
+   "other_parties_names": "Othman Dey",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "other_equivalent": "total ransom 515 écus",
+   "notes": "In Italian. Signed: N. Thouvenin, chancellor."
+  },
+  "3-V-0640": {
+   "transaction_type": "Redemption",
+   "party1_name": "Bartolomeo Toso",
+   "party1_origins": "de Sestri da Levante",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Bartolo Rio",
+   "party2_origins": "de Levanto",
+   "other_parties_names": "Osta Moratto Genovese",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Debt for his ransom",
+   "keywords": "debt; ransom",
+   "notes": "In Italian. Signed: N. Thouvenin, chancellor. The first words (« Martin le Sergent signe en qualité de témoin ») belong to the previous act."
+  },
+  "3-V-0641": {
+   "transaction_type": "Redemption",
+   "party1_name": "Bartolomeo Ragionati",
+   "party1_role": "ransomed captive",
+   "party2_name": "Simone Escanasi",
+   "party2_origins": "juif",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Hissuffo Day (Ysouf Dey); G. B. Giustiniani; Giacomo Lomellino",
+   "other_parties_origins": ";; de Gênes",
+   "other_parties_role": "slave-owner (receives the ransom), governor and protector of the militia; principal, governor of Tabarca; principal",
+   "matter": "Ransom of a Ragusan captive",
+   "keywords": "ransom; Tabarca; Jews; Ragusa",
+   "notes": "In Italian. Signed by N. Thouvenin but written by Tamagni."
+  },
+  "3-V-0642": {
+   "party1_name": "Gio Batista de la Rossa",
+   "party1_role": "recipient, cleric (Don)",
+   "other_parties_names": "Ferrando di Matienso",
+   "other_parties_role": "principal (ordered the payment), inquisitor of Sicily",
+   "matter": "Payment ordered by the inquisitor of Sicily",
+   "currency": "écus d'or de 64 aspres",
+   "other_equivalent": null,
+   "notes": "In Italian. Unfinished and crossed out."
+  },
+  "3-V-0643": {
+   "party1_name": "Gio Batista de la Rossa",
+   "party1_role": "recipient, cleric (Don)",
+   "other_parties_names": "Ferrando di Matienso",
+   "other_parties_role": "principal (ordered the payment), inquisitor of Sicily",
+   "matter": "Payment ordered by the inquisitor of Sicily (completed version of the previous act)",
+   "price": "101",
+   "currency": "écus d'or de 64 aspres",
+   "notes": "In Italian. Passed in the bagne of Ysouf Dey."
+  },
+  "3-V-0644": {
+   "transaction_type": "Redemption",
+   "party1_name": "Simone Theodoro (Simon Drex)",
+   "party1_origins": "d'Anconse (Flemish)",
+   "party1_role": "ransomed captive, 16 years old",
+   "party2_name": "Pascal Simedeo",
+   "party2_role": "redeemer (paid the ransom), captain",
+   "other_parties_names": "Sidi Soliman; Matteo de Terenso",
+   "other_parties_origins": "; de Livourne",
+   "other_parties_role": "slave-owner (receives the ransom), son of Othman Dey; principal (ordered the ransom)",
+   "matter": "Ransom of a young Flemish captive",
+   "notes": "In Italian. Signed: N. Thouvenin, chancellor; François Icard witness."
+  },
+  "3-V-0645": {
+   "transaction_type": "Insurance",
+   "party1_name": "Lutio Matteo",
+   "party1_origins": "corse",
+   "party1_role": "insurer",
+   "party2_name": "Giacobo Monteimo",
+   "party2_origins": "juif",
+   "party2_role": "insured (registers the promise)",
+   "other_parties_names": "Batta Bonabia; Franco Matterano; M. de Mantille; Pascale Simodeo; Paulo Paris",
+   "other_parties_origins": ";;; corse; corse",
+   "other_parties_role": "ship master (Sta Catalina Bonaventura); for his account; commander of the French ship (risk covered while at anchor); witness (recognises the signature); witness",
+   "matter": "Registration of a promise of 4 June 1614: Matteo insured 50 écus on the Sta Catalina against M. de Mantille's ship while at that anchorage",
+   "currency": "écus de 64 aspres",
+   "other_equivalent": null,
+   "keywords": "insurance; ship; Jews; French navy",
+   "notes": "In Italian."
+  },
+  "3-V-0646": {
+   "transaction_type": "Redemption",
+   "party1_role": "ransomed captive",
+   "party2_name": "Loigio Sabbatta",
+   "party2_origins": "andalou",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Issuffo",
+   "other_parties_role": "slave-owner (receives the ransom), renegade of Mametto Bey",
+   "matter": "Ransom, dues included",
+   "keywords": "ransom; renegade; Moriscos",
+   "notes": "In Italian. Signed: N. Thouvenin, chancellor."
+  },
+  "3-V-0647": {
+   "party2_name": "Gio Batta de la Rosa",
+   "party2_role": "payer, cleric",
+   "other_parties_names": "Fernando di Mattienso",
+   "other_parties_role": "principal (ordered the payment), inquisitor of Sicily",
+   "matter": "Payment ordered by the inquisitor of Sicily",
+   "notes": "In Italian. Martin le Sergent signs as witness."
+  },
+  "3-V-0648": {
+   "transaction_type": "Redemption",
+   "party1_role": "ransomed captive",
+   "party2_name": "Loigio Sabbatta",
+   "party2_origins": "andalou",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Agy Mamy",
+   "other_parties_origins": "Sardinian renegade, habitant à Bizerte",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Ransom of a captive",
+   "price": "226.5",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "ransom; renegade; Moriscos",
+   "notes": "In Italian."
+  },
+  "3-V-0649": {
+   "transaction_type": "Redemption",
+   "party1_role": "ransomed captive",
+   "party2_name": "Loigio Sabbatta",
+   "party2_origins": "andalou",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Issuffo Dey",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Ransom of a captive",
+   "keywords": "ransom; Moriscos",
+   "notes": "In Italian."
+  },
+  "3-V-0650": {
+   "party1_name": "Giovanni Souichi",
+   "party1_origins": "grec de Napoli di Romania",
+   "party1_role": "principal",
+   "other_parties_names": "R. P. Paronico",
+   "other_parties_role": "debtor, of the Order of St Catherine of Mount Sinai",
+   "matter": "Power of attorney to recover 120 réaux castillans",
+   "currency": "réaux castillans",
+   "other_equivalent": null,
+   "keywords": "debt recovery",
+   "notes": "In Italian."
+  },
+  "3-V-0651": {
+   "party1_origins": "French renegade",
+   "party1_role": "principal, renegade of Baba Ragep",
+   "other_parties_names": "Giuseppe Tramontana",
+   "other_parties_origins": "sicilien",
+   "other_parties_role": "debtor",
+   "matter": "Power of attorney to recover 30 écus d'or lent to Tramontana",
+   "keywords": "renegade; debt recovery",
+   "notes": "In Italian."
+  },
+  "3-V-0652": {
+   "transaction_type": "Redemption",
+   "party1_name": "G. B. La Rosa",
+   "party1_role": "ransomed captive, cleric (Don)",
+   "party2_name": "Symon Scanazi",
+   "party2_origins": "juif",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Issuffo Day; G. B. Giustiniani; Giacomo Lomelino",
+   "other_parties_origins": ";; de Gênes",
+   "other_parties_role": "slave-owner (receives the ransom); principal, governor of Tabarca; principal, son of Phelippo",
+   "matter": "Ransom of a captive",
+   "notes": "In Italian."
+  },
+  "3-V-0653": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, cleric (Don)",
+   "party2_role": "lender",
+   "matter": "Loan; repaid on 16 June 1617",
+   "notes": "In Italian. Signed: Nicolas Thouvenin, chancellor."
+  },
+  "3-V-0654": {
+   "transaction_type": "Declaration of capture",
+   "party1_role": "declarant, cleric (Don)",
+   "party2_name": "Moorish corsairs",
+   "party2_role": "captors",
+   "other_parties_names": "Antonino Stornello; Franco D...",
+   "other_parties_origins": "sicilien;",
+   "other_parties_role": "witness, servant, 24; witness, sailor of the frigate",
+   "matter": "He was taken at the island of Alcure by Moorish corsairs on 1 Aug. 1612 going from Rome to Palermo, brought to Bizerte and then Tunis",
+   "keywords": "capture; corsairs; slavery; Moors",
+   "notes": "In Italian."
+  },
+  "3-V-0655": {
+   "party1_role": "principal, slave of Ali, Turkish bölükbaşı",
+   "notes": "In Italian. Unsigned."
+  },
+  "3-V-0656": {
+   "transaction_type": "Exchange of captives",
+   "party1_name": "Giovan de Silva la Ribera (Juan de Silva y Ribera)",
+   "party1_origins": null,
+   "party1_role": "promisor, captive, knight of St John",
+   "party2_name": "Loigi Sabatta",
+   "party2_origins": "andalou",
+   "party2_role": "intermediary (to obtain the exchange)",
+   "other_parties_names": "Moratto Inghelese",
+   "other_parties_role": "captive to be exchanged, former raïs of the Sto-Spirito",
+   "matter": "Promise to pay Sabatta 1,000 écus (and 1,000 more if needed) if he obtains his release by exchange with Moratto Inghelese",
+   "keywords": "exchange of captives; Moriscos",
+   "notes": "In Italian. Signed: Nicolas Thouvenin, chancellor."
+  },
+  "3-V-0657": {
+   "transaction_type": "Redemption",
+   "party1_origins": "génois habitant en Corse",
+   "party1_role": "ransomed captive",
+   "party2_name": "Anton Marco Petro",
+   "party2_origins": "corse",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Issouf Cheleby; Carlo de Laurentio",
+   "other_parties_origins": ";",
+   "other_parties_role": "slave-owner (receives the ransom), son of Ossain Pacha; principal (ordered the ransom)",
+   "matter": "Ransom of a captive",
+   "notes": "In Italian."
+  },
+  "3-V-0658": {
+   "transaction_type": "Loan",
+   "party1_name": "Antonio Denans",
+   "party1_origins": "de Six Fours",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender; lender",
+   "matter": "Loan repayable a month after arrival at Livorno, secured on 164 barrels of tunny, 1,700 cordovans and 12 cantars of wool on his ship",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "loan; security; tunny; cordovans; wool; ship; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0659": {
+   "transaction_type": "Loan",
+   "party1_name": "Antonio Denans",
+   "party1_origins": "de Six Fours",
+   "party1_role": "borrower, ship master (Sta-Maria delli Angeli)",
+   "party2_role": "lender; lender",
+   "matter": "Same as the previous act, completed and signed",
+   "price": "648",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "loan; security; ship; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0660": {
+   "transaction_type": "Redemption",
+   "party1_origins": "de Besançon",
+   "party1_role": "ransomed captive",
+   "party2_name": "Symon Escanasi",
+   "party2_origins": "juif",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "heirs of Othman Dey; G. B. Giustiniani; Giacomo Lomelino",
+   "other_parties_origins": ";; de Gênes",
+   "other_parties_role": "slave-owners (receive the ransom); principal, governor of Tabarca; principal",
+   "matter": "Ransom of a captive",
+   "notes": "In Italian."
+  },
+  "3-V-0661": {
+   "transaction_type": "Loan",
+   "party1_origins": "andalou, habitant à Tunis",
+   "party1_role": "borrower",
+   "party2_origins": "juif; juif",
+   "party2_role": "lender; lender",
+   "matter": "Loan",
+   "notes": "In Italian. Cancelled on 7 Jan. 1615."
+  },
+  "3-V-0662": {
+   "party1_role": "recipient (borrower), ransomed captive",
+   "party2_role": "payer (lender)",
+   "other_parties_names": "Mamy",
+   "other_parties_origins": "Corsican renegade",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Loan to pay his ransom",
+   "notes": "In Italian."
+  },
+  "3-V-0663": {
+   "transaction_type": "Inheritance",
+   "party1_role": "recipient, heir (nephew)",
+   "party2_role": "payer (holder of the estate)",
+   "other_parties_names": "Marco Franco",
+   "other_parties_role": "uncle (left the money and goods at Tunis)",
+   "matter": "Money and goods in poor condition left at Tunis by his uncle",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "and 9 aspres",
+   "keywords": "inheritance; goods",
+   "notes": "In Italian."
+  },
+  "3-V-0664": {
+   "other_parties_origins": "Spanish renegade",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "other_equivalent": "and 50 aspres",
+   "notes": "Cancelled on 22 Jan. 1615 (cf. act of that date)."
+  },
+  "3-V-0665": {
+   "other_parties_origins": "Genoese renegade",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "other_equivalent": "and 38 aspres",
+   "notes": "Cancelled on 22 Jan. 1615, apparently only as to the slaves' passage from Tunis to Marseille."
+  },
+  "3-V-0666": {
+   "party1_role": "principal, slave of Mamet son of the late Othman Dey",
+   "party2_name": "Madeleyne Trabuque",
+   "party2_role": "attorney (agent), wife",
+   "other_parties_names": "Rafael Jehan; Mamet",
+   "other_parties_origins": "de Marseille;",
+   "other_parties_role": "debtor (owes 200 écus); slave-owner, son of the late Othman Dey",
+   "matter": "Power of attorney to collect 200 écus owed by Rafael Jehan and use them for his ransom"
+  },
+  "3-V-0667": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, captive",
+   "party2_role": "lender",
+   "matter": "Loan"
+  },
+  "3-V-0668": {
+   "transaction_type": "Protest / summons",
+   "party1_role": "charterer, merchant",
+   "party2_name": "Reynaud Fabre",
+   "party2_role": "ship master (St-Jacques la Fleur de Lis)",
+   "other_parties_names": "Coral Company",
+   "other_parties_role": "about to abandon the Bastion",
+   "matter": "Charter to come to La Goulette (15 days) and load grain at the Fiumare Salade (15 days); Fabre does not leave, and the grain will be lost since the Coral Company is about to abandon the Bastion",
+   "keywords": "charter; grain; Bastion de France; coral; company",
+   "notes": "Unfinished. Fabre arrived at La Goulette on 7 Dec."
+  },
+  "3-V-0669": {
+   "party1_name": "Rosa di Pietro di Lucia de Galori",
+   "party1_origins": "de Tempio (Sardaigne)",
+   "party1_role": "debtor, ransomed captive",
+   "other_parties_role": "slave-owner (receives the ransom), janissary of Bizerte",
+   "keywords": "debt; ransom; janissaries / divan; women",
+   "notes": "In Italian."
+  },
+  "3-V-0670": {
+   "party1_name": "Hierosme Crul (Gevrt Cruul ?)",
+   "party1_role": "ransomed captive",
+   "other_parties_names": "Ostassan (Osta Assan); Thomas Vandestraden; Jacques Boleigne (Jac. Belegno)",
+   "other_parties_origins": "Genoese renegade;; ",
+   "other_parties_role": "slave-owner (receives the ransom), janissary of Tunis; principal (ordered the ransom); agent of the States of Holland (paid by his hands)",
+   "matter": "Ransom of a Dutch captive; he declares himself well and waiting to sail to Christendom",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "ransom; Dutch; renegade"
+  },
+  "3-V-0671": {
+   "other_parties_role": "slave-owner (receives the ransom), son of Othman Dey",
+   "party2_role": "redeemer (paid the ransom), for Giovan Batta and Lorenzo Sigalla of Venice",
+   "other_parties_names": "Mamett; Giovan Batta Sigalla; Lorenzo Sigalla",
+   "other_parties_origins": "; de Venise; de Venise",
+   "matter": "Ransom of a captive",
+   "currency": "doubles d'Espagne",
+   "keywords": "ransom; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0672": {
+   "transaction_type": "Discharge",
+   "party1_name": "Anthoine Calvane; Pierre de la Grange",
+   "party1_origins": "de Marseille; de Marseille",
+   "party1_role": "charterer, merchant; charterer, merchant",
+   "party2_name": "Reynaud Fabre",
+   "party2_role": "ship master (patron)",
+   "matter": "The parties agree to release each other from the charter of the St-Jacques for loading at Tunis and the Fiumare Salade",
+   "keywords": "charter; cancellation; ship"
+  },
+  "3-V-0673": {
+   "party1_role": "recipient, agent at Tunis of the States of the Netherlands",
+   "other_parties_names": "Thomas Vandestrade",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "principal, acting for the States of the Netherlands",
+   "matter": "Money paid on the order of Vandestrade for the States of the Netherlands",
+   "other_equivalent": "500 écus de France or 375 sequins",
+   "keywords": "Dutch; transfer of funds; ransom"
+  },
+  "3-V-0674": {
+   "other_parties_names": "Sidi Amida; G. B. Giustiniani",
+   "other_parties_origins": ";",
+   "other_parties_role": "slave-owner (receives the ransom); principal, governor of Tabarca, for the Redemption of Genoa",
+   "matter": "Ransom of a captive",
+   "notes": "In Italian."
+  },
+  "3-V-0675": {
+   "party2_name": "Batta della Torre",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Sidi Mamet; G. B. Giustiniani",
+   "other_parties_origins": ";",
+   "other_parties_role": "slave-owner (receives the ransom), son of Othman Dey; principal, for the Redemption of Genoa",
+   "matter": "Ransom of a captive",
+   "keywords": "ransom; Redemption (charitable order); Tabarca",
+   "notes": "In Italian."
+  },
+  "3-V-0676": {
+   "transaction_type": "Redemption",
+   "party1_name": "Simone Vignallo",
+   "party1_origins": "de Lavagna, Rivière de Gênes",
+   "party1_role": "ransomed captive",
+   "party2_name": "Batta della Torre",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Sidi Mamet; G. B. Giustiniani",
+   "other_parties_origins": ";",
+   "other_parties_role": "slave-owner (receives the ransom), son of Othman Dey; principal, for the Redemption of Genoa",
+   "matter": "Ransom of a captive",
+   "keywords": "ransom; Redemption (charitable order); Tabarca",
+   "notes": "In Italian."
+  },
+  "3-V-0677": {
+   "transaction_type": "Redemption",
+   "party1_name": "Giovan Augustin Costa",
+   "party1_origins": "de Bastia",
+   "party1_role": "ransomed captive",
+   "party2_name": "Batta della Torre",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Sidi Solimano; G. B. Giustiniani",
+   "other_parties_origins": ";",
+   "other_parties_role": "slave-owner (receives the ransom), son of Othman Dey; principal, for the Redemption of Genoa",
+   "matter": "Ransom of a captive",
+   "keywords": "ransom; Redemption (charitable order); Tabarca",
+   "notes": "In Italian."
+  },
+  "3-V-0678": {
+   "transaction_type": "Redemption",
+   "party1_name": "Batta Zanobi Conte",
+   "party1_origins": "florentin de Prato",
+   "party1_role": "ransomed captive",
+   "party2_name": "Batta della Torre",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Osta Moratto Genovese; G. B. Giustiniani",
+   "other_parties_origins": ";",
+   "other_parties_role": "slave-owner (receives the ransom); principal, for the Redemption of Genoa",
+   "matter": "Ransom of a captive",
+   "keywords": "ransom; Redemption (charitable order); Tabarca",
+   "notes": "In Italian."
+  },
+  "3-V-0679": {
+   "transaction_type": "Redemption",
+   "party1_name": "Benedetto Castretto",
+   "party1_origins": "génois",
+   "party1_role": "ransomed captive",
+   "party2_name": "Batta della Torre",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Osta Moratto Genovese; G. B. Giustiniani",
+   "other_parties_origins": ";",
+   "other_parties_role": "slave-owner (receives the ransom); principal, for the Redemption of Genoa",
+   "matter": "Ransom of a captive",
+   "keywords": "ransom; Redemption (charitable order); Tabarca",
+   "notes": "In Italian."
+  },
+  "3-V-0680": {
+   "party1_origins": "de Marinaio (Corse)",
+   "party1_role": "principal, captive",
+   "notes": "In Italian."
+  },
+  "3-V-0681": {
+   "transaction_type": "Loan",
+   "party1_name": "Antonio Denans",
+   "party1_origins": "de Six Fours",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_name": "David Machior",
+   "party2_origins": "juif de Livourne",
+   "party2_role": "lender",
+   "matter": "Loan secured on 14 pieces of fine Holland cloth and 50 white cordovans shipped on his ship for Livorno",
+   "keywords": "loan; security; Holland cloth; cordovans; ship; Jews",
+   "notes": "In Italian. Unsigned."
+  },
+  "3-V-0682": {
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "other_equivalent": "and 51 aspres"
+  },
+  "3-V-0683": {
+   "other_parties_role": "slave-owner (receives the ransom), janissary of Tunis",
+   "price": "235",
+   "currency": "écus",
+   "other_equivalent": "and 37 aspres"
+  },
+  "3-V-0684": {
+   "party1_origins": ";",
+   "party1_role": "recipient, agent of the Coral Company; recipient, agent of the Coral Company",
+   "other_parties_names": "S. de Farges",
+   "other_parties_role": "consignor at Marseille (4,520 livres), lieutenant of the Queen's galley",
+   "matter": "Receipt of money consigned at Marseille and of cloth (crimson and violet velvet and cloth etc.) for the Company's business in Tunisia",
+   "currency": "livres",
+   "other_equivalent": "1,207 sultanis 30 aspres, or 1,238 écus 26 aspres; from 4,520 livres consigned at Marseille",
+   "keywords": "coral; company; velvet; cloth; transfer of funds"
+  },
+  "3-V-0685": {
+   "other_parties_names": "Claudo Antonio Pino",
+   "other_parties_origins": "de Marseille",
+   "other_parties_role": "ship master (bound for Livorno)",
+   "matter": "Declaration about goods shipped to Livorno on Pino's ship",
+   "keywords": "Moriscos; ship; goods",
+   "notes": "In Italian."
+  },
+  "3-V-0686": {
+   "price": "158.75",
+   "other_parties_names": "Carlo de Lorenzo",
+   "other_parties_role": "principal (ordered the payment)",
+   "matter": "Money paid on the order of Carlo de Lorenzo",
+   "notes": "In Italian."
+  },
+  "3-V-0687": {
+   "transaction_type": "Redemption",
+   "party1_name": "Batta Zago Mauromati; Giacomo Zago Mauromati",
+   "party1_origins": "de l'île d'Araxia; de l'île d'Araxia",
+   "party1_role": "debtor, ransomed captive, son of Antonio Zago; debtor, ransomed captive, brother",
+   "party2_name": "Giacomo Beleigno",
+   "party2_role": "creditor (paid the ransoms)",
+   "other_parties_names": "Alli Tebbi",
+   "other_parties_role": "slave-owner of Batta (receives 200 sequins)",
+   "matter": "Debt for the ransom of the two brothers (200 sequins for Batta, 240 for Giacomo)",
+   "price": "440",
+   "currency": "sequins vénitiens",
+   "keywords": "debt; ransom",
+   "notes": "In Italian."
+  },
+  "3-V-0688": {
+   "party1_role": "debtor, ransomed captive",
+   "matter": "Loan to pay his ransom; he may sail on any ship, the lender bearing the risk of loss on the way",
+   "keywords": "debt; ransom; loan; risk",
+   "notes": "In Italian."
+  },
+  "3-V-0689": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower",
+   "party2_role": "lender",
+   "matter": "Loan repayable at Livorno, secured on 400 cantars of raw wool and 20 casks of white herring shipped on Denans's ship",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "loan; security; wool; herring; ship; Jews; Moriscos",
+   "notes": "In Italian."
+  },
+  "3-V-0690": {
+   "transaction_type": "Loan",
+   "party1_name": "Antonio Denans",
+   "party1_origins": "de Six Fours",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender",
+   "other_parties_names": "Docteur Cordovero",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan repayable to Dr Cordovero at Livorno",
+   "keywords": "loan; Jews; Livorno",
+   "notes": "In Italian."
+  },
+  "3-V-0691": {
+   "party2_origins": "de Marseille",
+   "party2_role": "redeemer (paid the ransom), merchant",
+   "other_parties_names": "Issouf Chelibi; Redemption of the Trinity of Marseille",
+   "other_parties_origins": ";",
+   "other_parties_role": "slave-owner (receives the ransom); paid the balance",
+   "matter": "Ransom (including a sequin to the bagne guard); his mother paid 33 écus 60 aspres and the Trinitarians of Marseille the rest; he will join their procession at Marseille",
+   "other_equivalent": "and 16 aspres, incl. a sequin to the bagne guard; mother paid 33 écus 60 aspres",
+   "keywords": "ransom; Trinitarians; Redemption (charitable order); procession"
+  },
+  "3-V-0692": {
+   "other_parties_names": "Osta Moratto; Giacomo Lomelino",
+   "other_parties_origins": "; de Gênes",
+   "other_parties_role": "slave-owner (receives the ransom); principal (for his account)",
+   "price": "332.5",
+   "matter": "Ransom, apparently of a child, made for Lomelino « per quelche degno respetto » rather than on Giustiniani's order",
+   "notes": "In Italian. Passed in the presence of Claude Severt and Antoine Calvane."
+  },
+  "3-V-0693": {
+   "other_parties_names": "Omar Rais; Anth. Beringer",
+   "other_parties_origins": "turc;",
+   "other_parties_role": "slave-owner (receives the ransom), janissary of Tunis; principal (ordered the ransom)",
+   "party2_origins": "de Marseille",
+   "party2_role": "redeemer (paid the ransom), merchant",
+   "other_equivalent": "and 16 aspres"
+  },
+  "3-V-0694": {
+   "other_parties_origins": "Corsican renegade",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Ransom and terms of repayment (cf. act of 6 Dec. 1614)",
+   "notes": "In Italian."
+  },
+  "3-V-0695": {
+   "party1_name": "Cesare di Paulo",
+   "party1_origins": "de Belvedere (Roy. de Naples)",
+   "party1_role": "ransomed captive",
+   "other_parties_names": "Osta Morato Genovese; G. B. Giustiniani",
+   "other_parties_origins": ";",
+   "other_parties_role": "slave-owner (receives the ransom); principal, governor of Tabarca",
+   "other_equivalent": "and 7 aspres",
+   "notes": "In Italian."
+  },
+  "3-V-0696": {
+   "party1_role": "principal, captive",
+   "party2_name": "Clémence Blanque",
+   "party2_role": "attorney (agent), wife"
+  },
+  "3-V-0697": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower",
+   "party2_role": "lender",
+   "other_parties_names": "Jacob Levi",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan repayable at Livorno, secured on 200 black cordovans and 12 cantars of dates on Denans's ship",
+   "price": "96.5",
+   "keywords": "loan; security; cordovans; dates; ship; Jews; Moriscos",
+   "notes": "In Italian."
+  },
+  "3-V-0698": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower",
+   "party2_role": "lender",
+   "other_parties_names": "George de Vegua Pinto",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan repayable at Livorno, secured on 100 hairy hides on Denans's ship",
+   "keywords": "loan; security; hides; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0699": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower",
+   "party2_role": "lender",
+   "other_parties_names": "George de Vegua Pinto",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan repayable as in the previous act, secured on 100 cordovans and 7 ostrich skins with white wings",
+   "price": "54.5",
+   "currency": "écus",
+   "keywords": "loan; security; cordovans; ostrich feathers; Jews; Moriscos",
+   "notes": "In Italian."
+  },
+  "3-V-0700": {
+   "other_parties_origins": "Spanish renegade",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "other_equivalent": "and 61 aspres",
+   "notes": "Replaces the act of 20 Dec. 1614."
+  },
+  "3-V-0701": {
+   "other_parties_origins": "Genoese renegade",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "other_equivalent": "and 38 aspres",
+   "notes": "Replaces the act of 20 Dec. 1614."
+  },
+  "3-V-0702": {
+   "other_parties_origins": "janissaire",
+   "other_parties_role": "slave-owner (receives the ransom), gardian bachi, janissary"
+  },
+  "3-V-0703": {
+   "transaction_type": "Loan",
+   "party1_name": "Anthonio Dinans",
+   "party1_origins": "de Six Fours",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_name": "Nicolo di Anthonio",
+   "party2_origins": "de Palerme",
+   "party2_role": "lender",
+   "matter": "Loan repayable at Livorno, secured on Holland cloth on his ship",
+   "keywords": "loan; security; Holland cloth; ship",
+   "notes": "In Italian."
+  },
+  "3-V-0704": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower",
+   "party2_role": "lender",
+   "other_parties_names": "George di Vegua Pinto",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan repayable at Livorno, secured on 102 black and red cordovans and 4 casks of sardines",
+   "price": "54.5",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "loan; security; cordovans; sardines; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0705": {
+   "other_parties_origins": "Greek renegade",
+   "other_parties_role": "slave-owner (receives the ransom), renegade, captain of the Bizerte galleys",
+   "notes": "The act breaks off."
+  },
+  "3-V-0706": {
+   "transaction_type": "Declaration of loss (sea protest)",
+   "party1_name": "Santo Simodey",
+   "party1_origins": "corse",
+   "party1_role": "declarant, ship master (Sta-Maria dell'Aura)",
+   "party2_name": "Hercole Tamagne",
+   "party2_role": "vice-consul (orders the inquiry)",
+   "other_parties_names": "Jehan Arnaud; Tomaso Allegr...; Franco Jorio",
+   "other_parties_origins": "de Toulon;; de Capri",
+   "other_parties_role": "witness, 50; witness; witness, boatswain, 25",
+   "matter": "Leaving Naples on 4 Jan., he had to cut his mainmast and jettison most of the cargo in a storm; list of goods lost and kept (24 March 1615)",
+   "keywords": "storm; jettison; ship; inquiry",
+   "notes": "In Italian. Unfinished and crossed out."
+  },
+  "3-V-0707": {
+   "transaction_type": "Redemption",
+   "party1_name": "Gio Bernardino Giordano",
+   "party1_origins": "de Sta-Agheta de Calabre",
+   "party1_role": "debtor, ransomed captive, Rev. Father of the order of San Pietro",
+   "party2_name": "Monfredin de Monfredini",
+   "party2_origins": "corse",
+   "party2_role": "creditor",
+   "other_parties_names": "Osta Moratto",
+   "other_parties_origins": "Genoese renegade",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Debt for his ransom",
+   "other_equivalent": "and 16 aspres",
+   "keywords": "debt; ransom; renegade",
+   "notes": "In Italian."
+  },
+  "3-V-0708": {
+   "transaction_type": "Consignment",
+   "party1_name": "Mustafa",
+   "party1_role": "owner (consignor), renegade of the late Othman Dey",
+   "party2_name": "Lucha di Nicolo",
+   "party2_origins": "de Raguse",
+   "party2_role": "consignee, ship master, owner of a third of the ship",
+   "other_parties_names": "Juda Camis",
+   "other_parties_origins": "juif de Venise",
+   "other_parties_role": "to receive the proceeds",
+   "matter": "Consignment of the ship La Nontiata (about 2,000 cantars) with 86 barrels of white herring to sell in the ports of the Gulf of Venice; Mustafa has received the price of Lucha's third",
+   "keywords": "renegade; ship; herring; consignment; Jews; Venice",
+   "notes": "In Italian."
+  },
+  "3-V-0709": {
+   "transaction_type": "Protest / summons",
+   "party1_role": "summoning party, ship master (St-Jacques la Fleur de Lis)",
+   "party2_name": "Antouron Cruvelier; René Fougasse",
+   "party2_origins": "de la Ciotat; de la Ciotat",
+   "party2_role": "shipper (summoned); shipper (summoned)",
+   "matter": "Summons to the shippers of 123 millerolles of wine, whom he fears will refuse to pay the freight",
+   "keywords": "wine; freight; ship; summons"
+  },
+  "3-V-0710": {
+   "transaction_type": "Consignment",
+   "party1_name": "Loigi Hugo; Anthoron Crubellie; Lois Teisiere",
+   "party1_origins": ";; français",
+   "party1_role": "shipper, ship master (Sta Catharina); shipper, ship master; shipper",
+   "other_parties_names": "Carlo de Lorenzo",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "consignee",
+   "matter": "55⅓ barrels of tunny shipped to Livorno; if bad weather forces Hugo elsewhere he will sell them",
+   "keywords": "tunny; ship; consignment",
+   "notes": "In Italian."
+  },
+  "3-V-0711": {
+   "party1_origins": "de la Ciotat",
+   "matter": "Debt for goods loaded on the Ste-Catherine Bonaventure (master Louys Hugo)",
+   "other_parties_names": "Louys Hugo",
+   "other_parties_role": "ship master"
+  },
+  "3-V-0712": {
+   "transaction_type": "Dispute",
+   "party1_role": "complainant, ship master (patron)",
+   "party2_name": "Loys Hugou",
+   "party2_role": "sailor (leaving to command another bark)",
+   "matter": "Fabre complains that his sailor Hugou wants to leave him; Hugou answers that, having become master of another bark, he owes no damages",
+   "keywords": "ship; crew; dispute"
+  },
+  "3-V-0713": {
+   "party1_origins": "corse habitant à Marseille",
+   "party1_role": "ransomed captive",
+   "party2_origins": "de Marseille; de Marseille",
+   "other_parties_origins": "Corsican renegade",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "other_equivalent": "and 6 aspres",
+   "notes": "See also the act of 5 Feb. 1615."
+  },
+  "3-V-0714": {
+   "transaction_type": "Declaration of loss (sea protest)",
+   "party1_name": "Salvator Moroel",
+   "party1_role": "declarant, ship master (patron)",
+   "party2_name": "Hercole Tamagne",
+   "party2_role": "vice-consul (orders the inquiry)",
+   "other_parties_names": "Antonio Brasia; Jacomo Maringo; Tomaso Troiano; Luca Romano",
+   "other_parties_origins": "de Trapani;;;",
+   "other_parties_role": "witness, pilot and boatswain, 37; witness, sailor, 37; witness, sailor, 45; witness, passenger",
+   "matter": "Loaded wine and other goods at Naples for La Goulette; storms forced him to jettison the galley stove and part of the cargo",
+   "keywords": "wine; storm; jettison; inquiry",
+   "notes": "In Italian. « Acte baré pour estre non publié »."
+  },
+  "3-V-0715": {
+   "other_parties_origins": "Corsican renegade",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "notes": "Repaid on 28 April 1615."
+  },
+  "3-V-0716": {
+   "other_parties_names": "Giacob Levi",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan repayable at Livorno, secured on 900 hairy hides loaded on his ship Sta-Anna Bonaventura",
+   "keywords": "loan; security; hides; ship; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0717": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender",
+   "other_parties_names": "Giacob Levi",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan repayable at Livorno, secured on 470 hairy hides",
+   "keywords": "loan; security; hides; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0718": {
+   "transaction_type": "Mandate",
+   "party1_role": "agent (receives the order)",
+   "party2_role": "principal (gives the order)",
+   "matter": "Order to settle the accounts of Giuseppe Navarro",
+   "other_parties_names": "Giuseppe Navarro",
+   "other_parties_origins": "juif",
+   "other_parties_role": "account holder",
+   "notes": "In Italian. Unsigned and crossed out."
+  },
+  "3-V-0719": {
+   "transaction_type": "Discharge",
+   "party1_role": "party (mutual discharge); party (mutual discharge)",
+   "matter": "Mutual discharge for their joint business",
+   "keywords": "discharge; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0720": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower",
+   "party2_role": "lender",
+   "other_parties_names": "Giacob Levi",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan repayable at Livorno, secured on 230 red Muscovy calfskins",
+   "keywords": "loan; security; leather; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0721": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master",
+   "party2_origins": "juif de Livourne; juif de Livourne",
+   "party2_role": "lender; lender",
+   "other_parties_names": "Dr Cordovero",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan repayable at Livorno, secured on 890 hides",
+   "keywords": "loan; security; hides; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0722": {
+   "transaction_type": "Loan",
+   "party1_name": "Giuseppe Seralvo",
+   "party1_role": "borrower",
+   "party2_role": "lender",
+   "other_parties_names": "Giaches Grigolo",
+   "other_parties_role": "ship master",
+   "matter": "Loan repayable at Livorno, secured on goods shipped on Grigolo's ship",
+   "keywords": "loan; security; ship; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0723": {
+   "transaction_type": "Discharge",
+   "matter": "General discharge",
+   "keywords": "discharge; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0724": {
+   "transaction_type": "Exchange of captives",
+   "party1_role": "captive (released on parole)",
+   "party2_name": "Bonavita Pigione",
+   "party2_role": "ship master (takes him to Livorno)",
+   "other_parties_names": "Xabbano Bocchififa; Baba Alli Bocchififa",
+   "other_parties_origins": "maure de Bizerte;",
+   "other_parties_role": "captive to be exchanged (said to be already ransomed by Santo); slave-owner",
+   "matter": "Santo is handed to Pigione to go to Livorno and deliver Xabbano Bocchififa in exchange; otherwise he will return to his master",
+   "keywords": "exchange of captives; Livorno; Moors",
+   "notes": "In Italian."
+  },
+  "3-V-0725": {
+   "transaction_type": "Consignment",
+   "party1_role": "shipper",
+   "other_parties_names": "Giaches Grigolo",
+   "other_parties_origins": "corse",
+   "other_parties_role": "ship master (Sta-Maria Bonaventura)",
+   "matter": "276 hairy hides shipped on the Sta-Maria Bonaventura",
+   "notes": "In Italian. Unfinished."
+  },
+  "3-V-0726": {
+   "transaction_type": "Declaration of loss (sea protest)",
+   "party1_name": "Batta Bonavia",
+   "party1_role": "declarant, ship master (galleon Sta Catterina Bonaventura)",
+   "party2_name": "Hercole Tamagni",
+   "party2_role": "vice-consul (orders the inquiry)",
+   "other_parties_names": "Tomaso Vaccone; Batta Bertorotto; Francesco Vetrano",
+   "other_parties_origins": "génois; génois; génois",
+   "other_parties_role": "witness, clerk, 29; witness, boatswain, 27; witness, sailor",
+   "matter": "Loaded wine and other goods at Naples for La Goulette; storms forced him to jettison the galley stove and part of the cargo",
+   "keywords": "wine; storm; jettison; inquiry",
+   "notes": "In Italian. Dated 11 January, probably by mistake."
+  },
+  "3-V-0727": {
+   "other_parties_role": "slave-owner (receives the ransom), gardian bachi, janissary",
+   "matter": "Payment that completed his ransom"
+  },
+  "3-V-0728": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender",
+   "other_parties_names": "Giorgio de Vega Pinto",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan repayable at Livorno, secured on 450 hairy hides",
+   "keywords": "loan; security; hides; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0729": {
+   "price": "123.5",
+   "currency": "pièces de 8 réaux",
+   "other_equivalent": null,
+   "matter": "Payment of a debt",
+   "notes": "In Italian."
+  },
+  "3-V-0730": {
+   "matter": "Part payment of 387 écus owed for a wine deal",
+   "other_equivalent": "on account of 387 écus",
+   "notes": "In Italian."
+  },
+  "3-V-0731": {
+   "party1_origins": "de la Ciotat; de St-Marcel",
+   "other_parties_names": "Michel Contestin",
+   "other_parties_origins": "catalan de Palamos",
+   "other_parties_role": "debtor",
+   "matter": "Power of attorney to recover 40 écus",
+   "price": "40",
+   "currency": "écus",
+   "keywords": "debt recovery"
+  },
+  "3-V-0732": {
+   "other_parties_names": "Honorat Garnier; Honorat Venture",
+   "other_parties_role": "debtor; debtor",
+   "matter": "Power of attorney to recover what Garnier and Venture owe him",
+   "keywords": "debt recovery",
+   "notes": "In Italian."
+  },
+  "3-V-0733": {
+   "party1_name": "Jehan Bernard; Victhoir Bernard",
+   "party1_origins": "de Marseille; de Marseille",
+   "party1_role": "debtor, ransomed captive; debtor, brother",
+   "other_parties_names": null,
+   "other_parties_role": null,
+   "matter": "Debt for the balance of Jehan Bernard's ransom"
+  },
+  "3-V-0734": {
+   "party1_origins": null,
+   "party1_role": "summoning party, ship master (St-Jacques la Fleur de Lis)",
+   "party2_name": "Basptiste Gabriel",
+   "party2_role": "summoned party, « fadarin » of the ship",
+   "matter": "Summons to a crew member who wants to leave for a polacre to stay aboard; no answer",
+   "keywords": "ship; crew"
+  },
+  "3-V-0735": {
+   "party1_name": "Anthoine Calvane",
+   "party1_role": "party",
+   "notes": "Unfinished and crossed out."
+  },
+  "3-V-0736": {
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Moustapha Frances dit Fontet",
+   "party2_role": "creditor, renegade",
+   "other_parties_names": "Jehan Fontet",
+   "other_parties_origins": "Marseille",
+   "other_parties_role": "payee of the repayment, brother of the renegade",
+   "matter": "Loan for the balance of his ransom, repayable at Marseille to the renegade's brother"
+  },
+  "3-V-0737": {
+   "party1_name": "Pietro Cassi",
+   "party1_origins": "du Gozo de Malte",
+   "party1_role": "principal, captive",
+   "notes": "In Italian. Unsigned."
+  },
+  "3-V-0738": {
+   "transaction_type": "Discharge",
+   "party1_role": "party, merchant, attorney of Anthoine Berengier",
+   "party2_name": "Paoulou Anthony da Joany",
+   "party2_role": "agent of Berengier (accounts settled)",
+   "other_parties_names": "Anthoine Berengier",
+   "other_parties_role": "principal",
+   "matter": "Settlement of all accounts of the business done by Paoulou Anthony for Berengier",
+   "keywords": "accounts; discharge"
+  },
+  "3-V-0739": {
+   "party1_role": "debtor, ship master (St-Jacques la Fleur de Lis)",
+   "matter": "Debt for the last dispatch of his ship",
+   "currency": "livres monnaie de France",
+   "notes": "Jehan Jacques Belegno signs as witness."
+  },
+  "3-V-0740": {
+   "party1_role": "principal, slave of Sidi Soliman son of the late Othman Dey",
+   "matter": "Power of attorney to raise funds (probably for his ransom)"
+  },
+  "3-V-0741": {
+   "party1_name": "Vittoria Pollita",
+   "party2_role": "attorney (agent), consul of Ragusa at Naples",
+   "other_parties_names": "Allesi de Nicolo Grego; Comte de Lemos",
+   "other_parties_origins": ";",
+   "other_parties_role": "debtor; viceroy (?) of Naples (paid 100 ducats for Vittoria)",
+   "matter": "Power of attorney to recover 90 ducats, the rest of 100 ducats paid for her by the Count of Lemos",
+   "other_equivalent": "rest of 100 ducats",
+   "keywords": "debt recovery; ransom; women",
+   "notes": "In Italian."
+  },
+  "3-V-0742": {
+   "party1_name": "Gio Batta di Anastasio",
+   "party1_origins": "napolitain",
+   "party1_role": "principal, Carmelite Father",
+   "party2_name": "Luca Andrea Talamos",
+   "party2_role": "attorney (agent)",
+   "matter": "Power of attorney to raise funds, notably by selling an olive grove inherited from his father Cosmo",
+   "keywords": "inheritance; olive grove; sale",
+   "notes": "In Italian."
+  },
+  "3-V-0743": {
+   "party1_name": "Michel Moran (Mauran)",
+   "party1_origins": "de Marseille",
+   "other_parties_origins": "Genoese renegade",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "price": "369",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "and 13 aspres",
+   "notes": "In Italian."
+  },
+  "3-V-0744": {
+   "notes": "In Italian. Unfinished."
+  },
+  "3-V-0745": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender",
+   "other_parties_names": "Georgio de Vega Pinto",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan repayable at Livorno, secured on 53 caffis of wheat on his ship",
+   "keywords": "loan; security; grain; ship; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0746": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender",
+   "other_parties_names": "Daniel Cordovero; Abraan Zacut",
+   "other_parties_origins": "; juif de Venise",
+   "other_parties_role": "payee of the repayment; for his account",
+   "matter": "Loan secured on 54 caffis of wheat",
+   "keywords": "loan; security; grain; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0747": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender",
+   "other_parties_names": "Giacob Levi",
+   "other_parties_origins": "juif de Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan secured on 26 caffis of wheat",
+   "keywords": "loan; security; grain; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0748": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower",
+   "party2_role": "lender",
+   "other_parties_names": "Georgeo de Vega Pinto",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan secured on 4,500 salted ox heads, 22 sacks of scagliola and 100 salted hides",
+   "keywords": "loan; security; hides; scagliola; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0749": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower",
+   "party2_role": "lender",
+   "other_parties_names": "Giacob Levi",
+   "other_parties_origins": "juif de Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan secured on 20 hairy hides, 1 cantar of yellow wax and 22 sacks of scagliola",
+   "keywords": "loan; security; hides; wax; scagliola; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0750": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_name": "David Melchior (Machior)",
+   "party2_role": "lender",
+   "other_parties_names": "Giacob Levi",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan secured on 24 caffis of wheat",
+   "keywords": "loan; security; grain; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0751": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_name": "David Melchior (Machior)",
+   "party2_role": "lender",
+   "other_parties_names": "Abraan Macior",
+   "other_parties_origins": "juif de Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan secured on 14 caffis of wheat",
+   "price": "60",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "loan; security; grain; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0752": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_name": "David Melchior (Machior)",
+   "party2_role": "lender",
+   "other_parties_names": "Moise Cordovero",
+   "other_parties_origins": "juif de Livourne",
+   "other_parties_role": "payee of the repayment, doctor",
+   "matter": "Loan secured on wheat (same security)",
+   "price": "60",
+   "currency": "écus d'or d'Espagne",
+   "keywords": "loan; security; grain; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0753": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender",
+   "other_parties_names": "Daniel Cordovero; Abraan Zacuht",
+   "other_parties_origins": "Livourne; Venise",
+   "other_parties_role": "payee of the repayment; payee of the repayment",
+   "matter": "Loan secured on 120 caffis of wheat",
+   "keywords": "loan; security; grain; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0754": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender",
+   "other_parties_names": "Jacob Levi",
+   "other_parties_origins": "juif de Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan secured on 40 caffis of wheat",
+   "keywords": "loan; security; grain; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0755": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_name": "Manuel Crespino",
+   "party2_origins": "juif",
+   "party2_role": "lender",
+   "other_parties_names": "Georgio de Vega Pinto",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan secured on 53 caffis of wheat",
+   "keywords": "loan; security; grain; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0756": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender",
+   "other_parties_names": "Georgio de Vega Pinto",
+   "other_parties_origins": "Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan secured on 50 caffis of wheat",
+   "keywords": "loan; security; grain; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0757": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender",
+   "other_parties_names": "Jacob Levi",
+   "other_parties_origins": "juif de Livourne",
+   "other_parties_role": "payee of the repayment",
+   "matter": "Loan secured on 14 caffis of wheat",
+   "keywords": "loan; security; grain; Jews",
+   "notes": "In Italian."
+  },
+  "3-V-0758": {
+   "transaction_type": "Assignment / cession",
+   "party1_role": "assignor (creditor of the Coral Company for his salary)",
+   "party2_name": "Guichard Faure",
+   "party2_role": "assignee, nobleman, counsellor of the King",
+   "other_parties_names": "Laurent Severt",
+   "other_parties_role": "brother (mentioned)",
+   "matter": "Assigns 700 livres tournois to be taken from the new Coral Company out of his salary for two years and seven months in Tunisia",
+   "currency": "livres tournois",
+   "keywords": "coral; company; assignment; wages"
+  },
+  "3-V-0759": {
+   "transaction_type": "Assignment / cession",
+   "party1_role": "assignor",
+   "party2_name": "Charles Arondeau",
+   "party2_origins": "de Paris",
+   "party2_role": "assignee, bourgeois",
+   "matter": "Assigns 600 livres tournois on the same terms",
+   "currency": "livres tournois",
+   "keywords": "coral; company; assignment; wages"
+  },
+  "3-V-0760": {
+   "matter": "Power of attorney to recover all sums owed to him, notably by the former Coral Company: 1,057 livres 4 s. 6 d. advanced in 1612-13 and 3,100 livres of salary for 2 years 7 months to 15 March 1615 at 1,200 livres a year",
+   "price": "1057.23",
+   "currency": "livres",
+   "other_equivalent": "plus 3,100 livres of salary (1,200 livres a year)",
+   "keywords": "coral; company; debt recovery; wages"
+  },
+  "3-V-0761": {
+   "party1_origins": "de la Torre del Greco",
+   "other_parties_role": "slave-owner (receives the ransom), son of Ossein Pacha",
+   "notes": "In Italian."
+  },
+  "3-V-0762": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower, ship master (patron)",
+   "party2_role": "lender, ship master (patron)",
+   "matter": "Loan",
+   "keywords": "loan",
+   "notes": "In Italian."
+  },
+  "3-V-0763": {
+   "transaction_type": "Discharge",
+   "party1_name": "Santo Simodei; Paulo Paris (Parisi)",
+   "party1_origins": "corse; corse",
+   "party1_role": "party (mutual discharge), ship master; party (mutual discharge)",
+   "matter": "Mutual discharge for their joint business",
+   "keywords": "discharge",
+   "notes": "In Italian."
+  },
+  "3-V-0764": {
+   "party1_role": "principal, slave of Ali Pacha",
+   "keywords": "ransom; slavery; Malta",
+   "notes": "In Italian."
+  },
+  "3-V-0765": {
+   "matter": "Payment of a debt",
+   "notes": "In Italian."
+  },
+  "3-V-0766": {
+   "party1_origins": "de la Torre del Greco",
+   "other_parties_role": "slave-owner (receives the ransom), son of Ossain Pacha",
+   "price": "185",
+   "currency": "écus d'or d'Espagne",
+   "other_equivalent": "and 32 aspres",
+   "notes": "In Italian."
+  },
+  "3-V-0767": {
+   "party2_origins": "de Naples",
+   "other_parties_role": "slave-owner (receives the ransom), Pasha",
+   "notes": "In Italian."
+  },
+  "3-V-0768": {
+   "party2_origins": "de Naples",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "notes": "In Italian."
+  },
+  "3-V-0769": {
+   "party2_origins": "de Naples",
+   "other_parties_names": "Morato Luchese",
+   "other_parties_origins": "turc de Tunis",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "notes": "In Italian. The owner's name is at the start of the next act."
+  },
+  "3-V-0770": {
+   "transaction_type": "Redemption",
+   "party1_name": "Franco Calise",
+   "party1_origins": "d'Ischia",
+   "party1_role": "debtor, ransomed captive",
+   "party2_origins": "de Naples",
+   "other_parties_names": "Rais Chiaia",
+   "other_parties_origins": "de Bizerte",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Debt for his ransom",
+   "keywords": "debt; ransom",
+   "notes": "In Italian. The first words (« Morato Luchese, turc de Tunis ») belong to the previous act; « de Bizerte » after the owner's name is at the start of act 3-V-0780."
+  },
+  "3-V-0771": {
+   "party2_origins": "de Naples",
+   "other_parties_role": "slave-owner (receives the ransom), Neapolitan renegade",
+   "other_parties_names": "Isuffo; Gio Carlo Campagna",
+   "other_parties_origins": ";",
+   "notes": "In Italian. Dr Gio Carlo Campagna, brother of Gio Giacomo, is mentioned in this and the following acts."
+  },
+  "3-V-0772": {
+   "party1_origins": "de la Torre del Greco",
+   "party1_role": "debtor, ransomed captive",
+   "party2_origins": "de Naples",
+   "other_parties_names": "Sidi Mamet",
+   "other_parties_role": "slave-owner, son of Othman Dey",
+   "matter": "Debt for the dues on his ransom",
+   "keywords": "debt; ransom; dues",
+   "notes": "In Italian."
+  },
+  "3-V-0773": {
+   "party1_name": "Pinta di Zabella; Prudentia Marsiana",
+   "party1_origins": "de Pistoia; de Pistoia",
+   "party1_role": "debtor, ransomed captive, mother; debtor, ransomed captive, daughter",
+   "party2_origins": "de Naples",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Debt for their ransom",
+   "keywords": "debt; ransom; women",
+   "notes": "In Italian."
+  },
+  "3-V-0774": {
+   "party2_origins": "de Naples",
+   "other_parties_names": "Ussumano",
+   "other_parties_origins": "turc de Tunis",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "notes": "In Italian. The owner's name is at the start of the next act."
+  },
+  "3-V-0775": {
+   "transaction_type": "Redemption",
+   "party1_name": "Benedetto Figallo",
+   "party1_origins": "de Rapallo",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Bartolomeo Avancino",
+   "party2_origins": "génois",
+   "party2_role": "creditor",
+   "other_parties_names": "Ostassano",
+   "other_parties_origins": "Genoese renegade",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Debt for his ransom",
+   "keywords": "debt; ransom; renegade",
+   "notes": "In Italian. The first words (« Ussumano, turc de Tunis ») belong to the previous act."
+  },
+  "3-V-0776": {
+   "notes": "In Italian."
+  },
+  "3-V-0777": {
+   "transaction_type": "Partnership",
+   "party1_role": "partner (buyer); partner (buyer)",
+   "matter": "Joint purchase with their own money of 2,350 white cordovans to carry to Malta",
+   "keywords": "cordovans; partnership; Malta; Moors",
+   "notes": "In Italian."
+  },
+  "3-V-0778": {
+   "party1_role": "debtor, ransomed captive",
+   "matter": "Debt for the dues on his ransom",
+   "keywords": "debt; ransom; dues",
+   "notes": "In Italian. The last word (« Sebastiano ») seems misplaced."
+  },
+  "3-V-0779": {
+   "party1_role": "debtor, ransomed captive",
+   "other_parties_names": "Giaffer Rais",
+   "other_parties_origins": "de Bizerte",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "price": "234",
+   "currency": "écus d'or d'Espagne",
+   "notes": "In Italian. Words out of order in the summary; « Rais, de Bizerte » is at the start of the next act."
+  },
+  "3-V-0780": {
+   "transaction_type": "Discharge",
+   "party1_name": "Batta Bonavia",
+   "party1_role": "ship master (receives the freight)",
+   "party2_name": "Gio Jac. Campagna",
+   "party2_role": "charterer (pays the freight); seller of 4 iron guns",
+   "matter": "Bonavia received all the freight owed for goods carried from Naples to Tunis; Campagna had sold him 4 iron guns for his ship",
+   "keywords": "freight; ship; artillery",
+   "notes": "In Italian. The first words (« Rais, de Bizerte ») belong to the previous act."
+  },
+  "3-V-0781": {
+   "other_parties_names": "Sidi Amide; G. B. Giustiniani; Giacomo Lomelino",
+   "other_parties_origins": "turc de Tunis;;",
+   "other_parties_role": "slave-owner (receives the ransom); principal, governor of Tabarca; principal, for people of Ragusa",
+   "other_equivalent": "and 24 aspres",
+   "keywords": "ransom; Tabarca; Ragusa",
+   "notes": "In Italian."
+  },
+  "3-V-0782": {
+   "party2_name": "Batta della Torre",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Sidi Amide; G. B. Giustiniani; Giacomo Lomelino",
+   "other_parties_origins": ";;",
+   "other_parties_role": "slave-owner (receives the ransom); principal, governor of Tabarca; principal, for people of Ragusa",
+   "other_equivalent": "and 22 aspres",
+   "keywords": "ransom; Tabarca; Ragusa",
+   "notes": "In Italian."
+  },
+  "3-V-0783": {
+   "other_parties_names": "Alli Taib; G. B. Giustiniani; Giacomo Lomelino",
+   "other_parties_origins": "maure de Tunis;;",
+   "other_parties_role": "slave-owner (receives the ransom); principal; principal, for people of Ragusa",
+   "keywords": "ransom; Tabarca; Ragusa; Moors",
+   "notes": "In Italian."
+  },
+  "3-V-0784": {
+   "transaction_type": "Partnership",
+   "party1_origins": "maltais; maltais",
+   "party1_role": "partner, ship master (patron); partner",
+   "matter": "Each provided half of 866 écus to buy goods at Tunis and Djerba for export to Malta",
+   "keywords": "partnership; goods; Malta",
+   "notes": "In Italian."
+  },
+  "3-V-0785": {
+   "party1_role": "ransomed captive; ransomed captive, daughter; ransomed captive, grandson (son of Francesca)",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Ransom; Francesca and Pietro stay at Tunis until Campagna has paid Mamet Cielibi",
+   "keywords": "ransom; women; family; hostage",
+   "notes": "In Italian."
+  },
+  "3-V-0786": {
+   "other_parties_names": "Vittoria la Maritata",
+   "other_parties_role": "debtor (ransomed captive)",
+   "matter": "Power of attorney to recover 400 écus d'or from Vittoria la Maritata (her ransom)",
+   "keywords": "debt recovery; ransom",
+   "notes": "In Italian."
+  },
+  "3-V-0787": {
+   "party1_role": "debtor, ransomed captive",
+   "other_parties_names": "Ostassan; Redemption of Naples",
+   "other_parties_origins": "Genoese renegade;",
+   "other_parties_role": "slave-owner (receives the ransom); alternative payee",
+   "matter": "Debt for his ransom, repayable at Naples to Campagna or the Redemption of Naples",
+   "keywords": "debt; ransom; renegade; Redemption (charitable order)",
+   "notes": "In Italian."
+  },
+  "3-V-0788": {
+   "party2_name": "Santa Casa della Redenzione de' Cattivi di Napoli",
+   "party2_role": "attorney (agent)",
+   "matter": "Power of attorney authorising the Redemption of Naples to recover 100 ducats from himself",
+   "keywords": "Redemption (charitable order)",
+   "notes": "In Italian."
+  },
+  "3-V-0789": {
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Ransom; to repay Campagna 15 days after arrival at Naples",
+   "notes": "In Italian."
+  },
+  "3-V-0790": {
+   "party2_origins": "maltais; maltais",
+   "matter": "Loan; Abella commands the « germe » Sta-Maria di Monserrato",
+   "notes": "In Italian."
+  },
+  "3-V-0791": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Dominico Grego; Dimitrio Gara",
+   "party1_origins": "maltais; maltais",
+   "party1_role": "principal (creditor); principal (creditor)",
+   "party2_name": "Seline Bensalma",
+   "party2_origins": "de Zouara",
+   "party2_role": "attorney (agent), guarantor of the debt",
+   "other_parties_names": "Assano Cusinieri",
+   "other_parties_origins": "turc",
+   "other_parties_role": "debtor (owes 80 sultanis, 10 paid)",
+   "matter": "Bensalma, guarantor, receives the Turkish contract and is charged to recover the debt of Assano Cusinieri",
+   "price": "80",
+   "currency": "sultanis",
+   "keywords": "debt recovery; guarantee",
+   "notes": "In Italian."
+  },
+  "3-V-0792": {
+   "party1_name": "Dominico Grego; Dimitrio Gara",
+   "party1_origins": "maltais; maltais",
+   "party1_role": "recipient (redeemer); recipient (redeemer)",
+   "party2_role": "payer, ransomed captive",
+   "other_parties_names": "Order of St John (Malta)",
+   "other_parties_role": "former slave-owner",
+   "matter": "Repayment of 1,200 sultanis for his ransom from the Order at Malta",
+   "keywords": "ransom; Malta; Moors",
+   "notes": "In Italian."
+  },
+  "3-V-0793": {
+   "other_parties_names": "Osta Morato; G. B. Giustiniani; Giacomo Lomelino",
+   "other_parties_origins": "Genoese renegade;;",
+   "other_parties_role": "slave-owner (receives the ransom); principal, governor of Tabarca; principal, for people of Ragusa",
+   "other_equivalent": "and 47 aspres",
+   "keywords": "ransom; renegade; Tabarca; Ragusa",
+   "notes": "In Italian."
+  },
+  "3-V-0794": {
+   "party1_origins": "de la Torre del Greco",
+   "other_parties_names": "heirs of Othman Dey",
+   "other_parties_role": "slave-owners (receive the ransom)",
+   "notes": "In Italian."
+  },
+  "3-V-0795": {
+   "transaction_type": "Redemption",
+   "party1_name": "Pompeo de Lando",
+   "party1_origins": "de Naples",
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Gio Jac. Campagna",
+   "party2_role": "creditor",
+   "other_parties_names": "heirs of Othman Dey",
+   "other_parties_role": "slave-owners (receive the ransom)",
+   "matter": "Debt for his ransom (same terms as the previous act)",
+   "keywords": "debt; ransom",
+   "notes": "In Italian."
+  },
+  "3-V-0796": {
+   "party1_role": "debtor, ransomed captive, Franciscan « Secolante »",
+   "party2_name": "Gio Jac. Campagna",
+   "party2_role": "creditor",
+   "other_parties_names": "heirs of Othman Dey",
+   "other_parties_role": "slave-owners (receive the ransom)",
+   "matter": "Debt for his ransom (same terms)",
+   "keywords": "debt; ransom",
+   "notes": "In Italian."
+  },
+  "3-V-0797": {
+   "party1_role": "debtor, ransomed captive",
+   "party2_name": "Gio Jac. Campagna",
+   "party2_role": "creditor",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "matter": "Debt for his ransom (same terms)",
+   "keywords": "debt; ransom",
+   "notes": "In Italian."
+  },
+  "3-V-0798": {
+   "party1_role": "principal, slave of Cait Alli (Genoese renegade)",
+   "notes": "In Italian."
+  },
+  "3-V-0799": {
+   "transaction_type": "Redemption",
+   "party1_role": "debtor, ransomed captive",
+   "party2_origins": "anglais",
+   "other_parties_names": "Agi Mamett",
+   "other_parties_origins": "turc de Tunis",
+   "other_parties_role": "slave-owner (receives the ransom)",
+   "currency": "écus d'or d'Espagne",
+   "matter": "Debt for his ransom",
+   "keywords": "debt; ransom",
+   "notes": "In Italian. The end of the summary (« ...pagne payés pour son rachat à Agi Mamett, turc de Tunis ») is at the start of the next act."
+  },
+  "3-V-0800": {
+   "transaction_type": "Redemption",
+   "party1_name": "Bernardo Borghetto",
+   "party1_origins": "de Gênes",
+   "party1_role": "ransomed captive, son of Stefano and Zanina Borghetta",
+   "party2_name": "Batta della Torre",
+   "party2_role": "redeemer (paid the ransom)",
+   "other_parties_names": "Ragieppo Bey; G. B. Giustiniani",
+   "other_parties_origins": "turc de Tunis;",
+   "other_parties_role": "slave-owner (receives the ransom); principal, governor of Tabarca, for the Redemption of Genoa",
+   "matter": "Ransom of a captive",
+   "notes": "In Italian. The first words belong to the previous act; « Zanina » has slipped into « Batta della Torre »."
+  },
+  "3-V-0801": {
+   "party1_role": "principal, slave of the heirs of Othman Dey",
+   "notes": "In Italian."
+  },
+  "3-V-0802": {
+   "transaction_type": "Loan",
+   "party1_role": "borrower",
+   "party2_role": "lender",
+   "matter": "Loan",
+   "notes": "In Italian. A witness: Estienne Rivet, French physician and surgeon."
+  },
+  "3-V-0803": {
+   "notes": "In Italian."
+  },
+  "3-V-0804": {
+   "notes": "In Italian."
+  },
+  "3-V-0805": {
+   "party1_role": "recipient (redeemer at Malta)",
+   "party2_origins": "turc; maure",
+   "party2_role": "payer, ransomed captive; payer, ransomed captive",
+   "other_parties_names": "Order of St John (Malta)",
+   "other_parties_role": "former slave-owner",
+   "matter": "Repayment of the sultanis he paid at Malta to ransom them from the Order",
+   "currency": "sultanis",
+   "keywords": "ransom; Malta; Moors",
+   "notes": "In Italian. The amount is missing."
+  },
+  "3-V-0806": {
+   "transaction_type": "Declaration of loss (sea protest)",
+   "party1_role": "declarant, ship master (Sta-Catterina Bonaventura)",
+   "other_parties_names": "Tomaso Navono; Francesco Materana; Batta Bartoloto; Bartolomeo Belviso; Cosimo Ferrazzo; Benedetto Ficalla",
+   "other_parties_origins": "génois; génois; génois; génois; génois; de Rapallo",
+   "other_parties_role": "witness, clerk, 29; witness, sailor, 55; witness, boatswain, 27; witness, sailor, 30; witness, passenger, 47; witness, passenger, 38",
+   "matter": "Sailing for Livorno with grain, hides, wool, dates, wax and scagliola, the ship sprang a leak and was beached near Porto Farina; all lost except the hides",
+   "keywords": "shipwreck; leak; grain; hides; wool; ship",
+   "notes": "In Italian."
+  },
+  "3-V-0807": {
+   "other_parties_names": "Bartolomeo Avancino",
+   "other_parties_origins": "génois",
+   "other_parties_role": "debtor",
+   "matter": "Power of attorney to recover 150 écus d'or",
+   "keywords": "debt recovery",
+   "notes": "In Italian."
+  },
+  "3-V-0808": {
+   "party2_role": "creditor, agent of the States General",
+   "other_parties_role": "slave-owner (receives the ransom), bölükbaşı",
+   "keywords": "debt; ransom; Dutch",
+   "notes": "In Italian."
+  },
+  "3-V-0809": {
+   "party2_origins": "corse",
+   "party2_role": "payer (lender)",
+   "other_parties_role": "slave-owner (receives the ransom), governor and protector of the militia of Tunis",
+   "notes": "In Italian."
+  },
+  "3-V-0810": {
+   "party2_role": "payer (lender)",
+   "matter": "Loan for the balance of his ransom; repaid on 13 June 1615",
+   "notes": "In Italian."
   }
  }
 }
