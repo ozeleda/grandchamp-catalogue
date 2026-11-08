@@ -749,7 +749,7 @@ def extract(act):
 
     # ---- "X a reçu de Y ... à titre de prêt": a loan, not a receipt
     if (res.get("type_en") == "Payment / receipt" and "rachat" not in s
-            and re.search(r"à titre de prêt|(?:qu'il|que celui-ci|qu'ils) lui (?:a|ont) prêtée?s?|avance de fonds|remboursables?\s+(?:à|au|aux|dès|un mois|15 jours)\b", s)):
+            and re.search(r"à titre de prêt|(?:qu'il|que celui-ci|qu'ils) lui (?:a|ont) prêtée?s?|avance de fonds|remboursables?\s+(?:à|au|aux|dès|un mois|15 jours)\b|\bà rembourser\b", s)):
         res["type_en"] = "Loan"
         swap = {"recipient (acknowledges receipt)": "borrower", "payer": "lender"}
         for p in res["p1"] + res["p2"]:
