@@ -761,8 +761,14 @@ def extract(act):
     return res
 
 
+ROLE_NORM = {"seller / owner (receives the ransom)": "slave-owner (receives the ransom)",
+             "recipient of ransom payment (captor/owner)": "slave-owner (receives the ransom)"}
+
+
 def to_columns(act, res):
     """Flatten an extraction into the transaction columns."""
+    for p in res["p1"] + res["p2"] + res["others"]:
+        p["roles"] = [ROLE_NORM.get(r, r) for r in p["roles"]]
     MONTHS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
               "septembre", "octobre", "novembre", "décembre"]
     md = None
