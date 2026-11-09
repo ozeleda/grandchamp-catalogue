@@ -29,8 +29,8 @@ reading of the margin dates. Volume 4, pp. 82–83, missing from the photocopy, 
 the photographs. Volume 10's act analysis ends on 28 May 1703: the rest of register XXIV is lost.
 The date check against the page images is complete for volume 10 and covers volume 4 up to p. 136.
 
-The transaction columns of volumes 1–4 were reviewed by hand, act by act (`extraction =
-'reviewed'`). Those of volumes 5–8 and 10 are still the automatic draft (`extraction = 'auto'`)
+The transaction columns of volumes 1–5 were reviewed by hand, act by act (`extraction =
+'reviewed'`). Those of volumes 6–8 and 10 are still the automatic draft (`extraction = 'auto'`)
 and are being reviewed in the same way. Where Grandchamp printed two or more acts in one
 paragraph, the review splits them (`split_at` in the annotation file); the extra acts get the
 parent's ref with a letter suffix (`4-X-1678b`) and their own date.
