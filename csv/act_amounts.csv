@@ -15,7 +15,7 @@
 3-IV-0003,111.0,doublon,d'or,111 doubles d'or
 4-VII-0003,8.0,réal,,8 réaux
 5-XI-0003,300.0,écu,,300 écus
-6-XIV-0003,8.0,réal,,8 réaux
+6-XIV-0003b,8.0,réal,,8 réaux
 2-III-0004,200.0,écu,,200 écus
 3-IV-0004,416.0,livre,,416 livres
 4-VII-0004,100.0,écu,,100 écus
@@ -287,7 +287,7 @@
 4-VII-0044,8.0,réal,,8 réaux
 5-XI-0044,8.0,réal,,8 réaux
 6-XV-0044,8.0,réal,,8 réaux
-6-XV-0044,8.0,réal,,8 réaux
+6-XV-0044b,8.0,réal,,8 réaux
 2-III-0045,220.0,écu,d'or d'Espagne,220 écus d'or d'Espagne
 2-III-0045,50.0,écu,,50 écus
 3-IV-0045,27000.0,réal,,27.000 réaux
@@ -3958,7 +3958,7 @@
 5-XII-0560,48.0,écu,,48 écus
 6-XV-0560,8.0,réal,,8 réaux
 6-XV-0560,21.0,aspre,,21 aspres
-6-XV-0560,300.0,piastre,,300 piastres
+6-XV-0560b,300.0,piastre,,300 piastres
 7-XVII-0560,8.0,réal,,8 réaux
 7-XVII-0560,34.0,aspre,,34 aspres
 8-XXI-0560,420.0,piastre,,420 piastres
@@ -6176,9 +6176,9 @@
 3-V-0876,31.0,écu,,31 écus
 4-IX-0876,8.0,réal,,8 réaux
 6-XV-0876,8.0,réal,,8 réaux
-6-XV-0876,230.0,piastre,,230 piastres
-6-XV-0876,8.0,réal,,8 réaux
-6-XV-0876,200.0,piastre,,200 piastres
+6-XV-0876b,230.0,piastre,,230 piastres
+6-XV-0876b,8.0,réal,,8 réaux
+6-XV-0876b,200.0,piastre,,200 piastres
 7-XVIII-0876,8.0,réal,,8 réaux
 2-IV-0877,10.0,écu,,10 écus
 4-IX-0877,255.0,écu,de 64 aspres,255 écus de 64 aspres
@@ -6397,7 +6397,7 @@
 4-IX-0910,8.0,réal,,8 réaux
 6-XV-0910,8.0,réal,,8 réaux
 6-XV-0910,30.0,aspre,,30 aspres
-6-XV-0910,21.0,piastre,,21 piastres
+6-XV-0910b,21.0,piastre,,21 piastres
 7-XVIII-0910,8.0,réal,,8 réaux
 2-IV-0911,40.0,écu,,40 écus
 3-V-0911,451.0,écu,,451 écus
@@ -6844,8 +6844,8 @@
 6-XV-0984,8.0,réal,,8 réaux
 7-XVIII-0984,8.0,réal,,8 réaux
 5-XII-0985,31.0,piastre,,31 piastres
-6-XV-0985,430.0,piastre,,430 piastres
-6-XV-0985,8.0,réal,,8 réaux
+6-XV-0985b,430.0,piastre,,430 piastres
+6-XV-0985b,8.0,réal,,8 réaux
 7-XVIII-0985,450.0,piastre,,450 piastres
 8-XXIII-0985,68.0,livre,,68 livres
 2-IV-0986,80.0,écu,d'or d'Espagne,80 écus d'or d'Espagne
@@ -10231,7 +10231,7 @@
 3-VI-1611,100.0,écu,d'or,100 écus d'or
 4-X-1611,8.0,réal,,8 réaux
 5-XIV-1611,8.0,réal,,8 réaux
-6-XVII-1612,8.0,réal,,8 réaux
+6-XVII-1612b,8.0,réal,,8 réaux
 7-XIX-1612,8.0,réal,,8 réaux
 7-XIX-1612,46.0,aspre,,46 aspres
 8-XXIII-1612,500.0,piastre,,500 piastres
