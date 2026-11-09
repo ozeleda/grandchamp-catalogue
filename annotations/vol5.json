@@ -22222,13 +22222,13 @@
    "party2_origins": "marchand résidant à Tunis",
    "party2_role": "payer",
    "other_parties_names": "Marc Davy (David)",
-   "or_": "deceased debtor",
    "matter": "Balance of what Marc David owed him",
    "price": 263,
    "currency": "pièces de 8 réaux",
    "other_equivalent": "263 pièces 34 aspres",
    "keywords": "debt; estate; seal",
-   "notes": "Split off from 5-XIV-1596. The date is inferred from the neighbouring acts. The octagonal crescent-shaped Arabic seal noted at the start of 5-XIV-1597 probably belongs to this act."
+   "notes": "Split off from 5-XIV-1596. The date is inferred from the neighbouring acts. The octagonal crescent-shaped Arabic seal noted at the start of 5-XIV-1597 probably belongs to this act.",
+   "other_parties_role": "deceased debtor"
   },
   "5-XIV-1597": {
    "transaction_type": "Debt",
@@ -22735,10 +22735,10 @@
    "party2_role": "attorney (absent)",
    "other_parties_names": "Barthellemi Place",
    "other_parties_origins": "patron de la barque Notre-Dame de Bon Port",
-   "or_": "patron owing the duty",
    "matter": "Power to recover the balance of the consular duties owed by the barque Notre-Dame de Bon Port",
    "keywords": "power of attorney; consular duty; consul; barque",
-   "notes": "Split off from 5-XIV-1633. Date taken from it."
+   "notes": "Split off from 5-XIV-1633. Date taken from it.",
+   "other_parties_role": "patron owing the duty"
   },
   "5-XIV-1634": {
    "split_at": [
@@ -23004,12 +23004,12 @@
    "party2_role": "lender (paid the ransom)",
    "other_parties_names": "Amat Dey; Pierre Auffan; Pantellin Laure",
    "other_parties_origins": "; père du déclarant;",
-   "or_": "slave-owner (received the ransom); provided 100 pièces; provided 100 pièces",
    "matter": "Ransom, half provided by the captive's father, half by Pantellin Laure",
    "price": 200,
    "currency": "pièces de 8 réaux",
    "keywords": "ransom; dey",
-   "notes": "Split off from 5-XIV-1649 (folio 110 v°). The date is inferred from it; the act falls between 30 May and 6 June 1644. The summary is cut off."
+   "notes": "Split off from 5-XIV-1649 (folio 110 v°). The date is inferred from it; the act falls between 30 May and 6 June 1644. The summary is cut off.",
+   "other_parties_role": "slave-owner (received the ransom); provided 100 pièces; provided 100 pièces"
   },
   "5-XIV-1650": {
    "transaction_type": "Redemption",
@@ -25429,12 +25429,12 @@
    "party2_origins": "anglais",
    "party2_role": "lender (paid the ransom)",
    "other_parties_names": "Amet bei",
-   "or_": "slave-owner (received the ransom)",
    "matter": "Ransom, repayable at Livorno as in 5-XIV-1808",
    "price": 430,
    "currency": "pièces de 8 réaux",
    "keywords": "ransom; Palermo; England; Livorno; bey",
-   "notes": "In Italian. Split off from 5-XIV-1809 (folio 264 v°); the amount (430 pièces) is printed inside the previous act."
+   "notes": "In Italian. Split off from 5-XIV-1809 (folio 264 v°); the amount (430 pièces) is printed inside the previous act.",
+   "other_parties_role": "slave-owner (received the ransom)"
   },
   "5-XIV-1810": {
    "transaction_type": "Power of attorney",
@@ -25669,12 +25669,12 @@
    "party2_role": "payer",
    "other_parties_names": "Mathieu Denan; Pantelin Laure",
    "other_parties_origins": "de Six Fours;",
-   "or_": "paid the money at Marseille; received it at Marseille",
    "matter": "Money for their ransom, paid at Marseille by Mathieu Denan to Pantelin Laure",
    "price": 700,
    "currency": "pièces de 8 réaux",
    "keywords": "ransom; remittance; Six-Fours; Marseille",
-   "notes": "Split off from 5-XIV-1823. Date taken from it."
+   "notes": "Split off from 5-XIV-1823. Date taken from it.",
+   "other_parties_role": "paid the money at Marseille; received it at Marseille"
   },
   "5-XIV-1824": {
    "transaction_type": "Redemption",
@@ -26657,12 +26657,12 @@
    "party1_role": "requester",
    "other_parties_names": "Gidi Alti Mami Andelloux; Cidi Mamet ben Moussa Andelloux; Lange de Martin",
    "other_parties_origins": "à Alger; de Tunis; consul",
-   "or_": "paid the money at Algiers; gave the order; ordered the registration",
    "matter": "Registration of a bill of exchange by which Guerin sent 300 pièces for the French Nation in February, paid at Algiers by order of Cidi Mamet ben Moussa",
    "price": 300,
    "currency": "pièces de 8 réaux",
    "keywords": "bill of exchange; registration; French Nation; Algiers; Lazarists; Moriscos",
-   "notes": "Split off from 5-XIV-1888 (folio 333 v°). Date taken from it. The copy of the bill follows."
+   "notes": "Split off from 5-XIV-1888 (folio 333 v°). Date taken from it. The copy of the bill follows.",
+   "other_parties_role": "paid the money at Algiers; gave the order; ordered the registration"
   },
   "5-XIV-1889": {
    "transaction_type": "Redemption",
@@ -27234,11 +27234,11 @@
    "party2_role": "owner of the goods",
    "other_parties_names": "Hamiel",
    "other_parties_origins": "chancelier",
-   "or_": "signed",
    "matter": "Declaration that he could not sell 480 « griffon » combs for Testel because they were not of a saleable quality",
    "other_equivalent": "480 combs",
    "keywords": "combs; unsold goods; poor quality; commission",
-   "notes": "Split off from 5-XIV-1927. See 5-XIV-1906."
+   "notes": "Split off from 5-XIV-1927. See 5-XIV-1906.",
+   "other_parties_role": "signed"
   },
   "5-XIV-1927c": {
    "date": "1648-01-24",
@@ -27477,12 +27477,12 @@
    "party2_origins": "marchand juif à Tunis",
    "party2_role": "lender (paid the ransom)",
    "other_parties_names": "Issouf (Sidy Isouf Cheleby)",
-   "or_": "slave-owner (received the ransom)",
    "matter": "Ransom",
    "price": 500,
    "currency": "pièces de 8 réaux",
    "keywords": "ransom; Ragusa; Jews",
-   "notes": "Split off from 5-XIV-1941. Jullien Guerin, named as witness, did not sign."
+   "notes": "Split off from 5-XIV-1941. Jullien Guerin, named as witness, did not sign.",
+   "other_parties_role": "slave-owner (received the ransom)"
   },
   "5-XIV-1941c": {
    "date": "1648-02-19",
@@ -28029,10 +28029,10 @@
    "party1_origins": "patron, de Frontignan",
    "party1_role": "requester",
    "other_parties_names": "Michel Pascal; Philip Romieu (Roubion); Pierre Gombard",
-   "or_": "deceased sailors",
    "matter": "Certificate of the deaths from plague of three sailors of his barque, shipwrecked on this coast: Michel Pascal (15 June), Philip Romieu (16 May), Pierre Gombard (20 June); buried in the cemetery of St-Anthoine at Tunis",
    "keywords": "death certificate; plague; shipwreck; sailors; burial",
-   "notes": "Split off from 5-XIV-1979 (folio 407); the date is inferred from it. François Francillon, named as witness, did not sign. See 5-XIV-1937."
+   "notes": "Split off from 5-XIV-1979 (folio 407); the date is inferred from it. François Francillon, named as witness, did not sign. See 5-XIV-1937.",
+   "other_parties_role": "deceased sailors"
   },
   "5-XIV-1980": {
    "transaction_type": "Loan",
@@ -28208,12 +28208,12 @@
    "party2_origins": "patron de la barque Jesus Maria Ste-Anne",
    "party2_role": "payer",
    "other_parties_names": "Sebastien Beaumond",
-   "or_": "creditor (owed 400 piastres)",
    "matter": "Receipt of 375 piastres out of the 400 owed to Sebastien Beaumond, used to pay Lazare's ransom",
    "price": 375,
    "currency": "piastres de 8 réaux",
    "keywords": "ransom; sailors; barque",
-   "notes": "Split off from 5-XIV-1992; dated 4 December from the day number printed before it. The OCR gives both 373 and 375."
+   "notes": "Split off from 5-XIV-1992; dated 4 December from the day number printed before it. The OCR gives both 373 and 375.",
+   "other_parties_role": "creditor (owed 400 piastres)"
   },
   "5-XIV-1993": {
    "transaction_type": "Power of attorney",
@@ -29374,12 +29374,12 @@
    "party2_origins": "patron, maltais",
    "party2_role": "payer (present)",
    "other_parties_names": "the Lords of the Mont (Monte della Redenzione)",
-   "or_": "ordered the payment",
    "matter": "Declaration that Giovanni Maria paid for him, on the order of the Lords of the Mont, the costs of his ransom, including the fee of the French Nation's sacagi",
    "price": 35,
    "currency": "pièces de 8 réaux",
    "keywords": "ransom expenses; Redemption of captives; Malta; sacagi",
-   "notes": "In Italian. Split off from 5-XIV-2066."
+   "notes": "In Italian. Split off from 5-XIV-2066.",
+   "other_parties_role": "ordered the payment"
   },
   "5-XIV-2067": {
    "transaction_type": "Declaration",
