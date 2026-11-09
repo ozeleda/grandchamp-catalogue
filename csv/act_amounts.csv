@@ -6823,7 +6823,7 @@
 6-XV-0981,16.0,piastre,,16 piastres
 3-VI-0982,170.0,écu,,170 écus
 4-IX-0982,287.0,livre,,287 livres
-4-IX-0982,287.0,livre,,287 livres
+4-IX-0982b,287.0,livre,,287 livres
 6-XV-0982,200.0,piastre,,200 piastres
 6-XV-0982,8.0,réal,,8 réaux
 7-XVIII-0982,8.0,réal,,8 réaux
@@ -6899,7 +6899,7 @@
 2-IV-0995,68.0,écu,d'or d'Espagne,68 écus d'or d'Espagne
 3-VI-0995,224.0,écu,,224 écus
 4-IX-0995,57.0,écu,,57 écus
-4-IX-0995,49.0,livre,,49 livres
+4-IX-0995b,49.0,livre,,49 livres
 6-XV-0995,8.0,réal,,8 réaux
 3-VI-0996,336.0,écu,,336 écus
 4-IX-0996,192.0,livre,,192 livres
@@ -8580,9 +8580,9 @@
 7-XIX-1269,600.0,piastre,,600 piastres
 4-IX-1270,40.0,écu,,40 écus
 4-IX-1270,128.0,livre,,128 livres
-4-IX-1270,10.0,écu,,10 écus
-4-IX-1270,40.0,écu,,40 écus
-4-IX-1270,8.0,réal,,8 réaux
+4-IX-1270b,10.0,écu,,10 écus
+4-IX-1270b,40.0,écu,,40 écus
+4-IX-1270b,8.0,réal,,8 réaux
 5-XIII-1270,36.0,aspre,,36 aspres
 5-XIII-1270,1043.0,livre,,1043 livres
 7-XIX-1270,8.0,réal,,8 réaux
@@ -9460,7 +9460,7 @@
 4-IX-1447,8.0,réal,,8 réaux
 6-XVI-1447,8.0,réal,,8 réaux
 7-XIX-1447,8.0,réal,,8 réaux
-4-IX-1448,8.0,réal,,8 réaux
+4-IX-1448b,8.0,réal,,8 réaux
 6-XVI-1448,8.0,réal,,8 réaux
 8-XXIII-1448,325.0,piastre,,325 piastres
 3-VI-1449,65.0,écu,,65 écus
@@ -9495,7 +9495,7 @@
 3-VI-1455,60.0,écu,,60 écus
 4-IX-1455,8.0,réal,,8 réaux
 6-XVI-1455,8.0,réal,,8 réaux
-4-IX-1456,8.0,réal,,8 réaux
+4-IX-1456b,8.0,réal,,8 réaux
 6-XVI-1456,8.0,réal,,8 réaux
 3-VI-1457,270.0,écu,,270 écus
 4-IX-1457,80.0,aspre,,80 aspres
@@ -9631,7 +9631,7 @@
 8-XXIII-1484,6.0,aspre,,6 aspres
 3-VI-1485,133.0,écu,,133 écus
 4-IX-1485,300.0,écu,de 64 aspres,300 écus de 64 aspres
-4-IX-1485,500.0,écu,de 64 aspres,500 écus de 64 aspres
+4-IX-1485b,500.0,écu,de 64 aspres,500 écus de 64 aspres
 6-XVI-1485,8.0,réal,,8 réaux
 8-XXIII-1485,30.0,piastre,,30 piastres
 8-XXIII-1485,8.0,réal,,8 réaux
@@ -9787,7 +9787,7 @@
 3-VI-1518,300.0,écu,,300 écus
 3-VI-1518,64.0,aspre,,64 aspres
 4-IX-1518,8.0,réal,,8 réaux
-4-IX-1518,210.0,ducat,,210 ducats
+4-IX-1518b,210.0,ducat,,210 ducats
 5-XIV-1518,8.0,réal,,8 réaux
 7-XIX-1518,8.0,réal,,8 réaux
 8-XXIII-1518,240.0,piastre,,240 piastres
@@ -9979,7 +9979,7 @@
 7-XIX-1555,41.0,aspre,,41 aspres
 3-VI-1556,30.0,écu,de 64 aspres,30 écus de 64 aspres
 4-IX-1556,8.0,réal,,8 réaux
-4-IX-1556,500.0,écu,de France,500 écus de France
+4-IX-1556b,500.0,écu,de France,500 écus de France
 5-XIV-1556,8.0,réal,,8 réaux
 4-IX-1557,3.0,écu,,3 écus
 4-IX-1557,40.0,aspre,,40 aspres
@@ -10043,8 +10043,8 @@
 5-XIV-1569,9.0,piastre,,9 piastres
 7-XIX-1569,750.0,livre,,750 livres
 4-IX-1570,8.0,réal,,8 réaux
-4-IX-1570,8.0,réal,,8 réaux
-4-IX-1570,8.0,réal,,8 réaux
+4-IX-1570c,8.0,réal,,8 réaux
+4-IX-1570d,8.0,réal,,8 réaux
 5-XIV-1570,49.0,piastre,,49 piastres
 5-XIV-1571,8.0,réal,,8 réaux
 6-XVI-1571,8.0,réal,,8 réaux
@@ -10301,7 +10301,7 @@
 5-XIV-1629,8.0,réal,,8 réaux
 3-VI-1630,50.0,écu,d'or,50 écus d'or
 4-X-1630,105.0,écu,,105 écus
-4-X-1630,8.0,réal,,8 réaux
+4-X-1630b,8.0,réal,,8 réaux
 6-XVII-1630,100.0,livre,,100 livres
 6-XVII-1630,150.0,livre,,150 livres
 8-XXIII-1630,2000.0,piastre,,2.000 piastres
@@ -10532,13 +10532,13 @@
 3-VI-1687,240.0,écu,d'or,240 écus d'or
 4-X-1687,8.0,réal,,8 réaux
 3-VI-1688,8.0,réal,,8 réaux
-4-X-1688,11.0,aspre,,11 aspres
+4-X-1688c,11.0,aspre,,11 aspres
 5-XIV-1688,8.0,réal,,8 réaux
 6-XVII-1688,8.0,réal,,8 réaux
 7-XIX-1688,8.0,réal,,8 réaux
 7-XIX-1688,31.0,aspre,,31 aspres
 3-VI-1689,100.0,écu,d'or,100 écus d'or
-4-X-1689,8.0,réal,,8 réaux
+4-X-1689d,8.0,réal,,8 réaux
 5-XIV-1689,8.0,réal,,8 réaux
 6-XVII-1689,8.0,réal,,8 réaux
 3-VI-1690,180.0,écu,,180 écus
@@ -10695,7 +10695,7 @@
 3-VI-1738,335.0,écu,,335 écus
 3-VI-1738,64.0,aspre,,64 aspres
 5-XIV-1738,8.0,réal,,8 réaux
-4-X-1739,8.0,réal,,8 réaux
+4-X-1739b,8.0,réal,,8 réaux
 7-XIX-1739,8.0,réal,,8 réaux
 3-VI-1740,300.0,écu,d'or de 64 aspres,300 écus d'or de 64 aspres
 7-XIX-1740,8.0,réal,,8 réaux
@@ -10849,13 +10849,13 @@
 3-VI-1810,101.0,once,,101 onces
 3-VI-1810,6.0,tari,,6 taris
 4-X-1810,8.0,réal,,8 réaux
-4-X-1810,1940.0,livre,,1.940 livres
+4-X-1810b,1940.0,livre,,1.940 livres
 4-X-1812,8.0,réal,,8 réaux
 3-VI-1813,142.0,écu,,142 écus
 3-VI-1813,50.0,aspre,,50 aspres
 4-X-1813,8.0,réal,,8 réaux
 4-X-1813,42.0,aspre,,42 aspres
-4-X-1813,8.0,réal,,8 réaux
+4-X-1813b,8.0,réal,,8 réaux
 5-XIV-1813,8.0,réal,,8 réaux
 5-XIV-1813,150.0,piastre,,150 piastres
 3-VI-1814,8.0,réal,,8 réaux
@@ -10924,7 +10924,7 @@
 4-X-1838,8.0,réal,,8 réaux
 5-XIV-1838,8.0,réal,,8 réaux
 4-X-1839,8.0,réal,,8 réaux
-4-X-1839,8.0,réal,,8 réaux
+4-X-1839b,8.0,réal,,8 réaux
 3-VI-1840,160.0,écu,d'or de 64 aspres,160 écus d'or de 64 aspres
 3-VI-1840,24.0,écu,,24 écus
 5-XIV-1840,8.0,réal,,8 réaux
@@ -11345,7 +11345,7 @@
 5-XIV-2024,8.0,réal,,8 réaux
 4-X-2025,172.0,écu,,172 écus
 4-X-2026,8.0,réal,,8 réaux
-4-X-2026,8.0,réal,,8 réaux
+4-X-2026c,8.0,réal,,8 réaux
 3-VII-2027,291.0,écu,de 64 aspres,291 écus de 64 aspres
 3-VII-2027,172.0,écu,,172 écus
 4-X-2027,8.0,réal,,8 réaux
@@ -11464,8 +11464,8 @@
 4-X-2077,19.0,once,,19 onces
 3-VII-2078,190.0,écu,d'or,190 écus d'or
 4-X-2078,8.0,réal,,8 réaux
-4-X-2078,210.0,écu,,210 écus
-4-X-2078,14.0,tari,,14 taris
+4-X-2078b,210.0,écu,,210 écus
+4-X-2078b,14.0,tari,,14 taris
 4-X-2079,102.0,écu,,102 écus
 5-XIV-2079,8.0,réal,,8 réaux
 3-VII-2080,600.0,écu,d'or de 64 aspres,600 écus d'or de 64 aspres
@@ -11500,7 +11500,7 @@
 4-X-2092,8.0,réal,,8 réaux
 5-XIV-2092,8.0,réal,,8 réaux
 3-VII-2093,12.0,écu,de 64 aspres,12 écus de 64 aspres
-4-X-2093,859.0,piastre,,859 piastres
+4-X-2093b,859.0,piastre,,859 piastres
 3-VII-2094,24.0,écu,de 64 aspres,24 écus de 64 aspres
 4-X-2094,8.0,réal,,8 réaux
 4-X-2094,8.0,réal,,8 réaux
@@ -11510,7 +11510,7 @@
 4-X-2095,8.0,réal,,8 réaux
 5-XIV-2095,8.0,réal,,8 réaux
 4-X-2096,31.0,écu,,31 écus
-4-X-2096,8.0,réal,,8 réaux
+4-X-2096b,8.0,réal,,8 réaux
 5-XIV-2096,8.0,réal,,8 réaux
 3-VII-2097,212.0,écu,de 64 aspres,212 écus de 64 aspres
 5-XIV-2097,8.0,réal,,8 réaux
@@ -11527,8 +11527,8 @@
 4-X-2104,8.0,réal,,8 réaux
 5-XIV-2104,8.0,réal,,8 réaux
 4-X-2105,8.0,réal,,8 réaux
-4-X-2105,8.0,réal,,8 réaux
-4-X-2105,42.0,aspre,,42 aspres
+4-X-2105b,8.0,réal,,8 réaux
+4-X-2105b,42.0,aspre,,42 aspres
 3-VII-2107,125.0,écu,d'or de 64 aspres,125 écus d'or de 64 aspres
 3-VII-2108,225.0,livre,,225 livres
 4-X-2108,8.0,réal,,8 réaux
@@ -11602,7 +11602,7 @@
 5-XIV-2137,66.0,piastre,,66 piastres
 3-VII-2138,1500.0,ducat,,1.500 ducats
 4-X-2138,8.0,réal,,8 réaux
-4-X-2138,8.0,réal,,8 réaux
+4-X-2138b,8.0,réal,,8 réaux
 3-VII-2139,30.0,écu,,30 écus
 4-X-2139,8.0,réal,,8 réaux
 5-XIV-2139,34.0,piastre,,34 piastres
@@ -11739,13 +11739,13 @@
 4-XI-2202,12.0,livre,,12 livres
 3-VII-2203,1000.0,écu,de 64 aspres,1.000 écus de 64 aspres
 3-VII-2204,8.0,réal,,8 réaux
-4-XI-2204,8.0,réal,,8 réaux
+4-XI-2204b,8.0,réal,,8 réaux
 3-VII-2205,923.0,écu,,923 écus
 4-XI-2205,8.0,réal,,8 réaux
-4-XI-2205,8.0,réal,,8 réaux
-4-XI-2205,8.0,réal,,8 réaux
-4-XI-2205,8.0,réal,,8 réaux
-4-XI-2205,8.0,réal,,8 réaux
+4-XI-2205b,8.0,réal,,8 réaux
+4-XI-2205c,8.0,réal,,8 réaux
+4-XI-2205d,8.0,réal,,8 réaux
+4-XI-2205e,8.0,réal,,8 réaux
 3-VII-2206,429.0,écu,,429 écus
 3-VII-2206,12.0,réal,,12 réaux
 3-VII-2207,260.0,écu,,260 écus
@@ -11754,11 +11754,11 @@
 3-VII-2209,30.0,écu,,30 écus
 4-XI-2209,325.0,écu,,325 écus
 4-XI-2210,8.0,réal,,8 réaux
-4-XI-2210,8.0,réal,,8 réaux
+4-XI-2210b,8.0,réal,,8 réaux
 3-VII-2211,125.0,écu,de 64 aspres,125 écus de 64 aspres
 4-XI-2211,8.0,réal,,8 réaux
-4-XI-2211,8.0,réal,,8 réaux
-4-XI-2211,8.0,réal,,8 réaux
+4-XI-2211b,8.0,réal,,8 réaux
+4-XI-2211c,8.0,réal,,8 réaux
 4-XI-2212,8.0,réal,,8 réaux
 4-XI-2215,8.0,réal,,8 réaux
 3-VII-2216,125.0,écu,d'or,125 écus d'or
@@ -11805,11 +11805,11 @@
 4-XI-2241,200.0,écu,d'or,200 écus d'or
 4-XI-2242,8.0,réal,,8 réaux
 4-XI-2243,8.0,réal,,8 réaux
-4-XI-2243,12.0,livre,,12 livres
+4-XI-2243b,12.0,livre,,12 livres
 3-VII-2244,374.0,écu,d'or,374 écus d'or
 4-XI-2245,8.0,réal,,8 réaux
 3-VII-2246,400.0,écu,,400 écus
-4-XI-2247,8.0,réal,,8 réaux
+4-XI-2247b,8.0,réal,,8 réaux
 4-XI-2248,8.0,réal,,8 réaux
 3-VII-2249,8.0,réal,,8 réaux
 4-XI-2249,450.0,écu,,450 écus
@@ -11865,7 +11865,7 @@
 4-XI-2282,8.0,réal,,8 réaux
 3-VII-2283,8.0,réal,,8 réaux
 4-XI-2283,8.0,réal,,8 réaux
-4-XI-2283,8.0,réal,,8 réaux
+4-XI-2283b,8.0,réal,,8 réaux
 3-VII-2284,42.0,écu,,42 écus
 4-XI-2285,8.0,réal,,8 réaux
 4-XI-2285,8.0,réal,,8 réaux
