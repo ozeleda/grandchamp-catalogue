@@ -1,5 +1,5 @@
 {
- "reviewed_through_seq": 1305,
+ "reviewed_through_seq": 1365,
  "acts": {
   "8-XIX-0001": {
    "transaction_type": "Claim / dispute",
@@ -17566,6 +17566,670 @@
    "currency": "piastres de 8 réaux",
    "keywords": "sale of ship; prize; English consul; Porto Farina",
    "notes": "Probably the Ste-Barbe taken by the English corsairs in May 1696: cf. 8-XXIII-1188."
+  },
+  "8-XXIII-1306": {
+   "transaction_type": "Order (registration)",
+   "party1_name": "De Grenonville",
+   "party1_role": "captain of light frigate commanding the armed barques St-André, St-Jean Baptiste and la Trompeuse; issuer",
+   "party2_name": "Peire",
+   "party2_role": "captain of the pink le St-Tropez",
+   "matter": "Order of 6 July 1697 to load the wheat he will hand over, to relieve his prizes, and follow him to France without delay",
+   "keywords": "order; registration; royal navy; privateering; prizes; wheat"
+  },
+  "8-XXIII-1307": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Cosme Bardon",
+   "party1_origins": "merchant of Marseille",
+   "party1_role": "principal",
+   "party2_name": "Victor Peix",
+   "party2_role": "procureur at the courts of Marseille; attorney",
+   "matter": "To take an oath in his name",
+   "keywords": "power of attorney; oath; litigation; Marseille"
+  },
+  "8-XXIII-1308": {
+   "transaction_type": "Undertaking (submission)",
+   "party1_name": "Sebastien Antoine",
+   "party1_origins": "Martigues",
+   "party1_role": "commander of the barque L'Avanturiere at Bizerte",
+   "matter": "To take the newly acquired barque to Marseille for an Admiral's passport and unload her grain there, since in the present circumstances it may go only to France",
+   "keywords": "undertaking; submission; passport; Admiral; grain; Marseille",
+   "notes": "Cf. 8-XXIII-1299."
+  },
+  "8-XXIII-1309": {
+   "transaction_type": "Quittance",
+   "party1_name": "Louis Roux",
+   "party1_role": "payee",
+   "party2_name": "Gaspard Bourguet",
+   "party2_role": "payer",
+   "matter": "Quittance",
+   "price": "523",
+   "currency": "piastres",
+   "keywords": "quittance",
+   "notes": "Cf. 8-XXIII-1245."
+  },
+  "8-XXIII-1310": {
+   "split_at": [
+    "(350) A la réquisition"
+   ],
+   "transaction_type": "Receipt",
+   "party1_name": "Auger Sorhainde",
+   "party1_role": "consul; payee",
+   "party2_name": "Domenigo Suga",
+   "party2_role": "tavern keeper at Bizerte; former slave; payer",
+   "matter": "Payment of the note of 7 January 1697",
+   "price": "100",
+   "currency": "piastres",
+   "keywords": "receipt; taverns; Bizerte; consul",
+   "notes": "Cf. 8-XXIII-1260 (Danony's note; Suga is named in the stray fragment there)."
+  },
+  "8-XXIII-1310b": {
+   "date": "1697-07",
+   "transaction_type": "Declaration (travel times)",
+   "party1_name": "Agy Abdala",
+   "party1_origins": "Moor of Ariana near Tunis, aged 50",
+   "party1_role": "declarant",
+   "party2_name": "Louis Bonnet",
+   "party2_role": "requester",
+   "matter": "He has made several journeys from Tunis to Tripoli on foot, taking 17–18 days in winter and 12–13 in summer; a man on horseback can do it in 9 days in summer and 12 in winter",
+   "keywords": "declaration; travel times; overland route; Tripoli; Ariana",
+   "notes": "Split from the previous act, with which the OCR had run it together (same folio 350); the day is lost."
+  },
+  "8-XXIII-1311": {
+   "transaction_type": "Declaration (refused delivery)",
+   "party1_name": "Pierre Carlier",
+   "party1_role": "declarant",
+   "party2_name": "Diamante Perdicaly",
+   "party2_role": "consignee",
+   "other_parties_names": "the late Mamet Bey",
+   "other_parties_origins": "",
+   "matter": "Wine and brandy came to Bizerte in March 1695 on the barque Ste-Anne; when the barque came to La Goulette six weeks later Perdicaly refused delivery, because it was late and because the city's taverns had been closed since the start of the siege by order of the late Mamet Bey, so the wine would not sell",
+   "keywords": "declaration; wine; brandy; taverns; siege; refused delivery; Bizerte",
+   "other_parties_role": "closed the taverns"
+  },
+  "8-XXIII-1312": {
+   "transaction_type": "Declaration (barter)",
+   "party1_name": "Mario Mifsut",
+   "party1_role": "captain",
+   "matter": "Sale of certain goods in barter for beans delivered at Bizerte",
+   "keywords": "declaration; barter; beans; Bizerte"
+  },
+  "8-XXIII-1313": {
+   "transaction_type": "Receipt (dowry)",
+   "party1_name": "Antoine Carlier",
+   "party1_role": "surgeon; bridegroom; payee",
+   "party2_name": "Diamante Perdicaly; Catherine Perdicaly",
+   "party2_role": "father-in-law, payer; mother-in-law, payer",
+   "matter": "Payment under a clause of the marriage contract of 23 June; the marriage has since been celebrated in church and consummated",
+   "price": "250",
+   "currency": "piastres",
+   "keywords": "receipt; dowry; marriage",
+   "notes": "Cf. 8-XXIII-1300."
+  },
+  "8-XXIII-1314": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Lodovico Barbeti",
+   "party1_origins": "Livorno",
+   "party1_role": "principal",
+   "party2_name": "Philippo di Landro",
+   "party2_origins": "Sicily",
+   "party2_role": "attorney",
+   "other_parties_names": "Giacomo Lantero",
+   "other_parties_origins": "Genoa; died at El-Alia",
+   "matter": "To recover from the chancellor and others what the late Lantero left in this country; Barbeti had paid 120 piastres at Livorno to free him from prison for debt",
+   "price": "120",
+   "currency": "piastres",
+   "keywords": "power of attorney; estate; imprisonment for debt; Livorno",
+   "other_parties_role": "deceased"
+  },
+  "8-XXIII-1315": {
+   "transaction_type": "Deposit (unclaimed goods)",
+   "party1_name": "Jean Roubaud",
+   "party1_origins": "La Ciotat",
+   "party1_role": "commander of the tartane St-Antoine at La Goulette; depositor",
+   "party2_name": "the Chancery",
+   "party2_role": "depositary",
+   "other_parties_names": "a Maltese corsair",
+   "other_parties_origins": "",
+   "matter": "8 baskets and 2 sacks of rice from Tripoli belonging to Turks or Moors, not yet claimed because the tartane was plundered by a Maltese corsair and all papers lost; stored in a magazine of the Nation's fondouk",
+   "keywords": "deposit; rice; Tripoli; corsairs; Malta; plunder; fondouk",
+   "other_parties_role": "plundered the tartane"
+  },
+  "8-XXIII-1316": {
+   "transaction_type": "Charter party",
+   "party1_name": "Pierre Perou",
+   "party1_origins": "St-Tropez",
+   "party1_role": "for the barque St-Barthelemy of his father André Bonnaventure Perou (8 swivel guns)",
+   "party2_name": "Nicolas Beranger",
+   "party2_role": "charterer",
+   "matter": "To load wheat at Bizerte for Marseille; the barque is at Sousse from Tripoli",
+   "decision": "Annulled",
+   "keywords": "charter party; wheat; Bizerte; Marseille"
+  },
+  "8-XXIII-1317": {
+   "transaction_type": "Declaration (customs dispute)",
+   "party1_name": "Auger Sorhainde",
+   "party1_role": "consul; declarant",
+   "party2_name": "Cosme Bardon",
+   "party2_role": "consignee; complainant",
+   "other_parties_names": "kahia of the Bey customs officer; Charles Reynier; Girardin; Dupin; the authorities",
+   "other_parties_origins": "; La Ciotat; French merchants at Livorno; French merchants at Livorno; ",
+   "matter": "On 30 July the kahia had goods from Livorno (25 sacks of alum, 2 cases of mastic, a bale of Venetian sayes) taken to the customs, claiming 10% duty as Jewish goods instead of 3% for French, suspecting French merchants of lending their names to Jews; the authorities upheld the 10% despite the consul's protest under article 15 of the treaty of 30 August 1685, so he had the goods re-embarked rather than prejudice the treaty",
+   "keywords": "declaration; customs; duties; treaty of 1685; Jews; nominees; alum; mastic; Livorno",
+   "other_parties_role": "seized the goods; patron of the barque La Vierge de Grace; shippers; shippers; upheld the 10% duty"
+  },
+  "8-XXIII-1318": {
+   "transaction_type": "Certificate (convoy)",
+   "party1_name": "Auger Sorhainde",
+   "party1_role": "consul; certifier",
+   "party2_name": "Jean Roubaud",
+   "party2_origins": "La Ciotat",
+   "party2_role": "patron of the tartane St-Antoine",
+   "other_parties_names": "M. des Francs",
+   "other_parties_origins": "",
+   "matter": "On the 23rd he refused to clear the tartane, ready to leave Bizerte for Marseille, to make her and all other ships on the coast await the return to La Goulette of the two King's ships under des Francs, who are to escort them to Provence",
+   "keywords": "certificate; convoy; royal navy; Bizerte",
+   "other_parties_role": "commander of two King's ships"
+  },
+  "8-XXIII-1319": {
+   "transaction_type": "Registration (papers of a voyage)",
+   "party1_name": "Louis Seguier",
+   "party1_role": "shipper",
+   "party2_name": "Barthezard Ferrandy; Jean-André Ichoarep (Izoard)",
+   "party2_origins": "; Malta",
+   "party2_role": "captain of the barque St-Simphorien Bonnaventure; patron and supercargo",
+   "other_parties_names": "Pierre Durand",
+   "other_parties_origins": "merchant at Marseille",
+   "matter": "Various documents, notably Seguier's instructions given at Sfax on 12 February 1697 for a voyage to the Levant and Smyrna and back, with the goods loaded for Durand's account (allic and horra dates, two cases of fine Tunis caps of 123½ dozen, 9 tuns of oil of 110 metals, butter, etc.)",
+   "keywords": "registration; instructions; voyage; Levant; Smyrna; Sfax; dates; caps; oil; butter",
+   "other_parties_role": "owner of the goods"
+  },
+  "8-XXIII-1320": {
+   "transaction_type": "Quittance",
+   "party1_name": "Abram de Moizé de Paz",
+   "party1_origins": "Jew",
+   "party1_role": "payee",
+   "party2_name": "J.-J. Sarradin; Louis Bonnet",
+   "party2_role": "payers",
+   "matter": "Quittance",
+   "price": "155",
+   "currency": "piastres",
+   "keywords": "quittance; Jews"
+  },
+  "8-XXIII-1321": {
+   "transaction_type": "Declaration (demurrage)",
+   "party2_name": "Charles Reynier",
+   "party2_origins": "La Ciotat",
+   "party2_role": "patron of the barque La Vierge de Grace",
+   "matter": "Demurrage of the barque",
+   "keywords": "declaration; demurrage",
+   "notes": "Cf. 8-XXIII-1317."
+  },
+  "8-XXIII-1322": {
+   "transaction_type": "Receipt (balance of account)",
+   "party1_name": "Cosme Bardon",
+   "party1_role": "payee",
+   "party2_name": "Nicolas Beranger",
+   "party2_role": "payer",
+   "other_parties_names": "Claude Payen",
+   "other_parties_origins": "",
+   "matter": "Balance of account for consignments sent by Payen",
+   "price": "312 (and 43 aspres)",
+   "currency": "piastres",
+   "keywords": "receipt; account; consignment",
+   "other_parties_role": "consignor"
+  },
+  "8-XXIII-1323": {
+   "transaction_type": "Declaration (customs)",
+   "party1_name": "Mamet Betaïb",
+   "party1_role": "Moorish merchant of Tunis, speaking the lingua franca; former caid at Sousse; declarant",
+   "other_parties_names": "Marruccio Xchembry",
+   "other_parties_origins": "Malta",
+   "matter": "As caid at Sousse in 1696 he received 90 piastres for the duties on goods loaded on Xchembry's ship",
+   "price": "90",
+   "currency": "piastres",
+   "keywords": "declaration; customs; duties; Sousse; lingua franca; Malta",
+   "notes": "Cf. 8-XXIII-1362.",
+   "other_parties_role": "commander of a small Maltese ship"
+  },
+  "8-XXIII-1324": {
+   "transaction_type": "Settlement (restitution of a prize)",
+   "party1_name": "Tropheme Brillan",
+   "party1_origins": "Martigues",
+   "party1_role": "patron of the tartane St-Claude; attorney of the owners",
+   "party2_name": "the English consul at Tunis",
+   "party2_role": "condemned party",
+   "other_parties_names": "the authorities of the country; the Dey",
+   "other_parties_origins": "; ",
+   "matter": "The tartane was taken on 20 July 1696 by an English corsair off Porto Farina while going from Tunis to Bizerte; the authorities condemned the English consul to bring the prize back or pay its value as unlawfully taken; he did not, and the Dey condemned him to pay 3,000 piastres; a settlement avoided a lawsuit",
+   "price": "3000",
+   "currency": "piastres",
+   "keywords": "settlement; prize; restitution; English consul; Dey; corsairs; Porto Farina",
+   "notes": "Cf. 8-XXIII-1201 (dated 27 June 1696 there).",
+   "other_parties_role": "ordered restitution; condemned the consul to 3,000 piastres"
+  },
+  "8-XXIII-1325": {
+   "transaction_type": "Quittance",
+   "party1_name": "Jacques La Croix",
+   "party1_origins": "Toulon",
+   "party1_role": "captain; payee",
+   "party2_name": "Nicolas Beranger",
+   "party2_role": "payer",
+   "matter": "100 Venetian sequins and 12 Spanish pistoles",
+   "price": "100 sequins and 12 pistoles",
+   "currency": "sequins (Venetian); pistoles (Spanish)",
+   "keywords": "quittance; sequins; pistoles"
+  },
+  "8-XXIII-1326": {
+   "transaction_type": "Loan (maritime)",
+   "party1_name": "Jacques La Croix",
+   "party1_role": "commander of the ship St-Joseph at Bizerte; borrower",
+   "party2_name": "Fulcrand Estelle",
+   "party2_role": "second deputy; lender",
+   "matter": "For the final despatch of his ship",
+   "price": "100",
+   "currency": "piastres",
+   "keywords": "loan; maritime loan; deputies of commerce"
+  },
+  "8-XXIII-1327": {
+   "transaction_type": "Declaration (unloading)",
+   "matter": "2 cases of Brazil brown sugar from Marseille",
+   "keywords": "unloading; Marseille; sugar; Brazil",
+   "party2_name": "Jacques Bironnet",
+   "party2_role": "patron of the barque St-Antoine de Padoue"
+  },
+  "8-XXIII-1328": {
+   "transaction_type": "Declaration",
+   "party1_name": "Moize Mendez Ossuna; Abraham Mendez Ossuna",
+   "party1_origins": "Jews",
+   "party1_role": "declarants",
+   "party2_name": "Louis Remuzat",
+   "party2_role": "former échevin of Marseille; beneficiary",
+   "matter": "About commercial dealings dating from 1692",
+   "keywords": "declaration; trade; Jews; Marseille"
+  },
+  "8-XXIII-1329": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Moizé de Soria; Hain de Soria",
+   "party1_origins": "Jews",
+   "party1_role": "principals",
+   "party2_name": "Rafael Hain",
+   "party2_role": "solicitor of lawsuits at Livorno; attorney",
+   "matter": "Power of attorney",
+   "keywords": "power of attorney; litigation; Jews; Livorno"
+  },
+  "8-XXIII-1330": {
+   "transaction_type": "Letter (registration)",
+   "party1_name": "Alberto Audimonte; Salvador Audimonte",
+   "party1_origins": "Livorno",
+   "party1_role": "writers",
+   "party2_name": "Moizé Mendez Ossuna; Abraham Mendez Ossuna",
+   "party2_role": "addressees",
+   "matter": "Letter in Spanish dated Livorno 10 January 1691",
+   "keywords": "registration; letter; Jews; Spanish; Livorno"
+  },
+  "8-XXIII-1331": {
+   "transaction_type": "Hypothecation (cargo)",
+   "party1_name": "Gaspard Bourguet and Co.",
+   "party1_role": "debtors",
+   "party2_name": "Nicolas Beranger",
+   "party2_role": "creditor",
+   "other_parties_names": "Claude Gay",
+   "other_parties_origins": "Marseille",
+   "matter": "Mortgage for 1,500 piastres on the cargo of 247 caffis of wheat loaded at Bizerte",
+   "price": "1500",
+   "currency": "piastres",
+   "keywords": "hypothecation; security; wheat; Bizerte",
+   "notes": "Folio printed '(365 v°)', no doubt (363 v°).",
+   "other_parties_role": "patron of the barque Jesus Marie Ste-Anne"
+  },
+  "8-XXIII-1332": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Catherine Fabre",
+   "party1_origins": "Mérindol, Provence",
+   "party1_role": "principal",
+   "party2_name": "Pierre Jonquet",
+   "party2_origins": "merchant of Montpellier living at Marseille",
+   "party2_role": "attorney",
+   "matter": "To recover a debt",
+   "keywords": "power of attorney; women; debt"
+  },
+  "8-XXIII-1333": {
+   "transaction_type": "Bill of lading (registration)",
+   "matter": "Bill dated Sousse … April 1697: 39 casks and 46 small jars of oil for Smyrna",
+   "keywords": "bill of lading; registration; Sousse; oil; Smyrna",
+   "party2_name": "B. Bertrand",
+   "party2_role": "patron of the barque St-Joseph"
+  },
+  "8-XXIII-1334": {
+   "transaction_type": "Undertaking (tonnage duty)",
+   "party1_name": "Charles Lion",
+   "party1_origins": "La Ciotat",
+   "party1_role": "commander of the ship St-Louis le bien aymé",
+   "matter": "He undertakes to pay the tonnage duty on the grain loaded at Bizerte and other goods loaded for French account should he unload them elsewhere than Marseille",
+   "keywords": "undertaking; tonnage duty; grain; Bizerte; Marseille"
+  },
+  "8-XXIII-1335": {
+   "transaction_type": "Bill of lading (registration)",
+   "matter": "Bill dated Sousse 26 September 1697: 55 bales of surge wool (280 quintals 15 livres), 10 of pelée (28 quintals 98 livres), 6 of sheepskin (129 dozen), 1,043 goat skins, 350 sheep sinews, 5 caffis of wheat, 36 baskets of barilla (150 quintals), 2 horses of the country, for Marseille",
+   "keywords": "bill of lading; registration; Sousse; wool; skins; barilla; horses; Marseille",
+   "party2_name": "André Rigaud",
+   "party2_origins": "Marseille",
+   "party2_role": "patron of the barque Nostre Dame de bon rencontre"
+  },
+  "8-XXIII-1336": {
+   "transaction_type": "Bill of lading (registration)",
+   "matter": "Likewise, dated Tunis 10 September 1697: 5 caffis of wheat for Marseille",
+   "keywords": "bill of lading; registration; wheat; Marseille",
+   "party2_name": "André Rigaud",
+   "party2_role": "captain of the barque l'Amazone",
+   "split_at": [
+    "23 (368) Idem"
+   ]
+  },
+  "8-XXIII-1336b": {
+   "date": "1697-11-23",
+   "transaction_type": "Bill of lading (registration)",
+   "party2_name": "B. Mercier",
+   "party2_role": "patron of the tartane Nostre Dame de Misericorde",
+   "matter": "Bill dated Bizerte 1 October 1697: 76 caffis 14 bouibes of new wheat, 33 (caffis) of new beans, 11 mats, for Marseille",
+   "keywords": "bill of lading; registration; wheat; beans; Bizerte; Marseille",
+   "notes": "Split from the previous act, with which the OCR had run it together (the 23rd)."
+  },
+  "8-XXIII-1337": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Dominique Maretz",
+   "party1_origins": "Marseille",
+   "party1_role": "master clockmaker living at Tunis ('master clockmaker of the Bey'); principal",
+   "party2_name": "Magdelaine Maure, called Garaffa",
+   "party2_origins": "Marseille",
+   "party2_role": "wife; attorney",
+   "matter": "To manage his property",
+   "keywords": "power of attorney; women; clockmakers; Bey"
+  },
+  "8-XXIII-1338": {
+   "transaction_type": "Request (annulment of manifest)",
+   "party1_name": "Jean Baudeuf",
+   "party1_origins": "Marseille",
+   "party1_role": "commander of the barque St-Joseph at Bizerte; requester",
+   "party2_name": "Nicolas Beranger",
+   "party2_role": "shipper",
+   "matter": "He asks to annul his cargo manifest, Beranger not having delivered all the wheat listed",
+   "keywords": "request; manifest; wheat; Bizerte"
+  },
+  "8-XXIII-1339": {
+   "transaction_type": "Declaration (goods not received)",
+   "party1_name": "Isaque de Moizé Israel de Medina",
+   "party1_origins": "Jew",
+   "party1_role": "consignee; declarant",
+   "party2_name": "Joseph Arnaud",
+   "party2_origins": "Toulon",
+   "party2_role": "captain of the ship La Renommée",
+   "matter": "Goods loaded for him at Livorno not received: a barrel of cochineal, a packet of small coral beads, 9 fathoms of black cloth",
+   "keywords": "declaration; missing goods; cochineal; coral; cloth; Livorno; Jews"
+  },
+  "8-XXIII-1340": {
+   "transaction_type": "Ransom",
+   "party1_name": "Francisco Solf",
+   "party1_origins": "Gaeta",
+   "party1_role": "ransomed captive",
+   "party2_name": "Abram di Benjamin Franco",
+   "party2_role": "redeemer",
+   "matter": "Ransom on the order of merchants acting for the pious institutions of Naples, repayable 20 days after arrival at Livorno",
+   "price": "372",
+   "currency": "pièces de 8 réaux",
+   "keywords": "ransom; Naples; Jews; pious institutions; Livorno; Capuchins",
+   "notes": "In Italian.",
+   "other_equivalent": "ransom proper 300; total 432 pieces 16 aspres; exchange 16%",
+   "party2_origins": "Jew",
+   "other_parties_names": "Assen; Gioachino da Gassino",
+   "other_parties_origins": "keeper of the seal of Romadan Bey; Capuchin, apostolic missionary",
+   "other_parties_role": "former owner; witness"
+  },
+  "8-XXIII-1341": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Antoine Carlier",
+   "party1_origins": "Vaurias",
+   "party1_role": "surgeon of the Bey of Tunis; principal",
+   "party2_name": "Jean Roubaud",
+   "party2_origins": "merchant of Marseille",
+   "party2_role": "attorney",
+   "matter": "To recover debts, notably his share in the cargoes of two barques loaded at Bizerte in September and November",
+   "keywords": "power of attorney; surgeons; Bey; cargo; Bizerte"
+  },
+  "8-XXIII-1342": {
+   "transaction_type": "Partnership (registration)",
+   "party1_name": "Antoine Carlier",
+   "party1_role": "partner",
+   "party2_name": "Louis Renoulx",
+   "party2_role": "partner",
+   "matter": "Deed of partnership dated 7 August 1697",
+   "keywords": "partnership; registration",
+   "notes": "Folio printed '(374)', no doubt (371)."
+  },
+  "8-XXIII-1343": {
+   "transaction_type": "Partnership",
+   "matter": "Same matter",
+   "keywords": "partnership"
+  },
+  "8-XXIII-1344": {
+   "transaction_type": "Ransom",
+   "party1_name": "Filippo Vincenzo Remito",
+   "party1_origins": "Positano",
+   "party1_role": "ransomed captive",
+   "party2_name": "Abram di Benjamin Franco",
+   "party2_role": "redeemer",
+   "matter": "Ransom on the same terms as above",
+   "price": "309 (and 39 aspres)",
+   "currency": "pièces de 8 réaux",
+   "keywords": "ransom; Naples; Jews; pious institutions; Capuchins",
+   "notes": "In Italian.",
+   "party2_origins": "Jew",
+   "other_parties_names": "Agi Assen; Gioachino da Gassino",
+   "other_parties_origins": "Turk of the Levant; Capuchin",
+   "other_parties_role": "former owner; signatory"
+  },
+  "8-XXIII-1345": {
+   "transaction_type": "Bill of lading (registration)",
+   "matter": "Bill dated Bizerte 3 November: 3 sacks of escayolle (1,402 livres), semolina and couscous, for Marseille",
+   "keywords": "bill of lading; registration; escayolle; semolina; couscous; Bizerte; Marseille",
+   "party2_name": "Mathieu Fleury",
+   "party2_role": "patron of the barque Jesus Maria Ste-Anne",
+   "notes": "The end of the entry was printed as a separate item (8-XXIII-1346)."
+  },
+  "8-XXIII-1346": {
+   "drop": true
+  },
+  "8-XXIII-1347": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Jean-Baptiste Vitalis",
+   "party1_role": "merchant of Marseille living at Tunis; principal",
+   "party2_name": "Jean Vitalis",
+   "party2_role": "brother; attorney",
+   "other_parties_names": "Valentine d'Ollivier",
+   "other_parties_origins": "",
+   "matter": "Revoking his power to his wife, he empowers his brother to manage his affairs",
+   "keywords": "power of attorney; revocation; family; women",
+   "other_parties_role": "wife; former attorney (revoked)"
+  },
+  "8-XXIII-1348": {
+   "transaction_type": "Declaration (accounts)",
+   "party1_name": "Louis Seguier",
+   "party1_role": "declarant",
+   "other_parties_names": "Claude Balp; Pierre Durand",
+   "other_parties_origins": "; goldsmith merchant of Marseille",
+   "matter": "Act of his deposit in the chancery of various accounts of the business he did here with Balp for Durand's account",
+   "keywords": "declaration; accounts; deposit; chancery; goldsmiths",
+   "notes": "Cf. 8-XXIII-1319.",
+   "other_parties_role": "partner; principal"
+  },
+  "8-XXIII-1349": {
+   "transaction_type": "Declaration (fictitious sale, registration)",
+   "party1_name": "Gaspard Bourguet",
+   "party1_role": "declarant; nominal buyer",
+   "party2_name": "Thomas Goodwyn; Jacques Chetvood",
+   "party2_role": "English consul, nominal seller; nominal seller",
+   "matter": "Declaration of 18 July 1697: the sale of the ship formerly Santa-Barbara, now Sant-Giacomo, for 2,200 pieces in the contract of the 6th was not real; the contract is false, made only to serve their designs, and he neither bought the ship nor paid the sum",
+   "price": "2200",
+   "currency": "pieces",
+   "keywords": "declaration; fictitious sale; nominee; ship; English consul; flag",
+   "notes": "In Italian. Cf. 8-XXIII-1305 and 1365."
+  },
+  "8-XXIII-1350": {
+   "transaction_type": "Surety (registration)",
+   "party1_name": "Jacques Roux",
+   "party1_role": "surety",
+   "party2_name": "Fulcrand Estelle",
+   "party2_role": "beneficiary",
+   "matter": "Note of surety",
+   "price": "500",
+   "currency": "piastres",
+   "keywords": "surety; registration"
+  },
+  "8-XXIII-1351": {
+   "transaction_type": "Election (deputies of commerce)",
+   "party1_name": "Auger Sorhainde",
+   "party1_role": "consul; presiding",
+   "party2_name": "Louis Sabain; Louis Bonnet",
+   "party2_role": "elected deputies for 1698",
+   "other_parties_names": "Roux; Estelle; Bayn; G. Aubert; Simon Merlet",
+   "other_parties_origins": "outgoing deputy; outgoing deputy; ; ; ",
+   "matter": "Sabain and Bonnet elected to replace Roux and Estelle",
+   "keywords": "election; deputies of commerce; Nation",
+   "other_parties_role": "signatory; signatory; signatory; signatory; signatory"
+  },
+  "8-XXIII-1352": {
+   "transaction_type": "Power of attorney",
+   "party1_name": "Aron Vualguez Nunez (Aro de Hargas)",
+   "party1_origins": "Jewish merchant, said to be a native of Morón, Andalusia",
+   "party1_role": "principal",
+   "party2_name": "Isaac Nunez Valguez (Ysaque Nunes Vargas)",
+   "party2_role": "son; attorney",
+   "other_parties_names": "Angala (Clara) Nunez; Pierre Mendez Rosset",
+   "other_parties_origins": "his late sister; Bidache",
+   "matter": "To recover at Bidache, in the government of Bayonne, the estate of his late sister",
+   "keywords": "power of attorney; inheritance; Jews; New Christians; Spain; Bidache; Bayonne",
+   "other_parties_role": "deceased; her late husband"
+  },
+  "8-XXIII-1353": {
+   "transaction_type": "Declaration (unloading)",
+   "matter": "44 cases of sulphur from Marseille",
+   "keywords": "unloading; Marseille; sulphur; munitions",
+   "party2_name": "Joseph Chaulan",
+   "party2_origins": "Marseille",
+   "party2_role": "patron of the barque St-Joseph"
+  },
+  "8-XXIII-1354": {
+   "transaction_type": "Sale (half a ship)",
+   "party1_name": "Antoine Jaume",
+   "party1_origins": "Frontignan",
+   "party1_role": "commander of the barque St-Antoine de Padoue at La Goulette; seller",
+   "party2_name": "Maurize Boyer",
+   "party2_role": "buyer for Jean Boyer",
+   "other_parties_names": "Jean Boyer; the Beylik of Tripoli",
+   "other_parties_origins": "; ",
+   "matter": "Half of the barque of 3,000 quintals, with rigging and arms, bought from the Beylik of Tripoli",
+   "price": "1375",
+   "currency": "livres",
+   "other_equivalent": "3 livres 12 sols to the piastre",
+   "keywords": "sale of shares; part ownership; barque; Tripoli; exchange rate",
+   "other_parties_role": "principal; former owner"
+  },
+  "8-XXIII-1355": {
+   "transaction_type": "Inventory (ship)",
+   "matter": "Inventory of the St-Antoine de Padoue: 4 swivel guns with 8 chambers and wedges, 40 livres of powder, 36 two-pound balls, 37 bags and 40 stone balls for the swivel guns, 150 musket cartridges, 300 musket balls, 2 compasses, 3 sandglasses, a copper binnacle lamp",
+   "keywords": "inventory; ship; arms; munitions; navigation instruments"
+  },
+  "8-XXIII-1356": {
+   "transaction_type": "Account (registration)",
+   "party1_name": "Louis Sabain",
+   "party1_role": "shipper",
+   "party2_name": "Mathieu Fleury",
+   "party2_role": "patron of the barque Jesus Maria Ste-Anne",
+   "matter": "Account of the price and costs of goods loaded for Marseille in November 1697",
+   "keywords": "account; registration; cargo; Marseille"
+  },
+  "8-XXIII-1357": {
+   "transaction_type": "Loan (maritime)",
+   "party1_name": "Antoine Jaume",
+   "party1_origins": "Frontignan",
+   "party1_role": "patron; borrower",
+   "party2_name": "Maurize Boyer",
+   "party2_role": "lender",
+   "matter": "For the final despatch of his barque; he is leaving for Marseille",
+   "price": "186",
+   "currency": "piastres",
+   "keywords": "loan; maritime loan"
+  },
+  "8-XXIII-1358": {
+   "transaction_type": "Quittance",
+   "matter": "Quittance",
+   "price": "35",
+   "currency": "piastres",
+   "keywords": "quittance"
+  },
+  "8-XXIII-1359": {
+   "transaction_type": "Agreement (lawsuit at Livorno)",
+   "party1_name": "Barthelemy Bertrand",
+   "party1_origins": "Martigues",
+   "party1_role": "patron of the barque St-Joseph; plaintiff",
+   "party2_name": "Eliau Valensino",
+   "party2_origins": "Jew",
+   "party2_role": "defendant",
+   "matter": "Agreement on the judgment at Livorno of the patron's suit for payment of 2,960 piastres 38 medins",
+   "price": "2960 (and 38 medins)",
+   "currency": "piastres",
+   "keywords": "agreement; lawsuit; Livorno; freight; Jews",
+   "notes": "Cf. 8-XXIII-1275."
+  },
+  "8-XXIII-1360": {
+   "transaction_type": "Agreement (lawsuit at Livorno)",
+   "party1_name": "Sebastien Antoine",
+   "party1_origins": "Martigues",
+   "party1_role": "patron; plaintiff",
+   "party2_name": "Eliau Valensino",
+   "party2_role": "defendant",
+   "matter": "Likewise for a suit brought by Sebastien Antoine",
+   "keywords": "agreement; lawsuit; Livorno; Jews"
+  },
+  "8-XXIII-1361": {
+   "transaction_type": "Declaration (short goods)",
+   "matter": "Half a piece of coloured cloth missing from a bale from Livorno",
+   "keywords": "declaration; cloth; short goods; Livorno"
+  },
+  "8-XXIII-1362": {
+   "transaction_type": "Declaration (customs)",
+   "party2_name": "Xchembri",
+   "party2_role": "patron of a barque",
+   "matter": "Duties paid at Sousse for Xchembri's barque",
+   "keywords": "declaration; customs; Sousse",
+   "notes": "Cf. 8-XXIII-1323."
+  },
+  "8-XXIII-1363": {
+   "transaction_type": "Receipt (accounts)",
+   "party1_name": "Louis Bonnet",
+   "party1_role": "recipient",
+   "party2_name": "Baguet; Bourguet",
+   "party2_role": "accountants",
+   "matter": "Receipt of the accounts",
+   "keywords": "receipt; accounts"
+  },
+  "8-XXIII-1364": {
+   "transaction_type": "Bill of lading (registration)",
+   "matter": "Bill dated Sousse 25 … 1696: 17 jars of butter, 16 cantars of sponges, 4 baskets of 'habbasis', a case of boutargue, for Malta",
+   "keywords": "bill of lading; registration; Sousse; butter; sponges; boutargue; Malta",
+   "party2_name": "Marozo Xchembry",
+   "party2_role": "patron of the barque La Madona del Carmine"
+  },
+  "8-XXIII-1365": {
+   "transaction_type": "Annulment",
+   "party1_name": "Gaspard Bourguet",
+   "party1_role": "party",
+   "party2_name": "Thomas Goodwyn",
+   "party2_role": "English consul",
+   "matter": "Bourguet annuls the act of 6 July 1697 for the purchase of a ship from Goodwyn",
+   "decision": "Annulment of 8-XXIII-1305",
+   "keywords": "annulment; sale of ship; fictitious sale",
+   "notes": "Cf. 8-XXIII-1305 and 1349."
   }
  }
 }
