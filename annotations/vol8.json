@@ -127,9 +127,8 @@
    "other_parties_names": "Mehemet Dey; merchants of Livorno",
    "other_equivalent": "ransom proper 400; exchange 15%",
    "party2_origins": "England; England",
-   "other_parties_role": "gave the order",
-   "other_parties_origins": "Dey of Tunis; Livorno",
-   "or_": "former owner; gave the order"
+   "other_parties_role": "former owner; gave the order",
+   "other_parties_origins": "Dey of Tunis; Livorno"
   },
   "8-XIX-0012": {
    "transaction_type": "Certificate (loss of cargo)",
@@ -709,8 +708,7 @@
    "other_parties_names": "Mahmet Beyram rais; Fathers of the Redemption of Palermo",
    "other_equivalent": "ransom proper 180; exchange 20%",
    "other_parties_origins": "kahia of Bizerte; ",
-   "other_parties_role": "gave the order",
-   "or_": "former owner; gave the order"
+   "other_parties_role": "former owner; gave the order"
   },
   "8-XX-0050": {
    "transaction_type": "Bond (obligation)",
