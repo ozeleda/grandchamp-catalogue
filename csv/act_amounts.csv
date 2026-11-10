@@ -89,8 +89,8 @@
 7-XVII-0015,8.0,réal,,8 réaux
 8-XIX-0015,108.0,piastre,,108 piastres
 8-XIX-0015,8.0,réal,,8 réaux
-8-XIX-0015,200.0,piastre,,200 piastres
-8-XIX-0015,8.0,réal,,8 réaux
+8-XIX-0015b,200.0,piastre,,200 piastres
+8-XIX-0015b,8.0,réal,,8 réaux
 1-I-0016,50.0,écu,d'or,50 écus d'or
 2-III-0016,60.0,écu,d'Espagne,60 écus d'Espagne
 3-IV-0016,500.0,écu,,500 écus
@@ -892,7 +892,7 @@
 7-XVII-0123,8.0,réal,,8 réaux
 8-XX-0123,50.0,piastre,,50 piastres
 8-XX-0123,8.0,réal,,8 réaux
-8-XX-0123,8.0,réal,,8 réaux
+8-XX-0123b,8.0,réal,,8 réaux
 2-III-0124,490.0,écu,,490 écus
 3-IV-0124,204.0,écu,d'or d'Espagne,204 écus d'or d'Espagne
 3-IV-0124,14.0,aspre,,14 aspres
@@ -977,7 +977,7 @@
 6-XV-0133,8.0,réal,,8 réaux
 8-XX-0133,1700.0,piastre,,1.700 piastres
 8-XX-0133,8.0,réal,,8 réaux
-10-XXIV-0133,267.0,piastre,,267 piastres
+10-XXIV-0133b,267.0,piastre,,267 piastres
 2-III-0134,405.0,écu,,405 écus
 2-III-0134,57.0,écu,d'or d'Espagne,57 écus d'or d'Espagne
 3-IV-0134,180.0,sequin,,180 sequins
@@ -1439,7 +1439,7 @@
 6-XV-0193,8.0,réal,,8 réaux
 8-XX-0193,600.0,piastre,,600 piastres
 8-XX-0193,8.0,réal,,8 réaux
-8-XX-0193,26.0,piastre,,26 piastres
+8-XX-0193b,26.0,piastre,,26 piastres
 1-I-0194,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
 3-V-0194,320.0,écu,de 64 aspres,320 écus de 64 aspres
 4-VII-0194,300.0,écu,d'or de 64 aspres,300 écus d'or de 64 aspres
@@ -1727,7 +1727,7 @@
 4-VII-0229,230.0,écu,,230 écus
 4-VII-0229,64.0,aspre,,64 aspres
 5-XII-0229,8.0,réal,,8 réaux
-10-XXIV-0229,1050.0,piastre,,1.050 piastres
+10-XXIV-0229b,1050.0,piastre,,1.050 piastres
 2-III-0230,150.0,écu,d'or d'Espagne,150 écus d'or d'Espagne
 3-V-0230,1500.0,livre,,1.500 livres
 4-VII-0230,6.0,ducat,,6 ducats
@@ -3606,7 +3606,7 @@
 4-VIII-0509b,8.0,réal,,8 réaux
 4-VIII-0509b,6.0,écu,,6 écus
 7-XVII-0509,8.0,réal,,8 réaux
-8-XXI-0509,2280.0,piastre,,2.280 piastres
+8-XXI-0509b,2280.0,piastre,,2.280 piastres
 1-II-0510,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
 3-V-0510,100.0,écu,,100 écus
 3-V-0510,12.0,tari,,12 taris
@@ -3901,9 +3901,9 @@
 7-XVII-0552,8.0,réal,,8 réaux
 8-XXI-0552,205.0,piastre,,205 piastres
 8-XXI-0552,35.0,aspre,,35 aspres
-8-XXI-0552,162.0,piastre,,162 piastres
-8-XXI-0552,10.0,piastre,,10 piastres
-8-XXI-0552,7.0,piastre,,7 piastres
+8-XXI-0552b,162.0,piastre,,162 piastres
+8-XXI-0552b,10.0,piastre,,10 piastres
+8-XXI-0552b,7.0,piastre,,7 piastres
 2-III-0553,450.0,écu,,450 écus
 3-V-0553,5500.0,écu,,5.500 écus
 3-V-0553,1000.0,écu,,1.000 écus
@@ -4658,7 +4658,7 @@
 6-XV-0655,120.0,piastre,,120 piastres
 6-XV-0655,8.0,réal,,8 réaux
 7-XVIII-0655,8.0,réal,,8 réaux
-8-XXII-0655,38.0,livre,,38 livres
+8-XXII-0655b,38.0,livre,,38 livres
 2-III-0656,121.0,écu,,121 écus
 2-III-0656,43.0,aspre,,43 aspres
 3-V-0656,1000.0,écu,d'or de 64 aspres,1.000 écus d'or de 64 aspres
@@ -5612,19 +5612,19 @@
 6-XV-0788,43.0,piastre,,43 piastres
 6-XV-0788,8.0,réal,,8 réaux
 7-XVIII-0788,8.0,réal,,8 réaux
-8-XXII-0788,3500.0,livre,,3.500 livres
-8-XXII-0788,3500.0,livre,,3.500 livres
-8-XXII-0788,1500.0,livre,,1.500 livres
-8-XXII-0788,1000.0,livre,,1.000 livres
-8-XXII-0788,4000.0,livre,,4.000 livres
-8-XXII-0788,2000.0,livre,,2.000 livres
-8-XXII-0788,3000.0,livre,,3.000 livres
-8-XXII-0788,2000.0,livre,,2.000 livres
-8-XXII-0788,2000.0,livre,,2.000 livres
-8-XXII-0788,3000.0,livre,,3.000 livres
-8-XXII-0788,3000.0,livre,,3.000 livres
-8-XXII-0788,2500.0,livre,,2.500 livres
-8-XXII-0788,3600.0,livre,,3.600 livres
+8-XXII-0788b,3500.0,livre,,3.500 livres
+8-XXII-0788b,3500.0,livre,,3.500 livres
+8-XXII-0788b,1500.0,livre,,1.500 livres
+8-XXII-0788b,1000.0,livre,,1.000 livres
+8-XXII-0788b,4000.0,livre,,4.000 livres
+8-XXII-0788b,2000.0,livre,,2.000 livres
+8-XXII-0788b,3000.0,livre,,3.000 livres
+8-XXII-0788b,2000.0,livre,,2.000 livres
+8-XXII-0788b,2000.0,livre,,2.000 livres
+8-XXII-0788b,3000.0,livre,,3.000 livres
+8-XXII-0788b,3000.0,livre,,3.000 livres
+8-XXII-0788b,2500.0,livre,,2.500 livres
+8-XXII-0788b,3600.0,livre,,3.600 livres
 1-II-0789,20.0,écu,d'or d'Espagne,20 écus d'or d'Espagne
 3-V-0789,327.0,écu,d'or d'Espagne,327 écus d'or d'Espagne
 5-XII-0789,8.0,réal,,8 réaux
@@ -5855,7 +5855,7 @@
 5-XII-0824,8.0,réal,,8 réaux
 5-XII-0824,8.0,réal,,8 réaux
 7-XVIII-0824,8.0,réal,,8 réaux
-8-XXII-0824,200.0,piastre,,200 piastres
+8-XXII-0824c,200.0,piastre,,200 piastres
 1-II-0825,653.0,écu,,653 écus
 2-IV-0825,1000.0,écu,,1.000 écus
 3-V-0825,540.0,écu,d'or d'Espagne,540 écus d'or d'Espagne
@@ -6222,8 +6222,8 @@
 6-XV-0884,8.0,réal,,8 réaux
 7-XVIII-0884,8.0,réal,,8 réaux
 8-XXII-0884,144.0,piastre,,144 piastres
-8-XXII-0884,383.0,livre,,383 livres
-8-XXII-0884,7.0,sol,,7 sols
+8-XXII-0884b,383.0,livre,,383 livres
+8-XXII-0884b,7.0,sol,,7 sols
 2-IV-0885,300.0,écu,d'or d'Espagne,300 écus d'or d'Espagne
 2-IV-0885,411.0,écu,,411 écus
 3-V-0885,96.0,écu,d'or d'Espagne,96 écus d'or d'Espagne
@@ -6553,7 +6553,7 @@
 7-XVIII-0933,45.0,aspre,,45 aspres
 7-XVIII-0933,30.0,aspre,,30 aspres
 7-XVIII-0933,32.0,aspre,,32 aspres
-8-XXIII-0933,300.0,piastre,,300 piastres
+8-XXIII-0933b,300.0,piastre,,300 piastres
 2-IV-0934,52.0,écu,d'or d'Espagne,52 écus d'or d'Espagne
 3-V-0934,7.0,doublon,d'Espagne,7 doubles d'Espagne
 4-IX-0934,338.0,livre,,338 livres
@@ -7692,8 +7692,8 @@
 8-XXIII-1122,245.0,piastre,,245 piastres
 8-XXIII-1122,13.0,aspre,,13 aspres
 8-XXIII-1122,191.0,piastre,,191 piastres
-8-XXIII-1122,245.0,piastre,,245 piastres
-8-XXIII-1122,13.0,aspre,,13 aspres
+8-XXIII-1122b,245.0,piastre,,245 piastres
+8-XXIII-1122b,13.0,aspre,,13 aspres
 2-IV-1123,527.0,écu,d'or,527 écus d'or
 2-IV-1123,48.0,aspre,,48 aspres
 3-VI-1123,303.0,écu,,303 écus
@@ -9768,7 +9768,7 @@
 6-XVI-1513,157.0,once,de Marseille,157 onces de Marseille
 6-XVI-1513,8.0,réal,,8 réaux
 7-XIX-1513,8.0,réal,,8 réaux
-8-XXIII-1513,600.0,piastre,,600 piastres
+8-XXIII-1513b,600.0,piastre,,600 piastres
 4-IX-1514,8.0,réal,,8 réaux
 6-XVI-1514,8.0,réal,,8 réaux
 7-XIX-1514,8.0,réal,,8 réaux
