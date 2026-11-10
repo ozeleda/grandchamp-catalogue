@@ -11,7 +11,7 @@
    "transaction_type": "Attestation",
    "party1_name": "Gio de Labadie; Pietro Carpentey; Gabriel Poncet",
    "party1_origins": "Bordeaux; Bordeaux; Bordeaux",
-   "party1_role": "debtors; declarants",
+   "party1_role": "debtors and declarants",
    "party2_name": "Petrouse Millet",
    "party2_origins": "Malta",
    "party2_role": "patron; creditor",
@@ -1189,7 +1189,7 @@
   "8-XX-0084": {
    "transaction_type": "Loan",
    "party1_name": "Nicolas Vidal; Bernabé Jubellin",
-   "party1_role": "captain; patron; borrowers",
+   "party1_role": "captain, borrower; patron, borrower",
    "party2_name": "Estienne Plastrier, sieur Ducoudray",
    "party2_role": "consul; lender",
    "matter": "For their business and to buy two ships or pinks, one loaded with salt; repayable within four months",
@@ -1318,7 +1318,7 @@
   "8-XX-0094": {
    "transaction_type": "Acknowledgment of debt",
    "party1_name": "Nicolas Vidal; Bernabé Jubelin",
-   "party1_role": "captain of the ship L'enfant Jesus; captain of the pink Les âmes de purgatoire; debtors",
+   "party1_role": "captain of the ship L'enfant Jesus, debtor; captain of the pink Les âmes de purgatoire, debtor",
    "party2_name": "Mourat",
    "party2_role": "caid; kahia of Aly Bey; creditor",
    "matter": "Balance due on the 6,000 piastres agreed for the sale of two pinks, payable within four months; one of the pinks and the small patache Lenfant Jesus given as security",
@@ -2493,7 +2493,7 @@
   "8-XX-0171": {
    "transaction_type": "Loan (for ransom)",
    "party1_name": "Gioseppo Pilea; Antonio Pilea",
-   "party1_role": "brothers; slaves at Tunis; borrowers",
+   "party1_role": "brother, slave at Tunis, borrower; brother, slave at Tunis, borrower",
    "party2_name": "Joan Bapte Pili",
    "party2_role": "secular priest; slave; lender",
    "matter": "Loan for the penultimate instalment of their ransom; repaid 29 September 1684",
@@ -2866,7 +2866,7 @@
    "transaction_type": "Receipt (sale of a ship)",
    "party1_name": "Amour ben Damet (Amor ben Dem); Mamet b. Lazarka (Mohamed Harzallah); Yousouf Baysse (Youssef ben Aïssa)",
    "party1_origins": "merchants of Djerba",
-   "party1_role": "sellers; payees",
+   "party1_role": "sellers and payees",
    "party2_name": "Jacomo Philipo Bartholiaty",
    "party2_role": "buyer; payer",
    "matter": "Full price of the patache received in planks and cash; the Arabic certificate dates the payment to the first decade of Dhu al-Qa'da 1099",
@@ -3667,7 +3667,7 @@
    "party1_origins": "Martigues",
    "party1_role": "patron of the tartane St-Joseph Bonnaventure",
    "party2_name": "Assen Aga; Dussen Aga",
-   "party2_role": "capigi bachy (?) of the Grand Seigneur; kahia of the Pasha; passengers",
+   "party2_role": "capigi bachy (?) of the Grand Seigneur, passenger; kahia of the Pasha, passenger",
    "other_parties_names": "the Dey",
    "other_parties_origins": "",
    "matter": "Passage to Constantinople for the two agas and their suite; after landing them he may sail where he likes; 400 paid cash by the Dey, 50 on arrival",
@@ -4076,12 +4076,13 @@
   "8-XXI-0286": {
    "transaction_type": "Registration (royal passport)",
    "party1_name": "Claude Desbouts; Claude Fadois; Nicolas Allix; Felix Gorlier; Jean de la Place; Jean Felix",
-   "party1_role": "Trinitarian (Mathurin) ministers of Étampes, la Venue, Rieux, Lerine and Coupeuray, and a lay brother; redeemers",
+   "party1_role": "Trinitarian minister of Étampes; minister of la Venue; minister of Rieux; minister of Lerine; minister of Coupeuray; lay brother",
    "other_parties_names": "Louis XIV; comte de Toulouse; Colbert",
    "other_parties_origins": "; Admiral of France; ",
    "matter": "Royal letters (Versailles, 24 May 1685) ordering free passage for the Trinitarians going to Tunis and Algiers to ransom captives, extracted from the original at Tunis on 17 July 1685",
    "keywords": "registration; passport; letters patent; Trinitarians; Redemption; ransom; Algiers",
-   "other_parties_role": "issued the passport; addressee; countersigned"
+   "other_parties_role": "issued the passport; addressee; countersigned",
+   "party1_origins": null
   },
   "8-XXI-0287": {
    "transaction_type": "Certificate (ransom)",
@@ -4230,7 +4231,7 @@
   "8-XXI-0297": {
    "transaction_type": "Loan (maritime)",
    "party1_name": "Pietro Bouttin; Giacomo German",
-   "party1_role": "captain; merchant; borrowers",
+   "party1_role": "captain, borrower; merchant, borrower",
    "party2_name": "Xavero Amodei",
    "party2_origins": "Messina",
    "party2_role": "lender",
@@ -4366,7 +4367,7 @@
   "8-XXI-0308": {
    "transaction_type": "Declaration (adulterated goods)",
    "party1_name": "Alli Cherif; Mehemet Facar",
-   "party1_role": "master cap-makers of Tunis; buyers; declarants",
+   "party1_role": "master cap-maker, buyer, declarant; master cap-maker, buyer, declarant",
    "party2_name": "Philippo Pino",
    "party2_origins": "Genoa, living at Marseille",
    "party2_role": "merchant; seller",
@@ -4409,14 +4410,14 @@
    "party1_name": "François Cauviere",
    "party1_origins": "Toulon",
    "party1_role": "captain of the barque Ste-Catharine (1,000 quintals, 6 swivel guns)",
-   "party2_name": "Aggi Mouloug; Marabat ben Soliman (Mohammed ben Sliman Trabelsi; El-Hadj Makhlouf ben …; El-Hadj Kassem Trabelsi)",
+   "party2_name": "Aggi Mouloug; Marabat ben Soliman",
    "party2_origins": "Tripoli",
    "party2_role": "charterers",
    "matter": "Voyage to Tetuan and back, calling at Bône and Algiers",
    "price": "1000",
    "currency": "piastres",
    "keywords": "charter party; Tetuan; Bône; Algiers; Tripoli; Muslim merchants; Arabic",
-   "notes": "Arabic approval at the foot (OCR garbled)."
+   "notes": "Arabic approval at the foot (OCR garbled), naming Mohammed ben Sliman Trabelsi, El-Hadj Makhlouf ben … and El-Hadj Kassem Trabelsi."
   },
   "8-XXI-0313": {
    "transaction_type": "Receipt (cargo)",
@@ -5532,9 +5533,9 @@
   },
   "8-XXI-0393": {
    "transaction_type": "Sale (ship)",
-   "party1_name": "Voali Ben Mamet (El-Hadj Maklouf; el-Hadj Ahmed el-Quehli)",
+   "party1_name": "Voali Ben Mamet",
    "party1_origins": "merchant of Tripoli",
-   "party1_role": "sellers",
+   "party1_role": "seller",
    "party2_name": "Antoine Dallest",
    "party2_origins": "Cassis",
    "party2_role": "captain; buyer",
@@ -5544,7 +5545,8 @@
    "price": "1150",
    "currency": "piastres",
    "keywords": "sale of ship; pink; Tripoli; Muslim merchants; Arabic",
-   "other_parties_role": "witnesses; witnesses; witnesses"
+   "other_parties_role": "witnesses; witnesses; witnesses",
+   "notes": "The Arabic deed at the foot names the sellers El-Hadj Maklouf and el-Hadj Ahmed el-Quehli."
   },
   "8-XXI-0394": {
    "transaction_type": "Quittance (charter)",
@@ -6543,7 +6545,7 @@
    "party1_origins": "St-Nazaire",
    "party1_role": "commander of the barque La Vierge de Ste-Relique (1,300 quintals)",
    "party2_name": "Seid … de Ray Aly (Saïd ben Ali Sfaxi); Jedicq Amour son of Agy Mamet",
-   "party2_origins": "Sfax; Djerba; merchants of Tunis",
+   "party2_origins": "Sfax; Djerba",
    "party2_role": "charterers",
    "matter": "Voyage to Algiers calling at Bône and back",
    "price": "600",
