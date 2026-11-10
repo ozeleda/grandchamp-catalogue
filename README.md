@@ -29,8 +29,8 @@ reading of the margin dates. Volume 4, pp. 82–83, missing from the photocopy, 
 the photographs. Volume 10's act analysis ends on 28 May 1703: the rest of register XXIV is lost.
 The date check against the page images is complete for volume 10 and covers volume 4 up to p. 136.
 
-The transaction columns of volumes 1–6 were reviewed by hand, act by act (`extraction =
-'reviewed'`). Those of volumes 7, 8 and 10 are still the automatic draft (`extraction = 'auto'`)
+The transaction columns of volumes 1–7 were reviewed by hand, act by act (`extraction =
+'reviewed'`). Those of volumes 8 and 10 are still the automatic draft (`extraction = 'auto'`)
 and are being reviewed in the same way. Where Grandchamp printed two or more acts in one
 paragraph, the review splits them (`split_at` in the annotation file); the extra acts get the
 parent's ref with a letter suffix (`4-X-1678b`) and their own date.
@@ -47,7 +47,7 @@ database is built from them. See [`text/README.md`](text/README.md).
 | `csv/transactions.csv` | **One row per act with the transaction columns** (see below); opens directly in Excel |
 | `csv/` | Other CSVs (UTF-8 with BOM): `acts`, `act_amounts`, `documents`, `officials` |
 | `text/vol<N>/` | Plain-text edition of each volume: page files, `acts.txt` with markers, documents, indexes… ([details](text/README.md)) |
-| `annotations/vol<N>.json` | Hand corrections to the extracted transaction columns, plus splits of merged acts (volumes 1–6 fully reviewed) |
+| `annotations/vol<N>.json` | Hand corrections to the extracted transaction columns, plus splits of merged acts (volumes 1–7 fully reviewed) |
 | `pdfs/` | Source scans: volume 1 from the Internet Archive; volumes 2–8 and 10 from HathiTrust (Google OCR), split into parts under 25 MB; `v.2.pdf` is the older photocopy of volume 2 |
 | `volumes.json` | Per-volume settings: page layout plus the manual OCR corrections |
 | `ocr/vol2/` | Tesseract OCR of the older volume 2 photocopy, used as a second reading (see below) |
