@@ -1,0 +1,195 @@
+{
+ "pages": [
+  {
+   "page": "p178",
+   "old": "1er nov.    En italien. — Rachat de Agostino Hardisson",
+   "new": "1er déc.    En italien. — Rachat de Agostino Hardisson",
+   "note": "heading « Décembre » above this act"
+  },
+  {
+   "page": "p158",
+   "old": "1669  (1",
+   "new": "1669",
+   "note": "footnote mark (1) after the year"
+  },
+  {
+   "page": "p250",
+   "old": "1er avril   (17)",
+   "new": "1er mai     (17)",
+   "note": "heading « Mai » above this act"
+  },
+  {
+   "page": "p238",
+   "old": "                —  En italien. — « 17 août",
+   "new": "....        En italien. — « 17 août",
+   "note": "margin « ... — » (date effaced)"
+  },
+  {
+   "page": "p238",
+   "old": "                —  «  Du 16  7°° 1674.",
+   "new": "....        «  Du 16  7°° 1674.",
+   "note": "margin « ... — » (date effaced)"
+  }
+ ],
+ "acts": {
+  "date": [
+   {
+    "find": "(756) Luca Liperotte",
+    "date": "1661-04-11",
+    "note": "Margin « 11 — » (read « Il » by the OCR)."
+   },
+   {
+    "find": "[1091]",
+    "date": "1663-01",
+    "note": "Under the heading « Janvier » 1663; the book prints « ? » for the day."
+   },
+   {
+    "find": "[1093] Gio Dom",
+    "date": "1663-02-05",
+    "note": "Margin « 5 — » under the heading « Février »."
+   },
+   {
+    "find": "(1359) Le Fr. Don Gabriele",
+    "date": "1665-01-22",
+    "note": "Margin « 22 — » under the heading « Janvier » 1665."
+   },
+   {
+    "find": "(1432) Thomaso Marin, Dimitry",
+    "date": "1665-08-03",
+    "note": "Margin « 3 — » under the heading « Août »."
+   },
+   {
+    "find": "[116] Le patron Marco",
+    "date": "1667-11-26",
+    "note": "Margin « 26 — »; lost in the OCR."
+   },
+   {
+    "find": "(263) Gio Lucha Mangiamarchi",
+    "date": "1668-08-26",
+    "note": "Margin « 26 — »."
+   },
+   {
+    "find": "Baba Regeb, janissaire de Tunis",
+    "date": "1669-09-24",
+    "note": "Margin « 24 — »; lost in the OCR."
+   },
+   {
+    "find": "Le patron Allex Zamin, maltais, donne une pro",
+    "date": "1669",
+    "note": "Day and month not legible in the book (« .?. — »); several leaves of the register are missing before this act."
+   },
+   {
+    "find": "(973) Cornellio Godsen",
+    "date": "1662-03-31",
+    "note": "Margin « 31 — » under the heading « Mars » (p. 38)."
+   },
+   {
+    "find": "(1068) Les patrons Antonacio",
+    "date": "1662-08-12",
+    "note": "Margin « 12 — »."
+   },
+   {
+    "find": "Echange entre Lorenzo Marnete",
+    "date": "1669-10",
+    "note": "The day is not legible in the book (« .?. — »)."
+   },
+   {
+    "find": "Pietro Scatino, de Procida",
+    "date": "1671-09-01",
+    "note": "Margin « 1er — » under the heading « Septembre » 1671."
+   },
+   {
+    "find": "(71) Michael Marichy",
+    "date": "1667-08-14",
+    "note": "Margin « 14 — »; lost in the OCR."
+   },
+   {
+    "find": "Fabrisio Manfuso, de Vico (Roy° de Naples), a reçu d'I",
+    "date": "1669-06-08",
+    "note": "Margin « 8 — » under the heading « Juin »."
+   },
+   {
+    "find": "« 17 août 1674. Daniel Lumbroso",
+    "date": "1674-08-17",
+    "note": "The margin prints « ... — »; date taken from the text of the act (17 August 1674)."
+   },
+   {
+    "find": "Le cap. Francesco Darbes, de la Ciotat, et Antonio Ber",
+    "date": "1675-09-09",
+    "note": "Margin « 9 — » in September, before the heading « Octobre » (the register is not in order here)."
+   },
+   {
+    "find": "(76) Lazaro Thea",
+    "date": "1676-02-04",
+    "note": "Margin « 4 — (Daté par erreur de janvier) »."
+   },
+   {
+    "find": "[10] Le cap. Thomaso Audimar",
+    "date": "1676-11-07",
+    "note": "Margin « 7 — » under the heading « Novembre »."
+   },
+   {
+    "find": "(174) Gerolimo Brega",
+    "date": "1677-10-02",
+    "note": "Margin « 2 — » under the heading « Octobre »."
+   },
+   {
+    "find": "(184) Pol Monestier",
+    "date": "1677-12-15",
+    "note": "Margin « 15 — » under the heading « Décembre »."
+   },
+   {
+    "find": "(185) Le patron Mattio Cincioll",
+    "date": "1677-12-17",
+    "note": "Checked against the page image."
+   },
+   {
+    "find": "(273) Giuseppe Santor",
+    "date": "1679-05-16",
+    "note": "Margin « 16 — »; lost in the OCR."
+   },
+   {
+    "find": "(153) Vitto Marancha",
+    "date": "1678-05-18",
+    "note": "Margin « 18 — »; lost in the OCR."
+   },
+   {
+    "find": "« 1674 du 20",
+    "date": "1674-04-20",
+    "note": "The margin prints « ... — »; date taken from the text of the act (20 April 1674)."
+   },
+   {
+    "find": "Du 16 7",
+    "date": "1674-09-16",
+    "note": "The margin prints « ... — »; date taken from the text of the act (16 September 1674)."
+   },
+   {
+    "find": "[1092] Thomazo Cellano",
+    "date": "1663-01",
+    "note": "Under the heading « Janvier » 1663; the book prints « ? » for the day."
+   },
+   {
+    "find": "Janni May, de Zanthe",
+    "date": "1669-10-10",
+    "note": "Margin « 10 — »; lost in the OCR."
+   },
+   {
+    "find": "(1403) Aug",
+    "date": "1665-06",
+    "note": "The book prints « 31 (sic) » under the heading « Juin »; the date is kept to the month."
+   }
+  ],
+  "note_range": [
+   {
+    "first": "Elisabeth Flinsche",
+    "last": "Le patron Jean Baptiste Gandolfe, génois, vend à Simon Place",
+    "note": "The register dates the acts from 27 January to 3 August « 1669 »; the editor (note on p. 158) thinks this is a mistake for 1670. The date is given as printed."
+   }
+  ],
+  "merge_with_previous": [
+   {
+    "find": "Le montant de ce « papier dotal »"
+   }
+  ]
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "pages": [
+  {
+   "page": "p139",
+   "old": "20         (19 v°) Enregistrement du billet suivant",
+   "new": "5 août     (19 v°) Enregistrement du billet suivant",
+   "note": "« 5 — » under the heading « Août », misread by both OCRs"
+  },
+  {
+   "page": "p139",
+   "old": " 3 —  (10 v°) Idem",
+   "new": "5 —   (10 v°) Idem",
+   "note": "« 5 — » misread"
+  },
+  {
+   "page": "p139",
+   "old": "42 —  En italien. — (19 v°) Bortholomeo",
+   "new": "12 —  En italien. — (19 v°) Bortholomeo"
+  },
+  {
+   "page": "p237",
+   "old": "          2 —   En  italien. — (219 v°) Joanne",
+   "new": "2 mars      En  italien. — (219 v°) Joanne",
+   "note": "heading « Mars » above this act"
+  },
+  {
+   "page": "p237",
+   "old": "          2 —  En  italien. — (219 v°) Agostino",
+   "new": "2 —         En  italien. — (219 v°) Agostino"
+  },
+  {
+   "page": "p237",
+   "old": "2 mars      En italien. — (220) Joanne",
+   "new": "2 —         En italien. — (220) Joanne"
+  }
+ ],
+ "acts": {
+  "date": [
+   {
+    "find": "(22) Anthonio Giance",
+    "date": "1682-02-04",
+    "note": "Margin « 4 — » under the heading « Février »."
+   },
+   {
+    "find": "Francesco Morazani",
+    "date": "1682-11-05",
+    "note": "Margin « 5 — »; lost in the OCR."
+   },
+   {
+    "find": "(10) Dans le cas où les P",
+    "date": "1681-09-05",
+    "note": "Margin « 5 — »; lost in the OCR."
+   },
+   {
+    "find": "let 1681 sur la barque",
+    "date": "1682-03-12",
+    "note": "Margin « 12 — » under the heading « Mars » (after the act of the 25th; the register is not in order here)."
+   },
+   {
+    "find": "Gio Battista Musso, de Sestri",
+    "date": "1688-11-16",
+    "note": "Margin « 16 — »; lost in the OCR."
+   },
+   {
+    "find": "(37) Gioseppe Laurenti",
+    "date": "1690-04-13",
+    "note": "Margin « 13 (1) — » under the heading « Avril »."
+   },
+   {
+    "find": "(65 v °) Le cap. Lazaro delli Arboly",
+    "date": "1691-06-01",
+    "note": "Margin « 1er — » under the heading « Juin »."
+   },
+   {
+    "find": "(99 v ° ) Ambrogio Pella",
+    "date": "1694-12-04",
+    "note": "Margin « 4 — » under the heading « Décembre »."
+   },
+   {
+    "find": "(332) Enregistrement d'un reçu fait par Louis",
+    "date": "1697-02-05",
+    "note": "Margin « 5 — » under the heading « Février »."
+   },
+   {
+    "find": "(320) Antonio Pisarella",
+    "date": "1696-11-26",
+    "note": "Margin « 26 — »; lost in the OCR."
+   }
+  ],
+  "merge_with_previous": [
+   {
+    "find": "..... ensuivant, seront executées"
+   },
+   {
+    "find": "Le Je nily gl"
+   },
+   {
+    "find": "Sceau de Moustafa rais."
+   }
+  ]
+ }
+}

@@ -1,0 +1,1763 @@
+{
+  "_comment": "One entry per volume. page_offset = PDF page number minus printed (arabic) page number. Page ranges are printed page numbers, inclusive. year_fixes maps 'printed_page:OCR token' to the correct year, checked against the page image. day_fixes maps 'printed_page:OCR day token' to the day; toc_page_fixes maps 'part:document number' to the printed start page.",
+  "volumes": [
+    {
+      "id": 1,
+      "file": "pdfs/La France en Tunisie v.1.pdf",
+      "title": "La France en Tunisie à la fin du XVIe siècle (1582-1600)",
+      "author": "Pierre Grandchamp",
+      "published": "Tunis, Société anonyme de l'Imprimerie rapide, 1920",
+      "period_start": "1582-07-12",
+      "period_end": "1600-03-03",
+      "source_url": "https://archive.org/details/lafranceentunisi01gran",
+      "page_offset": 28,
+      "analysis_pages": [
+        3,
+        104
+      ],
+      "registers": [
+        {
+          "number": "I",
+          "label": "Premier registre",
+          "start_page": 3,
+          "date_start": "1582-07-12",
+          "date_end": "1590-12-29"
+        },
+        {
+          "number": "II",
+          "label": "Second registre",
+          "start_page": 29,
+          "date_start": "1591-01-04",
+          "date_end": "1600-03-03"
+        }
+      ],
+      "parts": [
+        {
+          "number": "II",
+          "label": "Actes concernant la Nation française",
+          "toc_pages": [
+            223,
+            225
+          ],
+          "text_pages": [
+            105,
+            160
+          ]
+        },
+        {
+          "number": "III",
+          "label": "Actes concernant les Compagnies du Corail",
+          "toc_pages": [
+            225,
+            227
+          ],
+          "text_pages": [
+            161,
+            221
+          ]
+        }
+      ],
+      "year_fixes": {
+        "10:i58fl": 1586,
+        "18:1580": 1589,
+        "72:159Ô": 1595,
+        "76:159Ô": 1595
+      },
+      "day_fixes": {
+        "53:0": 9,
+        "67:2\\": 24,
+        "100:l'i": 14,
+        "101:2-i": 20
+      },
+      "toc_page_fixes": {
+        "II:22": 140
+      },
+      "pages_dir": "text/vol1/pages",
+      "clean_scan": true,
+      "sections": {
+        "documents": {
+          "pages": [
+            105,
+            221
+          ],
+          "title": "Parts II and III: acts concerning the French Nation and the Coral Companies, printed in full"
+        },
+        "contents": {
+          "pages": [
+            223,
+            229
+          ],
+          "title": "table des matières et des documents publiés, table des signatures"
+        },
+        "corrections": {
+          "pages": [
+            231,
+            231
+          ],
+          "title": "additions et corrections"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "file": "pdfs/La France en Tunisie v.2_Part1.pdf",
+      "title": "La France en Tunisie au début du XVIIe siècle (1601-1610)",
+      "author": "Pierre Grandchamp",
+      "published": "Tunis, 1921",
+      "period_start": "1601-11-23",
+      "period_end": "1610-12-30",
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567227",
+      "text_source": "ocr/vol2",
+      "two_up": {
+        "pdf_pages": [
+          7,
+          103
+        ],
+        "first_printed_page": 1,
+        "skip_halves": [
+          "7L",
+          "30R",
+          "63R",
+          "96R",
+          "31L",
+          "64L",
+          "97L"
+        ],
+        "_comment": "Two book pages per PDF page. 7L is the end of the foreword. Pages with a facsimile signature were shot twice (in the spread, then alone): skip the weak half of the spread and the empty half of the single shot."
+      },
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        182
+      ],
+      "registers": [
+        {
+          "number": "III",
+          "label": "Troisième registre",
+          "start_page": 1,
+          "date_start": "1601-11-23",
+          "date_end": "1607-08-06"
+        },
+        {
+          "number": "IV",
+          "label": "Quatrième registre",
+          "start_page": 106,
+          "date_start": "1607-09-04",
+          "date_end": "1610-12-30"
+        }
+      ],
+      "parts": [],
+      "scans": [
+        "pdfs/La France en Tunisie v.2_Part1.pdf",
+        "pdfs/La France en Tunisie v.2_Part2.pdf"
+      ],
+      "first_body_page": [
+        0,
+        18
+      ],
+      "pages_dir": "text/vol2/pages",
+      "second_ocr": true,
+      "sections": {
+        "documents": {
+          "pages": [
+            183,
+            191
+          ],
+          "title": "documents annexes (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            192,
+            254
+          ],
+          "title": "table alphabétique des noms cités de 1582 à 1610",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            255,
+            255
+          ],
+          "title": "table des matières et table des signatures"
+        }
+      },
+      "_comment_scans": "The HathiTrust scan (Google OCR) replaced the photocopy (pdfs/La France en Tunisie v.2.pdf, OCR'd with Tesseract into ocr/vol2/), which is now only a second OCR used to correct slips (second_ocr)."
+    },
+    {
+      "id": 3,
+      "scans": [
+        "pdfs/La France en Tunisie v.3_Part1.pdf",
+        "pdfs/La France en Tunisie v.3_Part2.pdf",
+        "pdfs/La France en Tunisie v.3_Part3.pdf"
+      ],
+      "first_body_page": [
+        0,
+        20
+      ],
+      "title": "La France en Tunisie au début du XVIIe siècle (1611-1620)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/La France en Tunisie v.3_Part1.pdf",
+      "published": "Tunis, J. Aloccio, 1925",
+      "period_start": "1611-01-04",
+      "period_end": "1620-12-31",
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567229",
+      "pages_dir": "text/vol3/pages",
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        382
+      ],
+      "registers": [
+        {
+          "number": "IV",
+          "label": "Quatrième registre (suite et fin)",
+          "start_page": 1,
+          "date_start": "1611-01-04",
+          "date_end": "1612-01-16"
+        },
+        {
+          "number": "V",
+          "label": "Cinquième registre",
+          "start_page": 26,
+          "date_start": "1612-03-27",
+          "date_end": "1615-10-30"
+        },
+        {
+          "number": "VI",
+          "label": "Sixième registre",
+          "start_page": 158,
+          "date_start": "1615-10-30",
+          "date_end": "1619-02-08"
+        },
+        {
+          "number": "VII",
+          "label": "Septième registre",
+          "start_page": 323,
+          "date_start": "1619-02-12",
+          "date_end": "1620-12-31"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "documents": {
+          "pages": [
+            383,
+            404
+          ],
+          "title": "documents annexes (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            405,
+            488
+          ],
+          "title": "table des noms de personnes et de navires",
+          "columns": true
+        },
+        "index_slaves": {
+          "pages": [
+            489,
+            491
+          ],
+          "title": "esclaves rachetés par les diverses Rédemptions",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            492,
+            499
+          ],
+          "title": "noms des navires",
+          "columns": true
+        },
+        "glossary": {
+          "pages": [
+            500,
+            501
+          ],
+          "title": "quelques mots d'usage peu courant; termes de pharmacie et de droguerie"
+        },
+        "contents": {
+          "pages": [
+            502,
+            503
+          ],
+          "title": "table des matières, table des signatures et corrections"
+        }
+      },
+      "tesseract_threshold": 20,
+      "year_fixes": {
+        "130:1613": 1615,
+        "141:1613": 1615
+      },
+      "tesseract_pages": [
+        61,
+        107,
+        140,
+        147,
+        166,
+        195,
+        203,
+        211,
+        213,
+        246,
+        272,
+        281,
+        296,
+        306,
+        307,
+        314,
+        329,
+        333,
+        357,
+        359,
+        362,
+        367,
+        369,
+        371,
+        373
+      ]
+    },
+    {
+      "id": 4,
+      "scans": [
+        "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+        "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part2.pdf",
+        "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part3.pdf",
+        "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part4.pdf"
+      ],
+      "two_up": true,
+      "title": "La France en Tunisie au XVIIe siècle (1621-1630)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/Grandchamp_1926_La France en Tunisie au XVIIe siecle VOL 4 (1621-1630)_Part1.pdf",
+      "published": "Tunis, J. Barlier, 1926",
+      "period_start": "1621-01-01",
+      "period_end": "1630-12-31",
+      "source": "photocopy (two pages per sheet); the HathiTrust photographs (pdfs/La France en Tunisie v.4_PartN.pdf) are less legible",
+      "pages_dir": "text/vol4/pages",
+      "page_offset": null,
+      "registers": [
+        {
+          "number": "VII",
+          "label": "Septième registre (suite et fin)",
+          "start_page": 1,
+          "date_start": "1619-02-12",
+          "date_end": "1623-04-28"
+        },
+        {
+          "number": "VIII",
+          "label": "Huitième registre",
+          "start_page": 57,
+          "date_start": "1623-03-11",
+          "date_end": "1624-11-11"
+        },
+        {
+          "number": "IX",
+          "label": "Neuvième registre",
+          "start_page": 145,
+          "date_start": "1624-11-20",
+          "date_end": "1627-09-14"
+        },
+        {
+          "number": "X",
+          "label": "Dixième registre",
+          "start_page": 251,
+          "date_start": "1628-01-22",
+          "date_end": "1630-01-15"
+        },
+        {
+          "number": "XI",
+          "label": "Onzième registre",
+          "start_page": 327,
+          "date_start": "1630-01-16",
+          "date_end": "1631-08-14"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "documents": {
+          "pages": [
+            353,
+            356
+          ],
+          "title": "documents annexes : documents relatifs à Thomas de Arcos (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            357,
+            431
+          ],
+          "title": "table des noms cités",
+          "columns": true
+        },
+        "index_slaves": {
+          "pages": [
+            432,
+            435
+          ],
+          "title": "esclaves rachetés par les diverses Rédemptions de 1621 à 1630",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            436,
+            443
+          ],
+          "title": "noms des navires cités",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            444,
+            447
+          ],
+          "title": "table des matières, table des signatures, corrections"
+        }
+      },
+      "month_headings": true,
+      "first_body_page": [
+        0,
+        14,
+        "R"
+      ],
+      "analysis_pages": [
+        1,
+        352
+      ],
+      "page_numbers": {
+        "Part1-015L": 2,
+        "Part1-015R": 3,
+        "Part1-016L": 4,
+        "Part1-016R": 5,
+        "Part1-017L": 6,
+        "Part1-017R": 7,
+        "Part1-018L": 8,
+        "Part1-018R": 9,
+        "Part1-019L": 10,
+        "Part1-019R": 11,
+        "Part1-020L": 12,
+        "Part1-020R": 13,
+        "Part1-021L": 14,
+        "Part1-021R": 15,
+        "Part1-022L": 16,
+        "Part1-023R": 17,
+        "Part1-024L": 18,
+        "Part1-024R": 19,
+        "Part1-025L": 20,
+        "Part1-025R": 21,
+        "Part1-026L": 22,
+        "Part1-026R": 23,
+        "Part1-027L": 24,
+        "Part1-027R": 25,
+        "Part1-029L": 26,
+        "Part1-029R": 27,
+        "Part1-030L": 28,
+        "Part1-030R": 29,
+        "Part1-031L": 30,
+        "Part1-031R": 31,
+        "Part1-032L": 32,
+        "Part1-032R": 33,
+        "Part1-033L": 34,
+        "Part1-033R": 35,
+        "Part1-034L": 36,
+        "Part1-034R": 37,
+        "Part1-035L": 38,
+        "Part1-035R": 39,
+        "Part1-036L": 40,
+        "Part1-036R": 41,
+        "Part1-037L": 42,
+        "Part1-037R": 43,
+        "Part1-038L": 44,
+        "Part1-038R": 45,
+        "Part1-039L": 46,
+        "Part1-039R": 47,
+        "Part1-040L": 48,
+        "Part1-040R": 49,
+        "Part1-041L": 50,
+        "Part1-041R": 51,
+        "Part1-042L": 52,
+        "Part1-042R": 53,
+        "Part1-043L": 54,
+        "Part1-043R": 55,
+        "Part1-044L": 56,
+        "Part1-044R": 57,
+        "Part1-045L": 58,
+        "Part1-045R": 59,
+        "Part1-046L": 60,
+        "Part1-046R": 61,
+        "Part1-047L": 62,
+        "Part1-047R": 63,
+        "Part1-048L": 64,
+        "Part1-048R": 65,
+        "Part1-049L": 66,
+        "Part1-049R": 67,
+        "Part1-050L": 68,
+        "Part1-050R": 69,
+        "Part1-051L": 70,
+        "Part1-051R": 71,
+        "Part1-052L": 72,
+        "Part1-052R": 73,
+        "Part1-053L": 74,
+        "Part1-053R": 75,
+        "Part1-054L": 76,
+        "Part1-054R": 77,
+        "Part1-055L": 78,
+        "Part1-055R": 79,
+        "Part1-056L": 80,
+        "Part1-056R": 81,
+        "Part1-057L": 84,
+        "Part1-057R": 85,
+        "Part1-058L": 86,
+        "Part1-058R": 87,
+        "Part1-059L": 88,
+        "Part1-059R": 89,
+        "Part1-060L": 90,
+        "Part1-060R": 91,
+        "Part1-061L": 92,
+        "Part1-061R": 93,
+        "Part1-062L": 94,
+        "Part1-062R": 95,
+        "Part1-063L": 96,
+        "Part1-063R": 97,
+        "Part1-064L": 98,
+        "Part1-064R": 99,
+        "Part1-065L": 100,
+        "Part1-065R": 101,
+        "Part1-066L": 102,
+        "Part1-066R": 103,
+        "Part1-067L": 104,
+        "Part1-067R": 105,
+        "Part1-068L": 106,
+        "Part1-068R": 107,
+        "Part1-069L": 108,
+        "Part1-069R": 109,
+        "Part1-070L": 110,
+        "Part1-070R": 111,
+        "Part1-071L": 112,
+        "Part1-071R": 113,
+        "Part1-072L": 114,
+        "Part1-072R": 115,
+        "Part1-073L": 116,
+        "Part1-073R": 117,
+        "Part1-074L": 118,
+        "Part1-074R": 119,
+        "Part1-075L": 120,
+        "Part1-075R": 121,
+        "Part1-076L": 122,
+        "Part1-076R": 123,
+        "Part1-077L": 124,
+        "Part1-077R": 125,
+        "Part1-078L": 126,
+        "Part1-078R": 127,
+        "Part1-079L": 128,
+        "Part1-079R": 129,
+        "Part1-080L": 130,
+        "Part1-080R": 131,
+        "Part1-081L": 132,
+        "Part1-081R": 133,
+        "Part1-082L": 134,
+        "Part1-082R": 135,
+        "Part1-083L": 136,
+        "Part1-083R": 137,
+        "Part1-084L": 138,
+        "Part1-084R": 139,
+        "Part1-085L": 140,
+        "Part1-085R": 141,
+        "Part1-086L": 142,
+        "Part1-086R": 143,
+        "Part1-087L": 144,
+        "Part1-087R": 145,
+        "Part1-088L": 146,
+        "Part1-088R": 147,
+        "Part1-089L": 148,
+        "Part1-089R": 149,
+        "Part1-090L": 150,
+        "Part1-090R": 151,
+        "Part1-091L": 152,
+        "Part1-091R": 153,
+        "Part1-092L": 154,
+        "Part1-092R": 155,
+        "Part4-021L": 344,
+        "Part4-022L": 346,
+        "Part4-022R": 347,
+        "Part4-023L": 348,
+        "Part4-023R": 349,
+        "Part4-024L": 350,
+        "Part4-024R": 351,
+        "Part4-025L": 352,
+        "Part4-025R": 353,
+        "Part4-026L": 354,
+        "Part4-026R": 355,
+        "Part4-027L": 356,
+        "Part4-027R": 357,
+        "Part4-028L": 358,
+        "Part4-028R": 359,
+        "Part4-029L": 360,
+        "Part4-029R": 361,
+        "Part4-030L": 362,
+        "Part4-030R": 363,
+        "Part4-031L": 364,
+        "Part4-031R": 365,
+        "Part4-032L": 366,
+        "Part4-032R": 367,
+        "Part4-033L": 368,
+        "Part4-033R": 369,
+        "Part4-034L": 370,
+        "Part4-034R": 371,
+        "Part4-035L": 372,
+        "Part4-035R": 373,
+        "Part4-036L": 374,
+        "Part4-036R": 375,
+        "Part4-037L": 376,
+        "Part4-037R": 377,
+        "Part4-038L": 378,
+        "Part4-038R": 379,
+        "Part4-039L": 380,
+        "Part4-039R": 381,
+        "Part4-040L": 382,
+        "Part4-040R": 383,
+        "Part4-041L": 384,
+        "Part4-041R": 385,
+        "Part4-042L": 386,
+        "Part4-042R": 387,
+        "Part4-043L": 388,
+        "Part4-043R": 389,
+        "Part4-044L": 390,
+        "Part4-044R": 391,
+        "Part4-045L": 392,
+        "Part4-045R": 393,
+        "Part4-046L": 394,
+        "Part4-046R": 395,
+        "Part4-047L": 396,
+        "Part4-047R": 397,
+        "Part4-048L": 398,
+        "Part4-048R": 399,
+        "Part4-049L": 400,
+        "Part4-049R": 401,
+        "Part4-050L": 402,
+        "Part4-050R": 403,
+        "Part4-051L": 404,
+        "Part4-051R": 405,
+        "Part4-052L": 406,
+        "Part4-052R": 407,
+        "Part4-053L": 408,
+        "Part4-053R": 409,
+        "Part4-054L": 410,
+        "Part4-054R": 411,
+        "Part4-055L": 412,
+        "Part4-055R": 413,
+        "Part4-056L": 414,
+        "Part4-056R": 415,
+        "Part4-057L": 416,
+        "Part4-057R": 417,
+        "Part4-058L": 418,
+        "Part4-058R": 419,
+        "Part4-059L": 420,
+        "Part4-059R": 421,
+        "Part4-060L": 422,
+        "Part4-060R": 423,
+        "Part4-061L": 424,
+        "Part4-061R": 425,
+        "Part4-062L": 426,
+        "Part4-062R": 427,
+        "Part4-063L": 428,
+        "Part4-063R": 429,
+        "Part4-064L": 430,
+        "Part4-064R": 431,
+        "Part4-065L": 432,
+        "Part4-065R": 433,
+        "Part4-066L": 434,
+        "Part4-066R": 435,
+        "Part4-067L": 436,
+        "Part4-067R": 437,
+        "Part4-068L": 438,
+        "Part4-068R": 439,
+        "Part4-069L": 440,
+        "Part4-069R": 441,
+        "Part4-070L": 442,
+        "Part4-070R": 443,
+        "Part4-071L": 444,
+        "Part4-071R": 445,
+        "Part4-072L": 446,
+        "Part4-072R": 447,
+        "Part4-073L": 448,
+        "Part4-073R": 449
+      },
+      "_page_numbers": "printed page of halves whose running header the OCR could not read (checked on the page images)",
+      "ocr_digit_confusions": {
+        "4": "1",
+        "9": "2"
+      },
+      "_ocr_digit_confusions": "Tesseract reads the bold margin 1 as 4 and 2 as 9 in this photocopy; the Acrobat layer's reading is taken where they disagree this way",
+      "skip_halves": [
+        "Part1-004R",
+        "Part1-028L",
+        "Part1-028R"
+      ],
+      "_skip_halves": "sheets photocopied twice: the title page (Part1 sheet 4) and pp. 24-25 (Part1 sheet 28 repeats sheet 27)",
+      "missing_pages": [
+        82,
+        83
+      ],
+      "_missing_pages": "pp. 82-83 are not in the photocopy (Part1 sheet 56 ends at p. 81, sheet 57 starts at p. 84); transcribed by hand from the HathiTrust photograph (v.4_Part2, photo 20) into text/vol4/transcribed/",
+      "missing_pages_source": "pdfs/La France en Tunisie v.4_Part2.pdf",
+      "missing_pages_pdf": {
+        "82": 20,
+        "83": 20
+      }
+    },
+    {
+      "id": 5,
+      "scans": [
+        "pdfs/La France en Tunisie v.5_Part1.pdf",
+        "pdfs/La France en Tunisie v.5_Part2.pdf"
+      ],
+      "first_body_page": [
+        0,
+        26
+      ],
+      "title": "La France en Tunisie au XVIIe siècle (1631-1650)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/La France en Tunisie v.5_Part1.pdf",
+      "published": "Tunis, J. Barlier, 1927",
+      "period_start": "1631-01-01",
+      "period_end": "1650-12-31",
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567231",
+      "pages_dir": "text/vol5/pages",
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        290
+      ],
+      "registers": [
+        {
+          "number": "XI",
+          "label": "Onzième registre (suite)",
+          "start_page": 1,
+          "date_start": "1630-01-16",
+          "date_end": "1631-08-14"
+        },
+        {
+          "number": "XII",
+          "label": "Douzième registre",
+          "start_page": 16,
+          "date_start": "1631-08-18",
+          "date_end": "1638-12-22"
+        },
+        {
+          "number": "XIII",
+          "label": "Treizième registre",
+          "start_page": 143,
+          "date_start": "1639-02-08",
+          "date_end": "1641-11-04"
+        },
+        {
+          "number": "XIV",
+          "label": "Quatorzième registre",
+          "start_page": 196,
+          "date_start": "1643-01-15",
+          "date_end": "1651-03-03"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "documents": {
+          "pages": [
+            291,
+            296
+          ],
+          "title": "documents annexes (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            297,
+            367
+          ],
+          "title": "table des principaux noms cités de 1631 à 1650",
+          "columns": true
+        },
+        "index_slaves": {
+          "pages": [
+            368,
+            371
+          ],
+          "title": "esclaves rachetés par les diverses Rédemptions, de 1631 à 1650",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            372,
+            375
+          ],
+          "title": "noms des navires cités",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            376,
+            378
+          ],
+          "title": "table des photographies et des signatures, table des matières, corrections"
+        }
+      },
+      "tesseract_threshold": 20,
+      "month_headings": true,
+      "tesseract_pages": [
+        1,
+        3,
+        4,
+        14,
+        15,
+        19,
+        23,
+        31,
+        40,
+        41,
+        54,
+        57,
+        59,
+        60,
+        62,
+        66,
+        80,
+        83,
+        87,
+        88,
+        90,
+        94,
+        96,
+        108,
+        116,
+        124,
+        125,
+        127,
+        129,
+        137,
+        148,
+        152,
+        155,
+        162,
+        177,
+        184,
+        185,
+        189,
+        204,
+        220,
+        229,
+        243,
+        263,
+        282
+      ]
+    },
+    {
+      "id": 6,
+      "scans": [
+        "pdfs/La France en Tunisie v.6_Part1.pdf",
+        "pdfs/La France en Tunisie v.6_Part2.pdf"
+      ],
+      "first_body_page": [
+        0,
+        78
+      ],
+      "title": "La France en Tunisie au XVIIe siècle (1651-1660)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/La France en Tunisie v.6_Part1.pdf",
+      "published": "Tunis, J. Barlier, 1928",
+      "period_start": "1651-01-01",
+      "period_end": "1660-12-31",
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567232",
+      "pages_dir": "text/vol6/pages",
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        270
+      ],
+      "registers": [
+        {
+          "number": "XIV",
+          "label": "Quatorzième registre (suite)",
+          "start_page": 1,
+          "date_start": "1643-03-15",
+          "date_end": "1651-03-03"
+        },
+        {
+          "number": "XV",
+          "label": "Quinzième registre",
+          "start_page": 6,
+          "date_start": "1651-03-09",
+          "date_end": "1656-12-28"
+        },
+        {
+          "number": "XVI",
+          "label": "Seizième registre",
+          "start_page": 163,
+          "date_start": "1657-01-01",
+          "date_end": "1660-02-20"
+        },
+        {
+          "number": "XVII",
+          "label": "Dix-septième registre",
+          "start_page": 249,
+          "date_start": "1660-03-02",
+          "date_end": "1666-02-08"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "index_names": {
+          "pages": [
+            271,
+            318
+          ],
+          "title": "table des principaux noms cités de 1651 à 1660",
+          "columns": true
+        },
+        "index_slaves": {
+          "pages": [
+            319,
+            319
+          ],
+          "title": "esclaves rachetés par les diverses Rédemptions de 1651 à 1660",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            320,
+            323
+          ],
+          "title": "noms des navires cités",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            324,
+            326
+          ],
+          "title": "table des photographies, plans et signatures, table des matières"
+        }
+      },
+      "tesseract_threshold": 20,
+      "month_headings": true,
+      "tesseract_pages": [
+        2,
+        12,
+        14,
+        21,
+        25,
+        26,
+        30,
+        38,
+        42,
+        61,
+        72,
+        74,
+        78,
+        91,
+        93,
+        96,
+        97,
+        99,
+        107,
+        110,
+        113,
+        120,
+        121,
+        122,
+        125,
+        127,
+        131,
+        135,
+        142,
+        181,
+        197,
+        199,
+        205,
+        210,
+        223,
+        224,
+        228,
+        239,
+        269
+      ]
+    },
+    {
+      "id": 7,
+      "scans": [
+        "pdfs/La France en Tunisie v.7_Part1.pdf",
+        "pdfs/La France en Tunisie v.7_Part2.pdf"
+      ],
+      "first_body_page": [
+        0,
+        50
+      ],
+      "title": "La France en Tunisie au XVIIe siècle (1661-1680)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/La France en Tunisie v.7_Part1.pdf",
+      "published": "Tunis, J. Aloccio, 1929",
+      "period_start": "1661-01-01",
+      "period_end": "1680-12-31",
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567233",
+      "pages_dir": "text/vol7/pages",
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        324
+      ],
+      "registers": [
+        {
+          "number": "XVII",
+          "label": "Dix-septième registre (suite)",
+          "start_page": 1,
+          "date_start": "1660-03-02",
+          "date_end": "1666-02-08"
+        },
+        {
+          "number": "XVIII",
+          "label": "Dix-huitième registre",
+          "start_page": 118,
+          "date_start": "1667-05-01",
+          "date_end": "1674-09-15"
+        },
+        {
+          "number": "XIX",
+          "label": "Dix-neuvième registre",
+          "start_page": 239,
+          "date_start": "1674-09-15",
+          "date_end": "1681-06-19"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "documents": {
+          "pages": [
+            325,
+            328
+          ],
+          "title": "correspondance (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            329,
+            377
+          ],
+          "title": "table des principaux noms cités de 1661 à 1680",
+          "columns": true
+        },
+        "index_slaves": {
+          "pages": [
+            378,
+            378
+          ],
+          "title": "esclaves rachetés par les diverses Rédemptions de 1661 à 1680",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            379,
+            385
+          ],
+          "title": "noms des navires cités",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            386,
+            388
+          ],
+          "title": "table des photographies et signatures, table des matières"
+        }
+      },
+      "tesseract_threshold": 20,
+      "month_headings": true,
+      "tesseract_pages": [
+        11,
+        24,
+        26,
+        29,
+        31,
+        41,
+        44,
+        45,
+        48,
+        52,
+        53,
+        54,
+        57,
+        58,
+        64,
+        65,
+        66,
+        79,
+        81,
+        82,
+        86,
+        90,
+        93,
+        96,
+        103,
+        104,
+        105,
+        109,
+        116,
+        118,
+        124,
+        127,
+        128,
+        132,
+        133,
+        134,
+        145,
+        171,
+        219,
+        222,
+        224,
+        225,
+        251,
+        276,
+        301,
+        310,
+        317,
+        322
+      ]
+    },
+    {
+      "id": 8,
+      "scans": [
+        "pdfs/La France en Tunisie v.8_Part1.pdf",
+        "pdfs/La France en Tunisie v.8_Part2.pdf",
+        "pdfs/La France en Tunisie v.8_Part3.pdf",
+        "pdfs/La France en Tunisie v.8_Part4.pdf"
+      ],
+      "first_body_page": [
+        0,
+        58
+      ],
+      "title": "La France en Tunisie au XVIIe siècle (1681-1700)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/La France en Tunisie v.8_Part1.pdf",
+      "published": "Tunis, J. Aloccio, 1930",
+      "period_start": "1681-01-01",
+      "period_end": "1700-12-31",
+      "source_url": "https://hdl.handle.net/2027/uc1.b000567234",
+      "pages_dir": "text/vol8/pages",
+      "page_offset": null,
+      "analysis_pages": [
+        1,
+        335
+      ],
+      "registers": [
+        {
+          "number": "XIX",
+          "label": "Dix-neuvième registre (suite)",
+          "start_page": 1,
+          "date_start": "1674-09-15",
+          "date_end": "1681-06-19"
+        },
+        {
+          "number": "XX",
+          "label": "Vingtième registre",
+          "start_page": 7,
+          "date_start": "1681-07-27",
+          "date_end": "1684-04-24"
+        },
+        {
+          "number": "XXI",
+          "label": "Vingt et unième registre",
+          "start_page": 41,
+          "date_start": "1684-05-29",
+          "date_end": "1689-01-03"
+        },
+        {
+          "number": "XXII",
+          "label": "Vingt-deuxième registre",
+          "start_page": 133,
+          "date_start": "1689-01-03",
+          "date_end": "1693-02-05"
+        },
+        {
+          "number": "XXIII",
+          "label": "Vingt-troisième registre",
+          "start_page": 197,
+          "date_start": "1693-02-07",
+          "date_end": "1700-06-19"
+        },
+        {
+          "number": "XXIV",
+          "label": "Vingt-quatrième registre",
+          "start_page": 325,
+          "date_start": "1700-06-23",
+          "date_end": "1703-05-23"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "documents": {
+          "pages": [
+            337,
+            614
+          ],
+          "title": "correspondance, rapports de mer, documents divers (printed in full)"
+        },
+        "index_names": {
+          "pages": [
+            615,
+            660
+          ],
+          "title": "table alphabétique des principaux noms cités de 1681 à 1700",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            661,
+            672
+          ],
+          "title": "noms des navires cités",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            673,
+            675
+          ],
+          "title": "table des photographies et signatures, table des matières, corrections"
+        }
+      },
+      "tesseract_threshold": 20,
+      "month_headings": true,
+      "tesseract_pages": [
+        2,
+        4,
+        5,
+        8,
+        10,
+        11,
+        17,
+        42,
+        43,
+        95,
+        121,
+        127,
+        134,
+        136,
+        140,
+        142,
+        145,
+        191,
+        242,
+        244,
+        246,
+        250,
+        251,
+        254,
+        259,
+        268,
+        274,
+        280,
+        285,
+        291,
+        298,
+        301,
+        314
+      ]
+    },
+    {
+      "id": 10,
+      "scans": [
+        "pdfs/Grandchamp_1933_La France en Tunisie VOL 10 de 1701 a l'avenement de la dynastie hassinite (1705)_Part1.pdf",
+        "pdfs/Grandchamp_1933_La France en Tunisie VOL 10 de 1701 a l'avenement de la dynastie hassinite (1705)_Part2.pdf",
+        "pdfs/Grandchamp_1933_La France en Tunisie VOL 10 de 1701 a l'avenement de la dynastie hassinite (1705)_Part3.pdf",
+        "pdfs/Grandchamp_1933_La France en Tunisie VOL 10 de 1701 a l'avenement de la dynastie hassinite (1705)_Part4.pdf",
+        "pdfs/Grandchamp_1933_La France en Tunisie VOL 10 de 1701 a l'avenement de la dynastie hassinite (1705)_Part5.pdf",
+        "pdfs/Grandchamp_1933_La France en Tunisie VOL 10 de 1701 a l'avenement de la dynastie hassinite (1705)_Part6.pdf"
+      ],
+      "two_up": true,
+      "title": "La France en Tunisie de 1701 à l'avènement de la dynastie husseinite (1705)",
+      "author": "Pierre Grandchamp",
+      "file": "pdfs/Grandchamp_1933_La France en Tunisie VOL 10 de 1701 a l'avenement de la dynastie hassinite (1705)_Part1.pdf",
+      "published": "Tunis, 1933",
+      "period_start": "1701-01-01",
+      "period_end": "1705-12-31",
+      "source": "photocopy (two pages per sheet); the HathiTrust photographs (pdfs/La France en Tunisie v.10_PartN.pdf) are less legible",
+      "pages_dir": "text/vol10/pages",
+      "page_offset": null,
+      "registers": [
+        {
+          "number": "XXIV",
+          "label": "Vingt-quatrième registre (suite et fin)",
+          "start_page": 1,
+          "date_start": "1700-06-23",
+          "date_end": "1703-05-28"
+        }
+      ],
+      "parts": [],
+      "sections": {
+        "documents": {
+          "pages": [
+            61,
+            190
+          ],
+          "title": "deuxième partie : consulats (rapports de mer), protêts, requêtes, lettres, comptes, 1701-1705 (printed in full)"
+        },
+        "correspondence": {
+          "pages": [
+            191,
+            321
+          ],
+          "title": "troisième partie : correspondance de Nicolas Béranger, marchand à Tunis (1701-1705)"
+        },
+        "index_letters": {
+          "pages": [
+            325,
+            340
+          ],
+          "title": "table des lettres publiées dans les IIe et IIIe parties"
+        },
+        "index_consulats": {
+          "pages": [
+            341,
+            344
+          ],
+          "title": "table des consulats (rapports de mer)"
+        },
+        "index_names": {
+          "pages": [
+            345,
+            364
+          ],
+          "title": "table alphabétique des principaux noms cités",
+          "columns": true
+        },
+        "index_ships": {
+          "pages": [
+            365,
+            370
+          ],
+          "title": "table alphabétique des noms de navires cités",
+          "columns": true
+        },
+        "contents": {
+          "pages": [
+            371,
+            375
+          ],
+          "title": "table des photographies, table des matières, erratum"
+        }
+      },
+      "month_headings": true,
+      "ocr_digit_confusions": {
+        "4": "1",
+        "9": "2"
+      },
+      "page_numbers": {
+        "Part1-020R": 1,
+        "Part1-021L": 2,
+        "Part1-021R": 3,
+        "Part1-022L": 4,
+        "Part1-022R": 5,
+        "Part1-023L": 6,
+        "Part1-023R": 7,
+        "Part1-024L": 8,
+        "Part1-024R": 9,
+        "Part1-025L": 10,
+        "Part1-025R": 11,
+        "Part1-026L": 12,
+        "Part1-026R": 13,
+        "Part1-027L": 14,
+        "Part1-027R": 15,
+        "Part1-028L": 16,
+        "Part1-028R": 17,
+        "Part1-029L": 18,
+        "Part1-029R": 19,
+        "Part1-030L": 20,
+        "Part1-030R": 21,
+        "Part1-031L": 22,
+        "Part1-031R": 23,
+        "Part1-032L": 24,
+        "Part1-032R": 25,
+        "Part1-033L": 26,
+        "Part1-033R": 27,
+        "Part1-034L": 28,
+        "Part1-034R": 29,
+        "Part1-035L": 30,
+        "Part1-035R": 31,
+        "Part1-036L": 32,
+        "Part1-036R": 33,
+        "Part1-037L": 34,
+        "Part1-037R": 35,
+        "Part1-038L": 36,
+        "Part1-038R": 37,
+        "Part1-039L": 38,
+        "Part1-039R": 39,
+        "Part1-040L": 40,
+        "Part1-040R": 41,
+        "Part1-041L": 42,
+        "Part1-041R": 43,
+        "Part1-042L": 44,
+        "Part1-042R": 45,
+        "Part1-043L": 46,
+        "Part1-043R": 47,
+        "Part1-044L": 48,
+        "Part1-044R": 49,
+        "Part1-045L": 50,
+        "Part1-045R": 51,
+        "Part1-046L": 52,
+        "Part1-046R": 53,
+        "Part1-047L": 54,
+        "Part1-047R": 55,
+        "Part1-048L": 56,
+        "Part1-048R": 57,
+        "Part1-049L": 58,
+        "Part1-049R": 59,
+        "Part1-050L": 60,
+        "Part1-050R": 61,
+        "Part1-051L": 62,
+        "Part1-051R": 63,
+        "Part1-052L": 64,
+        "Part1-052R": 65,
+        "Part1-053L": 66,
+        "Part1-053R": 67,
+        "Part1-054L": 68,
+        "Part1-054R": 69,
+        "Part1-055L": 70,
+        "Part1-055R": 71,
+        "Part1-056L": 72,
+        "Part1-056R": 73,
+        "Part1-057L": 74,
+        "Part1-057R": 75,
+        "Part1-058L": 76,
+        "Part1-058R": 77,
+        "Part2-001L": 78,
+        "Part2-001R": 79,
+        "Part2-002L": 80,
+        "Part2-002R": 81,
+        "Part2-003L": 82,
+        "Part2-003R": 83,
+        "Part2-004L": 84,
+        "Part2-004R": 85,
+        "Part2-005L": 86,
+        "Part2-005R": 87,
+        "Part2-006L": 88,
+        "Part2-006R": 89,
+        "Part2-007L": 90,
+        "Part2-007R": 91,
+        "Part2-008L": 92,
+        "Part2-008R": 93,
+        "Part2-009L": 94,
+        "Part2-009R": 95,
+        "Part2-010L": 96,
+        "Part2-010R": 97,
+        "Part2-011L": 98,
+        "Part2-011R": 99,
+        "Part2-012L": 100,
+        "Part2-012R": 101,
+        "Part2-013L": 102,
+        "Part2-013R": 103,
+        "Part2-014L": 104,
+        "Part2-014R": 105,
+        "Part2-015L": 106,
+        "Part2-015R": 107,
+        "Part2-016L": 108,
+        "Part2-016R": 109,
+        "Part2-017L": 110,
+        "Part2-017R": 111,
+        "Part2-018L": 112,
+        "Part2-018R": 113,
+        "Part2-019L": 114,
+        "Part2-019R": 115,
+        "Part2-020L": 116,
+        "Part2-020R": 117,
+        "Part2-021L": 118,
+        "Part2-021R": 119,
+        "Part2-023L": 120,
+        "Part2-023R": 121,
+        "Part2-024L": 122,
+        "Part2-024R": 123,
+        "Part2-025L": 124,
+        "Part2-025R": 125,
+        "Part2-027L": 126,
+        "Part2-027R": 127,
+        "Part2-028L": 128,
+        "Part2-028R": 129,
+        "Part2-029L": 130,
+        "Part2-029R": 131,
+        "Part2-030L": 132,
+        "Part2-030R": 133,
+        "Part2-031L": 134,
+        "Part2-031R": 135,
+        "Part2-032L": 136,
+        "Part2-032R": 137,
+        "Part2-033L": 138,
+        "Part2-033R": 139,
+        "Part2-034L": 140,
+        "Part2-034R": 141,
+        "Part2-035L": 142,
+        "Part2-035R": 143,
+        "Part2-036L": 144,
+        "Part2-036R": 145,
+        "Part2-037L": 146,
+        "Part2-037R": 147,
+        "Part3-001L": 148,
+        "Part3-001R": 149,
+        "Part3-002L": 150,
+        "Part3-002R": 151,
+        "Part3-003L": 152,
+        "Part3-003R": 153,
+        "Part3-004L": 154,
+        "Part3-004R": 155,
+        "Part3-005L": 156,
+        "Part3-005R": 157,
+        "Part3-006L": 158,
+        "Part3-006R": 159,
+        "Part3-007L": 160,
+        "Part3-007R": 161,
+        "Part3-008L": 162,
+        "Part3-008R": 163,
+        "Part3-009L": 164,
+        "Part3-009R": 165,
+        "Part3-010L": 166,
+        "Part3-010R": 167,
+        "Part3-011L": 168,
+        "Part3-011R": 169,
+        "Part3-012L": 170,
+        "Part3-012R": 171,
+        "Part3-013L": 172,
+        "Part3-013R": 173,
+        "Part3-014L": 174,
+        "Part3-014R": 175,
+        "Part3-015L": 176,
+        "Part3-015R": 177,
+        "Part3-016L": 178,
+        "Part3-016R": 179,
+        "Part3-017L": 180,
+        "Part3-017R": 181,
+        "Part3-018L": 182,
+        "Part3-018R": 183,
+        "Part3-019L": 184,
+        "Part3-019R": 185,
+        "Part3-020L": 186,
+        "Part3-020R": 187,
+        "Part3-021L": 188,
+        "Part3-021R": 189,
+        "Part3-022L": 190,
+        "Part3-022R": 191,
+        "Part3-023L": 192,
+        "Part3-023R": 193,
+        "Part3-024L": 194,
+        "Part3-024R": 195,
+        "Part3-025L": 196,
+        "Part3-025R": 197,
+        "Part3-026L": 198,
+        "Part3-026R": 199,
+        "Part3-027L": 200,
+        "Part3-027R": 201,
+        "Part3-028L": 202,
+        "Part3-028R": 203,
+        "Part3-029L": 204,
+        "Part3-029R": 205,
+        "Part3-030L": 206,
+        "Part3-030R": 207,
+        "Part3-031L": 208,
+        "Part3-031R": 209,
+        "Part3-032L": 210,
+        "Part3-032R": 211,
+        "Part3-033L": 212,
+        "Part3-033R": 213,
+        "Part3-034L": 214,
+        "Part3-034R": 215,
+        "Part3-035L": 216,
+        "Part3-035R": 217,
+        "Part3-036L": 218,
+        "Part3-036R": 219,
+        "Part3-037L": 220,
+        "Part3-037R": 221,
+        "Part3-038L": 222,
+        "Part3-038R": 223,
+        "Part4-001L": 224,
+        "Part4-001R": 225,
+        "Part4-002L": 226,
+        "Part4-002R": 227,
+        "Part4-003L": 228,
+        "Part4-003R": 229,
+        "Part4-004L": 230,
+        "Part4-004R": 231,
+        "Part4-005L": 232,
+        "Part4-005R": 233,
+        "Part4-006L": 234,
+        "Part4-006R": 235,
+        "Part4-007L": 236,
+        "Part4-007R": 237,
+        "Part4-008L": 238,
+        "Part4-008R": 239,
+        "Part4-009L": 240,
+        "Part4-009R": 241,
+        "Part4-010L": 242,
+        "Part4-010R": 243,
+        "Part4-011L": 244,
+        "Part4-011R": 245,
+        "Part4-012L": 246,
+        "Part4-012R": 247,
+        "Part4-013L": 248,
+        "Part4-013R": 249,
+        "Part4-014L": 250,
+        "Part4-014R": 251,
+        "Part4-015L": 252,
+        "Part4-015R": 253,
+        "Part4-016L": 254,
+        "Part4-016R": 255,
+        "Part4-017L": 256,
+        "Part4-017R": 257,
+        "Part4-018L": 258,
+        "Part4-018R": 259,
+        "Part4-019L": 260,
+        "Part4-019R": 261,
+        "Part4-020L": 262,
+        "Part4-020R": 263,
+        "Part4-021L": 264,
+        "Part4-021R": 265,
+        "Part4-022L": 266,
+        "Part4-022R": 267,
+        "Part4-023L": 268,
+        "Part4-023R": 269,
+        "Part4-024L": 270,
+        "Part4-024R": 271,
+        "Part4-025L": 272,
+        "Part4-025R": 273,
+        "Part4-026L": 274,
+        "Part4-026R": 275,
+        "Part4-027L": 276,
+        "Part4-027R": 277,
+        "Part4-028L": 278,
+        "Part4-028R": 279,
+        "Part4-029L": 280,
+        "Part4-029R": 281,
+        "Part4-030L": 282,
+        "Part4-030R": 283,
+        "Part4-031L": 284,
+        "Part4-031R": 285,
+        "Part4-032L": 286,
+        "Part4-032R": 287,
+        "Part4-033L": 288,
+        "Part4-033R": 289,
+        "Part4-034L": 290,
+        "Part4-034R": 291,
+        "Part4-035L": 292,
+        "Part4-035R": 293,
+        "Part4-036L": 294,
+        "Part4-036R": 295,
+        "Part4-037L": 296,
+        "Part4-037R": 297,
+        "Part4-038L": 298,
+        "Part4-038R": 299,
+        "Part4-039L": 300,
+        "Part4-039R": 301,
+        "Part5-001L": 302,
+        "Part5-002L": 303,
+        "Part5-003L": 304,
+        "Part5-004L": 305,
+        "Part5-005L": 306,
+        "Part5-006L": 307,
+        "Part5-007L": 308,
+        "Part5-008L": 309,
+        "Part5-009L": 310,
+        "Part5-010L": 311,
+        "Part5-011L": 312,
+        "Part5-012L": 313,
+        "Part5-013L": 314,
+        "Part5-014L": 315,
+        "Part5-015L": 316,
+        "Part5-016L": 317,
+        "Part5-017L": 318,
+        "Part5-018L": 319,
+        "Part5-019L": 320,
+        "Part5-020L": 321,
+        "Part5-021L": 323,
+        "Part5-022L": 325,
+        "Part5-023L": 326,
+        "Part5-024L": 327,
+        "Part5-025L": 328,
+        "Part5-026L": 329,
+        "Part5-027L": 330,
+        "Part5-028L": 331,
+        "Part5-029L": 332,
+        "Part5-030L": 333,
+        "Part5-031L": 334,
+        "Part5-032L": 335,
+        "Part5-033L": 336,
+        "Part5-034L": 337,
+        "Part5-035L": 338,
+        "Part5-036L": 339,
+        "Part5-037L": 341,
+        "Part5-038L": 342,
+        "Part5-039L": 343,
+        "Part5-040L": 344,
+        "Part5-041L": 345,
+        "Part5-042L": 346,
+        "Part5-043L": 347,
+        "Part5-044L": 348,
+        "Part5-045L": 349,
+        "Part5-046L": 350,
+        "Part5-047L": 351,
+        "Part5-048L": 352,
+        "Part5-049L": 353,
+        "Part5-050L": 354,
+        "Part6-001L": 355,
+        "Part6-002L": 356,
+        "Part6-003L": 357,
+        "Part6-004L": 358,
+        "Part6-005L": 359,
+        "Part6-006L": 360,
+        "Part6-007L": 361,
+        "Part6-008L": 362,
+        "Part6-009L": 363,
+        "Part6-010L": 364,
+        "Part6-011L": 365,
+        "Part6-012L": 366,
+        "Part6-013L": 367,
+        "Part6-014L": 368,
+        "Part6-015L": 369,
+        "Part6-017R": 371,
+        "Part6-019R": 373,
+        "Part6-021L": 375
+      },
+      "skip_halves": [
+        "Part2-022L",
+        "Part2-022R",
+        "Part2-026L",
+        "Part2-026R",
+        "Part4-040L",
+        "Part4-040R",
+        "Part4-041L",
+        "Part4-041R",
+        "Part6-016L",
+        "Part6-016R",
+        "Part6-018L",
+        "Part6-020L",
+        "Part6-023L",
+        "Part1-009L",
+        "Part6-022L",
+        "Part6-022R",
+        "Part6-024L",
+        "Part6-024R",
+        "Part6-025L",
+        "Part6-025R",
+        "Part6-026L",
+        "Part6-026R",
+        "Part6-027L",
+        "Part6-027R",
+        "Part6-028L",
+        "Part6-028R"
+      ],
+      "_page_numbers": "read from the running heads of each half page (checked on the images); sheets photocopied twice are in skip_halves; Parts 5-6 of the photocopy have one page per sheet",
+      "first_body_page": [
+        0,
+        20,
+        "R"
+      ],
+      "analysis_pages": [
+        1,
+        59
+      ],
+      "margin_specks": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+ "pages": [],
+ "acts": {
+  "page_dates": {
+   "21": [
+    "1701-07-11",
+    "1701-07-12",
+    "1701-07-14",
+    "1701-07-27",
+    "1701-08-04",
+    "1701-08-08"
+   ],
+   "24": [
+    "1701-10-01",
+    "1701-10-07",
+    "1701-10-08",
+    "1701-10-08"
+   ]
+  },
+  "split": [
+   {
+    "find": "(117 v°) Quittance donnée par le cha",
+    "at": "(118 v°) Sidi Soliman",
+    "date": "1702-03-17",
+    "date_raw": "(split from the previous act)",
+    "note": "Margin « 17 — » (read « 47 » by the OCR)."
+   },
+   {
+    "find": "(184 v°) Nolisement. Annulé.",
+    "at": "— (185) Enregistrement d'une ordonnance",
+    "date": "undated",
+    "date_raw": "(split from the previous act)",
+    "note": "Margin « s. d. »."
+   },
+   {
+    "find": "(186) Idem de « l’ordonnance du Roi",
+    "at": "— (187) Idem de l'ordo",
+    "date": "undated",
+    "date_raw": "(split from the previous act)",
+    "note": "Margin « s. d. »."
+   },
+   {
+    "find": "(95) « Déclaration de Jean-Bap® Vitalis",
+    "at": "— (96) « Quittance a moy",
+    "date": "1701-09-26",
+    "date_raw": "(split from the previous act)",
+    "note": "Margin « — » (same date as the act above, 26 September)."
+   },
+   {
+    "find": "(31) « Délaissement fait par David L",
+    "at": "(51 v°) Enregistrement de la",
+    "date": "1701-02-11",
+    "date_raw": "(split from the previous act)",
+    "note": "Margin « 11 — », lost in the OCR."
+   }
+  ],
+  "date": [
+   {
+    "find": "(186) Idem de « l’ordonnance du Roi",
+    "date": "undated",
+    "note": "Margin « s. d. »."
+   },
+   {
+    "find": "Oracio Zerba, malt",
+    "date": "1702-12-03",
+    "note": "Margin « 3 — » under the heading « Décembre »."
+   }
+  ],
+  "replace": [
+   {
+    "find": "(117 v°) Quittance donnée par le cha",
+    "old": "47 — (118 v°)",
+    "new": "(118 v°)"
+   }
+  ]
+ }
+}
