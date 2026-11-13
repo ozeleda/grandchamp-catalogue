@@ -10,3 +10,10 @@ Centre des archives diplomatiques de Nantes, fonds du consulat de France à Tuni
 
 Reuse of these images is subject to the conditions of reproduction and reuse published by the
 Archives diplomatiques.
+
+## Transcriptions
+
+Working transcriptions (Italian, line by line, uncertain readings flagged) are in `transcriptions/`:
+
+- `images_470-475.md` — ff. 450v–456r, 27 June – 14 July 1607
+- `images_476-494.md` — ff. 456v–474v, 7 July – August 1607 (end of the volume)
