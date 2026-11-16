@@ -15,5 +15,6 @@ Archives diplomatiques.
 
 Working transcriptions (Italian, line by line, uncertain readings flagged) are in `transcriptions/`:
 
+- `images_400-469.md` — ff. 382v–450r, 6 April – 27 June 1607
 - `images_470-475.md` — ff. 450v–456r, 27 June – 14 July 1607
 - `images_476-494.md` — ff. 456v–474v, 7 July – August 1607 (end of the volume)
